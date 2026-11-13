@@ -1,4 +1,19 @@
+# Papers are never committed (CLAUDE.md rule 6)
 papers/
+
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# Files that contain quotes from papers stay local (SPEC.md decision 14).
+# Only the public CSV export without quotes is committed.
+*.db
+*.sqlite
+*.sqlite3
+extractions/*
+!extractions/.gitkeep
+verifications/*
+!verifications/.gitkeep
+review/*
+!review/.gitkeep
