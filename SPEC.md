@@ -122,3 +122,60 @@ Settled by the project owner on 2026-11-14.
     Choice: Committed files hold numbers, page references and DOIs only. Quotes
     stay local: keep the full database and the extractions/ and verifications/
     folders out of git, and commit a public CSV export without quotes.
+
+## Database design
+Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
+(decision 6) and `fetch_runs` (decision 13).
+
+### Ground rules
+- Missing means empty: a value the registry or paper doesn't give is NULL.
+- Dates are stored as the registry gives them (sometimes only "2015-03"), with a
+  separate column saying actual or estimated.
+- The NCT ID ties everything together; every table points back to a trial.
+- Quotes live only in the local database; the public CSV export leaves them out.
+
+### Tables
+1. **`trials`**: one row per trial. nct_id (key), title, phase_label,
+   overall_status, why_stopped, start_date, start_date_type, completion_date,
+   completion_date_type, enrollment, enrollment_type, lead_sponsor,
+   sponsor_class, population (STEMI / NSTEMI / MI unspecified / ACS mixed),
+   has_device_or_procedure, allocation, masking, has_results, last_updated,
+   publication_status (found / no publication found / not yet searched),
+   raw_json_file, first_seen_run, last_seen_run.
+2. **`conditions`**: conditions and MeSH terms per trial, showing why each trial
+   passed the inclusion rule. nct_id, condition_text, mesh_term, mesh_id,
+   match_type (direct term or parent term).
+3. **`interventions`**: each drug, biological, device or procedure tested.
+   nct_id, intervention_type, name, other_names, description.
+4. **`arms`**: each study group, so per-arm numbers have something to link to.
+   nct_id, arm_label, arm_type, description.
+5. **`registered_outcomes`**: outcomes as registered before results. nct_id,
+   outcome_type (primary / secondary), measure, time_frame, description.
+6. **`publications`**: one row per paper. publication_id (key), pmid, doi,
+   pmc_id, title, journal, year (all optional).
+7. **`trial_publications`**: links trials to papers (one paper can report
+   several trials; one trial can have several papers). nct_id, publication_id,
+   role (main results / supplement / secondary analysis), found_via (registry
+   reference / PubMed search), pdf_file.
+8. **`extracted_values`**: one row per value an agent pulls from a paper.
+   - What it is: value_id (key), nct_id, publication_id, arm (empty for
+     whole-trial values such as a hazard ratio), outcome, field.
+   - Extractor: extracted_value, quote, page, not_reported.
+   - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
+     (agree / disagree / not found), independent_match (critical values only).
+   - Code checks: code_check_result (pass / fail / not run), code_check_note.
+   - Review: review_reason (flagged / random sample / not selected), decision
+     (accept / reject / correct), corrected_value, reviewer_comment.
+   - Final: final_value, filled after review, or automatically only when every
+     check passed and the value was not sampled.
+9. **`fetch_runs`**: log of each ClinicalTrials.gov download. run_id, run_date,
+   query_used, records_in, records_kept, records_skipped (with reasons). Its
+   run_date gives the README's snapshot date.
+
+### How the tables connect
+```
+fetch_runs --(first/last_seen_run)--> trials
+trials --1:many--> conditions, interventions, arms, registered_outcomes
+trials --many:many via trial_publications--> publications
+extracted_values --> trials, publications, arms (optional)
+```
