@@ -17,3 +17,5 @@ verifications/*
 !verifications/.gitkeep
 review/*
 !review/.gitkeep
+outcome_checks/*
+!outcome_checks/.gitkeep

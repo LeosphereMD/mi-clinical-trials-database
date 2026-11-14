@@ -34,6 +34,7 @@ transparent.
 | 6 | Automatic consistency checks | `checks/` | script |
 | 7 | Human review: accept, reject or correct | `review/` | project owner |
 | 8 | Load reviewed results into SQLite | `data/` | script |
+| 9 | Outcome-switch check: registered vs. reported primary outcome (Phase 3 of the build, after the extractor and verifier exist; see "Outcome-switch check") | `outcome_checks/` | AI agent + script, then project owner |
 
 ## Ground rules
 - A missing value stays empty. It is never guessed.
@@ -164,13 +165,39 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
      (agree / disagree / not found), independent_match (critical values only).
    - Code checks: code_check_result (pass / fail / not run), code_check_note.
-   - Review: review_reason (flagged / random sample / not selected), decision
-     (accept / reject / correct), corrected_value, reviewer_comment.
-   - Final: final_value, filled after review, or automatically only when every
-     check passed and the value was not sampled.
+   - Review: review_reason (flagged / random sample / not selected). The
+     decisions themselves live in `review_decisions` (table 10).
+   - Final: final_value, filled from the project owner's latest decision in
+     `review_decisions`, or automatically only when every check passed and the
+     value was not sampled.
+   - Each value has a fixed identity: nct_id + publication_id + arm + outcome +
+     field. Re-running an extraction updates the existing row in place, so its
+     value_id, and every decision attached to it, stays the same.
 9. **`fetch_runs`**: log of each ClinicalTrials.gov download. run_id, run_date,
    query_used, records_in, records_kept, records_skipped (with reasons). Its
    run_date gives the README's snapshot date.
+10. **`review_decisions`**: the project owner's decisions, one row per decision
+    (decision 12). decision_id (key), value_id (links to `extracted_values`),
+    decision (approve / correct / reject; "approve" is decision 11's
+    "accept"), corrected_value (required when the decision is correct),
+    comment, decided_at.
+    - Changing your mind adds a new row. The latest row (by decided_at) counts
+      and sets `extracted_values.final_value`: approve gives the extracted value,
+      correct gives corrected_value, and reject leaves it empty.
+    - Decisions are never deleted or edited, and an extracted value that has
+      decisions cannot be deleted. The database itself blocks this, so
+      re-running an extraction can't remove a decision.
+11. **`outcome_comparisons`**: one row per trial, paper and registered primary
+    outcome (see "Outcome-switch check"). comparison_id (key), nct_id,
+    publication_id, registered_outcome_id (links to `registered_outcomes`),
+    registered_text, paper_endpoint_quote, paper_endpoint_page,
+    components_comparison, time_frame_comparison, measure_comparison (each
+    same / different / not reported), comparison_note, change_mentions (every
+    quote and page found by the keyword search), change_mentioned (yes / no),
+    quote_check_result (pass / fail / not run), agents_agree (yes / no),
+    status (MATCH / POSSIBLE_EXTRACTION_ERROR / DISCLOSED_CHANGE /
+    UNDISCLOSED_DIFFERENCE), history_url, checked_at, and the project owner's
+    final_classification (same four values), owner_comment, classified_at.
 
 ### How the tables connect
 ```
@@ -178,4 +205,43 @@ fetch_runs --(first/last_seen_run)--> trials
 trials --1:many--> conditions, interventions, arms, registered_outcomes
 trials --many:many via trial_publications--> publications
 extracted_values --> trials, publications, arms (optional)
+review_decisions --many:1--> extracted_values
+outcome_comparisons --> trials, publications, registered_outcomes
 ```
+
+## Outcome-switch check
+Added on 2026-11-14. It is built in Phase 3, after the extractor and verifier
+agents. Only the `outcome_comparisons` table exists before then.
+
+### Goal
+Compare the primary outcome registered on ClinicalTrials.gov with the primary
+outcome the paper reports, and classify any difference.
+
+### Agent: outcome-checker
+- Finds the paper's primary endpoint in the Methods section on its own. It
+  never sees `extractions/`. It gives the exact quote and the page.
+- Compares the registered and reported primary outcome on three points:
+  components (e.g. each MACE component), time frame, and measure. A difference
+  in wording alone is not a change.
+- Searches the whole paper for "amendment", "originally", "changed" and
+  "revised", and gives the quote and page for every hit.
+- Writes its output to `outcome_checks/` (kept out of git, because it holds
+  quotes).
+
+### Script (no AI): assigns a status
+- **MATCH**: the agents agree on what the paper says, and the paper's primary
+  outcome matches the registered one.
+- **POSSIBLE_EXTRACTION_ERROR**: the agents disagree on what the paper says:
+  the outcome-checker's primary endpoint doesn't match the extractor's.
+- **DISCLOSED_CHANGE**: the paper differs from the registry and mentions the
+  change.
+- **UNDISCLOSED_DIFFERENCE**: the paper differs from the registry, the quotes
+  pass the code check (each quote is found word for word on the stated page),
+  and the paper doesn't mention a change.
+
+### Review
+Everything except MATCH goes on the project owner's review sheet. Each row
+shows the registered text, the paper quote, the page, and a link to the trial's
+history of changes on ClinicalTrials.gov
+(`https://clinicaltrials.gov/study/<NCT ID>?tab=history`). The owner's final
+classification is stored in `outcome_comparisons.final_classification`.

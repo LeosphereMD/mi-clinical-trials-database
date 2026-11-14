@@ -20,6 +20,8 @@ reviews them. See SPEC.md for details.
 5. **Never download papers or log in to any website for the user.** The user
    gets the papers and puts them in `papers/`.
 6. **Never commit the `papers/` folder to git.**
+7. **If you need to deviate from SPEC.md, tell me and wait for my OK before
+   doing it.**
 
 ## Folder map
 
@@ -30,6 +32,7 @@ reviews them. See SPEC.md for details.
 | `extractions/` | Results the AI agents pull out of the papers |
 | `verifications/` | Second-pass checks of each extracted value against the paper |
 | `checks/` | Automatic consistency checks (e.g. arm totals, ranges) |
+| `outcome_checks/` | Outcome-switch checks: registered vs. reported primary outcome (contains quotes, never committed) |
 | `review/` | Files for the user's manual review and their decisions |
 | `scripts/` | Python scripts |
 | `.claude/agents/` | Definitions for the AI agents |
