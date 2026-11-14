@@ -232,7 +232,10 @@ outcome the paper reports, and classify any difference.
 - **MATCH**: the agents agree on what the paper says, and the paper's primary
   outcome matches the registered one.
 - **POSSIBLE_EXTRACTION_ERROR**: the agents disagree on what the paper says:
-  the outcome-checker's primary endpoint doesn't match the extractor's.
+  the outcome-checker's primary endpoint doesn't match the extractor's. Also
+  used when the paper differs, the quotes fail the code check, and no change
+  is mentioned (settled by the project owner on 2026-11-14): a quote that
+  can't be found on its page can't support an UNDISCLOSED_DIFFERENCE.
 - **DISCLOSED_CHANGE**: the paper differs from the registry and mentions the
   change.
 - **UNDISCLOSED_DIFFERENCE**: the paper differs from the registry, the quotes
