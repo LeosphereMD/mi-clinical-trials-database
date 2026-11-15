@@ -148,7 +148,8 @@ CREATE TABLE extracted_values (
     code_check_note   TEXT,
     -- review selection (the decisions are in review_decisions)
     review_reason     TEXT CHECK (review_reason IN
-                          ('flagged', 'random sample', 'not selected')),
+                          ('flagged', 'random sample', 'not selected',
+                           'value changed after decision')),
     -- final
     final_value       TEXT,
     FOREIGN KEY (nct_id, arm) REFERENCES arms(nct_id, arm_label)
@@ -168,25 +169,68 @@ CREATE TABLE review_decisions (
     corrected_value TEXT,
     comment         TEXT,
     decided_at      TEXT NOT NULL DEFAULT (datetime('now')),
+    value_shown     TEXT,   -- the extracted value printed on the review sheet
     CHECK (decision <> 'correct' OR corrected_value IS NOT NULL)
 );
 CREATE INDEX review_decisions_value ON review_decisions (value_id);
 
--- final_value follows the latest decision for that value
+-- final_value follows the latest decision for that value. If the value the
+-- owner saw (value_shown) differs from the current extracted value, the
+-- decision is stale: final_value is emptied and the value goes back to review.
 CREATE TRIGGER review_decision_sets_final_value
 AFTER INSERT ON review_decisions
 BEGIN
     UPDATE extracted_values
     SET final_value = (
-        SELECT CASE d.decision
-                   WHEN 'approve' THEN extracted_values.extracted_value
-                   WHEN 'correct' THEN d.corrected_value
-                   ELSE NULL
-               END
-        FROM review_decisions d
-        WHERE d.value_id = NEW.value_id
-        ORDER BY d.decided_at DESC, d.decision_id DESC
-        LIMIT 1)
+            SELECT CASE
+                       WHEN d.value_shown IS NOT extracted_values.extracted_value THEN NULL
+                       WHEN d.decision = 'approve' THEN extracted_values.extracted_value
+                       WHEN d.decision = 'correct' THEN d.corrected_value
+                       ELSE NULL
+                   END
+            FROM review_decisions d
+            WHERE d.value_id = extracted_values.value_id
+            ORDER BY d.decided_at DESC, d.decision_id DESC
+            LIMIT 1),
+        review_reason = CASE
+            WHEN (SELECT d.value_shown IS NOT extracted_values.extracted_value
+                  FROM review_decisions d
+                  WHERE d.value_id = extracted_values.value_id
+                  ORDER BY d.decided_at DESC, d.decision_id DESC
+                  LIMIT 1)
+            THEN 'value changed after decision'
+            ELSE review_reason
+        END
+    WHERE value_id = NEW.value_id;
+END;
+
+-- Same rule when a re-run changes a value that already has decisions.
+CREATE TRIGGER changed_value_returns_to_review
+AFTER UPDATE OF extracted_value ON extracted_values
+WHEN OLD.extracted_value IS NOT NEW.extracted_value
+ AND EXISTS (SELECT 1 FROM review_decisions WHERE value_id = NEW.value_id)
+BEGIN
+    UPDATE extracted_values
+    SET final_value = (
+            SELECT CASE
+                       WHEN d.value_shown IS NOT extracted_values.extracted_value THEN NULL
+                       WHEN d.decision = 'approve' THEN extracted_values.extracted_value
+                       WHEN d.decision = 'correct' THEN d.corrected_value
+                       ELSE NULL
+                   END
+            FROM review_decisions d
+            WHERE d.value_id = extracted_values.value_id
+            ORDER BY d.decided_at DESC, d.decision_id DESC
+            LIMIT 1),
+        review_reason = CASE
+            WHEN (SELECT d.value_shown IS NOT extracted_values.extracted_value
+                  FROM review_decisions d
+                  WHERE d.value_id = extracted_values.value_id
+                  ORDER BY d.decided_at DESC, d.decision_id DESC
+                  LIMIT 1)
+            THEN 'value changed after decision'
+            ELSE review_reason
+        END
     WHERE value_id = NEW.value_id;
 END;
 

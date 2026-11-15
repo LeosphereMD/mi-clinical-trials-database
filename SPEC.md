@@ -165,8 +165,9 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
      (agree / disagree / not found), independent_match (critical values only).
    - Code checks: code_check_result (pass / fail / not run), code_check_note.
-   - Review: review_reason (flagged / random sample / not selected). The
-     decisions themselves live in `review_decisions` (table 10).
+   - Review: review_reason (flagged / random sample / not selected / value
+     changed after decision). The decisions themselves live in
+     `review_decisions` (table 10).
    - Final: final_value, filled from the project owner's latest decision in
      `review_decisions`, or automatically only when every check passed and the
      value was not sampled.
@@ -180,10 +181,20 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
     (decision 12). decision_id (key), value_id (links to `extracted_values`),
     decision (approve / correct / reject; "approve" is decision 11's
     "accept"), corrected_value (required when the decision is correct),
-    comment, decided_at.
+    comment, decided_at, value_shown (the extracted value printed on the
+    review sheet the owner decided from; it comes from the sheet, not from the
+    database at loading time).
     - Changing your mind adds a new row. The latest row (by decided_at) counts
       and sets `extracted_values.final_value`: approve gives the extracted value,
       correct gives corrected_value, and reject leaves it empty.
+    - Stale decisions go back to review (settled by the project owner on
+      2026-11-15). If the current extracted value differs from the latest
+      decision's value_shown (e.g. a re-run changed it), the value's
+      review_reason becomes "value changed after decision", so it returns to
+      the review sheet, and final_value is left empty until a new decision is
+      added. The database does this automatically. If value_shown is missing,
+      the value is treated as changed, so a mistake sends it back to review
+      rather than letting it through.
     - Decisions are never deleted or edited, and an extracted value that has
       decisions cannot be deleted. The database itself blocks this, so
       re-running an extraction can't remove a decision.
