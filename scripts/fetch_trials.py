@@ -229,6 +229,30 @@ def countries(study):
     return sorted({clean(loc.get("country")) for loc in locations} - {None})
 
 
+# ClinicalTrials.gov's own definitions of the statuses. Some sponsors type one
+# of these into "Why Stopped" instead of a reason; it is then not a reason
+# (SPEC.md "Registry cleaning", part 3), so why_stopped is stored as empty.
+# The original text stays in the raw file.
+STATUS_DEFINITIONS = [
+    "enrolling participants has halted prematurely and will not resume",
+    "the study has stopped early and will not start again",
+    "study halted prematurely, prior to enrollment of first participant",
+    "the study stopped early, before enrolling its first participant",
+    "study halted prematurely but potentially will resume",
+    "the study has stopped early but may start again",
+]
+
+
+def is_status_definition(text):
+    normalized = " ".join((text or "").lower().split()).rstrip(".")
+    return any(normalized.startswith(d) for d in STATUS_DEFINITIONS)
+
+
+def why_stopped_value(study):
+    text = clean(study["protocolSection"].get("statusModule", {}).get("whyStopped"))
+    return None if is_status_definition(text) else text
+
+
 def trial_row(nct_id, study):
     p = study["protocolSection"]
     status = p.get("statusModule", {})
@@ -249,7 +273,7 @@ def trial_row(nct_id, study):
         "title": clean(p.get("identificationModule", {}).get("briefTitle")),
         "phase_label": clean("/".join(design.get("phases", []))),
         "overall_status": clean(status.get("overallStatus")),
-        "why_stopped": clean(status.get("whyStopped")),
+        "why_stopped": why_stopped_value(study),
         "start_date": clean(status.get("startDateStruct", {}).get("date")),
         "start_date_type": clean(status.get("startDateStruct", {}).get("type")),
         "completion_date": clean(status.get("completionDateStruct", {}).get("date")),
@@ -421,6 +445,7 @@ def main():
                  ("conditions", "interventions", "arms", "registered_outcomes",
                   "trial_countries", "intervention_mesh")}
         populations = Counter()
+        definition_only = []
         for nct_id, study in studies:
             if nct_id in seen:
                 skipped["appeared twice in the download"] += 1
@@ -435,6 +460,9 @@ def main():
             row = trial_row(nct_id, study)
             upsert_trial(con, row, run_id)
             populations[f"{row['population']} (from {row['population_source']})"] += 1
+            raw_why = study["protocolSection"].get("statusModule", {}).get("whyStopped")
+            if is_status_definition(raw_why):
+                definition_only.append(nct_id)
             if exists:
                 updated_trials += 1
             else:
@@ -483,6 +511,8 @@ def main():
     if not_seen:
         print(f"Trials in the database that no longer match the search: {not_seen} "
               "(kept, not deleted)")
+    print(f"Why Stopped that only repeats a registry status definition (stored as empty): "
+          f"{len(definition_only)}" + (f" ({', '.join(definition_only)})" if definition_only else ""))
     print(f"Excluded for having no start date: {no_start_date}")
     print(f"Summary: records in {len(studies)}, out {kept} "
           f"({new_trials} new, {updated_trials} updated), "

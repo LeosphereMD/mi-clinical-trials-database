@@ -138,6 +138,9 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
   separate column saying actual or estimated.
 - The NCT ID ties everything together; every table points back to a trial.
 - Quotes live only in the local database; the public CSV export leaves them out.
+- Changes to the table layout use `create_database.py --upgrade`. It copies
+  every row into the new layout, checks that nothing is lost, and keeps the
+  old file as a backup in `data/`.
 
 ### Tables
 1. **`trials`**: one row per trial. nct_id (key), title, phase_label,
@@ -228,7 +231,8 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
     nct_id, mesh_term, mesh_id, match_type (direct term or parent term).
 
 Registry cleaning (step 2a) adds columns to two tables. To `trials`:
-sponsor_name_clean, sponsor_group and why_stopped_category. To
+sponsor_name_clean, sponsor_group, why_stopped_category,
+why_stopped_secondary_category and why_stopped_source (registry / paper). To
 `interventions`: generic_name and generic_name_source (registry MeSH exact
 match / owner approved).
 
@@ -290,6 +294,14 @@ names (see below).
 ### Review files (all in `review/`, committed to git: no paper quotes)
 - Every row has: decision (approve / correct, or blank = not reviewed yet),
   a corrected value column, and a comment column.
+- Every file has a clickable ctgov_link column (an Excel link formula). In
+  why_stopped.csv and drug_names.csv it opens the trial's page. In
+  sponsors.csv it opens a ClinicalTrials.gov search for all of that
+  sponsor's trials. Excel saves the link as plain text, so the draft script
+  renews it on every run, even in rows that already have a decision.
+- A row that disappears from the database (e.g. because the registry text
+  changed) is kept if the owner wrote a decision or comment in it, and
+  dropped otherwise.
 - Re-running the draft script never changes a row that has a decision. It
   refreshes the drafts in rows without one, and adds rows for new items.
 - Files are UTF-8, so Excel shows accents correctly. The loader also accepts
@@ -354,24 +366,57 @@ names (see below).
 ### 3. why_stopped categories
 - Every trial with a why_stopped text, or with status terminated, withdrawn or
   suspended, goes into `review/why_stopped.csv`.
-- One category per trial: safety / lack of efficacy or futility / slow
-  enrollment / COVID-19 / funding or commercial reasons / other sponsor
-  decision / new outside evidence / regulatory / unclear / not stated (no
-  reason given).
+- Approved category list (updated 2026-11-15 from the owner's review):
+  safety / early benefit / lack of efficacy or futility / DSMB
+  recommendation, reason not stated / healthcare system change / new outside
+  evidence / COVID-19 / slow enrollment / funding or commercial reasons /
+  regulatory / other sponsor decision / unclear / not stated.
+- Each trial has one main category, plus an optional secondary_category from
+  the same list (not the same as the main one).
+- reason_source: registry (default) or paper.
+
+Category rules (settled by the project owner on 2026-11-15):
+- **not stated**: the registry gives no reason at all.
+- **unclear**: a reason is given, but it fits no category.
+- **early benefit**: a DSMB stopped the trial because the drug clearly worked.
+- **Pandemic**: if the reason mentions the pandemic, the main category is
+  COVID-19, with slow enrollment as the secondary category when the reason
+  also mentions enrollment or recruitment.
+- **Reason from a paper**: if the reason came from a paper, reason_source is
+  "paper", and the comment holds the DOI and the page. The loader refuses
+  such a row unless the comment contains a DOI (10.xxxx/...) and a page
+  (e.g. "p. 5").
+- **Status definitions are not reasons**: some sponsors type
+  ClinicalTrials.gov's own definition of the status into "Why Stopped"
+  instead of a reason (e.g. "Enrolling participants has halted prematurely
+  and will not resume" for Terminated). `fetch_trials.py` stores such a text
+  as empty (the original stays in the raw file), so the trial counts as
+  "not stated". In the 2026-11-15 download this affected one trial,
+  NCT02075125.
+
+How the draft is made:
 - The draft uses keywords, checked in this order, and the first match wins:
   1. safety
-  2. new outside evidence
+  2. early benefit ("early benefit", "clear benefit", "overwhelming efficacy",
+     "stopped for benefit")
   3. lack of efficacy or futility
-  4. COVID-19
-  5. slow enrollment
-  6. funding or commercial reasons
-  7. regulatory
-  8. other sponsor decision
-  9. otherwise unclear
+  4. DSMB recommendation, reason not stated ("DSMB", "interim analysis")
+  5. healthcare system change ("healthcare system", "health system")
+  6. new outside evidence
+  7. COVID-19
+  8. slow enrollment
+  9. funding or commercial reasons
+  10. regulatory
+  11. other sponsor decision
+  12. otherwise unclear
+
+  Futility and safety come before DSMB, so "futility at the interim
+  analysis" stays futility.
 - Funding or commercial keywords include "market" (e.g. "market landscape").
 - When the text only says "see detailed description", the detailed
   description is shown in the file and searched too.
-- Approved values go into `trials.why_stopped_category`.
+- Approved values go into `trials.why_stopped_category`,
+  `why_stopped_secondary_category` and `why_stopped_source`.
 
 ## Registry hand-check
 Added on 2026-11-15. This is pipeline step 2b, after the trials are loaded. The
@@ -409,6 +454,18 @@ In `registry_checks` (table 13). Like `review_decisions`, rows are never edited
 or deleted; a new decision is added instead. A correction does not overwrite
 `trials`, because the next download would undo it. Analyses use the latest
 correction where one exists.
+
+## Reason for early termination from the paper (Phase 3)
+Added on 2026-11-15. It is built in Phase 3, together with the extractor and
+verifier.
+- New extraction field "reason for early termination", for terminated trials
+  only. It is extracted like every other value, with an exact quote and page,
+  and stored as a whole-trial value in `extracted_values`.
+- Code compares it with the trial's approved why_stopped category. A
+  disagreement flags the value, so it goes on the project owner's review
+  sheet with:
+  - the registry text and category
+  - the paper quote and page
 
 ## Population check against the paper (Phase 3)
 Added on 2026-11-15. It is built in Phase 3, together with the verifier.

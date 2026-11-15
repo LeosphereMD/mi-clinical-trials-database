@@ -34,8 +34,17 @@ def words(text):
     return set(re.findall(r"[a-z0-9]+", (text or "").lower()))
 
 
+ALWAYS_REFRESHED = ["ctgov_link"]   # helper columns, not the owner's work
+
+
 def merge_with_existing(path, key_cols, new_rows, owner_cols):
-    """Combine fresh drafts with the existing file without losing the owner's work."""
+    """Combine fresh drafts with the existing file without losing the owner's work.
+    - A row with a decision is kept exactly as it is (only the link is renewed,
+      because Excel saves links as plain text).
+    - A row without a decision gets fresh drafts; anything the owner typed in
+      the owner columns is kept (a blank in the file keeps the new default).
+    - A row that is no longer in the database is kept if the owner wrote
+      anything in it, otherwise dropped."""
     existing = read_csv(path) if path.exists() else []
     old = {tuple(r.get(k, "") for k in key_cols): r for r in existing}
     out, counts, seen = [], Counter(), set()
@@ -44,20 +53,32 @@ def merge_with_existing(path, key_cols, new_rows, owner_cols):
         seen.add(key)
         prev = old.get(key)
         if prev and has_decision(prev):
-            out.append(prev)
+            kept = dict(prev)
+            for c in ALWAYS_REFRESHED:
+                if c in row:
+                    kept[c] = row[c]
+            for c in row:            # new columns get their default value
+                if c not in prev:
+                    kept[c] = row[c]
+            out.append(kept)
             counts["kept (already decided)"] += 1
         elif prev:
             for c in owner_cols:
-                row[c] = prev.get(c, "")
+                if (prev.get(c) or "").strip():
+                    row[c] = prev[c]
             out.append(row)
             counts["draft refreshed"] += 1
         else:
             out.append(row)
             counts["new"] += 1
     for key, prev in old.items():
-        if key not in seen:
+        if key in seen:
+            continue
+        if any((prev.get(c) or "").strip() for c in ("decision", "comment")):
             out.append(prev)
-            counts["kept (no longer in the database)"] += 1
+            counts["kept (no longer in the database, has the owner's input)"] += 1
+        else:
+            counts["dropped (no longer in the database, never reviewed)"] += 1
     return out, counts
 
 
@@ -119,7 +140,8 @@ def drug_rows(con):
             if claude_suggestion:
                 suggestion, source = claude_suggestion, CLAUDE_SOURCE
         rows.append({
-            "nct_id": nct_id, "intervention_type": itype, "intervention_name": name,
+            "nct_id": nct_id, "ctgov_link": trial_link(nct_id),
+            "intervention_type": itype, "intervention_name": name,
             "other_names": other, "registry_mesh_terms": "; ".join(mesh[nct_id]),
             "suggested_generic": suggestion,
             "suggestion_source": source or "no suggestion",
@@ -183,6 +205,11 @@ def sponsor_rows(con):
     sponsors = con.execute(
         "SELECT lead_sponsor, sponsor_class, COUNT(*) FROM trials "
         "WHERE lead_sponsor IS NOT NULL GROUP BY 1, 2 ORDER BY 1").fetchall()
+    trial_ids = defaultdict(list)
+    for name, nct_id in con.execute(
+            "SELECT lead_sponsor, nct_id FROM trials WHERE lead_sponsor IS NOT NULL "
+            "ORDER BY nct_id"):
+        trial_ids[name].append(nct_id)
     by_key = defaultdict(Counter)
     for name, _, n in sponsors:
         by_key[name_key(name)][strip_legal(name)] += n
@@ -196,7 +223,8 @@ def sponsor_rows(con):
         same = sorted(o for o, ok in keys.items() if o != name and ok == k)
         group, basis = draft_group(name, sponsor_class)
         rows.append({
-            "lead_sponsor": name, "registry_sponsor_class": sponsor_class, "n_trials": n,
+            "lead_sponsor": name, "ctgov_link": trials_link(trial_ids[name]),
+            "registry_sponsor_class": sponsor_class, "n_trials": n,
             "draft_name_clean": clean[k], "merged_with": "; ".join(same),
             "possible_same_as": "; ".join(related),
             "draft_group": group, "draft_basis": basis,
@@ -209,11 +237,15 @@ def sponsor_rows(con):
 
 CATEGORY_RULES = [
     ("safety", r"safety|adverse|harm|toxicit|side effect|bleeding"),
+    ("early benefit", r"early benefit|clear benefit|overwhelming (?:efficacy|benefit)|"
+                      r"stopped for benefit"),
+    ("lack of efficacy or futility", r"futil|efficacy|did not meet|not effective|"
+                                     r"no benefit|lack of benefit"),
+    ("DSMB recommendation, reason not stated", r"\bDSMB\b|interim analys"),
+    ("healthcare system change", r"health ?care system|health system"),
     ("new outside evidence", r"no longer relevant|outcome of the .*(?:study|trial)|"
                              r"results? of (?:the|another|other) .*(?:study|trial)|"
                              r"new (?:data|evidence)|other (?:study|trial)|publication of"),
-    ("lack of efficacy or futility", r"futil|efficacy|did not meet|not effective|"
-                                     r"no benefit|lack of benefit"),
     ("COVID-19", r"covid|pandemic|sars-cov"),
     ("slow enrollment", r"slow|recruit|accrual|low enrol|poor enrol|insufficient enrol"),
     ("funding or commercial reasons", r"fund|grant|financ|commercial|budget|market"),
@@ -224,14 +256,33 @@ SEE_DESCRIPTION = re.compile(r"detailed description", re.IGNORECASE)
 EXCEL_CELL_LIMIT = 30000
 
 
+SLOW_ENROLLMENT = dict(CATEGORY_RULES)["slow enrollment"]
+
+
 def draft_category(text):
+    """(main category, secondary category, basis)."""
     if not text:
-        return "not stated", "no reason given"
+        return "not stated", "", "no reason given"
     for category, pattern in CATEGORY_RULES:
         hit = re.search(pattern, text, re.IGNORECASE)
         if hit:
-            return category, f"word '{hit.group(0)}'"
-    return "unclear", "no keyword matched"
+            secondary = ""
+            if category == "COVID-19" and re.search(SLOW_ENROLLMENT, text, re.IGNORECASE):
+                secondary = "slow enrollment"
+            return category, secondary, f"word '{hit.group(0)}'"
+    return "unclear", "", "a reason is given but no keyword matched"
+
+
+def trial_link(nct_id):
+    """Excel turns this into a clickable link showing the NCT ID."""
+    return f'=HYPERLINK("https://clinicaltrials.gov/study/{nct_id}","{nct_id}")'
+
+
+def trials_link(nct_ids):
+    """One link that opens a ClinicalTrials.gov search for all these trials."""
+    term = "%20OR%20".join(nct_ids)
+    label = nct_ids[0] if len(nct_ids) == 1 else f"{len(nct_ids)} trials"
+    return f'=HYPERLINK("https://clinicaltrials.gov/search?term={term}","{label}")'
 
 
 def why_stopped_rows(con):
@@ -249,11 +300,13 @@ def why_stopped_rows(con):
             search_text = f"{why} {description}"
             if len(description) > EXCEL_CELL_LIMIT:
                 description = description[:EXCEL_CELL_LIMIT] + " [cut here: full text in raw file]"
-        category, basis = draft_category(search_text)
+        category, secondary, basis = draft_category(search_text)
         rows.append({
-            "nct_id": nct_id, "overall_status": status, "why_stopped": why,
-            "detailed_description": description, "draft_category": category,
-            "draft_basis": basis, "decision": "", "corrected_category": "", "comment": ""})
+            "nct_id": nct_id, "ctgov_link": trial_link(nct_id), "overall_status": status,
+            "why_stopped": why, "detailed_description": description,
+            "draft_category": category, "draft_secondary_category": secondary,
+            "draft_basis": basis, "decision": "", "corrected_category": "",
+            "secondary_category": secondary, "reason_source": "registry", "comment": ""})
     return rows
 
 
@@ -283,13 +336,20 @@ def main():
         ("sponsors.csv", ["lead_sponsor"], sponsors,
          ["decision", "corrected_name_clean", "corrected_group", "comment"]),
         ("why_stopped.csv", ["nct_id", "why_stopped"], stopped,
-         ["decision", "corrected_category", "comment"]),
+         ["decision", "corrected_category", "secondary_category", "reason_source",
+          "comment"]),
     ]
     total_in = total_out = 0
     for filename, key_cols, rows, owner_cols in files:
         path = REVIEW_DIR / filename
         merged, counts = merge_with_existing(path, key_cols, rows, owner_cols)
-        write_csv(path, list(rows[0].keys()) if rows else owner_cols, merged)
+        try:
+            write_csv(path, list(rows[0].keys()) if rows else owner_cols, merged)
+        except PermissionError:
+            print(f"STOPPED: {path} is open in another program (probably Excel). "
+                  "Save and close it, then run this script again.")
+            print(f"Summary: records in {total_in}, out {total_out} written before stopping")
+            sys.exit(1)
         total_in += len(rows)
         total_out += len(merged)
         print(f"{filename}: {len(merged)} rows ({', '.join(f'{k} {v}' for k, v in counts.items())})")

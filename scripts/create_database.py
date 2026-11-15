@@ -3,6 +3,7 @@
 Usage:
     .venv\\Scripts\\python scripts\\create_database.py          # create if missing
     .venv\\Scripts\\python scripts\\create_database.py --reset  # delete and recreate
+    .venv\\Scripts\\python scripts\\create_database.py --upgrade  # new layout, keep all data
 
 Safety: --reset refuses to delete a database that holds any review decisions,
 so the project owner's decisions can never be lost by re-running this script.
@@ -14,11 +15,21 @@ each connection runs "PRAGMA foreign_keys = ON". Use connect() below.
 import argparse
 import sqlite3
 import sys
+from datetime import datetime
 from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent.parent / "data" / "ami_trials.db"
 
-SCHEMA = """
+# Approved why_stopped categories (SPEC.md "Registry cleaning", part 3)
+WHY_CATEGORIES = [
+    "safety", "early benefit", "lack of efficacy or futility",
+    "DSMB recommendation, reason not stated", "healthcare system change",
+    "new outside evidence", "COVID-19", "slow enrollment",
+    "funding or commercial reasons", "regulatory", "other sponsor decision",
+    "unclear", "not stated",
+]
+
+SCHEMA_TEMPLATE = """
 -- 9. Log of each ClinicalTrials.gov download (decision 13)
 CREATE TABLE fetch_runs (
     run_id          INTEGER PRIMARY KEY,
@@ -65,12 +76,10 @@ CREATE TABLE trials (
                                 ('industry', 'academic or hospital',
                                  'research network or cooperative group',
                                  'government', 'individual investigator')),
-    why_stopped_category    TEXT CHECK (why_stopped_category IN
-                                ('safety', 'lack of efficacy or futility',
-                                 'slow enrollment', 'COVID-19',
-                                 'funding or commercial reasons',
-                                 'other sponsor decision', 'new outside evidence',
-                                 'regulatory', 'unclear', 'not stated')),
+    why_stopped_category    TEXT CHECK (why_stopped_category IN (WHY_CATEGORIES)),
+    why_stopped_secondary_category TEXT CHECK (why_stopped_secondary_category IN
+                                (WHY_CATEGORIES)),
+    why_stopped_source      TEXT CHECK (why_stopped_source IN ('registry', 'paper')),
     first_seen_run          INTEGER REFERENCES fetch_runs(run_id),
     last_seen_run           INTEGER REFERENCES fetch_runs(run_id)
 );
@@ -354,6 +363,10 @@ CREATE TABLE outcome_comparisons (
 """
 
 
+SCHEMA = SCHEMA_TEMPLATE.replace(
+    "WHY_CATEGORIES", ", ".join("'" + c.replace("'", "''") + "'" for c in WHY_CATEGORIES))
+
+
 def connect(path=DB_PATH):
     """Open the database with the links between tables enforced."""
     con = sqlite3.connect(path)
@@ -376,11 +389,85 @@ def count_decisions(path):
         con.close()
 
 
+def upgrade():
+    """Move all data into the current table layout without losing anything.
+    Builds the new layout in a temporary file, copies every row, checks the
+    counts, keeps the old file as a backup, and only then swaps the files."""
+    if not DB_PATH.exists():
+        print(f"STOPPED: {DB_PATH} does not exist; nothing to upgrade.")
+        print("Summary: tables in 0, out 0, skipped 0 (stopped)")
+        sys.exit(1)
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    new_path = DB_PATH.with_name(DB_PATH.stem + ".upgrading.db")
+    backup = DB_PATH.with_name(f"{DB_PATH.stem}.backup-{stamp}.db")
+    if new_path.exists():
+        new_path.unlink()
+    con = sqlite3.connect(new_path)
+    con.executescript(SCHEMA)
+    con.execute("PRAGMA foreign_keys = OFF")
+    con.execute("ATTACH DATABASE ? AS old", (str(DB_PATH),))
+    old_tables = {r[0] for r in con.execute(
+        "SELECT name FROM old.sqlite_master WHERE type = 'table'")}
+    new_tables = [r[0] for r in con.execute(
+        "SELECT name FROM main.sqlite_master WHERE type = 'table' ORDER BY rowid")]
+    problems, report = [], []
+    for table in sorted(old_tables - set(new_tables)):
+        if con.execute(f"SELECT COUNT(*) FROM old.{table}").fetchone()[0]:
+            problems.append(f"table {table} holds data but is not in the new layout")
+    try:
+        for table in new_tables:
+            if table not in old_tables:
+                report.append(f"{table}: new table")
+                continue
+            old_cols = [r[1] for r in con.execute(f"PRAGMA old.table_info({table})")]
+            new_cols = [r[1] for r in con.execute(f"PRAGMA main.table_info({table})")]
+            for col in old_cols:
+                if col not in new_cols and con.execute(
+                        f"SELECT COUNT(*) FROM old.{table} WHERE {col} IS NOT NULL").fetchone()[0]:
+                    problems.append(f"{table}.{col} holds data but is not in the new layout")
+            cols = ", ".join(c for c in new_cols if c in old_cols)
+            con.execute(f"INSERT INTO main.{table} ({cols}) SELECT {cols} FROM old.{table}")
+            n_old = con.execute(f"SELECT COUNT(*) FROM old.{table}").fetchone()[0]
+            n_new = con.execute(f"SELECT COUNT(*) FROM main.{table}").fetchone()[0]
+            if n_old != n_new:
+                problems.append(f"{table}: {n_old} rows before, {n_new} after")
+            added = [c for c in new_cols if c not in old_cols]
+            report.append(f"{table}: {n_new} rows copied"
+                          + (f" (new columns: {', '.join(added)})" if added else ""))
+        if con.execute("PRAGMA main.foreign_key_check").fetchall():
+            problems.append("some rows point to rows that don't exist")
+    except sqlite3.Error as e:
+        problems.append(str(e))
+    if problems:
+        con.close()
+        new_path.unlink()
+        print("STOPPED: the upgrade would lose or break data, so nothing was changed:")
+        for p in problems:
+            print(f"  - {p}")
+        print("Summary: stopped on error; the database is unchanged.")
+        sys.exit(1)
+    con.commit()
+    con.execute("DETACH DATABASE old")
+    con.close()
+    DB_PATH.rename(backup)
+    new_path.rename(DB_PATH)
+    for line in report:
+        print(f"  {line}")
+    print(f"Old database kept as backup: {backup}")
+    total = sum(int(l.split(": ")[1].split()[0]) for l in report if "rows copied" in l)
+    print(f"Summary: rows in {total}, rows out {total}, skipped 0")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--reset", action="store_true",
                         help="delete the existing database and create it again")
+    parser.add_argument("--upgrade", action="store_true",
+                        help="move all data into the current table layout (keeps a backup)")
     args = parser.parse_args()
+    if args.upgrade:
+        upgrade()
+        return
 
     deleted = False
     if DB_PATH.exists():

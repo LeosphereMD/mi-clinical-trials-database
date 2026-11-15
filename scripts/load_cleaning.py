@@ -7,7 +7,8 @@ What goes in:
   - interventions.generic_name: exact registry MeSH matches (automatic), plus
     rows of review/drug_names.csv that the owner approved or corrected
   - trials.sponsor_name_clean / sponsor_group: approved rows of review/sponsors.csv
-  - trials.why_stopped_category: approved rows of review/why_stopped.csv
+  - trials.why_stopped_category, why_stopped_secondary_category and
+    why_stopped_source: approved rows of review/why_stopped.csv
 Rows without a decision are left out (their database value stays empty).
 
 The review files are the record of the owner's decisions, so the cleaning
@@ -15,19 +16,20 @@ columns are rebuilt from them on every run. One transaction: if any row has
 an unknown decision or category, nothing is changed.
 """
 
+import re
 import sqlite3
 import sys
 from collections import Counter, defaultdict
 
-from create_database import DB_PATH, connect
+from create_database import DB_PATH, WHY_CATEGORIES, connect
 from review_files import REVIEW_DIR, decision_of, read_csv
 
 SPONSOR_GROUPS = {"industry", "academic or hospital",
                   "research network or cooperative group", "government",
                   "individual investigator"}
-WHY_CATEGORIES = {"safety", "lack of efficacy or futility", "slow enrollment",
-                  "COVID-19", "funding or commercial reasons", "other sponsor decision",
-                  "new outside evidence", "regulatory", "unclear", "not stated"}
+REASON_SOURCES = {"registry", "paper"}
+DOI = re.compile(r"(?<!\d)10\.\d{4,9}/\S+")   # also finds "DOI10.1093/..."
+PAGE = re.compile(r"\b(?:p|pp|page|pages)\.?\s*\d+", re.IGNORECASE)
 
 
 class StopError(Exception):
@@ -68,7 +70,8 @@ def main():
         # Rebuild the cleaning columns from scratch.
         con.execute("UPDATE interventions SET generic_name = NULL, generic_name_source = NULL")
         con.execute("UPDATE trials SET sponsor_name_clean = NULL, sponsor_group = NULL, "
-                    "why_stopped_category = NULL")
+                    "why_stopped_category = NULL, why_stopped_secondary_category = NULL, "
+                    "why_stopped_source = NULL")
 
         # 1a. exact registry MeSH matches
         exact = con.execute("""
@@ -129,13 +132,25 @@ def main():
                 continue
             where = f"why_stopped.csv line {line}"
             category = chosen_value(row, "draft_category", "corrected_category", where)
-            if category not in WHY_CATEGORIES:
-                raise StopError(f"{where}: '{category}' is not a category. "
-                                f"Use one of: {', '.join(sorted(WHY_CATEGORIES))}.")
+            secondary = (row.get("secondary_category") or "").strip() or None
+            source = (row.get("reason_source") or "").strip().lower() or "registry"
+            comment = row.get("comment") or ""
+            for value, label in ((category, "category"), (secondary, "secondary_category")):
+                if value is not None and value not in WHY_CATEGORIES:
+                    raise StopError(f"{where}: '{value}' is not a valid {label}. "
+                                    f"Use one of: {', '.join(WHY_CATEGORIES)}.")
+            if secondary == category:
+                raise StopError(f"{where}: secondary_category is the same as the main category.")
+            if source not in REASON_SOURCES:
+                raise StopError(f"{where}: reason_source '{source}' must be registry or paper.")
+            if source == "paper" and not (DOI.search(comment) and PAGE.search(comment)):
+                raise StopError(f"{where}: reason_source is 'paper', so the comment must "
+                                "hold the DOI (10.xxxx/...) and the page (e.g. 'p. 5').")
             why = row.get("why_stopped") or None
-            n = con.execute("UPDATE trials SET why_stopped_category = ? "
+            n = con.execute("UPDATE trials SET why_stopped_category = ?, "
+                            "why_stopped_secondary_category = ?, why_stopped_source = ? "
                             "WHERE nct_id = ? AND why_stopped IS ?",
-                            (category, row["nct_id"], why)).rowcount
+                            (category, secondary, source, row["nct_id"], why)).rowcount
             report["why_stopped.csv"]["loaded" if n else
                                       "skipped: the registry text changed (run draft_cleaning.py)"] += 1
         con.commit()
