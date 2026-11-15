@@ -1,0 +1,377 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01660373",
+      "orgStudyIdInfo": {
+        "id": "ISSBRIL0080"
+      },
+      "organization": {
+        "fullName": "Pusan National University Yangsan Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comparison of Antiplatelet Effect of Ticagrelor vs Tirofiban in Patients With Non-ST Elevation Acute Coronary Syndrome",
+      "officialTitle": "Ticagrelor vs. Tirofiban, Comparison of Anti-platelet Effects in Patients With Non-ST Elevation Acute Coronary Syndrome(TE-CLOT Trial : Ticagrelor's Effect for CLOT Prevention) ; A Single Center, Open-label Randomized Controlled Study",
+      "acronym": "TE-CLOT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2013-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2012-08-05",
+      "studyFirstSubmitQcDate": "2012-08-07",
+      "studyFirstPostDateStruct": {
+        "date": "2012-08-08",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-12-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-12-18",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "June Hong Kim",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Pusan National University Yangsan Hospital"
+      },
+      "leadSponsor": {
+        "name": "Pusan National University Yangsan Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-center, open-label prospective randomized pharmacodynamic investigation of two anti platelet regimens in patients who are planned to undergo PCI for non-ST segment elevation acute coronary syndrome(NSTE-ACS) for 24 hours\n\n1. Ticagrelor : loading dose(180mg) followed by maintenance dose(90mg bid)\n2. Tirofiban : 0.4ug/kg/min for 30min followed by 0.1ug/kg/min\n\n   * both agents will be given on top of aspirin",
+      "detailedDescription": "In combination with aspirin, P2Y12 receptor antagonist or glycoprotein IIb/IIIa inhibitor(GPI) is now a recommended drug as the standard dual antiplatelet regimen in patients with acute coronary syndrome(1).\n\nTicagrelor is a newly developed oral P2Y12 receptor inhibitor. It shows faster, greater and more consistent platelet inhibition as compared with previous P2Y12 receptor antagonist clopidogrel(2) and it also shows better clinical outcome and similar risk for bleeding as compared with clopidogrel(3).Interestingly, pharmacodynamic data of some studies showed excellent effect of ticagrelor in terms of inhibiting platelet activation apparently as high as that of GPI(2,4).\n\nPrimary hypothesis: Ticagrelor have a comparable efficacy in platelet inhibition to GPI in patients with non-ST segment elevation acute coronary syndrome.\n\nStatistical design : non-inferiority test"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-ST Segment Elevation Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "ticagrelor",
+        "tirofiban",
+        "glycoprotein IIa/IIIa inhibitors",
+        "P2Y12 blockers",
+        "acute coronary syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor",
+          "type": "EXPERIMENTAL",
+          "description": "loading dose(180mg) followed by maintenance dose(90mg bid)",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        },
+        {
+          "label": "Tirofiban",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "0.4ug/kg/min for 30min followed by 0.1ug/kg/min",
+          "interventionNames": [
+            "Drug: Tirofiban"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tirofiban",
+          "description": "0.4ug/kg/min for 30min followed by 0.1ug/kg/min",
+          "armGroupLabels": [
+            "Tirofiban"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "loading dose(180mg) followed by maintenance dose(90mg bid)",
+          "armGroupLabels": [
+            "Ticagrelor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage IPA after 20µmol/l ADP at 2 hour",
+          "description": "Blood samples anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 15 min at 100 g, will be stimulated with 20 µmol/l ADP and aggregation will be assessed using a light transmittance aggregometer(Chronolog, USA).",
+          "timeFrame": "2 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage IPA at 8 hours after 20µMol ADP, TRAP, Arachidonic acid, Collagen",
+          "description": "Blood samples anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 15 min at 100 g, will be stimulated with 20 µmol/l ADP, TRAP, arachidonic acid and collagen and aggregation will be assessed using a light transmittance aggregometer(Chrono-log, USA).",
+          "timeFrame": "8 hours"
+        },
+        {
+          "measure": "Percentage IPA at 8 hours after 20µMol ADP, TRAP, Arachidonic acid, Collagen",
+          "description": "Blood samples with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 15 min at 100 g, will be stimulated with 20 µmol/l ADP, TRAP, arachidonic acid and collagen and aggregation will be assessed using a light transmittance aggregometer(Chrono-log, USA).",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "periprocedural bleeding",
+          "description": "Periprocedural bleeding will be monitored and described according to BARC and TIMI definition",
+          "timeFrame": "0~24 hours"
+        },
+        {
+          "measure": "Peak cardiac enzyme level",
+          "description": "From blood samples at 0, 2H, 8H and 24H, CK-MB and Troponin I will be measured",
+          "timeFrame": "0~24 hours"
+        },
+        {
+          "measure": "Percentage IPA after TRAP, arachidonic acid, collagen at 2 hours",
+          "description": "Blood samples anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 15 min at 100 g, will be stimulated with TRAP, arachidonic acid and collagen and aggregation will be assessed using a light transmittance aggregometer(Chrono-log, USA).",
+          "timeFrame": "2 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with recent or current ischemic symptoms at the time of randomization will be eligible if 2 of the following criteria are met: ST-T change indicating ischemia; a positive test of biomarker indication myocardial necrosis; or one of several risk factors(age ≥60 years\n* Previous myocardial infarction or coronary artery bypass grafting \\[CABG\\]\n* Coronary artery disease with stenosis of ≥50% in at least two vessels\n* Previous ischemic stroke, transient ischemic attack, carotid stenosis of at least 50%, or cerebral revascularization\n* Diabetes mellitus\n* Peripheral arterial disease; or chronic renal dysfunction, defined as a creatinine clearance of \\<60 ml per minute per 1.73 m2 of body surface area)\n\nExclusion Criteria:\n\n1. Administration of fibrinolytic or any GP IIb/IIIa inhibitors for the treatment of current AMI\n2. Major surgery or trauma within 30 days\n3. Active bleeding\n4. Previous stroke in the last six months\n5. Oral anticoagulant therapy\n6. Pre-existing thrombocytopenia\n7. Vasculitis\n8. Hypertensive retinopathy\n9. Severe hepatic failure\n10. Severe renal failure requiring hemodialysis\n11. Documented allergy/intolerance or contraindication to tirofiban or P2Y12 inhibitor\n12. Uncontrolled hypertension (systolic or diastolic arterial pressure \\>180 mmHg or 120, respectively, despite medical therapy)\n13. Limited life expectancy, e.g. neoplasms, others\n14. Inability to obtain informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "June Hong Kim, MD,PhD",
+          "role": "CONTACT",
+          "phone": "+82-10-8231-7171",
+          "email": "junehongk@gmail.com"
+        },
+        {
+          "name": "Dongcheul Han, MD",
+          "role": "CONTACT",
+          "phone": "+82-10-2992-6270",
+          "email": "usdoc12@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "June Hong Kim, MD,PhD",
+          "affiliation": "Pusan National University Yangsan Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pusan National University Yangsan Hospital",
+          "status": "RECRUITING",
+          "city": "Yangsan",
+          "state": "Kyeongsangnamdo",
+          "zip": "626-770",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "June Hong Kim, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+82-10-8231-7171",
+              "email": "junehongk@gmail.com"
+            },
+            {
+              "name": "Dongcheul Han, MD",
+              "role": "CONTACT",
+              "phone": "+82-10-2992-6270",
+              "email": "usdoc12@gmail.com"
+            },
+            {
+              "name": "June Hong Kim, MD,PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Dongcheul Han, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.34199,
+            "lon": 129.03358
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22809746",
+          "type": "BACKGROUND",
+          "citation": "Jneid H, Anderson JL, Wright RS, Adams CD, Bridges CR, Casey DE Jr, Ettinger SM, Fesmire FM, Ganiats TG, Lincoff AM, Peterson ED, Philippides GJ, Theroux P, Wenger NK, Zidar JP. 2012 ACCF/AHA focused update of the guideline for the management of patients with unstable angina/non-ST-elevation myocardial infarction (updating the 2007 guideline and replacing the 2011 focused update): a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2012 Aug 14;60(7):645-81. doi: 10.1016/j.jacc.2012.06.004. Epub 2012 Jul 16. No abstract available."
+        },
+        {
+          "pmid": "19923168",
+          "type": "BACKGROUND",
+          "citation": "Gurbel PA, Bliden KP, Butler K, Tantry US, Gesheff T, Wei C, Teng R, Antonino MJ, Patil SB, Karunakaran A, Kereiakes DJ, Parris C, Purdy D, Wilson V, Ledley GS, Storey RF. Randomized double-blind assessment of the ONSET and OFFSET of the antiplatelet effects of ticagrelor versus clopidogrel in patients with stable coronary artery disease: the ONSET/OFFSET study. Circulation. 2009 Dec 22;120(25):2577-85. doi: 10.1161/CIRCULATIONAHA.109.912550. Epub 2009 Nov 18."
+        },
+        {
+          "pmid": "19717846",
+          "type": "BACKGROUND",
+          "citation": "Wallentin L, Becker RC, Budaj A, Cannon CP, Emanuelsson H, Held C, Horrow J, Husted S, James S, Katus H, Mahaffey KW, Scirica BM, Skene A, Steg PG, Storey RF, Harrington RA; PLATO Investigators; Freij A, Thorsen M. Ticagrelor versus clopidogrel in patients with acute coronary syndromes. N Engl J Med. 2009 Sep 10;361(11):1045-57. doi: 10.1056/NEJMoa0904327. Epub 2009 Aug 30."
+        },
+        {
+          "pmid": "20048389",
+          "type": "BACKGROUND",
+          "citation": "Saltzman AJ, Mehran R, Hooper WC, Moses JW, Weisz G, Collins MB, Lansky AJ, Kreps EM, Leon MB, Stone GW, Dangas G. The relative effects of abciximab and tirofiban on platelet inhibition and C-reactive protein during coronary intervention. J Invasive Cardiol. 2010 Jan;22(1):2-6."
+        },
+        {
+          "pmid": "26581884",
+          "type": "DERIVED",
+          "citation": "Kim JS, Han DC, Jeong YH, Park DW, Sohn CB, Hwang KW, Lee SH, Choi JH, Chon MK, Lee SY, Hwang J, Kim IS, Lee SM, Han J, Noh M, Kim CH, Chun KJ, Park YH, Kim JH. Antiplatelet effect of ticagrelor compared to tirofiban in non-ST-segment elevation ACS patients undergoing PCI. The result of the TE-CLOT trial. Thromb Haemost. 2016 Jan;115(1):213-21. doi: 10.1160/TH15-02-0180. Epub 2015 Nov 19."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077466",
+          "term": "Tirofiban"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014443",
+          "term": "Tyrosine"
+        },
+        {
+          "id": "D024322",
+          "term": "Amino Acids, Aromatic"
+        },
+        {
+          "id": "D000598",
+          "term": "Amino Acids, Cyclic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

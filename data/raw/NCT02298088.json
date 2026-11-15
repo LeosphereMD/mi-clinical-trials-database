@@ -1,0 +1,1778 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02298088",
+      "orgStudyIdInfo": {
+        "id": "TREAT01"
+      },
+      "organization": {
+        "fullName": "Hospital do Coracao",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ticagrelor in Patients With ST Elevation Myocardial Infarction Treated With Pharmacological Thrombolysis",
+      "officialTitle": "Phase III, Randomized, International, Multicenter, Open Label, With Blinded Adjudication of Outcomes, Non-Inferiority Clinical Trial to Explore the Safety and Efficacy of Ticagrelor Compared With Clopidogrel in Patients With Acute Coronary Syndrome With ST Elevation Treated With Pharmacological Thrombolysis.",
+      "acronym": "TREAT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-10-27",
+      "studyFirstSubmitQcDate": "2014-11-19",
+      "studyFirstPostDateStruct": {
+        "date": "2014-11-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-02-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital do Coracao",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Administration of Ticagrelor in patients with ST elevation myocardial infarction treated with pharmacological thrombolysis",
+      "detailedDescription": "Phase III, Randomized, International, Multicenter, Open label, with Blinded Adjudication of Outcomes, Non-Inferiority Clinical Trial to Explore the Safety and Efficacy of Ticagrelor Compared with Clopidogrel in Patients with Acute Coronary Syndrome with ST Elevation Treated with Pharmacological Thrombolysis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute ST Segment Elevation Myocardial Infarction",
+        "Thrombolysis in Myocardial Infarction Flow"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Blinded adjudication"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3799,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor 180 mg",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients assigned to Ticagrelor will receive oral Ticagrelor, 180 mg as early as possible after the index event and not \\>24 h post event followed by 90 mg twice daily for 12 months.",
+          "interventionNames": [
+            "Drug: Ticagrelor 180 mg"
+          ]
+        },
+        {
+          "label": "Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will take the 300 mg clopidogrel as early as possible after the index event and not \\> 24h post event, followed by 75mg/day for 12 months.\n\nFor patients with \\> 75 years the recommended load dose is 75 mg instead 300 mg.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 180 mg",
+          "description": "Ticagrelor, 180 mg as early as possible after the index event and not \\>24 h post event followed by 90 mg twice daily for 12 months.",
+          "armGroupLabels": [
+            "Ticagrelor 180 mg"
+          ],
+          "otherNames": [
+            "Ticagrelor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "300 mg clopidogrel as early as possible after the index event and not \\> 24h post event, followed by 75mg/day for 12 months.\n\nFor patients with \\> 75 years the recommended load dose is 75 mg instead 300 mg.",
+          "armGroupLabels": [
+            "Clopidogrel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety Outcome as a measure of Time to TIMI-defined first major bleeding",
+          "description": "The primary safety endpoint is time to TIMI-defined and adjudicated first major bleeding event (including major life-threatening bleeding and other major bleeding).\n\nBleeding TIMI Definition\n\nMajor:\n\nAny intracranial hemorrhage (ICH)\\*, OR Clinically significant overt signs of hemorrhage associated with a drop in hemoglobin (Hgb) of ≥ 5 g/dL (or, when Hgb is not available, an absolute drop in hematocrit (Hct) of ≥ 15%).\n\nAn independent blinded central adjudication committee will adjudicate all suspected primary end points.",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Efficacy Outcome as a measure of major cardiovascular events",
+          "description": "Secondary efficacy combined endpoint: death from vascular causes, myocardial infarction, stroke, severe recurrent ischemia, recurrent ischemia, TIA, or other arterial thrombotic event.\n\nWe will also measure the individual outcomes all-cause mortality and need for rescue PCI, as well as individual components of the combined efficacy endpoint.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Safety Outcome as a measure of bleeding event",
+          "description": "Secondary safety endpoints: Total bleeding (major and minor) according to PLATO, TIMI and BARC definitions, minor bleeding according to the TIMI definition and major bleeding as individual endpoint according to the PLATO definition. Others safety variables will include: dyspnea, arrhythmia, bradycardia and laboratory safety tests",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients of both sexes aged ≥ 18 years and \\< 75 years with ACS with ST segment elevation with onset during the previous 24 hours, documented by cardiac ischemic symptoms due to atherosclerosis of \\> 10 minutes duration at rest, treated with pharmacological thrombolysis\n* Fibrinolytic therapy should be given to patients with STEMI and onset of ischemic symptoms within the previous 12 hours\n\nPatients with acute coronary syndrome with ST segment elevation will be included provided they present ST segment elevation at the J point in two contiguous leads in electrocardiogram with cut-points: \\> 0.1mV in all leads other than leads V2-V3, where the following cut points apply: \\> 0.2 mV in men \\> 40 years; \\> 0.25 mV in men \\< 40 years, or \\>0.15 mV in women and at least 1 of the following criteria:\n\n* Angina-like chest pain or ischemic equivalent chest pain;\n* Abnormalities above the reference value for markers of myocardial necrosis (troponin and CK-MB).\n\nThe patient must be able to give informed consent in accordance with ICH GCP guidelines and local legislation and/or regulations.\n\nExclusion Criteria:\n\n* Any contraindication against the use of clopidogrel (eg, hypersensitivity, moderate or severe liver disease, active bleeding or bleeding history, history of intracranial hemorrhage)\n* Need for oral anticoagulation therapy,\n* Concomitant oral or IV therapy with strong CYP3A inhibitors (ketoconazole, itraconazole, voriconazole, telithromycin, clarithromycin, nefazodone, ritonavir, saquinavir, nelfinavir, indinavir, atazanavir, grapefruit juice N1 L/d), CYP3A substrates with narrow therapeutic indices (cyclosporine, quinidine), or strong CYP3Ainducers (rifampin/rifampicin, phenytoin, carbamazepine)\n* Increased risk of bradycardia events\n* Dialysis required\n* Known clinically important thrombocytopenia\n* Known clinically important anemia\n* Any other condition that may put the patient at risk or influence study results in the investigators' opinion (eg, cardiogenic shock, severe hemodynamic instability, active cancer)\n* Participant in another investigational drug or device study within 30 d\n* Pregnancy or lactation\n* Any condition that increases the risk for noncompliance or being lost to follow-up\n* Involvement in the planning or conduct of the study\n* Previous enrollment or randomization in this study\n* Contraindications to fibrinolytic therapy including: 15\n\n  * Any prior intracranial hemorrhage\n  * Known structural cerebral vascular lesion (eg, Arterial Venous Malformation - AVM)\n  * Known malignant intracranial neoplasm (primary or metastatic)\n  * Ischemic stroke within 3 months\n  * Suspected aortic dissection\n  * Active bleeding or bleeding diathesis (excluding menses)\n  * Significant closed head trauma or facial trauma within 3 months",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Otavio Berwanger, MD,PhD",
+          "affiliation": "Hospital do Coracao",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Helio P Guimaraes, MD,PhD",
+          "affiliation": "Hospital do Coracao",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Leopoldo S Piegas, MD,PhD",
+          "affiliation": "Hospital do Coracao",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Renato D Lopes, MD,PhD",
+          "affiliation": "Duke University",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Jose C Nicolau, MD,PhD",
+          "affiliation": "Instituto do Coracao HC-FMUSP",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Francisco A Fonseca, MD,PhD",
+          "affiliation": "Universidade Federal de São Paulo",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Jose F Saraiva, MD,PhD",
+          "affiliation": "Hospital e Maternidade Celso Pierro",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Carlos Tajer, MD,PhD",
+          "affiliation": "Investigación Independiente S.A.",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Stephen Nicholls, MD,PhD",
+          "affiliation": "South Australian Health and Medical Research Institute",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Shaun Goodman, MD,PhD",
+          "affiliation": "Canadian Heart Research Centre",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Lixin Jiang, MD,PhD",
+          "affiliation": "Chinese Academy of Medical Sciences, Fuwai Hospital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Harvey White, MD,PhD",
+          "affiliation": "Auckland City Hospital - Auckland District Health Board",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Germán Malaga, MD,PhD",
+          "affiliation": "Universidad Peruana Cayetano Heredia",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Oleg Averkov, MD,PhD",
+          "affiliation": "Clinical Hospital #15 Clinical Hospital #15 named after O.M.Filatov, Moscow, Russia",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Alexander Parkhomenko, MD,PhD",
+          "affiliation": "Institute of Cardiology - Emergency Cardiology Department",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Christopher Granger, MD,PhD",
+          "affiliation": "Duke University",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Interzonal General de Agudos Dr, José Penna",
+          "city": "Bahía Blanca",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -38.7176,
+            "lon": -62.26545
+          }
+        },
+        {
+          "facility": "Hospital Alvarez",
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Hospital Español de La Plata",
+          "city": "La Plata",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.92126,
+            "lon": -57.95442
+          }
+        },
+        {
+          "facility": "Sanatorio Modelo de Quilmes",
+          "city": "Quilmes",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.72065,
+            "lon": -58.25454
+          }
+        },
+        {
+          "facility": "Hospital Del Cruce Nestor Kishner",
+          "city": "San Juan Bautista",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.80896,
+            "lon": -58.27623
+          }
+        },
+        {
+          "facility": "Hospital Zenón Santillan",
+          "city": "San Miguel de Tucumán",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -26.81601,
+            "lon": -65.21051
+          }
+        },
+        {
+          "facility": "Flinders Medical Centre",
+          "city": "Adelaide",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Royal Adelaide Hospital",
+          "city": "Adelaide",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Cairns Hospital",
+          "city": "Cairns",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -16.92366,
+            "lon": 145.76613
+          }
+        },
+        {
+          "facility": "The Alfred Hospital",
+          "city": "Melbourne",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Mildura Hospital",
+          "city": "Mildura",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.18551,
+            "lon": 142.16251
+          }
+        },
+        {
+          "facility": "John Hunter Hospital",
+          "city": "Newcastle",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.92953,
+            "lon": 151.7801
+          }
+        },
+        {
+          "facility": "Fiona Stanley Hospital",
+          "city": "Perth",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Liverpool Hospital",
+          "city": "Sydney",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        },
+        {
+          "facility": "Townsville Hospital",
+          "city": "Townsville",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -19.26639,
+            "lon": 146.80569
+          }
+        },
+        {
+          "facility": "Wollongong Hospital",
+          "city": "Wollongong",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.424,
+            "lon": 150.89345
+          }
+        },
+        {
+          "facility": "Hospital das Clínicas - UFMG",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital Lifecenter",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital Universitario Sao Jose",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Santa Case de Belo Horizonte",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital de Base do Distrito Federal",
+          "city": "Brasília",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia do Distrito Federal",
+          "city": "Brasília",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Hospital de Clinicas da Universidade Estadual de Campinas - UNICAMP",
+          "city": "Campinas",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Hospital e Maternidade Celso Pierro",
+          "city": "Campinas",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Hospital e Clinica Sao Roque",
+          "city": "Ipiaú",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -14.13449,
+            "lon": -39.73948
+          }
+        },
+        {
+          "facility": "Hospital e Pronto Socorro 28 de Agosto",
+          "city": "Manaus",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.10194,
+            "lon": -60.025
+          }
+        },
+        {
+          "facility": "Hospital de Messejana",
+          "city": "Messejana",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.83222,
+            "lon": -38.48944
+          }
+        },
+        {
+          "facility": "Santa Casa de Montes Claros",
+          "city": "Montes Claros",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.735,
+            "lon": -43.86167
+          }
+        },
+        {
+          "facility": "Hospital Sao Vicente de Paulo",
+          "city": "Passo Fundo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.26278,
+            "lon": -52.40667
+          }
+        },
+        {
+          "facility": "Hospital Pronto Socorro e Maternidade Santa Lucia",
+          "city": "Poços de Caldas",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.78778,
+            "lon": -46.56139
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia - Fundação de Cardiologia (ICFUC)",
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Agamenon Magalhaes",
+          "city": "Recife",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Hospital Municipal de Emergencia Albert Sabin",
+          "city": "São Caetano do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.62306,
+            "lon": -46.55111
+          }
+        },
+        {
+          "facility": "Santa Casa de Sao Jose do Rio Preto",
+          "city": "São José do Rio Preto",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Hospital do Coracao",
+          "city": "São Paulo",
+          "zip": "040005-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital do Mandaqui",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital Geral do Grajau / UNISA",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital Municipal do Campo Limpo",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital TotalCor",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "PreventSenior",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Universidade Federal de Sao Paulo",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Cardiolima",
+          "city": "Teresina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -5.08917,
+            "lon": -42.80194
+          }
+        },
+        {
+          "facility": "Royal Alexandra Hospital",
+          "city": "Edmonton",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "University of Alberta Hospital",
+          "city": "Edmonton",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Queen Elizabeth II Health Sciences Centre",
+          "city": "Halifax",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "University Hospital / London Health Sciences Centre - Interventional Cardiology",
+          "city": "London",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Southlake Regional Health Centre - Interventional Cardiology",
+          "city": "Newmarket",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "city": "Ottawa",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Peterborough Regional Health Centre",
+          "city": "Peterborough",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.30012,
+            "lon": -78.31623
+          }
+        },
+        {
+          "facility": "Inst Uni de Cardiologie et Pneumologie de Quebec",
+          "city": "Québec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Regina General Hospital - Prairie Vascular Research Network (PVRN) - SETFAST Coordinating Centre (SCC)",
+          "city": "Regina",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 50.45008,
+            "lon": -104.6178
+          }
+        },
+        {
+          "facility": "New Brunswick Heart Centre Research Initiative",
+          "city": "Saint John",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.27076,
+            "lon": -66.05616
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Sherbrooke",
+          "city": "Sherbrooke",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "facility": "Thunder Bay Regional Health Sciences Centre - Cardiac Cath Lab",
+          "city": "Thunder Bay",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.38202,
+            "lon": -89.25018
+          }
+        },
+        {
+          "facility": "Centre Intégré Universitaire de santé et de services sociaux de la Mauricie-et-du-Centre-du-Québec",
+          "city": "Trois-Rivières",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Victoria Heart Institute Foundation",
+          "city": "Victoria",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "St. Mary's General Hospital",
+          "city": "Waterloo",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.4668,
+            "lon": -80.51639
+          }
+        },
+        {
+          "facility": "Windsor Regional Hospital",
+          "city": "Windsor",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.30008,
+            "lon": -83.01654
+          }
+        },
+        {
+          "facility": "St. Boniface General Hospital",
+          "city": "Winnipeg",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "facility": "Alxa League Central Hospital",
+          "city": "Alashan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 47.86896,
+            "lon": 88.9487
+          }
+        },
+        {
+          "facility": "Anshan Changda Hospital",
+          "city": "Anshan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.12361,
+            "lon": 122.99
+          }
+        },
+        {
+          "facility": "Third affiliated hospital of Inner Mongolia medical university",
+          "city": "Baotou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 40.6516,
+            "lon": 109.84389
+          }
+        },
+        {
+          "facility": "Urad Front Banner People's Hospital",
+          "city": "Bayan Nur",
+          "country": "China",
+          "geoPoint": {
+            "lat": 40.74143,
+            "lon": 107.38599
+          }
+        },
+        {
+          "facility": "The First Hospital of Fangshan District, Beijing",
+          "city": "Beijing",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Benxi Jinshan Hospital",
+          "city": "Benxi",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.28861,
+            "lon": 123.765
+          }
+        },
+        {
+          "facility": "Binzhou City Center Hospital",
+          "city": "Binzhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 37.36667,
+            "lon": 118.01667
+          }
+        },
+        {
+          "facility": "Changyuan County People's Hospital",
+          "city": "Changyuan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.40499,
+            "lon": 105.58827
+          }
+        },
+        {
+          "facility": "Chaoyang Second People's Hospital",
+          "city": "Chaoyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.57028,
+            "lon": 120.45861
+          }
+        },
+        {
+          "facility": "Dengfeng People's Hospital",
+          "city": "Dengfeng",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.80019,
+            "lon": 115.55304
+          }
+        },
+        {
+          "facility": "Dunhua Hospital",
+          "city": "Dunhua",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.36954,
+            "lon": 128.22861
+          }
+        },
+        {
+          "facility": "Fushun Mining Bureau General Hospital",
+          "city": "Fushun",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.88669,
+            "lon": 123.94363
+          }
+        },
+        {
+          "facility": "Gongyi People's Hospital",
+          "city": "Gongyi",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75534,
+            "lon": 113.01137
+          }
+        },
+        {
+          "facility": "Hulunbuir People's Hospital",
+          "city": "Harbin",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Qi County People's Hospital",
+          "city": "Hebi",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.73231,
+            "lon": 114.28616
+          }
+        },
+        {
+          "facility": "Heze Municipal Hospital",
+          "city": "Heze",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.23929,
+            "lon": 115.47358
+          }
+        },
+        {
+          "facility": "Hunchun People's Hospital",
+          "city": "Hunchun",
+          "country": "China",
+          "geoPoint": {
+            "lat": 42.86736,
+            "lon": 130.35689
+          }
+        },
+        {
+          "facility": "Wen Country People´s Hospital",
+          "city": "Jiaozuo",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.23925,
+            "lon": 113.23914
+          }
+        },
+        {
+          "facility": "Laixi People's Hospital",
+          "city": "Laixi",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.85917,
+            "lon": 120.52694
+          }
+        },
+        {
+          "facility": "The Second Hospital of Liaocheng",
+          "city": "Liaocheng",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.45064,
+            "lon": 116.00247
+          }
+        },
+        {
+          "facility": "The Third People's Hospital of LiaoYang",
+          "city": "Liaoyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.27194,
+            "lon": 123.17306
+          }
+        },
+        {
+          "facility": "Dongfeng County Hospital",
+          "city": "Liaoyuan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 42.88545,
+            "lon": 125.1367
+          }
+        },
+        {
+          "facility": "Houma People's Hospital",
+          "city": "Linfen",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.08889,
+            "lon": 111.51889
+          }
+        },
+        {
+          "facility": "Lingbao First People's Hospital",
+          "city": "Lingbao",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.52184,
+            "lon": 110.88508
+          }
+        },
+        {
+          "facility": "Ruyang People's Hospital",
+          "city": "Luoyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.67345,
+            "lon": 112.43684
+          }
+        },
+        {
+          "facility": "Anhui Province Mengcheng County, People's Hospital",
+          "city": "Mengcheng",
+          "country": "China",
+          "geoPoint": {
+            "lat": 37.16667,
+            "lon": 106.76667
+          }
+        },
+        {
+          "facility": "Puyang Zhongyuan Oil field General Hospital",
+          "city": "Pujiang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.45679,
+            "lon": 119.88872
+          }
+        },
+        {
+          "facility": "Qinyang People's Hospital",
+          "city": "Qinyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.09061,
+            "lon": 112.92805
+          }
+        },
+        {
+          "facility": "Sanmenxia Central Hospital",
+          "city": "Sanmenxia",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.78081,
+            "lon": 111.19287
+          }
+        },
+        {
+          "facility": "Shangqiu Changzheng People's Hospital",
+          "city": "Shangqiu",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.4143,
+            "lon": 115.65613
+          }
+        },
+        {
+          "facility": "Shenyang Sujiatun District Central Hospital",
+          "city": "Shenyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Shenyang the Fourth Hospital of People",
+          "city": "Shenyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Xinmin People's Hospital",
+          "city": "Shenyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Jingxing County Hospital",
+          "city": "Shijiazhuang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Laoting Hospital",
+          "city": "Tangshan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.64381,
+            "lon": 118.18319
+          }
+        },
+        {
+          "facility": "Wuchuan People's Hospital",
+          "city": "Wuchuan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 21.45713,
+            "lon": 110.76591
+          }
+        },
+        {
+          "facility": "Wuhai People's Hospital",
+          "city": "Wuhai",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.68442,
+            "lon": 106.81583
+          }
+        },
+        {
+          "facility": "Affiliated PuAi Hospital of Tongji Medical College",
+          "city": "Wuhan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Wuyishan Municipal Hospital",
+          "city": "Wuyishan",
+          "country": "China",
+          "geoPoint": {
+            "lat": 27.75995,
+            "lon": 118.03066
+          }
+        },
+        {
+          "facility": "Qinghai Cardiovascular Hospital",
+          "city": "Xining",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.62554,
+            "lon": 101.75739
+          }
+        },
+        {
+          "facility": "Feng County People's Hospita",
+          "city": "Xuzhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          }
+        },
+        {
+          "facility": "Yongcheng People's Hospital",
+          "city": "Yongcheng",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.02133,
+            "lon": 106.82012
+          }
+        },
+        {
+          "facility": "Jiang Hua Yao Autonomous County People's Hospital",
+          "city": "Yongzhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 26.42389,
+            "lon": 111.61306
+          }
+        },
+        {
+          "facility": "The First People's Hospital of YueYang",
+          "city": "Yueyang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.37455,
+            "lon": 113.09481
+          }
+        },
+        {
+          "facility": "Zhangye People's Hospital",
+          "city": "Zhangye",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.93417,
+            "lon": 100.45167
+          }
+        },
+        {
+          "facility": "Dancheng County People's Hospital",
+          "city": "Zhoukou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 33.61473,
+            "lon": 114.64986
+          }
+        },
+        {
+          "facility": "Huaiyang County People's Hospital",
+          "city": "Zhoukou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 33.61473,
+            "lon": 114.64986
+          }
+        },
+        {
+          "facility": "Foundation Cardiomet Cequin",
+          "city": "Armenia",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.53656,
+            "lon": -75.67263
+          }
+        },
+        {
+          "facility": "Centro de Diagnostico Cardiologico Ltda",
+          "city": "Cartagena",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 10.39817,
+            "lon": -75.49328
+          }
+        },
+        {
+          "facility": "Hawkes Bay Hospital",
+          "city": "Hastings",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -39.6381,
+            "lon": 176.84918
+          }
+        },
+        {
+          "facility": "Nelson Hospital",
+          "city": "Nelson",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.27078,
+            "lon": 173.28404
+          }
+        },
+        {
+          "facility": "Taranaki Hospital",
+          "city": "New Plymouth",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -39.06667,
+            "lon": 174.08333
+          }
+        },
+        {
+          "facility": "Rotorua Hospital",
+          "city": "Rotorua",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -38.13874,
+            "lon": 176.24516
+          }
+        },
+        {
+          "facility": "Tauranga Hospital",
+          "city": "Tauranga",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -37.68611,
+            "lon": 176.16667
+          }
+        },
+        {
+          "facility": "Thames Hospital",
+          "city": "Thames",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -37.13832,
+            "lon": 175.54011
+          }
+        },
+        {
+          "facility": "Whangarei Base Hopsital",
+          "city": "Whangarei",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -35.73167,
+            "lon": 174.32391
+          }
+        },
+        {
+          "facility": "Hospital Regional Lamabayeque",
+          "city": "Chiclayo",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -6.77008,
+            "lon": -79.85495
+          }
+        },
+        {
+          "facility": "Clínica Internacional",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Clínica San Pablo",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Hospital Cayetano Heredia",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Hospital Hipólito Unanue",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Regional State Budget Healthcare Institution Altai Regional Cardiology Dispensary",
+          "city": "Barnaul",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.36199,
+            "lon": 83.72786
+          }
+        },
+        {
+          "facility": "State Healthcare Institution \"Belgorod regional clinical hospital named after Prelate Ioasaf",
+          "city": "Belgorod",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 50.60343,
+            "lon": 36.58091
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution \"Chelyabinsk regional clinical hospital #3\"",
+          "city": "Chelyabinsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.1611,
+            "lon": 61.42877
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution Leningrad region Gatchina Clinical Inter-district Hospital",
+          "city": "Gatchina",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.57639,
+            "lon": 30.12833
+          }
+        },
+        {
+          "facility": "State Healthcare Institution Irkutsk regional clinical hospital",
+          "city": "Irkutsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 52.29566,
+            "lon": 104.29076
+          }
+        },
+        {
+          "facility": "Kirov Regional State Budget Healthcare Institution Kirov City clinical hospital #1",
+          "city": "Kirov",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 58.59809,
+            "lon": 49.65783
+          }
+        },
+        {
+          "facility": "Regional State Budget Healthcare Institution Krasnoyarsk Regional Clinical Hospital",
+          "city": "Krasnoyarsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Municipal Healthcare Institution Lyubertsy regional Hospital #2",
+          "city": "Lyubertsy",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.67719,
+            "lon": 37.89322
+          }
+        },
+        {
+          "facility": "State Regional Budget Healthcare Institution Murmansk region Clinical Hospital named after P.A. Bayandin",
+          "city": "Murmansk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 68.96778,
+            "lon": 33.09922
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution Novosibirsk region City Clinical Hospital #34",
+          "city": "Novosibirsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Institution of the Russian academy of sciences Hospital of Pushchino Research Center of RAS",
+          "city": "Pushchino",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.83373,
+            "lon": 37.61138
+          }
+        },
+        {
+          "facility": "Municipal Budget Healthcare Institution Rostov-on-Don City Emergency Care Hospital",
+          "city": "Rostov-on-Don",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 47.21997,
+            "lon": 39.70769
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution Ryazan region Regional Clinical Hospital",
+          "city": "Ryazan",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.62696,
+            "lon": 39.70415
+          }
+        },
+        {
+          "facility": "State Budget Educational Institution of Higher Professional Education \"Smolensk State Medical University\" Ministry of Healthcare of Russian Federation, clinical facility is State Budget Healthcare Institution \"Smolensk regional clinical hospital\"",
+          "city": "Smolensk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.77826,
+            "lon": 32.05088
+          }
+        },
+        {
+          "facility": "Federal State Budget Science Institution \"Science and Research Institute of Cardiology\"",
+          "city": "Tomsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        },
+        {
+          "facility": "State Healthcare Institution of Tula Region \"Tula regional clinical hospital",
+          "city": "Tula",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.19609,
+            "lon": 37.61822
+          }
+        },
+        {
+          "facility": "Tver Regional Clinical Hospital",
+          "city": "Tver'",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85836,
+            "lon": 35.90057
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution Vladimir region City Hospital #4",
+          "city": "Vladimir",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.13854,
+            "lon": 40.39976
+          }
+        },
+        {
+          "facility": "Budget Healthcare Institution Voronezh region City Clinical Emergency Care Hospital #1",
+          "city": "Voronezh",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.66833,
+            "lon": 39.19204
+          }
+        },
+        {
+          "facility": "State Budget Healthcare Institution of Yaroslavl region \"Regional clinical hospital\"",
+          "city": "Yaroslavl",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.62987,
+            "lon": 39.87368
+          }
+        },
+        {
+          "facility": "Cherkasy Regional Cardiology Center, Department of Acute Heart Failure and Arrythmia",
+          "city": "Cherkasy",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.44452,
+            "lon": 32.05738
+          }
+        },
+        {
+          "facility": "Ivano-Frankivsk Regional Clinical Cardiological Dispensary, Department of Anestesiology and Intensive Care, SI\"Ivano-Frankivsk National Medical University\", Chair of Internal Medicine №2 and nurcering",
+          "city": "Ivano-Frankivsk",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.92312,
+            "lon": 24.71248
+          }
+        },
+        {
+          "facility": "Municipal Healthcare Institution \"Kharkiv City Clinical Hospital #8\", Cardiology Department for MI patients N1, Kharkiv Medical Academy of Postgraduate Education",
+          "city": "Kharkiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "SI \"National Institut of Therapy named after L.T. Malaya NAMS of Ukraine\", Department of Acute Myocardial Infarction",
+          "city": "Kharkiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Kiev Oleksandrivsk Clinical Hospital, department of Cardiology Reanimation, National Medical University named after O.O. Bogomolets, Chair of Internal Medicine №2",
+          "city": "Kyiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Kyiv City Clinical Hospital #1, Department of Emergency Cardiology",
+          "city": "Kyiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Kyiv Emergency Care Hospital, Infarction Department",
+          "city": "Kyiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "City Clinical Hospital # 1",
+          "city": "Mykolaiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.67167,
+            "lon": 31.72112
+          }
+        },
+        {
+          "facility": "MI \"City Clinical Hospital N3 named after prof. K.J. Alejnikovoi\", department of intensice cardiology care unit",
+          "city": "Odesa",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 46.48572,
+            "lon": 30.74383
+          }
+        },
+        {
+          "facility": "MI \"Rivne Regional Clinical Hospital\"",
+          "city": "Rivne",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.62036,
+            "lon": 26.23695
+          }
+        },
+        {
+          "facility": "Sumy regional Cardiology Dispensary",
+          "city": "Sumy",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.91741,
+            "lon": 34.79906
+          }
+        },
+        {
+          "facility": "MI \"Regional Medical Center of Cardiovascular Diseases\" of Zaporizhzhia Regional Council, Intensive Care Unit",
+          "city": "Zaporizhzhya",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 47.85167,
+            "lon": 35.11714
+          }
+        },
+        {
+          "facility": "Municipal Institution \" Central city clinical hospital N1\", cardiology department for MI patients",
+          "city": "Zhytomyr",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.26235,
+            "lon": 28.67913
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35533724",
+          "type": "DERIVED",
+          "citation": "Cantor WJ, Tan M, Berwanger O, Lavi S, White HD, Nicolau JC, Dehghani P, Tajer CD, Lopes RD, Moia DDF, Nicholls SJ, Parkhomenko A, Averkov O, Brass N, Lutchmedial S, Malaga G, Damiani LP, Piegas LS, Granger CB, Goodman SG. Morphine and clinical outcomes in patients with ST segment elevation myocardial infarction treated with fibrinolytic and antiplatelet therapy: Insights from the TREAT trial. Am Heart J. 2022 Sep;251:1-12. doi: 10.1016/j.ahj.2022.05.005. Epub 2022 May 6."
+        },
+        {
+          "pmid": "30898608",
+          "type": "DERIVED",
+          "citation": "Berwanger O, Lopes RD, Moia DDF, Fonseca FA, Jiang L, Goodman SG, Nicholls SJ, Parkhomenko A, Averkov O, Tajer C, Malaga G, Saraiva JFK, Guimaraes HP, de Barros E Silva PGM, Damiani LP, Santos RHN, Paisani DM, Miranda TA, Valeis N, Piegas LS, Granger CB, White HD, Nicolau JC. Ticagrelor Versus Clopidogrel in Patients With STEMI Treated With Fibrinolysis: TREAT Trial. J Am Coll Cardiol. 2019 Jun 11;73(22):2819-2828. doi: 10.1016/j.jacc.2019.03.011. Epub 2019 Mar 18."
+        },
+        {
+          "pmid": "29525822",
+          "type": "DERIVED",
+          "citation": "Berwanger O, Nicolau JC, Carvalho AC, Jiang L, Goodman SG, Nicholls SJ, Parkhomenko A, Averkov O, Tajer C, Malaga G, Saraiva JFK, Fonseca FA, De Luca FA, Guimaraes HP, de Barros E Silva PGM, Damiani LP, Paisani DM, Lasagno CMR, Candido CT, Valeis N, Moia DDF, Piegas LS, Granger CB, White HD, Lopes RD; TREAT Study Group. Ticagrelor vs Clopidogrel After Fibrinolytic Therapy in Patients With ST-Elevation Myocardial Infarction: A Randomized Clinical Trial. JAMA Cardiol. 2018 May 1;3(5):391-399. doi: 10.1001/jamacardio.2018.0612."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

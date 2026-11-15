@@ -1,0 +1,422 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04739384",
+      "orgStudyIdInfo": {
+        "id": "16520"
+      },
+      "organization": {
+        "fullName": "Federico II University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Platelet Inhibition With Ticagrelor 60 mg Versus Ticagrelor 90 mg in Elderly Patients With ACS",
+      "officialTitle": "Platelet Inhibition With Ticagrelor 60 mg Versus Ticagrelor 90 mg Twice Daily in Elderly Patients With Acute Coronary Syndrome (ACS)",
+      "acronym": "PlinytheElder"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-06-20",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-06-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-12-28",
+      "studyFirstSubmitQcDate": "2021-02-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-07-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-07-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Giovanni Esposito",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Federico II University"
+      },
+      "leadSponsor": {
+        "name": "Federico II University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "AdvicePharma Group",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Elderly individuals are increasingly represented among patients with acute coronary syndrome (ACS). Dual antiplatelet therapy (DAPT) with aspirin and an oral P2Y12 receptor inhibitor has an established role in the prevention of atherothrombotic events in ACS setting. However, DAPT in older patients is challenged by a concurrent heightened risk of ischemia and bleeding. Although guidelines recommend DAPT with aspirin and ticagrelor for elderly patients with ACS, clopidogrel, a less potent antiplatelet agent, continues to be used in more than one third of ACS patients with elderly status being the strongest predictor of undertreatment. A lower dose of ticagrelor may represent an alternative to the standard dose by conferring a similar efficacy and, potentially, a better safety profile. Our prospective, randomized, double-blind, crossover trial will test the hypothesis that a lower dose of ticagrelor provides similar antiplatelet effects compared with a standard dose among elderly patients with ACS.\n\nThe main aim of the trial is to determine the pharmacodynamic and pharmacokinetic profile of ticagrelor 60 mg twice daily versus ticagrelor 90 mg twice daily among elderly patients with ACS undergoing PCI.\n\nThis will be a prospective, randomized (1:1 ratio), non-inferiority, open-label, crossover trial to evaluate the level of platelet inhibition achieved with a low-dose of ticagrelor (60 mg twice daily) versus a standard dose of ticagrelor (90 mg twice daily) among elderly patients with ACS undergoing PCI.",
+      "detailedDescription": "Elderly individuals account for an increasing proportion of patients with acute coronary syndrome (ACS) undergoing percutaneous coronary intervention (PCI) given the aging of the population and the lengthening of life expectancy.1, 2 Dual antiplatelet therapy with aspirin and an oral P2Y12 receptor inhibitor is the cornerstone of antithrombotic therapy in patients with ACS undergoing PCI, yet decision-making in older patients remains challenging because of a concomitantly increased risk of bleeding and ischemic complications burdening this population.3 Elderly status may be considered per se a condition at heightened risk of bleeding since, by applying available risk scores, patients aged 75 years or more who undergo PCI are classified as moderate-to-high risk of bleeding irrespective of other additional features.4 Current guidelines recommend DAPT in the setting of ACS and ticagrelor, an oral, reversible, direct-acting P2Y12 receptor inhibitor, should be preferred to clopidogrel and prasugrel among elderly patients.5 Nevertheless, observational studies have consistently shown that new P2Y12 receptor inhibitors continue to be withheld in more than one third of eligible patients with ACS and that aging is the most powerful predictor of undertreatment with clopidogrel.6 This occurs for several reasons, including adverse bleeding events or nonbleeding events, a perceived too high bleeding risk, and the higher risk profile of elderly patients seen in clinical practice compared with that in randomized trials. Therefore, alternative antithrombotic strategies should be pursued for elderly patients with ACS in order to minimize the harmful effects of more potent antiplatelet inhibition without withholding the established ischemic benefit. At this regard, a standard dose of prasugrel (10 mg daily) resulted in a negative net benefit among elderly patients with ACS and a lower dose of prasugrel (5 mg daily) did not prove safer or more effective than clopidogrel.7 8 Since the risk-benefit profile of a full dose of ticagrelor (90 mg twice daily) seemed more favorable among elderly individuals, a lower dose regimen of ticagrelor (60 mg twice daily) has the potential to improve the safety profile of potent P2Y12 receptor inhibition while providing an equally effective option.\n\nA low-dose of ticagrelor has been evaluated in the PEGASUS-TIMI 54 trial, in which 21,162 patients, who were on aspirin and had a myocardial infarction 1 to 3 years earlier, were randomized to ticagrelor at a dose of 90 mg twice daily, ticagrelor at a dose of 60 mg daily, or placebo. The primary efficacy endpoint of cardiovascular death, myocardial infarction, and stroke through 3 years was significantly reduced by 15% and 16% among patients randomized to standard and low-dose of ticagrelor compared with placebo. Patients randomly allocated to the standard and low dose of ticagrelor had a 169% and 132% relative risk increase in major bleeding compared with placebo. Of interest, ticagrelor 90 mg vs. placebo had the greatest benefit for the primary efficacy endpoint among younger than older patients (20% relative risk reduction vs. 2% relative risk increase, respectively), whereas ticagrelor 60 mg vs. placebo had the greatest benefit for the primary efficacy endpoint among older than younger patients (23% relative risk reduction vs. 14% relative risk reduction, respectively). For the safety profile, elderly patients had roughly a 2-fold higher incidence of bleeding compared with younger patients, with ticagrelor 90 mg being associated with the highest rate of bleeding (4.81%). Conversely, ticagrelor 60 mg was associated with a lower incidence of major bleeding (-0.7% absolute difference) compared with ticagrelor 90 mg, even though major bleeding events were increased compared with placebo (+2.43% absolute difference).9 Taken together, the data from the PEGASUS-TIMI 54 suggest ticagrelor 60 mg twice daily may present the best combination of efficacy and safety for elderly patients.\n\nAlthough no specific data are available for ticagrelor 60 mg among elderly patients with ACS, a substudy of the PEGASUS- TIMI 54 trial showed that ticagrelor 60 mg twice daily achieved a platelet inhibition similar to that with 90 mg twice daily (PRU values: 59±63 and 47±43 for ticagrelor 60 and 90 mg twice daily, respectively).10 Noteworthy, these data have been observed in a relatively younger population (mean age 64 years) with stable coronary artery disease after nearly 2 years from the index myocardial infarction.10 Consequently, the findings of the PEGASUS-TIMI 54 trial cannot be directly extrapolated to our population with since both elderly status and ACS are associated with higher platelet reactivity.\n\nPrimary Objectives: the main aim of the trial is to determine whether the efficacy of ticagrelor 60 mg twice daily is not inferior to that of ticagrelor 90 mg twice daily among elderly patients with ACS undergoing PCI.\n\nSecondary Objectives: To evaluate adverse events in patients treated with ticagrelor 60 mg and ticagrelor 90 mg. To determine the pharmacokinetic profile of ticagrelor 60 mg twice daily versus ticagrelor 90 mg twice daily.\n\nThis will be a prospective, randomized (1:1 ratio), non-inferiority, open-label, crossover trial to evaluate the level of platelet inhibition achieved with a low-dose of ticagrelor (60 mg twice daily) versus a standard dose of ticagrelor (90 mg twice daily) among elderly patients with ACS undergoing PCI. The study will have a 2 x 2 crossover design with 2-sequence, 2-period, and 2-treatments.\n\nAfter signing the informed consent form, patients will be randomized to ticagrelor 60 mg twice daily vs. ticagrelor 90 mg twice daily in a 1:1 ratio through a web-based randomization system.\n\nEach patient will be allocated to the following treatments in a open-label fashion:\n\n* Ticagrelor 90 mg twice daily, followed by ticagrelor 60 mg twice daily;\n* Ticagrelor 60 mg twice daily, followed by ticagrelor 90 mg twice daily;\n\nThe study duration for each individual patient will amount to 28 days consisting of:\n\n* A 2-week first treatment period (from day 1 to day 14): randomly allocated treatment will be maintained for 14 days;\n* A 2-week second treatment period (from day 15 to day 28): the patients will crossover to the alternative treatment, which is administered for 14 days.\n\nAspirin 100 mg once daily is maintained throughout all the study phases.\n\nBlood sampling to evaluate adenosine diphosphate (ADP) e non-ADP platelet aggregation will be performed at 3 time points:\n\n* Time 1 (baseline): before randomization;\n* Time 2 (crossover): 14 days after randomization, including 2 samples, before and 2 hours after the last dose of the initial assigned treatment;\n* Time 3 (end of study): 28 days after randomization, including 2 samples, before and 2 hours after the last dose of the second assigned treatment.\n\nPlatelet function will be assessed by using several platelet function tests: (i) VerifyNow P2Y12 (VN-P2Y12); (ii) Light transmittance aggregometry (LTA); (iii) Multiplate electrode aggregometry (MEA)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "STEMI",
+        "NSTEMI",
+        "Coronary Artery Disease",
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Platelet aggregation",
+        "Elderly patients",
+        "Ticagrelor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard dose of ticagrelor (90 mg twice daily).",
+          "type": "EXPERIMENTAL",
+          "description": "Standard dose of ticagrelor (90 mg twice daily) followed by lower dose of ticagrelor (60 mg twice daily).",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg",
+            "Drug: Ticagrelor 60 mg"
+          ]
+        },
+        {
+          "label": "Low dose of ticagrelor (60 mg twice daily).",
+          "type": "EXPERIMENTAL",
+          "description": "Low dose of ticagrelor (60 mg twice daily) followed by standard dose of ticagrelor (90 mg twice daily).",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg",
+            "Drug: Ticagrelor 60 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90mg",
+          "description": "Ticagrelor 90 mg followed by Ticagrelor 60 mg",
+          "armGroupLabels": [
+            "Low dose of ticagrelor (60 mg twice daily).",
+            "Standard dose of ticagrelor (90 mg twice daily)."
+          ],
+          "otherNames": [
+            "Ticagrelor 60 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 60 mg",
+          "description": "Ticagrelor 60 mg followed by Ticagrelor 90 mg",
+          "armGroupLabels": [
+            "Low dose of ticagrelor (60 mg twice daily).",
+            "Standard dose of ticagrelor (90 mg twice daily)."
+          ],
+          "otherNames": [
+            "Ticagrelor 90 mg"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "P2Y12 reaction units (PRU) determined by VerifyNow assay.",
+          "description": "Comparison of pre-dose P2Y12 reaction units (PRU) determined by VerifyNow- P2Y12 assay at 14 days after treatment with ticagrelor 60 mg or 90 mg.",
+          "timeFrame": "14 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "High platelet reactivity (HPR) and ADP-induced platelet reactivity.",
+          "description": "High platelet reactivity (HPR) and ADP-induced platelet reactivity evaluated through light transmittance aggregometry (LTA) and Multiplate Analyzer.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Non ADP-induced platelet reactivity.",
+          "description": "Non ADP-induced platelet reactivity (arachidonic acid and thrombin receptor-activating test).",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "The composite of all-cause death, myocardial infarction, or stroke.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "The composite of cardiovascular death, myocardial infarction, urgent target-lesion revascularization.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Frequency of spontaneous myocardial infarction.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Frequency of unstable angina.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Frequency of any revascularization.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Frequency of bleeding events according to the BARC, TIMI and GUSTO classification.",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Plasma levels of ticagrelor and its active metabolite AR-C124910XX.",
+          "timeFrame": "28 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ability to provide written informed consent in a time window 1 to 3 days after successful PCI;\n2. Male or female, age ≥ 75 years at screening;\n3. ACS at the time of the index hospitalization;\n4. Use of a loading dose of 180 mg of ticagrelor administered after diagnosis of ACS or after PCI;\n5. Use of a maintenance dose of 90 mg twice daily of ticagrelor of at least 48 hours after the loading dose;\n6. Successful PCI (Thrombolysis In Myocardial Infarction \\[TIMI\\] flow 3 and residual coronary stenosis \\<30%) for non-ST-segment elevation ACS or ST-segment elevation myocardial infarction\n\nExclusion Criteria:\n\n1. Use of glycoprotein IIb/IIIa receptor inhibitors;\n2. Need for chronic oral anticoagulant therapy;\n3. Prior fibrinolysis;\n4. Unstable clinical status (hemodynamic or electrical instability);\n5. Planned surgery requiring DAPT discontinuation during the study;\n6. Prior stroke, transient ischemic attack or intracranial bleeding;\n7. Active bleeding;\n8. Severe anemia (hemoglobin \\< 8g/dL);\n9. Platelet count ≤80x103/ml;\n10. Renal failure (hemodialysis or creatinine clearance ≤ 30 ml/min calculated with Cockroft-Gault formula);\n11. Severe hepatic dysfunction (baseline alanine aminotransferase ≥ 2.5 times the upper limit of normal);\n12. Known hypersensitivity or contraindication to ticagrelor;\n13. Under judicial protection, tutorship or curatorship;\n14. Unable to understand and follow study-related instructions;\n15. Enrollment in another investigational device or drug study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Giovanni Esposito, MD, PhD",
+          "affiliation": "Federico II University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Professor Giovanni Esposito",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26163482",
+          "type": "BACKGROUND",
+          "citation": "Andreotti F, Rocca B, Husted S, Ajjan RA, ten Berg J, Cattaneo M, Collet JP, De Caterina R, Fox KA, Halvorsen S, Huber K, Hylek EM, Lip GY, Montalescot G, Morais J, Patrono C, Verheugt FW, Wallentin L, Weiss TW, Storey RF; ESC Thrombosis Working Group. Antithrombotic therapy in the elderly: expert position paper of the European Society of Cardiology Working Group on Thrombosis. Eur Heart J. 2015 Dec 7;36(46):3238-49. doi: 10.1093/eurheartj/ehv304. Epub 2015 Jul 9. No abstract available."
+        },
+        {
+          "pmid": "25830423",
+          "type": "BACKGROUND",
+          "citation": "Roth GA, Forouzanfar MH, Moran AE, Barber R, Nguyen G, Feigin VL, Naghavi M, Mensah GA, Murray CJ. Demographic and epidemiologic drivers of global cardiovascular mortality. N Engl J Med. 2015 Apr 2;372(14):1333-41. doi: 10.1056/NEJMoa1406656."
+        },
+        {
+          "pmid": "21070918",
+          "type": "BACKGROUND",
+          "citation": "Capodanno D, Angiolillo DJ. Antithrombotic therapy in the elderly. J Am Coll Cardiol. 2010 Nov 16;56(21):1683-92. doi: 10.1016/j.jacc.2010.04.063."
+        },
+        {
+          "pmid": "29102362",
+          "type": "BACKGROUND",
+          "citation": "Varenne O, Cook S, Sideris G, Kedev S, Cuisset T, Carrie D, Hovasse T, Garot P, El Mahmoud R, Spaulding C, Helft G, Diaz Fernandez JF, Brugaletta S, Pinar-Bermudez E, Mauri Ferre J, Commeau P, Teiger E, Bogaerts K, Sabate M, Morice MC, Sinnaeve PR; SENIOR investigators. Drug-eluting stents in elderly patients with coronary artery disease (SENIOR): a randomised single-blind trial. Lancet. 2018 Jan 6;391(10115):41-50. doi: 10.1016/S0140-6736(17)32713-7. Epub 2017 Nov 1."
+        },
+        {
+          "pmid": "28886622",
+          "type": "BACKGROUND",
+          "citation": "Valgimigli M, Bueno H, Byrne RA, Collet JP, Costa F, Jeppsson A, Juni P, Kastrati A, Kolh P, Mauri L, Montalescot G, Neumann FJ, Petricevic M, Roffi M, Steg PG, Windecker S, Zamorano JL, Levine GN; ESC Scientific Document Group; ESC Committee for Practice Guidelines (CPG); ESC National Cardiac Societies. 2017 ESC focused update on dual antiplatelet therapy in coronary artery disease developed in collaboration with EACTS: The Task Force for dual antiplatelet therapy in coronary artery disease of the European Society of Cardiology (ESC) and of the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2018 Jan 14;39(3):213-260. doi: 10.1093/eurheartj/ehx419. No abstract available."
+        },
+        {
+          "pmid": "29544348",
+          "type": "BACKGROUND",
+          "citation": "Calabro P, Gragnano F, Di Maio M, Patti G, Antonucci E, Cirillo P, Gresele P, Palareti G, Pengo V, Pignatelli P, Pennacchi M, Granatelli A, De Servi S, De Luca L, Marcucci R; for EYESHOT Study and Start Antiplatelet Register. Epidemiology and Management of Patients With Acute Coronary Syndromes in Contemporary Real-World Practice: Evolving Trends From the EYESHOT Study to the START-ANTIPLATELET Registry. Angiology. 2018 Oct;69(9):795-802. doi: 10.1177/0003319718760917. Epub 2018 Mar 15."
+        },
+        {
+          "pmid": "17982182",
+          "type": "BACKGROUND",
+          "citation": "Wiviott SD, Braunwald E, McCabe CH, Montalescot G, Ruzyllo W, Gottlieb S, Neumann FJ, Ardissino D, De Servi S, Murphy SA, Riesmeyer J, Weerakkody G, Gibson CM, Antman EM; TRITON-TIMI 38 Investigators. Prasugrel versus clopidogrel in patients with acute coronary syndromes. N Engl J Med. 2007 Nov 15;357(20):2001-15. doi: 10.1056/NEJMoa0706482. Epub 2007 Nov 4."
+        },
+        {
+          "pmid": "29459361",
+          "type": "BACKGROUND",
+          "citation": "Savonitto S, Ferri LA, Piatti L, Grosseto D, Piovaccari G, Morici N, Bossi I, Sganzerla P, Tortorella G, Cacucci M, Ferrario M, Murena E, Sibilio G, Tondi S, Toso A, Bongioanni S, Ravera A, Corrada E, Mariani M, Di Ascenzo L, Petronio AS, Cavallini C, Vitrella G, Rogacka R, Antonicelli R, Cesana BM, De Luca L, Ottani F, De Luca G, Piscione F, Moffa N, De Servi S; Elderly ACS 2 Investigators. Comparison of Reduced-Dose Prasugrel and Standard-Dose Clopidogrel in Elderly Patients With Acute Coronary Syndromes Undergoing Early Percutaneous Revascularization. Circulation. 2018 Jun 5;137(23):2435-2445. doi: 10.1161/CIRCULATIONAHA.117.032180. Epub 2018 Feb 19."
+        },
+        {
+          "pmid": "25773268",
+          "type": "BACKGROUND",
+          "citation": "Bonaca MP, Bhatt DL, Cohen M, Steg PG, Storey RF, Jensen EC, Magnani G, Bansilal S, Fish MP, Im K, Bengtsson O, Oude Ophuis T, Budaj A, Theroux P, Ruda M, Hamm C, Goto S, Spinar J, Nicolau JC, Kiss RG, Murphy SA, Wiviott SD, Held P, Braunwald E, Sabatine MS; PEGASUS-TIMI 54 Steering Committee and Investigators. Long-term use of ticagrelor in patients with prior myocardial infarction. N Engl J Med. 2015 May 7;372(19):1791-800. doi: 10.1056/NEJMoa1500857. Epub 2015 Mar 14."
+        },
+        {
+          "pmid": "26965534",
+          "type": "BACKGROUND",
+          "citation": "Storey RF, Angiolillo DJ, Bonaca MP, Thomas MR, Judge HM, Rollini F, Franchi F, Ahsan AJ, Bhatt DL, Kuder JF, Steg PG, Cohen M, Muthusamy R, Braunwald E, Sabatine MS. Platelet Inhibition With Ticagrelor 60 mg Versus 90 mg Twice Daily in the PEGASUS-TIMI 54 Trial. J Am Coll Cardiol. 2016 Mar 15;67(10):1145-1154. doi: 10.1016/j.jacc.2015.12.062."
+        },
+        {
+          "pmid": "35048203",
+          "type": "DERIVED",
+          "citation": "Piccolo R, Avvedimento M, Canonico ME, Gargiulo P, Paolillo R, Conti V, Dal Piaz F, Filippelli A, Morisco C, Simonetti F, Leone A, Marenna A, Bruzzese D, Gargiulo G, Stabile E, Di Serafino L, Franzone A, Cirillo P, Esposito G. Platelet Inhibition with Ticagrelor 60 mg Versus 90 mg Twice Daily in Elderly Patients with Acute Coronary Syndrome: Rationale and Design of the PLINY THE ELDER Trial. Cardiovasc Drugs Ther. 2023 Oct;37(5):1031-1038. doi: 10.1007/s10557-021-07302-y. Epub 2022 Jan 20."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

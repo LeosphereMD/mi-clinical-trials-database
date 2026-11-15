@@ -1,0 +1,1378 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07174414",
+      "orgStudyIdInfo": {
+        "id": "82476"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1UG3NS133209-01A1",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1UG3NS133209-01A1"
+        }
+      ],
+      "organization": {
+        "fullName": "Stanford University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cilostazol for Prevention of Recurrent Stroke Trial",
+      "officialTitle": "Cilostazol for Prevention of Recurrent Stroke Trial",
+      "acronym": "Clarity"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-12",
+      "studyFirstSubmitQcDate": "2025-09-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Maarten Lansberg",
+        "investigatorTitle": "Professor of Neurology",
+        "investigatorAffiliation": "Stanford University"
+      },
+      "leadSponsor": {
+        "name": "Stanford University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+          "class": "NIH"
+        },
+        {
+          "name": "Yale University",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Cincinnati",
+          "class": "OTHER"
+        },
+        {
+          "name": "Medical University of South Carolina",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical study is to learn if adding a medicine called cilostazol to usual treatment can help prevent another stroke, a heart attack, or death in patients who had a stroke caused by a blocked blood vessel, or a \"mini-stroke\" (also called a TIA), in the past 6 months.\n\nTo determine if cilostazol is safe and effective at lowering the chance of strokes, heart attacks and deaths, the study will compare cilostazol to a placebo, a pill that looks the same as cilostazol but has no medicine in it.\n\nParticipants will:\n\n* Be assigned by chance to take either cilostazol or a placebo, along with their usual medicine.\n* Not know which one they are taking, and neither will the study team, which keeps the results fair.\n* Be followed for up to 5 years to see if they have a stroke, heart attack, or major bleeding."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Stroke Recurrence",
+        "Myocardial Infarction",
+        "Vascular Death",
+        "Ischemic Stroke",
+        "TIA (Transient Ischemic Attack)",
+        "Stroke (CVA) or Transient Ischemic Attack",
+        "Recurrent Stroke"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Masked Statistician and Unmasked statistician.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cilostazol",
+          "type": "EXPERIMENTAL",
+          "description": "Participants take oral cilostazol until a study endpoint occurs, they reach maximum follow up duration (5 years), the participant withdraws, or the study ends.",
+          "interventionNames": [
+            "Drug: Cilostazol 100 mg Tablets"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants take oral placebo until a study endpoint occurs, they reach maximum follow up duration (5 years), the participant withdraws, or the study ends.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cilostazol 100 mg Tablets",
+          "description": "The standard dosing regimen is an initial 2-week period during which participants take one tablet of cilostazol (100 mg) orally once daily followed by a maintenance phase in which they take one tablet twice daily. For participants who are on certain interacting drugs or who experience adverse reactions on the standard dosing regimen, the dose is reduced to half a tablet twice daily.",
+          "armGroupLabels": [
+            "Cilostazol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "The standard dosing regimen is an initial 2-week period during which participants take one placebo tablet, which matches cilostazol 100 mg tablets, orally once daily followed by a maintenance phase in which they take one tablet twice daily. For participants who are on certain interacting drugs or who experience adverse reactions on the standard dosing regimen, the dose is reduced to half a tablet twice daily.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to first occurrence of any component of the composite of ischemic stroke, acute myocardial infarction, or ischemic vascular death (MACE).",
+          "description": "Major Adverse Cardiovascular Events (MACE) is a composite outcome. MACE is any one of the following: ischemic stroke, acute myocardial infarction (heart attack), or ischemic vascular death (death caused by a lack of blood flow). In this study, the measure is the time from randomization to a particpant's first MACE.",
+          "timeFrame": "Up to 5 years after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to first occurrence of ischemic stroke",
+          "description": "Ischemic stroke is a stroke caused by a blocked blood vessel in the brain. The measure is the time from randomization to the first ischemic stroke",
+          "timeFrame": "Up to 5 years after randomization"
+        },
+        {
+          "measure": "Time to first occurrence of major hemorrhage",
+          "description": "Major hemorrhage is defined as the composite of 'major intracranial hemorrhage' and 'major extracranial hemorrhage', based on the International Society on Thrombosis and Haemostasis (ISTH) criteria. The measure is the time from randomization to the first major hemorrhage.",
+          "timeFrame": "Up to 5 years after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥40 years\n2. Ischemic stroke or high-risk TIA (ABCD2 score ≥6)\n3. Can be randomized within 180 days after ischemic stroke or high-risk TIA\n4. Treatment with single or dual antithrombotic therapy with aspirin, clopidogrel and/or ticagrelor per international and/or national guidelines\n5. Two or more of the following risk factors: age 65 years or older, hypertension, diabetes mellitus, history of ischemic stroke other than the qualifying event for this trial, currently smoking, peripheral arterial disease, coronary artery disease including prior MI, aortic atherosclerotic plaque ≥4 mm, ≥50% stenosis or occlusion of a major intracranial artery (ICA, M1, M2, A1, P1, vertebral, or basilar) or extracranial artery (ICA or vertebral)\n6. In the opinion of the site investigator, patient is medically stable, capable of participating in the trial, and willing and able to attend follow-up\n7. Able to receive study drug by mail and able to begin taking study drug promptly after receipt\n8. Provision of signed and dated informed consent form by patient or legally authorized representative\n\nExclusion Criteria:\n\n1. Atrial fibrillation, mechanical heart valve, or left ventricular assist device\n2. Use of prohibited medication (as specified in the MOP)\n3. Modified Rankin Scale 5\n4. Planned cardiac surgery, percutaneous coronary intervention, carotid endarterectomy or stenting (patients are eligible post-procedure)\n5. History of symptomatic non-traumatic intracerebral hemorrhage within last 2 years\n6. Known thrombocytopenia (platelet count ≤100,000 per microliter (µL))\n7. Severe liver dysfunction (active hepatitis or hepatic insufficiency with Child-Pugh score B or C)\n8. Pregnant, breast-feeding, or of child-bearing potential but not on birth control\n9. Confirmed diagnosis of heart failure with current or prior symptoms or signs (e.g. paroxysmal nocturnal dyspnea, reduced exercise tolerance, ankle swelling, elevated jugular venous pressure)\n10. Hypersensitivity to cilostazol or any component of the formulation (e.g. anaphylaxis, angioedema)\n11. Currently enrolled in an investigational intervention study\n12. Life expectancy less than 6 months\n13. Participant does not allow contacting of their surrogate (e.g. family member or friend) or health care practitioner to obtain health information should participant become unwilling or unable to follow the study schedule.\n14. Participants who are incarcerated, including prisoners or participants compulsorily detained for treatment of psychiatric disease.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Maarten Lansberg, MD, PhD",
+          "affiliation": "Stanford University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama Hospital - Birmingham",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35249",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Bruton",
+              "role": "CONTACT",
+              "phone": "205-975-8569",
+              "email": "sjbruton@uabmc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "University of South Alabama - University Hospital",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36688",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Chandler Regional Medical Center",
+          "city": "Chandler",
+          "state": "Arizona",
+          "zip": "85224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Aaliyah Dean",
+              "role": "CONTACT",
+              "phone": "480-601-5411",
+              "email": "aaliyah.dean@commonspirit.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          }
+        },
+        {
+          "facility": "Kaiser Permanente Fontana Medical Center",
+          "city": "Fontana",
+          "state": "California",
+          "zip": "92335",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Vivian Varela",
+              "role": "CONTACT",
+              "email": "Vivian.X.Varela@kp.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.09223,
+            "lon": -117.43505
+          }
+        },
+        {
+          "facility": "UCSD Health La Jolla",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maryo Jajo",
+              "role": "CONTACT",
+              "phone": "858-657-7181",
+              "email": "mjajo@ucsd.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Kaiser Permanente Los Angeles Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90027",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Diana De Los Santos",
+              "role": "CONTACT",
+              "phone": "323-783-3008",
+              "email": "Diana.C.DeLosSantos@kp.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brianna Andersen",
+              "role": "CONTACT",
+              "phone": "310-967-0845",
+              "email": "brianna.andersen@cshs.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Casa Colina Hospital",
+          "city": "Pomona",
+          "state": "California",
+          "zip": "91767",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jeanette Gumarang, RN",
+              "role": "CONTACT",
+              "phone": "909-596-7733",
+              "phoneExt": "2283",
+              "email": "jgumarang@casacolina.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05529,
+            "lon": -117.75228
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Riddhi Shah",
+              "role": "CONTACT",
+              "phone": "650-850-1499",
+              "email": "rss76@stanford.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Intermountain Health - St. Mary's Medical Center",
+          "city": "Grand Junction",
+          "state": "Colorado",
+          "zip": "81501",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chelsea Lorimor",
+              "role": "CONTACT",
+              "phone": "(970) 298-7638",
+              "email": "Heidi.Kaiser@imail.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.06387,
+            "lon": -108.55065
+          }
+        },
+        {
+          "facility": "Yale New Haven Hospital",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06511",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michael Kampp",
+              "role": "CONTACT",
+              "phone": "203-737-2073",
+              "email": "michael.kampp@yale.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "UF Health Jacksonville",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32209",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yasmeen Shabbir",
+              "role": "CONTACT",
+              "phone": "904-244-9856",
+              "email": "yasmeen.shabbir@jax.ufl.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Emory University Hospital",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30303",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alicia E Moore",
+              "role": "CONTACT",
+              "phone": "404-778-8239",
+              "email": "amescob@emory.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Grady Memorial Hospital",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30303",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alicia E Moore",
+              "role": "CONTACT",
+              "phone": "404-778-8239",
+              "email": "amescob@emory.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Memorial Hospital of Carbondale",
+          "city": "Carbondale",
+          "state": "Illinois",
+          "zip": "62901",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather von Hagn",
+              "role": "CONTACT",
+              "phone": "618-351-4972",
+              "email": "heather.vonhagn@sih.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.72727,
+            "lon": -89.21675
+          }
+        },
+        {
+          "facility": "University of Iowa Medical Center",
+          "city": "Iowa City",
+          "state": "Iowa",
+          "zip": "52242",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heena Olalde",
+              "role": "CONTACT",
+              "phone": "319-356-8326",
+              "email": "heena-olalde@uiowa.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          }
+        },
+        {
+          "facility": "University of Kansas Hospital",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Margaret Houghton",
+              "role": "CONTACT",
+              "phone": "913-574-4186",
+              "email": "mhoughton3@kumc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "University of Maryland Medical Center",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21201",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Beata Assadi",
+              "role": "CONTACT",
+              "phone": "410-328-5532",
+              "email": "BAssadi@som.umaryland.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joseph Sisto",
+              "role": "CONTACT",
+              "phone": "617-638-5339",
+              "email": "joseph.sisto@bmc.org"
+            },
+            {
+              "name": "Robert A Contreras",
+              "role": "CONTACT",
+              "email": "Robert.AraujoContreras@bmc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Elizabeth Heistand",
+              "role": "CONTACT",
+              "phone": "(617) 632-8949",
+              "email": "eheistan@bidmc.harvard.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan - University Hospital",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Patty Johnson",
+              "role": "CONTACT",
+              "phone": "734-615-1204",
+              "email": "johnspat@med.umich.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Mclaren Flint",
+          "city": "Flint",
+          "state": "Michigan",
+          "zip": "48532",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marci Roberts",
+              "role": "CONTACT",
+              "phone": "810-342-4071",
+              "email": "marci.roberts@mclaren.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.01253,
+            "lon": -83.68746
+          }
+        },
+        {
+          "facility": "Abbott Northwestern Hospital",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kesha Lowe, MSN, RN",
+              "role": "CONTACT",
+              "phone": "612-863-0398",
+              "email": "Nakesha.Lowe@allina.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "M Health Fairview University of Minnesota Medical Center",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55414",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anna Brauch",
+              "role": "CONTACT",
+              "phone": "763-843-9497",
+              "email": "brauc019@umn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Regions Hospital",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55101",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Allison Kehren",
+              "role": "CONTACT",
+              "phone": "651-254-5342",
+              "email": "Allison.J.Kehren@HealthPartners.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        },
+        {
+          "facility": "Barnes-Jewish Hospital",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jenny Babka",
+              "role": "CONTACT",
+              "phone": "314-747-8794",
+              "email": "babkaj@wustl.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "SSM Health St. Louis University Hospital",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Edwin Akomaning",
+              "role": "CONTACT",
+              "phone": "701-612-3565",
+              "email": "edwin.akomaning@health.slu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Kings County Hospital Center",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Hobbs",
+              "role": "CONTACT",
+              "phone": "973-780-7242",
+              "email": "hobbss3@nychhc.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "NYU Langone Hospital - Brooklyn",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11220",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maria Cotrina-Vidal",
+              "role": "CONTACT",
+              "phone": "718-630-8442",
+              "email": "Maria.Cotrina@nyulangone.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "NYP Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ava Liberman",
+              "role": "CONTACT",
+              "phone": "646-962-8284",
+              "email": "all9188@med.cornell.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Duke University Hospital",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Megan Gonzalez",
+              "role": "CONTACT",
+              "phone": "919-660-4131",
+              "email": "megan.gonzalez@duke.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "New Hanover Regional Medical Center",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Meredith Triplett",
+              "role": "CONTACT",
+              "phone": "910-667-9314",
+              "email": "MTriplett01@novanthealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "Wake Forest Baptist Medical Center",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Erika Bayne",
+              "role": "CONTACT",
+              "phone": "336-716-4270",
+              "email": "erika.bayne@advocatehealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Akron General",
+          "city": "Akron",
+          "state": "Ohio",
+          "zip": "44307",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Debra Hudock",
+              "role": "CONTACT",
+              "phone": "330 289 8605",
+              "email": "hudockd@ccf.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          }
+        },
+        {
+          "facility": "University of Cinncinati",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45267",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ranjaka Gunawardena",
+              "role": "CONTACT",
+              "phone": "513-884-3260",
+              "email": "gunawad@ucmail.uc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Oklahoma University Medical Center",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "April Vaughan",
+              "role": "CONTACT",
+              "phone": "405-271-4658",
+              "email": "april-vaughan@ou.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Providence St. Vincent Medical Center",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97225",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexis Young",
+              "role": "CONTACT",
+              "phone": "503-216-1492",
+              "email": "alexis.young@providence.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Oregon Health & Science University Hospital",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Leonel Lugo",
+              "role": "CONTACT",
+              "phone": "503-494-7222",
+              "email": "lugol@ohsu.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "UPMC Hamot",
+          "city": "Erie",
+          "state": "Pennsylvania",
+          "zip": "16550",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brandi Ouellette",
+              "role": "CONTACT",
+              "phone": "814 877 2082",
+              "email": "salvatorebr3@upmc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.12922,
+            "lon": -80.08506
+          }
+        },
+        {
+          "facility": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sophie Goldberg",
+              "role": "CONTACT",
+              "phone": "215-662-7673",
+              "email": "sophie.goldberg@pennmedicine.upenn.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Temple University Hospital",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19140",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sandra Combs, BSN, RN",
+              "role": "CONTACT",
+              "phone": "215-707-3040",
+              "email": "sandra.combs@tuhs.temple.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina University Hospital",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Caitlan LeMatty",
+              "role": "CONTACT",
+              "phone": "843-792-8606",
+              "email": "lemattyc@musc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Prisma Health Richland Hospital",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Georgia Taylor",
+              "role": "CONTACT",
+              "phone": "803-331-2467",
+              "email": "georgia.taylor@prismahealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Methodist University Hospital",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38163",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Samantha Davis",
+              "role": "CONTACT",
+              "phone": "(901) 448-9855",
+              "email": "brf767@uthsc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "University of Texas Health Science Center San Antonio",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jody Richardson",
+              "role": "CONTACT",
+              "phone": "210-450-0533",
+              "email": "richardsonj1@uthscsa.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Intermountain Medical Center",
+          "city": "Murray",
+          "state": "Utah",
+          "zip": "84107",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nic Unsworth",
+              "role": "CONTACT",
+              "phone": "801-507-8280",
+              "email": "nic.unsworth@imail.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          }
+        },
+        {
+          "facility": "University of Utah Healthcare",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84132",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kinga Aitken",
+              "role": "CONTACT",
+              "phone": "801-581-5523",
+              "email": "kinga.aitken@hsc.utah.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "UVA Medical Center",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22908",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Miah Perch",
+              "role": "CONTACT",
+              "phone": "434-924-2617",
+              "email": "pgq8ja@uvahealth.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Bon Secours St. Mary's Hospital",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23226",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kelly Konopka",
+              "role": "CONTACT",
+              "phone": "804-287-3583",
+              "email": "Kelly_Patterson@bshsi.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Harborview Medical Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Hana Neutz",
+              "role": "CONTACT",
+              "phone": "206-685-8666",
+              "email": "hneutz@uw.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "J.W. Ruby Memorial Hospital",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26506",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jay Sherman",
+              "role": "CONTACT",
+              "phone": "304 598 4000 ext 146307",
+              "email": "shermanj@wvumedicine.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        },
+        {
+          "facility": "University of Wisconsin - University Hospital",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephanie Wilbrand",
+              "role": "CONTACT",
+              "phone": "608-265-9248",
+              "email": "wilbrand@neurosurgery.wisc.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29766750",
+          "type": "BACKGROUND",
+          "citation": "Johnston SC, Easton JD, Farrant M, Barsan W, Conwit RA, Elm JJ, Kim AS, Lindblad AS, Palesch YY; Clinical Research Collaboration, Neurological Emergencies Treatment Trials Network, and the POINT Investigators. Clopidogrel and Aspirin in Acute Ischemic Stroke and High-Risk TIA. N Engl J Med. 2018 Jul 19;379(3):215-225. doi: 10.1056/NEJMoa1800410. Epub 2018 May 16."
+        },
+        {
+          "pmid": "14641505",
+          "type": "BACKGROUND",
+          "citation": "Spieler JF, De Pouvourville G, Amarenco P. Cost of a recurrent vs. cost of first-ever stroke over an 18-month period. Eur J Neurol. 2003 Nov;10(6):621-4. doi: 10.1046/j.1468-1331.2003.00665.x."
+        },
+        {
+          "pmid": "20957133",
+          "type": "BACKGROUND",
+          "citation": "Engel-Nitz NM, Sander SD, Harley C, Rey GG, Shah H. Costs and outcomes of noncardioembolic ischemic stroke in a managed care population. Vasc Health Risk Manag. 2010 Oct 5;6:905-13. doi: 10.2147/VHRM.S10851."
+        },
+        {
+          "pmid": "25884666",
+          "type": "BACKGROUND",
+          "citation": "Serena J, Segura T, Roquer J, Garcia-Gil M, Castillo J; ARTICO Study. The ARTICO study: identification of patients at high risk of vascular recurrence after a first non-cardioembolic stroke. BMC Neurol. 2015 Mar 11;15:28. doi: 10.1186/s12883-015-0278-4."
+        },
+        {
+          "pmid": "15654030",
+          "type": "BACKGROUND",
+          "citation": "Nedeltchev K, der Maur TA, Georgiadis D, Arnold M, Caso V, Mattle HP, Schroth G, Remonda L, Sturzenegger M, Fischer U, Baumgartner RW. Ischaemic stroke in young adults: predictors of outcome and recurrence. J Neurol Neurosurg Psychiatry. 2005 Feb;76(2):191-5. doi: 10.1136/jnnp.2004.040543."
+        },
+        {
+          "pmid": "30929256",
+          "type": "BACKGROUND",
+          "citation": "Khanevski AN, Bjerkreim AT, Novotny V, Naess H, Thomassen L, Logallo N, Kvistad CE; NOR-STROKE study group. Recurrent ischemic stroke: Incidence, predictors, and impact on mortality. Acta Neurol Scand. 2019 Jul;140(1):3-8. doi: 10.1111/ane.13093. Epub 2019 Apr 11."
+        },
+        {
+          "pmid": "34845054",
+          "type": "BACKGROUND",
+          "citation": "Skajaa N, Adelborg K, Horvath-Puho E, Rothman KJ, Henderson VW, Thygesen LC, Sorensen HT. Risks of Stroke Recurrence and Mortality After First and Recurrent Strokes in Denmark: A Nationwide Registry Study. Neurology. 2022 Jan 24;98(4):e329-e342. doi: 10.1212/WNL.0000000000013118."
+        },
+        {
+          "pmid": "29094912",
+          "type": "BACKGROUND",
+          "citation": "Oza R, Rundell K, Garcellano M. Recurrent Ischemic Stroke: Strategies for Prevention. Am Fam Physician. 2017 Oct 1;96(7):436-440."
+        },
+        {
+          "pmid": "30700139",
+          "type": "BACKGROUND",
+          "citation": "Benjamin EJ, Muntner P, Alonso A, Bittencourt MS, Callaway CW, Carson AP, Chamberlain AM, Chang AR, Cheng S, Das SR, Delling FN, Djousse L, Elkind MSV, Ferguson JF, Fornage M, Jordan LC, Khan SS, Kissela BM, Knutson KL, Kwan TW, Lackland DT, Lewis TT, Lichtman JH, Longenecker CT, Loop MS, Lutsey PL, Martin SS, Matsushita K, Moran AE, Mussolino ME, O'Flaherty M, Pandey A, Perak AM, Rosamond WD, Roth GA, Sampson UKA, Satou GM, Schroeder EB, Shah SH, Spartano NL, Stokes A, Tirschwell DL, Tsao CW, Turakhia MP, VanWagner LB, Wilkins JT, Wong SS, Virani SS; American Heart Association Council on Epidemiology and Prevention Statistics Committee and Stroke Statistics Subcommittee. Heart Disease and Stroke Statistics-2019 Update: A Report From the American Heart Association. Circulation. 2019 Mar 5;139(10):e56-e528. doi: 10.1161/CIR.0000000000000659. No abstract available."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study website",
+          "url": "https://www.claritystrokestudy.org/"
+        },
+        {
+          "label": "Study page on StrokeNet website",
+          "url": "https://www.nihstrokenet.org/trials/clarity/home"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000083242",
+          "term": "Ischemic Stroke"
+        },
+        {
+          "id": "D002546",
+          "term": "Ischemic Attack, Transient"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D002545",
+          "term": "Brain Ischemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077407",
+          "term": "Cilostazol"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011804",
+          "term": "Quinolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

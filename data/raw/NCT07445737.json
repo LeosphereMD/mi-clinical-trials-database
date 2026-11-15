@@ -1,0 +1,404 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07445737",
+      "orgStudyIdInfo": {
+        "id": "APHP180610"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-523349-86-00",
+          "type": "CTIS"
+        },
+        {
+          "id": "2025",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2025"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Use of the Methoxyflurane as Pain-killer in the Prehospital Management of Acute Myocardial Infarction",
+      "officialTitle": "Use of the Methoxyflurane as Pain-killer in the Prehospital Management of Acute Myocardial Infarction",
+      "acronym": "MAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-13",
+      "studyFirstSubmitQcDate": "2026-02-25",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medical Developments International Limited",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "* Chest pain is the main symptom of acute myocardial infarction. A precocious analgesic treatment is justified by patient's comfort and unfavorable hemodynamic consequences of persistent pain. Morphine is the painkiller historically prescribed in this situation. Morphine has never been evaluated vs placebo and is strongly suspected to decrease oral anti-platelet efficacy. Then, morphine has been downgraded, in the 2017 European guidelines (European Society of Cardiology - ESC) from I to IIa. To find alternative treatment is required.\n* The methoxyflurane is an anesthetic gas used in emergency setting for about twenty years. It is now commonly used in France. Its analgesic properties have been demonstrated. Its main advantages are its maneuverability as it is delivered by inhalation, i.e. without (before) any venous access and self-administered by the patient. Tolerability is good. It could be an excellent alternative to morphine."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI - ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "chest pain",
+        "morphine",
+        "methoxyflurane"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 700,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Morphine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Morphine intra-venous infusion: 3 mg bolus repeated every 5 minutes until obtaining VAS ≤ 3",
+          "interventionNames": [
+            "Drug: Morphine"
+          ]
+        },
+        {
+          "label": "Methoxyflurane",
+          "type": "EXPERIMENTAL",
+          "description": "Patient's self-administration of methoxyflurane (Penthrox®) with dedicated inhaler Initial dose: 3 mL (1 vial). A second 3 mL dose can be used.",
+          "interventionNames": [
+            "Drug: Methoxyflurane"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methoxyflurane",
+          "description": "Patient's self-administration of methoxyflurane (Penthrox®) with dedicated inhaler Initial dose: 3 mL (1 vial). A second 3 mL dose can be used. Treatment: from inclusion to hospital arrival.",
+          "armGroupLabels": [
+            "Methoxyflurane"
+          ],
+          "otherNames": [
+            "Penthrox®"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Morphine",
+          "description": "Morphine intra-venous infusion: 3 mg bolus repeated every 5 minutes until obtaining VAS ≤ 3. Treatment: from inclusion to hospital arrival",
+          "armGroupLabels": [
+            "Morphine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Demonstrate that methoxyflurane self-administered by the patient is at least as efficient in achieving pain relief that morphine",
+          "description": "To demonstrate that methoxyflurane self-administered by the patient suffering chest pain related to an acute myocardial infarction is at least as efficient in achieving pain relief that morphine with better tolerance (achieving pain relief, i.e. pain intensity score on visual analogic scale (VAS) ≤ 3 at 30 minutes)",
+          "timeFrame": "at 30 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compare the impact of the treatments on heart rate",
+          "description": "Impact of the treatments on cardiovascular system: heart rate (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare the impact of the treatments on arterial blood pressure",
+          "description": "Impact of the treatments on cardiovascular system: arterial blood pressure (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare the impact of the treatments on pulse oximetry",
+          "description": "Impact of the treatments on cardiovascular system: pulse oximetry (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare the impact of the treatments on ECG",
+          "description": "Impact of the treatments on cardiovascular system: ECG changes before discharge from the ambulance",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare tolerance of the treatments on respiratory depression",
+          "description": "Tolerance of the treatments: respiratory depression: respiratory rate \\< 10 cycles per minutes (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare tolerance of the treatments on sedation",
+          "description": "Tolerance of the treatments: sedation: Richmond Agitation Sedation Scale (RASS) ≥ 2 or ≤ -2 (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare tolerance of the treatments on dizziness, pruritus, nausea, vomiting, headache",
+          "description": "Tolerance of the treatments: dizziness, pruritus, nausea, vomiting, headache (data collected every 5 minutes until to 30 minutes after randomisation and at hospital arrival)",
+          "timeFrame": "at 30 minutes"
+        },
+        {
+          "measure": "Compare the impact of the treatments on pain relief",
+          "description": "Time before achieving pain relief, i.e. time to reach initial pain divided by two (initial VAS / 2)",
+          "timeFrame": "From randomization until the first documented pain divided by two, assessed up to 30 minutes"
+        },
+        {
+          "measure": "Compare the impact of the treatments on pain relief",
+          "description": "Time before achieving pain relief, i.e. time between randomisation and pain intensity score on VAS ≤ 3",
+          "timeFrame": "From randomization until the first documented pain relief, assessed up to 30 minutes"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient age ≥ 18 years\n* Patient managed in pre-hospital setting for a ST elevation myocardial infarction (STEMI) : Chest pain \\< 12 hours with moderate to severe pain (VAS \\> 6/10) or STEMI on ECG according to 2017 ESC guidelines\n\nExclusion Criteria:\n\n* Previous analgesic treatment for this episode of chest pain\n* Hypersensitivity to morphine, methoxyflurane, any fluorinated anesthetic or any of the excipients listed in SmPC,\n* Decompensated respiratory failure (in the absence of artificial ventilation),\n* Severe hepatocellular insufficiency (with encephalopathy),\n* Acute head trauma and intracranial hypertension in the absence of controlled ventilation,\n* Uncontrolled epilepsy,\n* Treatment with buprenorphine, nalbuphine and pentazocine, naltrexone, nalmefene or sodium oxybate,\n* Breastfeeding, in case of initiation or continuation after birth of a long-term treatment.\n* Known malignant hyperthermia or genetic predisposition of the patient.\n* History of serious adverse effects of the patient or his family after administration of inhaled anesthetics.\n* History of signs of liver damage after use of methoxyflurane or after anesthesia with a halogenated hydrocarbon.\n* Clinically significant renal impairment.\n* Known renal failure with creatinine clearance below 30 ml/min or undergoing extracorporeal renal replacement therapy.\n* Altered level of consciousness due to any cause, including head trauma, drug or alcohol use.\n* Clinical evidence of cardiovascular instability (PAS \\<90 mm Hg).\n* Clinical evidence of respiratory depression.\n* Incapacity to self-assess pain intensity\n* Incapacity to methoxyflurane self-administration\n* Known pregnancy, breastfeeding, minors or incapacity (curatorship or guardianship)\n* Participation in another interventional study involving human participants or being in the exclusion period at the end of a previous study involving human participants\n* Absence of a Social Security",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Frederic LAPOSTOLLE, MD,PHD",
+          "role": "CONTACT",
+          "phone": "01 48 96 44 54",
+          "phoneExt": "+33",
+          "email": "frederic.lapostolle@aphp.fr"
+        },
+        {
+          "name": "Frederic ADNET, MD,PHD",
+          "role": "CONTACT",
+          "phone": "01 48 96 44 54",
+          "phoneExt": "+33",
+          "email": "frederic.adnet@aphp.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpital Avicenne",
+          "city": "Bobigny",
+          "zip": "93000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Frederic LAPOSTOLLE, MD PhD",
+              "role": "CONTACT",
+              "phone": "01 48 96 44 54",
+              "phoneExt": "+33",
+              "email": "frederic.lapostolle@aphp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.90982,
+            "lon": 2.45012
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008733",
+          "term": "Methoxyflurane"
+        },
+        {
+          "id": "D009020",
+          "term": "Morphine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005019",
+          "term": "Ethyl Ethers"
+        },
+        {
+          "id": "D004987",
+          "term": "Ethers"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D008738",
+          "term": "Methyl Ethers"
+        },
+        {
+          "id": "D009022",
+          "term": "Morphine Derivatives"
+        },
+        {
+          "id": "D009019",
+          "term": "Morphinans"
+        },
+        {
+          "id": "D053610",
+          "term": "Opiate Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006572",
+          "term": "Heterocyclic Compounds, Bridged-Ring"
+        },
+        {
+          "id": "D006576",
+          "term": "Heterocyclic Compounds, 4 or More Rings"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D010616",
+          "term": "Phenanthrenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

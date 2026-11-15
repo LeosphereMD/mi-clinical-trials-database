@@ -1,0 +1,248 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05957887",
+      "orgStudyIdInfo": {
+        "id": "Cardio1"
+      },
+      "organization": {
+        "fullName": "Helwan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Short and Intermediate Term Effect of Dapagliflozin on Left Ventricular Remodeling in Anterior STEMI Patients",
+      "officialTitle": "Short and Intermediate Term Effect of Dapagliflozin on Left Ventricular Remodeling in Anterior STEMI Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-04-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-04-15",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-27",
+      "studyFirstSubmitQcDate": "2023-07-16",
+      "studyFirstPostDateStruct": {
+        "date": "2023-07-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Mohamed Nabil Elkholy",
+        "investigatorTitle": "Specialist, Cardiology Department, Principle Investigator",
+        "investigatorAffiliation": "Helwan University"
+      },
+      "leadSponsor": {
+        "name": "Mohamed Nabil Elkholy",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Methodology This study will enroll (120) patients presenting with acute anterior STEMI who will undergo early reperfusion presenting at Helwan University Hospitals and Ain Shams University Hospitals.\n\nDiagnosis of STEMI will be based on:\n\nSustained ST-segment elevation of at least 1 mm in at least 2 contiguous leads or new/presumably new left bundle branch block, plus \\>Typical anginal pain, or \\> diagnostic levels of serum cardiac biomarkers, or \\> imaging evidence of new loss of viable myocardium or new regional wall motion abnormality.\n\nThey will be subdivided into two (2) groups according to Dapagliflozin intake into:\n\n\\- Group A:\n\nPatients with diabetes mellitus (DM) (60) patients, they will be further subdivided into 2 subgroups:\n\nGroup A1:\n\n30 patients will receive Dapagliflozin in addition to standard anti-ischemic and anti-diabetic treatment.\n\nGroup A2:\n\n30 patients will receive standard anti-ischemic and antidiabetic treatment (Dapagliflozin not included).\n\n\\- Group B:\n\nPatients without DM (60) patients, subdivided to 2 subgroups:\n\nGroup B1:\n\n30 patients will receive standard anti-ischemic treatment.\n\nGroup B2:\n\n30 patients will receiv up e standard anti-ischemic treatment and Dapagliflozin.\n\nMethodology in details:\n\nThe study patients will undergo early reperfusion according to the recent practice guidelines and the local hospital policy in managing ST elevation MI patients. Echocardiography will be performed twice: within 48 hours of admission and 3 months following the index event.\n\nManagement:\n\nTwelve-lead electrocardiogram will be recorded at baseline and 30-min post-procedure. The ST-segment changes will be evaluated in the single lead with the most prominent ST-segment elevation before intervention. The ST-segment elevation will be measured to the nearest 0.5 mm at 60 ms after the J point. Significant ST segment resolution (STR) is defined as a reduction in ST-segment elevation of 50% after 30 min of infarct artery recanalization.\n\nImmediately before the procedure, patients will receive aspirin (300 mg), ticagrelor (180 mg) or clopidogrel (600 mg) depending on availability. Adjunctive pharmacological treatment during the procedure will include:\n\n1. Unfractionated heparin as an initial bolus of 70 U/kg and additional boluses during the procedure to achieve an activated clotting time of 250 to 350 s (200 to 250 s if Glycoprotein IIb/IIIa (GPIIb/IIIa) antagonist is used). Heparin will be discontinued at the end of percutaneous coronary intervention.\n2. The use of a GPIIb/IIIa antagonist during the procedure, primary PCI technique, indications, and methods of thrombectomy if indicated will be done under the regulations of the local hospital policy and the most recent practice guidelines.",
+      "detailedDescription": "Introduction\n\nCoronary Heart Disease (CHD) is one of the leading causes of death worldwide, with an estimated 7.4 million deaths in 2015.The main clinical presentation of coronary heart disease is myocardial infarction (MI). It is responsible for over 15% of mortality each year.\n\nMyocardial infarction is usually due to thrombotic occlusion of a coronary vessel caused by rupture of a vulnerable plaque. Ischemia induces profound metabolic and ionic perturbations in the affected myocardium and causes rapid depression of systolic function.\n\nEarly reperfusion is a key strategy to decrease mortality and major cardiovascular events in STEMI care. Nowadays the best method of reperfusion in acute MI is primary PCI, the benefit of primary PCI is time dependent. The infarction-related artery (IRA) must be opened early, consistently, and thoroughly in order to effectively restore myocardial perfusion. The shorter the time from symptom onset to reperfusion, the greater the patient will benefit.\n\nMyocardial contractility requires adequate myocardial perfusion and previous studies have demonstrated that a 30-35% decrease in myocardial blood flow or a reduction in perfusion pressure at rest causes regional reversible myocardial wall motion abnormalities. After coronary occlusion, myocardial perfusion may be depressed despite successful restoration of flow in the epicardial vessel, which may have important implications on the future of left ventricular (LV) function and patient prognosis.\n\nLV remodeling is the process by which ventricular size, shape, and function are regulated by mechanical, neurohormonal, and genetic factors. After acute MI, the abrupt increase in volume overload induces a unique pattern of remodeling in the infarct zone and bordering non-infarct myocardium. The induction of cardiomyocyte hypertrophy is a key process during post-MI remodeling that offsets increased volume overload, attenuates progressive dilation, and stabilizes contractile function; thus, post-MI myocyte hypertrophy initially serves as an adaptive, cardiac-preserving response.\n\nAdvanced echocardiographic parameters derived from speckle tracking echocardiography provide a detailed assessment on the global and regional left ventricular deformation. Therefore, speckle tracking echocardiography has a major role in predicting the prognosis of acute myocardial infarction patients and particularly in the development of subsequent heart failure, which might be prevented with early initiation of adequate therapy.\n\nSodium-glucose co-transporter-2 (SGLT2) inhibitors are a newly developed class of oral anti-diabetic drugs (OADs) with a unique mechanism of action. SGLT2 inhibitors work by inhibiting SGLT2 in the proximal convoluted tubule (PCT), to prevent reabsorption of glucose and facilitate its excretion in urine.\n\nRecent clinical trials have shown that SGLT2 inhibitors have reduced incidence of cardiovascular death and heart failure hospitalization in people with and without diabetes, and those with and without prevalent heart failure. The actual mechanism(s) responsible for these beneficial effects are not completely clear.\n\nIt is assumed that SGLT2 inhibitors exert their cardio-protective effects by restoring the mitochondrial function in cardiomyocytes. The administration of SGLT2 inhibitors leads to the elevation of plasma levels of ketone bodies, which are an efficient energy source in the failing heart, by promoting oxidation of the mitochondrial coenzyme Q couple and enhancing the free energy of cytosolic ATP hydrolysis. SGLT2 inhibitors also promote sodium metabolism-mediated cardioprotective effects.\n\nThe DAPA-HF trial investigated the long-term effects of dapagliflozin (SGLT2 inhibitor) compared to placebo in addition to optimal medical therapy (OMT), on morbidity and mortality in patients with ambulatory HFrEF. Patients participated in the trial if they were in NYHA class II-IV, and had an LVEF ≤40% despite OMT.\n\nSodium-glucose cotransporter 2 inhibitors (SGLT2i) were developed as antidiabetic agents, but accumulating evidence has shown their beneficial effects on the cardiovascular system. Analyses of the EMPA-REG OUTCOME trial (Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients) suggested that these benefits are independent of glycemic control .\n\nCurrently, another ongoing trial is evaluating the effect of dapagliflozin on short-term prognosis in patients with acute myocardial infarction. However, in our study we will mainly assess the effect of dapagliflozin on those with acute anterior myocardial infarction (NCT number: NCT05050500).\n\nThe role of SGLT2 inhibitors in the setting of acute STEMI and the effect on LV remodeling and systolic function is not well known. So, the aim of this study is to evaluate the efficacy of SGL2 inhibitors on cardiac function and remodeling after anterior.\n\nStudy aim, and objectives:\n\nAssess the efficacy of Dapagliflozin on cardiac function and LV remodeling in acute ST elevation anterior myocardial infarction patients.\n\nMethodology This study will enroll (120) patients presenting with acute anterior STEMI who will undergo early reperfusion presenting at Helwan University Hospitals and Ain Shams University Hospitals.\n\nDiagnosis of STEMI will be based on:\n\nSustained ST-segment elevation of at least 1 mm in at least 2 contiguous leads or new/presumably new left bundle branch block, plus \\>Typical anginal pain, or \\> diagnostic levels of serum cardiac biomarkers, or \\> imaging evidence of new loss of viable myocardium or new regional wall motion abnormality.\n\nThey will be subdivided into two (2) groups according to Dapagliflozin intake into:\n\n\\- Group A:\n\nPatients with diabetes mellitus (DM) (60) patients, they will be further subdivided into 2 subgroups:\n\nGroup A1:\n\n30 patients will receive Dapagliflozin in addition to standard anti-ischemic and anti-diabetic treatment.\n\nGroup A2:\n\n30 patients will receive standard anti-ischemic and antidiabetic treatment (Dapagliflozin not included).\n\n\\- Group B:\n\nPatients without DM (60) patients, subdivided to 2 subgroups:\n\nGroup B1:\n\n30 patients will receive standard anti-ischemic treatment.\n\nGroup B2:\n\n30 patients will receiv up e standard anti-ischemic treatment and Dapagliflozin.\n\nMethodology in details:\n\nThe study patients will undergo early reperfusion according to the recent practice guidelines and the local hospital policy in managing ST elevation MI patients. Echocardiography will be performed twice: within 48 hours of admission and 3 months following the index event.\n\nManagement:\n\nTwelve-lead electrocardiogram will be recorded at baseline and 30-min post-procedure. The ST-segment changes will be evaluated in the single lead with the most prominent ST-segment elevation before intervention. The ST-segment elevation will be measured to the nearest 0.5 mm at 60 ms after the J point. Significant ST segment resolution (STR) is defined as a reduction in ST-segment elevation of 50% after 30 min of infarct artery recanalization.\n\nImmediately before the procedure, patients will receive aspirin (300 mg), ticagrelor (180 mg) or clopidogrel (600 mg) depending on availability. Adjunctive pharmacological treatment during the procedure will include:\n\n1. Unfractionated heparin as an initial bolus of 70 U/kg and additional boluses during the procedure to achieve an activated clotting time of 250 to 350 s (200 to 250 s if Glycoprotein IIb/IIIa (GPIIb/IIIa) antagonist is used). Heparin will be discontinued at the end of percutaneous coronary intervention.\n2. The use of a GPIIb/IIIa antagonist during the procedure, primary PCI technique, indications, and methods of thrombectomy if indicated will be done under the regulations of the local hospital policy and the most recent practice guidelines.\n\nThe following data will be collected:\n\n1. Clinical data:\n\n   These include age, gender, weight, height, body mass index, body surface area, smoking status, history of hypertension or diabetes mellitus, dyslipidemia, prior history of coronary artery disease (CAD), and previous coronary interventions. Times from onset of pain to first medical contact, to definitive diagnosis, to needle and to restoration coronary flow will be recorded as well.\n2. Laboratory work up:\n\n   Complete blood count, INR, cardiac biomarkers (total CK, CK-MB, troponin), liver enzymes (ALT and AST), urea and creatinine, and serum electrolytes (Na, K).\n3. Angiographic data:\n\nThe thrombolysis in myocardial infarction (TIMI) flow grade (The TIMI study group, 1985):\n\nTIMI flow grade will be assessed at three different time points; immediately after the diagnostic coronary angiography, after wiring the culprit vessel and at the end of the procedure.\n\n* TIMI 0 flow: refers to the absence of any antegrade flow beyond a coronary occlusion.\n* TIMI 1 flow: refers to faint antegrade coronary flow beyond the occlusion, with incomplete filling of the distal coronary bed.\n* TIMI 2 flow: refers to delayed or sluggish antegrade flow with complete filling of the distal territory.\n* TIMI 3 flow: refers to normal antegrade flow with complete filling of the distal territory.\n\nThe myocardial blush grade (MBG):\n\nMyocardial blush grade evaluates contrast density in the myocardial region of the infarct-related artery compared to regions of non-infarct-related arteries on coronary angiography.\n\nIt will be reported at the end of the procedure.\n\n* MBG 0: no myocardial blush.\n* MBG 1: minimal myocardial blush or contrast density.\n* MBG 2: moderate blush or contrast density, but less than a contralateral or ipsilateral non infarct-related artery.\n* MBG 3: normal myocardial blush or contrast density similar to a contralateral or ipsilateral non infarct-related artery.\n\nWhen myocardial blush persisted (\"staining\"), this phenomenon suggested leakage of the contrast medium into the extravascular space, and will be graded 0 Angiographic incomplete reperfusion is defined as TIMI flow grade \\< 2 or MBG \\< 2.\n\nEchocardiography protocol:\n\nPatients will undergo full transthoracic echocardiographic study using (GE Vivid S6). The blood pressure and heart rate during the study will be recorded.\n\n1. Conventional echocardiography:\n\n   Standard views will be obtained and analyzed in accordance with the American Society of Echocardiography guidelines (Lang et al., 2015). The following variables will be noted:\n   1. Left ventricular ejection fraction: calculated by the modified Simpson's rule by tracing the endocardial border at end-diastole and end-systole in the two-chamber and four-chamber views.\n   2. Left ventricular end-diastolic and end-systolic volumes (LVEDV and LVESV): absolute values and indexed to body surface area.\n   3. Assessment of regional wall motion abnormalities: wall motion scores for the seventeen myocardial segments and wall motion score index.\n   4. Pulsed Doppler mitral inflow: E and A wave velocities, and E/A ratio.\n   5. Lateral and medial mitral annular tissue Doppler E', A', and S' wave velocities, lateral and medial E/E' ratios.\n2. 2D Speckle tracking echocardiography (STE) of the left ventricle:\n\n   1. Image acquisition:\n\n      2D echocardiography images will be obtained from LV apical 3-chamber, apical 4-chamber and 2-chamber views. All images will be obtained during breath hold, and stored in cine-loop format from three consecutive beats. The frame rate for images was between 50 and 90 frames/s. All data will be transferred to a workstation for further offline analysis.\n   2. Strain analysis:\n\nThe digitally stored clips will be analyzed offline using available software. For each of the three apical views, the operator manually identifies three points: two on each side of the mitral valve, and a third at the apex of the left ventricle (LV). The software automatically detects the endocardium at the end-systole and tracks myocardial motion during the entire cardiac cycle. The software automatically calculates the peak longitudinal and circumferential strain for each individual segment in a seventeen-segment left ventricle model, expressed as bull's eye, and calculates global longitudinal /circumferential strain by averaging local strains along the entire left ventricle. The software provides the strain curves for the 16 myocardial segments (excluding the apical cap).\n\nA second follow-up visit will be scheduled at 3 months of the index event to collect the following data on clinical outcome:\n\n1. MACE (major adverse cardiac events)\n2. Assessment of functional classification by NYHA classification.\n\n4\\. Re-hospitalization for heart failure. Data on compliance to medications will be reported as well. A written informed consent will be obtained from all patients.\n\nPossible Risk:\n\nComplications during PCI:\n\n1. Abrupt vessel closure\n2. Atheroembolism and thromboembolism\n3. Coronary perforation\n4. Vascular access site complications\n5. Contrast induced nephropathy\n\nStatistical analysis:\n\nData will be analyzed using SPSS version 22. Qualitative data will be presented as numbers and percent. Quantitative data will be tested for normality by the Shapiro-Wilk test then described as mean and standard deviation for normally distributed data and median and range for non-normally distributed data. The appropriate statistical test will be applied according to the data type with the following suggested tests; Chi-Square for the categorical variable. To determine the survival rate, the Kaplan curve will be used. Accepted level of significance when P ≤ 0.05.\n\nI- Study design review\n\n1. Type of study design: Randomized control clinical trial (phase III trial).\n2. Proposed study design: Randomized control clinical trial (phase III trial).\n\nII- Sample size:\n\nBy extensively reviewing the current literature review. No previous studies were found to assess the efficacy of Dapagliflozin on cardiac function and LV remodeling on patients presented with acute ST elevation anterior myocardial infarction by 2D speckle tracking derived global longitudinal strain (GLS) echocardiography; and hence a Pilot/exploratory study involving a total of (120) patients presenting with acute anterior STEMI would be recruited in the present study. These patients will be further subdivided in to two (2) groups according to Dapagliflozin intake:\n\nGroup A: group with diabetes mellitus (DM) (60) patients subdivided to 2 subgroup; Group A1: 30 patients will receive Dapagliflozin in addition to standard anti-ischemic treatment. Group A2: 30 patients will receive standard anti-ischemic treatment and other antidiabetic (Dapagliflozin not included) Group B: Group without DM (60) patients, subdivided to 2 subgroups: Group B1: 30 patients will receive standard anti-ischemic treatment. Group B2:30 patients will receive standard anti-ischemic treatment and Dapagliflozin . These subgroups were classified and suggested based on an expert's recommendation in the field of cardiology.\n\nWARNINGS AND PRECAUTIONS with use of Dapagliflozin:\n\n1. Volume Depletion:\n\n   Monitor for signs and symptoms of hypotension, and renal function after initiating therapy.\n2. Ketoacidosis in Patients with Diabetes Mellitus:\n\n   Educate patients on the signs and symptoms of ketoacidosis and instruct patients to discontinue Dapagliflozin and seek medical attention immediately if signs and symptoms occur.\n3. Urosepsis and Pyelonephritis:\n\n   Evaluate patients for signs and symptoms of urinary tract infections and treat promptly.\n4. Necrotizing Fasciitis of the Perineum (Fournier's Gangrene):\n\nPatients treated with dapagliflozin presenting with pain or tenderness, erythema, or swelling in the genital or perineal area, along with fever or malaise, should be assessed for necrotizing fasciitis. If suspected, start treatment immediately with broad-spectrum antibiotics and, if necessary, surgical debridement. Discontinue Dapagliflozin. Closely monitor blood glucose levels, and provide appropriate alternative therapy for glycemic control.\n\n(U.S. Food and Drug Administration, 2020) Missed items to be added: None Ethical considerations: informed consent will be obtained from the enrolled subjects in the study with clear detailed information about risks, benefits, and the right of withdrawal from the study at any time with no penalty. Ethical approval will be obtained from the ethical committee of the faculty of medicine at Helwan University."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin use in diabetic patients with anterior STEMI",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "diabetic patients with anterior STEMI without Dapagliflozin",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "label": "Dapagliflozin use in non-diabetic patients with anterior STEMI",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "Non-diabetic patients with anterior STEMI without Dapagliflozin",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin",
+          "description": "Assess the efficacy of Dapagliflozin on cardiac function and LV remodeling in acute ST elevation anterior myocardial infarction patients",
+          "armGroupLabels": [
+            "Dapagliflozin use in diabetic patients with anterior STEMI",
+            "Dapagliflozin use in non-diabetic patients with anterior STEMI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "number of patients with acute ST elevation anterior myocardial infarction who took Dapagliflozin who shows improvement in cardiac remodeling (assessed by 2D echocardiogram (by measuring GLS)",
+          "description": "GLS is global longitudinal strain which is measured by 2D echocardiogram (normal GLS \\> -20) the absolute value of GLS is decreased in impaired LV systolic function",
+          "timeFrame": "18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Assess of cardiac toxicity in patients presented with acute ST elevation anterior myocardial infarction",
+          "description": "Cardiac toxicity was defined as a decrease in the left ventricular ejection fraction by 10% or occurrence of arrhythmia",
+          "timeFrame": "18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* STEMI with time from symptom onset of \\<48 hours duration.\n* Capable of giving signed informed consent.\n\nExclusion Criteria:\n\n* Patients with a history of old myocardial infarction.\n* Patients with a history of previous coronary artery bypass surgery (CABG).\n* Hemodynamically unstable patients.\n* Patients with suboptimal echocardiographic images\n* Patients with any cardiac rhythm other than sinus rhythm.\n* Unsuccessful angiographic reperfusion (Thrombolysis In Myocardial Infarction \\[TIMI\\] flow grade \\<2).\n* Patients with renal dysfunction. (GFR\\<30mmol/L).\n* Patients who have recently undergone immunosuppressive therapy.\n* Patients with a history of recurrent urinary tract infections.\n* Patients who are known to be allergic to SGLT-2 inhibitors.\n* Chronic symptomatic heart failure within the last year and known reduced ejection fraction (LVEF≤40 %), documented before the current MI hospitalization.\n* Severe hepatic impairment (Child-Pugh class C) at the time of inclusion into the trial.\n* Any other non cardiovascular diseases, such as active malignancy requiring treatment at the time of screening or with a life expectancy of fewer than two years based on the investigator´s clinical judgment.\n* Currently on treatment with a sodium-glucose co-transporter 2 inhibitor (SGLT2-inhibitors).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Mohamed Nabil, Msc",
+          "role": "CONTACT",
+          "phone": "01026276274",
+          "email": "m_n_k_1987@hotmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Helwan University",
+          "status": "RECRUITING",
+          "city": "Cairo",
+          "country": "Egypt",
+          "contacts": [
+            {
+              "name": "Mohamed Nabil, Msc",
+              "role": "CONTACT",
+              "phone": "00201026276274",
+              "email": "m_n_k_1987@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

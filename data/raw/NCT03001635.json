@@ -1,0 +1,328 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03001635",
+      "orgStudyIdInfo": {
+        "id": "2629-15-SMC"
+      },
+      "organization": {
+        "fullName": "Sheba Medical Center",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Role of Oxytocin in Myocardial Infarction",
+      "officialTitle": "The Impact of Oxytocin Administration on Short and Long Term Prognosis in Patients Undergoing ST Elevation Myocardial Infarction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-12-14",
+      "studyFirstSubmitQcDate": "2016-12-22",
+      "studyFirstPostDateStruct": {
+        "date": "2016-12-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-12-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-12-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sheba Medical Center",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "60 patients admitted to this ICCU at the Sheba medical Center will be randomly divided in to 2 groups. one group will receive the conventional treatment while the second group will receive the conventional treatment plus oxytocin infusion for 48 hours. all participants will undergo echo and cMRI during hospitalization."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 52,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "conventional treatment and oxytocin",
+          "type": "EXPERIMENTAL",
+          "description": "26 patients admitted to the ICCU under a diagnosis of STEMI will receive treatment with oxytocin as an add on to the conventional treatment (e.g. primary PCI, aspirin, ADP receptor inhibitors, high dose statin, beta blockers \\& ACE inhibitors). At admission, a continuance infusion with oxytocin will be initiated for a time period of 6 hours. 10 units of oxytocin will be diluted in 1 liter of 0.9% normal saline. the infusion will start at a rate of 2.5 milliunits/min. dosage will be increased at a rate of 5 milliuinits/min every 30 min if there are no side effect, up to a maximum dosage of 30 milliunits/min.",
+          "interventionNames": [
+            "Drug: Oxytocin"
+          ]
+        },
+        {
+          "label": "conventional treatment only",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "26 patients admitted to the ICCU under a diagnosis of STEMI will receive the conventional treatment (e.g. primary PCI, aspirin, ADP receptor inhibitors, high dose statin, beta blockers \\& ACE inhibitors). On admission, an infusion of 0.9 normal saline will be stared as placebo.",
+          "interventionNames": [
+            "Drug: Placebos"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Oxytocin",
+          "description": "26 patients will receive Oxytocin infusion for 6h while 26 will receive placebo. all other treatments will be the same and up to date with the current guidelines.",
+          "armGroupLabels": [
+            "conventional treatment and oxytocin"
+          ],
+          "otherNames": [
+            "Pitocin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebos",
+          "description": "26 patients will receive 0.9% normal saline infusion for 6h as placebo",
+          "armGroupLabels": [
+            "conventional treatment only"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "final infarction size",
+          "description": "all patients will undergo an cMRI after 7 days",
+          "timeFrame": "1 week"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ejection fraction",
+          "description": "all patients will undergo echocardiography exam during the first 48 hours",
+          "timeFrame": "48 hours"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "number on events with ventricular arrythmia",
+          "description": "all patients will be continually monitored for ventricular arrhythmia",
+          "timeFrame": "48 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age \\> 18 years\n* current diagnosis of ST elevation myocardial infarction\n* no previous episodes of acute coronary syndrome\n* agreed to enter research\n\nExclusion Criteria:\n\n* age \\< 18 years\n* congestive heart failure (acute or chronic)\n* cardiomyopathy\n* life threatening arrhythmia at presentation\n* previous LV dysfunction\n* hypotension (systolic \\< 100mmHg, diastolic\\<50mmHg, 15% less than patients normal values)\n* tachycardia - pulse \\> 100bpm\n* bradycardia - pulse \\< 55 ppm\n* killip 3 or 4 at presentation\n* current use of nitrates\n* pregnancy\n* females - history of pathological GU bleeding\n* inability to give consent",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anat Berkovitch, resident",
+          "role": "CONTACT",
+          "phone": "972545746277",
+          "email": "anatberko@gmail.com"
+        },
+        {
+          "name": "Shlomi matetzky, Head of ICCU",
+          "role": "CONTACT",
+          "phone": "972526667122",
+          "email": "Shlomi.Matetzky@sheba.health.gov.il"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Anat Berkovitch, resident",
+          "affiliation": "Sheba Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24485867",
+          "type": "RESULT",
+          "citation": "Robinson KJ, Hazon N, Lonergan M, Pomeroy PP. Validation of an enzyme-linked immunoassay (ELISA) for plasma oxytocin in a novel mammal species reveals potential errors induced by sampling procedure. J Neurosci Methods. 2014 Apr 15;226:73-79. doi: 10.1016/j.jneumeth.2014.01.019. Epub 2014 Jan 28."
+        },
+        {
+          "pmid": "17138963",
+          "type": "RESULT",
+          "citation": "Danalache BA, Paquin J, Donghao W, Grygorczyk R, Moore JC, Mummery CL, Gutkowska J, Jankowski M. Nitric oxide signaling in oxytocin-mediated cardiomyogenesis. Stem Cells. 2007 Mar;25(3):679-88. doi: 10.1634/stemcells.2005-0610. Epub 2006 Nov 30."
+        },
+        {
+          "pmid": "21981277",
+          "type": "RESULT",
+          "citation": "Gutkowska J, Jankowski M. Oxytocin revisited: its role in cardiovascular regulation. J Neuroendocrinol. 2012 Apr;24(4):599-608. doi: 10.1111/j.1365-2826.2011.02235.x."
+        },
+        {
+          "pmid": "10811917",
+          "type": "RESULT",
+          "citation": "Jankowski M, Wang D, Hajjar F, Mukaddam-Daher S, McCann SM, Gutkowska J. Oxytocin and its receptors are synthesized in the rat vasculature. Proc Natl Acad Sci U S A. 2000 May 23;97(11):6207-11. doi: 10.1073/pnas.110137497."
+        },
+        {
+          "pmid": "20417240",
+          "type": "RESULT",
+          "citation": "Alizadeh AM, Faghihi M, Sadeghipour HR, Mohammadghasemi F, Imani A, Houshmand F, Khori V. Oxytocin protects rat heart against ischemia-reperfusion injury via pathway involving mitochondrial ATP-dependent potassium channel. Peptides. 2010 Jul;31(7):1341-5. doi: 10.1016/j.peptides.2010.04.012. Epub 2010 Apr 22."
+        },
+        {
+          "pmid": "9826739",
+          "type": "RESULT",
+          "citation": "Jankowski M, Hajjar F, Kawas SA, Mukaddam-Daher S, Hoffman G, McCann SM, Gutkowska J. Rat heart: a site of oxytocin production and action. Proc Natl Acad Sci U S A. 1998 Nov 24;95(24):14558-63. doi: 10.1073/pnas.95.24.14558."
+        },
+        {
+          "pmid": "23047939",
+          "type": "RESULT",
+          "citation": "Ondrejcakova M, Barancik M, Bartekova M, Ravingerova T, Jezova D. Prolonged oxytocin treatment in rats affects intracellular signaling and induces myocardial protection against infarction. Gen Physiol Biophys. 2012 Sep;31(3):261-70. doi: 10.4149/gpb_2012_030."
+        },
+        {
+          "pmid": "20012748",
+          "type": "RESULT",
+          "citation": "Jankowski M, Bissonauth V, Gao L, Gangal M, Wang D, Danalache B, Wang Y, Stoyanova E, Cloutier G, Blaise G, Gutkowska J. Anti-inflammatory effect of oxytocin in rat myocardial infarction. Basic Res Cardiol. 2010 Mar;105(2):205-18. doi: 10.1007/s00395-009-0076-5. Epub 2009 Dec 12."
+        },
+        {
+          "pmid": "22406244",
+          "type": "RESULT",
+          "citation": "Anvari MA, Imani A, Faghihi M, Karimian SM, Moghimian M, Khansari M. The administration of oxytocin during early reperfusion, dose-dependently protects the isolated male rat heart against ischemia/reperfusion injury. Eur J Pharmacol. 2012 May 5;682(1-3):137-41. doi: 10.1016/j.ejphar.2012.02.029. Epub 2012 Mar 3."
+        },
+        {
+          "pmid": "19858734",
+          "type": "RESULT",
+          "citation": "Authier S, Tanguay JF, Geoffroy P, Gauvin D, Bichot S, Ybarra N, Otis C, Troncy E. Cardiovascular effects of oxytocin infusion in a porcine model of myocardial infarct. J Cardiovasc Pharmacol. 2010 Jan;55(1):74-82. doi: 10.1097/FJC.0b013e3181c5e7d4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010121",
+          "term": "Oxytocin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010909",
+          "term": "Pituitary Hormones, Posterior"
+        },
+        {
+          "id": "D010907",
+          "term": "Pituitary Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

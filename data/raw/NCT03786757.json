@@ -1,0 +1,371 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03786757",
+      "orgStudyIdInfo": {
+        "id": "Cardiology-LVT Ⅱ"
+      },
+      "organization": {
+        "fullName": "RenJi Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prevention of Post-STEMI Left Ventricular Thrombus With Optimized Anticoagulant (EARLYmyo-LVT Ⅱ)",
+      "officialTitle": "Efficacy and Safety of Anticoagulant on Early Prevention of Post-STEMI Left Ventricular Thrombus: an Open, Prospective, Randomized and Multi-centers Trial."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-12",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-12-21",
+      "studyFirstSubmitQcDate": "2018-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2018-12-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-12-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-12-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RenJi Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Left ventricular thrombus is a common complication subsequent to ST-segment elevation myocardial infarction (STEMI) that related to increased embolic events. This study aims to assess the efficacy and safety outcomes of Rivaroxaban on the prevention of post-STEMI left ventricular thrombus.",
+      "detailedDescription": "According to the newest JAMA review, the incidence of left ventricular thrombus (LVT) in the ST-segment elevation myocardial infarction (STEMI) infarction patients is 15%, with particularly 25% in the anterior STEMI patients. Therefore, it is very necessary to find to strategy to prevent to the left ventricular thrombus formation in STEMI patients.\n\nIn the 2013 AHA STEMI guidelines and 2014 AHA stroke prevention guidelines, it was advised to add warfarin to traditional double anti-platelet therapy in anterior STEMI with INR between 2.0 to 2.5. However, date from 2015 to 2017 have suggested potentially less demonstrable benefits with warfarin in the prevention of LV thrombus. In an observational study of 460 patients with anterior STEMI and apical akinesis or dyskinesis who underwent PCI, Le May et al 30 compared outcomes in patients who did and did not receive warfarin. Compared with patients in the no warfarin group, patients treated with warfarin had higher rates of composite all-cause mortality, stroke, re-infarction, and major bleeding within 180 days (15% vs 5%), death (5% vs 2%), stroke (3% vs 0.3%), and major bleeding(9% vs 2%). There were no differences in LV thrombus formation between groups. Another observational study undertaken by Shavadia et al reached a similar conclusion that prophylactic warfarin use was not associated with lower composite end point of recurrent ischemia, stroke/transient ischemic attack/systemic embolism, or all-cause death but was associated with higher major bleeding rates at 1 year (2.5% vs 1.2%). The secondary analysis of the Harmonizing Outcomes With Revascularization and Stents in Acute Myocardial Infarction (HORIZONS-AMI) trial found the same results.\n\nOn the other hand, addition of Rivaroxaban to double anti-platelet therapy is very likely to be proved beneficial in STEMI patients. In the Anti-Xa Therapy to Lower Cardiovascular Events in Addition to Standard Therapy in Subjects With Acute Coronary Syndrome 2-Thrombolysis in Myocardial Infarction 51 (ATLAS ACS 2-TIMI 51) trial, the researchers found that the addition of reduced doses of rivaroxaban to double anti-platelet therapy after STEMI reduced a composite of cardiovascular death, MI, or stroke from 10.6% to 8.4% (P = .02) but increased major bleeding (2.2% vs 0.6%; P \\< .001) and intracranial hemorrhage (0.6% vs 0.1%; P = .02). However, the 2.5-mg twice-daily dose of rivaroxaban when added largely to a background of aspirin and clopidogrel significantly reduced the rate of all-cause mortality vs placebo. What's more, in 2017 the Cardiovascular Outcomes for People Using Anticoagulation Strategies (COMPASS) trial demonstrated that rivaroxaban (2.5mg twice daily) reduced the risk of ischemic events compared with placebo on a back ground of low-dose aspirin in abroad population of patients with stable coronary or peripheral artery disease. Therefore, using low dose rivaroxaban (2.5mg twice daily) to prevent post-STEMI LVT is rather promising.\n\nThis study aims to evaluate the therapeutic efficacy and safety of rivaroxaban on the prevention of post-STEMI LVT."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Segment Elevation Myocardial Infarction",
+        "Left Ventricular Thrombus"
+      ],
+      "keywords": [
+        "STEMI",
+        "left ventricular thrombus",
+        "rivaroxaban"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Rivaroxaban",
+          "type": "EXPERIMENTAL",
+          "description": "rivaroxaban will be added in addition to dual antiplatelet therapy.",
+          "interventionNames": [
+            "Drug: Rivaroxaban"
+          ]
+        },
+        {
+          "label": "dual antiplatelet therapy (DAPT)",
+          "type": "NO_INTERVENTION",
+          "description": "Conventional dual antiplatelet therapy will be adopted."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rivaroxaban",
+          "description": "Rivaroxaban 2.5mg/BID will be applied for 24 weeks unless severe safety outcome occurs. All patients in both group will take aspirin 100mg/QD, clopidogrel 75mg/QD and proton pump inhibitor during the intervention.",
+          "armGroupLabels": [
+            "Rivaroxaban"
+          ],
+          "otherNames": [
+            "Xarelto®"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The accumulative percentage of LVT formation at 24 weeks",
+          "description": "The LVT resolve will be determined monthly by follow-up imaging examination (CMR or TTE). The percentage of LVT resolve at 24 weeks will be calculated for each group.",
+          "timeFrame": "at 24 weeks"
+        },
+        {
+          "measure": "Bleeding events (ISTH criteria) through the study, an average of 24 weeks",
+          "description": "Bleeding events will be classified by the ISTH criteria. Major bleeding is defined using ISTH criteria as clinically over bleeding that is associated with: 1. A fall in hemoglobin of 2g/dL or more or 2.A transfusion of 2 or more units of packed red blood cells or whole blood, or 3.A critical site: intracranial, intraspinal, intraocular, pericardial, intra-articular, intramuscular with compartment syndrome, retropertioneal, or 4. A fatal outcome. All bleeding events will be documented through the study, an average of 24 weeks.",
+          "timeFrame": "through the study completion, an average of 24 weeks."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite major adverse events through the study, an average of 24 weeks",
+          "description": "The incidence of a composite adverse events, including all-cause death, recurrent myocardial infarction, ischemic stroke and other systemic embolism through 24 weeks will be calculated for each group.",
+          "timeFrame": "through the study completion, an average of 24 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age:18-80 years old.\n* Anterior myocardial infarction diagnosed by 1) typical ischemic symptom, 2) elevated ST segment at the J-point in two contiguous leads (ST elevation should be ≥2mm in men ≥40years; ≥2.5mm in men \\<40years, or ≥1.5mm in women regardless of age in leads V2 and V3; and ≥1mm in leads other than V2 and V3 ); 3) elevated cardiac troponin value with at least one value above 99th percentile upper reference limit（UPL); 4) confirmed by coronary angiography (CAG) or imaging evidence of new loss of anterior myocardium.\n* LVEF \\< 40% or left ventricular aneurysm detected by either cardiac magnetic resonance (CMR) or TTE during hospitalization.\n\nExclusion Criteria:\n\n* Any contraindication of anticoagulant therapy or unacceptable risk of bleeding\n\n  1. Active bleeding;\n  2. History of intracranial hemorrhage;\n  3. Clinically significant gastrointestinal bleeding within 12 months before randomization;\n  4. Thrombocytopenia, unknown severe anemia at screening or pre-randomization;\n  5. Arterial aneurysm, arterial or venous malformation and aorta dissection.\n* Except for subjects who are taking anti-thrombotic therapy (anticoagulation or anti-platelet) at the time of screening\n\n  1. After heart valvular replacement;\n  2. History of PCI or CABG;\n  3. Subacute bacterial endocarditis;\n  4. Venous thrombus, pulmonary thrombi embolism and other thrombophilia under anti-thrombotic therapy.\n* Complex heart condition\n\n  1. Cardiac shock (persistent SBP\\<90 mmHg accompanies with deficient organ perfusion after fluid infusion);\n  2. Has ventricular arrhythmias refractory to treatment at the time of randomization\n  3. Uncontrolled blood pressure (SBP≥160mmHg);\n  4. Undergone or has a CABG planned.\n* Severe complication\n\n  1. Body weigh \\<40kg or \\>125kg;\n  2. Severe chronic or acute renal failure (CrCl \\<30 mL/min at screening or pre-randomization);\n  3. Significantly liver disease，or liver function test abnormal at screening (confirmed with repeat test): ALT \\>5 times the upper limit of normal or 3 times the upper limits of normal plus total bilirubin \\>2 times the upper limits of normal;\n  4. Severe anemia (i.e. Hemoglobin\\<9g/dL) at screening or pre-randomization;\n  5. Has a current substance abuse (drug or alcohol) problem or a history within the previous 6 months;\n  6. Has any severe condition that would limit life expectancy to less than 12 months;\n  7. Known allergies, hypersensitivity, or intolerance to rivaroxaban;\n  8. Woman who is pregnant, breastfeeding or planning to become pregnant while enrolled in this study;\n  9. Has any condition that, in the opinion of the investigator, would make participation not be in the best interest (egg, compromise the well-being) of the subject or that could prevent, limit or confound the protocol-specified assessments.\n* Left ventricular thrombus (LVT) detected by either cardiac magnetic resonance (CMR) or TTE during hospitalization.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jun Pu, Professor",
+          "role": "CONTACT",
+          "phone": "08602168383164",
+          "email": "pujun310@hotmail.com"
+        },
+        {
+          "name": "Qin Shao, Professor",
+          "role": "CONTACT",
+          "phone": "08613795376228",
+          "email": "shaoqindr@126.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ren Ji Hospital Affliated to School of Medicine, Shanghai Jiao Tong University",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200127",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Jun Pu, Professor",
+              "role": "CONTACT",
+              "phone": "86-21-68383477",
+              "email": "pujun310@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27502860",
+          "type": "BACKGROUND",
+          "citation": "Lip GY, Hammerstingl C, Marin F, Cappato R, Meng IL, Kirsch B, van Eickels M, Cohen A; X-TRA study and CLOT-AF registry investigators. Left atrial thrombus resolution in atrial fibrillation or flutter: Results of a prospective study with rivaroxaban (X-TRA) and a retrospective observational registry providing baseline data (CLOT-AF). Am Heart J. 2016 Aug;178:126-34. doi: 10.1016/j.ahj.2016.05.007. Epub 2016 May 17."
+        },
+        {
+          "pmid": "24005764",
+          "type": "BACKGROUND",
+          "citation": "Nagamoto Y, Shiomi T, Matsuura T, Okahara A, Takegami K, Mine D, Shirahama T, Koga Y, Yoshida K, Sadamatsu K, Hayashida K. Resolution of a left ventricular thrombus by the thrombolytic action of dabigatran. Heart Vessels. 2014 Jul;29(4):560-2. doi: 10.1007/s00380-013-0403-5. Epub 2013 Sep 5."
+        },
+        {
+          "pmid": "28948507",
+          "type": "BACKGROUND",
+          "citation": "Smetana KS, Dunne J, Parrott K, Davis GA, Collier ACS, Covell M, Smyth S. Oral factor Xa inhibitors for the treatment of left ventricular thrombus: a case series. J Thromb Thrombolysis. 2017 Nov;44(4):519-524. doi: 10.1007/s11239-017-1560-7."
+        },
+        {
+          "pmid": "27797850",
+          "type": "BACKGROUND",
+          "citation": "Makrides CA. Resolution of left ventricular postinfarction thrombi in patients undergoing percutaneous coronary intervention using rivaroxaban in addition to dual antiplatelet therapy. BMJ Case Rep. 2016 Oct 26;2016:bcr2016217843. doi: 10.1136/bcr-2016-217843."
+        },
+        {
+          "pmid": "22995173",
+          "type": "BACKGROUND",
+          "citation": "Delewi R, Nijveldt R, Hirsch A, Marcu CB, Robbers L, Hassell ME, de Bruin RH, Vleugels J, van der Laan AM, Bouma BJ, Tio RA, Tijssen JG, van Rossum AC, Zijlstra F, Piek JJ. Left ventricular thrombus formation after acute myocardial infarction as assessed by cardiovascular magnetic resonance imaging. Eur J Radiol. 2012 Dec;81(12):3900-4. doi: 10.1016/j.ejrad.2012.06.029. Epub 2012 Sep 17."
+        },
+        {
+          "pmid": "30165437",
+          "type": "BACKGROUND",
+          "citation": "Neumann FJ, Sousa-Uva M, Ahlsson A, Alfonso F, Banning AP, Benedetto U, Byrne RA, Collet JP, Falk V, Head SJ, Juni P, Kastrati A, Koller A, Kristensen SD, Niebauer J, Richter DJ, Seferovic PM, Sibbing D, Stefanini GG, Windecker S, Yadav R, Zembala MO; ESC Scientific Document Group. 2018 ESC/EACTS Guidelines on myocardial revascularization. Eur Heart J. 2019 Jan 7;40(2):87-165. doi: 10.1093/eurheartj/ehy394. No abstract available."
+        },
+        {
+          "pmid": "23256914",
+          "type": "BACKGROUND",
+          "citation": "O'Gara PT, Kushner FG, Ascheim DD, Casey DE Jr, Chung MK, de Lemos JA, Ettinger SM, Fang JC, Fesmire FM, Franklin BA, Granger CB, Krumholz HM, Linderbaum JA, Morrow DA, Newby LK, Ornato JP, Ou N, Radford MJ, Tamis-Holland JE, Tommaso CL, Tracy CM, Woo YJ, Zhao DX. 2013 ACCF/AHA guideline for the management of ST-elevation myocardial infarction: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2013 Jan 29;61(4):e78-e140. doi: 10.1016/j.jacc.2012.11.019. Epub 2012 Dec 17. No abstract available."
+        },
+        {
+          "pmid": "25355838",
+          "type": "BACKGROUND",
+          "citation": "Meschia JF, Bushnell C, Boden-Albala B, Braun LT, Bravata DM, Chaturvedi S, Creager MA, Eckel RH, Elkind MS, Fornage M, Goldstein LB, Greenberg SM, Horvath SE, Iadecola C, Jauch EC, Moore WS, Wilson JA; American Heart Association Stroke Council; Council on Cardiovascular and Stroke Nursing; Council on Clinical Cardiology; Council on Functional Genomics and Translational Biology; Council on Hypertension. Guidelines for the primary prevention of stroke: a statement for healthcare professionals from the American Heart Association/American Stroke Association. Stroke. 2014 Dec;45(12):3754-832. doi: 10.1161/STR.0000000000000046. Epub 2014 Oct 28."
+        },
+        {
+          "pmid": "29198432",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, Caforio ALP, Crea F, Goudevenos JA, Halvorsen S, Hindricks G, Kastrati A, Lenzen MJ, Prescott E, Roffi M, Valgimigli M, Varenhorst C, Vranckx P, Widimsky P. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation. Rev Esp Cardiol (Engl Ed). 2017 Dec;70(12):1082. doi: 10.1016/j.rec.2017.11.010. No abstract available. English, Spanish."
+        },
+        {
+          "pmid": "29029233",
+          "type": "BACKGROUND",
+          "citation": "Maniwa N, Fujino M, Nakai M, Nishimura K, Miyamoto Y, Kataoka Y, Asaumi Y, Tahara Y, Nakanishi M, Anzai T, Kusano K, Akasaka T, Goto Y, Noguchi T, Yasuda S. Anticoagulation combined with antiplatelet therapy in patients with left ventricular thrombus after first acute myocardial infarction. Eur Heart J. 2018 Jan 14;39(3):201-208. doi: 10.1093/eurheartj/ehx551."
+        },
+        {
+          "pmid": "8409034",
+          "type": "BACKGROUND",
+          "citation": "Vaitkus PT, Barnathan ES. Embolic potential, prevention and management of mural thrombus complicating anterior myocardial infarction: a meta-analysis. J Am Coll Cardiol. 1993 Oct;22(4):1004-9. doi: 10.1016/0735-1097(93)90409-t."
+        },
+        {
+          "pmid": "18344689",
+          "type": "BACKGROUND",
+          "citation": "Zielinska M, Kaczmarek K, Tylkowski M. Predictors of left ventricular thrombus formation in acute myocardial infarction treated with successful primary angioplasty with stenting. Am J Med Sci. 2008 Mar;335(3):171-6. doi: 10.1097/MAJ.0b013e318142be20."
+        },
+        {
+          "pmid": "21029812",
+          "type": "BACKGROUND",
+          "citation": "Solheim S, Seljeflot I, Lunde K, Bjornerheim R, Aakhus S, Forfang K, Arnesen H. Frequency of left ventricular thrombus in patients with anterior wall acute myocardial infarction treated with percutaneous coronary intervention and dual antiplatelet therapy. Am J Cardiol. 2010 Nov 1;106(9):1197-200. doi: 10.1016/j.amjcard.2010.06.043. Epub 2010 Sep 9."
+        },
+        {
+          "pmid": "2307163",
+          "type": "BACKGROUND",
+          "citation": "Domenicucci S, Chiarella F, Bellotti P, Lupi G, Scarsi G, Vecchio C. Early appearance of left ventricular thrombi after anterior myocardial infarction: a marker of higher in-hospital mortality in patients not treated with antithrombotic drugs. Eur Heart J. 1990 Jan;11(1):51-8. doi: 10.1093/oxfordjournals.eurheartj.a059592."
+        },
+        {
+          "pmid": "7782728",
+          "type": "BACKGROUND",
+          "citation": "Mooe T, Teien D, Karp K, Eriksson P. Left ventricular thrombosis after anterior myocardial infarction with and without thrombolytic treatment. J Intern Med. 1995 Jun;237(6):563-9. doi: 10.1111/j.1365-2796.1995.tb00886.x."
+        },
+        {
+          "pmid": "2307788",
+          "type": "BACKGROUND",
+          "citation": "Keren A, Goldberg S, Gottlieb S, Klein J, Schuger C, Medina A, Tzivoni D, Stern S. Natural history of left ventricular thrombi: their appearance and resolution in the posthospitalization period of acute myocardial infarction. J Am Coll Cardiol. 1990 Mar 15;15(4):790-800. doi: 10.1016/0735-1097(90)90275-t."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069552",
+          "term": "Rivaroxaban"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009025",
+          "term": "Morpholines"
+        },
+        {
+          "id": "D010078",
+          "term": "Oxazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

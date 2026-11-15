@@ -1,0 +1,258 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06704685",
+      "orgStudyIdInfo": {
+        "id": "202409176"
+      },
+      "organization": {
+        "fullName": "Xiangya Hospital of Central South University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Randomized Controlled Trial on the Efficacy and Safety of Butylphthalide in Reducing Myocardial Infarction Size and Improving Outcomes in STEMI Patients After Primary PCI",
+      "officialTitle": "A Randomized Controlled Trial on the Efficacy and Safety of Butylphthalide in Reducing Myocardial Infarction Size and Improving Outcomes in STEMI Patients After Primary PCI - A Prospective, Multicenter, Randomized, Placebo, Double-blinded End Trial.",
+      "acronym": "RISE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-11-21",
+      "studyFirstSubmitQcDate": "2024-11-25",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Xiangya Hospital of Central South University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "CSPC Pharmaceutical Group Limited",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a prospective, randomized, placebo-double-blind, multicenter clinical trial. The purpose of this study is to investigate whether \"butylphthalide +PCI\" combined treatment mode on the basis of traditional drug therapy could reduce myocardial infarct size, improve cardiac function and long-term prognosis of patients with acute myocardial infarction, and verify the drug safety of butylphthalide in the treatment of STEMI within the window period of 12 hours."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-segment Elevation Myocardial Infarction (STEMI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The subjects will be randomly assigned in a 1:1 ratio to two groups: a butylphthalide group and a placebo group.The Butylphthalide group received 100ml of butylphthalide injection twice a day for 7±2 days, followed by butylphthalide soft capsules (2 capsules, three times a day) from the day of discharge to day 30±2. The placebo group received the same dosage of butylphthalide injection and soft capsules placebo.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Butylphthalide group",
+          "type": "EXPERIMENTAL",
+          "description": "The Butylphthalide group received 100ml of butylphthalide injection twice a day for 7±2 days, followed by butylphthalide soft capsules (2 capsules, three times a day) from the day of discharge to day 30±2.",
+          "interventionNames": [
+            "Drug: Butylphthalide"
+          ]
+        },
+        {
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "The placebo group received 100ml of butylphthalide placebo injection twice a day for 7±2 days, followed by butylphthalide placebo soft capsules (2 capsules, three times a day) from the day of discharge to day 30±2.",
+          "interventionNames": [
+            "Drug: Butylphthalide placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Butylphthalide",
+          "description": "Subjects who were initially diagnosed with STEMI and scheduled for PCI were randomly assigned to one of two groups in a 1:1 ratio: a butylphthalide group and a placebo group.",
+          "armGroupLabels": [
+            "Butylphthalide group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Butylphthalide placebo",
+          "description": "Butylphthalide placebo",
+          "armGroupLabels": [
+            "Placebo group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The efficacy in reducing myocardial infarct size in subjects with STEMI after primary PCI",
+          "description": "To evaluate the efficacy of butylphthalide injection versus placebo in reducing myocardial infarct size at day 30 in patients with STEMI after primary PCI.",
+          "timeFrame": "30±2 days post-randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The proportion of no-reflow and severe slow flow events",
+          "description": "The proportion of no-reflow and severe slow flow events on day 30±2 after randomization (TFG\\<2 is defined as slow flow events and angiographic score).",
+          "timeFrame": "30±2 days post-randomization"
+        },
+        {
+          "measure": "The changes of ST-segment resolution in electrocardiogram",
+          "description": "ST-segment resolution of electrocardiogram at 7±2 days and 30±2 days after randomization.",
+          "timeFrame": "7±2 days and 30±2 days post-randomization"
+        },
+        {
+          "measure": "CMR imaging cardiac function indexes and cardiac color Doppler ultrasound related indexes",
+          "description": "CMR examination of microcirculation obstruction area, delayed enhancement phenomenon, left ventricular ejection fraction (LVEF%) and other CMR imaging cardiac function indicators and cardiac color Doppler ultrasound related indicators.",
+          "timeFrame": "30±2 days post-randomization"
+        },
+        {
+          "measure": "The decline of myocardial enzyme indexes",
+          "description": "Myocardial enzyme indexes (CK-MB, troponin I or T) decline at 7±2 days and 30±2 days of randomization.",
+          "timeFrame": "7±2 days and 30±2 days post-randomization"
+        },
+        {
+          "measure": "Proportion of combined vascular events",
+          "description": "Rate of combined vascular events (symptomatic stroke, recurrent myocardial infarction, vascular death) at 30±2 days after randomization.",
+          "timeFrame": "30±2 days post-randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age range of 18-75 years, encompassing both genders;\n2. Patients presenting with an initial clinical diagnosis of acute ST-segment elevation myocardial infarction (STEMI), within a maximum time frame of 12 hours from the onset of pain to consideration for trial inclusion, who fulfill the criteria for percutaneous coronary intervention (PCI) and express their intention to undergo PCI;\n3. The subject and their legal representative possess the capacity and willingness to provide informed consent by signing.\n\nExclusion Criteria:\n\n1. Uncontrolled hypertension (systolic blood pressure≥200mmHg and/or diastolic blood pressure≥110mmHg);\n2. Previous PCI or CABG;\n3. Long-term use of loading doses of anticoagulant or antiplatelet drugs;\n4. History of hemorrhagic stroke or ischemic stroke within 6 months, peptic ulcer, prolonged cardiopulmonary resuscitation (more than 10 minutes) within the last 6 weeks, surgery, or major trauma;\n5. Known allergy to butylphthalide or excipients;\n6. Patients with any of the following conditions: cardiogenic shock, chronic congestive heart failure NYHA class ≥III, severe hypotension, pulmonary insufficiency, severe hepatic and renal insufficiency;\n7. History of congenital or acquired hemorrhagic diseases, coagulation factor deficiency diseases, thrombocytopenic diseases, etc. Or any of the following laboratory tests (INR \\> 2.0, platelet count \\< 100×109/L, Hb \\< 10g/dl);\n8. Pregnancy, lactation, and planning to become pregnant within 30 days;\n9. Severe mental disorder, alcohol dependence or inability to cooperate with informed consent and follow-up due to dementia;\n10. Concurrent malignant tumor or severe systemic disease with expected survival time less than 30 days;\n11. Have participated in or are currently participating in another clinical intervention study within 30 days before randomization;\n12. Other reasons for not being eligible for the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Le Zhang",
+          "role": "CONTACT",
+          "phone": "86+13973187150",
+          "email": "zlzdzlzd@csu.edu.cn"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C027125",
+          "term": "3-n-butylphthalide"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

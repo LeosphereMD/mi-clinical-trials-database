@@ -1,0 +1,297 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01774838",
+      "orgStudyIdInfo": {
+        "id": "Uni-Koeln-1649"
+      },
+      "organization": {
+        "fullName": "University of Cologne",
+        "class": "OTHER"
+      },
+      "briefTitle": "Vasoactive and Anti-inflammatory Effects of Prasugrel in Acute Coronary Syndrome",
+      "officialTitle": "Vasoactive and Anti-inflammatory Effects of Prasugrel in Acute Coronary Syndrome"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-01-16",
+      "studyFirstSubmitQcDate": "2013-01-21",
+      "studyFirstPostDateStruct": {
+        "date": "2013-01-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-06-11",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Tanja Rudolph",
+        "investigatorTitle": "Consultant",
+        "investigatorAffiliation": "University of Cologne"
+      },
+      "leadSponsor": {
+        "name": "University of Cologne",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To test the vasoactive and anti-inflammatory effects of prasugrel in patients with acute coronary syndrome endothelial function -as a surrogate parameter of NO bioavailability- and different markers of inflammation, oxidative stress and platelet activation will be assessed in patients with unstable angina.",
+      "detailedDescription": "Trial Objectives To test the vasoactive and anti-inflammatory effects of prasugrel in patients with acute coronary syndrome, endothelial function -as a surrogate parameter of NO bioavailability- and different markers of inflammation, oxidative stress and platelet activation will be assessed in patients with unstable angina.\n\nTrial Design Single center, double blind, double-dummy, randomized, parallel trial.\n\nEndpoints\n\nPrimary Endpoint Assessment of endothelial function (FMD) via high-resolution ultrasound (Sonoline G50, 12 MHz linear array transducer, Siemens, Germany) by experienced sonographer.\n\nSecondary Endpoints\n\n* Non-invasive assessment of microvascular perfusion and oxygen saturation by laser Doppler perfusion imaging and tissue spectrometry (O2C, Lea Medizintechnik, Giessen, Germany)\n* Determination of leukocyte activity: plasma MPO levels (ELISA), plasma elastase levels (ELISA)\n* Assessment of platelet activity: plasma levels of sCD40 ligand (ELISA), RANTES (ELISA)\n* Measurement of different oxidative stress markers: hsCRP (ELISA), CD40 ligand (ELISA), carbonylated proteins (ELISA), urinary 8-iso-PGF2α (gas chromatography mass spectrometry)\n* Determination of platelet-leukocyte aggregates by fluorescent activated cell sorter (FACS)\n* Assessment of platelet function (PADA-test)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "Unstable Angina"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 49,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "3 months treatment with 10 mg prasugrel",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "3 months treatment with clopidogrel 75 mg",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "3 months treatment",
+          "armGroupLabels": [
+            "Prasugrel"
+          ],
+          "otherNames": [
+            "Efient"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "3 months treatment",
+          "armGroupLabels": [
+            "Clopidogrel"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Assessment of endothelial function (FMD) via high-resolution ultrasound (Sonoline G50, 12 MHz linear array transducer, Siemens, Germany) by experienced sonographer",
+          "description": "The primary endpoint is the change of endothelial function given in % from baseline to 3 months after therapy with prasugrel versus clopidogrel.",
+          "timeFrame": "baseline and after 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute coronary syndrome, unstable angina\n* planned percutaneous coronary intervention\n* Written informed consent\n\nExclusion Criteria:\n\n* \\- Age \\< 18 years or ≥75 years\n* Body weight \\< 60 kg\n* STEMI, NSTEMI\n* Cardiogenic shock at the time of randomization\n* Refractory ventricular arrhythmias\n* Congestive heart failure (NYHA IV)\n* Increased risk of bleeding\n* Active internal bleeding or history of hemorrhagic diathesis\n* History of TIA, ischemic or hemorrhagic stroke\n* Intracranial neoplasm, aneurysm and arteriovenous malformation\n* INR \\> 1.5 at screening\n* Platelets \\< 100,000/ml\n* Anemia (Hb \\< 10 g/dl) at screening\n* One or more doses of a thienopyridine 5 d or less before PCI\n* Oral anticoagulation which cannot be safely discontinued for the duration of the study\n* One or more doses of a thienopyridine 5 d or less before PCI\n* Treatment within the last 30 d with an investigational drug or are presently enrolled in another drug or device study\n* Women who are known to be pregnant, have given birth within the past 90 d, or are breast-feeding\n* Concomitant medical illness that in the opinion of the investigator is associated with reduced survival over the expected treatment period\n* Known severe hepatic dysfunction\n* Any condition associated with poor treatment compliance, including alcoholism, mental illness, or drug dependence\n* Intolerance of or allergy to aspirin, ticlopidine, or clopidogrel",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Tanja Rudolph, MD",
+          "affiliation": "University Hospital of Cologne",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiology, University Hospital of Cologne",
+          "city": "Cologne",
+          "zip": "50937",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

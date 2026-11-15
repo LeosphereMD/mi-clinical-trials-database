@@ -1,0 +1,300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01835353",
+      "orgStudyIdInfo": {
+        "id": "PATRASCARDIOLOGY-13"
+      },
+      "organization": {
+        "fullName": "University of Patras",
+        "class": "OTHER"
+      },
+      "briefTitle": "High (100mg) Versus Standard (60mg) Loading Dose of Prasugrel in Patients With ST-elevation Myocardial Infarction (STEMI), Undergoing Primary Percutaneous Coronary Intervention (PCI)",
+      "officialTitle": "High (100mg) Versus Standard (60mg) Loading Dose of Prasugrel in Patients With ST-elevation Myocardial Infarction (STEMI), Undergoing Primary Percutaneous Coronary Intervention (PCI)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-04-15",
+      "studyFirstSubmitQcDate": "2013-04-15",
+      "studyFirstPostDateStruct": {
+        "date": "2013-04-18",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-09-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-09-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dimitrios Alexopoulos",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Patras"
+      },
+      "leadSponsor": {
+        "name": "University of Patras",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, multi-center, non-randomized, controlled study in 2 sequential groups of P2Y12 inhibitor-naive consecutive STEMI patients undergoing primary PCI. Following aspirin 325 mg LD, patients will receive 60 mg or 100 mg of prasugrel, respectively. Platelet reactivity (PR)will be assessed at Hour 0 (before prasugrel's administration immediately prior to PCI) and at Hours 0.5, 1, 2, 4 thereafter. Platelet function testing (in PRU) will be performed with the VerifyNow (Accumetrics Inc., San Diego, CA, USA) P2Y12 function assay."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Platelet Reactivity"
+      ],
+      "keywords": [
+        "prasugrel",
+        "ST elevation myocardial infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 82,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel 100mg loading dose",
+          "type": "EXPERIMENTAL",
+          "description": "Prasugrel 100mg loading dose",
+          "interventionNames": [
+            "Drug: Prasugrel 100mg loading dose"
+          ]
+        },
+        {
+          "label": "Prasugrel 60mg loading dose",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Prasugrel 60mg loading dose"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel 100mg loading dose",
+          "armGroupLabels": [
+            "Prasugrel 100mg loading dose"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prasugrel 60mg loading dose",
+          "description": "Prasugrel 60mg loading dose",
+          "armGroupLabels": [
+            "Prasugrel 60mg loading dose"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet reactivity in Platelet reactivity units (PRU) at Hour 2",
+          "description": "Platelet reactivity in Platelet reactivity units (PRU) 2 hours post randomization",
+          "timeFrame": "2 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Platelet reactivity in platelet reactivity units (PRU)at hour 1",
+          "description": "Platelet reactivity in platelet reactivity units (PRU)1 hour post randomization",
+          "timeFrame": "1 hour"
+        },
+        {
+          "measure": "Platelet reactivity in platelet reactivity units (PRU)at hour 0.5",
+          "description": "Platelet reactivity in platelet reactivity units (PRU)0.5 hour post randomization",
+          "timeFrame": "0.5 hours"
+        },
+        {
+          "measure": "Platelet reactivity in platelet reactivity units (PRU)at hour 4",
+          "description": "Platelet reactivity in platelet reactivity units (PRU)4 hours post randomization",
+          "timeFrame": "4 hours"
+        },
+        {
+          "measure": "High platelet reactivity rate (208 PRU threshold) at 0.5 hour",
+          "description": "High platelet reactivity rate (208 PRU threshold) 0.5 hour post randomization",
+          "timeFrame": "0.5 hour"
+        },
+        {
+          "measure": "High platelet reactivity rate (208 PRU threshold) at 1 hour",
+          "description": "High platelet reactivity rate (208 PRU threshold) 1 hour post randomization",
+          "timeFrame": "1 hour"
+        },
+        {
+          "measure": "High platelet reactivity rate (208 PRU threshold) at 2 hour",
+          "description": "High platelet reactivity rate (208 PRU threshold) 2 hours post randomization",
+          "timeFrame": "2 hours"
+        },
+        {
+          "measure": "High platelet reactivity rate (208 PRU threshold) at 4 hour",
+          "description": "High platelet reactivity rate (208 PRU threshold) 4 hours post randomization",
+          "timeFrame": "4 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ST elevation myocardial infarction\n* Pain onset \\<12 hours\n* Age \\>18 and \\<75 years\n* Written informed consent\n\nExclusion Criteria:\n\n* history of stroke/transient ischemic attack\n* oral anticoagulation\n* hemodynamic instability\n* platelet count \\<100000/μL\n* hematocrit \\<30%\n* creatinine clearance \\<30 ml/min\n* severe hepatic dysfunction\n* active bleeding\n* weight \\<60 Kg\n* periprocedural IIb/IIIa inhibitor administration",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "74 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Dimitrios Alexopoulos",
+          "city": "Pátrai",
+          "state": "Achaia",
+          "zip": "26500",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.2462,
+            "lon": 21.73508
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24668226",
+          "type": "DERIVED",
+          "citation": "Alexopoulos D, Makris G, Xanthopoulou I, Patsilinakos S, Deftereos S, Gkizas V, Perperis A, Karanikas S, Angelidis C, Tsigkas G, Koutsogiannis N, Hahalis G, Davlouros P. Onset of antiplatelet action with high (100 mg) versus standard (60 mg) loading dose of prasugrel in patients with ST-segment-elevation myocardial infarction undergoing primary percutaneous coronary intervention: pharmacodynamic study. Circ Cardiovasc Interv. 2014 Apr;7(2):233-9. doi: 10.1161/CIRCINTERVENTIONS.113.001118. Epub 2014 Mar 25."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

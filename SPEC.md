@@ -28,6 +28,7 @@ transparent.
 |---|---|---|---|
 | 1 | Fetch trials from the API | `data/` (raw JSON) | script |
 | 2 | Load into SQLite | `data/` | script |
+| 2b | Registry hand-check: a sample of registry values checked against the ClinicalTrials.gov website (see "Registry hand-check") | `review/` | script makes the sheet, project owner checks |
 | 3 | Find the papers and place the PDFs | `papers/` | project owner, by hand |
 | 4 | Extract results from the PDFs | `extractions/` | AI agent |
 | 5 | Verify each extracted value against the PDF | `verifications/` | second AI agent |
@@ -50,6 +51,8 @@ Settled by the project owner on 2026-11-14.
    terms include "Myocardial Infarction" (or a child term) or "Acute Coronary
    Syndrome". Add a population column: STEMI / NSTEMI / MI unspecified /
    ACS (mixed). Every analysis can be run for all trials and for MI-only trials.
+   Updated 2026-11-15: five population labels with a source column; see
+   "Population label".
 2. **Phase.** Phase 3 only, or also combined "Phase 2/Phase 3" trials?
    Choice: Phase 3 and Phase 2/3. Store the phase label so Phase 2/3 can be
    filtered out later.
@@ -139,7 +142,10 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
 1. **`trials`**: one row per trial. nct_id (key), title, phase_label,
    overall_status, why_stopped, start_date, start_date_type, completion_date,
    completion_date_type, enrollment, enrollment_type, lead_sponsor,
-   sponsor_class, population (STEMI / NSTEMI / MI unspecified / ACS mixed),
+   sponsor_class, population (STEMI / NSTEMI / STEMI + NSTEMI / ACS mixed /
+   MI unspecified; see "Population label"), population_source (mesh / title /
+   conditions / eligibility), n_countries (number of distinct countries in
+   `trial_countries`; empty if the registry lists no locations),
    has_device_or_procedure, allocation, masking, has_results, last_updated,
    publication_status (found / no publication found / not yet searched),
    raw_json_file, first_seen_run, last_seen_run.
@@ -209,6 +215,14 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
     status (MATCH / POSSIBLE_EXTRACTION_ERROR / DISCLOSED_CHANGE /
     UNDISCLOSED_DIFFERENCE), history_url, checked_at, and the project owner's
     final_classification (same four values), owner_comment, classified_at.
+12. **`trial_countries`**: one row per country where a trial has sites (from
+    the registry's location list, each country once). nct_id, country.
+13. **`registry_checks`**: the project owner's registry hand-check decisions
+    (see "Registry hand-check"). check_id (key), nct_id, field, db_value,
+    selection_reason (random trial / text-based population / MeSH population
+    sample), fetch_run_id (the download the value came from), decision
+    (approve / correct / changed since download), corrected_value (required
+    when the decision is correct), comment, decided_at.
 
 ### How the tables connect
 ```
@@ -218,7 +232,89 @@ trials --many:many via trial_publications--> publications
 extracted_values --> trials, publications, arms (optional)
 review_decisions --many:1--> extracted_values
 outcome_comparisons --> trials, publications, registered_outcomes
+trials --1:many--> trial_countries, registry_checks
 ```
+
+## Population label
+Added on 2026-11-15. It replaces the four labels in decision 1 with five.
+Each trial gets one label and a population_source that says where the label
+came from, so every label can be checked. The rules apply in this order; the
+first one that fits wins.
+
+1. MeSH condition terms include "Acute Coronary Syndrome" or "Angina,
+   Unstable" → **ACS mixed** (source: mesh). This is the only way a trial
+   gets this label.
+2. MeSH terms include both "ST Elevation Myocardial Infarction" and
+   "Non-ST Elevated Myocardial Infarction" → **STEMI + NSTEMI** (mesh).
+3. MeSH terms include only the STEMI term → **STEMI**; only the NSTEMI term →
+   **NSTEMI** (mesh).
+4. MeSH gives only "Myocardial Infarction" (or other MI terms that are neither
+   STEMI nor NSTEMI): search the text instead, in this order: the title, the
+   conditions list, then the eligibility text. Search terms: "STEMI",
+   "ST-elevation" and "ST-segment elevation" (STEMI); "NSTEMI",
+   "non-ST-elevation" and "non-ST-segment elevation" (NSTEMI). The
+   "ST-segment" forms were added on 2026-11-15.
+   The first of the three that mentions either one sets the label: STEMI,
+   NSTEMI, or STEMI + NSTEMI if both appear. Source: title, conditions or
+   eligibility.
+   - "NSTEMI" never counts as a hit for "STEMI", and "non-ST-elevation" never
+     counts for "ST-elevation". A hyphen or a space is accepted ("ST elevation").
+     "Non-STEMI" counts as NSTEMI, the same as "non-ST-elevation".
+   - "The title" means both the brief and the official title.
+   - Eligibility: only the inclusion criteria are searched, i.e. the text
+     before the "Exclusion Criteria" heading (settled by the project owner on
+     2026-11-15). If the text has no such heading, the eligibility text is not
+     used, because an excluded group could give a wrong label.
+5. No hit anywhere → **MI unspecified** (source: mesh).
+
+The text search never produces ACS mixed.
+
+## Registry hand-check
+Added on 2026-11-15. This is pipeline step 2b, after the trials are loaded. The
+project owner compares database values with the trial's page on the
+ClinicalTrials.gov website.
+
+### What goes on the sheet
+Random draws use a fixed seed, which is recorded in the script and printed on
+the sheet.
+1. **15 random trials**, with all key fields: phase, overall status, start
+   date, enrollment and enrollment type, lead sponsor, primary outcome, and
+   population.
+2. **Every population label that came from text** (source title, conditions or
+   eligibility), for the population field.
+3. **A random 15% of the MeSH-based labels** (source mesh, rounded up), for the
+   population field.
+
+A trial picked in more than one way appears once per field, with every reason
+listed.
+
+### The sheet
+An Excel file in `review/`, one row per trial and field. It shows:
+- the NCT ID and a link to the trial's page (`https://clinicaltrials.gov/study/<NCT ID>`)
+- the field and the database value
+- for population: the source and the matching words
+- why the row was picked, and the download date of the value
+- columns for the decision (approve / correct / changed since download),
+  corrected value and comment
+
+"Changed since download" is for values the registry updated after our
+download. These are not errors.
+
+### Where decisions are stored
+In `registry_checks` (table 13). Like `review_decisions`, rows are never edited
+or deleted; a new decision is added instead. A correction does not overwrite
+`trials`, because the next download would undo it. Analyses use the latest
+correction where one exists.
+
+## Population check against the paper (Phase 3)
+Added on 2026-11-15. It is built in Phase 3, together with the verifier.
+- The verifier reads the paper's study population (STEMI / NSTEMI / STEMI +
+  NSTEMI / ACS mixed / MI unspecified), with an exact quote and page. It is
+  stored as a whole-trial value in `extracted_values` (field "population").
+- Code compares it with `trials.population` (or the latest registry-check
+  correction, if there is one). A disagreement flags the value, so it goes
+  to the project owner's review sheet with both labels, the paper quote and
+  page, and the registry source.
 
 ## Outcome-switch check
 Added on 2026-11-14. It is built in Phase 3, after the extractor and verifier

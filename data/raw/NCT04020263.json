@@ -1,0 +1,1095 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04020263",
+      "orgStudyIdInfo": {
+        "id": "2024-513811-29-00"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2024-513811-29-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Central Hospital, Nancy, France",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Early Use of Levosimendan Versus Placebo on Top of a Conventional Strategy of Inotrope Use on a Combined Morbidity-mortality Endpoint in Patients With Cardiogenic Shock",
+      "officialTitle": "Effect of Early Use of Levosimendan Versus Placebo on Top of a Conventional Strategy of Inotrope Use on a Combined Morbidity-mortality Endpoint in Patients With Cardiogenic Shock",
+      "acronym": "LevoHeartShock"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-07-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-01-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-06-28",
+      "studyFirstSubmitQcDate": "2019-07-11",
+      "studyFirstPostDateStruct": {
+        "date": "2019-07-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Pr Bruno LEVY",
+        "investigatorTitle": "Investigator coordonnator",
+        "investigatorAffiliation": "Central Hospital, Nancy, France"
+      },
+      "leadSponsor": {
+        "name": "Pr Bruno LEVY",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiogenic shock (CS) mortality remains high (40%). Despite their frequent use, few clinical outcome data are available to guide the initial selection of vasoactive drug therapies in patients with CS. Based on experts' opinions, the combination of norepinephrine-dobutamine is generally recommended as a first line strategy. Inotropic agents increase myocardial contractility, thereby increasing cardiac output. Dobutamine is commonly recommended to be the inotropic agent of choice and levosimendan is generally used following dobutamine failure. It may represent an ideal agent in cardiogenic shock, since it improves myocardial contractility without increasing cAMP or calcium concentration. At present, there are no convincing data to support a specific inotropic agent in patients with cardiogenic shock. Our hypothesis is that the early use of levosimendan, by enabling the discontinuation of dobutamine, would accelerate the resolution of signs of low cardiac output and facilitate myocardial recovery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ],
+      "keywords": [
+        "heart failure",
+        "levosimendan"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The LevoHeartShock trial is a prospective, double-blind, multicenter, randomized controlled trial comparing the early initiation of levosimendan versus placebo in patients with cardiogenic shock treated with vasopressor therapy according to a conventional strategy of inotrope use (dobutamine as first line agent).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "The study will be double-blinded. Investigator masking to group assignment after randomization will be guaranteed by use of a placebo.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 610,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Levosimendan",
+          "type": "EXPERIMENTAL",
+          "description": "Experimental group: patients with cardiogenic shock treated with levosimendan in addition to the conventional strategy.",
+          "interventionNames": [
+            "Drug: Levosimendan 2.5 MG/ML Injectable Solution"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Control group: Patients with cardiogenic shock treated with placebo (Cernevit/Soluvit) in addition to the conventional strategy.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Levosimendan 2.5 MG/ML Injectable Solution",
+          "description": "Levosimendan will be diluted with Glucose G5%. The reconstitution of levosimendan will be performed, as close as possible to the start of the infusion. A continuous infusion of levosimendan will be administered over 24 h without bolus, started at a rate of 0.1 μg per kilogram of body weight per minute and, in both the persistence of hypoperfusion signs and in the absence of rate-limiting side effects, will be increased after 2 to 4 hours to a maximum of 0.2 μg per kilogram per minute for a further 20 to 22 hours.",
+          "armGroupLabels": [
+            "Levosimendan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo will be diluted with Glucose G5%. The reconstitution of Placebo will be performed, as close as possible to the start of the infusion. A continuous infusion of Placebo will be administered over 24 h without bolus, started at a rate of 0.1 μg per kilogram of body weight per minute and, in both the persistence of hypoperfusion signs and in the absence of rate-limiting side effects, will be increased after 2 to 4 hours to a maximum of 0.2 μg per kilogram per minute for a further 20 to 22 hours.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of All-cause mortality",
+          "description": "Composite endpoint (i.e. All-cause Mortality and/or Extra Corporel Life Support implantation and/or dialysis)",
+          "timeFrame": "Day 30 following randomization"
+        },
+        {
+          "measure": "Proportion of Extra Corporel Life Support implantation",
+          "description": "Composite endpoint (i.e. All-cause Mortality and/or Extra Corporel Life Support implantation and/or dialysis)",
+          "timeFrame": "Day 30 following randomization"
+        },
+        {
+          "measure": "Proportion of Dialysis",
+          "description": "Composite endpoint (i.e. All-cause Mortality and/or Extra Corporel Life Support implantation and/or dialysis)",
+          "timeFrame": "Day 30 following randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to death",
+          "description": "Prioritized composite endpoint with the following priority order: 1/ time to death, 2/ escalation to permanent left ventricular assist device or cardiac transplantation, 3/ dialysis, 4/ ECLS requirement, 5/ number of cardiovascular events (stroke, recurrent myocardial infarction, urgent coronary revascularization, re-hospitalization for heart failure).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Time to escalation to permanent left ventricular assist device or cardiac transplantation",
+          "description": "Prioritized composite endpoint with the following priority order: 1/ time to death, 2/ escalation to permanent left ventricular assist device or cardiac transplantation, 3/ dialysis, 4/ ECLS requirement, 5/ number of cardiovascular events (stroke, recurrent myocardial infarction, urgent coronary revascularization, re-hospitalization for heart failure).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Time to dialysis",
+          "description": "Prioritized composite endpoint with the following priority order: 1/ time to death, 2/ escalation to permanent left ventricular assist device or cardiac transplantation, 3/ dialysis, 4/ ECLS requirement, 5/ number of cardiovascular events (stroke, recurrent myocardial infarction, urgent coronary revascularization, re-hospitalization for heart failure).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Time to ECLS requirement",
+          "description": "Prioritized composite endpoint with the following priority order: 1/ time to death, 2/ escalation to permanent left ventricular assist device or cardiac transplantation, 3/ dialysis, 4/ ECLS requirement, 5/ number of cardiovascular events (stroke, recurrent myocardial infarction, urgent coronary revascularization, re-hospitalization for heart failure).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "number of cardiovascular events",
+          "description": "Prioritized composite endpoint with the following priority order: 1/ time to death, 2/ escalation to permanent left ventricular assist device or cardiac transplantation, 3/ dialysis, 4/ ECLS requirement, 5/ number of cardiovascular events (stroke, recurrent myocardial infarction, urgent coronary revascularization, re-hospitalization for heart failure).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of death.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of Extra Corporel Life Support implantation",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of dialysis",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of cardiac transplantation",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of escalation to permanent Left Ventricular Assist Device",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of stroke",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of recurrent myocardial infarction",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of urgent coronary revascularization",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of re-hospitalization for heart failure",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of All-cause mortality",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis on day 90.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of Extra Corporel Life Support implantation",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis on day 90.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Proportion of Dialysis",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis on day 90.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "Number of dobutamine free days",
+          "timeFrame": "From randomization to day 30"
+        },
+        {
+          "measure": "Number of vasopressors free days",
+          "timeFrame": "From randomization to day 30"
+        },
+        {
+          "measure": "Number of ventilatory free days",
+          "timeFrame": "From randomization to day 30"
+        },
+        {
+          "measure": "Number of renal replacement free days",
+          "timeFrame": "From randomization to day 90"
+        },
+        {
+          "measure": "Lactate clearance",
+          "timeFrame": "from randomization to day 7"
+        },
+        {
+          "measure": "Duration of intensive care unit stay",
+          "timeFrame": "Up to Intensive Care Unit discharge (assessed up to 1 month)"
+        },
+        {
+          "measure": "Duration of hospitalization",
+          "timeFrame": "Up to hospitalization discharge (assessed up to 1 month)"
+        },
+        {
+          "measure": "Proportion of All-cause mortality",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis",
+          "timeFrame": "days 7, 60, and 180 days and 12 months"
+        },
+        {
+          "measure": "Proportion of Extra Corporel Life Support implantation",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis",
+          "timeFrame": "days 7, 60, and 180 days and 12 months"
+        },
+        {
+          "measure": "Proportion of dialysis",
+          "description": "Composite endpoint of all-cause mortality and/or ECLS requirement and/or dialysis",
+          "timeFrame": "days 7, 60, and 180 days and 12 months"
+        },
+        {
+          "measure": "Number of renal replacement free days",
+          "timeFrame": "D 30, 60, 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion of death",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion of Extra Corporel Life Support implantation",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion of dialysis",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "proportion of cardiac transplantation",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "proportion of escalation to permanent left ventricular assist device",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion of stroke",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion of recurrent myocardial infarction",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Proportion urgent coronary revascularization",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "proportion of re-hospitalization for heart failure",
+          "timeFrame": "days 180 and at 12 months"
+        },
+        {
+          "measure": "Occurrence of arrhythmias requiring therapy",
+          "description": "Occurrence of arrhythmias requiring therapy with anti-arrhythmic drugs or electric cardioversion (including atrial fibrillation, ventricular tachycardia, ventricular fibrillation, torsade de pointe)",
+          "timeFrame": "from randomization to intensive care unit discharge."
+        },
+        {
+          "measure": "the changes in biomarkers",
+          "description": "From a dedicated biological collection on which we will measure existing and future biological parameters, we will evaluate the effect of Levosimendan on the changes in biomarkers between randomization and ICU/CCU discharge",
+          "timeFrame": "from randomization to intensive care unit discharge."
+        },
+        {
+          "measure": "All-cause mortality and/or ECLS and/or dialysis",
+          "description": "From a dedicated biological collection on which we will measure existing and future biological parameters, we will evaluate the ability of clinical and biological measure to predict levosimendan effect for the primary endpoint.",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "All-cause mortality and/or ECLS and/or dialysis",
+          "description": "From a dedicated biological collection on which we will measure existing and future biological parameters, we will evaluate the ability of biological measure to predict subsequent outcome",
+          "timeFrame": "At intensive care unit discharge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAdult patient ≥ 18 years with cardiogenic shock defined by:\n\n* Adequate intravascular volume\n* Norepinephrine to maintain MAP at least at 65 mmHg for at least 3 hours and less than 24h. At inclusion the dose must be \\<1 microgram/kg/min under norepinephrine base or \\<2 microgram/kg/min under norepinephrine tartrate, OR/AND Dobutamine since at least 3h and less than 24h at inclusion.\n* Tissue hypoperfusion: at least 1 sign within 24h prior to inclusion (lactate ≥ 2 mmol/l; mottling, capillary refeel time \\> 3 seconds, oliguria \\<500ml/24h or ≤ 20 ml/h during the last 2 hours, ScVO2 ≤ 60% or veno-arterial PCO2 gap ≥ 5 mmHg);\n\nExclusion Criteria:\n\n* Myocardial sideration after cardiac arrest of non-cardiac etiology\n* Immediate or anticipated (within 6 hours) indication of Extra Corporel Life Support\n* Use of VA-ECMO or IMPELLA or LVAD;\n* Chronic renal failure requiring hemodialysis\n* Cardiotoxic poisoning\n* Septic cardiomyopathy\n* Previous levosimendan administration within 15 days\n* Cardiac arrest with non-shockable rhythm;\n* No flow time higher \\> 3 minutes;\n* Cardiac arrest with unknown no flow duration;\n* Total duration of cardiac arrest (no flow plus low flow) \\> 45 minutes;\n* Cerebral deficit with fixed dilated pupils\n* Patient moribund on the day of enrollment\n* Irreversible neurological pathology\n* Known hypersensitivity to levosimendan or placebo, or one of its excipients\n* Pregnant woman, birthing or breastfeeding mother\n* Minor (not emancipated)\n* Person deprived of liberty for judicial or administrative decision;\n* Adult subject to a legal protection measure (such as guardianship, conservatorship)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Bruno LEVY, Pr",
+          "role": "CONTACT",
+          "phone": "+33 3 83 15 40 84",
+          "email": "b.levy@chru-nancy.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clément DELMAS, Dr",
+          "affiliation": "University Hospital, Toulouse",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Nicolas GIRERD, Pr",
+          "affiliation": "CHRU Nancy",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Patrick ROSSIGNOL, Pr",
+          "affiliation": "CHRU Nancy",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHRU Strasbourg -Nouvel Hôpital Civil",
+          "status": "RECRUITING",
+          "city": "Strasbourg",
+          "state": "Bas-Rhin",
+          "zip": "67091",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Ferhat MEZIANI, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ferhat MEZIANI, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "AP-HM, Nord Hospital, Marseille",
+          "status": "RECRUITING",
+          "city": "Marseille",
+          "state": "Bouches du Rhône",
+          "zip": "13015",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Laurent Bonello, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Laurent Bonello, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "CHU Caen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Caen",
+          "state": "Calvados",
+          "zip": "14000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Katrien Blanchart, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Katrien Blanchart, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "CHU Dijon",
+          "status": "RECRUITING",
+          "city": "Dijon",
+          "state": "Côte d'Or",
+          "zip": "21000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jean-Pierre Quenot, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jean-Pierre Quenot, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "CHU Besançon Jean Minjoz Hospital",
+          "status": "RECRUITING",
+          "city": "Besançon",
+          "state": "Doubs",
+          "zip": "25000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Hadrien WINISZEWSKI, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hadrien WINISZEWSKI, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "CHU Nîmes, Carémeau Hospital",
+          "status": "RECRUITING",
+          "city": "Nîmes",
+          "state": "Gard",
+          "zip": "30029",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Benoît Lattuca, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Benoît Lattuca, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "CHU Bordeaux - Hopital haut-leveque",
+          "status": "RECRUITING",
+          "city": "Bordeaux",
+          "state": "Gironde",
+          "zip": "33600",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Edouard Gerbaud, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Edouard Gerbaud, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "CHU de Toulouse",
+          "status": "RECRUITING",
+          "city": "Toulouse",
+          "state": "Haute-Garonne",
+          "zip": "31059",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Clément Delmas, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Clément Delmas, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "CHU Limoges, Dupuytren Hospital",
+          "status": "RECRUITING",
+          "city": "Limoges",
+          "state": "Haute-Vienne",
+          "zip": "87000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Philippe Vignon, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Philippe Vignon, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "CHU Montpellier, Arnaud de Villeneuve Hospital",
+          "status": "RECRUITING",
+          "city": "Montpellier",
+          "state": "Hérault",
+          "zip": "34090",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "François Roubille, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "François Roubille, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHU Rennes, Pontchaillou Hospital",
+          "status": "RECRUITING",
+          "city": "Rennes",
+          "state": "Ille et Vilaine",
+          "zip": "35000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Abdelkader BAKHTI, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Abdelkader BAKHTI, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "CHU Grenoble, Michallon Hospital",
+          "status": "RECRUITING",
+          "city": "La Tronche",
+          "state": "Isère",
+          "zip": "38043",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Joanna Bougnaud, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joanna Bougnaud, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.20507,
+            "lon": 5.74629
+          }
+        },
+        {
+          "facility": "CHU Nantes",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "state": "Loire-Atlantique",
+          "zip": "44000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Julien Plessis, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Julien Plessis, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "CHR Metz-Thionville, Mercy Hospital",
+          "status": "RECRUITING",
+          "city": "Ars-Laquenexy",
+          "state": "Moselle",
+          "zip": "57245",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Guillaume Louis, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Guillaume Louis, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.09377,
+            "lon": 6.26989
+          }
+        },
+        {
+          "facility": "CHRU Lille, Cœur Poumon Institute",
+          "status": "RECRUITING",
+          "city": "Lille",
+          "state": "Nord",
+          "zip": "59000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Gilles LEMESLE, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gilles LEMESLE, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "APHP, La Pitié Salpêtrière (medical intensive care unit)",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "state": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Alain Combes, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alain Combes, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hospices Civils de Lyon - Louis Pradel Hospital",
+          "status": "RECRUITING",
+          "city": "Bron",
+          "state": "Rhône",
+          "zip": "69500",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Bertrand SCHEPPLER, MD",
+              "role": "CONTACT",
+              "phone": "+33 4 72 11 80 88",
+              "email": "bertrand.scheppler01@chu-lyon.fr"
+            },
+            {
+              "name": "Bertrand SCHEPPLER, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "APHP, Henri Mondor Hospital",
+          "status": "RECRUITING",
+          "city": "Créteil",
+          "state": "Val de Marne",
+          "zip": "94010",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Raphaëlle HUGUET, MD",
+              "role": "CONTACT",
+              "phone": "+33 1 49 81 21 11",
+              "email": "raphaelle.huguet@aphp.fr"
+            },
+            {
+              "name": "Raphaelle HUGUET, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "CH Henri Duffaut, Avignon",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Avignon",
+          "state": "Vaucluse",
+          "zip": "84000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Stéphane Andrieu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Stéphane Andrieu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "CHU Bordeaux",
+          "status": "RECRUITING",
+          "city": "Bordeaux",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Alexandre OUTARRA, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alexandre OUTARRA, Md-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "HENRI MONDOR -réanimation",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Créteil",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Armand MEKONTSO DESSAP, MD-Phd",
+              "role": "CONTACT",
+              "phone": "+33 1 49 81 21 11",
+              "email": "armand.dessap@aphp.fr"
+            },
+            {
+              "name": "Armand MEKONTSO DESSAP, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Chu Dijon",
+          "status": "RECRUITING",
+          "city": "Dijon",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Pierre Grégoire GUINOT, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pierre Grégoire GUINOT, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "CHU Grenoble -USIC",
+          "status": "RECRUITING",
+          "city": "La Tronche",
+          "zip": "38700",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Nicolas PILIERO, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nicolas PILIERO, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.20507,
+            "lon": 5.74629
+          }
+        },
+        {
+          "facility": "AP-HM CHU la Timone",
+          "status": "RECRUITING",
+          "city": "Marseille",
+          "zip": "13385",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Florent ARREGLE, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Florent ARREGLE, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "CHU Montpellier -hôpital Arnaud de Villeneuve",
+          "status": "RECRUITING",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Philippe GAUDARD, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Philippe GAUDARD, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Chu Rouen",
+          "status": "RECRUITING",
+          "city": "Rouen",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Emmanuel BESNIER, MD-PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Emmanuel BESNIER, MD-PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "HU Strasbourg USIC",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Strasbourg",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Olivier MOREL, MD PhD",
+              "role": "CONTACT",
+              "phone": "+33 3 88 11 67 68",
+              "email": "olivier.morel@chru-strasbourg.fr"
+            },
+            {
+              "name": "Olivier MOREL, MD-pHD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "CHRU Nancy",
+          "status": "RECRUITING",
+          "city": "Vandœuvre-lès-Nancy",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Bruno Lévy, Prof",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bruno LEVY, Prof",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077464",
+          "term": "Simendan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006835",
+          "term": "Hydrazones"
+        },
+        {
+          "id": "D006834",
+          "term": "Hydrazines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

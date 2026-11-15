@@ -1,0 +1,387 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01327534",
+      "orgStudyIdInfo": {
+        "id": "ETAMI"
+      },
+      "organization": {
+        "fullName": "Stiftung Institut fuer Herzinfarktforschung",
+        "class": "OTHER"
+      },
+      "briefTitle": "Early Thienopyridine Treatment to Improve Primary PCI in Patients With Acute MI",
+      "officialTitle": "ETAMI-Study: Early Thienopyridine Treatment to Improve Primary Percutaneous Coronary Intervention in Patients With Acute Myocardial Infarction",
+      "acronym": "ETAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-03-29",
+      "studyFirstSubmitQcDate": "2011-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2011-04-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-06-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-06-17",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Stiftung Institut fuer Herzinfarktforschung",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Daiichi Sankyo",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Acute myocardial infarction is generally caused by a thrombotic occlusion of coronary arteries. Primary aim of early therapy is a fast and complete reperfusion of the infarcted myocardium.",
+      "detailedDescription": "This could be achieved by either thrombolytic therapy or primary Percutaneous coronary intervention (PCI).\n\nComparison of the different therapies in randomized trials shows an advantage of primary PCI regarding rates of recanalisation of the infarct vessel, preservation of left ventricular (LV) function, and reduction in the rate of reinfarctions. In addition, the in-hospital mortality is lower in patients undergoing primary PCI. Nevertheless, primary PCI does not always result in a successful reperfusion despite of successful restoration of blood flow in the epicardial infarct related artery.\n\nEffective platelet inhibition is a cornerstone of therapy in patients with STEMI. In the ISIS-2 study acetylsalicylic acid (ASA) has been shown to improve short- and long-term clinical outcome in the same extent as fibrinolysis with streptokinase. Dual platelet inhibition with ASA and a thienopyridine has been repeatedly demonstrated to be more effective than ASA alone. Clopidogrel on top of ASA improved outcome in patients with acute coronary syndromes with and without PCI in the CURE study. Furthermore, a loading dose of 300 mg clopidogrel was advantageous in elective PCI in the CREDO trial and the addition of clopidogrel to ASA improved the patency rate of the infarct related artery in patients with STEMI undergoing fibrinolysis. In the BRAVE 3 study, the addition of abciximab to a background therapy of a high loading dose of 600 mg clopidogrel plus ASA did not result in an additional clinical benefit in terms of prevention of ischemic complications in primary elective PCI, suggesting a near optimal platelet inhibition with this treatment in primary PCI. The advantage of a 600 mg loading dose seems mainly related to the more rapid onset of the full antiplatelet effect within 2-4 hours as compared to 6-8 hours after 300 mg.\n\nHowever, in patients with STEMI scheduled for primary PCI an earlier effective inhibition of ADP-induced platelet aggregation, preferably within 60-90 min after administration of the drug, is needed.\n\nThe new thienopyridine prasugrel has been shown to achieve a more complete and even more rapid platelet inhibition compared to clopidogrel. This might be especially important in patients with STEMI scheduled for primary PCI. In these patients activation of platelets is more pronounced compared to patients undergoing PCI for stable CAD.\n\nIn a small substudy of the TRITON-TIMI 38 trial inhibition of platelet aggregation measured with the VASP assay was more effective with prasugrel than with clopidogrel. However, this substudy was done predominantly in patients with unstable angina and NSTEMI. In addition, none of these patients were treated in the pre-hospital phase. Therefore it is necessary to determine if in patients with acute STEMI an early administration of a high loading dose of prasugrel in comparison with clopidogrel before planned primary PCI improves the inhibition of platelet aggregation, therefore facilitates this procedure and results in an improved myocardial reperfusion before and after PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction",
+        "STEMI"
+      ],
+      "keywords": [
+        "STEMI",
+        "clopidogrel",
+        "prasugrel",
+        "platelet reactivity index",
+        "ST resolution"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 63,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "treatment with a 60 mg loading dose prasugrel, followed by a maintenance dose of 10 mg for 30 days",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "treatment with a 600 mg loading dose clopidogrel, followed by a maintenance dose of 75 mg for 30 days",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "treatment with a 60 mg loading dose prasugrel, followed by a maintenance dose of 10 mg for 30 days",
+          "armGroupLabels": [
+            "prasugrel"
+          ],
+          "otherNames": [
+            "Effient",
+            "Efient"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "treatment with a 600 mg loading dose clopidogrel, followed by a maintenance dose of 75 mg for 30 days",
+          "armGroupLabels": [
+            "clopidogrel"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "platelet reactivity index (PRI) measured by VASP phosphorylation",
+          "description": "The primary endpoint is the platelet reactivity index (PRI) measured by VASP phosphorylation 2 hours after the initiation of the therapy. The VASP assay was chosen because it is not influenced by the concomitant administration of GP IIb/IIIa inhibitors, which are expected to be given in 50-60% of STEMI patients.",
+          "timeFrame": "2 hours after initiation of therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "platelet reactivity index 4 hours after initiation of therapy",
+          "timeFrame": "4 hours after initiation of therapy"
+        },
+        {
+          "measure": "rate of complete (> 70%) ST segment resolution 60 minutes after PCI as assessed by an ECG core laboratory which is blinded to the treatment group",
+          "timeFrame": "60 min after PCI"
+        },
+        {
+          "measure": "TIMI 2/3 patency of the infarct-related artery immediately prior to PCI done by an angiography core reading centre which is blinded to treatment group",
+          "description": "Time frame: expected average. In general: \"immediately prior to PCI\"",
+          "timeFrame": "1 hour after initiation of therapy"
+        },
+        {
+          "measure": "TIMI 3 patency before PCI",
+          "description": "Time frame: expected average. In general: \"before PCI\"",
+          "timeFrame": "1 hour after initiation of therapy"
+        },
+        {
+          "measure": "TIMI 3 patency after PCI",
+          "description": "Time frame: expected average. In general: \"after PCI\"",
+          "timeFrame": "2 hours after initiation of therapy"
+        },
+        {
+          "measure": "ST resolution immediately before angiography",
+          "description": "Time frame: expected average. In general: \"immediately before angiography\"",
+          "timeFrame": "1 hour after initiation of therapy"
+        },
+        {
+          "measure": "partial or no ST resolution 60 minutes after PCI",
+          "timeFrame": "60 minutes after PCI"
+        },
+        {
+          "measure": "ST segment deviation 60 minutes after PCI",
+          "timeFrame": "60 minutes after PCI"
+        },
+        {
+          "measure": "death, re-MI, stent thrombosis and urgent revascularisation until 48 hours, day 7 and 30 days",
+          "timeFrame": "48 hours, day 7, day 30"
+        },
+        {
+          "measure": "stroke (hemorrhagic, non-hemorrhagic)",
+          "timeFrame": "day 30"
+        },
+        {
+          "measure": "severe bleeding complications according to the TIMI and GUSTO classifications",
+          "timeFrame": "day 30"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years and \\< 75 years\n* Acute STEMI ≤ 12 h defined as 1. Angina or equivalent symptoms \\> 30 min and 2. ST elevation ≥ 2 leads (≥ 2 mm precordial leads, ≥ 1 mm limb leads) or ST depression ≥ 1 mm precordial leads in posterior MI\n* planned percutaneous coronary intervention\n* legal capacity\n* informed consent\n* first medical contact in the prehospital setting or in a non-PCI hospital (this criterion was changed by a protocol amendment in autumn 2012 to \"first medical contact in the prehospital setting, in a non-PCI hospital, or in a PCI-hospital, if the expected time until the start of the scheduled PCI is at least 20 minutes\")\n\nExclusion Criteria:\n\n* Age ≥ 75 years\n* Body weight \\< 60 kg\n* Thrombolytic therapy within 24 hours before randomization\n* Oral anticoagulation\n* Known hemorrhagic diathesis\n* History of Stroke or TIA\n* Cardiogenic shock\n* Evidence of an active gastrointestinal or urogenital bleeding\n* Major surgery within 6 weeks\n* Contraindication to prasugrel or clopidogrel\n* Severe renal or hepatic insufficiency\n* Contraindication to coronary angiography\n* Planned administration of a GP IIb/IIIa-Inhibitor before angiography\n* Pregnant or nursing (lactating) women\n* Patients currently (within the last 10 days) treated with clopidogrel, prasugrel, ticlopidine, or ticagrelor\n* Uncontrollable hypertension (blood pressure ≥ 200/110 mmHg in repeated measurements)\n* Treatment with NSAIDs\n* Participation in another clinical or device trial within the previous 30 days\n* First medical contact in a PCI-hospital (this criterion was changed by a protocol amendment in autumn 2012 to \"Expected time between administration of loading dose and start of PCI is \\< 20 minutes\")",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "74 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Uwe Zeymer, MD",
+          "affiliation": "Klinikum Ludwigshafen",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Pitie-Salpetriere",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Charité Campus Benjamin Franklin, Med. Klinik II",
+          "city": "Berlin",
+          "zip": "12203",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Klinikum Ludwigshafen, Med. Klinik B",
+          "city": "Ludwigshafen",
+          "zip": "67063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.81663,
+            "lon": 9.06138
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25616919",
+          "type": "DERIVED",
+          "citation": "Zeymer U, Mochmann HC, Mark B, Arntz HR, Thiele H, Diller F, Montalescot G, Zahn R. Double-blind, randomized, prospective comparison of loading doses of 600 mg clopidogrel versus 60 mg prasugrel in patients with acute ST-segment elevation myocardial infarction scheduled for primary percutaneous intervention: the ETAMI trial (early thienopyridine treatment to improve primary PCI in patients with acute myocardial infarction). JACC Cardiovasc Interv. 2015 Jan;8(1 Pt B):147-154. doi: 10.1016/j.jcin.2014.09.007. Epub 2014 Nov 4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

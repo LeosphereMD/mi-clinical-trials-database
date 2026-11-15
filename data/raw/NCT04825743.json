@@ -1,0 +1,736 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04825743",
+      "orgStudyIdInfo": {
+        "id": "CEL-03"
+      },
+      "organization": {
+        "fullName": "CeleCor Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Phase 3 Study of Zalunfiban in Subjects With ST-elevation MI",
+      "officialTitle": "A Phase 3 Prospective, Blinded, Randomized, Placebo Controlled, International Multicenter Study to Assess the Safety and Efficacy of a Single SQ Injection of Zalunfiban in Subjects With ST-elevation MI in the Pre-hospital Setting",
+      "acronym": "CELEBRATE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-04-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05-13",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05-13",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-03-29",
+      "studyFirstSubmitQcDate": "2021-03-29",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "CeleCor Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 3 prospective, blinded, randomized, placebo controlled, international multicenter study. Subjects with STEMI will be enrolled in the ambulance if they meet all eligibility criteria. These subjects will be evaluated by (para)medics who transport the subjects to the participating hospitals in Europe and North America. Hospitals and ambulance services with experience in ambulance studies will be selected. Each subject will receive a single subcutaneous injection containing either Disaggpro(tm) zalunfiban Dose 1 (0.110 mg/kg) or Disaggpro(tm) zalunfiban Dose 2 (0.130 mg/kg) or placebo",
+      "detailedDescription": "Subjects will be screened in the ambulance based on the information available; those fulfilling the eligibility criteria who have provided verbal witnessed/short written/Exception from Informed Consent Requirements (EFIC) process informed consent will be randomized and enrolled in the study. Following a single weight-based dose of subcutaneous study drug administered by the ambulance staff, the patient will be transferred to the clinical site PCI center for angiography and intervention.\n\nRegular standard of care is performed from the provision of informed consent through the last study mandated subject visit. Concomitant medications will be recorded. Treatment with IV P2Y12 antagonists or other αIIbβ3 receptor before PCI/angiography is prohibited. Demographics, concomitant medications, vital signs, and medical history will be collected in the CRF. Adverse events, bleeding events and injection site reactions will be collected. Angiography and PCI details will be recorded. Full written informed consent will be obtained. Additional blood samples for safety will be collected at 1, 6, 24 and 72 hours (or hospital discharge) post-PCI/angiography. Blood samples for high-sensitive cardiac troponin T (upon arrival and 24 hours post PCI/angiography) and NT-ProBNP (24 hours post PCI/angiography) will be assessed by central laboratory. Follow up phone contacts will occur at 30 days to report AEs, bleeding events, and injection site reactions, and 12-months to record mortality, and hospitalizations for heart failure or atrial fibrillation, and \\[in the event of stroke\\], 90 days (±2 weeks) to record the stroke disability.\n\nAngiography/PCI data and ECGs will be evaluated at independent Core Laboratories. An independent, blinded Clinical Events Committee will provide central adjudication of all clinical endpoint events. A DSMB will examine the safety data in an ongoing manner and to alert the Steering Committee in case of clinically concerning safety issues that should lead to consideration of altering the trial, and can recommend modification of the study protocol based on pre-specified rules.\n\nThe duration of participation for each subject will be 12 months (± 1 month), including enrollment, study drug administration, hospitalization, and phone contact follow-up at 30 days (+ 7 days) and 12 months (± 1 month)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-elevation Myocardial Infarction (STEMI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2463,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "zalunfiban Dose 1 (0.110 mg/kg)",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive a single subcutaneous injection containing zalunfiban Dose 1 (0.110 mg/kg) in the ambulance after diagnosis of STEMI and before hospital arrival",
+          "interventionNames": [
+            "Drug: zalunfiban"
+          ]
+        },
+        {
+          "label": "zalunfiban Dose 2 (0.130 mg/kg)",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects will receive a single subcutaneous injection containing zalunfiban Dose 2 (0.130 mg/kg) in the ambulance after diagnosis of STEMI and before hospital arrival",
+          "interventionNames": [
+            "Drug: zalunfiban"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Subjects will receive a single subcutaneous injection containing Placebo in the ambulance after diagnosis of STEMI and before hospital arrival",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "zalunfiban",
+          "description": "zalunfiban is a novel small molecule inhibitor of the platelet αIIbβ3 receptor specifically designed for first medical contact therapy of ST-elevation myocardial infarction (STEMI).",
+          "armGroupLabels": [
+            "zalunfiban Dose 1 (0.110 mg/kg)",
+            "zalunfiban Dose 2 (0.130 mg/kg)"
+          ],
+          "otherNames": [
+            "RUC-4"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "A placebo will be prepared to those subjects assigned to placebo. Less than 1 mL (depending on subject's weight) will be administered by subcutaneous injection.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "primary efficacy -clinical outcome",
+          "description": "As assessed by a 7-point scale. The 7 outcomes, ranking from worst to best are:\n\n1. Death (all cause) at 30 days follow-up\n2. Stroke at 30 days follow-up\n3. Recurrent MI (type 1 to 4 MI) at 30 days follow-up\n4. Acute stent thrombosis at 24 hours post-PCI/angiography\n5. New onset heart failure or rehospitalization for heart failure at 30 days follow-up\n6. MI with hs-cTnT levels ≥30x ULN at 24 hours ± 12 hours post study drug administration\n7. None of the above",
+          "timeFrame": "at 30 days follow-up after a single subcutaneous injection of zalunfiban versus placebo"
+        },
+        {
+          "measure": "primary safety- bleeding events [BARC criteria]",
+          "description": "• To assess bleeding events (according to Global Use of Strategies to Open Occluded Coronary Arteries \\[GUSTO\\] severe or life threatening criterion for safety assessment and according to the Bleeding Academic Research Consortium \\[BARC\\] 3C and 5 criteria for information only)",
+          "timeFrame": "after a single subcutaneous injection of zalunfiban versus placebo at 30 days post-PCI/angiography"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "secondary efficacy-restoration of the coronary artery blood flow",
+          "description": "To assess restoration of the culprit coronary artery blood flow (corrected Thrombolysis in Myocardial Infarction \\[TIMI\\] Frame Count) before intended PCI (or post coronary angiography in case no PCI is performed) after a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "before PCI (or coronary angiography if no PCI is performed)"
+        },
+        {
+          "measure": "efficacy-resolution of ST segment deviation",
+          "description": "To assess resolution of ST segment deviation post-PCI/angiography after a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "1 hour post-PCI/angiography"
+        },
+        {
+          "measure": "Efficacy-blinded bail-out use of IV αIIbβ3 antagonists or IV P2Y12 antagonists at 24 hours post PCI/angiography",
+          "description": "To assess blinded bail-out use of IV αIIbβ3 antagonists or IV P2Y12 antagonist",
+          "timeFrame": "at 24 hours post PCI/angiography"
+        },
+        {
+          "measure": "Efficacy-acute stent thrombosis",
+          "description": "To assess incidence of definite, probable or possible acute stent thrombosis after a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "up to 24 hours post-PCI"
+        },
+        {
+          "measure": "Safety throughout the study by AE reporting",
+          "description": "Recording of AEs and SAEs fibrillation up to 12-months follow-up",
+          "timeFrame": "AEs up to 30 days follow-up; SAEs up to resolution/stabilization, the SAEs mortality, hospitalization for heart failure and atrial fibrillation up to 12-months follow-up"
+        },
+        {
+          "measure": "Safety-platelet count",
+          "description": "To assess platelet count after a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "before PCI/angiography, at the end of the PCI/angiography, 6 and 24 hours post-PCI/angiography and at hospital discharge/72-hours post-PCI/angiography (whichever occurs first)"
+        },
+        {
+          "measure": "Safety-bleeding events (ISTH and TIMI)",
+          "description": "To assess bleeding events (according to International Society on Thrombosis and Haemostasis \\[ISTH\\] Major and TIMI Major for information only) after a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "at 30 days follow-up"
+        },
+        {
+          "measure": "Safety-bleeding events (GUSTO mild and moderate, BARC type 2, 3 and 5, ISTH minor and/or major and TIMI minor and major)",
+          "description": "To assess incidence of bleeding events according to GUSTO mild and moderate criteria, BARC type 2, 3 and 5 criteria, ISTH minor and or major bleeding, TIMI minor and major criteria",
+          "timeFrame": "30 days follow-up"
+        },
+        {
+          "measure": "Safety-injection site reactions",
+          "description": "To assess the injection site reactions of a single subcutaneous injection of zalunfiban versus placebo",
+          "timeFrame": "baseline, 1-hour post-PCI/angiography, hospital discharge/72-hours post-PCI/angiography, and at 30 days follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Males aged ≥18 years or post-menopausal or surgically sterile females ≥50 years or ≥55 years (for Czech Republic study sites only).\n2. Weight (by history) between 52 and 130 kg.\n3. Subjects with STEMI, presenting with persistent ischemic chest pain (\\>10 minutes) and new ≥2 mm ST-segment elevation in two adjacent ECG leads, in whom the total duration of symptoms is 4 hours maximum. If time of symptom onset is uncertain, the cardiologist may be contacted to confirm inclusion criteria.\n4. Exception from Informed Consent Requirements (EFIC) process, verbal witnessed/ short written informed consent, or written informed consent signed by subject or legally authorized representative/independent witness will be obtained in the acute phase by (para)medics, according to local applicable legal regulations. Subject is willing and able to give informed consent. Written informed consent will be obtained as soon as the subject's clinical condition allows it.\n\nExclusion Criteria:\n\n1. Cardio Pulmonary Resuscitation (CPR) for current Out of Hospital Cardiac Arrest (OHCA).\n2. Presenting with systolic blood pressure \\<90 mmHg (confirmed on repeat assessment) and heart rate \\>100 beats per minute (bpm).\n3. Current known active coronavirus disease 2019 (COVID-19) infection (criteria according to local guidelines).\n4. Currently treated with renal dialysis.\n5. Current treatment with oral anticoagulation (Vitamin K antagonists \\[VKA\\], direct oral anticoagulants \\[DOACs\\]), or thrombolytic agents.\n6. Major surgery, or trauma or bleeding leading to hospitalization, within the past month.\n7. Known history of ischemic or hemorrhagic stroke.\n8. Known severe anemia (regular blood transfusion needed).\n9. Previously enrolled in this study.\n10. Participation in another clinical study with an investigational product or device within the past month.\n11. Life expectancy less than one year.\n\n    \\-",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Prof. Arnoud WJ Van 't Hof, MD PhD",
+          "affiliation": "Maastricht University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Providence Alaska Medical Center",
+          "city": "Anchorage",
+          "state": "Alaska",
+          "zip": "99508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 61.21806,
+            "lon": -149.90028
+          }
+        },
+        {
+          "facility": "Corewell Health William Beaumont University Hospital",
+          "city": "Royal Oak",
+          "state": "Michigan",
+          "zip": "48073",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48948,
+            "lon": -83.14465
+          }
+        },
+        {
+          "facility": "Washington University",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "UT Southwestern Medical Center",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Alberta",
+          "city": "Edmonton",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "St. Anne's University hospital",
+          "city": "Brno",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "University Hospital Brno",
+          "city": "Brno",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "European Hosital de Paris - GVM Care & Research (La Roseraie)",
+          "city": "Aubervilliers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.91667,
+            "lon": 2.38333
+          }
+        },
+        {
+          "facility": "Hospital Ambroise Pare",
+          "city": "Boulogne-Billancourt",
+          "zip": "92100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.83545,
+            "lon": 2.24128
+          }
+        },
+        {
+          "facility": "Henri Mondor University Hospital",
+          "city": "Créteil",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Grenoble Alpes University Hospital",
+          "city": "Grenoble",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "University Hospital of Marseille - La Timone Hospital",
+          "city": "Marseille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "André Grégoire Hospital - GHT GPNE",
+          "city": "Montreuil",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.86415,
+            "lon": 2.44322
+          }
+        },
+        {
+          "facility": "Bichat-Claude Bernard Hospital",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Cochin",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Lariboisière Hospital AP-HP",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "University Hospital De La Pitié-Salpêtrière",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Regional University Hospital of Rennes - Hospital Ponchaillou",
+          "city": "Rennes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Semmelweis University Heart and Vascular Center",
+          "city": "Budapest",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "University of Debrecen",
+          "city": "Debrecen",
+          "zip": "H4032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Bacs-Kiskun County Teaching Hospital",
+          "city": "Kecskemét",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.90618,
+            "lon": 19.69128
+          }
+        },
+        {
+          "facility": "Instituto Nacional de Cardiologia \"Ignacio Chavez\"",
+          "city": "Mexico City",
+          "state": "D.F.",
+          "zip": "14080",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Zuyderland MC",
+          "city": "Heerlen",
+          "state": "Limberg",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.88365,
+            "lon": 5.98154
+          }
+        },
+        {
+          "facility": "Jeroen Bosch Ziekenhuis",
+          "city": "'s-Hertogenbosch",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.69917,
+            "lon": 5.30417
+          }
+        },
+        {
+          "facility": "Amsterdam UMC, locatie AMC",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Amsterdam UMC",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Rijnstate Arnhem",
+          "city": "Arnhem",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.98,
+            "lon": 5.91111
+          }
+        },
+        {
+          "facility": "Tergooi Blaricum",
+          "city": "Blaricum",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.2725,
+            "lon": 5.24167
+          }
+        },
+        {
+          "facility": "Amphia Ziekenhuis",
+          "city": "Breda",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.58656,
+            "lon": 4.77596
+          }
+        },
+        {
+          "facility": "Slingeland Ziekenhuis",
+          "city": "Doetinchem",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.965,
+            "lon": 6.28889
+          }
+        },
+        {
+          "facility": "Ziekenhuis Gelderse Vallei",
+          "city": "Ede",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 5.65833
+          }
+        },
+        {
+          "facility": "Medisch Spectrum Twente",
+          "city": "Enschede",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.21833,
+            "lon": 6.89583
+          }
+        },
+        {
+          "facility": "Leiden University Medical Center",
+          "city": "Leiden",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        },
+        {
+          "facility": "Maastricht UMC",
+          "city": "Maastricht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "St. Antonius Ziekenhuis",
+          "city": "Nieuwegein",
+          "zip": "3435 CM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "ETZ TweeSteden",
+          "city": "Tilburg",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.55551,
+            "lon": 5.0913
+          }
+        },
+        {
+          "facility": "UMC Utrecht",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Viecuri Medisch Centrum",
+          "city": "Venlo",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.37,
+            "lon": 6.16806
+          }
+        },
+        {
+          "facility": "Isala",
+          "city": "Zwolle",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.5125,
+            "lon": 6.09444
+          }
+        },
+        {
+          "facility": "Emergency Clinical Hospital \"Bagdasar-Arseni\", Bucharest",
+          "city": "Bucharest",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Emergency University Hospital Bucharest",
+          "city": "Bucharest",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Institute of Cardiovascular Diseases \"Prof. George I.M. Georgescu\" Iasi",
+          "city": "Iași",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 47.16667,
+            "lon": 27.6
+          }
+        },
+        {
+          "facility": "Emergency Clinical County Hospital Targu-Mures",
+          "city": "Târgu Mureş",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.54245,
+            "lon": 24.55747
+          }
+        },
+        {
+          "facility": "Institute for Cardiovascular Diseases Timisoara",
+          "city": "Timișoara",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.75372,
+            "lon": 21.22571
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "42727626",
+          "type": "DERIVED",
+          "citation": "Chi G, Gibson CM, Coller BS, Granger CB, Montalescot G, Rikken SAOF, Verburg A, Berg JMT, Hof AWJV', Januzzi JL; CELEBRATE Investigators. Efficacy and Safety of Zalunfiban by Creatinine Clearance Among Patients with ST-Elevation Myocardial Infarction: Analysis from the CELEBRATE Trial. Am J Cardiol. 2026 Sep 11:S0002-9149(26)00574-6. doi: 10.1016/j.amjcard.2026.09.010. Online ahead of print."
+        },
+        {
+          "pmid": "42303064",
+          "type": "DERIVED",
+          "citation": "Januzzi JL, Gibson CM, Chi G, Coller BS, Granger CB, Montalescot G, Rikken SAOF, Verburg A, Berg JMT, van 't Hof AWJ; CELEBRATE Investigators. The effect of zalunfiban on high sensitivity cardiac troponin and the association with clinical outcomes in patients with STEMI. Am Heart J. 2026 Jun 16;301:107513. doi: 10.1016/j.ahj.2026.107513. Online ahead of print."
+        },
+        {
+          "pmid": "41728285",
+          "type": "DERIVED",
+          "citation": "Januzzi JL, Gibson CM, Chi G, Coller BS, Granger CB, Montalescot G, Rikken SAOF, Verberg A, Ten Berg JM, van 't Hof AWJ. The Effect of Zalunfiban on High Sensitivity Cardiac Troponin and the Association with Clinical Outcomes in Patients with STEMI. medRxiv [Preprint]. 2026 Feb 9:2026.02.03.26345522. doi: 10.64898/2026.02.03.26345522."
+        },
+        {
+          "pmid": "41211981",
+          "type": "DERIVED",
+          "citation": "Van't Hof AWJ, Gibson CM, Rikken SAOF, Januzzi JL, Granger CB, van Beurden A, Rasoul S, Ruiters L, Vainer J, Verburg A, Arslan F, Jukema JW, Durieux M, Polad J, van Vliet R, van den Branden BJL, Magro M, Remkes W, Beelen J, Hermanides R, Tolsma R, Gosselink M, Vinereanu D, Chioncel V, van de Hoef TP, Boomars R, Arkenbout KE, van Houwelingen GK, Hengstman G, van de Wetering H, Pisters R, Kala P, Merkely B, Ecollan P, Lapostolle F, Giugliano RP, Welsh RC, Levy M, Arias-Mendoza A, Baron N, Cociorva D, Wittes J, Unger EF, Coller BS, Ten Berg JM, Montalescot G. Zalunfiban at First Medical Contact for ST-Elevation Myocardial Infarction. NEJM Evid. 2026 Jan;5(1):EVIDoa2500268. doi: 10.1056/EVIDoa2500268. Epub 2025 Nov 10."
+        },
+        {
+          "pmid": "36592878",
+          "type": "DERIVED",
+          "citation": "Rikken SAOF, Selvarajah A, Hermanides RS, Coller BS, Gibson CM, Granger CB, Lapostolle F, Postma S, van de Wetering H, van Vliet RCW, Montalescot G, Ten Berg JM, van 't Hof AWJ; CELEBRATE investigators. Prehospital treatment with zalunfiban (RUC-4) in patients with ST- elevation myocardial infarction undergoing primary percutaneous coronary intervention: Rationale and design of the CELEBRATE trial. Am Heart J. 2023 Apr;258:119-128. doi: 10.1016/j.ahj.2022.12.015. Epub 2022 Dec 31."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

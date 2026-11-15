@@ -1,0 +1,308 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06742567",
+      "orgStudyIdInfo": {
+        "id": "IRB-83/2024"
+      },
+      "organization": {
+        "fullName": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      },
+      "briefTitle": "Apixaban Prophylaxis for Prevention of Left Ventricular Thrombus Following Anterior Myocardial Infarction",
+      "officialTitle": "Apixaban Prophylaxis for Prevention of Left Ventricular Thrombus Following Anterior Myocardial Infarction: An Open Label, Randomized Clinical Trial (POTAMI)",
+      "acronym": "POTAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-11-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-12-11",
+      "studyFirstSubmitQcDate": "2024-12-17",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Professor Abdul Hakeem",
+        "investigatorTitle": "professor",
+        "investigatorAffiliation": "National Institute of Cardiovascular Diseases, Pakistan"
+      },
+      "leadSponsor": {
+        "name": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this randomized controlled trial is to compare the safety and efficacy of low dose Apixaban (2.5 mg bid) in addition to guideline directed medical therapy vs guideline directed medical therapy alone in the prevention of left ventricular thrombus formation (after 30-days) following primary PCI in patients with acute anterior myocardial infarction with severe LV dysfunction.",
+      "detailedDescription": "Objective To compare the safety and efficacy of Apixaban vs. placebo in the prevention of LV thrombus formation in patients with acute anterior myocardial and severe LV dysfunction following primary PCI in an open label, randomized controlled trial.\n\nMethods:\n\nInclusion Criteria .Patients aged 18-65 years, presenting with acute anterior STEMI and severe LV dysfunction (EF\\<35%) with antero-apical akinesis, dyskinesis, or aneurysm.\n\nExclusion Criteria\n\n* Patients with previous myocardial infarction or revascularization procedures.\n* Patients with cardiogenic shock\n* Patients with advanced CKD (Cr \\< 2 and those on hemodialysis)\n* Recent ICH or major bleed requiring transfusion, low platelet counts\\<100,000\n* History of CVA\n* Patients with atrial fibrillation or other indications for chronic anticoagulation\n* Pregnant patients and those with hematological disorders\n\nEligible patients will be enrolled after informed consent. Randomization will be undertaken once post PCI echocardiography is done and LV function is recorded. Patients randomized to the treatment arm will be given Apixaban 2.5 mg twice daily and DAPT for two weeks in addition to other guideline directed medical therapy (GDMT). After two weeks of triple therapy (DOAC+DAPT), aspirin will be dropped in the study arm. The control arm will be of standard care. After 4 weeks, treatment group will be switched to DAPT.\n\nFollow up The primary endpoint will be the incidence of LV thrombus formation recorded at 4-week follow-up echocardiography. Patients' clinical status, side effects, and medication compliance will be recorded.\n\nAt 2-week: patients will be contacted via phone call to assess their clinical status, ensure drug compliance, discuss any necessary changes in drug regimen for those in the treatment group already prescribed on discharge, and inquire about any side effects.\n\nAt 4-week: patients will undergo an in-person follow-up where echocardiography will be conducted alongside a comprehensive assessment In case of any cardiac complaints, patients will be advised to visit the hospital or cardiologist promptly to complete a comprehensive clinical and laboratory workup. Primary endpoint\n\n. Incidence of LV thrombus formation in the treatment arm vs. placebo at 4 week follow up echocardiography.\n\nSecondary endpoints\n\n* composite of death, recurrent myocardial infarction, stent thrombosis, and heart failure hospitalization in experimental arm vs. control group.\n* Major and minor bleeding in experimental arm vs. control group\n* Discontinuation of the drug due to side effects in experimental arm vs. control group A clinical events committee whose members are unaware of study-group assignments will independently adjudicate all potential endpoints."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction of Anterior Wall",
+        "Left Ventricular Thrombus",
+        "Prophylaxis"
+      ],
+      "keywords": [
+        "Acute myocardial infarction",
+        "severe left ventricular dysfunction",
+        "prevention of LV thrombus",
+        "DOAC",
+        "apixaban"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Eligible patients will be enrolled after informed consent. Randomization will be undertaken once post primary PCI echocardiography is done and LV function is recorded. Patients with anterior wall myocardial infarction with severe left ventricular dysfunction defined by an EF\\<35% without evidence of LV thrombus will be screened. Patients randomized to the treatment arm will be given Apixaban 2.5 mg twice daily and DAPT for two weeks in addition to other guideline directed medical therapy (GDMT). After two weeks of triple therapy (DOAC+DAPT), aspirin will be dropped in the study arm. The control arm will be standard DAPT and GDMT without apixiban.\n\nPrimary endpoint will be the incidence of left ventricular thrombus in the study arm vs the control group at one month echocardiographic follow up. While an open label trial, end point adjudication will be blinded where the echocardiographer will not know treatment allocation of the two groups.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 472,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Study arm (Apixaban 2.5 mg bid)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to the treatment arm will be given Apixaban 2.5 mg twice daily and DAPT (aspirin (75 mg) + clopidogrel (75 mg)) for four weeks in addition to other guideline directed medical therapy (GDMT). After 4 weeks, treatment group will be switched to DAPT. o In the event of stent thrombosis during the study period, considering the high ischemic risk, the patient will be switched to ticagrelor instead of clopidogrel, and aspirin will be discontinued while Apixaban will be continued. After four weeks, the patient will be switched to DAPT (aspirin\n\n\\+ ticagrelor).",
+          "interventionNames": [
+            "Drug: Apixaban 2.5 MG PO BID"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The control arm will be of standard care i.e. DAPT in addition to other guideline directed medical therapy (GDMT).",
+          "interventionNames": [
+            "Drug: Control (Standard treatment)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Apixaban 2.5 MG PO BID",
+          "description": "Patients randomized to the treatment arm will be given Apixaban 2.5 mg twice daily and DAPT (aspirin (75 mg) + clopidogrel (75 mg)) for four weeks in addition to other guideline directed medical therapy (GDMT). After 4 weeks, treatment group will be switched to DAPT.",
+          "armGroupLabels": [
+            "Study arm (Apixaban 2.5 mg bid)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Control (Standard treatment)",
+          "description": "DAPT plus guideline directed medical therapy",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of LV thrombus formation in the treatment arm vs. control group",
+          "description": "Incidence of LV thrombus formation in the treatment arm vs. control group at 4 week follow up echocardiography. This constitutes the primary endpoint of the trial",
+          "timeFrame": "one month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Outcomes",
+          "description": "* composite of death, recurrent myocardial infarction, stent thrombosis, and heart failure hospitalization in the treatment arm vs. control group\n* Major and minor bleeding in the treatment arm vs. control group 3) Discontinuation of the drug due to side effects",
+          "timeFrame": "one month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged 18-65 years\n* Presenting with acute anterior STEMI\n* Severe LV dysfunction (EF\\<35%) with antero-apical akinesis, dyskinesis, or aneurysm\n* WIHTOUT evidence of LV thrombus.\n\nExclusion Criteria:\n\n* Patients with previous anterior myocardial infarction or LAD revascularization procedures\n* Patients with cardiogenic shock\n* Patients with LV thrombus\n* Patients with advanced CKD (Cr \\> 2 and those on hemodialysis)\n* Recent ICH or major bleed requiring transfusion, low platelet counts \\<100,000\n* History of recent CVA ( within past three months)\n* Patients with atrial fibrillation or other indications for chronic anticoagulation\n* Pregnant patients and those with hematological disorders",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Abdul Hakeem, MD FACC FSCAI FASE",
+          "role": "CONTACT",
+          "phone": "+92 3355554342",
+          "email": "ahakeem@gmail.com"
+        },
+        {
+          "name": "Sabha Bhatti, MD FASE FASNC FACC",
+          "role": "CONTACT",
+          "phone": "608-772-3048",
+          "email": "drsabhabhatti@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Abdul Hakeem Professor of Cardiology, Director Cardiac Catheterization Labs, MD FACC FSCAI FASE",
+          "affiliation": "NICVD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NICVD Pakistan",
+          "status": "RECRUITING",
+          "city": "Karachi",
+          "state": "Sindh",
+          "country": "Pakistan",
+          "contacts": [
+            {
+              "name": "Abdul Hakeem, MD",
+              "role": "CONTACT",
+              "phone": "+92 21 99201271",
+              "email": "ahakeem@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.8608,
+            "lon": 67.0104
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35367170",
+          "type": "BACKGROUND",
+          "citation": "Zhang Z, Si D, Zhang Q, Jin L, Zheng H, Qu M, Yu M, Jiang Z, Li D, Li S, Yang P, He Y, Zhang W. Prophylactic Rivaroxaban Therapy for Left Ventricular Thrombus After Anterior ST-Segment Elevation Myocardial Infarction. JACC Cardiovasc Interv. 2022 Apr 25;15(8):861-872. doi: 10.1016/j.jcin.2022.01.285. Epub 2022 Mar 30."
+        },
+        {
+          "pmid": "35272796",
+          "type": "BACKGROUND",
+          "citation": "Camaj A, Fuster V, Giustino G, Bienstock SW, Sternheim D, Mehran R, Dangas GD, Kini A, Sharma SK, Halperin J, Dweck MR, Goldman ME. Left Ventricular Thrombus Following Acute Myocardial Infarction: JACC State-of-the-Art Review. J Am Coll Cardiol. 2022 Mar 15;79(10):1010-1022. doi: 10.1016/j.jacc.2022.01.011."
+        },
+        {
+          "pmid": "30404623",
+          "type": "BACKGROUND",
+          "citation": "Bulluck H, Chan MHH, Paradies V, Yellon RL, Ho HH, Chan MY, Chin CWL, Tan JW, Hausenloy DJ. Incidence and predictors of left ventricular thrombus by cardiovascular magnetic resonance in acute ST-segment elevation myocardial infarction treated by primary percutaneous coronary intervention: a meta-analysis. J Cardiovasc Magn Reson. 2018 Nov 8;20(1):72. doi: 10.1186/s12968-018-0494-3."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "We plan on sharing IPD"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D056988",
+          "term": "Anterior Wall Myocardial Infarction"
+        },
+        {
+          "id": "D018487",
+          "term": "Ventricular Dysfunction, Left"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C522181",
+          "term": "apixaban"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

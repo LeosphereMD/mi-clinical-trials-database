@@ -1,0 +1,354 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04476173",
+      "orgStudyIdInfo": {
+        "id": "ANEMON-SIRIO3"
+      },
+      "organization": {
+        "fullName": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      },
+      "briefTitle": "ANalgesic Efficacy and Safety of MOrphiNe Versus Methoxyflurane in Patients With Acute Myocardial Infarction",
+      "officialTitle": "ANalgesic Efficacy and Safety of MOrphiNe Versus Methoxyflurane in Patients With Acute Myocardial Infarction",
+      "acronym": "ANEMON"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-06-19",
+      "studyFirstSubmitQcDate": "2020-07-14",
+      "studyFirstPostDateStruct": {
+        "date": "2020-07-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jacek Kubica",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Collegium Medicum w Bydgoszczy"
+      },
+      "leadSponsor": {
+        "name": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate analgesic efficacy of inhaled methoxyflurane vs intravenous morphine in patients presenting with acute ST-elevation (STEMI) / non ST-elevation acute coronary syndrome (NSTE-ACS)",
+      "detailedDescription": "Platelet activation plays a pivotal role in the pathophysiology of acute coronary syndromes (ACS). Pharmacological platelet inhibition with P2Y12 receptor antagonists and aspirin, together with percutaneous coronary intervention (PCI) are the cornerstone of treatment of ACS patients.\n\nChest pain and anxiety are both associated with sympathetic activation, which increases workload of the heart. Relieving of these symptoms in acute myocardial infarction (AMI) is expected to improve the balance between the demand for oxygen and its supply. Morphine, apart from its analgesic effects, also alleviates the work of breathing and reduces anxiety. However, despite its favourable analgesic and sedative actions, morphine also exerts adverse effects, which include vomiting and reduction of gastrointestinal motility. These side effects affect the intestinal absorption of oral drugs co-administered with morphine. Previously performed randomized studies revealed unfavourable influence of morphine on the pharmacokinetics of ticagrelor resulting in weaker and retarded antiplatelet effect.\n\nMethoxyflurane was shown to be effective and well tolerated for the management of acute traumatic pain with a rapid onset of analgesia. As it does not affect the μ-opioid receptors, which inhibit propulsive motility and secretion of the gastro-intestinal tract, methoxyflurane is not expected to decrease or delay absorption or effects of orally administered drugs, including P2Y12 inhibitors, as well as to exert any other negative impact in patients with ACS.\n\nBefore PCI for the index ACS, after obtaining informed consent patients will be enrolled and randomly assigned with a secure on-line system in 1:1 ratio to one of two study arms. Patients in the intervention arm will receive methoxyphlurane administered by inhalation, whereas patients in the control arm will obtain morphine administered intravenously."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction",
+        "Non ST Segment Elevation Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Methoxyflurane",
+          "type": "EXPERIMENTAL",
+          "description": "Patients treated with inhaled methoxyflurane (3 mg)",
+          "interventionNames": [
+            "Drug: Methoxyflurane - Penthrox"
+          ]
+        },
+        {
+          "label": "Morphine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients treated with intravenous morphine (5 mg)",
+          "interventionNames": [
+            "Drug: Morphine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methoxyflurane - Penthrox",
+          "description": "ACS patients who received inhaled methoxyflurane as analgesic treatment",
+          "armGroupLabels": [
+            "Methoxyflurane"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Morphine",
+          "description": "ACS patients who received intravenous morphine as analgesic treatment",
+          "armGroupLabels": [
+            "Morphine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Measure of pain intensity according to the Numeric Pain Rating Scale (NPRS) 2-3 minutes after drug administration in relation to pain intensity assessed before drug administration",
+          "description": "NPRS score before and 2-3 minutes after drug administration in each study arm",
+          "timeFrame": "2-3 mins"
+        },
+        {
+          "measure": "Measure of pain intensity according to the Numeric Pain Rating Scale (NPRS) immediately after PCI in relation to pain intensity assessed before drug administration",
+          "description": "NPRS score before drug administration and and immediately after PCI in each study arm",
+          "timeFrame": "immediately after PCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adverse effects of evaluated therapies",
+          "description": "nausea, vomiting, dry mouth, respiratory failure - need for intubation, headache, dizziness, drowsiness, loss of consciousness, death",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "Need for GPIIb/IIIa (glycoprotein IIb/IIIa) inhibitor administration during PCI due to large intracoronary thrombus",
+          "description": "The percentage of patients who required GP IIb/IIIa administration in each study arm",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "Angiographic effect of PCI using Thrombolysis In Myocardial Infarction (TIMI) scale",
+          "description": "central analysis of coronary angiography after PCI according to Thrombolysis In Myocardial Infarction (TIMI) scale (TIMI 0 to TIMI 3; where TIMI 0 corresponds with no antegrade flow beyond the point of occlusion whereas TIMI 3 - normal flow with complete filling of the distal territory)",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Angiographic effect of PCI using TIMI Myocardial Perfusion Grade (TMPG) scale",
+          "description": "central analysis of coronary angiography after PCI according to TIMI Myocardial Perfusion Grade (TMPG) scale (TMPG 0 to TMPG 3, where TMPG 0 corresponds with failure of dye to enter the microvasculature, indicating a lack of tissue level perfusion whereas TMPG 3 - normal entry and exit of dye from the microvasculature)",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "ST elevation resolution in STEMI patients after PCI",
+          "description": "central analysis of ST elevation reduction in STEMI patients with a 70% resolution cut-off",
+          "timeFrame": "1 hour after PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of ST-elevation myocardial infarction (STEMI) or non-ST-elevation acute coronary syndrome (NSTE-ACS)\n* patients aged from 18 to 80 years\n\nExclusion Criteria:\n\n* pregnancy\n* manifest infection or inflammatory state\n* cardiogenic shock during screening for eligibility\n* respiratory failure\n* heart failure (NYHA class III or IV during screening for eligibility)\n* uncontrolled hypertension (systolic blood pressure \\>180 mmHg or diastolic blood pressure \\>100 mmHg)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Agata Kosobucka, PhD",
+          "role": "CONTACT",
+          "phone": "+48 525854023",
+          "email": "akosobucka@wp.pl"
+        },
+        {
+          "name": "Piotr Niezgoda, MD",
+          "role": "CONTACT",
+          "phone": "+48 525854023",
+          "email": "piotr.niezgoda1986@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jacek Kubica, Professor",
+          "affiliation": "Collegium Medicum w Bydgoszczy",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology",
+          "status": "RECRUITING",
+          "city": "Bydgoszcz",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "85-094",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Agata Kosobucka, PhD",
+              "role": "CONTACT",
+              "phone": "+48 525854023",
+              "email": "akosobucka@wp.pl"
+            },
+            {
+              "name": "Jacek Kubica, Professor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33649058",
+          "type": "DERIVED",
+          "citation": "Kubica A, Kosobucka A, Niezgoda P, Adamski P, Buszko K, Lesiak M, Wojakowski W, Gasior M, Goracy J, Kleinrok A, Nadolny K, Navarese E, Kubica J. ANalgesic Efficacy and safety of MOrphiNe versus methoxyflurane in patients with acute myocardial infarction: the rationale and design of the ANEMON-SIRIO 3 study: a multicentre, open-label, phase II, randomised clinical trial. BMJ Open. 2021 Mar 1;11(3):e043330. doi: 10.1136/bmjopen-2020-043330."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009020",
+          "term": "Morphine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009022",
+          "term": "Morphine Derivatives"
+        },
+        {
+          "id": "D009019",
+          "term": "Morphinans"
+        },
+        {
+          "id": "D053610",
+          "term": "Opiate Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006572",
+          "term": "Heterocyclic Compounds, Bridged-Ring"
+        },
+        {
+          "id": "D006576",
+          "term": "Heterocyclic Compounds, 4 or More Rings"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D010616",
+          "term": "Phenanthrenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

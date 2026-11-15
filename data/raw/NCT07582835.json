@@ -1,0 +1,494 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07582835",
+      "orgStudyIdInfo": {
+        "id": "2026-00247"
+      },
+      "organization": {
+        "fullName": "Cardiocentro Ticino",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study of the Long-term Effects of P2Y12 Inhibitor Monotherapy and Coagulation Markers After Percutaneous Coronary Angioplasty.",
+      "officialTitle": "Hunting for the Long-Term EffeCts of P2Y12 Inhibitor monotHerapy and Coagulation Monitoring After PCI: an Open-label, Randomized Study.",
+      "acronym": "HI-TECH 2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-20",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-04-14",
+      "studyFirstSubmitQcDate": "2026-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2026-05-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Marco Valgimigli",
+        "investigatorTitle": "Cardiology Chief Prof. Dr. Med",
+        "investigatorAffiliation": "Cardiocentro Ticino"
+      },
+      "leadSponsor": {
+        "name": "Cardiocentro Ticino",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients who undergo percutaneous coronary intervention (PCI) are commonly treated with antiplatelet therapy to prevent stent thrombosis and recurrence of events. After an initial period of dual antiplatelet therapy, long-term treatment with a single P2Y12 inhibitor (such as clopidogrel, ticagrelor, or prasugrel) is often prescribed. However, the optimal drug and dose for long-term monotherapy remain uncertain, as patients may experience either insufficient platelet inhibition (leading to ischemic events) or excessive inhibition (increasing bleeding risk).\n\nThe HI-TECH 2 study aims to identify the most appropriate type and dose of P2Y12 inhibitor monotherapy to achieve a balanced level of platelet inhibition within a predefined therapeutic range. The study also seeks to better understand how blood coagulation activity evolves over time after PCI.\n\nThis is a prospective, investigator-initiated, single-center, open-label study conducted in two phases. In Phase 1, patients receive stepwise reduced doses of ticagrelor or prasugrel to determine the optimal dose that most consistently achieves the desired level of platelet inhibition. In Phase 2, patients are randomly assigned to receive clopidogrel or the optimal doses of ticagrelor or prasugrel identified in Phase 1.\n\nThe main question of the study is whether optimized ticagrelor or prasugrel regimens are more effective than standard-dose clopidogrel in achieving platelet inhibition within the target therapeutic window, as measured by validated platelet function tests. Additional objectives include evaluating the role of genetic factors in treatment response and assessing markers of coagulation activation over time.\n\nThe results of this study may help personalize long-term antiplatelet therapy after PCI, improving the balance between reducing thrombotic risk and minimizing bleeding complications.",
+      "detailedDescription": "HI-TECH 2 is a prospective, investigator-initiated, single-center, open-label clinical trial designed to optimize P2Y12 inhibitor monotherapy following percutaneous coronary intervention (PCI), with a focus on achieving a predefined therapeutic window of platelet reactivity and characterizing coagulation system activation over time.\n\nDespite widespread use of P2Y12 inhibitor monotherapy after completion of dual antiplatelet therapy (DAPT), substantial interindividual variability in pharmacodynamic response persists. Both high platelet reactivity (HPR) and low platelet reactivity (LPR) have been associated with adverse clinical outcomes, including thrombotic and bleeding events, respectively. A therapeutic window of platelet reactivity has been proposed to balance these competing risks. However, the optimal drug selection and dosing strategy to consistently achieve this window in contemporary PCI patients remain uncertain.\n\nThe study is structured in two sequential phases.\n\nPhase 1 (dose-finding phase):\n\nThis phase aims to identify reduced-dose regimens of ticagrelor and prasugrel that achieve platelet reactivity within the predefined therapeutic range. Patients eligible for P2Y12 inhibitor monotherapy after PCI undergo serial platelet function testing using two validated assays (VerifyNow and Multiplate) at steady state. Ticagrelor and prasugrel are administered with stepwise dose reductions at predefined intervals, allowing within-subject pharmacodynamic assessment across multiple dosing regimens. The relationship between drug dose and platelet reactivity is characterized to determine the dose associated with the highest proportion of measurements within the target therapeutic window.\n\nPhase 2 (randomized phase):\n\nFollowing identification of the optimal dosing regimens in Phase 1, patients are randomized in a 1:1:1 ratio to receive clopidogrel at standard dose or ticagrelor or prasugrel at the optimized regimens. Randomization is stratified according to key clinical variables, including clinical presentation and diabetic status. Platelet function testing is performed under standardized conditions to assess pharmacodynamic response at steady state. This phase is designed to compare the proportion of patients achieving platelet reactivity within the therapeutic window across treatment groups.\n\nIn addition to platelet function assessment, a comprehensive panel of circulating biomarkers is evaluated in a predefined subset of patients to investigate the activation and persistence of coagulation pathways following PCI. These biomarkers include markers of thrombin generation, fibrinolysis, endothelial function, and platelet activation, providing mechanistic insight into the interplay between platelet inhibition and coagulation system activity in the chronic phase after PCI.\n\nPharmacogenetic analyses are also incorporated to explore the influence of CYP2C19 genotype and a composite ABCD-gene score on treatment response and the likelihood of achieving the therapeutic window. This component aims to assess the potential role of genotype-guided strategies in tailoring P2Y12 inhibitor therapy.\n\nAll analyses in the randomized phase are primarily conducted according to the intention-to-treat principle, with complementary per-protocol analyses to evaluate the robustness of findings. The study is powered to detect clinically relevant differences in pharmacodynamic response between treatment strategies, with adjustment for multiple comparisons.\n\nOverall, HI-TECH 2 integrates dose optimization, randomized comparison, biomarker profiling, and pharmacogenetics to provide a comprehensive evaluation of long-term P2Y12 inhibitor monotherapy after PCI. The results are expected to inform individualized antiplatelet strategies aimed at improving the balance between thrombotic and bleeding risk in this population."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Percutaneous Coronary Intervention",
+        "Acute Coronary Syndromes",
+        "Antiplatelet Therapy",
+        "Single Antiplatelet Therapy",
+        "Coagulation Factors"
+      ],
+      "keywords": [
+        "Coronary Artery Disease",
+        "Single Antiplatelet Therapy",
+        "Antiplatelet therapy",
+        "Ticagrelor",
+        "Prasugrel",
+        "Coagulation biomarkers",
+        "Clopidogrel",
+        "Multiplate",
+        "VerifyNow",
+        "CYP2C19",
+        "ABCB1 gene",
+        "Acute Coronary Syndromes",
+        "Dose optimization",
+        "platelet function tests (PFT)",
+        "Percutaneous Coronary Intervention (PCI)",
+        "High platelet reactivity (HPR)",
+        "Low platelet reactivity (LPR)",
+        "Bleeding Risk",
+        "Ischemic risk",
+        "prothrombin fragment F1+2",
+        "thrombin-antithrombin (TAT) complex",
+        "fibrinopeptide A",
+        "fibrinogen",
+        "D-dimer",
+        "von Willebrand factor activity (VWF)",
+        "plasminogen activator inhibitor-1 (PAI-1)",
+        "thrombin-activatable fibrinolysis inhibitor (TAFI)",
+        "circulating extracellular vesicles"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a two-phase interventional study. Phase 1 consists of a prospective dose-finding design in which patients receive stepwise reductions of ticagrelor or prasugrel monotherapy with serial platelet function testing to identify optimal dosing regimens achieving platelet reactivity within a predefined therapeutic window. Phase 2 is a randomized, open-label, parallel-group trial in which patients are assigned in a 1:1:1 ratio to clopidogrel, ticagrelor, or prasugrel at the optimized doses identified in Phase 1. Randomization is stratified by clinical presentation and diabetes status. Participants remain in their assigned treatment group throughout follow-up.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 355,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Clopidogrel Monotherapy (Standard Dose) (Phase 2)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive clopidogrel 75 mg once daily as standard-dose P2Y12 inhibitor monotherapy after completion of dual antiplatelet therapy following PCI.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "Ticagrelor Monotherapy (Optimized Dose) (Phase 2)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive ticagrelor monotherapy at the optimized maintenance dose identified in Phase 1 of the study after discontinuation of dual antiplatelet therapy following PCI. Dose selection is based on prior dose-finding platelet function testing.",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        },
+        {
+          "label": "Prasugrel Monotherapy (Optimized Dose) (Phase 2)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive prasugrel monotherapy at the optimized maintenance dose identified in Phase 1 of the study after discontinuation of dual antiplatelet therapy following PCI. Dose selection is based on prior dose-finding platelet function testing.",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Clopidogrel 75 mg once daily administered as maintenance P2Y12 inhibitor monotherapy following completion of dual antiplatelet therapy after PCI. This regimen represents the standard comparator arm in the study.",
+          "armGroupLabels": [
+            "Clopidogrel Monotherapy (Standard Dose) (Phase 2)"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "Ticagrelor monotherapy administered at the optimized maintenance dose identified in Phase 1 dose-finding stage. Dose selection is based on stepwise dose reduction with serial platelet function testing (VerifyNow P2Y12 and Multiplate) to achieve platelet reactivity within the predefined therapeutic window. Administered after completion of dual antiplatelet therapy following PCI.",
+          "armGroupLabels": [
+            "Ticagrelor Monotherapy (Optimized Dose) (Phase 2)"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Prasugrel monotherapy administered at the optimized maintenance dose identified in Phase 1 dose-finding stage. Dose selection is based on stepwise dose reduction with serial platelet function testing (VerifyNow P2Y12 and Multiplate) to achieve platelet reactivity within the predefined therapeutic window. Administered after completion of dual antiplatelet therapy following PCI.",
+          "armGroupLabels": [
+            "Prasugrel Monotherapy (Optimized Dose) (Phase 2)"
+          ],
+          "otherNames": [
+            "Efient"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Identification of reduced doses of ticagrelor and prasugrel achieving target platelet reactivity by VerifyNow (Phase 1)",
+          "description": "Identification of the reduced maintenance doses of ticagrelor and prasugrel that achieve platelet reactivity within the predefined therapeutic window, defined as platelet reactivity units (PRU) \\>85 and \\<208, as measured by the VerifyNow P2Y12 assay. Platelet reactivity will be assessed 1 to 2 hours after intake of each dose of the P2Y12 inhibitor.",
+          "timeFrame": "During the dose-finding phase (Phase 1): at baseline and at Visit 1 (at approximately 30 days), Visit 2 (at approximately 60 days), and Visit 3 (at approximately 90 days)."
+        },
+        {
+          "measure": "Proportion of patients achieving platelet reactivity within the therapeutic window by VerifyNow at 3 months after randomization (Phase 2)",
+          "description": "Proportion of patients with platelet reactivity within the predefined therapeutic window, defined as platelet reactivity units (PRU) ≥85 and ≤208, as measured by the VerifyNow P2Y12 assay. Platelet reactivity is assessed 1 to 2 hours after witnessed intake of the maintenance dose. The primary analysis includes two comparisons: ticagrelor versus clopidogrel and prasugrel versus clopidogrel.",
+          "timeFrame": "3 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Identification of reduced doses of ticagrelor and prasugrel achieving target platelet reactivity by Multiplate (Phase 1)",
+          "description": "Identification of the reduced maintenance doses of ticagrelor and prasugrel that achieve platelet reactivity within the predefined therapeutic window, defined as area under the curve (AUC) ≥18 and ≤46, as measured by the Multiplate analyzer. Platelet reactivity will be assessed 1 to 2 hours after intake of each dose of the P2Y12 inhibitor.",
+          "timeFrame": "During the dose-finding phase (Phase 1): at baseline and at Visit 1 (at approximately 30 days), Visit 2 (at approximately 30 days), and Visit 3 (at approximately 30 days)."
+        },
+        {
+          "measure": "Proportion of patients achieving platelet reactivity within the therapeutic window by Multiplate at 3 months after randomization (Phase 2)",
+          "description": "Proportion of patients with platelet reactivity within the predefined therapeutic window, defined as area under the curve (AUC) ≥18 and ≤46, as measured by the Multiplate analyzer. Platelet reactivity is assessed 1 to 2 hours after witnessed intake of the maintenance dose.",
+          "timeFrame": "3 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Platelet reactivity within the therapeutic window after loading dose and at 6 months after randomization (Phase 2)",
+          "description": "Proportion of patients achieving platelet reactivity within the predefined therapeutic window (PRU 85-208 by VerifyNow and/or AUC 18-46 by Multiplate) at baseline, at 3 to 6 hours after administration of the loading dose of the randomized P2Y12 inhibitor, and at 6 months follow-up, 1 to 2 hours after witnessed intake of the maintenance dose.",
+          "timeFrame": "At randomization and 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Proportion of patients with high and low platelet reactivity (Phase 2)",
+          "description": "Proportion of patients with high platelet reactivity (HPR: PRU ≥208 or AUC ≥46) and low platelet reactivity (LPR: PRU ≤85 or AUC ≤18), as assessed by the VerifyNow P2Y12 assay and Multiplate analyzer. Measurements will be performed 3 to 6 hours after the loading dose following randomization, and 1 to 2 hours after intake of the maintenance dose at approximately 3 months and 6 months.",
+          "timeFrame": "At baseline, 3 to 6 hours after the loading dose following randomization, and 1 to 2 hours after intake of the maintenance dose at approximately 3 months and 6 months. (Phase 2)"
+        },
+        {
+          "measure": "Major adverse cardiovascular events (MACE) (Phase 2)",
+          "description": "Composite of death, myocardial infarction, or stroke, and individual components.",
+          "timeFrame": "Up to 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "BARC bleeding events (Phase 2)",
+          "description": "Bleeding events classified according to the Bleeding Academic Research Consortium (BARC) criteria. The BARC scale ranges from 0 to 5, where 0 indicates no bleeding and 5 indicates fatal bleeding; higher scores correspond to worse outcomes.",
+          "timeFrame": "Up to 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Drug adherence (Phase 2)",
+          "description": "Assessment of treatment adherence measured as the proportion of prescribed doses taken over the study period, expressed as a percentage (0% to 100%), where higher percentages indicate better adherence. Adherence will be evaluated using patient self-report (e.g., medication diary) and, where available, electronic adherence monitoring systems (e.g., automatic pill counting devices).",
+          "timeFrame": "Up to 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Drug tolerability (Phase 2)",
+          "description": "Assessment of drug tolerability based on the incidence, type, and severity of adverse events and treatment discontinuations, as documented in the annual safety report. Adverse events will be summarized descriptively; higher incidence and greater severity indicate worse tolerability.",
+          "timeFrame": "Up to 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Correlation between genotype status and platelet reactivity measured by VerifyNow P2Y12 assay (Phase 2)",
+          "description": "Assessment of the correlation between genotype status-including variants of CYP2C19 and ABCB1, determined by genotyping assay-and platelet reactivity measured by the VerifyNow P2Y12 assay, expressed in P2Y12 Reaction Units (PRU). Correlation will be quantified using an appropriate correlation coefficient (e.g., Pearson or Spearman), ranging from -1 to +1, where values closer to ±1 indicate stronger relationships.",
+          "timeFrame": "Up to 6 months after randomization (Phase 2)"
+        },
+        {
+          "measure": "Change in cardiac troponin levels (Phase 2)",
+          "description": "Change from baseline in cardiac troponin concentration, measured in ng/L using a validated immunoassay. Higher values indicate greater cardiac injury.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in prothrombin fragment 1+2 levels (Phase 2)",
+          "description": "Change from baseline in prothrombin fragment 1+2 concentration, measured in pmol/L using a validated assay. Higher values indicate increased thrombin generation.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in thrombin-antithrombin (TAT) complex levels (Phase 2)",
+          "description": "Change from baseline in thrombin-antithrombin complex concentration, measured in µg/L. Higher values indicate increased coagulation activation.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in fibrinopeptide A levels (Phase 2)",
+          "description": "Change from baseline in fibrinopeptide A concentration, measured in ng/mL. Higher values indicate increased fibrin formation.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in fibrinogen levels (Phase 2)",
+          "description": "Change from baseline in fibrinogen concentration, measured in g/L. Higher values indicate increased coagulation potential.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in fibrin monomer levels (Phase 2)",
+          "description": "Change from baseline in fibrin monomer concentration, measured in µg/mL. Higher values indicate increased fibrin formation.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in D-dimer levels (Phase 2)",
+          "description": "Change from baseline in D-dimer concentration, measured in mg/L FEU. Higher values indicate increased fibrinolysis and clot turnover.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in von Willebrand factor activity (Phase 2)",
+          "description": "Change from baseline in von Willebrand factor activity, expressed as a percentage (%). Higher values indicate increased platelet adhesion activity.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in plasminogen activator inhibitor-1 (PAI-1) levels (Phase 2)",
+          "description": "Change from baseline in PAI-1 concentration, measured in ng/mL. Higher values indicate reduced fibrinolysis.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in thrombin-activatable fibrinolysis inhibitor (TAFI) levels (Phase 2)",
+          "description": "Change from baseline in TAFI concentration, measured in µg/mL. Higher values indicate reduced fibrinolysis.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        },
+        {
+          "measure": "Change in circulating extracellular vesicle levels (Phase 2)",
+          "description": "Change from baseline in circulating extracellular vesicle concentration, measured as particles/µL using a validated analytical method. Higher values may reflect increased cellular activation or injury.",
+          "timeFrame": "From baseline to 6 months after randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Prior (≥3 months) ACS and/or PCI\n* Eligible for P2Y12 inhibitor monotherapy after an uneventful DAPT course\n* Free from ischemic (i.e. any new episode of ACS, symptomatic restenosis, stent thrombosis, stroke, any revascularization requiring prolonged DAPT) and/or bleeding events (defined as BARC ≥ 2) for at least 3 months\n* Written informed consent.\n\nExclusion Criteria:\n\n* Unconscious patients\n* Unable to provide written informed consent\n* Under judicial protection, tutorship or curatorship\n* Unable to understand and follow study-related instructions or unable to comply with study protocol\n* Known hypersensitivity or allergy to clopidogrel, ticagrelor or prasugrel\n* Severe hepatic impairment\n* Haemoglobin level \\<10 g/dL or platelet count \\<100 000 cells/mL\n* Pregnant or breastfeeding women\n* Life expectancy less than 1 year\n* Active participation in another interventional trial\n* Need for concomitant oral anticoagulation\n* History of intracranial haemorrhage (anytime), transient ischemic attack or stroke within 3 months\n* PCI for in-stent restenosis or stent thrombosis at index PCI or within 6 months before randomization",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Marco Valgimigli, Cardiology Chief Prof. Dr. Med",
+          "role": "CONTACT",
+          "phone": "+41 (0) 91 811 51 11",
+          "email": "marco.valgimigli@eoc.ch"
+        },
+        {
+          "name": "Enrico Frigoli, Dr. Med",
+          "role": "CONTACT",
+          "phone": "+41 (0)91 811 53 04",
+          "email": "enrico.frigoli@eoc.ch"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Marco Valgimigli, Cardiology Chief Prof. Dr. Med",
+          "affiliation": "Cardiocentro Ticino",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Istituto Cardiocentro Ticino",
+          "status": "RECRUITING",
+          "city": "Lugano",
+          "state": "Ch/ti",
+          "zip": "6900",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Servizio di Ricerca Cardiovascolare Cardiocentro, +41 (0)91 811 53 04",
+              "role": "CONTACT",
+              "email": "src.ICCT@eoc.ch"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

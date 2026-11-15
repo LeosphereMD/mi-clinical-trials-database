@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06174753",
+      "orgStudyIdInfo": {
+        "id": "20230332-01H"
+      },
+      "organization": {
+        "fullName": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dapagliflozin in STEMI",
+      "officialTitle": "The University of Ottawa Dapagliflozin in STEMI Randomized Clinical Trial",
+      "acronym": "DAPA STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-01-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-12-07",
+      "studyFirstSubmitQcDate": "2023-12-07",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to assess the safety and efficacy of SGLT2i in limiting infarct size in patients with STEMI referred for PPCI.\n\nEligible STEMI patients enrolled into the trial will be randomized to a SGLT2i or placebo.\n\nCardiovascular Magnetic Resonance (CMR) imaging will be used to determine the infarct size.",
+      "detailedDescription": "DAPA STEMI is a single center, randomized, double-blind, parallel group study in which eligible participants with a STEMI and undergoing PPCI will be recruited and randomly assigned to dapagliflozin or placebo to take for 7 days. Participants will be prescribed study treatment i.e. dapagliflozin (10 mg) or placebo daily for 7 days.\n\nA CMR will be obtained at day 3-5 to assess for infarct size. Participants will have follow-up visits at 30, 90, and 180 days to assess for cardiovascular events."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction",
+        "Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "a single center, randomized, double-blind, parallel group study",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 256,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10mg daily X 7 days",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10mg Tab",
+            "Diagnostic Test: CMR"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo daily X 7 days",
+          "interventionNames": [
+            "Diagnostic Test: CMR"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10mg Tab",
+          "description": "Dapagliflozin 10 mg daily X 7 days",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "CMR",
+          "description": "CMR 3-5 days post randomization",
+          "armGroupLabels": [
+            "Placebo",
+            "Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Infarct Size",
+          "description": "Infarct size (% of total LV mass) measured by CMR",
+          "timeFrame": "3-5 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of Multiple Cardiac Adverse Events (MACE)",
+          "description": "A composite of death, reinfarction, stroke, or rehospitalization for HF",
+          "timeFrame": "3 months, and 6 months"
+        },
+        {
+          "measure": "Number of participants with Cardiogenic Shock",
+          "description": "Evaluated using the SCAI classification; only class C, D, or E will be adjudicated as a secondary outcome",
+          "timeFrame": "during initial hospitalization (*up to 30 days)"
+        },
+        {
+          "measure": "Number of Participants with Acute Kidney Injury",
+          "description": "As defined according to the KDIGO definition",
+          "timeFrame": "3 months, and 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients referred for PPCI meeting the following criteria are eligible for the study:\n\n* Ischemic chest discomfort of ≥30 minutes duration, and\n* Onset of chest pain ≤12 hours prior to entry into the study, and\n* One of the following High-Risk criteria on a standard 12 lead ECG:\n\n  a. Anterior STEMI with ST-segment elevation ≥2mm (0.2 mV) in each of at least 2 contiguous precordial leads (V1-V6) b. Extensive non-anterior STEMI defined as ST-segment elevation of \\>1mm in two or more contiguous non-anterior leads accompanied by i. 8 or more leads with \\> 1 mm ST elevation or depression, or both; OR ii. Sum of ST- segment elevation \\>20mm\n\nExclusion Criteria:\n\n* Age \\< 18 years\n* Any contraindication to undergo CMR imaging\n* Killip 4 (Cardiogenic shock on presentation)\n* Therapy with SGLT2i within last 8 weeks\n* Type 1 diabetes mellitus\n* Pregnancy\n* Nursing mother\n* Unwilling to use appropriate forms of contraception, as applicable\n* Chronic symptomatic HF with prior hospitalization for HF within the last year\n* hospitalization\n* Known history of prior MI\n* Any non-CV condition with a life expectancy of less than one year\n* Previous randomization in the present study\n* Participation in a study with another investigational device or drug \\< four weeks\n* Inability to provide informed consent\n* Confirmed ketoacidosis at time of admission\n* Known severe hepatic impairment (Cirrhosis)\n* Severe renal impairment (eGFR \\< 30 mL/min1.73m2 (based on prior or baseline blood work)\n* Known severe valvular heart disease\n* Need for CABG within 90 days based on the results of the initial coronary angiogram\n* False positive STEMI (based on the results of the coronary angiogram)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Poppy MacPhee, BScN",
+          "role": "CONTACT",
+          "phone": "6136967000",
+          "phoneExt": "14646",
+          "email": "pmacphee@ottawaheart.ca"
+        },
+        {
+          "name": "Tanya Abarbanel",
+          "role": "CONTACT",
+          "phone": "613-696-7000",
+          "email": "tabarbanel@ottawaheart.ca"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Michel LeMay, MD",
+          "affiliation": "Ottawa Heart Institute Research Corporation",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "status": "RECRUITING",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1Y 4W7",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Michel Le May",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

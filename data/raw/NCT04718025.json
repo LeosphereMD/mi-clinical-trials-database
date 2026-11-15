@@ -1,0 +1,480 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04718025",
+      "orgStudyIdInfo": {
+        "id": "2019/ABM/01/00009"
+      },
+      "organization": {
+        "fullName": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of Safety and Efficacy of Two Ticagrelor-based De-escalation Antiplatelet Strategies in Acute Coronary Syndrome",
+      "officialTitle": "Evaluation of Safety and Efficacy of Two Ticagrelor-based De-escalation Antiplatelet Strategies in Acute Coronary Syndrome: the Randomized, Multicenter, Double-blind ELECTRA RCT Study",
+      "acronym": "ELECTRA-SIRIO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-01-17",
+      "studyFirstSubmitQcDate": "2021-01-17",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jacek Kubica",
+        "investigatorTitle": "Prof. dr hab.",
+        "investigatorAffiliation": "Collegium Medicum w Bydgoszczy"
+      },
+      "leadSponsor": {
+        "name": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Medical Research Agency, Poland",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ELECTRA-SIRIO 2 study is a randomized, multicenter, double-blind, investigator-initiated clinical trial aimed to evaluate safety and efficacy of two ticagrelor-based de-escalation antiplatelet strategies in patients with acute coronary syndrome (ACS). During the hospitalization due to ACS, participants will be randomized in a 1:1:1 ratio into one of three arms: low-dose ticagrelor with aspirin (LDTA), low-dose ticagrelor with placebo (LDTP), and standard-dose ticagrelor with aspirin (SDTA), the latter being the control arm. Up to day 30, all enrolled patients will receive standard-dose ticagrelor (2x90mg) + aspirin (1x100mg). Starting from day 31 LDTA and LDTP patients will receive low-dose ticagrelor (2x60mg) + aspirin (1x100mg), SDTA - continuation of previous treatment. Starting from day 91 LDTP patients will receive low-dose ticagrelor (2x60mg) + placebo, SDTA and LDTA - continuation of previous treatment. The aim of the study is to evaluate the influence of ticagrelor maintenance dose reduction from 2x90mg to 2x60mg with or without continuation of aspirin versus dual antiplatelet therapy with standard dose ticagrelor in reducing clinically relevant bleeding and maintaining anti-ischemic efficacy in ACS patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI",
+        "NSTEMI",
+        "Unstable Angina"
+      ],
+      "keywords": [
+        "ticagrelor",
+        "aspirin",
+        "acute coronary syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Low-dose ticagrelor with aspirin (LDTA)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with ACS in this arm will be subject to reduction of ticagrelor maintenance dose from 2x90mg to 2x60mg after the first month post-ACS, and will receive the following antiplatelet therapy:\n\n1. ticagrelor 2x90mg + aspirin 1x100mg during the first 30 days after ACS;\n2. ticagrelor 2x60mg + aspirin 1x100mg starting from day 31 until 12 months after ACS.",
+          "interventionNames": [
+            "Drug: Ticagrelor 60mg",
+            "Drug: Aspirin"
+          ]
+        },
+        {
+          "label": "Low-dose ticagrelor with placebo (LDTP)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with ACS in this arm will be subject to reduction of ticagrelor maintenance dose from 2x90mg to 2x60mg after the first month post-ACS, followed by discontinuation of aspirin after 3 months post-ACS, and will receive the following antiplatelet therapy:\n\n1. ticagrelor 2x90mg + aspirin 1x100mg during the first 30 days after ACS;\n2. ticagrelor 2x60mg + aspirin 1x100mg starting from day 31 until day 90 after ACS;\n3. ticagrelor 2x60mg + placebo starting from day 91 until 12 months after ACS.",
+          "interventionNames": [
+            "Drug: Ticagrelor 60mg"
+          ]
+        },
+        {
+          "label": "Standard-dose ticagrelor with aspirin (SDTA)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with ACS in this arm will receive standard dual antiplatelet therapy including ticagrelor 2x90mg + aspirin 1x100mg during the whole 12 months after ACS.",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg",
+            "Drug: Aspirin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90mg",
+          "description": "Up to day 30 after ACS, all enrolled patients will receive standard-dose ticagrelor 2x90mg as a part of dual antiplatelet therapy. Participants in SDTA arm will continue treatment with ticagrelor 2x90mg until 12 months post-ACS, while patients in LDTA and LDTP will be switched to low-dose ticagrelor 2x60 mg starting on day 31.",
+          "armGroupLabels": [
+            "Standard-dose ticagrelor with aspirin (SDTA)"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 60mg",
+          "description": "Starting from day 31, LDTA and LDTP patients will receive low-dose ticagrelor 2x60mg until 12 months post-ACS.",
+          "armGroupLabels": [
+            "Low-dose ticagrelor with aspirin (LDTA)",
+            "Low-dose ticagrelor with placebo (LDTP)"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aspirin",
+          "description": "Up to day 90 after ACS, all enrolled patients will receive aspirin 1x100mg as a part of dual antiplatelet therapy. Starting from day 91, LDTP patients will discontinue aspirin and proceed with low-dose ticagrelor monotherapy until 12 months post-ACS, while patients in LDTA and SDTA will continue aspirin 1x100 mg until 12 months post-ACS.",
+          "armGroupLabels": [
+            "Low-dose ticagrelor with aspirin (LDTA)",
+            "Standard-dose ticagrelor with aspirin (SDTA)"
+          ],
+          "otherNames": [
+            "acetylsalicylic acid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "BARC type 2, 3 or 5 bleeding",
+          "description": "The primary safety composite end point of this study is the first occurrence of type 2, 3 or 5 bleeding according to the BARC criteria, occurring during the first 12 months after ACS.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Death from any cause, nonfatal MI or nonfatal stroke.",
+          "description": "The primary efficacy end point is the composite of death from any cause, first nonfatal MI, or first nonfatal stroke.",
+          "timeFrame": "12 months after ACS"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Death from any cause, nonfatal MI, nonfatal stroke, BARC type 2, 3, or 5 bleeding.",
+          "description": "The key secondary endpoint, net clinical effect, was defined as composite of death from any cause, nonfatal MI, or nonfatal stroke, and the first occurrence of BARC type 2, 3, or 5 bleeding.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "BARC type 3 or 5 bleeding",
+          "description": "Composite of the first occurrence of type 3 or 5 bleeding according to the BARC criteria.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "TIMI major or minor bleeding",
+          "description": "Composite of the first occurrence of major or minor bleeding according to the TIMI criteria.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "GUSTO moderate, severe, or life-threatening bleeding",
+          "description": "Composite of the first occurrence of moderate, severe, or life-threatening bleeding according to the GUSTO criteria.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "ISTH major bleeding",
+          "description": "The first occurrence of major bleeding according to the ISTH criteria.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Death from any cause",
+          "description": "Death from any cause.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Death from cardiovascular causes",
+          "description": "Death from cardiovascular causes.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "description": "Occurrence of myocardial infarction.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Ischemic stroke",
+          "description": "Occurrence of ischemic stroke.",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Definite or probable stent thrombosis",
+          "description": "Occurrence of definite or probable stent thrombosis",
+          "timeFrame": "12 months after ACS"
+        },
+        {
+          "measure": "Dyspnea",
+          "description": "Occurrence of dyspnea",
+          "timeFrame": "12 months after ACS"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of STEMI or NSTEMI or unstable angina\n* for patients with STEMI, the following three inclusion criteria will have to be met: 1) new ST-elevation at the J-point in two contiguous leads with the cut-point ≥1 mm in all leads other than leads V2-V3, where the following cut-points apply: ≥2mm in men ≥40 years; ≥2.5 mm in men \\<40 years, or ≥1.5 mm in women regardless of age; or a new left bundle-branch block 2) the intention to perform primary PCI 3) detection of a rise and/or fall of cardiac troponin values with at least one value above the 99th percentile upper reference limit\n* for patients with NSTEMI or unstable angina, at least two of the following three criteria will have to be met:\n\n  1. symptoms indicating myocardial ischaemia\n  2. ST-segment changes on electrocardiography indicating myocardial ischaemia\n  3. detection of a rise and/or fall of cardiac troponin values with at least one value above the 99th percentile upper reference limit in addition to at least one of the following:\n\n  <!-- -->\n\n  1. ≥60 years of age;\n  2. previous MI or coronary artery by-pass grafting;\n  3. ≥50% stenosis in ≥2 coronary arteries;\n  4. previous ischaemic stroke or transient ischaemic attack;\n  5. ≥50% carotid stenosis or cerebral revascularisation;\n  6. diabetes mellitus;\n  7. peripheral artery disease;\n  8. chronic kidney disease with glomerular filtration rate \\<60 mL/min.\n\nExclusion Criteria:\n\n* contraindications to ticagrelor or/and aspirin\n* indications for oral anticoagulation therapy\n* second or third grade atrio-ventricular block\n* previous stent thrombosis on treatment with ticagrelor\n* end stage kidney disease with glomerular filtration rate \\<15 mL/min or on haemodialysis\n* administration of prasugrel during the index event\n* pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Piotr Adamski, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+48 52 585 4023",
+          "email": "piotr.adamski@cm.umk.pl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jacek Kubica, MD, PhD",
+          "affiliation": "Collegium Medicum, Nicolaus Copernicus University, Bydgoszcz, Poland",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eliano Navarese, MD, PhD",
+          "affiliation": "Collegium Medicum, Nicolaus Copernicus University, Bydgoszcz, Poland",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Antoni Jurasz University Hospital No. 1",
+          "status": "RECRUITING",
+          "city": "Bydgoszcz",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Piotr Adamski, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+48 585 4023",
+              "email": "piotr.adamski@cm.umk.pl"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34096012",
+          "type": "DERIVED",
+          "citation": "Kubica J, Adamski P, Niezgoda P, Kubica A, Podhajski P, Baranska M, Uminska JM, Pietrzykowski L, Ostrowska M, Siller-Matula JM, Badariene J, Bartus S, Budaj A, Dobrzycki S, Fidor L, Gasior M, Gessek J, Gierlotka M, Gil R, Goracy J, Grzelakowski P, Hajdukiewicz T, Jaguszewski M, Janion M, Kasprzak J, Kern A, Klecha A, Kleinrok A, Kochman W, Krakowiak B, Legutko J, Lesiak M, Nosal M, Piotrowski G, Przybylski A, Roleder T, Skonieczny G, Sobieszek G, Tycinska A, Wojciechowski D, Wojakowski W, Wojcik J, Zielinska M, Zurakowski A, Specchia G, Gorog DA, Navarese EP. A new approach to ticagrelor-based de-escalation of antiplatelet therapy after acute coronary syndrome. A rationale for a randomized, double-blind, placebo-controlled, investigator-initiated, multicenter clinical study. Cardiol J. 2021;28(4):607-614. doi: 10.5603/CJ.a2021.0056. Epub 2021 Jun 7."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

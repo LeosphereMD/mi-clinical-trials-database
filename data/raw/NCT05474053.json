@@ -1,0 +1,259 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05474053",
+      "orgStudyIdInfo": {
+        "id": "tica trial"
+      },
+      "organization": {
+        "fullName": "Cairo University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Testing P2Y12 Platelet Inhibitors Generics Beyond Bioequivalence",
+      "officialTitle": "Testing P2Y12 Platelet Inhibitors Generics Beyond Bioequivalence: A Parallel Single-blinded Randomized Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-11-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-11-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-07-19",
+      "studyFirstSubmitQcDate": "2022-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-07-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-07-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Eman Said",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Cairo University"
+      },
+      "leadSponsor": {
+        "name": "Cairo University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a pilot study that was conducted to prove the efficacy and safety of ticagrelor generically named Ticaloguard® compared to its brand Brilique® in healthy volunteers. we advocate comparing the clinical efficacy rather than simple bioequivalence comparison.",
+      "detailedDescription": "Cardiovascular diseases are the leading cause of death worldwide. Ticagrelor, is an oral antiplatelet drug used in acute coronary syndrome. Although generic drugs are approved for their bioequivalence to the original product, they are not necessarily to be therapeutically equivalent. This study was conducted to prove the efficacy and safety of ticagrelor generically named Ticaloguard® compared to its brand Brilique® in healthy volunteers. A loading dose of 180 mg ticagrelor named Brilique® or Ticaloguard® followed by a 90 mg twice daily regimen as maintenance dose was given to 14 and 15 volunteers in Ticaloguard and Brilique groups, respectively. The platelet aggregation on adenosine diphosphate (ADP) agonist was assessed at different time intervals ."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Diseases",
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "The volunteers were randomly allocated to 2 groups, one receiving the brand drug and the other receiving the generic, each receiving a code indicating his/her group and the key of the codes could only be revealed by the principal investigator.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 29,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Brilique group",
+          "type": "EXPERIMENTAL",
+          "description": "volunteers in the Brilique group received a loading dose of 180 mg brand Brilique® (AstraZeneca , Sweden) then 90 mg twice daily regimen for 4 days",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg (Brilique)"
+          ]
+        },
+        {
+          "label": "Ticaloguard group",
+          "type": "EXPERIMENTAL",
+          "description": "volunteers in the Ticaloguard group received the Egyptian made generic ticalogaurd in a loading dose of 180 mg then 90 mg twice daily regimen for 4 day",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg (Ticaloguard)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90mg (Brilique)",
+          "description": "compare the efficacy and safety of ticagrelor generically named Ticaloguard® compared to its brand Brilique® in healthy volunteers",
+          "armGroupLabels": [
+            "Brilique group"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90mg (Ticaloguard)",
+          "description": "compare the efficacy and safety of ticagrelor generically named Ticaloguard® compared to its brand Brilique® in healthy volunteers",
+          "armGroupLabels": [
+            "Ticaloguard group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "testing degree of platelet inhibition of Ticalouguard versus the brand Brilique",
+          "description": "Testing the degree of platelet inhibition in both groups through performing platelet aggregation testing using Adenosine diphosphate as agonist",
+          "timeFrame": "1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nvolunteers of both sexes, aged between 18-64 years old\n\nExclusion Criteria:\n\n* volunteers with any abnormalities in the complete blood count (CBC) at entry time\n* those with any medical conditions contraindicated with antiplatelet therapy\n* those taking aspirin, non-steroidal anti-inflammatory drugs (NSAIDs), or any over the counter medications (OTC) that contain medication such as, antihistamines, antibiotics in the previous month\n* volunteers with history of blood disorders or bleeding diathesis.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nirmeen sabry, MD",
+          "affiliation": "Faculty of pharmacy, Cairo university",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Faculty of Medicine",
+          "city": "Cairo",
+          "zip": "4262004",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

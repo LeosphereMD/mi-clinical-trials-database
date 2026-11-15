@@ -1,0 +1,390 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05594342",
+      "orgStudyIdInfo": {
+        "id": "YIG-10202201"
+      },
+      "organization": {
+        "fullName": "The Young Investigator Group of Cardiovascular Research",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Ivabradine Effects in Cardiogenic Shock Requiring Inotropic Support",
+      "officialTitle": "Effects of Adding Ivabradine in Patients With Cardiogenic Shock Requiring Inotropic Support",
+      "acronym": "IVA-CS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-10-04",
+      "studyFirstSubmitQcDate": "2022-10-20",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Abdallah Almaghraby",
+        "investigatorTitle": "Associate Professor of Cardiology",
+        "investigatorAffiliation": "The Young Investigator Group of Cardiovascular Research"
+      },
+      "leadSponsor": {
+        "name": "The Young Investigator Group of Cardiovascular Research",
+        "class": "NETWORK"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Data regarding the safety and efficacy of ivabradine use in severely decompensated HFrEF requiring inotropic support is limited to case series.1 This study aimed to evaluate ivabradine safety and tolerability in admitted cardiogenic shock patients who started on dobutamine infusion for inotropic support.",
+      "detailedDescription": "Background and study rationale:\n\nIvabradine is a Heart Rate (HR) lowering agent which acts by inhibiting the If current in the sinoatrial node. It is currently indicated in patients with chronic heart failure with reduced ejection fraction (HFrEF). Dobutamine is an inotropic drug used in cardiogenic shock patients and it is associated with an increase in HR and incidence of cardiac arrhythmias.2 However, studies have suggested that increased heart rate may be deleterious in decompensated HFrEF due to an inverted Bowditch-Treppe response. Data regarding the safety and efficacy of ivabradine use in severely decompensated HFrEF requiring inotropic support is limited to case series.1, 2\n\nAim of the work:\n\n* This study aims to evaluate ivabradine safety and tolerability in admitted cardiogenic shock patients who started on dobutamine infusion for inotropic support.\n* Design: Randomized open-label interventional clinical trial.\n\nMethods and patients:\n\n* Study Type: Interventional (Clinical Trial)\n* Estimated Enrollment: 200 participants\n* Allocation: Randomized\n* Perspective: Prospective Study\n* Intervention Model: Two Group Assignment\n* Masking: None (Open Label)\n* Primary purpose: Treatment\n* Official title: Ivabradine effects in cardiogenic shock requiring inotropic support (IVA-CS)\n* Start Date: 01 August 2022\n* Estimated Primary Completion Date: 01 January 2023"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cardiogenic Shock",
+        "Ischemic Heart Disease"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Cardiogenic shock",
+        "Ivabradine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ivabradine+ dobutamine infusion",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive ivabradine 7.5 mg twice daily via oral route after starting dobutamine infusion by 30 minutes.",
+          "interventionNames": [
+            "Drug: Ivabradine 7.5Mg Tab",
+            "Drug: DOBUTamine Injectable Solution"
+          ]
+        },
+        {
+          "label": "Dobutamine infusion only",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patient will receive dobutamine infusion only for cardiogenic shock",
+          "interventionNames": [
+            "Drug: DOBUTamine Injectable Solution"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ivabradine 7.5Mg Tab",
+          "description": "Patients will receive ivabradine 7.5 mg twice daily via oral route after dobutamine infusion by 30 minutes.",
+          "armGroupLabels": [
+            "Ivabradine+ dobutamine infusion"
+          ],
+          "otherNames": [
+            "Ivabradine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "DOBUTamine Injectable Solution",
+          "description": "Dobutamine infusion by a dose that is titrated according to blood pressure Ranging from 5 to 20 ug/kg/minute",
+          "armGroupLabels": [
+            "Dobutamine infusion only",
+            "Ivabradine+ dobutamine infusion"
+          ],
+          "otherNames": [
+            "Dobutamine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Heart rate reduction",
+          "description": "Amount of reduction of heart rate calculated by subtracting the heart rate at the time of weaning from the initial heart rate",
+          "timeFrame": "Up to 7 days"
+        },
+        {
+          "measure": "Time of weaning from dobutamine infusion",
+          "description": "The time needed to completely wean dobutamine infusion calculated in hours",
+          "timeFrame": "Up to 7 days"
+        },
+        {
+          "measure": "Duration of hospital stay",
+          "description": "Total duration of hospital stay calculated in days",
+          "timeFrame": "Up to 1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ventricular arrhythmias (Ventricular Tachycardia and/or Fibrillation)",
+          "description": "Any ventricular arrhythmias will be documented",
+          "timeFrame": "Up to 1 month"
+        },
+        {
+          "measure": "Supraventricular arrhythmia",
+          "description": "Any supraventricular arrhythmias will be documented",
+          "timeFrame": "Up to 1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Decompensated heart failure with reduced ejection fraction (HFrEF) admitted for cardiogenic shock requiring inotropic support.\n\nExclusion Criteria:\n\n* Decompensated heart failure with reduced ejection fraction (HFrEF) not requiring inotropic support.\n* Patients with no oral intake\n* Patients who refused to sign the consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Abdallah Almaghraby, PhD",
+          "role": "CONTACT",
+          "phone": "+201222851687",
+          "email": "dr.maghraby@gmail.com"
+        },
+        {
+          "name": "Mahmoud Abdelnabi, MD",
+          "role": "CONTACT",
+          "phone": "+18065897577",
+          "email": "mahmoud.hassan.abdelnabi@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Andalusia Hospitals",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Alexandria",
+          "zip": "21521",
+          "country": "Egypt",
+          "contacts": [
+            {
+              "name": "Haitham Badran, MD",
+              "role": "CONTACT",
+              "email": "Haithamcardiology@yahoo.com"
+            },
+            {
+              "name": "Abdallah Almaghraby, MSc",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.20176,
+            "lon": 29.91582
+          }
+        },
+        {
+          "facility": "Tiba Hospital",
+          "status": "RECRUITING",
+          "city": "Alexandria",
+          "zip": "21521",
+          "country": "Egypt",
+          "contacts": [
+            {
+              "name": "Abdallah Almaghraby, PhD",
+              "role": "CONTACT",
+              "email": "dr.maghraby@gmail.com"
+            },
+            {
+              "name": "Abdelrahman Assal, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.20176,
+            "lon": 29.91582
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077550",
+          "term": "Ivabradine"
+        },
+        {
+          "id": "D004280",
+          "term": "Dobutamine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

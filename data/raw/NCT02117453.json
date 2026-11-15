@@ -1,0 +1,392 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02117453",
+      "orgStudyIdInfo": {
+        "id": "P120127"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2013-002531-15",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Multicenter, Prospective, Randomized, Controlled, Double-blind Trial on the Impact of Rosuvastatin on Subclinical Markers of Atherosclerosis in Patients With Primary Necrotizing Vasculitides",
+      "officialTitle": "Multicenter, Prospective, Randomized, Controlled, Double-blind Trial on the Impact of Rosuvastatin on Subclinical Markers of Atherosclerosis in Patients With Primary Necrotizing Vasculitides",
+      "acronym": "STATVAS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-10-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-11-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-11-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-04-16",
+      "studyFirstSubmitQcDate": "2014-04-18",
+      "studyFirstPostDateStruct": {
+        "date": "2014-04-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-11-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "URC-CIC Paris Descartes Necker Cochin",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to assess whether rosuvastatin could reduce the subclinical markers of atherosclerosis and the incidence of major cardiovascular events in patients with primary necrotizing vasculitides.",
+      "detailedDescription": "Previous studies demonstrated the presence of subclinical atherosclerosis in patients with ANCA-associated systemic necrotizing vasculitis. Since statins lower levels of inflammatory proteins and cholesterol, we hypothesized that people with ANCA-associated systemic necrotizing vasculitis but without indication for statin treatment according to recommandations might benefit from statin treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ANCA-associated Primary Necrotizing Vasculitides"
+      ],
+      "keywords": [
+        "ANCA vasculitis",
+        "Statin",
+        "Subclinical markers of atherosclerosis",
+        "Cardiovascular events",
+        "Myocardial infarction",
+        "Stroke",
+        "Arterial revascularization",
+        "Unstable angina",
+        "Death"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 121,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group I",
+          "type": "EXPERIMENTAL",
+          "description": "Rosuvastatin 20 mg/day",
+          "interventionNames": [
+            "Drug: Rosuvastatin"
+          ]
+        },
+        {
+          "label": "Group II",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin",
+          "description": "Rosuvastatin 20 mg/day",
+          "armGroupLabels": [
+            "Group I"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Group II"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean change from baseline in mean carotid intima-media thickness for 2 predefined sites (distal common carotid arteries)",
+          "description": "Assessed with B-mode ultrasound",
+          "timeFrame": "24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Annualized rate of change in mean carotid intima-media thickness for 2 predefined sites (distal common carotid arteries)",
+          "description": "Assessed with B-mode ultrasound",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Mean change from baseline in the number of plaques in three peripheral vessels (carotid and femoral arteries and abdominal aorta) at 6, 12 and 24 months",
+          "description": "Assessed with B-mode ultrasound",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Mean change from baseline in serum biomarkers of subclinical atherosclerosis at 6, 12 and 24 months",
+          "description": "ultra-sensitive CRP, VCAM-1, P-selectin, thrombomodulin",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Rate of major cardiovascular events (myocardial infarction, stroke, arterial revascularization, hospitalization for unstable angina, or death from cardiovascular causes)",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Rate of vasculitis relapses defined by BVAS>0",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Rate of adverse events",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "Mean change from baseline in lipid profile (triglycerids, total, HDL and LDL cholesterol) at 6, 12 and 24 months compared to baseline value.",
+          "timeFrame": "24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatient \\> 18 years. ANCA-associated vasculitis: granulomatosis with polyangiitis (GPA), microscopic polyangiitis (MPA) and eosinophilic granulomatosis with polyangiitis (EGPA, Churg-Strauss syndrome).\n\nPatients will fulfill the Chapel Hill Consensus Criteria and the American College of Rheumatology criteria, in remission of vasculitis.\n\nPatients in remission of vasculitis after induction therapy (for first flare or relapse), including corticosteroids associated or not with immunosuppressive agents according to Good Clinical Practice for the treatment of vasculitis, between 6 months and 10 years after the beginning of induction therapy.\n\nPatients with informed and signed consent\n\nExclusion Criteria:\n\nOther systemic vasculitis. Secondary vasculitis (paraneoplastic or infectious). Patient with active vasculitis after induction therapy, requiring salvage therapy.\n\nInability to sign informed consent. Inability to take the experimental treatment. Hypersensitivity to rosuvastatin or to any of the excipients. Pregnancy. Chronic HCV, HBV and/or HIV infection. Patient receiving other statin or other hypolipemic agent. Patient requiring treatment with statin according to Afssaps recommandations published in 2005 as primary or secondary prevention.\n\nSubclinical atherosclerosis that confers a high cardiovascular risk before patient randomization :\n\n* Carotid stenosis greater than 50% in diameter\n* Ectasia of the abdominal aorta\n* Intima-media thickening greater than 1.2 mm\n* Diffuse atherosclerosis lesions\n* Heterogeneous or hypoechoic prominent plaques greater than 2 mm\n\nParticipation in another interventional study within 3 months before inclusion. Sick patients will not be excluded if they participate simultaneously in a strictlu observational study or a study with only blood samplings.\n\nAny medical or psycatric disease that could prevent from administrating drugs or from following-up the patient according to the protocol, and/or that would expose the patient to an important number of side effects, according to the principal investigator.\n\nNon affiliation to a social security system or any social protection system.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Benjamin Terrier, MD, PhD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Loic Guillevin, MD, PhD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hopital Cochin",
+          "city": "Paris",
+          "zip": "75014",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        },
+        {
+          "id": "D003643",
+          "term": "Death"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

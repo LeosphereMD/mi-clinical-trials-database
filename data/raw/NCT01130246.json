@@ -1,0 +1,3942 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01130246",
+      "orgStudyIdInfo": {
+        "id": "AN-CVD2233"
+      },
+      "organization": {
+        "fullName": "Anthera Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "VISTA-16 Trial: Evaluation of Safety and Efficacy of Short-term A-002 Treatment in Subjects With Acute Coronary Syndrome",
+      "officialTitle": "VISTA-16 Trial: Evaluation of the Safety and Efficacy of Short-Term A-002 Treatment in Subjects With Acute Coronary Syndromes",
+      "acronym": "VISTA-16"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Lack of efficacy",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-04-19",
+      "studyFirstSubmitQcDate": "2010-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2010-05-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-10-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-10-31",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Anthera Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to evaluate the safety and efficacy of short-term A-002 treatment on morbidity and mortality when added to atorvastatin and standard of care in subjects with an acute coronary syndrome (ACS).",
+      "detailedDescription": "A double-blind randomized parallel group placebo controlled study in subjects presenting with an ACS. Up to 6500 subjects will be randomized to receive either A-002 500 mg once daily (QD) or placebo tablets in addition to atorvastatin QD and standard of care. Treatment will be 16 weeks in duration. The dose of atorvastatin shall be adjusted after 8 weeks if subject's LDL-C is ≥100 mg/dL, but otherwise must remain stable throughout the16-week duration of study. The survival status for all enrolled subjects will be ascertained 6 months after they complete the study.\n\nRandomization must occur within ≤96 hours of hospitalization for the index ACS event, or if already hospitalized, within ≤96 hours of index event diagnosis. Follow-up visits will occur on Weeks 1, 2, 4, 8, and 16. A 6 month follow-up visit will also occur."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5189,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "A-002 500 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Once daily oral administration",
+          "interventionNames": [
+            "Drug: A-002, varespladib methyl"
+          ]
+        },
+        {
+          "label": "Matched Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Once daily oral administration",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "A-002, varespladib methyl",
+          "description": "A-002 administered once daily in addition to atorvastatin and standard of care",
+          "armGroupLabels": [
+            "A-002 500 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo administered once daily in addition to atorvastatin and standard of care",
+          "armGroupLabels": [
+            "Matched Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Objective of the Study",
+          "description": "To determine whether 16 weeks of treatment with A-002 plus atorvastatin and standard of care is superior to placebo plus atorvastatin and standard of care for reducing the hazard of the first occurrence of the combined endpoint of cardiovascular death, non-fatal myocardial infarction, non-fatal stroke, or documented unstable angina with objective evidence of ischemia requiring hospitalization.",
+          "timeFrame": "16 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Objective of the Study",
+          "description": "To determine whether A-002 plus atorvastatin and standard of care is superior to placebo plus atorvastatin and standard of care for reducing the occurrence of the hazard of the combined endpoint of all-cause mortality, non-fatal myocardial infarction, non-fatal stroke or documented unstable angina with objective evidence of ischemia requiring hospitalization or multiple occurrences of the non-fatal components of the composite primary endpoint.",
+          "timeFrame": "2, 4, 8, 16 weeks and 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men and women ≥40 years of age\n2. Written informed consent from the subject\n3. A diagnosis of unstable angina, non-ST-segment elevation myocardial infarction (NSTEMI), or ST-segment elevation myocardial infarction (STEMI)\n\n   Unstable angina is defined as:\n   * Chest pain symptomatic of ischemia or angina occurring at rest or on minimal exertion with a pattern of increasing frequency or severity, lasting \\>10 minutes and consistent with myocardial ischemia within 24 hours prior to hospitalization and\n   * New or dynamic ST-segment depression or prominent T-wave inversion changes in at least 2 contiguous leads and\n   * In addition subjects meeting the above criteria for unstable angina must also have either troponin I, troponin T or CKMB above the LLD but below the 99th percentile of the upper reference limit (URL) and not due to cardioversion or underlying cardiovascular (CHF, cardiomyopathy) or renal disease\n\n   NSTEMI is defined as:\n   * Chest pain symptomatic of ischemia\n   * No electrocardiogram (ECG) changes, or ST-depression, or T wave changes(i.e., no new Q waves on serial ECGs)and\n   * Increase in cardiac troponin \\> local limit for the definition of myocardial infarction or increase in CK-MB isoenzyme \\> URL\n\n   STEMI is defined as:\n   * Chest pain symptomatic of ischemia\n   * ST segment elevation and associated T wave changes or ST-segment elevation of at least 2 mm in 2 contiguous leads, either of which persisting for longer than 15 minutes and\n   * Increase in cardiac troponin \\> local limit for the definition of myocardial infarction or increase in CK-MB \\>URL\n4. All subjects must have the presence of at least one of the following risk factors:\n\n   * Diabetes Mellitus or\n   * Presence of any 3 of the following characteristics of metabolic syndrome\n\n     * Waist circumference \\>102 cm in males, \\>88 cm in females\n     * Serum triglycerides ≥150 mg/dL (≥1.7 mmol/L)\n     * HDL-C \\<40 mg/dL (\\<1 mmol/L) in males, \\<50 mg/dL (\\<1.3 mmol/L) in females\n     * Blood pressure ≥130/85 mmHg\n     * Plasma glucose ≥110 mg/dL (≥6.1 mmol/L) or\n   * history of cerebrovascular disease (stroke or TIA) or\n   * history of peripheral vascular disease or\n   * previous CABG or\n   * previous documented myocardial infarction or\n   * previous coronary revascularization\n5. Subjects must be randomized within ≤96 hours of hospital admission for the index event, or if already hospitalized, within ≤96 hours of index event diagnosis\n6. Revascularization, if required or planned, must occur prior to randomization\n\nExclusion Criteria:\n\n1. Subjects enrolled in another experimental (interventional)protocol within the past 30 days prior to Screening.\n2. Subjects treated for cancer within the previous 5 years except for skin basal cell carcinoma or carcinoma in situ of the cervix, with measures other than a minor, complete surgical excision or radiation therapy (e.g. chemotherapy)\n3. The presence of any severe liver disease with cirrhosis, active hepatitis, active chronic hepatitis, alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>3 x ULN, biliary obstruction with hyperbilirubinemia (total bilirubin \\>2 x ULN)\n4. Active cholecystitis, gall bladder symptoms, or any hepatobiliary abnormalities\n5. The presence of severe renal impairment (creatinine clearance \\[CrCl\\] \\<30 mL/min or creatinine \\>3 x ULN),nephrotic syndrome, or subjects undergoing dialysis\n6. Uncontrolled diabetes mellitus (known hemoglobin A1c \\[HbA1c\\] \\>11% within the last 1 month prior to Screening)\n7. Females who are nursing, pregnant, or intend to become pregnant during the time of the study, or females of childbearing potential who have a positive pregnancy test during screening evaluation. Women of child-bearing potential must also use a reliable method of birth control during the study and for 1 month following completion of therapy. A reliable method for this study is defined as one of the following: oral or injectable contraceptives, intrauterine device (IUD), contraceptive implants, tubal ligation, hysterectomy, a double barrier method (diaphragm with spermicidal foam or jelly, or a condom).\n8. Subjects who have a history of alcohol or drug abuse within 1 year of study entry\n9. Subjects living too far from participating center or unable to return for follow-up visits\n10. Subjects who in the opinion of the Investigator are a poor medical or psychiatric risk for therapy with an investigational drug, are unreliable, or have an incomplete understanding of the study which may affect their ability to take drugs as prescribed or comply with instructions\n11. Known human immunodeficiency virus (HIV), Hepatitis B virus (HBV), Hepatitis C virus (HCV), or tuberculosis infection\n12. Acute bacterial, fungal or viral infection\n13. Subjects currently taking drugs that are potent inhibitors of cytochrome P450 unless they can be withdrawn\n14. Subjects with New York Heart Association (NYHA) Class III or IV heart failure, or if known, left ventricular ejection fraction (LVEF) \\<30\n15. Subjects with moderate or severe aortic stenosis, aortic regurgitation, mitral stenosis or mitral regurgitation\n16. Ventricular arrhythmias requiring chronic drug treatment or implantable cardioverter-defibrillator (ICD)\n17. Subjects with no stenosis or stenosis \\<50% on angiography, if known\n18. Subjects with a pacemaker or persistent left bundle branch block (LBBB)\n19. Fasting triglyceride levels of ≥400 mg/dL (4.5 mmol/L)\n20. Subjects who have a history of statin intolerance or a significant myopathy or rhabdomyolysis with any lipid altering drugs\n21. Subjects currently treated with the maximum labeled dose of a statin and not at LDL-C target for their level of risk as defined by NCEP ATP III",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Investigator Site 1064",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Investigator Site 1063",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Investigator Site 1065",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35243",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Investigator Site 1020",
+          "city": "Huntsville",
+          "state": "Alabama",
+          "zip": "35801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          }
+        },
+        {
+          "facility": "Investigator Site 1133",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Investigator Site 1019",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Investigator Site 1132",
+          "city": "Escondido",
+          "state": "California",
+          "zip": "92025",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.11921,
+            "lon": -117.08642
+          }
+        },
+        {
+          "facility": "Investigator Site 1087",
+          "city": "Mission Viejo",
+          "state": "California",
+          "zip": "92691",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.60002,
+            "lon": -117.672
+          }
+        },
+        {
+          "facility": "Investigator Site 1005",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Investigator Site 1079",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80012",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Investigator Site 1006",
+          "city": "Colorado Springs",
+          "state": "Colorado",
+          "zip": "80909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          }
+        },
+        {
+          "facility": "Investigator Site 1050",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Investigator Site 1045",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80220",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Investigator Site 1061",
+          "city": "Fort Collins",
+          "state": "Colorado",
+          "zip": "80528",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.58526,
+            "lon": -105.08442
+          }
+        },
+        {
+          "facility": "Investigator Site 1054",
+          "city": "Littleton",
+          "state": "Colorado",
+          "zip": "80120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.61332,
+            "lon": -105.01665
+          }
+        },
+        {
+          "facility": "Investigator Site 1140",
+          "city": "Wheat Ridge",
+          "state": "Colorado",
+          "zip": "80033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.7661,
+            "lon": -105.07721
+          }
+        },
+        {
+          "facility": "Investigator Site 1111",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "Investigator Site 1028",
+          "city": "Newark",
+          "state": "Delaware",
+          "zip": "19718",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.68372,
+            "lon": -75.74966
+          }
+        },
+        {
+          "facility": "Inevestigator Site 1074",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Investigator Site 1030",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Investigator Site 1117",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20422",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Investigator Site 1022",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Investigator Site 1051",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Investigator Site 1112",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33316",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Investigator Site 1049",
+          "city": "Lakeland",
+          "state": "Florida",
+          "zip": "33805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.03947,
+            "lon": -81.9498
+          }
+        },
+        {
+          "facility": "Investigator Site 1124",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33140",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        },
+        {
+          "facility": "Investigator Site 1095",
+          "city": "Tallahassee",
+          "state": "Florida",
+          "zip": "32308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.43826,
+            "lon": -84.28073
+          }
+        },
+        {
+          "facility": "Investigator Site 1058",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Investigator Site1110",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Investigator Site 1011",
+          "city": "Augusta",
+          "state": "Georgia",
+          "zip": "30901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.47097,
+            "lon": -81.97484
+          }
+        },
+        {
+          "facility": "Investigator Site 1114",
+          "city": "Macon",
+          "state": "Georgia",
+          "zip": "31201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84069,
+            "lon": -83.6324
+          }
+        },
+        {
+          "facility": "Investigator Site 1086",
+          "city": "Naperville",
+          "state": "Illinois",
+          "zip": "60540",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.78586,
+            "lon": -88.14729
+          }
+        },
+        {
+          "facility": "Investigator Site 1125",
+          "city": "Oak Lawn",
+          "state": "Illinois",
+          "zip": "60453",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.71087,
+            "lon": -87.75811
+          }
+        },
+        {
+          "facility": "Investigator Site 1044",
+          "city": "Covington",
+          "state": "Louisiana",
+          "zip": "70433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          }
+        },
+        {
+          "facility": "Investigator Site 1069",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Investigator Site 1066",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Investigator Site 1144",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "Investigator Site 1060",
+          "city": "Flint",
+          "state": "Michigan",
+          "zip": "48532",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.01253,
+            "lon": -83.68746
+          }
+        },
+        {
+          "facility": "Investigator Site 1136",
+          "city": "Novi",
+          "state": "Michigan",
+          "zip": "48374",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48059,
+            "lon": -83.47549
+          }
+        },
+        {
+          "facility": "Investigator Site 1137",
+          "city": "Petoskey",
+          "state": "Michigan",
+          "zip": "49770",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.37334,
+            "lon": -84.95533
+          }
+        },
+        {
+          "facility": "Investigator Site 1048",
+          "city": "Traverse City",
+          "state": "Michigan",
+          "zip": "49684",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.76306,
+            "lon": -85.62063
+          }
+        },
+        {
+          "facility": "Investigator Site 1034",
+          "city": "Duluth",
+          "state": "Minnesota",
+          "zip": "55807",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          }
+        },
+        {
+          "facility": "Investigator Site 1046",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Investigator Site 1033",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55417",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Investigator Site 1016",
+          "city": "Tupelo",
+          "state": "Mississippi",
+          "zip": "38801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.25807,
+            "lon": -88.70464
+          }
+        },
+        {
+          "facility": "Investigator Site 1027",
+          "city": "Kalispell",
+          "state": "Montana",
+          "zip": "59901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 48.19579,
+            "lon": -114.31291
+          }
+        },
+        {
+          "facility": "Investigator Site 1092",
+          "city": "Missoula",
+          "state": "Montana",
+          "zip": "59802",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          }
+        },
+        {
+          "facility": "Investigator Site 1032",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Investigator Site 1031",
+          "city": "Ridgewood",
+          "state": "New Jersey",
+          "zip": "07450",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.97926,
+            "lon": -74.11653
+          }
+        },
+        {
+          "facility": "Investigator Site 1057",
+          "city": "Johnson City",
+          "state": "New York",
+          "zip": "13790",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.11563,
+            "lon": -75.95881
+          }
+        },
+        {
+          "facility": "Investigator Site 1101",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Investigator Site 1100",
+          "city": "Gastonia",
+          "state": "North Carolina",
+          "zip": "28054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.26208,
+            "lon": -81.1873
+          }
+        },
+        {
+          "facility": "Investigator Site 1121",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27609",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Investigator Site 1088",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Investigator Site 1123",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "Investigator Site 1075",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Investigator Site 1108",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Investigator Site 1024",
+          "city": "Canton",
+          "state": "Ohio",
+          "zip": "44710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79895,
+            "lon": -81.37845
+          }
+        },
+        {
+          "facility": "Investigator Site 1143",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Investigator 1141",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Investigator Site 1131",
+          "city": "Mansfield",
+          "state": "Ohio",
+          "zip": "44901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.75839,
+            "lon": -82.51545
+          }
+        },
+        {
+          "facility": "Investigator Site 1004",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Investigator Site 1026",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Investigator Site 1122",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Investigator Site 1107",
+          "city": "Danville",
+          "state": "Pennsylvania",
+          "zip": "17822",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96342,
+            "lon": -76.61273
+          }
+        },
+        {
+          "facility": "Investigator Site 1029",
+          "city": "Doylestown",
+          "state": "Pennsylvania",
+          "zip": "18901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.31011,
+            "lon": -75.12989
+          }
+        },
+        {
+          "facility": "Investigator Site 1134",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "Investigator Site 1018",
+          "city": "York",
+          "state": "Pennsylvania",
+          "zip": "17405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9626,
+            "lon": -76.72774
+          }
+        },
+        {
+          "facility": "Investigator Site 1072",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02906",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Investigator Site 1038",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "55701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Investigator Site 1138",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "Investigator Site 1014",
+          "city": "Jackson",
+          "state": "Tennessee",
+          "zip": "38305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.61452,
+            "lon": -88.81395
+          }
+        },
+        {
+          "facility": "Investigator Site 1047",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37917",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        },
+        {
+          "facility": "Investigator Site 1115",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Investigator Site 1040",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Investigator Site 1037",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigator Site 1130",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigator Site 1025",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Investigator Site 1139",
+          "city": "Layton",
+          "state": "Utah",
+          "zip": "84041",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.06022,
+            "lon": -111.97105
+          }
+        },
+        {
+          "facility": "Investigator Site 1056",
+          "city": "Harrisonburg",
+          "state": "Virginia",
+          "zip": "22801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.44957,
+            "lon": -78.86892
+          }
+        },
+        {
+          "facility": "Investigator Site 1083",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23507",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Investigator Site 1043",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23249",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Investigator Site 1042",
+          "city": "Marshfield",
+          "state": "Wisconsin",
+          "zip": "54449",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.66885,
+            "lon": -90.1718
+          }
+        },
+        {
+          "facility": "Investigator Site 6106",
+          "city": "Canberra",
+          "state": "Australian Capital Territory",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.28346,
+            "lon": 149.12807
+          }
+        },
+        {
+          "facility": "Investigator Site 6114",
+          "city": "Gosford",
+          "state": "New South Wales",
+          "zip": "2250",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.4244,
+            "lon": 151.34399
+          }
+        },
+        {
+          "facility": "Investigator Site 6120",
+          "city": "Kingswood",
+          "state": "New South Wales",
+          "zip": "2747",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.75614,
+            "lon": 150.72346
+          }
+        },
+        {
+          "facility": "Investigator Site 6113",
+          "city": "Cairns",
+          "state": "Queensland",
+          "zip": "4870",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -16.92366,
+            "lon": 145.76613
+          }
+        },
+        {
+          "facility": "Investigator Site 6112",
+          "city": "Douglas",
+          "state": "Queensland",
+          "zip": "4814",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -19.32394,
+            "lon": 146.75234
+          }
+        },
+        {
+          "facility": "Investigator Site 6123",
+          "city": "Nambour",
+          "state": "Queensland",
+          "zip": "4560",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.62613,
+            "lon": 152.95941
+          }
+        },
+        {
+          "facility": "Investigator Site 6111",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "zip": "5000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Investigator Site 6124",
+          "city": "Bedford Park",
+          "state": "South Australia",
+          "zip": "5042",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Investigator Site 6103",
+          "city": "Elizabeth Vale",
+          "state": "South Australia",
+          "zip": "5112",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.74857,
+            "lon": 138.66819
+          }
+        },
+        {
+          "facility": "Investigator Site 6122",
+          "city": "Hobart",
+          "state": "Tasmania",
+          "zip": "7000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -42.87936,
+            "lon": 147.32941
+          }
+        },
+        {
+          "facility": "Investigator Site 6129",
+          "city": "Epping",
+          "state": "Victoria",
+          "zip": "3076",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.65,
+            "lon": 145.03333
+          }
+        },
+        {
+          "facility": "Investigator Site 6127",
+          "city": "Heidelberg",
+          "state": "Victoria",
+          "zip": "3084",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          }
+        },
+        {
+          "facility": "Investigator Site 6125",
+          "city": "Perth",
+          "state": "Western Australia",
+          "zip": "6000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Investigator Site 6130",
+          "city": "Perth",
+          "state": "Western Australia",
+          "zip": "6000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Investigator Site 6118",
+          "city": "Brisbane",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.46794,
+            "lon": 153.02809
+          }
+        },
+        {
+          "facility": "Investigator Site 6126",
+          "city": "Geelong",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -38.14711,
+            "lon": 144.36069
+          }
+        },
+        {
+          "facility": "Investigator Site 6101",
+          "city": "Kogarah",
+          "zip": "NSW2217",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.9681,
+            "lon": 151.13564
+          }
+        },
+        {
+          "facility": "Investigator Site 6105",
+          "city": "Melbourne",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Investigator Site 6110",
+          "city": "Nedlands",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Investigator Site 6121",
+          "city": "New Lambton",
+          "zip": "NSW2305",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.92838,
+            "lon": 151.7085
+          }
+        },
+        {
+          "facility": "Investigator Site 6108",
+          "city": "So Australia",
+          "country": "Australia"
+        },
+        {
+          "facility": "Investigator Site 6119",
+          "city": "Southport",
+          "zip": "4215QLD",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.96724,
+            "lon": 153.39796
+          }
+        },
+        {
+          "facility": "Investigator Site 2069",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 2T9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Investigator Site 2065",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2B7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Investigator Site 2064",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6L 5X8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Investigator Site 2073",
+          "city": "Red Deer",
+          "state": "Alberta",
+          "zip": "T4N 4E7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 52.26682,
+            "lon": -113.802
+          }
+        },
+        {
+          "facility": "Investigator Site 2059",
+          "city": "Kelowna",
+          "state": "British Columbia",
+          "zip": "V1Y 1E4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.88307,
+            "lon": -119.48568
+          }
+        },
+        {
+          "facility": "Investigator Site 2068",
+          "city": "New Westminster",
+          "state": "British Columbia",
+          "zip": "v3L3W4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.20678,
+            "lon": -122.91092
+          }
+        },
+        {
+          "facility": "Investigator Site 2066",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "zip": "V3V 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        },
+        {
+          "facility": "Investigator Site 2057",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6Z1Y6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Investigator Site 2063",
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8R4R2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "Investigator Site 2070",
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "zip": "A1B 3V6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "facility": "Investigator Site 2048",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 3A7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "Investigator Site 2072",
+          "city": "Sydney",
+          "state": "Nova Scotia",
+          "zip": "B1P1P3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.1351,
+            "lon": -60.1831
+          }
+        },
+        {
+          "facility": "Investigator Site 2067",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Investigator Site 2075",
+          "city": "Kitchener",
+          "state": "Ontario",
+          "zip": "N2M 1B2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.42537,
+            "lon": -80.5112
+          }
+        },
+        {
+          "facility": "Investigator Site 2058",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5A5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Investigator Site 2004",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "L3Y 8C3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Investigator Site 2008",
+          "city": "Scarborough Village",
+          "state": "Ontario",
+          "zip": "M1E4B9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.73899,
+            "lon": -79.22124
+          }
+        },
+        {
+          "facility": "Investigator Site 2030",
+          "city": "Thunder Bay",
+          "state": "Ontario",
+          "zip": "P7B7C7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.38202,
+            "lon": -89.25018
+          }
+        },
+        {
+          "facility": "Investigator Site 2011",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "J6V2H2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Investigator Site 2012",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Investigator Site 2074",
+          "city": "Laval",
+          "state": "Quebec",
+          "zip": "H7M 3L9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.56995,
+            "lon": -73.692
+          }
+        },
+        {
+          "facility": "Investigator Site 2020",
+          "city": "Lévis",
+          "state": "Quebec",
+          "zip": "G6V 4Z5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.80326,
+            "lon": -71.17793
+          }
+        },
+        {
+          "facility": "Investigator Site 2009",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 2M4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Investigator Site 2052",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W1T8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Investigator Site 2001",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3H2R9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Investigator Site 2053",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1R 2J6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Investigator Site 2007",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Investigator Site 2071",
+          "city": "Saint-Jérôme",
+          "state": "Quebec",
+          "zip": "J7Z5T3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.78036,
+            "lon": -74.00365
+          }
+        },
+        {
+          "facility": "Investigator Site 2006",
+          "city": "Terrebonne",
+          "state": "Quebec",
+          "zip": "J6V2H2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.70004,
+            "lon": -73.64732
+          }
+        },
+        {
+          "facility": "Investigator Site 2010",
+          "city": "Saint John",
+          "zip": "NBE2L4L2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.27076,
+            "lon": -66.05616
+          }
+        },
+        {
+          "facility": "Investigator Site 4212",
+          "city": "Jihlavska",
+          "state": "Brno",
+          "zip": "62500",
+          "country": "Czechia"
+        },
+        {
+          "facility": "Investigator Site 4201",
+          "city": "Ústí nad Labem",
+          "state": "Labem",
+          "zip": "40113",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.6607,
+            "lon": 14.03227
+          }
+        },
+        {
+          "facility": "Investigator Site 4216",
+          "city": "Liberec",
+          "state": "Stare Mesto",
+          "zip": "46063",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.76711,
+            "lon": 15.05619
+          }
+        },
+        {
+          "facility": "Investigator Site 4210",
+          "city": "Brno",
+          "zip": "656 91",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Investigator Site 4206",
+          "city": "Hradec Králové",
+          "zip": "500 05",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "facility": "Investigator Site 4208",
+          "city": "Jihlava",
+          "zip": "58633",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.3961,
+            "lon": 15.59124
+          }
+        },
+        {
+          "facility": "Investigator Site 4214",
+          "city": "Mladá Boleslav",
+          "zip": "29350",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.41135,
+            "lon": 14.90318
+          }
+        },
+        {
+          "facility": "Investigator Site 4218",
+          "city": "Nymburk",
+          "zip": "288 02",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.18605,
+            "lon": 15.04167
+          }
+        },
+        {
+          "facility": "Investigator 4218",
+          "city": "Nymburk",
+          "zip": "425/9",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.18605,
+            "lon": 15.04167
+          }
+        },
+        {
+          "facility": "Investigator Site 4207",
+          "city": "Olomouc",
+          "zip": "755 20",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.59552,
+            "lon": 17.25175
+          }
+        },
+        {
+          "facility": "Investigator Site 4209",
+          "city": "Ostrava",
+          "zip": "70852",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.83465,
+            "lon": 18.28204
+          }
+        },
+        {
+          "facility": "Investigator Site 4205",
+          "city": "Pilsen",
+          "zip": "30599",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.74747,
+            "lon": 13.37759
+          }
+        },
+        {
+          "facility": "Investigator Site 4213",
+          "city": "Prague",
+          "zip": "10034",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigator Site 4204",
+          "city": "Prague",
+          "zip": "12802",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigator Site 4217",
+          "city": "Prague",
+          "zip": "150 06",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigator Site 4220",
+          "city": "Prague",
+          "zip": "6",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigator Site 4202",
+          "city": "Ústí nad Labem",
+          "zip": "401 13",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.6607,
+            "lon": 14.03227
+          }
+        },
+        {
+          "facility": "Investigator Site 4203",
+          "city": "Znojmo",
+          "zip": "66902",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 48.8555,
+            "lon": 16.0488
+          }
+        },
+        {
+          "facility": "Investigator Site 9502",
+          "city": "Tbilisi",
+          "zip": "0102",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9508",
+          "city": "Tbilisi",
+          "zip": "0102",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9504",
+          "city": "Tbilisi",
+          "zip": "0141",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9509",
+          "city": "Tbilisi",
+          "zip": "0144",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9510",
+          "city": "Tbilisi",
+          "zip": "0144",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9501",
+          "city": "Tbilisi",
+          "zip": "0159",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9505",
+          "city": "Tbilisi",
+          "zip": "0159",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9506",
+          "city": "Tbilisi",
+          "zip": "0164",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9503",
+          "city": "Tbilisi",
+          "zip": "0179",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 9507",
+          "city": "Tbilisi",
+          "zip": "0186",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Investigator Site 4921",
+          "city": "Warendorf",
+          "state": "Am Krankenhaus",
+          "zip": "48231",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.95109,
+            "lon": 7.98756
+          }
+        },
+        {
+          "facility": "Investigator Site 4932",
+          "city": "Bad Friedrichshall",
+          "zip": "74177",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.23065,
+            "lon": 9.21723
+          }
+        },
+        {
+          "facility": "Investigator Site 4930",
+          "city": "Bad Nauheim",
+          "zip": "61231",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.36463,
+            "lon": 8.73859
+          }
+        },
+        {
+          "facility": "Investigator Site 4928",
+          "city": "Berlin",
+          "zip": "12559",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Investigator Site 4904",
+          "city": "Bielefeld",
+          "zip": "336 04",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 8.53333
+          }
+        },
+        {
+          "facility": "Investigator Site 4905",
+          "city": "Bonn",
+          "zip": "53105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "facility": "Investigator Site 4923",
+          "city": "Dortmund",
+          "zip": "44137",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          }
+        },
+        {
+          "facility": "Investigator Site 4912",
+          "city": "Erfurt",
+          "zip": "99089",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.97734,
+            "lon": 11.03536
+          }
+        },
+        {
+          "facility": "Investigator Site 4907",
+          "city": "Göttingen",
+          "zip": "37075",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.53443,
+            "lon": 9.93228
+          }
+        },
+        {
+          "facility": "Investigator Site 4922",
+          "city": "Hamburg",
+          "zip": "21075",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Investigator Site 4929",
+          "city": "Kassel",
+          "zip": "34121",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.31667,
+            "lon": 9.5
+          }
+        },
+        {
+          "facility": "Investigator Site 4911",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Investigator Site 4901",
+          "city": "Limburg",
+          "zip": "65549",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.03138,
+            "lon": 12.18221
+          }
+        },
+        {
+          "facility": "Investigator Site 4927",
+          "city": "Lübeck",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Investigator Site 4908",
+          "city": "Magdeburg",
+          "zip": "39120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.13129,
+            "lon": 11.63189
+          }
+        },
+        {
+          "facility": "Investigator Site 4902",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Investigator Site 4917",
+          "city": "München",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Investigator Site 4925",
+          "city": "Nauen",
+          "zip": "14641",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.60701,
+            "lon": 12.87374
+          }
+        },
+        {
+          "facility": "Investigator Site 4915",
+          "city": "Regensburg",
+          "zip": "93053",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.01513,
+            "lon": 12.10161
+          }
+        },
+        {
+          "facility": "Investigator Site 4906",
+          "city": "Ulm",
+          "zip": "89081",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Investigator Site 3626",
+          "city": "Pécs",
+          "state": "Baranya",
+          "zip": "H-7624",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Investigator Site 3606",
+          "city": "Székesfehérvár",
+          "state": "Fejér",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "Investigator Site 3602",
+          "city": "Budapest",
+          "state": "Gaal Jozsef",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigator Site 3605",
+          "city": "Debrecen",
+          "state": "Hajdú-Bihar",
+          "zip": "4012",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Investigator Site 3607",
+          "city": "Szolnok",
+          "state": "Jász-Nagykun-Szolnok",
+          "zip": "5000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18066,
+            "lon": 20.19835
+          }
+        },
+        {
+          "facility": "Investigator Site 3614",
+          "city": "Semmelweis",
+          "state": "Kistarcsa",
+          "zip": "2143",
+          "country": "Hungary"
+        },
+        {
+          "facility": "Investigator Site 3616",
+          "city": "Budapest",
+          "state": "Pest County",
+          "zip": "1076",
+          "country": "Hungary"
+        },
+        {
+          "facility": "Investigator Site 3612",
+          "city": "Budapest",
+          "state": "Pest County",
+          "zip": "1097",
+          "country": "Hungary"
+        },
+        {
+          "facility": "Investigator Site 3603",
+          "city": "Zalaegerszeg",
+          "state": "Zala County",
+          "zip": "H-8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "facility": "Investigator Site 3625",
+          "city": "Balatonfüred",
+          "zip": "8203",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.96188,
+            "lon": 17.87187
+          }
+        },
+        {
+          "facility": "Investigator Site 3604",
+          "city": "Budapest",
+          "zip": "1096",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigator Site 3622",
+          "city": "Budapest",
+          "zip": "1106",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigator Site 3619",
+          "city": "Eger",
+          "zip": "3300",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.90265,
+            "lon": 20.37329
+          }
+        },
+        {
+          "facility": "Investigator Site 3624",
+          "city": "Hódmezővásárhely",
+          "zip": "6800",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.41667,
+            "lon": 20.33333
+          }
+        },
+        {
+          "facility": "Investigator Site 3629",
+          "city": "Sopron",
+          "zip": "9400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.68501,
+            "lon": 16.59049
+          }
+        },
+        {
+          "facility": "Investigator Site 3623",
+          "city": "Szombathely",
+          "zip": "9700",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.23088,
+            "lon": 16.62155
+          }
+        },
+        {
+          "facility": "Investigator Site 9110",
+          "city": "Hyderabad",
+          "state": "Andhra Pradesh",
+          "zip": "500082",
+          "country": "India"
+        },
+        {
+          "facility": "Investigator Site 9109",
+          "city": "Secunderabad",
+          "state": "Andhra Pradesh",
+          "zip": "500003",
+          "country": "India"
+        },
+        {
+          "facility": "Investigator Site 9119",
+          "city": "Secunderabad",
+          "state": "Andhra Pradesh",
+          "zip": "500003",
+          "country": "India"
+        },
+        {
+          "facility": "Investigator Site 9104",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "zip": "380 014",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigator Site 9111",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "zip": "380052",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigator Site 9108",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "zip": "380060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigator Site 9117",
+          "city": "Surat",
+          "state": "Gujarat",
+          "zip": "395007",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.19594,
+            "lon": 72.83023
+          }
+        },
+        {
+          "facility": "Investigator Site 9115",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "zip": "390 015",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.29941,
+            "lon": 73.20812
+          }
+        },
+        {
+          "facility": "Investigator Site 9102",
+          "city": "Vadodara",
+          "state": "Gujarat",
+          "zip": "390007",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.29941,
+            "lon": 73.20812
+          }
+        },
+        {
+          "facility": "Investigator Site 9114",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "zip": "560 0034",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Investigator Site 9121",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "zip": "560 052",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Investigator Site 9113",
+          "city": "Indore",
+          "state": "Madhya Pradesh",
+          "zip": "452008",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.71792,
+            "lon": 75.8333
+          }
+        },
+        {
+          "facility": "Investigator Site 9101",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Investigator Site 9105",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110076",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Investigator Site 9103",
+          "city": "Lucknow",
+          "state": "Uttar Pradesh",
+          "zip": "226003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.83928,
+            "lon": 80.92313
+          }
+        },
+        {
+          "facility": "Investigator Site 9118",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "7000020",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Investigator Site 9107",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700027",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Investigator Site 3921",
+          "city": "Brescia",
+          "state": "Via L Bissolati",
+          "zip": "57",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Investigator Site 3908",
+          "city": "Cecina",
+          "zip": "57023",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.30621,
+            "lon": 10.51729
+          }
+        },
+        {
+          "facility": "Investigator Site 3912",
+          "city": "Colleferro",
+          "zip": "00034",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.72722,
+            "lon": 13.00481
+          }
+        },
+        {
+          "facility": "Investigator Site 3910",
+          "city": "Ferrara",
+          "zip": "44121",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          }
+        },
+        {
+          "facility": "Investigator Site 3916",
+          "city": "Massa",
+          "zip": "54100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.03541,
+            "lon": 10.13927
+          }
+        },
+        {
+          "facility": "Investigator Site 3906",
+          "city": "Milan",
+          "zip": "20138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Investigator Site 3901",
+          "city": "Monza",
+          "zip": "20052",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "Investigator Site 3907",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Investigator Site 3920",
+          "city": "Novara",
+          "zip": "28100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "facility": "Investigator Site 3918",
+          "city": "Roma",
+          "zip": "00135",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Investigator Site 3902",
+          "city": "Rome",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Investigator Site 3909",
+          "city": "Rome",
+          "zip": "00189",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Investigator Site 3903",
+          "city": "Rozzano (MI)",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Investigator Site 3904",
+          "city": "Siena",
+          "zip": "53100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          }
+        },
+        {
+          "facility": "Investigator Site 9603",
+          "city": "Bir Hassan",
+          "state": "Jnah",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.85996,
+            "lon": 35.49379
+          }
+        },
+        {
+          "facility": "Investigator Site 9601",
+          "city": "Beirut",
+          "zip": "BEI",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "Investigator Site 9603",
+          "city": "Beirut",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "Investigator Site 3126",
+          "city": "Nieuwegein",
+          "state": "CM",
+          "zip": "3435",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "Investigator Site 3129",
+          "city": "Goes",
+          "state": "RA",
+          "zip": "4462",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.50417,
+            "lon": 3.88889
+          }
+        },
+        {
+          "facility": "Investigator Site 3120",
+          "city": "Amstelveen",
+          "zip": "1186 AM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.30083,
+            "lon": 4.86389
+          }
+        },
+        {
+          "facility": "Investigator Site 3128",
+          "city": "Amsterdam",
+          "zip": "1081 HV",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Investigator Site 3117",
+          "city": "Amsterdam",
+          "zip": "1091 AC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Investigator Site 3125",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Investigator Site 3136",
+          "city": "Breda",
+          "zip": "4818",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.58656,
+            "lon": 4.77596
+          }
+        },
+        {
+          "facility": "Investigator Site 3130",
+          "city": "Delft",
+          "zip": "2625 AD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.00667,
+            "lon": 4.35556
+          }
+        },
+        {
+          "facility": "Investigator Site 3108",
+          "city": "Den Helder",
+          "zip": "1782 GZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.95988,
+            "lon": 4.75933
+          }
+        },
+        {
+          "facility": "Investigator Site 3105",
+          "city": "Deventer",
+          "zip": "7416 SE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.255,
+            "lon": 6.16389
+          }
+        },
+        {
+          "facility": "Investigator Site 3102",
+          "city": "Ede",
+          "zip": "6716RP",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 5.65833
+          }
+        },
+        {
+          "facility": "Investigator Site 3134",
+          "city": "Heerlen",
+          "zip": "6419 PC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.88365,
+            "lon": 5.98154
+          }
+        },
+        {
+          "facility": "Investigator Site 3109",
+          "city": "Hoogeveen",
+          "zip": "7909 AA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.7225,
+            "lon": 6.47639
+          }
+        },
+        {
+          "facility": "Investigator Site 3101",
+          "city": "Leeuwarden",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.20271,
+            "lon": 5.80973
+          }
+        },
+        {
+          "facility": "Investigator Site 3118",
+          "city": "Leiden",
+          "zip": "2333 ZA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        },
+        {
+          "facility": "Investigator Site 3112",
+          "city": "Purmerend",
+          "zip": "1447 TC",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.505,
+            "lon": 4.95972
+          }
+        },
+        {
+          "facility": "Investigator Site 3107",
+          "city": "Roosendaal",
+          "zip": "4708 AE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.53083,
+            "lon": 4.46528
+          }
+        },
+        {
+          "facility": "Investigator Site 3104",
+          "city": "Rotterdam",
+          "zip": "3011 TD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Investigator Site 3106",
+          "city": "Rotterdam",
+          "zip": "3045 PM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Investigator Site 3123",
+          "city": "Rotterdam",
+          "zip": "3075 EA",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Investigator Site 3131",
+          "city": "Schiedam",
+          "zip": "3118 JH",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.91917,
+            "lon": 4.38889
+          }
+        },
+        {
+          "facility": "Investigator Site 3135",
+          "city": "Sneek",
+          "zip": "8601 ZK",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.03297,
+            "lon": 5.6589
+          }
+        },
+        {
+          "facility": "Investigator Site 3103",
+          "city": "Tilburg",
+          "zip": "5022 CG",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.55551,
+            "lon": 5.0913
+          }
+        },
+        {
+          "facility": "Investigator Site 3116",
+          "city": "Utrecht",
+          "zip": "3584 CX",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "Investigator Site 3124",
+          "city": "Venlo",
+          "zip": "5912 BL",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.37,
+            "lon": 6.16806
+          }
+        },
+        {
+          "facility": "Investigator Site 3113",
+          "city": "Zaandam",
+          "zip": "1502 DV",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.43854,
+            "lon": 4.82643
+          }
+        },
+        {
+          "facility": "Investigator Site 6402",
+          "city": "Takapuna",
+          "state": "Auckland",
+          "zip": "0622",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -36.79167,
+            "lon": 174.77583
+          }
+        },
+        {
+          "facility": "Investigator Site 6405",
+          "city": "Christchurch",
+          "zip": "8011",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Investigator Site 6404",
+          "city": "Dunedin",
+          "zip": "9054",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -45.87416,
+            "lon": 170.50361
+          }
+        },
+        {
+          "facility": "Investigator Site 6401",
+          "city": "Hamilton",
+          "zip": "3240",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 175.28333
+          }
+        },
+        {
+          "facility": "Investigator Site 6406",
+          "city": "Wellington",
+          "zip": "6021",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.28664,
+            "lon": 174.77557
+          }
+        },
+        {
+          "facility": "Investigator Site 4804",
+          "city": "Inowrocław",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "88-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.79886,
+            "lon": 18.26387
+          }
+        },
+        {
+          "facility": "Investigator Site 4825",
+          "city": "Wroc³aw",
+          "state": "Lower Silesian Voivodeship",
+          "zip": "53-114",
+          "country": "Poland"
+        },
+        {
+          "facility": "Investigator Site4819",
+          "city": "Puławy",
+          "state": "Podkarpackie Voivodeship",
+          "zip": "24-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 49.49712,
+            "lon": 21.92296
+          }
+        },
+        {
+          "facility": "Investigator Site 4828",
+          "city": "Gdansk",
+          "state": "Pomeranian Voivodeship",
+          "zip": "80-952",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Investigator Site 4809",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Investigator Site 4813",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Investigator Site 4801",
+          "city": "Bytom",
+          "zip": "41-902",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.34802,
+            "lon": 18.93282
+          }
+        },
+        {
+          "facility": "Investigator Site 4816",
+          "city": "Stalowa Wola",
+          "zip": "37-450",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.58286,
+            "lon": 22.05334
+          }
+        },
+        {
+          "facility": "Investigator Site 4827",
+          "city": "Szczecin",
+          "zip": "70-111",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "facility": "Investigator Site 4812",
+          "city": "Warsaw",
+          "zip": "00-685",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigator Site 4815",
+          "city": "Warsaw",
+          "zip": "01-809",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigator Site 4806",
+          "city": "Warsaw",
+          "zip": "02-507",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigator Site 4823",
+          "city": "Warsaw",
+          "zip": "04-628",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigator Site 4824",
+          "city": "Wroclaw",
+          "zip": "50-367",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Investigator Site 7026",
+          "city": "Barnaui",
+          "zip": "656099",
+          "country": "Russia"
+        },
+        {
+          "facility": "Investigator Site 7021",
+          "city": "Chelyabinsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.1611,
+            "lon": 61.42877
+          }
+        },
+        {
+          "facility": "Investigator Site 7023",
+          "city": "Irkutsk",
+          "zip": "664079",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 52.29566,
+            "lon": 104.29076
+          }
+        },
+        {
+          "facility": "Investigator Site 7020",
+          "city": "Kazan'",
+          "zip": "420101",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.78874,
+            "lon": 49.12214
+          }
+        },
+        {
+          "facility": "Investigator Site 7002",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "Investigator Site 7017",
+          "city": "Krasnoyarsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Investigator Site 7024",
+          "city": "Kursk",
+          "zip": "305035",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.72689,
+            "lon": 36.18457
+          }
+        },
+        {
+          "facility": "Investigator Site 7003",
+          "city": "Moscow",
+          "zip": "111539",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigator Site 7015",
+          "city": "Moscow",
+          "zip": "119620",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigator Site 7019",
+          "city": "Moscow",
+          "zip": "121552",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigator Site 7018",
+          "city": "Murmansk",
+          "zip": "183047",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 68.96778,
+            "lon": 33.09922
+          }
+        },
+        {
+          "facility": "Investigator Site 7004",
+          "city": "Novosibirsk",
+          "zip": "630008",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Investigator Site 7027",
+          "city": "Novosibirsk",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Investigator Site 7022",
+          "city": "Orenburg",
+          "zip": "460040",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.76712,
+            "lon": 55.09883
+          }
+        },
+        {
+          "facility": "Investigator Site 7016",
+          "city": "Rostov-on-Don",
+          "zip": "344068",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 47.21997,
+            "lon": 39.70769
+          }
+        },
+        {
+          "facility": "Investigator Site 7009",
+          "city": "Saint Petersburg",
+          "zip": "191015",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7008",
+          "city": "Saint Petersburg",
+          "zip": "198205",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7007",
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7010",
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7013",
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7025",
+          "city": "Saint Petersburg",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigator Site 7005",
+          "city": "Samara",
+          "zip": "443070",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.20767,
+            "lon": 50.13553
+          }
+        },
+        {
+          "facility": "Investigator Site 7006",
+          "city": "Saratov",
+          "zip": "410054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.54048,
+            "lon": 45.9901
+          }
+        },
+        {
+          "facility": "Investigator Site 7028",
+          "city": "Saratov",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.54048,
+            "lon": 45.9901
+          }
+        },
+        {
+          "facility": "Investigator Site 7011",
+          "city": "Tomsk",
+          "zip": "634012",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        },
+        {
+          "facility": "Investigator Site 7012",
+          "city": "Tyumen",
+          "zip": "625026",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.15222,
+            "lon": 65.52722
+          }
+        },
+        {
+          "facility": "Investigator Site 7001",
+          "city": "Yekaterinburg",
+          "zip": "620109",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85733,
+            "lon": 60.61529
+          }
+        },
+        {
+          "facility": "Investigator Site 8205",
+          "city": "Busan",
+          "zip": "602-715",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        },
+        {
+          "facility": "Investigator Site 8206",
+          "city": "Busan",
+          "zip": "602-739",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        },
+        {
+          "facility": "Investigator Site 8202",
+          "city": "Cheongju-si",
+          "zip": "361-711",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.63722,
+            "lon": 127.48972
+          }
+        },
+        {
+          "facility": "Investigator Site 8214",
+          "city": "Daegu",
+          "zip": "700-712",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87102,
+            "lon": 128.60121
+          }
+        },
+        {
+          "facility": "Investigator Site 8213",
+          "city": "Daejeon",
+          "zip": "301-723",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.35022,
+            "lon": 127.3848
+          }
+        },
+        {
+          "facility": "Investigator Site 8203",
+          "city": "Gwangju",
+          "zip": "501-757",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.15472,
+            "lon": 126.91556
+          }
+        },
+        {
+          "facility": "Investigator Site 8204",
+          "city": "Gyeonggi-do",
+          "zip": "480-717",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.58944,
+            "lon": 126.76917
+          }
+        },
+        {
+          "facility": "Investigator Site 8210",
+          "city": "Kangwon-do",
+          "zip": "220-701",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Investigator Site 8209",
+          "city": "Seoul",
+          "zip": "130-702",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigator Site 8215",
+          "city": "Seoul",
+          "zip": "130-709",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigator Site 8212",
+          "city": "Seoul",
+          "zip": "135-710",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigator Site 8207",
+          "city": "Seoul",
+          "zip": "135-720",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigator Site 8201",
+          "city": "Seoul",
+          "zip": "152-703",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigator Site 8208",
+          "city": "Suwon",
+          "zip": "442-723",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.27818,
+            "lon": 127.03164
+          }
+        },
+        {
+          "facility": "Investigator Site 8211",
+          "city": "Suwon",
+          "zip": "443-721",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.27818,
+            "lon": 127.03164
+          }
+        },
+        {
+          "facility": "Investigator Site 3432",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Investigator Site 3428",
+          "city": "Barcelona",
+          "state": "Barcelona",
+          "zip": "08025",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigator Site 3402",
+          "city": "Lleida",
+          "state": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Investigator Site 3420",
+          "city": "Coslada",
+          "state": "Madrid",
+          "zip": "28820",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.42378,
+            "lon": -3.56129
+          }
+        },
+        {
+          "facility": "Investigator Site 3419",
+          "city": "Fuenlabrada",
+          "state": "Madrid",
+          "zip": "28942",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.28419,
+            "lon": -3.79415
+          }
+        },
+        {
+          "facility": "Investigator Site 3409",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigator Site 3413",
+          "city": "Majadahonda",
+          "state": "Madrid",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Investigator Site 3415",
+          "city": "Málaga",
+          "state": "Malaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Investigator Site 3421",
+          "city": "Málaga",
+          "state": "Malaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Investigator Site 3411",
+          "city": "Lorca",
+          "state": "Murcia",
+          "zip": "30800",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.67119,
+            "lon": -1.7017
+          }
+        },
+        {
+          "facility": "Investigator Site 3416",
+          "city": "Pamplona",
+          "state": "Navarre",
+          "zip": "31008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Investigator Site 3408",
+          "city": "Vigo",
+          "state": "Pontevedra",
+          "zip": "36211",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.23282,
+            "lon": -8.72264
+          }
+        },
+        {
+          "facility": "Investigator Site 3410",
+          "city": "Vigo",
+          "state": "Pontevedra",
+          "zip": "36214",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.23282,
+            "lon": -8.72264
+          }
+        },
+        {
+          "facility": "Investigator Site 3404",
+          "city": "Oviedo",
+          "state": "Principality of Asturias",
+          "zip": "33006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.36029,
+            "lon": -5.84476
+          }
+        },
+        {
+          "facility": "Investigator Site 3414",
+          "city": "Santa Cruz de Tenerife",
+          "state": "Santa Cruz de Tenerife",
+          "zip": "38010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.46824,
+            "lon": -16.25462
+          }
+        },
+        {
+          "facility": "Investigator Site 3403",
+          "city": "Valencia",
+          "state": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Investigator Site 3425",
+          "city": "Galdakao",
+          "state": "Vizcaya",
+          "zip": "48960",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.23073,
+            "lon": -2.8429
+          }
+        },
+        {
+          "facility": "Investigator Site 3435",
+          "city": "Albacete",
+          "zip": "02006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.99424,
+            "lon": -1.85643
+          }
+        },
+        {
+          "facility": "Investigator Site 3418",
+          "city": "Barcelona",
+          "zip": "08906",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigator Site 3406",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Investigator Site 3407",
+          "city": "Huelva",
+          "zip": "21005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          }
+        },
+        {
+          "facility": "Investigator Site 3430",
+          "city": "Leganés",
+          "zip": "28911",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.32718,
+            "lon": -3.7635
+          }
+        },
+        {
+          "facility": "Investigator Site 3423",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigator Site 3401",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigator Site 3431",
+          "city": "Pontevedra",
+          "zip": "36071",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.431,
+            "lon": -8.64435
+          }
+        },
+        {
+          "facility": "Investigator Site 3424",
+          "city": "Reus",
+          "zip": "43206",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.15612,
+            "lon": 1.10687
+          }
+        },
+        {
+          "facility": "Investigator Site 3434",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Investigator Site 3422",
+          "city": "Utrera",
+          "zip": "41710",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18516,
+            "lon": -5.78093
+          }
+        },
+        {
+          "facility": "Investigator Site 3809",
+          "city": "Dnipropetrovsk",
+          "zip": "49006",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.46664,
+            "lon": 35.04066
+          }
+        },
+        {
+          "facility": "Investigator Site 3807",
+          "city": "Ivano-Frankivsk",
+          "zip": "76014",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.92312,
+            "lon": 24.71248
+          }
+        },
+        {
+          "facility": "Investigator Site 3806",
+          "city": "Kharkiv",
+          "zip": "61002",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigator Site 3802",
+          "city": "Kharkiv",
+          "zip": "61018",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigator Site 3803",
+          "city": "Kharkiv",
+          "zip": "61039",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigator Site",
+          "city": "Kharkiv",
+          "zip": "61039",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigator Site 3810",
+          "city": "Kharkiv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigator Site 3801",
+          "city": "Kiev",
+          "zip": "02175",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Investigator Site 3805",
+          "city": "Kiev",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Investigator Site 3808",
+          "city": "Kiev",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Investigator Site 3811",
+          "city": "Lviv",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.83826,
+            "lon": 24.02324
+          }
+        },
+        {
+          "facility": "Investigator Site 3813",
+          "city": "Odesa",
+          "zip": "65014",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 46.48572,
+            "lon": 30.74383
+          }
+        },
+        {
+          "facility": "Investigator Site 3815",
+          "city": "Odesa",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 46.48572,
+            "lon": 30.74383
+          }
+        },
+        {
+          "facility": "Investigator Site 3814",
+          "city": "Poltava",
+          "zip": "36039",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.58925,
+            "lon": 34.55367
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24247616",
+          "type": "DERIVED",
+          "citation": "Nicholls SJ, Kastelein JJ, Schwartz GG, Bash D, Rosenson RS, Cavender MA, Brennan DM, Koenig W, Jukema JW, Nambi V, Wright RS, Menon V, Lincoff AM, Nissen SE; VISTA-16 Investigators. Varespladib and cardiovascular events in patients with an acute coronary syndrome: the VISTA-16 randomized clinical trial. JAMA. 2014 Jan 15;311(3):252-62. doi: 10.1001/jama.2013.282836."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C545088",
+          "term": "varespladib methyl"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

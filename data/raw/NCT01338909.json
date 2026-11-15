@@ -1,0 +1,305 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01338909",
+      "orgStudyIdInfo": {
+        "id": "PATRASCARDIOLOGY-4"
+      },
+      "organization": {
+        "fullName": "University of Patras",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prasugrel in Comparison to Clopidogrel for Inhibition of Platelet Reactivity in Patients With ST-elevation Myocardial Infarction (STEMI)",
+      "officialTitle": "Prasugrel in Comparison to Clopidogrel for Inhibition of Platelet Reactivity in Patients With ST-elevation Myocardial Infarction (STEMI), Undergoing Primary Percutaneous Coronary Intervention (PCI)and Presenting With High Platelet Reactivity, as Assessed With a Point of Care Assay, After 600mg Clopidogrel Loading Dose",
+      "acronym": "PRO-GR-4"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2011-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-04-15",
+      "studyFirstSubmitQcDate": "2011-04-19",
+      "studyFirstPostDateStruct": {
+        "date": "2011-04-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2011-09-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2011-09-30",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dimitrios Alexopoulos",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Patras"
+      },
+      "leadSponsor": {
+        "name": "University of Patras",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-center, randomized, single-blind, investigator-initiated, pharmacological study with a parallel design. Patients with ST elevation myocardial infarction undergoing primary percutaneous coronary intervention and presenting high platelet reactivity as assessed with the Verify Now P2Y12 assay-Accumetrics(Platelet Reactivity Units -PRU≥235) at 2 hours post-clopidogrel 600mg LD (Day 0), as assessed with the Verify Now P2Y12 assay, will be randomized after informed consent, in a 1:1 ratio to the following treatment groups:\n\nGroup Α: Clopidogrel 150mg per day,starting from Day 1 until Day 5 (5 days after randomization) Group Β: Prasugrel 60 mg immediate loading (on Day 0) followed by 10mg/day starting from Day 1 until Day 5 (5 days after randomization).\n\nPlatelet reactivity assessment will be performed 2 hours after randomization (Day 0), 24 h after randomization (Day 1) and on Day 5. Documentation of major adverse cardiac events (death, myocardial infarction, stroke, revascularization procedure with PCI or CABG)and serious adverse events (bleeding, other adverse events)will be performed until Day 5."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "prasugrel",
+        "clopidogrel",
+        "primary percutaneous coronary intervention",
+        "high platelet reactivity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 35,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "Prasugrel 60mg immediate loading dose (Day 0)followed by 10mg/day starting from Day 1 until Day 5",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Clopidogrel 150mg/day starting from Day 1 until Day 5",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Prasugrel 60mg immediate loading dose (Day 0)followed by 10mg/day starting from Day 1 until Day 5",
+          "armGroupLabels": [
+            "Prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Clopidogrel 150mg/d starting from Day 1",
+          "armGroupLabels": [
+            "Clopidogrel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet reactivity",
+          "description": "Platelet Reactivity assessed by VerifyNow P2Y12 assay 24 hours post randomization",
+          "timeFrame": "24 hours post randomization (Day 1)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Platelet reactivity",
+          "description": "Platelet Reactivity assessed by VerifyNow P2Y12 assay 2 hours post randomization",
+          "timeFrame": "2 hours post randomization (Day 0)"
+        },
+        {
+          "measure": "Platelet reactivity",
+          "description": "Platelet reactivity assessed by VerifyNow P2Y12 assay 5 days post randomization",
+          "timeFrame": "5 days post randomization (Day 5)"
+        },
+        {
+          "measure": "Hyporesponsiveness rate",
+          "description": "Hyporesponsiveness rate (PRU≥235 assessed with the VerifyNow P2Y12 assay)2 hours post randomization",
+          "timeFrame": "2 hours post randomization (Day 0)"
+        },
+        {
+          "measure": "Hyporesponsiveness rate",
+          "description": "Hyporesponsiveness rate (PRU≥235 assessed with the VerifyNow P2Y12 assay)24 hours post randomization",
+          "timeFrame": "24 hours post randomization (Day 1)"
+        },
+        {
+          "measure": "Hyporesponsiveness rate",
+          "description": "Hyporesponsiveness rate (PRU≥235 assessed with the VerifyNow P2Y12 assay)5 Days post randomization",
+          "timeFrame": "5 days post randomization (Day 5)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years old\n2. Patients with STEMI undergoing primary PCI with stenting\n3. Platelet reactivity in PRU ≥235 2 hours post 600 mg clopidogrel loading dose\n4. Informed consent obtained in writing\n\nExclusion Criteria:\n\n1. Treatment with other investigational agents (including placebo) or devices within 30 days prior to randomization or planned use of investigational agents or devices prior to the Day 5.\n2. Pregnancy\n3. Breastfeeding\n4. Inability to give informed consent or high likelihood of being unavailable until Day 5.\n5. Cardiogenic shock\n6. Major periprocedural complications (death, stent thrombosis, vessel perforation, arrhythmias requiring cardioversion, temporary pacemaker insertion or intravenous antiarrhythmic agents, respiratory failure requiring intubation, vascular injury (pseudoaneurysm, arteriovenous shunt, retroperitoneal bleeding or hematoma \\>5 cm at the arterial catheter insertion site), major bleeding (need for bood transfusion or drop in haemoglobin post-PCI by ≥ 5 gr/ dl or intracranial bleeding).\n7. Unsuccessful PCI (residual stenosis \\> 30% or flow \\< ΤΙΜΙ 3) or planned staged PCI in the next 5 days after randomization\n8. Requirement for oral anticoagulant prior to the Day 5\n9. Current or planned therapy with other thienopyridine class of ADP receptor inhibitors.\n10. Known hypersensitivity to prasugrel or ticagrelor\n11. History of gastrointestinal bleeding, genitourinary bleeding or other site abnormal bleeding within the previous 6 months.\n12. Other bleeding diathesis, or considered by investigator to be at high risk for bleeding on thienopyridine therapy.\n13. Any previous history of ischemic stroke, intracranial hemorrhage or disease (neoplasm, arteriovenous malformation, aneurysm).\n14. Thrombocytopenia (\\<100.000 / μL) at randomization\n15. Anaemia (Hct \\<30%) at randomization\n16. Polycythaemia (Hct \\> 52%) at randomization\n17. Periprocedural IIb/IIIa inhibitors administration\n18. Severe allergy to contrast agent, unfractionated heparin, enoxaparin or bivalirudin that cannot be adequately premedicated.\n19. Recent (\\< 6 weeks) major surgery or trauma, including GABG.\n20. Subjects receiving daily treatment with nonsteroidal anti-inflammatory drugs (NSAIDs) or cyclooxygenase-2 (COX-2) inhibitors that cannot be discontinued for the duration of the study.\n21. INR\\>1.5 at randomization",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Patras University Hospital",
+          "city": "Pátrai",
+          "zip": "26500",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.2462,
+            "lon": 21.73508
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

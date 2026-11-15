@@ -1,0 +1,411 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02894138",
+      "orgStudyIdInfo": {
+        "id": "OPTIMAL-01"
+      },
+      "organization": {
+        "fullName": "Vastra Gotaland Region",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Optimal Coronary Flow After PCI for Myocardial Infarction - a Pilot Study",
+      "officialTitle": "Optimal Coronary Flow After PCI for Myocardial Infarction - a Pilot Study",
+      "acronym": "OPTIMAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-08-24",
+      "studyFirstSubmitQcDate": "2016-09-02",
+      "studyFirstPostDateStruct": {
+        "date": "2016-09-09",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-09-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Vastra Gotaland Region",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In this study the investigators test the hypothesis that alteplase given intra coronary after PCI reduce infarct size in patients with ST-elevation myocardial infarction(STEMI) and impaired microvascular function defined as a value of index of microvascular resistance (IMR) \\>30.",
+      "detailedDescription": "After coronary stenting, index of microvascular resistance (IMR) will be measured invasively. Patients with IMR \\>30 will be randomised to 20 mg alteplase or placebo (NaCl) administered in the culprit vessel through a microcatheter. Magnet resonance imaging (MRI) of the myocardium will be performed early (2-6 days) and late (3 months) to estimate the primary endpoint (infarct size).\n\n10 non-randomised patients, with IMR \\<30, will undergo the same follow-up as the randomised patients.\n\nClinical events for all randomised and non-randomised patients will be collected from Swedish national registries and by telephone at 3 and 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-segment Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Alteplase",
+          "type": "EXPERIMENTAL",
+          "description": "40 patients: 4-5 minutes of infusion of 10 ml of alteplase 2mg/ml in culprit vessel",
+          "interventionNames": [
+            "Drug: alteplase"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "40 patients: 4-5 minutes of infusion of 10 ml of NaCl in culprit vessel",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Observational",
+          "type": "NO_INTERVENTION",
+          "description": "10 patients with IMR \\<30 will undergo the same follow-up as the randomised patients"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "alteplase",
+          "armGroupLabels": [
+            "Alteplase"
+          ],
+          "otherNames": [
+            "Actilyse®"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "NaCl"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ratio of myocardial infarct size to area at risk assessed by MRI",
+          "description": "MRI performed early (day 2-6) to assess area at risk and late (3 months) to assess infarct size",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of index of microvascular resistance and coronary flow reserve",
+          "description": "Difference in invasively measured IMR and CFR before and after drug administration",
+          "timeFrame": "Immediately after drug administration during invasive index procedure"
+        },
+        {
+          "measure": "Degree of microvascular obstruction assessed by MRI",
+          "description": "Degree of microvascular obstruction assessed by MRI",
+          "timeFrame": "2-6 days"
+        },
+        {
+          "measure": "Peak level of Troponin T",
+          "description": "Peak level of Troponin T",
+          "timeFrame": "12 hours"
+        },
+        {
+          "measure": "Level of NtProBNP",
+          "description": "Level of NtProBNP",
+          "timeFrame": "12 hours"
+        },
+        {
+          "measure": "Non invasive CFR",
+          "description": "CFR measured with transthoracic echo doppler",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Major adverse cardiac event (myocardial infarction, stroke, heart failure or death)",
+          "description": "Major adverse cardiac event (myocardial infarction, stroke, heart failure or death)",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Major adverse cardiac event (myocardial infarction, stroke, heart failure or death)",
+          "description": "Major adverse cardiac event (myocardial infarction, stroke, heart failure or death)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Re-hospitalisation for heart failure",
+          "description": "Re-hospitalisation for heart failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Re-hospitalisation for myocardial infarction",
+          "description": "Re-hospitalisation for myocardial infarction",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "description": "Cardiovascular death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Bleeding according to BARC-criteria",
+          "description": "Bleeding events during or after index PCI during index hospitalisation",
+          "timeFrame": "7 days"
+        },
+        {
+          "measure": "Myocardial hemorrhage at MRI",
+          "description": "Myocardial hemorrhage at MRI",
+          "timeFrame": "2-6 days"
+        },
+        {
+          "measure": "Change in hemoglobin",
+          "description": "Change in hemoglobin",
+          "timeFrame": "12 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Criteria for randomization:\n\n1\\. IMR measured in culprit vessel \\> 30\n\nCriteria for IMR measurement:\n\nInclusion Criteria:\n\n1. Oral and signed informed consent\n2. Males and females 18 - 85 years of age\n3. Diagnosis of ST-elevation myocardial infarction (STEMI) including occlusion of culprit vessel on angiography\n4. Onset of continuous symptoms within 12 hours\n5. Have undergone PCI of culprit vessel\n6. Subjects are willing to comply with scheduled visits and tests and are able and willing to provide informed consent\n\nExclusion Criteria:\n\n1. Previously known ejection fraction \\<30%\n2. Previous PCI in the culprit vessel\n3. Chronic total occlusion in major vessel\n4. Any history of bleeding diathesis, known coagulopathy, or will refuse blood transfusions\n5. Recent history or known platelet count \\<100.000 cells/mm3 or Hbg \\< 10 g/dL\n6. Known reduced kidney function with estimated glomerular filtration rate (GFR) \\<30 ml/min/1.73m2.\n7. Previous hemorrhagic stroke\n8. Ongoing oral anticoagulation treatment\n9. Severe asthma requiring daily treatment\n10. Any mechanical complication (e.g. ventricular septal defect, papillary muscle rupture, cardiac tamponade)\n11. Atrioventricular block grade III\n12. Known inability to undergo MRI investigation\n\n    Permanent pacemaker\n    * Pronounced claustrophobia\n13. Known intolerance to study drug\n14. Known intolerance to adenosine\n15. Pregnancy\n16. Participation in another investigational drug study\n17. Previous randomization in the OPTIMAL-PCI trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Oskar Angerås, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+46703134091",
+          "email": "oskar.angeras@vgregion.se"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Oskar Angerås, MD, PhD",
+          "affiliation": "Department of Cardiology, Sahlgrenska University Hospital, Gothenburg, Sweden",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology, Sahlgrenska University Hospital",
+          "status": "RECRUITING",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Oskar Angerås, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+46703134091",
+              "email": "oskar.angeras@vgregion.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18237685",
+          "type": "BACKGROUND",
+          "citation": "Fearon WF, Shah M, Ng M, Brinton T, Wilson A, Tremmel JA, Schnittger I, Lee DP, Vagelos RH, Fitzgerald PJ, Yock PG, Yeung AC. Predictive value of the index of microcirculatory resistance in patients with ST-segment elevation myocardial infarction. J Am Coll Cardiol. 2008 Feb 5;51(5):560-5. doi: 10.1016/j.jacc.2007.08.062."
+        },
+        {
+          "pmid": "19684025",
+          "type": "BACKGROUND",
+          "citation": "Lim HS, Yoon MH, Tahk SJ, Yang HM, Choi BJ, Choi SY, Sheen SS, Hwang GS, Kang SJ, Shin JH. Usefulness of the index of microcirculatory resistance for invasively assessing myocardial viability immediately after primary angioplasty for anterior myocardial infarction. Eur Heart J. 2009 Dec;30(23):2854-60. doi: 10.1093/eurheartj/ehp313. Epub 2009 Aug 14."
+        },
+        {
+          "pmid": "23681066",
+          "type": "BACKGROUND",
+          "citation": "Fearon WF, Low AF, Yong AS, McGeoch R, Berry C, Shah MG, Ho MY, Kim HS, Loh JP, Oldroyd KG. Prognostic value of the Index of Microcirculatory Resistance measured after primary percutaneous coronary intervention. Circulation. 2013 Jun 18;127(24):2436-41. doi: 10.1161/CIRCULATIONAHA.112.000298. Epub 2013 May 16."
+        },
+        {
+          "pmid": "24637066",
+          "type": "BACKGROUND",
+          "citation": "Boscarelli D, Vaquerizo B, Miranda-Guardiola F, Arzamendi D, Tizon H, Sierra G, Delgado G, Fantuzzi A, Estrada D, Garcia-Picart J, Cinca J, Serra A. Intracoronary thrombolysis in patients with ST-segment elevation myocardial infarction presenting with massive intraluminal thrombus and failed aspiration. Eur Heart J Acute Cardiovasc Care. 2014 Sep;3(3):229-36. doi: 10.1177/2048872614527008. Epub 2014 Mar 17."
+        },
+        {
+          "pmid": "21670242",
+          "type": "BACKGROUND",
+          "citation": "Mehran R, Rao SV, Bhatt DL, Gibson CM, Caixeta A, Eikelboom J, Kaul S, Wiviott SD, Menon V, Nikolsky E, Serebruany V, Valgimigli M, Vranckx P, Taggart D, Sabik JF, Cutlip DE, Krucoff MW, Ohman EM, Steg PG, White H. Standardized bleeding definitions for cardiovascular clinical trials: a consensus report from the Bleeding Academic Research Consortium. Circulation. 2011 Jun 14;123(23):2736-47. doi: 10.1161/CIRCULATIONAHA.110.009449. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010959",
+          "term": "Tissue Plasminogen Activator"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

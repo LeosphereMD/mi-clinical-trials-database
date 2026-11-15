@@ -1,0 +1,380 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01452139",
+      "orgStudyIdInfo": {
+        "id": "2010364-01H"
+      },
+      "organization": {
+        "fullName": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pharmacogenetic Approach to Anti-platelet Therapy for the Treatment of ST-segment Elevation Myocardial Infarction (STEMI)",
+      "officialTitle": "ReAssessment of Anti-Platelet Therapy Using an InDividualized Strategy in Patients With ST-segment Elevation Myocardial Infarction",
+      "acronym": "RAPID STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-09-27",
+      "studyFirstSubmitQcDate": "2011-10-11",
+      "studyFirstPostDateStruct": {
+        "date": "2011-10-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-04-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-04-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Derek So",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Ottawa Heart Institute Research Corporation"
+      },
+      "leadSponsor": {
+        "name": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Spartan Bioscience Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of the RAPID STEMI study is to evaluate the feasibility, efficacy, and safety of a pharmacogenetic approach to anti-platelet therapy for the treatment of ST-segment elevation myocardial infarction (STEMI) patients following percutaneous coronary intervention (PCI) using point-of-care genetic testing for the CYP2C19\\*2, \\*17, and ABCB1 3435 C\\>T alleles.",
+      "detailedDescription": "Dual anti-platelet therapy following percutaneous coronary intervention (PCI) for the treatment of STEMI has traditionally consisted of aspirin and clopidogrel. Despite this treatment approach, a substantial portion of patients experience recurrent adverse cardiovascular events including death, myocardial infarction, and stent thrombosis. This persistent vulnerability has been associated with inadequate platelet inhibition in response to clopidogrel administration, a phenomenon referred to as high on-treatment platelet reactivity. Although multiple variables have been implicated in altered clopidogrel response, mounting evidence has suggested a crucial role for common genetic variants including: CYP2C19\\*2, \\*17, and ABCB1 3435 C\\>T alleles.\n\nPresence of the CYP2C19\\*2 allele has been associated with a 1.5- to 6-fold increased risk of cardiovascular death, myocardial infarction, and stent thrombosis following PCI in patients treated with clopidogrel. These findings, recently bolstered by 2 separate meta-analyses, led the American Food and Drug Administration to issue a boxed warning for clopidogrel stating that poor metabolizers may not receive the full benefit of the drug. The ABCB1 3435 TT genotype has also been linked with increased adverse cardiovascular events in individuals treated with clopidogrel following PCI for an acute coronary syndrome. In contrast, the CYP2C19\\*17 gain-of-function allele appears to enhance the activity of clopidogrel and has been associated with reduced ischemic events but increased bleeding.\n\nAs a result of these findings, experts have begun to advocate for routine genotyping in the context of PCI. A personalized approach to dual anti-platelet therapy following PCI is feasible given the presence of treatment alternatives such as prasugrel that are capable of overcoming clopidogrel resistance. Selective administration of prasugrel to patients at increased risk of clopidogrel resistance has the potential to successfully minimize adverse ischemic events, while simultaneously minimizing associated bleeding events and health care costs. A prospective pharmacogenomic approach to anti-platelet therapy has been previously hampered by limited access and the time-delay associated with genetic testing. The development of point-of-care genetic testing for the CYP2C19\\*2, \\*17, and ABCB1 3435 C\\>T alleles that requires minimal training to perform carries the potential to overcome these obstacles and may facilitate the incorporation of pharmacogenetic strategies into routine clinical practice.\n\nPatients receiving PCI in the context of STEMI will undergo point-of-care genetic testing for the CYP2C19\\*2, \\*17, and ABCB1 3435 C\\>T alleles. CYP2C19\\*2 carriers and individuals homozygous for the ABCB1 3435 T allele will subsequently be randomized to prasugrel 10mg daily for 1 month or clopidogrel 150mg daily for 1 week followed by 75mg daily. The remaining individuals without an at-risk genotype will receive standard therapy with clopidogrel. At the end of the 1 month period, efficacy of the treatment strategies will be evaluated using VerifyNow platelet function testing. The effect of the CYP2C19\\*17 allele will be prospectively evaluated during the treatment period."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ],
+      "keywords": [
+        "STEMI",
+        "Pharmacogenetics",
+        "Prasugrel",
+        "Clopidogrel",
+        "Percutaneous Coronary Intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 102,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "At-Risk Genetics Arm: Prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "Treatment of STEMI patients carrying at least 1 at-risk genetic variant with prasugrel 10mg daily for 1 month.",
+          "interventionNames": [
+            "Genetic: Point-of-Care Genetic Testing",
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "At-Risk Genetics Arm: Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Treatment of STEMI patients carrying at least 1 at-risk genetic variant with clopidogrel 150mg daily for 1 week followed by 75mg daily.",
+          "interventionNames": [
+            "Genetic: Point-of-Care Genetic Testing"
+          ]
+        },
+        {
+          "label": "Low Risk Genetics Arm: Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Treatment of STEMI patients with no at-risk genetic variants with clopidogrel 75mg daily.",
+          "interventionNames": [
+            "Genetic: Point-of-Care Genetic Testing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "Point-of-Care Genetic Testing",
+          "description": "Point-of-Care Genetic Testing for Genetic Variants Linked to Adverse Outcomes with Clopidogrel (CYP2C19\\*2 \\& ABCB1 3435 TT)",
+          "armGroupLabels": [
+            "At-Risk Genetics Arm: Clopidogrel",
+            "At-Risk Genetics Arm: Prasugrel",
+            "Low Risk Genetics Arm: Clopidogrel"
+          ],
+          "otherNames": [
+            "Spartan RX"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Treatment of STEMI patients carrying at least one high risk genetic variant with prasugrel 10mg daily.",
+          "armGroupLabels": [
+            "At-Risk Genetics Arm: Prasugrel"
+          ],
+          "otherNames": [
+            "Effient"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The rates of high on-treatment platelet reactivity as measured by the VerifyNow P2Y12 assay (Accumetrics, San Diego, CA) in CYP2C19*2 and ABCB1 3435 TT carriers treated with prasugrel relative to clopidogrel.",
+          "description": "High on-treatment platelet reactivity as measured by the VerifyNow P2Y12 assay with evidence based cutoffs.",
+          "timeFrame": "1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite of death from cardiovascular causes, non-fatal myocardial infarction, and re-hospitalization.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Bleeding risk",
+          "description": "Defined by TIMI major/minor",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Concordance of point-of-care genetic screening with laboratory based genotyping methods",
+          "description": "Genotyping results from the Spartan RX device will be compared with the results of direct DNA sequencing.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Effect of the CYP2C19*17 allele on platelet inhibition.",
+          "description": "As measured by VerifyNow in P2Y12 Reaction Units (PRU) and percent platelet inhibition.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Effect of CYP2C19*17 allele on bleeding events",
+          "description": "Comparison of TIMI major \\& minor bleeding rates in carriers and non-carriers of the CYP2C19\\*17 allele.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Mean PRU and percent platelet inhibition in CYP2C19*2 and ABCB1 3435 TT carriers treated with prasugrel relative to clopidogrel",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Between-group change in PRU and percent platelet inhibition in CYP2C19*2 and ABCB1 3435 TT carriers treated with prasugrel relative to clopidogrel.",
+          "timeFrame": "1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and Females between the ages of 18 and 75 years\n* STEMI patients treated with percutaneous coronary intervention\n* Able to provide informed consent\n* Able to comply with assigned treatment strategy and attend 1 month follow-up visit\n\nExclusion Criteria:\n\n* Receiving anti-platelet therapy other than aspirin and clopidogrel\n* Receiving anti-coagulation with warfarin or dabigatran\n* History of stroke or transient ischemic attack\n* Platelet count \\< 100 000/μL\n* Known Bleeding Diathesis\n* Hematocrit \\<30% or \\>52%\n* Severe Liver Dysfunction\n* Renal Insufficiency (Creatinine Clearance \\< 30ml/min)\n* Pregnant females",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Derek Y F So, MD",
+          "affiliation": "Ottawa Heart Institute Research Corporation",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Jason D Roberts, MD",
+          "affiliation": "Ottawa Heart Institute Research Corporation",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1N 4W7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20471193",
+          "type": "BACKGROUND",
+          "citation": "Damani SB, Topol EJ. The case for routine genotyping in dual-antiplatelet therapy. J Am Coll Cardiol. 2010 Jul 6;56(2):109-11. doi: 10.1016/j.jacc.2010.03.029. Epub 2010 May 13."
+        },
+        {
+          "pmid": "19106084",
+          "type": "BACKGROUND",
+          "citation": "Mega JL, Close SL, Wiviott SD, Shen L, Hockett RD, Brandt JT, Walker JR, Antman EM, Macias W, Braunwald E, Sabatine MS. Cytochrome p-450 polymorphisms and response to clopidogrel. N Engl J Med. 2009 Jan 22;360(4):354-62. doi: 10.1056/NEJMoa0809171. Epub 2008 Dec 22."
+        },
+        {
+          "pmid": "19106083",
+          "type": "BACKGROUND",
+          "citation": "Simon T, Verstuyft C, Mary-Krause M, Quteineh L, Drouet E, Meneveau N, Steg PG, Ferrieres J, Danchin N, Becquemont L; French Registry of Acute ST-Elevation and Non-ST-Elevation Myocardial Infarction (FAST-MI) Investigators. Genetic determinants of response to clopidogrel and cardiovascular events. N Engl J Med. 2009 Jan 22;360(4):363-75. doi: 10.1056/NEJMoa0808227. Epub 2008 Dec 22."
+        },
+        {
+          "pmid": "20801494",
+          "type": "BACKGROUND",
+          "citation": "Mega JL, Close SL, Wiviott SD, Shen L, Walker JR, Simon T, Antman EM, Braunwald E, Sabatine MS. Genetic variants in ABCB1 and CYP2C19 and cardiovascular outcomes after treatment with clopidogrel and prasugrel in the TRITON-TIMI 38 trial: a pharmacogenetic analysis. Lancet. 2010 Oct 16;376(9749):1312-9. doi: 10.1016/S0140-6736(10)61273-1."
+        },
+        {
+          "pmid": "20978260",
+          "type": "BACKGROUND",
+          "citation": "Mega JL, Simon T, Collet JP, Anderson JL, Antman EM, Bliden K, Cannon CP, Danchin N, Giusti B, Gurbel P, Horne BD, Hulot JS, Kastrati A, Montalescot G, Neumann FJ, Shen L, Sibbing D, Steg PG, Trenk D, Wiviott SD, Sabatine MS. Reduced-function CYP2C19 genotype and risk of adverse clinical outcomes among patients treated with clopidogrel predominantly for PCI: a meta-analysis. JAMA. 2010 Oct 27;304(16):1821-30. doi: 10.1001/jama.2010.1543."
+        },
+        {
+          "pmid": "19414633",
+          "type": "BACKGROUND",
+          "citation": "Mega JL, Close SL, Wiviott SD, Shen L, Hockett RD, Brandt JT, Walker JR, Antman EM, Macias WL, Braunwald E, Sabatine MS. Cytochrome P450 genetic polymorphisms and the response to prasugrel: relationship to pharmacokinetic, pharmacodynamic, and clinical outcomes. Circulation. 2009 May 19;119(19):2553-60. doi: 10.1161/CIRCULATIONAHA.109.851949. Epub 2009 May 4."
+        },
+        {
+          "pmid": "18263931",
+          "type": "BACKGROUND",
+          "citation": "Price MJ, Endemann S, Gollapudi RR, Valencia R, Stinis CT, Levisay JP, Ernst A, Sawhney NS, Schatz RA, Teirstein PS. Prognostic significance of post-clopidogrel platelet reactivity assessed by a point-of-care assay on thrombotic events after drug-eluting stent implantation. Eur Heart J. 2008 Apr;29(8):992-1000. doi: 10.1093/eurheartj/ehn046. Epub 2008 Feb 10."
+        },
+        {
+          "pmid": "19118249",
+          "type": "BACKGROUND",
+          "citation": "Marcucci R, Gori AM, Paniccia R, Giusti B, Valente S, Giglioli C, Buonamici P, Antoniucci D, Abbate R, Gensini GF. Cardiovascular death and nonfatal myocardial infarction in acute coronary syndrome patients receiving coronary stenting are predicted by residual platelet reactivity to ADP detected by a point-of-care assay: a 12-month follow-up. Circulation. 2009 Jan 20;119(2):237-42. doi: 10.1161/CIRCULATIONAHA.108.812636. Epub 2008 Dec 31."
+        },
+        {
+          "pmid": "20083681",
+          "type": "BACKGROUND",
+          "citation": "Sibbing D, Koch W, Gebhard D, Schuster T, Braun S, Stegherr J, Morath T, Schomig A, von Beckerath N, Kastrati A. Cytochrome 2C19*17 allelic variant, platelet aggregation, bleeding events, and stent thrombosis in clopidogrel-treated patients with coronary stent placement. Circulation. 2010 Feb 2;121(4):512-8. doi: 10.1161/CIRCULATIONAHA.109.885194. Epub 2010 Jan 18."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

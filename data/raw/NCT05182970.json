@@ -1,0 +1,401 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05182970",
+      "orgStudyIdInfo": {
+        "id": "2019-05382"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2019"
+        }
+      ],
+      "organization": {
+        "fullName": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "briefTitle": "Metformin and Prevention of Cardiovascular Events in Patients With Acute Myocardial Infarction and Prediabetes (MIMET)",
+      "officialTitle": "The Myocardial Infarction and New Treatment With Metformin Study (MIMET) - a R-RCT to Study Metformin and the Prevention of Cardiovascular Events in Patients With Acute Myocardial Infarction and Newly Detected Prediabetes",
+      "acronym": "MIMET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-12-21",
+      "studyFirstSubmitQcDate": "2021-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Anna Norhammar",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Karolinska Institutet"
+      },
+      "leadSponsor": {
+        "name": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "St Goran's Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Uppsala University",
+          "class": "OTHER"
+        },
+        {
+          "name": "The Swedish Research Council",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Prediabetes is associated to an increased risk of cardiovascular disease and mortality. Although metformin can delay progression to diabetes there is a lack of RCTs evaluating the effect of metformin on cardiovascular outcomes. MIMET aims to investigate if addition of metformin to standard care has effects on the occurrence of cardiovascular events after acute myocardial infarction in patients with newly detected prediabetes (identified by oral glucose tolerance test, HbA1c or fasting glucose levels).",
+      "detailedDescription": "The study is a national multicenter R-RCT associated to the The Swedish Web-system for Enhancement and Development of Evidence-based care in Heart disease Evaluated According to Recommended Therapies (SWEDEHEART registry) where participants, after informed consent, will be randomly assigned to either open treatment with standard care + metformin or standard care alone in a 1:1 ratio. Standard care consists of diet and life-style advice according to national guidelines but does not include metformin. Baseline data for individual patients will be collected from the SWEDEHEART registry. Patients will be followed per routine care at 2 and 12 months post index AMI and in addition at a final study visit at 24 months. Laboratory measurements and collection of SAE will be performed yearly. In total n=5150 patients is expected to be followed for major CV event (all-cause mortality, myocardial infarction, heart failure and stroke) by linkage with SWEDEHEART and national health registries."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "PreDiabetes",
+        "Acute Myocardial Infarction",
+        "Non ST Elevation Myocardial Infarction",
+        "ST Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5160,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin on top of standard care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Metformin will be prescribed by the Investigator at the study site and dispensed at pharmacy of choice by the patient. Metformin will be recommended to be gradually titrated to minimize gastrointestinal side effects with a start dose of 500 mg 1x1 for 1 week and thereafter 500 mg 1x2 with an individualised target dose of 2000 mg daily depending on tolerability. The goal is to a have minimal dose of 500 mg 1x2. Patients will be informed to stop medication in events of sever nausea, vomiting or dehydration according to standard practice. The threshold for metformin titration or adding another drug during follow-up is recommended to be assessed individually by the Investigator at the study site, responsible for the patient. Patients with eGFR \\<60 cannot be included in the MIMET study. If GFR is between 30-45 ml/min during the study, metformin should be reduced to 1000 mg daily. Metformin is contraindicated if GFR \\<30 ml/min. Standard care will be the same as in the control arm.",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Standard care alone",
+          "type": "NO_INTERVENTION",
+          "description": "Standard care according to national guidelines. In Sweden there is no pharmacological intervention recommended for individuals with prediabetes at present. Standard care includes diet and life-style advice, which will be given to both groups in the same manner according to local routines, based on the present guidelines. Secondary preventive treatment includes physical activity, participating in exercise program, dietary habits, BMI and or waist circumference, smoking and EQ-5D will be followed in accordance with the routinely reported SWEDEHEART-SEPHIA variables."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Individualised target dose of 2000 mg daily depending on tolerability.",
+          "armGroupLabels": [
+            "Metformin on top of standard care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to major CV event",
+          "description": "Major CV event; a composite endpoint of first of all-cause death or main diagnosis of MI, heart failure or stroke (reported in SWEDEHEART, the National Patient Register and the Cause of Death Register).",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to the composite endpoint CV death, main diagnosis of MI, heart failure or stroke.",
+          "description": "Time to first event included in the composite endpoint CV death, main diagnosis of MI, heart failure or stroke.",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Time to the composite endpoint of all-cause death, main diagnosis of MI, stroke and revascularisation (CABG or PCI >4 months after the index AMI).",
+          "description": "Time to first event included in the composite endpoint of all-cause death, main diagnosis of MI, stroke and revascularisation (CABG or PCI \\>4 months after the index AMI).",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "All-cause death",
+          "description": "Time to all-cause death",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "CV death",
+          "description": "Time to CV death",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Hospitalisation with MI",
+          "description": "Time to readmission for MI. Hospital admission for MI during day 0-30 after index AMI will be excluded",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Hospitalisation with stroke",
+          "description": "Time to hospitalisation for stroke (main diagnosis)",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Hospitalisation with heart failure",
+          "description": "Time to hospitalisation for heart failure (main diagnosis)",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "New cancer diagnosis",
+          "description": "Time to new cancer diagnosis defined as the first occurrence of any cancer in the National Patient Register",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Initiation of any glucose lowering therapy",
+          "description": "Time to initiation of any glucose lowering therapy (ATC code A10 in the Prescribed Drug Register, excluding randomisation to metformin)",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Diabetes diagnosis",
+          "description": "Defined as diabetes diagnosis in National Patient Register and/or prescribed glucose lowering treatment in the Prescribed Drug Register excluding randomisation to metformin in the active treatment arm",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Serious Adverse Events",
+          "description": "Number of Serious Adverse Events with at least a possible relationship to the study medication",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Lactic acidosis (E11.1D)",
+          "description": "Number of events of lactic acidosis",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        },
+        {
+          "measure": "Hypoglycaemia",
+          "description": "Number of events of hypoglycaemia",
+          "timeFrame": "Estimated follow-up for each patient is 1-4 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nI. AMI\n\nII. Swedish citizens with a personal ID number ≥18 years and ≤80 years\n\nIII. Newly diagnosed prediabetes:\n\n1. HbA1c 42-47 mmol/mol or\n2. Capillary or venous fasting plasma glucose concentration 6.1-6.9 mmol/L or\n3. 2-hour post-load capillary glucose concentration 8.9-12.1 mmol/L or\n4. 2-h post-load venous plasma glucose concentration 7.8-11.0 mmol/L\n5. HbA1c \\<48 mmol/mol and 2-hour post-load capillary glucose concentration \\>12.1 mmol/L or 2-h post-load venous plasma glucose concentration \\>11.0 mmol/L (thus elevated 2-hour glucose levels in the diabetes range but without HbA1c levels diagnostic for diabetes)\n\nIV. Naïve to metformin and other glucose lowering therapy\n\nV. Signed informed consent\n\nExclusion Criteria:\n\nI. Type 1 diabetes\n\nII. Known type 2 diabetes\n\nIII. Indication for glucose lowering treatment\n\nIV. Acute condition with high risk for volume depletion, circulatory shock, hypoxia\n\nV. Serious illness, other than cardiovascular, with short life expectancy\n\nVI. Renal failure (eGFR \\<60ml/min)\n\nVII. Hepatic failure\n\nVIII. Malignancy within the last year\n\nIX. Contraindication or hypersensitivity to the study drug\n\nX. Alcohol or drug abuse\n\nXI. Pregnancy or breastfeeding\n\nXII. Women of childbearing potential without adequate anticonception during any part of the study period\n\nXIII. Previous hospitalisation for lactic acidosis\n\nXIV. Predicted inability to comply with the study protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Anna Norhammar, MD, Prof.",
+          "role": "CONTACT",
+          "phone": "+46858701568",
+          "email": "anna.norhammar@ki.se"
+        },
+        {
+          "name": "Viveca Ritsinger, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+46372585000",
+          "email": "viveca.ritsinger@ki.se"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Anna Norhammar, MD, Prof.",
+          "affiliation": "Karolinska Institutet",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medicinkliniken, Ljungby Hospital",
+          "status": "RECRUITING",
+          "city": "Ljungby",
+          "zip": "341 35",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Thomas Aronsson, Head of Clinic",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Viveca Ritsinger, MD PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.83324,
+            "lon": 13.94082
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37683518",
+          "type": "DERIVED",
+          "citation": "Ritsinger V, Hagstrom E, Hambraeus K, James S, Jernberg T, Lagerqvist B, Leosdottir M, Lundman P, Pernow J, Ostlund O, Norhammar A. Design and rationale of the myocardial infarction and new treatment with metformin study (MIMET) - Study protocol for a registry-based randomised clinical trial. J Diabetes Complications. 2023 Oct;37(10):108599. doi: 10.1016/j.jdiacomp.2023.108599. Epub 2023 Aug 30."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

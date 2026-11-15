@@ -1,0 +1,498 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05305898",
+      "orgStudyIdInfo": {
+        "id": "MC-ACS01-2020"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-004962-21",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Military Institute od Medicine National Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "\"MetCool ACS\"- Metformin \"Cooling\" Effect on Metformin-naive Patients Treated With PCI Because of Acute Coronary Syndrome",
+      "officialTitle": "MetCool ACS\"- Metformin \"Cooling\" Effect on Metformin-naive Patients Treated With PCI Because of Acute Coronary Syndrome"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-02-17",
+      "studyFirstSubmitQcDate": "2022-03-23",
+      "studyFirstPostDateStruct": {
+        "date": "2022-03-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-03-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Military Institute od Medicine National Research Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "ABM Industries",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is the evaluation of the effect of metformin among the patients without diabetes, on the incidence of reintervention, unplanned revascularization, after full percutaneous coronary revascularization as a result of the first episode of the acute coronary syndrome (ACS)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients from \"metformin group\" will receive metformin 3 x 850 mg (after titration period) for 2 years (3 x 500 mg for first 6 weeks) with 6 months follow-up after treatment cessation.",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "No metformin group",
+          "type": "NO_INTERVENTION",
+          "description": "Patients form \"no metformin\" group will be observed for 2 years and 6 months, which cover the same period like for patients from metformin group."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Patients from \"metformin group\" will receive metformin 3 x 850 mg (after titration period) for 2 years (3 x 500 mg for first 6 weeks) with 6 months follow-up after treatment cessation.",
+          "armGroupLabels": [
+            "Metformin group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Need for unscheduled PCI or CABG after successful final stage of revascularization due to ACS within a 30-month follow-up period",
+          "description": "Number of patients who needs an unscheduled PCI or CABG after successful final stage of revascularization due to ACS within a 30-month follow-up period",
+          "timeFrame": "through study completion, an average of 5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Death from cardiac causes after successful final stage of revascularization due to ACS within 30 months of follow-up",
+          "description": "Number of deaths from cardiac causes after successful final stage of revascularization due to ACS within 30 months of follow-up",
+          "timeFrame": "through study completion, an average of 5 years"
+        },
+        {
+          "measure": "All-cause death following successful final stage revascularization for ACS within a 30-month follow-up period",
+          "description": "Number of all-cause deaths following successful final stage revascularization for ACS within a 30-month follow-up period",
+          "timeFrame": "through study completion, an average of 5 years"
+        },
+        {
+          "measure": "Non-fatal myocardial infarction after successful final stage of revascularization due to ACS within 30 months of follow-up",
+          "description": "Number of non-fatal myocardial infarctions after successful final stage of revascularization due to ACS within 30 months of follow-up",
+          "timeFrame": "through study completion, an average of 5 years"
+        },
+        {
+          "measure": "Non-fatal stroke after successful final stage of revascularization due to ACS within 30 months of follow-up",
+          "description": "Number of non-fatal strokes after successful final stage of revascularization due to ACS within 30",
+          "timeFrame": "through study completion, an average of 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>18 years\n* ACS, according to the current definition of the European Society of Cardiology, treated with percutaneous coronary intervention with drug eluting stent implantation\n* Occupation and place of residence not causing difficulties in participating in control visits\n* Uncomplicated course of the disease (ACS) as assessed by the treating physician\n* Negative history of diabetes\n* Not taking any hypoglycaemic drugs prior to hospitalization immediately or within the last 6 months\n* HbA1c\\< 6,5% (assessment during hospitalization)\n* Written consent to participate in the study\n\nExclusion Criteria:\n\n* Significant valve disease confirmed by ECHO\n* Previous CABG\n* NYHA IV during hospitalization\n* Chronic kidney disease with GFR \\<60 ml / min / 1.73 m2 according to MDRD\n* ALT three times above normal according to laboratory criteria\n* Serious co-morbidities and estimated survival less than 2.5 years, as assessed by the treating physician\n* Known gastrointestinal disease that may potentially be responsible for the intolerance to metformin (e.g. inflammatory bowel disease, gastro-oesophageal reflux disease)\n* Known potential difficulties in cooperation with patients (dementia, mental disorders, distance from the place of residence, if considered potentially problematic, alcoholism)\n* Hypersensitivity to metformin\n* Pregnancy and breastfeeding\n* Patient participation in another clinical trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Piotr Kwiatkowski",
+          "role": "CONTACT",
+          "phone": "606619195",
+          "email": "pkwiatkowski@wim.mil.pl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Grzegorz Gierelak",
+          "affiliation": "Military Institute of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Oddział Kardiologii Szpitala św. Rafała",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Krakow",
+          "state": "Lesser Poland Voivodeship",
+          "zip": "30-693",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Jerzy Matysek, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Wielospecjalistyczny Szpital Wojewódzki w Gorzowie Wielkopolskim",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Gorzów Wielkopolski",
+          "state": "Lubusz Voivodeship",
+          "zip": "66-400",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Roman Mycka, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.73371,
+            "lon": 15.22505
+          }
+        },
+        {
+          "facility": "Wojskowy Instytut Medyczny",
+          "status": "RECRUITING",
+          "city": "Warsaw",
+          "state": "Masovian Voivodeship",
+          "zip": "04-141",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Grzegorz Gierelak, Professor",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Kluczborskie Centrum Kardiologii",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Kluczbork",
+          "state": "Opole Voivodeship",
+          "zip": "46-200",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Andrzej Wester, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.97281,
+            "lon": 18.21816
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Bielsku Podlaskim",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bielsk Podlaski",
+          "state": "Podlaskie Voivodeship",
+          "zip": "17-100",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Dariusz Bielecki, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.76512,
+            "lon": 23.18647
+          }
+        },
+        {
+          "facility": "Chorzowskie Centrum Kardiologii",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chorzów",
+          "state": "Silesian Voivodeship",
+          "zip": "41-500",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Agata Fenger, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.30582,
+            "lon": 18.9742
+          }
+        },
+        {
+          "facility": "Raciborskie Centrum Medyczne",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Racibórz",
+          "state": "Silesian Voivodeship",
+          "zip": "47-400",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Marek Szymiczek, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.09195,
+            "lon": 18.21928
+          }
+        },
+        {
+          "facility": "Sosnowieckie Centrum Kardiologii",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Sosnowiec",
+          "state": "Silesian Voivodeship",
+          "zip": "41-219",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Jacek Olender, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.28682,
+            "lon": 19.10385
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Ełku",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ełk",
+          "state": "Warmian-Masurian Voivodeship",
+          "zip": "19-300",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Artur Zalewski, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.82824,
+            "lon": 22.36469
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Iławie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Iława",
+          "state": "Warmian-Masurian Voivodeship",
+          "zip": "14-202",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Rafał Tomaszewski, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.59601,
+            "lon": 19.56849
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Szczecinku",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Szczecinek",
+          "state": "West Pomeranian Voivodeship",
+          "zip": "78-400",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Wojciech Jabłoński, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.70791,
+            "lon": 16.69937
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Kutnie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Kutno",
+          "state": "Łódź Voivodeship",
+          "zip": "99-320",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Radosław Kręcki, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.23064,
+            "lon": 19.36409
+          }
+        },
+        {
+          "facility": "Centrum Kardiologii Scanmed w Tomaszowie Mazowieckim",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tomaszów Mazowiecki",
+          "state": "Łódź Voivodeship",
+          "zip": "97-200",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Piotr Paliński, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.53131,
+            "lon": 20.00855
+          }
+        },
+        {
+          "facility": "Częstochowskie Centrum Kardiologii",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Częstochowa",
+          "state": "Śląske",
+          "zip": "42-200",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Lucjan Szela, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.79646,
+            "lon": 19.12409
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

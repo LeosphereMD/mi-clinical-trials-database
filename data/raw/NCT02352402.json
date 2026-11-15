@@ -1,0 +1,465 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02352402",
+      "orgStudyIdInfo": {
+        "id": "POPCABG"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2014-002142-50",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2014",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2014"
+        }
+      ],
+      "organization": {
+        "fullName": "St. Antonius Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect Of Ticagrelor On Saphenous Vein Graft Patency In Patients Undergoing Coronary Artery Bypass Grafting Surgery",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Trial Investigating The Effect Of Ticagrelor On Saphenous Vein Graft Patency In Patients Undergoing Coronary Artery Bypass Grafting Surgery (The POPular CABG Study)",
+      "acronym": "POPular CABG"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2020-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2014-09-19",
+      "studyFirstSubmitQcDate": "2015-01-30",
+      "studyFirstPostDateStruct": {
+        "date": "2015-02-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-04-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-04-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "J.M. ten Berg",
+        "investigatorTitle": "MD, PhD, FESC, FACC",
+        "investigatorAffiliation": "St. Antonius Hospital"
+      },
+      "leadSponsor": {
+        "name": "J.M. ten Berg",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "In the POPular CABG study we investigate if the addition of ticagrelor, a drug that inhibits blood platelets from clotting, to treatment with aspirin will reduce the rate of saphenous vein graft occlusion as assessed with coronary computed tomography angiography at 1 year after coronary artery bypass grafting surgery.",
+      "detailedDescription": "Rationale: Acetylsalicylic acid (ASA) is used to prevent the occlusion of grafts placed during coronary artery bypass grafting surgery (CABG) and to reduce the incidence of atherothrombotic events during follow-up. Graft occlusion occurs predominantly in saphenous vein grafts (SVGs) and can result in symptoms of chest pain, myocardial infarction (MI) and even death. The anti-thrombotic effect of ASA is a result of the inhibition of the generation of thromboxane A2 (TXA2) in blood platelets. Despite ASA therapy, 6.8% to 26% of SVGs occlude in the first year after CABG, mainly due to thrombus formation. This might be due to the fact that ASA is not equally effective in all patients, indicated by a substantial amount of patients that still generate TXA2 and show activated platelets, despite adequate ASA use. We hypothesize that more potent platelet inhibition by the addition of ticagrelor to standard ASA therapy could decrease the rate of SVG occlusion.\n\nMain objective: To investigate whether a combination of ticagrelor 90mg twice daily and ASA 80mg once daily is superior to ASA 80mg once daily alone in the prevention of SVG occlusion in patients who underwent CABG with use of one or more SVGs, as assessed with coronary computed tomography angiography (CCTA) at 1 year after randomization.\n\nStudy design: Randomized, double-blind, placebo-controlled, multicenter trial. Number of patients: Approximately 500 patients will be randomized.\n\nStudy population: Patients undergoing CABG with one or more SVGs, CABG being an isolated procedure or part of combined surgery.\n\nInformed consent procedure, screening and sample size: We will screen patients and obtain informed consent before CABG. After CABG patients who gave informed consent are screened again to check if the patient fulfills the inclusion criteria and does not have any exclusion criteria. A total of 500 patients will receive randomized study medication after CABG.\n\nIntervention: Patients will be randomly assigned to treatment with 90mg of ticagrelor or a matching placebo twice daily in addition to standard treatment with ASA for the duration of 1 year. Patients will be prescribed 80mg of ASA once daily according to routine clinical practice. Graft patency will be assessed with CCTA 1 year after randomization. If the patient consents to participate in the substudies, platelet function tests will be performed before surgery and 3 days and 1 year after randomization. Thirty day and one-year follow-up of clinical events will be obtained for all patients by screening the (electronic) patient file, telephonic interviews, study site visits and possibly with questionnaires."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Stable Angina",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "CABG",
+        "Ticagrelor",
+        "Graft",
+        "Patency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 487,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor",
+          "type": "EXPERIMENTAL",
+          "description": "Ticagrelor 90mg twice daily for 1 year on top of ASA",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo matching ticagrelor 90mg twice daily on top of ASA",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "armGroupLabels": [
+            "Ticagrelor"
+          ],
+          "otherNames": [
+            "Brilique",
+            "Brillinta"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Saphenous vein graft occlusion",
+          "description": "As assessed with coronary computed tomography angiography or clinically indicated coronary angiography",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Saphenous vein graft failure",
+          "description": "Composite of saphenous vein graft occlusion as assessed with coronary computed tomography angiography or clinically indicated coronary angiography, saphenous vein graft revascularization, myocardial infarction in the myocardial territory supplied by a saphenous vein graft or sudden death",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "Significant saphenous vein graft stenosis",
+          "description": "As assessed with coronary computed tomography angiography or clinically indicated coronary angiography",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "BARC minor (type 1 or 2) and major (type 3, 4 or 5) bleeding",
+          "description": "Bleeding Academic Research Consortium bleeding criteria",
+          "timeFrame": "30 days after coronary artery bypass grafting"
+        },
+        {
+          "measure": "BARC minor (type 1 or 2) and major (type 3, 4 or 5) bleeding",
+          "description": "Bleeding Academic Research Consortium bleeding criteria",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "TIMI minor and major bleeding",
+          "description": "Thrombolysis in Myocardial Infarction bleeding criteria",
+          "timeFrame": "30 days after coronary artery bypass grafting"
+        },
+        {
+          "measure": "TIMI minor and major bleeding",
+          "description": "Thrombolysis in Myocardial Infarction bleeding criteria",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "High platelet reactivity",
+          "description": "As assessed with platelet function tests.",
+          "timeFrame": "Within 72h before coronary artery bypass grafting"
+        },
+        {
+          "measure": "High platelet reactivity",
+          "description": "As assessed with platelet function tests.",
+          "timeFrame": "3 days after coronary artery bypass grafting"
+        },
+        {
+          "measure": "High platelet reactivity",
+          "description": "As assessed with platelet function tests.",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "Level of GDF-15",
+          "description": "Growth differentiation factor 15 level",
+          "timeFrame": "Within 72h before coronary artery bypass grafting"
+        },
+        {
+          "measure": "Level of GDF-15",
+          "description": "Growth differentiation factor 15 level",
+          "timeFrame": "3 days after coronary artery bypass grafting"
+        },
+        {
+          "measure": "Level of GDF-15",
+          "description": "Growth differentiation factor 15 level",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "Arterial graft occlusion",
+          "description": "As assessed with coronary computed tomography angiography or clinically indicated coronary angiography",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "All graft occlusion",
+          "description": "As assessed with coronary computed tomography angiography or clinically indicated coronary angiography",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        },
+        {
+          "measure": "Significant arterial graft stenosis",
+          "description": "As assessed with coronary computed tomography angiography or clinically indicated coronary angiography",
+          "timeFrame": "1 year after coronary artery bypass grafting"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* More than 21 years of age\n* Planned coronary artery bypass grafting (CABG) with the use of 1 or more saphenous vein grafts, CABG being an isolated procedure or part of a combined aortic valce replacement surgery with bioprothesis.\n\nExclusion Criteria:\n\n* Unable to give informed consent or a life expectancy of less than 1 year\n* Concomitant valve, aorta or rhythm surgery during the same session, (excluding aortic bioprothesis)\n* Inability to undergo coronary computed tomography angiography, in the investigator's opinion, for instance due to severe claustrophobia or contrast allergy\n* Use of oral anticoagulants (acenocoumarol, phenprocoumon, dabigatran, rivaroxaban, etc) and a contraindication for discontinuation of this medication or the expectation that the patient will have an indication for the use of these drugs after surgery\n* Placement of a drug-eluting stent in a coronary or cerebral artery within 6 months of CABG or placement of a bare-metal stent in a coronary or cerebral artery within 1 month of CABG\n* Use of antiplatelet drugs other than aspirin (clopidogrel, prasugrel, ticagrelor, dipyridamol, etc.) and a contraindication for discontinuation of this medication after CABG, according to the treating physician or the investigator\n* Women who are known to be pregnant, who have given birth within the past 90 days or who are breastfeeding\n* Pre-menopausal women without adequate contraception\n* Severe renal function impairment requiring dialysis\n* Moderate or severe hepatic impairment\n* Active malignancy with increase in bleeding risk, in the investigator's opinion\n* Use of strong inhibitors of CYP3A4 (e.g. ketaconazole, clarithromycin, nefazodone, ritonavir, atazanavir)\n* Clinically significant out of range values for platelet count or haemoglobin at screening, in the investigator's opinion\n* Contraindication for the use of ticagrelor or aspirin (i.e. history of intracranial bleeding, high bleeding risk, previous allergic reaction), in the investigator's opinion\n* Previous inclusion in this study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "22 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jurriën M ten Berg, MD, PhD",
+          "affiliation": "St. Antonius Hospital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "St Antonius Hospital",
+          "city": "Nieuwegein",
+          "state": "Utrecht",
+          "zip": "3435CM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "Catharina Ziekenhuis",
+          "city": "Eindhoven",
+          "zip": "5623 EJ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          }
+        },
+        {
+          "facility": "Medisch Spectrum Twente",
+          "city": "Enschede",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.21833,
+            "lon": 6.89583
+          }
+        },
+        {
+          "facility": "Universitair Medisch Centrum Groningen",
+          "city": "Groningen",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        },
+        {
+          "facility": "Radboud UMC",
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          }
+        },
+        {
+          "facility": "Erasmus Erasmus UMC",
+          "city": "Rotterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31884246",
+          "type": "BACKGROUND",
+          "citation": "Willemsen LM, Janssen PWA, Hackeng CM, Kelder JC, Tijssen JGP, van Straten AHM, Soliman-Hamad MA, Deneer VHM, Daeter EJ, Sonker U, Klein P, Ten Berg JM. A randomized, double-blind, placebo-controlled trial investigating the effect of ticagrelor on saphenous vein graft patency in patients undergoing coronary artery bypass grafting surgery-Rationale and design of the POPular CABG trial. Am Heart J. 2020 Feb;220:237-245. doi: 10.1016/j.ahj.2019.12.001. Epub 2019 Dec 13."
+        },
+        {
+          "pmid": "32862716",
+          "type": "DERIVED",
+          "citation": "Willemsen LM, Janssen PWA, Peper J, Soliman-Hamad MA, van Straten AHM, Klein P, Hackeng CM, Sonker U, Bekker MWA, von Birgelen C, Brouwer MA, van der Harst P, Vlot EA, Deneer VHM, Chan Pin Yin DRPP, Gimbel ME, Beukema KF, Daeter EJ, Kelder JC, Tijssen JGP, Rensing BJWM, van Es HW, Swaans MJ, Ten Berg JM. Effect of Adding Ticagrelor to Standard Aspirin on Saphenous Vein Graft Patency in Patients Undergoing Coronary Artery Bypass Grafting (POPular CABG): A Randomized, Double-Blind, Placebo-Controlled Trial. Circulation. 2020 Nov 10;142(19):1799-1807. doi: 10.1161/CIRCULATIONAHA.120.050749. Epub 2020 Aug 31."
+        },
+        {
+          "pmid": "30994825",
+          "type": "DERIVED",
+          "citation": "Feitosa MPM, Soffiatti CD, Linhares Filho JPP, Batista DV, Lobo Filho HG, Lima EG, Serrano Junior CV. Dual platelet antiaggregation therapy after myocardial revascularization surgery. Rev Assoc Med Bras (1992). 2019 Mar;65(3):316-318. doi: 10.1590/1806-9282.65.3.316. Epub 2019 Apr 11."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D060050",
+          "term": "Angina, Stable"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

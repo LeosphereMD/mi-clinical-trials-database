@@ -1,0 +1,323 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01336348",
+      "orgStudyIdInfo": {
+        "id": "FAB-PRO-I"
+      },
+      "organization": {
+        "fullName": "Università degli Studi di Ferrara",
+        "class": "OTHER"
+      },
+      "briefTitle": "Facilitation Through Aggrastat By drOpping or Shortening Infusion Line in Patients With ST-segment Elevation Myocardial Infarction Compared to or on Top of PRasugrel Loading dOse",
+      "officialTitle": "Comparison of Multiple Oral and/or Intravenous Anti-platelet Strategies in Patients With ST-segment Elevation Myocardial Infarction Undergoing Primary PCI",
+      "acronym": "FABOLUS PRO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-04-13",
+      "studyFirstSubmitQcDate": "2011-04-14",
+      "studyFirstPostDateStruct": {
+        "date": "2011-04-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-10-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-10-10",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Marco Valgimigli",
+        "oldOrganization": "University of Ferrara"
+      },
+      "leadSponsor": {
+        "name": "Università degli Studi di Ferrara",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-centre, open-label prospective randomized pharmacodynamic investigation of 2 antiplatelet regimens in patients undergoing coronary intervention for ST segment elevation myocardial infarction(STEMI):\n\n1. Tirofiban bolus only or bolus followed by 2 hour infusion on top of 600 mg clopidogrel or 60 mg prasugrel.\n2. Prasugrel given at 60 mg.",
+      "detailedDescription": "Primary hypothesis: Percentage IPA after 20uMol/ADP at 30' will be superior in the tirofiban arm (as aggregate) versus prasugrel alone arm Percentage IPA at 30' after 20uMol/ADP 90%±15 and 80%±15 in the tirofiban and prasugrel alone arm, respectively. For a power of 90% and an alpha error set at 5%, 50 patients per group have to be recruited."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Segment Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "Prasugrel",
+        "Tirofiban",
+        "Clopidogrel",
+        "glycoprotein IIa/IIIa inhibitors",
+        "P2Y12 blockers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "Prasugrel 60 mg loading dose",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Tirofiban",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Tirofiban will be at a bolus only of 25uM or followed by 2 hour infusion",
+          "interventionNames": [
+            "Drug: Tirofiban"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "60 mg loading dose given orally at presentation",
+          "armGroupLabels": [
+            "prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tirofiban",
+          "description": "Tirofiban will be given at high bolus dose only of bolus followed by 2 H infusion in a randomized manner (1:1 ratio).",
+          "armGroupLabels": [
+            "Tirofiban"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage IPA after 20uMol/ADP at 30' will be superior in the tirofiban arm (as aggregate) versus prasugrel alone arm",
+          "description": "Platelet aggregation (PA) will be performed as previously reported \\[J Am Coll Cardiol 2006;48:2178-85\\]. Blood samples anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) (Alfa Wasserman, Bologna, Italia) and aggregation will be assessed using a AggRAM Advanced Modular System light transmittance aggregometer.",
+          "timeFrame": "30 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage IPA at 15 minutes after ADP or TRAP induced platelet aggregation via traditional light transmission aggregometry.",
+          "description": "Blood samples draen at 15', 30', 1H, 2H, 6H and 18-24H, anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) and 5 and 15 TRAP.",
+          "timeFrame": "15 minutes"
+        },
+        {
+          "measure": "Clinical outcomes",
+          "description": "Death, Myocardial infarction, stroke and the need for target vessel revascularisation will be monitored up to 1 year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Percentage IPA at 1 hour after ADP or TRAP induced platelet aggregation via traditional light transmission aggregometry.",
+          "description": "Blood samples draen at 15', 30', 1H, 2H, 6H and 18-24H, anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) and 5 and 15 TRAP.",
+          "timeFrame": "1 hour"
+        },
+        {
+          "measure": "Percentage IPA at 2 hours after ADP or TRAP induced platelet aggregation via traditional light transmission aggregometry.",
+          "description": "Blood samples draen at 15', 30', 1H, 2H, 6H and 18-24H, anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) and 5 and 15 TRAP.",
+          "timeFrame": "2 hours"
+        },
+        {
+          "measure": "Percentage IPA at 6 hours after ADP or TRAP induced platelet aggregation via traditional light transmission aggregometry.",
+          "description": "Blood samples draen at 15', 30', 1H, 2H, 6H and 18-24H, anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) and 5 and 15 TRAP.",
+          "timeFrame": "6 hours"
+        },
+        {
+          "measure": "Percentage IPA at 18-24 hours after ADP or TRAP induced platelet aggregation via traditional light transmission aggregometry.",
+          "description": "Blood samples draen at 15', 30', 1H, 2H, 6H and 18-24H, anticoagulated with 0.129 mol/l sodium citrate will be collected for platelet reactivity. Platelet-rich plasma, obtained by centrifuging whole blood for 10 min at 200 g, will be stimulated with 5 and 20 µmol/l adenosine 5'-diphosphate (ADP) and 5 and 15 TRAP.",
+          "timeFrame": "18-24 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Chest pain for \\>30 min with an electrocardiographic ST-segment elevation more than 1 mm in two or more contiguous electrocardiogram (ECG) leads, or with a new left bundle-branch block, and admission either within 12 h of symptom onset or between 12 and 24 h after onset with evidence of continuing ischemia\n\nExclusion Criteria:\n\n* Administration of fibrinolytic or any GP IIbIIIa inhibitors for the treatment of current AMI or within 1 month before history of bleeding diathesis\n* Known sensitivity to abciximab, to any component of the product or to murine monoclonal antibodies\n* Major surgery or trauma within 30 days\n* Active bleeding\n* Previous stroke in the last six months\n* Oral anticoagulant therapy\n* Pre-existing thrombocytopenia\n* Vasculitis\n* Hypertensive retinopathy\n* Severe hepatic failure\n* Severe renal failure requiring haemodialysis\n* Documented allergy/intolerance or contraindication to clopidogrel or inability to assume clopidogrel on a consecutive daily basis for a minimum of 30 days, or to heparin or aspirin\n* Uncontrolled hypertension (systolic or diastolic arterial pressure \\>180 mmHg or 120, respectively, despite medical therapy)\n* Limited life expectancy, e.g. neoplasms, others\n* Inability to obtain informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Cardiology Unit",
+          "city": "Ferrara",
+          "state": "Ferrara",
+          "zip": "44100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22440491",
+          "type": "DERIVED",
+          "citation": "Valgimigli M, Tebaldi M, Campo G, Gambetti S, Bristot L, Monti M, Parrinello G, Ferrari R; FABOLUS PRO Investigators. Prasugrel versus tirofiban bolus with or without short post-bolus infusion with or without concomitant prasugrel administration in patients with myocardial infarction undergoing coronary stenting: the FABOLUS PRO (Facilitation through Aggrastat By drOpping or shortening Infusion Line in patients with ST-segment elevation myocardial infarction compared to or on top of PRasugrel given at loading dOse) trial. JACC Cardiovasc Interv. 2012 Mar;5(3):268-77. doi: 10.1016/j.jcin.2012.01.006."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077466",
+          "term": "Tirofiban"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014443",
+          "term": "Tyrosine"
+        },
+        {
+          "id": "D024322",
+          "term": "Amino Acids, Aromatic"
+        },
+        {
+          "id": "D000598",
+          "term": "Amino Acids, Cyclic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

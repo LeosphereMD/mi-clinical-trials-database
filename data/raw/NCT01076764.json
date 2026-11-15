@@ -1,0 +1,6408 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01076764",
+      "orgStudyIdInfo": {
+        "id": "EFC6204"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2009-016568-36",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2009",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2009"
+        }
+      ],
+      "organization": {
+        "fullName": "Sanofi",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Effect of Otamixaban Versus Unfractionated Heparin + Eptifibatide in Patients With Unstable Angina/Non ST Elevation Myocardial Infarction Undergoing Early Invasive Strategy",
+      "officialTitle": "Randomized, Double-blind, Triple-dummy Trial to Compare the Efficacy of Otamixaban With Unfractionated Heparin + Eptifibatide, in Patients With Unstable Angina/Non ST Segment Elevation Myocardial Infarction Scheduled to Undergo an Early Invasive Strategy",
+      "acronym": "TAO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2016-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-02-25",
+      "studyFirstSubmitQcDate": "2010-02-25",
+      "studyFirstPostDateStruct": {
+        "date": "2010-02-26",
+        "type": "ESTIMATED"
+      },
+      "dispFirstSubmitDate": "2016-04-04",
+      "dispFirstSubmitQcDate": "2016-04-04",
+      "dispFirstPostDateStruct": {
+        "date": "2016-05-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2016-04-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-05-04",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Sanofi",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Primary Objective:\n\n* To demonstrate the superior efficacy (composite of all-cause death + Myocardial Infarction (MI)) of Otamixaban to Unfractionated Heparin (UFH) + Eptifibatide\n\nSecondary Objectives:\n\n* To demonstrate the superior efficacy (composite of all-cause death + MI + any stroke) of Otamixaban as compared to UFH + Eptifibatide\n* To document the effect of Otamixaban on rehospitalization or prolongation of hospitalization due to a new episode of myocardial ischemia/myocardial infarction as compared to UFH + eptifibatide\n* To document the effect on mortality (all cause death) of Otamixaban as compared to UFH + eptifibatide\n* To document the safety of Otamixaban as compared to UFH + eptifibatide\n* To document the effect of Otamixaban on thrombotic procedural complications during the index Percutaneous Coronary Intervention (PCI) as compared to UFH + eptifibatide",
+      "detailedDescription": "Up to the interim analysis, patients are randomized to one of the Otamixaban arms or the control arm (UFH + Eptifibatide). Then after interim analysis, patients will be randomized to the continued Otamixaban arm (per Data Monitoring Committee (DMC) decision based on interim analysis results) or the control arm (UFH + Eptifibatide). Except the DMC, all participants will remain blinded to this decision until the end of study.\n\nThe total duration of the study period per subject will range between 30 days and 180 days. Study end date being the Day 30 visit of the last randomized patient, follow up will be until Day 180 or study end date whichever comes first."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 13220,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Otamixaban - 0.080 mg/kg bolus + 0.100 mg/kg/h infusion",
+          "type": "EXPERIMENTAL",
+          "description": "From randomization until the end of the PCI or, if no PCI, up to Day 4 or hospital discharge whichever comes first:\n\n* Drug A: Otamixaban (0.080 mg/kg bolus followed by 0.100 mg/kg/h infusion)\n* Drug B: Placebo (for UFH)\n\nFrom PCI (downstream use) until 18-24 hour post PCI or hospital discharge whichever comes first:\n\n* Drug C: Placebo (for Eptifibatide)",
+          "interventionNames": [
+            "Drug: Otamixaban",
+            "Drug: Placebo (for UFH)",
+            "Drug: Placebo (for Eptifibatide)"
+          ]
+        },
+        {
+          "label": "Otamixaban - 0.080 mg/kg bolus + 0.140 mg/kg/h infusion",
+          "type": "EXPERIMENTAL",
+          "description": "From randomization until the end of the PCI or, if no PCI, up to Day 4 or hospital discharge whichever comes first:\n\n* Drug A: Otamixaban 0.080 mg/kg bolus followed by 0.140 mg/kg/h infusion)\n* Drug B: Placebo (for UFH)\n\nFrom PCI (downstream use) until 18-24 hour post PCI or hospital discharge whichever comes first:\n\n* Drug C: Placebo (for Eptifibatide)",
+          "interventionNames": [
+            "Drug: Otamixaban",
+            "Drug: Placebo (for UFH)",
+            "Drug: Placebo (for Eptifibatide)"
+          ]
+        },
+        {
+          "label": "UFH + Eptifibatide",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "From randomization until the end of the PCI or, if no PCI, up to Day 4 or hospital discharge whichever comes first:\n\n* Drug A: Placebo (for Otamixaban)\n* Drug B: UFH (60 IU/kg bolus followed by 12 IU/kg/h infusion)\n\nFrom PCI (downstream use) until 18-24 hour post PCI or hospital discharge whichever comes first:\n\n* Drug C: Eptifibatide (180 mcg/kg bolus followed by 2 mcg/kg/min infusion)",
+          "interventionNames": [
+            "Drug: Placebo (for Otamixaban)",
+            "Drug: UFH",
+            "Drug: Eptifibatide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Otamixaban",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "Otamixaban - 0.080 mg/kg bolus + 0.100 mg/kg/h infusion",
+            "Otamixaban - 0.080 mg/kg bolus + 0.140 mg/kg/h infusion"
+          ],
+          "otherNames": [
+            "XRP0673"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (for Otamixaban)",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "UFH + Eptifibatide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "UFH",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "UFH + Eptifibatide"
+          ],
+          "otherNames": [
+            "Unfractionated Heparin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (for UFH)",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "Otamixaban - 0.080 mg/kg bolus + 0.100 mg/kg/h infusion",
+            "Otamixaban - 0.080 mg/kg bolus + 0.140 mg/kg/h infusion"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Eptifibatide",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "UFH + Eptifibatide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (for Eptifibatide)",
+          "description": "Pharmaceutical form: Intravenous (IV) solution\n\nRoute of administration: IV bolus followed by continuous IV infusion",
+          "armGroupLabels": [
+            "Otamixaban - 0.080 mg/kg bolus + 0.100 mg/kg/h infusion",
+            "Otamixaban - 0.080 mg/kg bolus + 0.140 mg/kg/h infusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Efficacy: Adjudicated double composite of all-cause of death and new myocardial infarction",
+          "timeFrame": "from randomization (day 1) to day 7"
+        },
+        {
+          "measure": "Safety: Adjudicated Thrombolysis In Myocardial Infarction (TIMI) significant bleeding (composite of TIMI major and minor)",
+          "timeFrame": "from day 1 to day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adjudicated Triple efficacy composite of all-cause death, new myocardial infarction and any stroke",
+          "timeFrame": "from day 1 to day 7"
+        },
+        {
+          "measure": "Rehospitalization or prolongation of hospitalization due to a new episode of myocardial ischemia/myocardial infarction",
+          "timeFrame": "from day 1 to day 30"
+        },
+        {
+          "measure": "Adjudicated all-cause death",
+          "timeFrame": "from day 1 to day 30"
+        },
+        {
+          "measure": "Adjudicated Procedural thrombotic complications during the index PCI",
+          "timeFrame": "during index PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\nPatient with non-ST-segment elevation Acute Coronary Syndrome (NSTE-ACS) with:\n\n1. Ischemic symptoms (chest pain or equivalent) at rest ≥ 10 minutes within 24 hours of randomization,\n\n   AND\n2. One of the two following criteria:\n\n   * New ST-segment depression ≥ 0.1 mV (≥1 mm), or transient (\\< 30 minutes) ST-segment elevation ≥ 0.1 mV (≥ 1 mm) in at least 2 contiguous leads on the electrocardiogram,\n   * Elevation of cardiac biomarkers within 24 hours of randomization, defined as elevated troponin T, troponin I, or CK-MB level above upper limit of normal,\n\n   AND\n3. Planned to have a coronary angiography (followed, when indicated, by PCI) as early as possible (after at least 2 hours of treatment with study drug) and within 36 hours (at the latest on Day 3, if justified),\n\n   AND\n4. Informed consent obtained in writing.\n\nExclusion criteria:\n\n* Revascularization procedure already performed for the qualifying event Acute ST-segment elevation MI.\n* Patient having received curative dose of anticoagulant treatment (including UFH, LMWH, or bivalirudin) for more than 24 hours prior to randomization or who have been treated by abciximab.\n* Inability to discontinue current anticoagulation in order to transition to Investigational Products according to the specified transition timing.\n* Patient who can not be treated by aspirin and clopidogrel (or any other oral antiplatelet agent) according to their local labeling.\n* Patient who cannot be treated with eptifibatide according to the national labeling (when available). In countries where eptifibatide is not approved the reference label to be considered is either the European labeling or the US labeling\n* Patient who cannot be treated with unfractionated heparin according to the national labeling.\n* Allergy to otamixaban.\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Clinical Sciences & Operations",
+          "affiliation": "Sanofi",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Investigational Site Number 840015",
+          "city": "Huntsville",
+          "state": "Alabama",
+          "zip": "35801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840569",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85008",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840703",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840101",
+          "city": "Anaheim",
+          "state": "California",
+          "zip": "92801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83529,
+            "lon": -117.9145
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840151",
+          "city": "Anaheim",
+          "state": "California",
+          "zip": "92801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83529,
+            "lon": -117.9145
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840213",
+          "city": "Beverly Hills",
+          "state": "California",
+          "zip": "90211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840572",
+          "city": "Huntington Beach",
+          "state": "California",
+          "zip": "92648",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.6603,
+            "lon": -117.99923
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840201",
+          "city": "Long Beach",
+          "state": "California",
+          "zip": "90806",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840071",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840557",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840903",
+          "city": "Northridge",
+          "state": "California",
+          "zip": "91328",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.22834,
+            "lon": -118.53675
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840065",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840561",
+          "city": "Santa Rosa",
+          "state": "California",
+          "zip": "95405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.44047,
+            "lon": -122.71443
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840721",
+          "city": "Littleton",
+          "state": "Colorado",
+          "zip": "80120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.61332,
+            "lon": -105.01665
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840551",
+          "city": "Bridgeport",
+          "state": "Connecticut",
+          "zip": "06606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.17923,
+            "lon": -73.18945
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840166",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06511",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840520",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840185",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840028",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840047",
+          "city": "Lake Mary",
+          "state": "Florida",
+          "zip": "32746",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.75888,
+            "lon": -81.31784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840500",
+          "city": "Melbourne",
+          "state": "Florida",
+          "zip": "32901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.08363,
+            "lon": -80.60811
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840706",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33133",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840009",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34471",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840146",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34471",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840577",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840021",
+          "city": "Sarasota",
+          "state": "Florida",
+          "zip": "34239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840902",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840508",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33613",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840719",
+          "city": "Gainesville",
+          "state": "Georgia",
+          "zip": "30501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.29788,
+            "lon": -83.82407
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840532",
+          "city": "Boise",
+          "state": "Idaho",
+          "zip": "83712",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.6135,
+            "lon": -116.20345
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840105",
+          "city": "Aurora",
+          "state": "Illinois",
+          "zip": "60506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76058,
+            "lon": -88.32007
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840190",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840205",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840521",
+          "city": "Harvey",
+          "state": "Illinois",
+          "zip": "60426",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.61003,
+            "lon": -87.64671
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840148",
+          "city": "Joliet",
+          "state": "Illinois",
+          "zip": "60435",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.52519,
+            "lon": -88.0834
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840042",
+          "city": "Hammond",
+          "state": "Indiana",
+          "zip": "46320",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.58337,
+            "lon": -87.50004
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840554",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840560",
+          "city": "Muncie",
+          "state": "Indiana",
+          "zip": "47303-3400",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.19338,
+            "lon": -85.38636
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840904",
+          "city": "Ames",
+          "state": "Iowa",
+          "zip": "50010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.03471,
+            "lon": -93.61994
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840058",
+          "city": "West Des Moines",
+          "state": "Iowa",
+          "zip": "50266",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.57721,
+            "lon": -93.71133
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840912",
+          "city": "Overland",
+          "state": "Kansas",
+          "zip": "66209",
+          "country": "United States"
+        },
+        {
+          "facility": "Investigational Site Number 840568",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840534",
+          "city": "Alexandria",
+          "state": "Louisiana",
+          "zip": "71301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.31129,
+            "lon": -92.44514
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840564",
+          "city": "Lake Charles",
+          "state": "Louisiana",
+          "zip": "70601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.21309,
+            "lon": -93.2044
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840533",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840517",
+          "city": "Dearborn",
+          "state": "Michigan",
+          "zip": "48123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.32226,
+            "lon": -83.17631
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840544",
+          "city": "Kalamazoo",
+          "state": "Michigan",
+          "zip": "49007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.29171,
+            "lon": -85.58723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840531",
+          "city": "Saginaw",
+          "state": "Michigan",
+          "zip": "48602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.41947,
+            "lon": -83.95081
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840525",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840510",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840527",
+          "city": "Tupelo",
+          "state": "Mississippi",
+          "zip": "38801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.25807,
+            "lon": -88.70464
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840208",
+          "city": "Bridgeton",
+          "state": "Missouri",
+          "zip": "63044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.767,
+            "lon": -90.41151
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840209",
+          "city": "Independence",
+          "state": "Missouri",
+          "zip": "64057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09112,
+            "lon": -94.41551
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840194",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840138",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840056",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64128",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840210",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63128",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840530",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63128",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840580",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63128",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840052",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840529",
+          "city": "Kalispell",
+          "state": "Montana",
+          "zip": "59901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 48.19579,
+            "lon": -114.31291
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840059",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840727",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840079",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840157",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840518",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840539",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840585",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840515",
+          "city": "Greenville",
+          "state": "North Carolina",
+          "zip": "27834",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.61266,
+            "lon": -77.36635
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840566",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840908",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157-1071",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840136",
+          "city": "Minot",
+          "state": "North Dakota",
+          "zip": "58701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 48.23251,
+            "lon": -101.29627
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840082",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840025",
+          "city": "Midwest City",
+          "state": "Oklahoma",
+          "zip": "73110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.44951,
+            "lon": -97.3967
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840049",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840905",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840193",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840901",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840206",
+          "city": "Eugene",
+          "state": "Oregon",
+          "zip": "97401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.05207,
+            "lon": -123.08675
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840540",
+          "city": "Chambersburg",
+          "state": "Pennsylvania",
+          "zip": "17201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.93759,
+            "lon": -77.6611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840519",
+          "city": "Doylestown",
+          "state": "Pennsylvania",
+          "zip": "18901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.31011,
+            "lon": -75.12989
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840003",
+          "city": "Erie",
+          "state": "Pennsylvania",
+          "zip": "16502-4604",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.12922,
+            "lon": -80.08506
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840098",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840573",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840075",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840911",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15240",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840211",
+          "city": "Washington",
+          "state": "Pennsylvania",
+          "zip": "15301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.17396,
+            "lon": -80.24617
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840072",
+          "city": "Oak Ridge",
+          "state": "Tennessee",
+          "zip": "37830",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.01036,
+            "lon": -84.26964
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840023",
+          "city": "Amarillo",
+          "state": "Texas",
+          "zip": "79106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.222,
+            "lon": -101.8313
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840203",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78745",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840574",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78758",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840060",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840578",
+          "city": "Dallas",
+          "state": "Texas",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840715",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840090",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840207",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840559",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840586",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840087",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840910",
+          "city": "Victoria",
+          "state": "Texas",
+          "zip": "77901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.80527,
+            "lon": -97.0036
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840555",
+          "city": "Wichita Falls",
+          "state": "Texas",
+          "zip": "76310",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.91371,
+            "lon": -98.49339
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840553",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23249",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840188",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840165",
+          "city": "Salem",
+          "state": "Virginia",
+          "zip": "24153",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.29347,
+            "lon": -80.05476
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840565",
+          "city": "Winchester",
+          "state": "Virginia",
+          "zip": "22601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.18566,
+            "lon": -78.16333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840121",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "Investigational Site Number 840513",
+          "city": "Manitowoc",
+          "state": "Wisconsin",
+          "zip": "54220",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08861,
+            "lon": -87.65758
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032048",
+          "city": "Adrogué",
+          "zip": "B1846DSK",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.80041,
+            "lon": -58.38384
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032013",
+          "city": "Avellaneda",
+          "zip": "1870",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.66018,
+            "lon": -58.36744
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032046",
+          "city": "Buenos Aires",
+          "zip": "1118",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032043",
+          "city": "Buenos Aires",
+          "zip": "C1118AAE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032003",
+          "city": "Buenos Aires",
+          "zip": "C1181ACH",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032032",
+          "city": "Buenos Aires",
+          "zip": "C1425FSD",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032014",
+          "city": "Caba",
+          "zip": "B7400XAC",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032007",
+          "city": "Capital Federal",
+          "zip": "1181",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032039",
+          "city": "Capital Federal",
+          "zip": "C1093AAS",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032045",
+          "city": "Capital Federal",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032029",
+          "city": "Ciudad Autonoma de Bs.As",
+          "zip": "1428",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032036",
+          "city": "Ciudad de Buenos Aires",
+          "zip": "C1426BOR",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Investigational Site Number 032001",
+          "city": "Corrientes",
+          "zip": "3400",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -27.46784,
+            "lon": -58.8344
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032044",
+          "city": "Córdoba",
+          "zip": "X5004BCL",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032010",
+          "city": "Córdoba",
+          "zip": "X5119XAA",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032018",
+          "city": "La Plata",
+          "zip": "(B1900AXI)",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.92126,
+            "lon": -57.95442
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032027",
+          "city": "La Plata",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.92126,
+            "lon": -57.95442
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032020",
+          "city": "Mendoza",
+          "zip": "5500",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.88946,
+            "lon": -68.84582
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032033",
+          "city": "Olivos",
+          "zip": "1638",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.50872,
+            "lon": -58.48026
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032022",
+          "city": "Pilar",
+          "zip": "1629",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.45867,
+            "lon": -58.91398
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032023",
+          "city": "Resistencia",
+          "zip": "3500",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -27.46363,
+            "lon": -58.98665
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032002",
+          "city": "Resistencia",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -27.46363,
+            "lon": -58.98665
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032004",
+          "city": "Rosario",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032005",
+          "city": "Rosario",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032021",
+          "city": "Rosario",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032028",
+          "city": "Rosario",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032040",
+          "city": "Rosario",
+          "zip": "2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032035",
+          "city": "San Juan Bautista",
+          "zip": "B1888AAE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.80896,
+            "lon": -58.27623
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032025",
+          "city": "San Luis",
+          "zip": "5700",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -33.2914,
+            "lon": -66.32467
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032024",
+          "city": "San Martin",
+          "zip": "1650",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -33.08338,
+            "lon": -68.47312
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032008",
+          "city": "San Miguel de Tucumán",
+          "zip": "T4000NIL",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -26.81601,
+            "lon": -65.21051
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032041",
+          "city": "Santa Fe",
+          "zip": "3000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.64881,
+            "lon": -60.70868
+          }
+        },
+        {
+          "facility": "Investigational Site Number 032006",
+          "city": "Santa Fe",
+          "zip": "S3000FWO",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.64881,
+            "lon": -60.70868
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036008",
+          "city": "Adelaide",
+          "zip": "5000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036004",
+          "city": "Ballarat",
+          "zip": "3353",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.56622,
+            "lon": 143.84957
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036010",
+          "city": "Concord",
+          "zip": "2137",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036001",
+          "city": "Herston",
+          "zip": "4029",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.44453,
+            "lon": 153.01852
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036913",
+          "city": "Hobart",
+          "zip": "7001",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -42.87936,
+            "lon": 147.32941
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036011",
+          "city": "Liverpool",
+          "zip": "2170",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.91938,
+            "lon": 150.92588
+          }
+        },
+        {
+          "facility": "Investigational Site Number 036003",
+          "city": "Prahran",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.85114,
+            "lon": 144.99318
+          }
+        },
+        {
+          "facility": "Investigational Site Number 040002",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Investigational Site Number 040001",
+          "city": "Vienna",
+          "zip": "1160",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Investigational Site Number 112004",
+          "city": "Homyel",
+          "zip": "246012",
+          "country": "Belarus",
+          "geoPoint": {
+            "lat": 52.4345,
+            "lon": 30.9754
+          }
+        },
+        {
+          "facility": "Investigational Site Number 112003",
+          "city": "Minsk",
+          "zip": "220013",
+          "country": "Belarus",
+          "geoPoint": {
+            "lat": 53.90019,
+            "lon": 27.56653
+          }
+        },
+        {
+          "facility": "Investigational Site Number 112002",
+          "city": "Minsk",
+          "zip": "220016",
+          "country": "Belarus",
+          "geoPoint": {
+            "lat": 53.90019,
+            "lon": 27.56653
+          }
+        },
+        {
+          "facility": "Investigational Site Number 112001",
+          "city": "Minsk",
+          "zip": "220036",
+          "country": "Belarus",
+          "geoPoint": {
+            "lat": 53.90019,
+            "lon": 27.56653
+          }
+        },
+        {
+          "facility": "Investigational Site Number 056001",
+          "city": "Bonheiden",
+          "zip": "2820",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.02261,
+            "lon": 4.54714
+          }
+        },
+        {
+          "facility": "Investigational Site Number 056007",
+          "city": "Bruges",
+          "zip": "8000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          }
+        },
+        {
+          "facility": "Investigational Site Number 056003",
+          "city": "Brussels",
+          "zip": "1020",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Investigational Site Number 056006",
+          "city": "Haine-Saint-Paul",
+          "zip": "7100",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.45544,
+            "lon": 4.1885
+          }
+        },
+        {
+          "facility": "Investigational Site Number 056008",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076025",
+          "city": "Campinas",
+          "zip": "13015-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076011",
+          "city": "Fortaleza",
+          "zip": "60864190",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076016",
+          "city": "Maringá",
+          "zip": "87015-290",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.42528,
+            "lon": -51.93861
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076015",
+          "city": "Marília",
+          "zip": "17515-460",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.21389,
+            "lon": -49.94583
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076013",
+          "city": "Passo Fundo",
+          "zip": "99010-080",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.26278,
+            "lon": -52.40667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076009",
+          "city": "Porto Alegre",
+          "zip": "90035-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076001",
+          "city": "Porto Alegre",
+          "zip": "90610-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076022",
+          "city": "Porto Alegre",
+          "zip": "90620-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076004",
+          "city": "Porto Alegre",
+          "zip": "91350-250",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076023",
+          "city": "Recife",
+          "zip": "50100-060",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076030",
+          "city": "Recife",
+          "zip": "52051-380",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076027",
+          "city": "Rio de Janeiro",
+          "zip": "20221903",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076029",
+          "city": "Salvador",
+          "zip": "41148-900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076014",
+          "city": "São José do Rio Preto",
+          "zip": "15015-210",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076002",
+          "city": "São José do Rio Preto",
+          "zip": "15090-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076012",
+          "city": "São Paulo",
+          "zip": "01323-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076020",
+          "city": "São Paulo",
+          "zip": "04012-180",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076007",
+          "city": "São Paulo",
+          "zip": "05403-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076008",
+          "city": "Uberlândia",
+          "zip": "38400-368",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -18.91861,
+            "lon": -48.27722
+          }
+        },
+        {
+          "facility": "Investigational Site Number 076024",
+          "city": "Votuporanga",
+          "zip": "15500-003",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.42278,
+            "lon": -49.97278
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100511",
+          "city": "Blagoevgrad",
+          "zip": "2700",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.01457,
+            "lon": 23.09804
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100508",
+          "city": "Kazanlak",
+          "zip": "6100",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.61667,
+            "lon": 25.4
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100512",
+          "city": "Pazardzhik",
+          "zip": "4400",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.19934,
+            "lon": 24.33318
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100505",
+          "city": "Pleven",
+          "zip": "5800",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.41791,
+            "lon": 24.61666
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100509",
+          "city": "Rousse",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.84872,
+            "lon": 25.9534
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100510",
+          "city": "Sandanski",
+          "zip": "2800",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 41.56667,
+            "lon": 23.28333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100501",
+          "city": "Sofia",
+          "zip": "1202",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100502",
+          "city": "Sofia",
+          "zip": "1407",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100503",
+          "city": "Sofia",
+          "zip": "1431",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100507",
+          "city": "Varna",
+          "zip": "9000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.21912,
+            "lon": 27.91024
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100504",
+          "city": "Veliko Tarnovo",
+          "zip": "5000",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 43.08124,
+            "lon": 25.62904
+          }
+        },
+        {
+          "facility": "Investigational Site Number 100506",
+          "city": "Yambol",
+          "zip": "8600",
+          "country": "Bulgaria",
+          "geoPoint": {
+            "lat": 42.48243,
+            "lon": 26.50006
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124005",
+          "city": "Gatineau",
+          "zip": "J8Y 1W7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.47723,
+            "lon": -75.70164
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124006",
+          "city": "Hamilton",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124004",
+          "city": "Montreal",
+          "zip": "H2W 1T8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124001",
+          "city": "Québec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124007",
+          "city": "Sherbrooke",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124009",
+          "city": "St. John's",
+          "zip": "E2L 4L2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "facility": "Investigational Site Number 124002",
+          "city": "Toronto",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152003",
+          "city": "Antofagasta",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -23.65094,
+            "lon": -70.39752
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152906",
+          "city": "Concepción",
+          "zip": "4070038",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -36.82699,
+            "lon": -73.04977
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152005",
+          "city": "Iquique",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -20.21326,
+            "lon": -70.15027
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152004",
+          "city": "Santiago",
+          "zip": "751-0009",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152001",
+          "city": "Santiago",
+          "zip": "756-0171",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152902",
+          "city": "Santiago",
+          "zip": "820-7257",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152901",
+          "city": "Santiago",
+          "zip": "8380456",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152903",
+          "city": "Santiago",
+          "zip": "890-0085",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152010",
+          "city": "Santiago",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152012",
+          "city": "Santiago",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152011",
+          "city": "Talcahuano",
+          "zip": "427-0918",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -36.72494,
+            "lon": -73.11684
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152908",
+          "city": "Temuco",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -38.73628,
+            "lon": -72.59738
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152913",
+          "city": "Temuco",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -38.73628,
+            "lon": -72.59738
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152016",
+          "city": "Valdivia",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -39.81422,
+            "lon": -73.24589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152912",
+          "city": "Valparaíso",
+          "zip": "234-0207",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.036,
+            "lon": -71.62963
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152907",
+          "city": "Viña del Mar",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.02457,
+            "lon": -71.55183
+          }
+        },
+        {
+          "facility": "Investigational Site Number 152910",
+          "city": "Viña del Mar",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.02457,
+            "lon": -71.55183
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170016",
+          "city": "Barranquilla",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 10.96854,
+            "lon": -74.78132
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170009",
+          "city": "Bogotá",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170011",
+          "city": "Bogotá",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170002",
+          "city": "Bucaramanga",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 7.125,
+            "lon": -73.11895
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170012",
+          "city": "Cali",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 3.43054,
+            "lon": -76.5199
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170001",
+          "city": "Medellín",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 6.245,
+            "lon": -75.57151
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170003",
+          "city": "Medellín",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 6.245,
+            "lon": -75.57151
+          }
+        },
+        {
+          "facility": "Investigational Site Number 170017",
+          "city": "Medellín",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 6.245,
+            "lon": -75.57151
+          }
+        },
+        {
+          "facility": "Investigational Site Number 191502",
+          "city": "Slavonski Brod",
+          "zip": "35000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.16158,
+            "lon": 18.0163
+          }
+        },
+        {
+          "facility": "Investigational Site Number 191503",
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "facility": "Investigational Site Number 191505",
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "facility": "Investigational Site Number 191506",
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203005",
+          "city": "Brno",
+          "zip": "62500",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203903",
+          "city": "Hradec Králové",
+          "zip": "50005",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.20923,
+            "lon": 15.83277
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203902",
+          "city": "Liberec",
+          "zip": "46063",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.76711,
+            "lon": 15.05619
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203009",
+          "city": "Olomouc",
+          "zip": "77520",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.59552,
+            "lon": 17.25175
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203010",
+          "city": "Ostrava - Poruba",
+          "zip": "70852",
+          "country": "Czechia"
+        },
+        {
+          "facility": "Investigational Site Number 203001",
+          "city": "Prague",
+          "zip": "10034",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203901",
+          "city": "Prague",
+          "zip": "12808",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203007",
+          "city": "Prague",
+          "zip": "15006",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203003",
+          "city": "Prague",
+          "zip": "15030",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203002",
+          "city": "Ústí nad Labem",
+          "zip": "40113",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 50.6607,
+            "lon": 14.03227
+          }
+        },
+        {
+          "facility": "Investigational Site Number 203006",
+          "city": "Zlín",
+          "zip": "76275",
+          "country": "Czechia",
+          "geoPoint": {
+            "lat": 49.22645,
+            "lon": 17.67065
+          }
+        },
+        {
+          "facility": "Investigational Site Number 818504",
+          "city": "Cairo",
+          "zip": "11451",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "Investigational Site Number 818501",
+          "city": "Cairo",
+          "zip": "11566",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "Investigational Site Number 818502",
+          "city": "Cairo",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "Investigational Site Number 818503",
+          "city": "Giza",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.00944,
+            "lon": 31.20861
+          }
+        },
+        {
+          "facility": "Investigational Site Number 233001",
+          "city": "Tallinn",
+          "zip": "10138",
+          "country": "Estonia",
+          "geoPoint": {
+            "lat": 59.43696,
+            "lon": 24.75353
+          }
+        },
+        {
+          "facility": "Investigational Site Number 233901",
+          "city": "Tallinn",
+          "zip": "13419",
+          "country": "Estonia",
+          "geoPoint": {
+            "lat": 59.43696,
+            "lon": 24.75353
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250016",
+          "city": "Avignon",
+          "zip": "84082",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250010",
+          "city": "Bayonne",
+          "zip": "64100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.49316,
+            "lon": -1.473
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250002",
+          "city": "Belfort",
+          "zip": "90016",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.64218,
+            "lon": 6.85385
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250001",
+          "city": "Besançon",
+          "zip": "25030",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250006",
+          "city": "Créteil",
+          "zip": "94010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250003",
+          "city": "Dijon",
+          "zip": "21034",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250013",
+          "city": "Le Chesnay",
+          "zip": "78187",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.8222,
+            "lon": 2.12213
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250012",
+          "city": "Montfermeil",
+          "zip": "93370",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.8982,
+            "lon": 2.57913
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250005",
+          "city": "Mulhouse",
+          "zip": "68067",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250015",
+          "city": "Mulhouse",
+          "zip": "68070",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.75205,
+            "lon": 7.32866
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250009",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250011",
+          "city": "Pau",
+          "zip": "64046",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.31117,
+            "lon": -0.35583
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250007",
+          "city": "Rouen",
+          "zip": "76031",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250014",
+          "city": "Strasbourg",
+          "zip": "67091",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Investigational Site Number 250008",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276022",
+          "city": "Berlin",
+          "zip": "12559",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276004",
+          "city": "Berlin",
+          "zip": "13347",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276024",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276023",
+          "city": "Bonn",
+          "zip": "53115",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276006",
+          "city": "Frankfurt am Main",
+          "zip": "65929",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276901",
+          "city": "Freiburg im Breisgau",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276003",
+          "city": "Hamburg",
+          "zip": "22041",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276902",
+          "city": "Hamburg",
+          "zip": "22527",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276009",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276904",
+          "city": "Heidenheim",
+          "zip": "89522",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.67798,
+            "lon": 10.15162
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276002",
+          "city": "Kassel",
+          "zip": "34121",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.31667,
+            "lon": 9.5
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276013",
+          "city": "Langen",
+          "zip": "63225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98955,
+            "lon": 8.66852
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276001",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276905",
+          "city": "Mönchengladbach",
+          "zip": "41063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276005",
+          "city": "München",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Investigational Site Number 276018",
+          "city": "Rostock",
+          "zip": "18057",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300009",
+          "city": "Alexandroupoli",
+          "zip": "68100",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.84995,
+            "lon": 25.87644
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300004",
+          "city": "Athens",
+          "zip": "10676",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300001",
+          "city": "Athens",
+          "zip": "11527",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300011",
+          "city": "Athens",
+          "zip": "11528",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300007",
+          "city": "Chios",
+          "zip": "82100",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.36875,
+            "lon": 26.13718
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300008",
+          "city": "Larissa",
+          "zip": "41110",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300003",
+          "city": "Melíssia",
+          "zip": "151 27",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.05,
+            "lon": 23.83333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300005",
+          "city": "N. Ionia",
+          "zip": "14233",
+          "country": "Greece"
+        },
+        {
+          "facility": "Investigational Site Number 300002",
+          "city": "Pátrai",
+          "zip": "26500",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.2462,
+            "lon": 21.73508
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300010",
+          "city": "Thessaloniki",
+          "zip": "546 36",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Investigational Site Number 300006",
+          "city": "Thessaloniki",
+          "zip": "57010",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Investigational Site Number 344001",
+          "city": "Chai Wan",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.26718,
+            "lon": 114.24051
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348003",
+          "city": "Budapest",
+          "zip": "1027",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348008",
+          "city": "Budapest",
+          "zip": "1096",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348002",
+          "city": "Budapest",
+          "zip": "1122",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348004",
+          "city": "Budapest",
+          "zip": "1134",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348009",
+          "city": "Szeged",
+          "zip": "6720",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348007",
+          "city": "Székesfehérvár",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348001",
+          "city": "Szolnok",
+          "zip": "5000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18066,
+            "lon": 20.19835
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348005",
+          "city": "Szombathely",
+          "zip": "9700",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.23088,
+            "lon": 16.62155
+          }
+        },
+        {
+          "facility": "Investigational Site Number 348006",
+          "city": "Zalaegerszeg",
+          "zip": "8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356019",
+          "city": "Ahmedabad",
+          "zip": "380014",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356004",
+          "city": "Ahmedabad",
+          "zip": "380054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356007",
+          "city": "Ahmedabad",
+          "zip": "380060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356012",
+          "city": "Allahabād",
+          "zip": "211003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.20417,
+            "lon": 74.37162
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356008",
+          "city": "Bangalore",
+          "zip": "560054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356020",
+          "city": "Chandigarh",
+          "zip": "160062",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.73629,
+            "lon": 76.7884
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356029",
+          "city": "Gūrgaon",
+          "zip": "122001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.43549,
+            "lon": 79.13486
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356027",
+          "city": "Gūrgaon",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.43549,
+            "lon": 79.13486
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356040",
+          "city": "Hyderabad",
+          "zip": "500001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.38405,
+            "lon": 78.45636
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356046",
+          "city": "Hyderabad",
+          "zip": "500055",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.38405,
+            "lon": 78.45636
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356014",
+          "city": "Jaipur",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.91962,
+            "lon": 75.78781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356003",
+          "city": "Karamsad",
+          "zip": "388325",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.54243,
+            "lon": 72.90392
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356037",
+          "city": "Kochi",
+          "zip": "682018",
+          "country": "India",
+          "geoPoint": {
+            "lat": 9.93988,
+            "lon": 76.26022
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356034",
+          "city": "Kolkata",
+          "zip": "700027",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356039",
+          "city": "Madurai",
+          "zip": "625107",
+          "country": "India",
+          "geoPoint": {
+            "lat": 9.919,
+            "lon": 78.11953
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356018",
+          "city": "Mangalore",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.91723,
+            "lon": 74.85603
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356021",
+          "city": "Mumbai",
+          "zip": "400050",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356016",
+          "city": "Mumbai",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356031",
+          "city": "Mumbai",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356032",
+          "city": "Mumbai",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356011",
+          "city": "Mysore",
+          "zip": "570020",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.29791,
+            "lon": 76.63925
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356022",
+          "city": "Nagpur",
+          "zip": "440012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356035",
+          "city": "Nagpur",
+          "zip": "440012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356023",
+          "city": "Nagpur",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356036",
+          "city": "Nashik",
+          "zip": "422005",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.99727,
+            "lon": 73.79096
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356025",
+          "city": "New Delhi",
+          "zip": "110 070.",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356001",
+          "city": "New Delhi",
+          "zip": "110060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356026",
+          "city": "New Delhi",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356010",
+          "city": "Pune",
+          "zip": "411004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356033",
+          "city": "Pune",
+          "zip": "411004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356024",
+          "city": "Secunderabad",
+          "zip": "500 003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.50427,
+            "lon": 78.54263
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356002",
+          "city": "Varanasi",
+          "zip": "221010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 25.31668,
+            "lon": 83.01041
+          }
+        },
+        {
+          "facility": "Investigational Site Number 356044",
+          "city": "Vijaywada",
+          "zip": "520002",
+          "country": "India"
+        },
+        {
+          "facility": "Investigational Site Number 360505",
+          "city": "Bandung",
+          "zip": "40161",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.92222,
+            "lon": 107.60694
+          }
+        },
+        {
+          "facility": "Investigational Site Number 360501",
+          "city": "Depok",
+          "zip": "16514",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.4,
+            "lon": 106.81861
+          }
+        },
+        {
+          "facility": "Investigational Site Number 360506",
+          "city": "Jakarta",
+          "zip": "10430",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.21462,
+            "lon": 106.84513
+          }
+        },
+        {
+          "facility": "Investigational Site Number 360503",
+          "city": "Jakarta",
+          "zip": "11420",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.21462,
+            "lon": 106.84513
+          }
+        },
+        {
+          "facility": "Investigational Site Number 360502",
+          "city": "Jakarta",
+          "zip": "12950",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.21462,
+            "lon": 106.84513
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376005",
+          "city": "Afula",
+          "zip": "18101",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.60907,
+            "lon": 35.2892
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376003",
+          "city": "Ashkelon",
+          "zip": "78278",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.66926,
+            "lon": 34.57149
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376011",
+          "city": "Hadera",
+          "zip": "38100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.44192,
+            "lon": 34.9039
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376004",
+          "city": "Haifa",
+          "zip": "31048",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376009",
+          "city": "Haifa",
+          "zip": "31096",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376010",
+          "city": "Holon",
+          "zip": "58100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.0122,
+            "lon": 34.77826
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376002",
+          "city": "Jerusalem",
+          "zip": "91031",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376013",
+          "city": "Jerusalem",
+          "zip": "91120",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376007",
+          "city": "Safed",
+          "zip": "13100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.96465,
+            "lon": 35.496
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376008",
+          "city": "Tel Aviv",
+          "zip": "64239",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376001",
+          "city": "Tel HaShomer",
+          "zip": "52621",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.04829,
+            "lon": 34.84489
+          }
+        },
+        {
+          "facility": "Investigational Site Number 376012",
+          "city": "Tzrifin",
+          "zip": "70300",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.95649,
+            "lon": 34.84002
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380902",
+          "city": "Bergamo",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380918",
+          "city": "Bologna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380904",
+          "city": "Brescia",
+          "zip": "25123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380928",
+          "city": "Brescia",
+          "zip": "25124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380929",
+          "city": "Castellanza",
+          "zip": "21053",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.61079,
+            "lon": 8.89616
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380930",
+          "city": "Catania",
+          "zip": "95123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380912",
+          "city": "Catania",
+          "zip": "95124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380932",
+          "city": "Cittadella",
+          "zip": "35013",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.64523,
+            "lon": 11.78453
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380926",
+          "city": "Conegliano",
+          "zip": "31015",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.88805,
+            "lon": 12.30201
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380909",
+          "city": "Empoli",
+          "zip": "50053",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.71795,
+            "lon": 10.94758
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380924",
+          "city": "Forlì",
+          "zip": "47100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.22177,
+            "lon": 12.04144
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380908",
+          "city": "Livorno",
+          "zip": "57123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.54427,
+            "lon": 10.32615
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380923",
+          "city": "Massa",
+          "zip": "54100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.03541,
+            "lon": 10.13927
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380935",
+          "city": "Massa",
+          "zip": "54100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.03541,
+            "lon": 10.13927
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380933",
+          "city": "Messina",
+          "zip": "98100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380910",
+          "city": "Milan",
+          "zip": "20138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380905",
+          "city": "Modena",
+          "zip": "41041",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380936",
+          "city": "Naples",
+          "zip": "88100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380901",
+          "city": "Perugia",
+          "zip": "06132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.1122,
+            "lon": 12.38878
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380907",
+          "city": "Pescara",
+          "zip": "65100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.4584,
+            "lon": 14.20283
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380919",
+          "city": "Pordenone",
+          "zip": "33170",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.95689,
+            "lon": 12.66051
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380916",
+          "city": "Reggio Emilia",
+          "zip": "42100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.69825,
+            "lon": 10.63125
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380931",
+          "city": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380917",
+          "city": "Roma",
+          "zip": "00189",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380927",
+          "city": "Rovigo",
+          "zip": "45100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.06982,
+            "lon": 11.79022
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380921",
+          "city": "Rozzano",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380914",
+          "city": "Seriate",
+          "zip": "24068",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.68532,
+            "lon": 9.72487
+          }
+        },
+        {
+          "facility": "Investigational Site Number 380925",
+          "city": "Treviso",
+          "zip": "31100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.66673,
+            "lon": 12.2416
+          }
+        },
+        {
+          "facility": "Investigational Site Number 400501",
+          "city": "Amman",
+          "zip": "520248",
+          "country": "Jordan",
+          "geoPoint": {
+            "lat": 31.95522,
+            "lon": 35.94503
+          }
+        },
+        {
+          "facility": "Investigational Site Number 400502",
+          "city": "Irbid",
+          "zip": "360001",
+          "country": "Jordan",
+          "geoPoint": {
+            "lat": 32.55556,
+            "lon": 35.85
+          }
+        },
+        {
+          "facility": "Investigational Site Number 428004",
+          "city": "Daugavpils",
+          "zip": "LV-5417",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 55.88333,
+            "lon": 26.53333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 428002",
+          "city": "Liepāja",
+          "zip": "LV-3414",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.50474,
+            "lon": 21.01085
+          }
+        },
+        {
+          "facility": "Investigational Site Number 428001",
+          "city": "Riga",
+          "zip": "LV-1002",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.946,
+            "lon": 24.10589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 428003",
+          "city": "Riga",
+          "zip": "LV-1038",
+          "country": "Latvia",
+          "geoPoint": {
+            "lat": 56.946,
+            "lon": 24.10589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 422502",
+          "city": "Beirut",
+          "zip": "Beirut",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "Investigational Site Number 422505",
+          "city": "Beirut",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "Investigational Site Number 440003",
+          "city": "Kaunas",
+          "zip": "LT-50009",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 54.90156,
+            "lon": 23.90909
+          }
+        },
+        {
+          "facility": "Investigational Site Number 440001",
+          "city": "Šiauliai",
+          "zip": "LT-76231",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 55.93333,
+            "lon": 23.31667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 440904",
+          "city": "Vilnius",
+          "zip": "LT-08661",
+          "country": "Lithuania",
+          "geoPoint": {
+            "lat": 54.68916,
+            "lon": 25.2798
+          }
+        },
+        {
+          "facility": "Investigational Site Number 458001",
+          "city": "Kuching",
+          "zip": "93586",
+          "country": "Malaysia",
+          "geoPoint": {
+            "lat": 1.55,
+            "lon": 110.33333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484009",
+          "city": "Aguascalientes",
+          "zip": "20230",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 21.88262,
+            "lon": -102.2843
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484907",
+          "city": "Aguascalientes",
+          "zip": "20230",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 21.88262,
+            "lon": -102.2843
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484902",
+          "city": "Guadalajara",
+          "zip": "44100",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484015",
+          "city": "Guadalajara",
+          "zip": "44670",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484901",
+          "city": "Guadalajara",
+          "zip": "CP 64630",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484003",
+          "city": "Mexico City",
+          "zip": "14000",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484019",
+          "city": "Mérida",
+          "zip": "97000",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.967,
+            "lon": -89.62318
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484914",
+          "city": "México Df",
+          "zip": "14080",
+          "country": "Mexico"
+        },
+        {
+          "facility": "Investigational Site Number 484004",
+          "city": "Monterrey",
+          "zip": "64460",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484910",
+          "city": "Morelia, Michoacan",
+          "zip": "58070",
+          "country": "Mexico"
+        },
+        {
+          "facility": "Investigational Site Number 484020",
+          "city": "Puebla City",
+          "zip": "72460",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.04778,
+            "lon": -98.20723
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484017",
+          "city": "Querétaro",
+          "zip": "76000",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 15.83791,
+            "lon": -92.75854
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484012",
+          "city": "San Luis Potosí City",
+          "zip": "72244",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 22.15234,
+            "lon": -100.97135
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484911",
+          "city": "San Luis Potosí City",
+          "zip": "78200",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 22.15234,
+            "lon": -100.97135
+          }
+        },
+        {
+          "facility": "Investigational Site Number 484013",
+          "city": "Xalapa",
+          "zip": "91020",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.53124,
+            "lon": -96.91589
+          }
+        },
+        {
+          "facility": "Investigational Site Number 499501",
+          "city": "Podgorica",
+          "country": "Montenegro",
+          "geoPoint": {
+            "lat": 42.44124,
+            "lon": 19.26309
+          }
+        },
+        {
+          "facility": "Investigational Site Number 528003",
+          "city": "Alkmaar",
+          "zip": "1815 JD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.63167,
+            "lon": 4.74861
+          }
+        },
+        {
+          "facility": "Investigational Site Number 528005",
+          "city": "Arnhem",
+          "zip": "6815 AD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.98,
+            "lon": 5.91111
+          }
+        },
+        {
+          "facility": "Investigational Site Number 528007",
+          "city": "Leeuwarden",
+          "zip": "8934 AD",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.20271,
+            "lon": 5.80973
+          }
+        },
+        {
+          "facility": "Investigational Site Number 528004",
+          "city": "Nieuwegein",
+          "zip": "3435 CM",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.02917,
+            "lon": 5.08056
+          }
+        },
+        {
+          "facility": "Investigational Site Number 528002",
+          "city": "Rotterdam",
+          "zip": "3079 DZ",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        },
+        {
+          "facility": "Investigational Site Number 554004",
+          "city": "Auckland",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          }
+        },
+        {
+          "facility": "Investigational Site Number 554001",
+          "city": "Hamilton",
+          "zip": "3200",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 175.28333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 554002",
+          "city": "Nelson",
+          "zip": "7040",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.27078,
+            "lon": 173.28404
+          }
+        },
+        {
+          "facility": "Investigational Site Number 807501",
+          "city": "Skopje",
+          "zip": "1109",
+          "country": "North Macedonia",
+          "geoPoint": {
+            "lat": 41.99646,
+            "lon": 21.43141
+          }
+        },
+        {
+          "facility": "Investigational Site Number 578903",
+          "city": "Arendal",
+          "zip": "4809",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 58.46151,
+            "lon": 8.77253
+          }
+        },
+        {
+          "facility": "Investigational Site Number 578901",
+          "city": "Bergen",
+          "zip": "5021",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 60.39299,
+            "lon": 5.32415
+          }
+        },
+        {
+          "facility": "Investigational Site Number 578902",
+          "city": "Stavanger",
+          "zip": "4011",
+          "country": "Norway",
+          "geoPoint": {
+            "lat": 58.97005,
+            "lon": 5.73332
+          }
+        },
+        {
+          "facility": "Investigational Site Number 591502",
+          "city": "Panama City",
+          "country": "Panama",
+          "geoPoint": {
+            "lat": 8.9936,
+            "lon": -79.51973
+          }
+        },
+        {
+          "facility": "Investigational Site Number 591504",
+          "city": "Panama City",
+          "country": "Panama",
+          "geoPoint": {
+            "lat": 8.9936,
+            "lon": -79.51973
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604005",
+          "city": "Lambayeque",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -6.70111,
+            "lon": -79.90611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604002",
+          "city": "Lima",
+          "zip": "051",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604011",
+          "city": "Lima",
+          "zip": "051",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604014",
+          "city": "Lima",
+          "zip": "LIMA 01",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604003",
+          "city": "Lima",
+          "zip": "LIMA 11",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604017",
+          "city": "Lima",
+          "zip": "LIMA 13",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604006",
+          "city": "Lima",
+          "zip": "LIMA 27",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604012",
+          "city": "Lima",
+          "zip": "LIMA 31",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 604008",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616005",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616038",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616017",
+          "city": "Bydgoszcz",
+          "zip": "85-168",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616009",
+          "city": "Bytom",
+          "zip": "41-902",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.34802,
+            "lon": 18.93282
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616040",
+          "city": "Elblag",
+          "zip": "82-300",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.1522,
+            "lon": 19.40884
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616027",
+          "city": "Ełk",
+          "zip": "19-300",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.82824,
+            "lon": 22.36469
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616023",
+          "city": "Gdansk",
+          "zip": "80-952",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616032",
+          "city": "Jelenia Góra",
+          "zip": "58-506",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.89973,
+            "lon": 15.72899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616037",
+          "city": "Katowice",
+          "zip": "40-635",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616046",
+          "city": "Katowice",
+          "zip": "40-635",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616045",
+          "city": "Krakow",
+          "zip": "31 -202",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616002",
+          "city": "Krakow",
+          "zip": "31-501",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616034",
+          "city": "Kłodzko",
+          "zip": "57-300",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.43488,
+            "lon": 16.66145
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616029",
+          "city": "Lodz",
+          "zip": "91-347",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616024",
+          "city": "Lubin",
+          "zip": "59-301",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.40089,
+            "lon": 16.20149
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616041",
+          "city": "Lublin",
+          "zip": "20-954",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616016",
+          "city": "Ostrołęka",
+          "zip": "07-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.08621,
+            "lon": 21.57566
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616003",
+          "city": "Radom",
+          "zip": "26-600",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.40253,
+            "lon": 21.14714
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616047",
+          "city": "Radom",
+          "zip": "26-610",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.40253,
+            "lon": 21.14714
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616033",
+          "city": "Rybnik",
+          "zip": "44-200",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.09713,
+            "lon": 18.54179
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616019",
+          "city": "Tarnów",
+          "zip": "33-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.01381,
+            "lon": 20.98698
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616022",
+          "city": "Torun",
+          "zip": "87-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.01375,
+            "lon": 18.59814
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616014",
+          "city": "Warsaw",
+          "zip": "02-507",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616001",
+          "city": "Warsaw",
+          "zip": "04-628",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616018",
+          "city": "Wałbrzych",
+          "zip": "58-309",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.77141,
+            "lon": 16.28432
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616015",
+          "city": "Wroclaw",
+          "zip": "50-420",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616031",
+          "city": "Włocławek",
+          "zip": "87-800",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.64817,
+            "lon": 19.0678
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616020",
+          "city": "Zamość",
+          "zip": "22-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.72314,
+            "lon": 23.25196
+          }
+        },
+        {
+          "facility": "Investigational Site Number 616004",
+          "city": "Łomża",
+          "zip": "18-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.17806,
+            "lon": 22.05935
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620010",
+          "city": "Almada",
+          "zip": "2801-951",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.67902,
+            "lon": -9.1569
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620006",
+          "city": "Amadora",
+          "zip": "2720",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.75382,
+            "lon": -9.23083
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620001",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620002",
+          "city": "Coimbra",
+          "zip": "3041-801",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620011",
+          "city": "Evora",
+          "zip": "7000",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.56587,
+            "lon": -7.90405
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620003",
+          "city": "Lisbon",
+          "zip": "1169-024",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620015",
+          "city": "Ponta Delgada",
+          "zip": "9500-370",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 37.73952,
+            "lon": -25.66874
+          }
+        },
+        {
+          "facility": "Investigational Site Number 620004",
+          "city": "Setúbal",
+          "zip": "2910-446",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.5244,
+            "lon": -8.8882
+          }
+        },
+        {
+          "facility": "Investigational Site Number 642002",
+          "city": "Brasov",
+          "zip": "500059",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.64861,
+            "lon": 25.60613
+          }
+        },
+        {
+          "facility": "Investigational Site Number 642004",
+          "city": "Bucharest",
+          "zip": "011461",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Investigational Site Number 642001",
+          "city": "Bucharest",
+          "zip": "014461",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Investigational Site Number 642005",
+          "city": "Cluj-Napoca",
+          "zip": "400001",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        },
+        {
+          "facility": "Investigational Site Number 642003",
+          "city": "Târgu Mureş",
+          "zip": "20475",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.54245,
+            "lon": 24.55747
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643018",
+          "city": "Barnaul",
+          "zip": "656055",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.36199,
+            "lon": 83.72786
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643011",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643014",
+          "city": "Krasnodar",
+          "zip": "350086",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 45.04534,
+            "lon": 38.98178
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643021",
+          "city": "Krasnoyarsk",
+          "zip": "660022",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643005",
+          "city": "Moscow",
+          "zip": "105229",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643004",
+          "city": "Moscow",
+          "zip": "111539",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643020",
+          "city": "Moscow",
+          "zip": "115446",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643003",
+          "city": "Moscow",
+          "zip": "121359",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643001",
+          "city": "Moscow",
+          "zip": "121552",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643016",
+          "city": "Nizniy Novgorod",
+          "zip": "603005",
+          "country": "Russia"
+        },
+        {
+          "facility": "Investigational Site Number 643024",
+          "city": "Novosibirsk",
+          "zip": "630055",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643006",
+          "city": "Saint Petersburg",
+          "zip": "192242",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643019",
+          "city": "Saint Petersburg",
+          "zip": "194156",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643025",
+          "city": "Saint Petersburg",
+          "zip": "195067",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643007",
+          "city": "Saint Petersburg",
+          "zip": "197341",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643008",
+          "city": "Saint-Peterburg",
+          "zip": "196105",
+          "country": "Russia"
+        },
+        {
+          "facility": "Investigational Site Number 643013",
+          "city": "Samara",
+          "zip": "443070",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.20767,
+            "lon": 50.13553
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643012",
+          "city": "Tomsk",
+          "zip": "634012",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643023",
+          "city": "Volgograd",
+          "zip": "400008",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 48.71378,
+            "lon": 44.4976
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643017",
+          "city": "Yaroslavl",
+          "zip": "150062",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.62987,
+            "lon": 39.87368
+          }
+        },
+        {
+          "facility": "Investigational Site Number 643015",
+          "city": "Yekaterinburg",
+          "zip": "620109",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85733,
+            "lon": 60.61529
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688505",
+          "city": "Belgrade",
+          "zip": "11040",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.80401,
+            "lon": 20.46513
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688502",
+          "city": "Kamenitz",
+          "zip": "21204",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 45.22334,
+            "lon": 19.84263
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688501",
+          "city": "Kragujevac",
+          "zip": "34000",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.01667,
+            "lon": 20.91667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688503",
+          "city": "Niš",
+          "zip": "18000",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 43.32472,
+            "lon": 21.90333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688504",
+          "city": "Zemun",
+          "zip": "11080",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.8458,
+            "lon": 20.40116
+          }
+        },
+        {
+          "facility": "Investigational Site Number 688506",
+          "city": "Zemun",
+          "zip": "11080",
+          "country": "Serbia",
+          "geoPoint": {
+            "lat": 44.8458,
+            "lon": 20.40116
+          }
+        },
+        {
+          "facility": "Investigational Site Number 702001",
+          "city": "Singapore",
+          "zip": "168752",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Investigational Site Number 702002",
+          "city": "Singapore",
+          "zip": "529889",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Investigational Site Number 703003",
+          "city": "Banská Bystrica",
+          "zip": "97401",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.73947,
+            "lon": 19.14932
+          }
+        },
+        {
+          "facility": "Investigational Site Number 703002",
+          "city": "Martin",
+          "zip": "03659",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 49.06651,
+            "lon": 18.92399
+          }
+        },
+        {
+          "facility": "Investigational Site Number 703001",
+          "city": "Nitra",
+          "zip": "950 01",
+          "country": "Slovakia",
+          "geoPoint": {
+            "lat": 48.30763,
+            "lon": 18.08453
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710004",
+          "city": "Alberton",
+          "zip": "1450",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -26.26786,
+            "lon": 28.12225
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710005",
+          "city": "Cape Town",
+          "zip": "7500",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.92584,
+            "lon": 18.42322
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710001",
+          "city": "Cape Town",
+          "zip": "7925",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.92584,
+            "lon": 18.42322
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710003",
+          "city": "Centurion",
+          "zip": "181",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.85891,
+            "lon": 28.18577
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710002",
+          "city": "Kuils River",
+          "zip": "7580",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.94208,
+            "lon": 18.70663
+          }
+        },
+        {
+          "facility": "Investigational Site Number 710007",
+          "city": "Pretoria",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410005",
+          "city": "Busan",
+          "zip": "602-715",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410006",
+          "city": "Busan",
+          "zip": "614-735",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410002",
+          "city": "Daegu",
+          "zip": "700-712",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87102,
+            "lon": 128.60121
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410014",
+          "city": "Daegu",
+          "zip": "705-717",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87102,
+            "lon": 128.60121
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410017",
+          "city": "Daejeon",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.35022,
+            "lon": 127.3848
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410004",
+          "city": "Goyang",
+          "zip": "410-773",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.21689,
+            "lon": 127.19731
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410018",
+          "city": "Guri-si",
+          "zip": "471-020",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.5986,
+            "lon": 127.1394
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410016",
+          "city": "Gwangju",
+          "zip": "501-757",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.15472,
+            "lon": 126.91556
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410007",
+          "city": "Seongnam",
+          "zip": "463-707",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.54127,
+            "lon": 127.39683
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410008",
+          "city": "Seoul",
+          "zip": "110-744",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410012",
+          "city": "Seoul",
+          "zip": "120-752",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410011",
+          "city": "Seoul",
+          "zip": "130-709",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410001",
+          "city": "Seoul",
+          "zip": "134-727",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410009",
+          "city": "Seoul",
+          "zip": "137-701",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410010",
+          "city": "Seoul",
+          "zip": "138-736",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410003",
+          "city": "Seoul",
+          "zip": "152-703",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410013",
+          "city": "Suwon",
+          "zip": "443-721",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.27818,
+            "lon": 127.03164
+          }
+        },
+        {
+          "facility": "Investigational Site Number 410015",
+          "city": "Wŏnju",
+          "zip": "220-701",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.35139,
+            "lon": 127.94528
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724013",
+          "city": "Alcorcón",
+          "zip": "28992",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.34582,
+            "lon": -3.82487
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724001",
+          "city": "Alicante",
+          "zip": "03010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724014",
+          "city": "Badalona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724022",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724021",
+          "city": "Barcelona",
+          "zip": "08025",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724025",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724002",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724901",
+          "city": "Barcelona",
+          "zip": "08907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724007",
+          "city": "Cáceres",
+          "zip": "10003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47649,
+            "lon": -6.37224
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724026",
+          "city": "Elche",
+          "zip": "03293",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.26218,
+            "lon": -0.70107
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724016",
+          "city": "Galdakao",
+          "zip": "48960",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.23073,
+            "lon": -2.8429
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724023",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724003",
+          "city": "Madrid",
+          "zip": "28035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724902",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724027",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724017",
+          "city": "Málaga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724904",
+          "city": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724006",
+          "city": "San Cristóbal de La Laguna",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724018",
+          "city": "Sant Joan d'Alacant",
+          "zip": "03550",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.40148,
+            "lon": -0.43623
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724005",
+          "city": "Santander",
+          "zip": "39008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724012",
+          "city": "Santiago de Compostela",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724903",
+          "city": "Terrassa",
+          "zip": "08221",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.56667,
+            "lon": 2.01667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724010",
+          "city": "Torrevieja",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.97872,
+            "lon": -0.68222
+          }
+        },
+        {
+          "facility": "Investigational Site Number 724024",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 756001",
+          "city": "Lugano",
+          "zip": "6900",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        },
+        {
+          "facility": "Investigational Site Number 756002",
+          "city": "Zurich",
+          "zip": "8091",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158007",
+          "city": "Kaohsiung City",
+          "zip": "807",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158002",
+          "city": "Kaohsiung City",
+          "zip": "833",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158003",
+          "city": "Linkou District",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.07777,
+            "lon": 121.39348
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158008",
+          "city": "Taichung",
+          "zip": "40447",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158904",
+          "city": "Taipei",
+          "zip": "100",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158001",
+          "city": "Taipei",
+          "zip": "104",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Investigational Site Number 158009",
+          "city": "Taipei",
+          "zip": "220",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Investigational Site Number 764002",
+          "city": "Bangkok",
+          "zip": "10330",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Investigational Site Number 764901",
+          "city": "Bangkok",
+          "zip": "10400",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Investigational Site Number 764005",
+          "city": "Bangkok",
+          "zip": "10700",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Investigational Site Number 764004",
+          "city": "Khon Kaen",
+          "zip": "40002",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 16.44671,
+            "lon": 102.833
+          }
+        },
+        {
+          "facility": "Investigational Site Number 764007",
+          "city": "Klong Luang",
+          "zip": "12120",
+          "country": "Thailand"
+        },
+        {
+          "facility": "Investigational Site Number 764903",
+          "city": "Muang",
+          "zip": "50200",
+          "country": "Thailand"
+        },
+        {
+          "facility": "Investigational Site Number 764006",
+          "city": "Rajathavee",
+          "zip": "10400",
+          "country": "Thailand"
+        },
+        {
+          "facility": "Investigational Site Number 788002",
+          "city": "Aryanah",
+          "zip": "2080",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 36.86012,
+            "lon": 10.19337
+          }
+        },
+        {
+          "facility": "Investigational Site Number 788005",
+          "city": "Monastir",
+          "zip": "5000",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 35.77799,
+            "lon": 10.82617
+          }
+        },
+        {
+          "facility": "Investigational Site Number 788006",
+          "city": "Monastir",
+          "zip": "5000",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 35.77799,
+            "lon": 10.82617
+          }
+        },
+        {
+          "facility": "Investigational Site Number 788001",
+          "city": "Tunis",
+          "zip": "1008",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 36.81897,
+            "lon": 10.16579
+          }
+        },
+        {
+          "facility": "Investigational Site Number 788004",
+          "city": "Tunis",
+          "zip": "1008",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 36.81897,
+            "lon": 10.16579
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792010",
+          "city": "Adana",
+          "zip": "01339",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 36.98615,
+            "lon": 35.32531
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792023",
+          "city": "Ankara",
+          "zip": "06100",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792009",
+          "city": "Antalya",
+          "zip": "07059",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792008",
+          "city": "Bursa",
+          "zip": "16100",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 40.19559,
+            "lon": 29.06013
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792022",
+          "city": "Bursa",
+          "zip": "16509",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 40.19559,
+            "lon": 29.06013
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792030",
+          "city": "Edirne",
+          "zip": "22030",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.67719,
+            "lon": 26.55597
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792006",
+          "city": "Erzurum",
+          "zip": "25070",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.90861,
+            "lon": 41.27694
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792020",
+          "city": "Eskişehir",
+          "zip": "26480",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.77667,
+            "lon": 30.52056
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792004",
+          "city": "Gaziantep",
+          "zip": "27060",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 37.05944,
+            "lon": 37.3825
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792018",
+          "city": "Istanbul",
+          "zip": "34034",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792032",
+          "city": "Istanbul",
+          "zip": "34093",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792028",
+          "city": "Istanbul",
+          "zip": "34390",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792016",
+          "city": "Istanbul",
+          "zip": "34846",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792029",
+          "city": "Istanbul",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792011",
+          "city": "Izmir",
+          "zip": "35100",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792001",
+          "city": "Izmir",
+          "zip": "35340",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792003",
+          "city": "Izmir",
+          "zip": "35360",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792012",
+          "city": "Kayseri",
+          "zip": "38039",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 38.73222,
+            "lon": 35.48528
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792014",
+          "city": "Kocaeli",
+          "zip": "41300",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.62497,
+            "lon": 27.51145
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792015",
+          "city": "Konya",
+          "zip": "42080",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 37.87135,
+            "lon": 32.48464
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792025",
+          "city": "Malatya",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 38.35018,
+            "lon": 38.31667
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792019",
+          "city": "Mersin",
+          "zip": "33169",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 36.81196,
+            "lon": 34.63886
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792021",
+          "city": "Samsun",
+          "zip": "55200",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 41.27976,
+            "lon": 36.3361
+          }
+        },
+        {
+          "facility": "Investigational Site Number 792026",
+          "city": "Sivas",
+          "zip": "58140",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 39.74833,
+            "lon": 37.01611
+          }
+        },
+        {
+          "facility": "Investigational Site Number 804004",
+          "city": "Cherkasy",
+          "zip": "18000",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.44452,
+            "lon": 32.05738
+          }
+        },
+        {
+          "facility": "Investigational Site Number 804001",
+          "city": "Kharkiv",
+          "zip": "61018",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Investigational Site Number 804005",
+          "city": "Lviv",
+          "zip": "79015",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.83826,
+            "lon": 24.02324
+          }
+        },
+        {
+          "facility": "Investigational Site Number 804003",
+          "city": "Zaporozhie",
+          "zip": "69600",
+          "country": "Ukraine"
+        },
+        {
+          "facility": "Investigational Site Number 826008",
+          "city": "Bournemouth",
+          "zip": "BH7 7DW",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.72048,
+            "lon": -1.8795
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826007",
+          "city": "Bradford",
+          "zip": "BD9 6RJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.79391,
+            "lon": -1.75206
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826001",
+          "city": "Craigavon",
+          "zip": "BT63 5QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.44709,
+            "lon": -6.387
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826005",
+          "city": "East Kilbride",
+          "zip": "G75 8RG",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.76412,
+            "lon": -4.17669
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826002",
+          "city": "Hull",
+          "zip": "HU16 5JQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.7446,
+            "lon": -0.33525
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826006",
+          "city": "Manchester",
+          "zip": "M13 9WL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "Investigational Site Number 826003",
+          "city": "St Leonards",
+          "zip": "TN37 7RD",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.83077,
+            "lon": -1.84377
+          }
+        },
+        {
+          "facility": "Investigational Site Number 704006",
+          "city": "Hanoi",
+          "country": "Vietnam",
+          "geoPoint": {
+            "lat": 21.0245,
+            "lon": 105.84117
+          }
+        },
+        {
+          "facility": "Investigational Site Number 704001",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "geoPoint": {
+            "lat": 10.82302,
+            "lon": 106.62965
+          }
+        },
+        {
+          "facility": "Investigational Site Number 704003",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "geoPoint": {
+            "lat": 10.82302,
+            "lon": 106.62965
+          }
+        },
+        {
+          "facility": "Investigational Site Number 704004",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "geoPoint": {
+            "lat": 10.82302,
+            "lon": 106.62965
+          }
+        },
+        {
+          "facility": "Investigational Site Number 704005",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam",
+          "geoPoint": {
+            "lat": 10.82302,
+            "lon": 106.62965
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23194481",
+          "type": "BACKGROUND",
+          "citation": "Steg PG, Mehta SR, Pollack CV Jr, Bode C, Gaudin C, Fanouillere K, Moryusef A, Wiviott SD, Sabatine MS. Design and rationale of the treatment of acute coronary syndromes with otamixaban trial: a double-blind triple-dummy 2-stage randomized trial comparing otamixaban to unfractionated heparin and eptifibatide in non-ST-segment elevation acute coronary syndromes with a planned early invasive strategy. Am Heart J. 2012 Dec;164(6):817-24.e13. doi: 10.1016/j.ahj.2012.10.001. Epub 2012 Nov 7."
+        },
+        {
+          "pmid": "23995608",
+          "type": "RESULT",
+          "citation": "Steg PG, Mehta SR, Pollack CV Jr, Bode C, Cohen M, French WJ, Hoekstra J, Rao SV, Ruzyllo W, Ruiz-Nodar JM, Sabate M, Widimsky P, Kiss RG, Navarro Estrada JL, Hod H, Kerkar P, Guneri S, Sezer M, Ruda M, Nicolau JC, Cavallini C, Ebrahim I, Petrov I, Kim JH, Jeong MH, Ramos Lopez GA, Laanmets P, Kovar F, Gaudin C, Fanouillere KC, Minini P, Hoffman EB, Moryusef A, Wiviott SD, Sabatine MS; TAO Investigators. Anticoagulation with otamixaban and ischemic events in non-ST-segment elevation acute coronary syndromes: the TAO randomized clinical trial. JAMA. 2013 Sep 18;310(11):1145-55. doi: 10.1001/jama.2013.277165."
+        },
+        {
+          "pmid": "33518473",
+          "type": "DERIVED",
+          "citation": "Abtan J, Wiviott SD, Sorbets E, Popovic B, Elbez Y, Mehta SR, Sabatine MS, Bode C, Pollack CV, Cohen M, Moccetti T, Laanmets P, Faxon D, Okreglicki A, Ducrocq G, Steg PG; TAO investigators. Prevalence, clinical determinants and prognostic implications of coronary procedural complications of percutaneous coronary intervention in non-ST-segment elevation myocardial infarction: Insights from the contemporary multinational TAO trial. Arch Cardiovasc Dis. 2021 Mar;114(3):187-196. doi: 10.1016/j.acvd.2020.09.005. Epub 2021 Jan 29."
+        },
+        {
+          "pmid": "33430604",
+          "type": "DERIVED",
+          "citation": "Dillinger JG, Ducrocq G, Elbez Y, Cohen M, Bode C, Pollack C Jr, Petrauskiene B, Henry P, Dorobantu M, French WJ, Wiviott SD, Sabatine MS, Mehta SR, Steg PG. Sex Differences in Ischemic and Bleeding Outcomes in Patients With Non-ST-Segment-Elevation Acute Coronary Syndrome Undergoing Percutaneous Coronary Intervention: Insights From the TAO Trial. Circ Cardiovasc Interv. 2021 Jan;14(1):e009759. doi: 10.1161/CIRCINTERVENTIONS.120.009759. Epub 2021 Jan 12."
+        },
+        {
+          "pmid": "29895599",
+          "type": "DERIVED",
+          "citation": "Dillinger JG, Ducrocq G, Elbez Y, Cohen M, Bode C, Pollack C Jr, Nicolau JC, Henry P, Kedev S, Wiviott SD, Sabatine MS, Mehta SR, Steg PG. Activated Clotting Time to Guide Heparin Dosing in Non-ST-Segment-Elevation Acute Coronary Syndrome Patients Undergoing Percutaneous Coronary Intervention and Treated With IIb/IIIa Inhibitors: Impact on Ischemic and Bleeding Outcomes: Insights From the TAO Trial. Circ Cardiovasc Interv. 2018 Jun;11(6):e006084. doi: 10.1161/CIRCINTERVENTIONS.118.006084."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C435830",
+          "term": "otamixaban"
+        },
+        {
+          "id": "D006493",
+          "term": "Heparin"
+        },
+        {
+          "id": "D000077542",
+          "term": "Eptifibatide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006025",
+          "term": "Glycosaminoglycans"
+        },
+        {
+          "id": "D011134",
+          "term": "Polysaccharides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010456",
+          "term": "Peptides, Cyclic"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,864 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04360720",
+      "orgStudyIdInfo": {
+        "id": "3992"
+      },
+      "organization": {
+        "fullName": "Hospital Israelita Albert Einstein",
+        "class": "OTHER"
+      },
+      "briefTitle": "Percutaneous Coronary Intervention Followed by Antiplatelet Monotherapy in the Setting of Acute Coronary Syndromes",
+      "officialTitle": "PercutaNEOus Coronary Intervention Followed by Monotherapy INstead of Dual Antiplatelet Therapy in the SETting of Acute Coronary Syndromes: The NEO-MINDSET Trial",
+      "acronym": "NEOMINDSET"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-10-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-04-22",
+      "studyFirstSubmitQcDate": "2020-04-23",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital Israelita Albert Einstein",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Phase-3, randomized, multicenter, parallel-group study with blind evaluation of endpoints and intention-to-treat analysis.\n\nThe general purpose of the study is evaluate the non-inferiority hypothesis for ischemic events and the superiority hypothesis for bleeding events resulting from platelet P2Y12 receptor inhibitors given as monotherapy in comparison with conventional dual antiplatelet therapy in acute coronary syndrome patients treated with percutaneous coronary intervention in the context of the Unified Health System in Brazil.",
+      "detailedDescription": "Based on current scientific evidence, acute coronary syndrome subjects should be treated with dual antiplatelet therapy, which consists of the association of acetylsalicylic acid with an oral antagonist of platelet P2Y12 receptor. Clinical trials have shown that dual antiplatelet therapy reduces ischemic events, despite of increasing the risk of bleeding complications. Because dual antiplatelet therapy has a positive net effect, such an approach is currently recommended by international guidelines and recognized as the therapy of choice for acute coronary syndrome subjects. It is known that the acetylsalicylic acid dose is directly proportional to the bleeding risk. However, so far, all new antiplatelet drugs have been tested and used in association with acetylsalicylic acid for a varying period of time. This study is carried out in such context and intends to evaluate the clinical performance of new inhibitors of platelet P2Y12 receptor given solely, as monotherapy, to acute coronary syndrome patients, to test the hypothesis that an antithrombotic monotherapy with such agents (i.e., acetylsalicylic acid withdrawal) sustains efficacy by preventing ischemic complications while reducing the bleeding potential of this drug dosage regimens. It is a Phase-3, randomized, multicenter, parallel-group study with blind evaluation of endpoints and intention-to-treat analysis. Subjects with acute coronary syndrome treated with a successful percutaneous coronary intervention will be enrolled. The general purpose of the study is to test the non-inferiority hypothesis for ischemic events and the superiority hypothesis for bleeding events resulting from platelet P2Y12 receptor inhibitors given as monotherapy in comparison with conventional dual antiplatelet therapy in the context of the Unified Health System in Brazil."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Acute Coronary Syndrome",
+        "Antithrombotic Therapy",
+        "Dual Antiplatelet Therapy with acetylsalicylic acid",
+        "Monotherapy without acetylsalicylic acid"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3410,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dual Antiplatelet Therapy",
+          "type": "NO_INTERVENTION",
+          "description": "Subjects randomized to the Dual Antiplatelet Therapy Control Group will be treated with a regimen of acetylsalicylic acid combined with ticagrelor or prasugrel for 12 months.\n\nAcetylsalicylic acid (100 mg/day) + ticagrelor (90 mg twice daily) Or Acetylsalicylic acid (100 mg/day) + prasugrel (5mg or 10 mg once daily)"
+        },
+        {
+          "label": "Antiplatelet Monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "All subjects randomized to the Monotherapy Group will have acetylsalicylic acid discontinued immediately after randomization.\n\nSubjects randomized to the Monotherapy Group will be treated with ticagrelor or prasugrel alone for 12 months.\n\nTicagrelor alone (90 mg twice daily) Or Prasugrel alone (5 or 10 mg once daily)",
+          "interventionNames": [
+            "Drug: Antiplatelet Monotherapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Antiplatelet Monotherapy",
+          "description": "All subjects randomized to the Monotherapy Group will have acetylsalicylic acid discontinued immediately after randomization.\n\nSubjects randomized to the Monotherapy Group will be treated with ticagrelor or prasugrel alone until the end of the study, at Month 12.",
+          "armGroupLabels": [
+            "Antiplatelet Monotherapy"
+          ],
+          "otherNames": [
+            "Monotherapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite endpoint of all-cause mortality, stroke, myocardial infarction or urgent target vessel revascularization.",
+          "description": "Co-Primary Efficacy Endpoint (non-inferiority hypothesis)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Bleeding Academic Research Consortium (BARC) type 2, 3 or 5 bleeding event",
+          "description": "Co-Primary Safety Endpoint (superiority hypothesis)",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause death, cardiovascular death and non-cardiovascular death",
+          "description": "All-cause death, cardiovascular death and non-cardiovascular death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Sudden death",
+          "description": "Sudden death",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Stroke",
+          "description": "Stroke",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Myocardial Infarction",
+          "description": "Myocardial Infarction",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Stent thrombosis",
+          "description": "Stent thrombosis",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Unscheduled invasive coronary treatment",
+          "description": "Unscheduled invasive coronary treatment",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "BARC 1-5 type bleeding",
+          "description": "BARC 1-5 type bleeding",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Net adverse clinical events (occurrence of all-cause death, myocardial infarction, stroke, urgent target-vessel revascularization, BARC 2, 3 or 5 bleeding)",
+          "description": "Net adverse clinical events (occurrence of all-cause death, myocardial infarction, stroke, urgent target-vessel revascularization, BARC 2, 3 or 5 bleeding)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cost-effectiveness ratio",
+          "description": "Cost-effectiveness ratio",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nSubjects must meet all the criteria below:\n\n1. Age \\>=18 years;\n2. Acute coronary syndrome with last symptoms \\< 24 hours before hospital admission;\n3. Successful percutaneous coronary intervention(s) of all target lesions (culprit and non-culprit) with new-generation drug-eluting stents;\n4. Length of stay in hospital at randomization \\< 96 hours;\n5. Subjects will be informed about the nature of the study and must agree to comply and give an informed consent in writing using a form approved in advance by the local Ethics Committee.\n\nExclusion Criteria:\n\nSubjects meeting any of the following criteria will be excluded:\n\n1. Acute coronary syndrome on index admission treated conservatively or with unsuccessful percutaneous intervention or coronary artery bypass graft;\n2. Presence of residual lesions which are likely to require future treatment in the next 12 months;\n3. Fibrinolytic therapy \\< 24 hour before randomization;\n4. Need of oral anticoagulation with warfarin or new anticoagulants;\n5. Chronic bleeding diathesis;\n6. Active or recent major bleeding (in-hospital);\n7. Prior intracranial hemorrhage;\n8. Ischemic stroke \\< 30 days;\n9. Presence of brain arteriovenous malformation;\n10. Index event of non-atherothrombotic etiology (i.e., stent thrombosis, in-stent restenosis, coronary embolism, spontaneous coronary artery dissection, myocardial ischemia due to supply/demand imbalance);\n11. Potential or scheduled cardiac or non-cardiac surgery in the next 12 months;\n12. Platelet count \\< 100,000 cells/mm3 or \\> 700,000 cells/mm3;\n13. Total white blood count \\< 3,000 cells/mm3;\n14. Suspected or documented active liver disease (including laboratory evidence of hepatitis B or C);\n15. Receiver of heart transplant;\n16. Known allergies or intolerance to acetylsalicylic acid, clopidogrel, ticlopidine, ticagrelor, prasugrel, heparin or antiproliferative agents from the limus-family of drugs;\n17. Subject with life expectation lower than 1 year;\n18. Any significant medical condition that, in the investigator's opinion, could interfere with the ideal participation in the study;\n19. Participation in other study in the past 12 months, unless a direct benefit to the subject can be expected.\n20. Impossibility of being treated with dual antiplatelet therapy for 12 months, based on investigator judgement.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pedro A Lemos, MD",
+          "affiliation": "Hospital Israelita Albert Einstein",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "city": "Fortaleza",
+          "state": "Ceará",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Instituto Cardiovascular de Linhares",
+          "city": "Linhares",
+          "state": "Espírito Santo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.39111,
+            "lon": -40.07222
+          }
+        },
+        {
+          "facility": "Hospital Evangélico de Vila Velha",
+          "city": "Vila Velha",
+          "state": "Espírito Santo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.32972,
+            "lon": -40.2925
+          }
+        },
+        {
+          "facility": "Hospital Santa Casa de Misericórdia de Vitória",
+          "city": "Vitória",
+          "state": "Espírito Santo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.31944,
+            "lon": -40.33778
+          }
+        },
+        {
+          "facility": "Hospital Ana Nery",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital de Base de Brasília",
+          "city": "Brasília",
+          "state": "Federal District",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Instituto Aramari APO",
+          "city": "Brasília",
+          "state": "Federal District",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Hospital Municipal Aparecida de Goiania",
+          "city": "Goiânia",
+          "state": "Goiás",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "Universidade Federal de Goiás",
+          "city": "Goiânia",
+          "state": "Goiás",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "CASSEMS",
+          "city": "Campo Grande",
+          "state": "Mato Grosso do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.44278,
+            "lon": -54.64639
+          }
+        },
+        {
+          "facility": "Hospital Universitário Maria Aparecida Pedrossian",
+          "city": "Campo Grande",
+          "state": "Mato Grosso do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.44278,
+            "lon": -54.64639
+          }
+        },
+        {
+          "facility": "Hospital Felício Rocho",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital Madre Teresa",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital Universitário Ciências Médicas de Belo Horizonte",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Instituto Orizonti",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Eurolatino",
+          "city": "Juiz de Fora",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.76417,
+            "lon": -43.35028
+          }
+        },
+        {
+          "facility": "Santa Casa da Misericórdia de Passos",
+          "city": "Passos",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.71889,
+            "lon": -46.60972
+          }
+        },
+        {
+          "facility": "Hospital Santa Lucia",
+          "city": "Poços de Caldas",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.78778,
+            "lon": -46.56139
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas da Universidade Federal do Triângulo Mineiro",
+          "city": "Uberaba",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.74833,
+            "lon": -47.93194
+          }
+        },
+        {
+          "facility": "Pontifícia Universidade Católica do Paraná",
+          "city": "Curitiba",
+          "state": "Paraná",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -25.42778,
+            "lon": -49.27306
+          }
+        },
+        {
+          "facility": "Hospital Real Português",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Instituto de Medicina Integral Professor Fernando Figueira - IMIP",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Hospital São Lucas",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "HUPE - Hospital Universitário Pedro Ernesto",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Instituto Estadual de Cardiologia Aloysio de Castro",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Instituto Nacional de Cardiologia - INC",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Instituto Atena de Pesquisa",
+          "city": "Natal",
+          "state": "Rio Grande do Norte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -5.795,
+            "lon": -35.20944
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Porto Alegre",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital São Lucas da PUCRS",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia do RS - Fundação Universitária de Cardiologi",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Baia Sul",
+          "city": "Florianópolis",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -27.59667,
+            "lon": -48.54917
+          }
+        },
+        {
+          "facility": "Hospital Instituto de Cardiologia de SC",
+          "city": "Florianópolis",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -27.59667,
+            "lon": -48.54917
+          }
+        },
+        {
+          "facility": "Centro de Pesquisa Clínica do Coração",
+          "city": "Aracaju",
+          "state": "Sergipe",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -10.91111,
+            "lon": -37.07167
+          }
+        },
+        {
+          "facility": "UPECLIN",
+          "city": "Botucatu",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.88583,
+            "lon": -48.445
+          }
+        },
+        {
+          "facility": "Hospital Universitário São Francisco na Providência de Deus",
+          "city": "Bragança Paulista",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.9527,
+            "lon": -46.54418
+          }
+        },
+        {
+          "facility": "Instituição, Hospital e Maternidade Celso Pierro",
+          "city": "Campinas",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Instituto De Pesquisa Clinica de Campinas",
+          "city": "Campinas",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "UNICAMP",
+          "city": "Campinas",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Irmandade da Santa Casa de Misericórdia de Marilia",
+          "city": "Marília",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.21389,
+            "lon": -49.94583
+          }
+        },
+        {
+          "facility": "Hospital Municipal Antonio Giglio",
+          "city": "Osasco",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5325,
+            "lon": -46.79167
+          }
+        },
+        {
+          "facility": "Hospital Regional de Presidente Prudente",
+          "city": "Presidente Prudente",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.12556,
+            "lon": -51.38889
+          }
+        },
+        {
+          "facility": "Santa Casa da Misericórdia de Santos",
+          "city": "Santos",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.96083,
+            "lon": -46.33361
+          }
+        },
+        {
+          "facility": "Hospital de Base",
+          "city": "São José do Rio Preto",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Hospital Israelita Albert Einstein",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "zip": "05652- 900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital 9 de Julho",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital Dante Pazzanese",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital São Paulo - Unifesp",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Instituto de Assistência Médica ao Servidor Público Estadual",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Instituto do Coração - InCor",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Real e Benemérita Associação Portuguesa de Beneficência",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37306039",
+          "type": "BACKGROUND",
+          "citation": "Guimaraes PO, Franken M, Tavares CAM, Silveira FS, Antunes MO, Bergo RR, Joaquim RM, Hirai JCS, Andrade PB, Pitta FG, Mariani J Jr, Nascimento BR, de Paula JET, Silveira MS, Costa TAO, Dall'Orto FTC, Serpa RG, Sampaio FBA, Ohe LN, Mangione FM, Furtado RHM, Sarmento-Leite R, Monfardini F, Assis SRL, Nicolau JC, Sposito AC, Lopes RD, Onuma Y, Valgimigli M, Angiolillo DJ, Serruys PW, Berwanger O, Bacal F, Lemos PA. P2Y12 inhibitor monotherapy versus dual antiplatelet therapy in patients with acute coronary syndromes undergoing coronary stenting: rationale and design of the NEOMINDSET Trial. EuroIntervention. 2023 Jul 17;19(4):e323-e329. doi: 10.4244/EIJ-D-23-00125."
+        },
+        {
+          "pmid": "28886622",
+          "type": "BACKGROUND",
+          "citation": "Valgimigli M, Bueno H, Byrne RA, Collet JP, Costa F, Jeppsson A, Juni P, Kastrati A, Kolh P, Mauri L, Montalescot G, Neumann FJ, Petricevic M, Roffi M, Steg PG, Windecker S, Zamorano JL, Levine GN; ESC Scientific Document Group; ESC Committee for Practice Guidelines (CPG); ESC National Cardiac Societies. 2017 ESC focused update on dual antiplatelet therapy in coronary artery disease developed in collaboration with EACTS: The Task Force for dual antiplatelet therapy in coronary artery disease of the European Society of Cardiology (ESC) and of the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2018 Jan 14;39(3):213-260. doi: 10.1093/eurheartj/ehx419. No abstract available."
+        },
+        {
+          "pmid": "19249633",
+          "type": "BACKGROUND",
+          "citation": "Montalescot G, Wiviott SD, Braunwald E, Murphy SA, Gibson CM, McCabe CH, Antman EM; TRITON-TIMI 38 investigators. Prasugrel compared with clopidogrel in patients undergoing percutaneous coronary intervention for ST-elevation myocardial infarction (TRITON-TIMI 38): double-blind, randomised controlled trial. Lancet. 2009 Feb 28;373(9665):723-31. doi: 10.1016/S0140-6736(09)60441-4."
+        },
+        {
+          "pmid": "19717846",
+          "type": "BACKGROUND",
+          "citation": "Wallentin L, Becker RC, Budaj A, Cannon CP, Emanuelsson H, Held C, Horrow J, Husted S, James S, Katus H, Mahaffey KW, Scirica BM, Skene A, Steg PG, Storey RF, Harrington RA; PLATO Investigators; Freij A, Thorsen M. Ticagrelor versus clopidogrel in patients with acute coronary syndromes. N Engl J Med. 2009 Sep 10;361(11):1045-57. doi: 10.1056/NEJMoa0904327. Epub 2009 Aug 30."
+        },
+        {
+          "pmid": "28792984",
+          "type": "BACKGROUND",
+          "citation": "Feres F, Costa RA, Siqueira D, Costa JR Jr, Chamie D, Staico R, Chaves AJ, Abizaid A, Marin-Neto JA, Rassi A Jr, Botelho R, Alves CMR, Saad JA, Mangione JA, Lemos PA, Quadros AS, Queiroga MAC, Cantarelli MJC, Figueira HR. DIRETRIZ DA SOCIEDADE BRASILEIRA DE CARDIOLOGIA E DA SOCIEDADE BRASILEIRA DE HEMODINAMICA E CARDIOLOGIA INTERVENCIONISTA SOBRE INTERVENCAO CORONARIA PERCUTANEA. Arq Bras Cardiol. 2017 Jun;109(1 Suppl 1):1-81. doi: 10.5935/abc.20170111. No abstract available. Portuguese."
+        },
+        {
+          "pmid": "15877994",
+          "type": "BACKGROUND",
+          "citation": "Serebruany VL, Steinhubl SR, Berger PB, Malinin AI, Baggish JS, Bhatt DL, Topol EJ. Analysis of risk of bleeding complications after different doses of aspirin in 192,036 patients enrolled in 31 randomized controlled trials. Am J Cardiol. 2005 May 15;95(10):1218-22. doi: 10.1016/j.amjcard.2005.01.049."
+        },
+        {
+          "pmid": "25995313",
+          "type": "BACKGROUND",
+          "citation": "Xian Y, Wang TY, McCoy LA, Effron MB, Henry TD, Bach RG, Zettler ME, Baker BA, Fonarow GC, Peterson ED. Association of Discharge Aspirin Dose With Outcomes After Acute Myocardial Infarction: Insights From the Treatment with ADP Receptor Inhibitors: Longitudinal Assessment of Treatment Patterns and Events after Acute Coronary Syndrome (TRANSLATE-ACS) Study. Circulation. 2015 Jul 21;132(3):174-81. doi: 10.1161/CIRCULATIONAHA.114.014992. Epub 2015 May 20."
+        },
+        {
+          "pmid": "21709065",
+          "type": "BACKGROUND",
+          "citation": "Mahaffey KW, Wojdyla DM, Carroll K, Becker RC, Storey RF, Angiolillo DJ, Held C, Cannon CP, James S, Pieper KS, Horrow J, Harrington RA, Wallentin L; PLATO Investigators. Ticagrelor compared with clopidogrel by geographic region in the Platelet Inhibition and Patient Outcomes (PLATO) trial. Circulation. 2011 Aug 2;124(5):544-54. doi: 10.1161/CIRCULATIONAHA.111.047498. Epub 2011 Jun 27."
+        },
+        {
+          "pmid": "7882474",
+          "type": "BACKGROUND",
+          "citation": "Colombo A, Hall P, Nakamura S, Almagor Y, Maiello L, Martini G, Gaglione A, Goldberg SL, Tobis JM. Intracoronary stenting without anticoagulation accomplished with intravascular ultrasound guidance. Circulation. 1995 Mar 15;91(6):1676-88. doi: 10.1161/01.cir.91.6.1676."
+        },
+        {
+          "pmid": "30166073",
+          "type": "BACKGROUND",
+          "citation": "Vranckx P, Valgimigli M, Juni P, Hamm C, Steg PG, Heg D, van Es GA, McFadden EP, Onuma Y, van Meijeren C, Chichareon P, Benit E, Mollmann H, Janssens L, Ferrario M, Moschovitis A, Zurakowski A, Dominici M, Van Geuns RJ, Huber K, Slagboom T, Serruys PW, Windecker S; GLOBAL LEADERS Investigators. Ticagrelor plus aspirin for 1 month, followed by ticagrelor monotherapy for 23 months vs aspirin plus clopidogrel or ticagrelor for 12 months, followed by aspirin monotherapy for 12 months after implantation of a drug-eluting stent: a multicentre, open-label, randomised superiority trial. Lancet. 2018 Sep 15;392(10151):940-949. doi: 10.1016/S0140-6736(18)31858-0. Epub 2018 Aug 27."
+        },
+        {
+          "pmid": "31012851",
+          "type": "BACKGROUND",
+          "citation": "Kogame N, Modolo R, Tomaniak M, Cavalcante R, de Martino F, Tinoco J, Ribeiro EE, Mehran R, Campos CM, Onuma Y, Lemos PA, Serruys PW; Collaborators. Prasugrel monotherapy after PCI with the SYNERGY stent in patients with chronic stable angina or stabilised acute coronary syndromes: rationale and design of the ASET pilot study. EuroIntervention. 2019 Aug 9;15(6):e547-e550. doi: 10.4244/EIJ-D-19-00131. No abstract available."
+        },
+        {
+          "pmid": "21670242",
+          "type": "BACKGROUND",
+          "citation": "Mehran R, Rao SV, Bhatt DL, Gibson CM, Caixeta A, Eikelboom J, Kaul S, Wiviott SD, Menon V, Nikolsky E, Serebruany V, Valgimigli M, Vranckx P, Taggart D, Sabik JF, Cutlip DE, Krucoff MW, Ohman EM, Steg PG, White H. Standardized bleeding definitions for cardiovascular clinical trials: a consensus report from the Bleeding Academic Research Consortium. Circulation. 2011 Jun 14;123(23):2736-47. doi: 10.1161/CIRCULATIONAHA.110.009449. No abstract available."
+        },
+        {
+          "pmid": "29992264",
+          "type": "BACKGROUND",
+          "citation": "Valgimigli M, Garcia-Garcia HM, Vrijens B, Vranckx P, McFadden EP, Costa F, Pieper K, Vock DM, Zhang M, Van Es GA, Tricoci P, Baber U, Steg G, Montalescot G, Angiolillo DJ, Serruys PW, Farb A, Windecker S, Kastrati A, Colombo A, Feres F, Juni P, Stone GW, Bhatt DL, Mehran R, Tijssen JGP. Standardized classification and framework for reporting, interpreting, and analysing medication non-adherence in cardiovascular clinical trials: a consensus report from the Non-adherence Academic Research Consortium (NARC). Eur Heart J. 2019 Jul 1;40(25):2070-2085. doi: 10.1093/eurheartj/ehy377."
+        },
+        {
+          "pmid": "26933848",
+          "type": "BACKGROUND",
+          "citation": "Myles PS, Smith JA, Forbes A, Silbert B, Jayarajah M, Painter T, Cooper DJ, Marasco S, McNeil J, Bussieres JS, Wallace S; ATACAS Investigators of the ANZCA Clinical Trials Network. Stopping vs. Continuing Aspirin before Coronary Artery Surgery. N Engl J Med. 2016 Feb 25;374(8):728-37. doi: 10.1056/NEJMoa1507688."
+        },
+        {
+          "pmid": "26324049",
+          "type": "BACKGROUND",
+          "citation": "Valgimigli M, Frigoli E, Leonardi S, Rothenbuhler M, Gagnor A, Calabro P, Garducci S, Rubartelli P, Briguori C, Ando G, Repetto A, Limbruno U, Garbo R, Sganzerla P, Russo F, Lupi A, Cortese B, Ausiello A, Ierna S, Esposito G, Presbitero P, Santarelli A, Sardella G, Varbella F, Tresoldi S, de Cesare N, Rigattieri S, Zingarelli A, Tosi P, van 't Hof A, Boccuzzi G, Omerovic E, Sabate M, Heg D, Juni P, Vranckx P; MATRIX Investigators. Bivalirudin or Unfractionated Heparin in Acute Coronary Syndromes. N Engl J Med. 2015 Sep 10;373(11):997-1009. doi: 10.1056/NEJMoa1507854. Epub 2015 Sep 1."
+        },
+        {
+          "pmid": "22922414",
+          "type": "BACKGROUND",
+          "citation": "Thygesen K, Alpert JS, Jaffe AS, Simoons ML, Chaitman BR, White HD; Writing Group on the Joint ESC/ACCF/AHA/WHF Task Force for the Universal Definition of Myocardial Infarction; Thygesen K, Alpert JS, White HD, Jaffe AS, Katus HA, Apple FS, Lindahl B, Morrow DA, Chaitman BA, Clemmensen PM, Johanson P, Hod H, Underwood R, Bax JJ, Bonow RO, Pinto F, Gibbons RJ, Fox KA, Atar D, Newby LK, Galvani M, Hamm CW, Uretsky BF, Steg PG, Wijns W, Bassand JP, Menasche P, Ravkilde J, Ohman EM, Antman EM, Wallentin LC, Armstrong PW, Simoons ML, Januzzi JL, Nieminen MS, Gheorghiade M, Filippatos G, Luepker RV, Fortmann SP, Rosamond WD, Levy D, Wood D, Smith SC, Hu D, Lopez-Sendon JL, Robertson RM, Weaver D, Tendera M, Bove AA, Parkhomenko AN, Vasilieva EJ, Mendis S; ESC Committee for Practice Guidelines (CPG). Third universal definition of myocardial infarction. Eur Heart J. 2012 Oct;33(20):2551-67. doi: 10.1093/eurheartj/ehs184. Epub 2012 Aug 24. No abstract available."
+        },
+        {
+          "pmid": "29891620",
+          "type": "BACKGROUND",
+          "citation": "Garcia-Garcia HM, McFadden EP, Farb A, Mehran R, Stone GW, Spertus J, Onuma Y, Morel MA, van Es GA, Zuckerman B, Fearon WF, Taggart D, Kappetein AP, Krucoff MW, Vranckx P, Windecker S, Cutlip D, Serruys PW; Academic Research Consortium. Standardized End Point Definitions for Coronary Intervention Trials: The Academic Research Consortium-2 Consensus Document. Circulation. 2018 Jun 12;137(24):2635-2650. doi: 10.1161/CIRCULATIONAHA.117.029289."
+        },
+        {
+          "pmid": "31116395",
+          "type": "BACKGROUND",
+          "citation": "Urban P, Mehran R, Colleran R, Angiolillo DJ, Byrne RA, Capodanno D, Cuisset T, Cutlip D, Eerdmans P, Eikelboom J, Farb A, Gibson CM, Gregson J, Haude M, James SK, Kim HS, Kimura T, Konishi A, Laschinger J, Leon MB, Magee PFA, Mitsutake Y, Mylotte D, Pocock S, Price MJ, Rao SV, Spitzer E, Stockbridge N, Valgimigli M, Varenne O, Windhoevel U, Yeh RW, Krucoff MW, Morice MC. Defining high bleeding risk in patients undergoing percutaneous coronary intervention: a consensus document from the Academic Research Consortium for High Bleeding Risk. Eur Heart J. 2019 Aug 14;40(31):2632-2653. doi: 10.1093/eurheartj/ehz372."
+        },
+        {
+          "pmid": "28171522",
+          "type": "BACKGROUND",
+          "citation": "Lansky AJ, Messe SR, Brickman AM, Dwyer M, Bart van der Worp H, Lazar RM, Pietras CG, Abrams KJ, McFadden E, Petersen NH, Browndyke J, Prendergast B, Ng VG, Cutlip DE, Kapadia S, Krucoff MW, Linke A, Scala Moy C, Schofer J, van Es GA, Virmani R, Popma J, Parides MK, Kodali S, Bilello M, Zivadinov R, Akar J, Furie KL, Gress D, Voros S, Moses J, Greer D, Forrest JK, Holmes D, Kappetein AP, Mack M, Baumbach A. Proposed Standardized Neurological Endpoints for Cardiovascular Clinical Trials: An Academic Research Consortium Initiative. Eur Heart J. 2018 May 14;39(19):1687-1697. doi: 10.1093/eurheartj/ehx037."
+        },
+        {
+          "pmid": "30703644",
+          "type": "BACKGROUND",
+          "citation": "Frigoli E, Smits P, Vranckx P, Ozaki Y, Tijssen J, Juni P, Morice MC, Onuma Y, Windecker S, Frenk A, Spaulding C, Chevalier B, Barbato E, Tonino P, Hildick-Smith D, Roffi M, Kornowski R, Schultz C, Lesiak M, Iniguez A, Colombo A, Alasnag M, Mullasari A, James S, Stankovic G, Ong PJL, Rodriguez AE, Mahfoud F, Bartunek J, Moschovitis A, Laanmets P, Leonardi S, Heg D, Sunnaker M, Valgimigli M. Design and rationale of the Management of High Bleeding Risk Patients Post Bioresorbable Polymer Coated Stent Implantation With an Abbreviated Versus Standard DAPT Regimen (MASTER DAPT) Study. Am Heart J. 2019 Mar;209:97-105. doi: 10.1016/j.ahj.2018.10.009. Epub 2018 Nov 22."
+        },
+        {
+          "pmid": "42200630",
+          "type": "DERIVED",
+          "citation": "Prado GFA, Beraldo de Andrade P, Garzon Dias Lemos S, Franken M, Oliveira Guimaraes P, de Assis Moura Tavares C, Grunspun Pitta F, Mateus Teixeira Bezerra F, Carlos Bandeira W, Sanali M, Regina Lamas Assis S, Monfardini F, de Carvalho Abrao LC, Coura Rocha R, Mangione F, Arantes Pazolini V, Justi Bertolin A, Antunes M, Serra Silveira F, Nascimento BR, Ohe LN, Ferreira E, Sampaio FBA, Sarmento-Leite R, Wainstein MV, Guedes Bezerra C, Airton Arruda J, Oliveira Almeida B, Paradies V, Mariani Junior J, Alves Lemos Neto P. P2Y12 inhibitor monotherapy versus dual antiplatelet therapy after complex percutaneous coronary intervention in patients with acute coronary syndromes: a NEO-MINDSET trial substudy. EuroIntervention. 2026 Jul 20;22(14):e765-e772. doi: 10.4244/EIJ-D-26-00409."
+        },
+        {
+          "pmid": "41384891",
+          "type": "DERIVED",
+          "citation": "Tavares CAM, Guimaraes PO, Franken M, Junior JM, Lemos S, Almeida BO, Martins EB, Figueiredo EL, da Rocha AM, Soares AA, Marino MA, Paolino B, Santos MO, Caramori PRA, Joaquim RM, Quintella EF, Antonangelo AF, Fonseca AGT, Silveira MS, Fonseca MRD, Monfardini F, Assis SRL, Costa LR, Nicolau JC, Sposito AC, Lopes RD, Onuma Y, Valgimigli M, Angiolillo DJ, Serruys PWJC, Berwanger O, Santos RD, Bacal F, Lemos PA; NEO-MINDSET Trial Investigators. Potent P2Y12 Inhibitor Monotherapy vs DAPT After PCI in Patients With and Without STEMI: The NEO-MINDSET Substudy. J Am Coll Cardiol. 2026 Jan 27;87(3):297-308. doi: 10.1016/j.jacc.2025.10.058. Epub 2025 Nov 18."
+        },
+        {
+          "pmid": "40888723",
+          "type": "DERIVED",
+          "citation": "Guimaraes PO, Franken M, Tavares CAM, Antunes MO, Silveira FS, Andrade PB, Bergo RR, Joaquim RM, Tinoco de Paula JE, Nascimento BR, Pitta FG, Arruda JA, Serpa RG, Ohe LN, Mangione FM, Furtado RHM, Ferreira E, Sampaio FBA, T do Nascimento C, Genelhu LOO, Bezerra CG, Sarmento-Leite R, Maia LN, Oliveira FRA, Wainstein MV, Dall'Orto FTC, Monfardini F, Assis SRL, Nicolau JC, Sposito AC, Lopes RD, Onuma Y, Valgimigli M, Angiolillo DJ, Serruys PWJC, Berwanger O, Bacal F, Lemos PA; NEO-MINDSET Trial Investigators. Early Withdrawal of Aspirin after PCI in Acute Coronary Syndromes. N Engl J Med. 2025 Nov 27;393(21):2095-2106. doi: 10.1056/NEJMoa2507980. Epub 2025 Aug 31."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,402 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04420624",
+      "orgStudyIdInfo": {
+        "id": "RECHMPL18_0459"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-000098-25",
+          "type": "REGISTRY",
+          "domain": "EudraCT"
+        }
+      ],
+      "organization": {
+        "fullName": "University Hospital, Montpellier",
+        "class": "OTHER"
+      },
+      "briefTitle": "COLchicine to Prevent Sympathetic Denervation After an Acute Myocardial Infarction",
+      "officialTitle": "COLchicine to Prevent Sympathetic Denervation After an Acute Myocardial Infarction",
+      "acronym": "COLD-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Inclusion period completed",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-12-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-05-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-05-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-04-29",
+      "studyFirstSubmitQcDate": "2020-06-05",
+      "studyFirstPostDateStruct": {
+        "date": "2020-06-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital, Montpellier",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the benefit of colchicine on induced denervation after myocardial infarction. Patients who have suffered a documented De Novo myocardial infarction and completed a revascularization procedure will receive either colchicine on top of standard therapy, compared to standard therapy alone (1:1 allocation ratio). Colchicine 1mg (or 0.5mg) will be initiated within 48h after percutaneous revascularization and prescribed for one month.",
+      "detailedDescription": "COLD-MI study aims to explore colchicine's impact on myocardial denervation following reperfused acute myocardial infarction. Acute myocardial infarction is the leading cause of heart failure (HF). It induces myocardial denervation predisposing to ventricular rhythm disorders and death. This denervation linked to infarction's size occurs by direct ischaemic mechanisms during the initial coronary occlusion (initially non-vascularised zone) and secondarily by cardiac remodelling in the context of the heart failure (HF). In usual practice, cardiac denervation which intensity is correlated with rhythm and mortality risks, can be evaluated by scintigraphy. In a murine reperfusion model of ischemia, the direct anti-inflammatory effect of colchicine reduces the size of the necrosis and improves post-ischemic remodeling. This suggests that colchicine may reduce myocardial denervation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction, Acute"
+      ],
+      "keywords": [
+        "Myocardial infarction",
+        "Sympathetic denervation",
+        "Heart failure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, phase IIb, monocentric, randomized, open labeled with 2 parallel study arms.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine",
+          "type": "EXPERIMENTAL",
+          "description": "colchicine and standard therapy",
+          "interventionNames": [
+            "Drug: Colchicine"
+          ]
+        },
+        {
+          "label": "Comparator",
+          "type": "NO_INTERVENTION",
+          "description": "standard therapy"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine",
+          "description": "1 mg (or 0.5mg) tablet of colchicine taken once a day for 1 month",
+          "armGroupLabels": [
+            "Colchicine"
+          ],
+          "otherNames": [
+            "no other name"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of myocardial denervation",
+          "description": "assess by MIBG (méta-iodobenzylguanidine)-nuclear cardiac imaging",
+          "timeFrame": "6 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in the heart-to-mediastinum ratio",
+          "description": "The heart-to-mediastinum (H/M) ratio, the heart count normalized for the mediastinum count, is used as a quantitative index in cardiac 123 I-MIBG imaging.",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction in percent",
+          "description": "By transthoracic echocardiogram (TTE)",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction in percent",
+          "description": "By MIBG (méta-iodobenzylguanidine)-nuclear cardiac imaging",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Left Ventricular Ejection Fraction in percent",
+          "description": "By transthoracic echocardiogram (TTE)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Change in Sinus variability",
+          "description": "by 24 hours holter recording : SDNN (Standard Deviation of NN intervals) will be measured",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Change in Sinus variability",
+          "description": "by 24 hours holter recording : SDNN (Standard Deviation of NN intervals) will be measured",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Basic ECG parameters (QRS duration)",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Basic ECG parameters (QRS duration)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Basic ECG parameters (corrected QT)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Basic ECG parameters (corrected QT)",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Number of ventricular extrasystole (2 or 3 VES) per 24 hours on the Holter",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Number of bursts (2 or 3 VES) per 24 hours on the Holter",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Number of bursts (2 or 3 VES) per 24 hours on the Holter",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Number of ventricular or supraventricular tachycardia (>3 VES) episodes per 24 hours",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Number of ventricular or supraventricular tachycardia (>3 VES) episodes per 24 hours",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Time from randomization to death (total mortality)",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Time from randomization to heart failure hospitalization",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Time from randomization to all-cause hospitalization",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of NGF ng/mL",
+          "timeFrame": "Between hospitalization and 1 month"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of NGF ng/mL",
+          "timeFrame": "Between 1 month and 6 months"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of proNGF ng/mL",
+          "timeFrame": "Between hospitalization and 1 month"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of proNGF ng/mL",
+          "timeFrame": "Between 1 month and 6 months"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of BDNF ng/mL",
+          "timeFrame": "Between hospitalization and 1 month"
+        },
+        {
+          "measure": "Variations in the levels of neurotrophic molecular markers",
+          "description": "Concentration of BDNF ng/mL",
+          "timeFrame": "Between 1 month and 6 months"
+        },
+        {
+          "measure": "Biological evaluation of infarction size Creatine PhosphoKinase (CPK)",
+          "description": "Area Under Curve (AUC) of CPK",
+          "timeFrame": "During hospitalization (Day 1 to Day 5)"
+        },
+        {
+          "measure": "Biological evaluation of infarction size (troponin)",
+          "description": "Area Under Curve (AUC) of Troponin",
+          "timeFrame": "During hospitalization (Day 1 to Day 5)"
+        },
+        {
+          "measure": "Post infarction systemic inflammation evaluation",
+          "description": "Concentration of biomarkers from blood : CRP (mg/L)",
+          "timeFrame": "Between hospitalization and 1 month"
+        },
+        {
+          "measure": "Post infarction systemic inflammation evaluation",
+          "description": "Concentration of biomarkers from blood : CRP (mg/L)",
+          "timeFrame": "Between 1 month and 6 months"
+        },
+        {
+          "measure": "Post infarction systemic inflammation evaluation",
+          "description": "Concentration of biomarkers from blood : sST2 (ng/mL)",
+          "timeFrame": "Between hospitalization and 1 month"
+        },
+        {
+          "measure": "Post infarction systemic inflammation evaluation",
+          "description": "Concentration of biomarkers from blood : sST2 (ng/mL)",
+          "timeFrame": "Between 1 month and 6 months"
+        },
+        {
+          "measure": "Infarct size in percentage of left ventricular",
+          "timeFrame": "6 month"
+        },
+        {
+          "measure": "Number of Adverse event",
+          "description": "Comparison of adverse events between 2 arms",
+          "timeFrame": "from randomization to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age from 18 to 80 year old\n* Hospitalization within 12 hours of onset of acute chest pain\n* Patient must have suffered a documented acute myocardial infarction\n* Coronary occlusion on initial angiography (culprit artery with aTIMI (Thrombolysis in Myocardial Infarction) flow 1 or 0)\n* Patient eligible for a revascularization procedure by PTCA (Percutaneous transluminal coronary angioplasty)\n\nExclusion Criteria:\n\n* Patients with a history of myocardial infarction prior to the current episode\n* Patient in cardiogenic shock or with hemodynamic instability\n* Patients with severe hepatic or renal dysfunction (GFR ≤30 mL/min)\n* Pregnant women or women of childbearing age without contraception\n* Treatment with a potent CYP3A4 inhibitor or a P-glycoprotein inhibitor in patients with renal or hepatic impairement\n* Association with macrolides (except spiramycin)\n* Association with pristinamycin",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "UH Montpellier",
+          "city": "Montpellier",
+          "zip": "34090",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38289979",
+          "type": "RESULT",
+          "citation": "Huet F, Mariano-Goulart D, Aguilhon S, Delbaere Q, Lacampagne A, Fauconnier J, Leclercq F, Macia JC, Akodad M, Jammoul N, Prunier F, Mewton N, Angoulvant D, Lozza C, Soltani S, Rodier A, Grandemange S, Dupuy AM, Cristol JP, Amico M, Nagot N, Roubille F. Colchicine to prevent sympathetic denervation after acute myocardial infarction: the COLD-MI trial. Eur Heart J. 2024 Mar 1;45(9):725-727. doi: 10.1093/eurheartj/ehae042. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

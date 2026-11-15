@@ -1,0 +1,303 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01360437",
+      "orgStudyIdInfo": {
+        "id": "PATRASCARDIOLOGY-6"
+      },
+      "organization": {
+        "fullName": "University of Patras",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ticagrelor Versus Prasugrel in Acute Coronary Syndromes After Percutaneous Coronary Intervention",
+      "officialTitle": "Ticagrelor in Comparison to Prasugrel for Inhibition of Platelet Reactivity, in Patients With Acute Coronary Syndrome (ACS) Presenting Resistance to the Usual Clopidogrel Dose After PCI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-05-23",
+      "studyFirstSubmitQcDate": "2011-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2011-05-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-06-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-06-22",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dimitrios Alexopoulos",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Patras"
+      },
+      "leadSponsor": {
+        "name": "University of Patras",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-center, randomized, single-blind, investigator-initiated pharmacological study with a crossover design. Patients with acute coronary syndrome (ST-elevation myocardial infarction, non-ST elevation myocardial infarction, unstable angina) and presenting high on-clopidogrel platelet reactivity as assessed with the VerifyNow assay (platelet reactivity units PRU≥235) 24 hours post percutaneous coronary intervention (PCI), will be randomized after informed consent in a 1:1 ratio to either prasugrel 10mg/d or ticagrelor 90mg twice a day for 15 days. Platelet reactivity assessment will be performed at Day 15±2 days and then a crossover directly to the alternate treatment group for an additional 15 days period, without an intervening washout period will be carried out. Patients will return at Day 30±2 days for platelet reactivity assessment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "coronary angioplasty",
+        "clopidogrel hyporesponsiveness",
+        "prasugrel",
+        "ticagrelor",
+        "CAD",
+        "ACS"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Ticagrelor",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Prasugrel 10mg/day",
+          "armGroupLabels": [
+            "Prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "Ticagrelor 90mg twice a day",
+          "armGroupLabels": [
+            "Ticagrelor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Units (PRU) assessed by VerifyNow (Accumetrics)",
+          "description": "The primary outcome will be assessed 15 days after the onset of each study drug",
+          "timeFrame": "Day 15"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hyporesponsiveness rate (PRU≥235) at the end of the 2 treatment periods",
+          "description": "Hyporesponsiveness rate will be assessed 15 days after the onset of each study drug",
+          "timeFrame": "Day 15"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18 years old\n2. Patients having PCI with stenting 24 hours prior randomization, meeting one of the following criteria :\n\n   * Acute coronary syndrome (unstable angina or myocardial infarction)\n   * TIMI risk score\\>2\n3. Platelet reactivity in PRU ≥235 24 hours post-PCI\n4. Informed consent obtained in writing\n\nExclusion Criteria:\n\n* Treatment with other investigational agents (including placebo) or devices within 30 days prior to randomization or planned use of investigational agents or devices prior to the Day 30 visit.\n* Pregnancy\n* Breastfeeding\n* Inability to give informed consent or high likelihood of being unavailable for the Day 30 follow up.\n* Prior PCI performed within 30 days prior to randomization\n* Cardiogenic shock\n* Major periprocedural complications (death, stent thrombosis, vessel perforation, arrhythmias requiring cardioversion, temporary pacemaker insertion or intravenous antiarrhythmic agents, respiratory failure requiring intubation, vascular injury (pseudoaneurysm, arteriovenous shunt, retroperitoneal bleeding or hematoma \\>5 cm at the arterial catheter insertion site), major bleeding (need for bood transfusion or drop in haemoglobin post-PCI by ≥ 5 gr/ dl or intracranial bleeding).\n* Unsuccessful PCI (residual stenosis \\> 30% or flow \\< ΤΙΜΙ 3) or planned staged PCI in the next 30 days after randomization\n* Requirement for oral anticoagulant prior to the Day 30 visit\n* Current or planned therapy with other thienopyridine class of ADP receptor inhibitors.\n* Known hypersensitivity to prasugrel or ticagrelor\n* History of gastrointestinal bleeding, genitourinary bleeding or other site abnormal bleeding within the previous 6 months.\n* Other bleeding diathesis, or considered by investigator to be at high risk for bleeding on longterm thienopyridine therapy.\n* Any previous history of ischemic stroke, intracranial hemorrhage or disease (neoplasm, arteriovenous malformation, aneurysm).\n* Thombocytopenia (\\<100.000 / μL) at randomization\n* Anaemia (Hct \\<30%) at randomization\n* Polycytaemia (Hct \\> 52%) at randomization\n* Periprocedural IIb/IIIa inhibitors administration\n* Severe allergy to contrast agent, unfractionated heparin, enoxaparin or bivalirudin that cannot be adequately premedicated.\n* Recent (\\< 6 weeks) major surgery or trauma, including GABG.\n* Subjects receiving daily treatment with nonsteroidal anti-inflammatory drugs (NSAIDs) or cyclooxygenase-2 (COX-2) inhibitors that cannot be discontinued for the duration of the study.\n* Concomitant oral or IV therapy with strong CY P3A inhibitors (ketoconazole, itraconazole, voriconazole, telithromycin, clarithromycin, nefazodone, ritonavir, saquinavir, nelfinavir, indinavir, atazana vir, grapefruit juice N1 L/d), CYP3A substrates with narrow therapeutic indices (cyclosporine, quinidine), or strong CYP3A inducers (rifampin /rifampicin, phenytoin, carbamazepine).\n* Increased risk of bradycardiac events.\n* Dialysis required.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Cardiology Department Patras University Hospital",
+          "city": "Rio",
+          "state": "Patras",
+          "zip": "26500",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.29558,
+            "lon": 21.78504
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22789884",
+          "type": "DERIVED",
+          "citation": "Alexopoulos D, Galati A, Xanthopoulou I, Mavronasiou E, Kassimis G, Theodoropoulos KC, Makris G, Damelou A, Tsigkas G, Hahalis G, Davlouros P. Ticagrelor versus prasugrel in acute coronary syndrome patients with high on-clopidogrel platelet reactivity following percutaneous coronary intervention: a pharmacodynamic study. J Am Coll Cardiol. 2012 Jul 17;60(3):193-9. doi: 10.1016/j.jacc.2012.03.050."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

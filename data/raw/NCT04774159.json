@@ -1,0 +1,2227 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04774159",
+      "orgStudyIdInfo": {
+        "id": "LEADER-PAD"
+      },
+      "organization": {
+        "fullName": "Population Health Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Low Dose ColchicinE in pAtients With Peripheral Artery DiseasE to Address Residual Vascular Risk",
+      "officialTitle": "Low Dose ColchicinE in pAtients With Peripheral Artery DiseasE to Address Residual Vascular Risk: A Randomized Trial",
+      "acronym": "LEADER-PAD"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {
+        "date": "2021-05-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-21",
+      "studyFirstSubmitQcDate": "2021-02-24",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Noel Chan",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Population Health Research Institute"
+      },
+      "leadSponsor": {
+        "name": "Population Health Research Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The Low dose ColchicinE in pAtients with peripheral Artery DiseasE to address residual vascular Risk (LEADER-PAD) trial will evaluate if anti-inflammatory therapy with colchicine will reduce vascular events in patients with symptomatic peripheral artery disease.",
+      "detailedDescription": "The LEADER-PAD trial is a randomized, double blind, multicenter trial with an active run-in period, comparing low dose colchicine 0.5 mg daily with placebo in patients with symptomatic peripheral artery disease (PAD) to prevent vascular events (myocardial infarction, stroke, cardiovascular deaths, acute limb ischemia and vascular amputation). The sample size for the trial is 6,150 participants. The primary outcome for the trial is major adverse cardiovascular and limb events (MACE and MALE). This composite outcome consists of cardiovascular death, myocardial infarction, stroke and severe limb ischemia that requires a vascular intervention (i.e., pharmacological reperfusion, endovascular or surgical revascularization) or a major vascular amputation (defined as ankle/transtibial amputation or higher)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Peripheral Arterial Disease",
+        "Atherosclerosis of Extremities",
+        "Inflammation"
+      ],
+      "keywords": [
+        "Acute limb ischemia",
+        "Myocardial Infarction",
+        "Stroke",
+        "Cardiovascular death",
+        "Mortality"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Double blind and use of similarly active and placebo tablets.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Colchicine 0.5mg daily for the duration of the trial",
+          "interventionNames": [
+            "Drug: Colchicine 0.5 MG Oral Tablet"
+          ]
+        },
+        {
+          "label": "Colchicine-Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Colchicine-Placebo daily",
+          "interventionNames": [
+            "Drug: Colchicine-Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine 0.5 MG Oral Tablet",
+          "description": "Colchicine 0.5 mg tablet daily\n\nActive drug and placebo are of the same appearance and are indistinguishable. All investigators, study personnel and patients will be blinded to drug treatment assignment. Trial treatment supplies must be stored in a secure, limited-access location under the storage conditions specified on the IP supply label.",
+          "armGroupLabels": [
+            "Colchicine"
+          ],
+          "otherNames": [
+            "Colchicine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Colchicine-Placebo",
+          "description": "Colchicine-Placebo tablet",
+          "armGroupLabels": [
+            "Colchicine-Placebo"
+          ],
+          "otherNames": [
+            "Colchicine-Placebo tablet"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Major adverse cardiovascular and limb events (MACE or MALE)",
+          "description": "This composite outcome consists of cardiovascular deaths, myocardial infarction, stroke, and severe limb ischemia that requires a vascular intervention (i.e., pharmacological reperfusion, endovascular or surgical revascularization) or a major vascular amputation (defined as ankle/transtibial amputation or higher)",
+          "timeFrame": "3-5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Extended MALE",
+          "description": "This composite outcome includes major adverse limb events (MALE) as well as revascularization for new or worsening claudication of new stenosis or occlusion detected on screening after a previous intervention",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "description": "Death will be classified as cardiovascular or non-cardiovascular. All deaths with a clear cardiovascular or unknown cause will be classified as cardiovascular. Only deaths due to a documented non-cardiovascular cause (e.g., cancer) will be classified as non-cardiovascular.",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "description": "Acute myocardial infarction (AMI) requires evidence of acute myocardial injury with clinical evidence of acute myocardial ischemia",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Stroke",
+          "description": "Stroke requires the presence of acute focal or global\\* neurological dysfunction caused by brain or retinal vascular injury due to primary hemorrhage or infarction.",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Hospitalization",
+          "description": "Admission to hospital for any reason",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Acute or chronic limb-threatening ischemia",
+          "description": "This is defined as an episode severe limb ischemia that requires an acute vascular intervention (i.e., pharmacological reperfusion, endovascular or surgical revascularization) or a major vascular amputation (defined as at ankle or transtibial amputation or higher).",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "All revascularization (coronary or cerebrovascular or lower limb or other peripheral revascularization)",
+          "description": "Defined as coronary or cerebrovascular or lower limb or other peripheral revascularization",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Total vascular amputation",
+          "description": "All vascular amputations",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Overall mortality",
+          "description": "All cause (CV and non CV) deaths",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Any thrombosis or thromboembolism (arterial and venous)",
+          "description": "All arterial and venous thromboembolism",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Fontaine Stage",
+          "description": "This classification system grades the clinical presentation of patients to four stages of PAD",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Standard Assessment of Global Everyday Activities (SAGEA)",
+          "description": "The Standard Assessment of Global Everyday Activities (SAGEA) is a 15 item tool to assess activities of daily living including higher executive function used in social situations, everyday activities and basic activities of daily living. Scores range from 0 to 24 with higher scores indicating poorer function.It is a 15 items questionnaire and the scores will range from 0, describing a very independent participant over a broad spectrum of activities, to 48 describing a very dependent participant",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Vascular Quality of Life Questionnaire-6 (VascQOL-6)",
+          "description": "Six item vascular quality of life instrument: The total score is achieved by summarizing the score on each question, resulting in a score between 6 and 24. Higher value indicates better health status.",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "EuroQol 5 Dimension 5 Level (EQ-5D-5L)",
+          "description": "A survey that measures quality of life across 5 domains. Each domain is scored on a 5-level severity ranking that ranges from \"no problems\" to \"extreme problems\".",
+          "timeFrame": "3-5 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Occurrence of gastrointestinal toxicity (such as diarrhoea, nausea or vomiting) that results in study drug discontinuation",
+          "description": "Safety outcome",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Muscle pain (myalgia or myositis), that results in study drug discontinuation",
+          "description": "Safety outcome",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Infection (e.g., pneumonia) leading to hospitalization",
+          "description": "Safety outcome",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "New diagnosis of cancer",
+          "description": "Safety outcome",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Renal insufficiency (defined as the need for dialysis or kidney transplant)",
+          "description": "Other outcomes of interest",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Neuropathy leading to study drug discontinuation",
+          "description": "Other outcomes of interest",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Neutropenia leading to study drug discontinuation",
+          "description": "Other outcomes of interest",
+          "timeFrame": "3-5 years"
+        },
+        {
+          "measure": "Bleeding",
+          "description": "Other outcomes of interest",
+          "timeFrame": "3-5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Age \\> 18 years\n2. Symptomatic atherosclerotic LE PAD fulfilling at least one of the following:\n\n   a. Intermittent claudication with ankle/arm blood pressure ratio\\* (ABI ≤ 0.90) or artery stenosis ≥ 50% plus one of i. \\>1 vascular bed affected by atherosclerosis ii. Diabetes iii. Heart failure iv. Chronic kidney disease (eGFR \\< 60 mL/min/1.73 m2)\n\n   b. Rest pain (mostly in foot) OR necrosis of limb OR gangrene of limb (corresponding to either Fontaine stages 3 or 4 OR Rutherford Classification categories 4 to 6). All must have an ankle/arm blood pressure ratio\\* (ABI ≤ 0.90) OR artery stenosis ≥ 50%.\n\n   \\* In cases of incompressible ankle arteries, the presence of toe pressure ≤ 60 mm Hg or toe-brachial index ≤ 0.70 is acceptable\n\n   c. Revascularization defined as limb bypass surgery or endovascular revascularization procedures (irrespective of the specific device used), including percutaneous transluminal angioplasty/stent of iliac or infra-inguinal arteries or extra-anatomical bypass surgery\n\n   d. Leg or foot amputation for arterial vascular indications\n3. Written or verbal informed consent from the patient\n\nExclusion Criteria:\n\n1. Contraindication to colchicine\n2. Long term requirement for colchicine for another clinical indication\n3. Active diarrhoea\n4. eGFR \\< 30 mL/min/1.73 m2\n5. Cirrhosis or severe chronic liver disease\n6. Woman who is pregnant, or breast-feeding or of child-bearing potential not protected by reliable contraception or is planning conception during the study\n7. Current or planned long term use of cyclosporine, verapamil, HIV protease inhibitors, azole antifungals, or macrolide antibiotics (with the exception of azithromycin)\n8. Patients who are deemed unlikely to return for follow-up\n9. Patients with life expectancy \\< 1 year",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Noel C Chan, MD",
+          "role": "CONTACT",
+          "phone": "905-521-2100",
+          "phoneExt": "40727",
+          "email": "Noel.Chan@TAARI.CA"
+        },
+        {
+          "name": "Sumathy Rangarajan",
+          "role": "CONTACT",
+          "email": "leaderpad@phri.ca"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Noel C Chan, MD",
+          "affiliation": "Population Health Research Institute, Hamilton, Ontario, Canada",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Yale School of Medicine",
+          "status": "RECRUITING",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06511",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carlos Mena-Hurtado",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Carlos Mena-Hurtado, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "University of Florida - Gainesville",
+          "status": "RECRUITING",
+          "city": "Gainesville",
+          "state": "Florida",
+          "zip": "32611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Samir Shah",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Samir Shah, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          }
+        },
+        {
+          "facility": "Tampa General Hospital",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33606",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sashi Inkollu",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sashi Inkollu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "University of Chicago Medical Center",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60615",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Trissa Babrowski",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Trissa Babrowski, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jeffrey Siracuse, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jeffrey Siracuse, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan Health",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Peter Henke, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Peter Henke, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Henry Ford Health System",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tamer Boules",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tamer Boules, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stanislav Henkin",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Stanislav Henkin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Rutgers University",
+          "status": "RECRUITING",
+          "city": "Newark",
+          "state": "New Jersey",
+          "zip": "07103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Karim Salem",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Karim Salem, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.73566,
+            "lon": -74.17237
+          }
+        },
+        {
+          "facility": "Mount Sinai Medical Center",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Daniella Kadian-Dodov, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Daniella Kadian-Dodov, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of North Carolina at Chapel Hill",
+          "status": "RECRUITING",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katharine McGinigle",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Katharine McGinigle, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Duke Regional Hospital",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27704",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Rymer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jennifer Rymer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Rymer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jennifer Rymer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Moses Cone Hospital",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Franck Azobou Tonleu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Franck Azobou Tonleu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Duke Raleigh Hospital",
+          "status": "RECRUITING",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27609",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Rymer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jennifer Rymer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Ohio State University Wexner Medical Center",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jake Hemingway",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jake Hemingway, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Aaron Aday",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Aaron Aday, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Southwest Family Medicine",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75235",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chrisette Dharma",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Chrisette Dharma, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "University of Texas Southwestern Medical Center",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Josh Beckman",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Josh Beckman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Texas Tech University Health Sciences El Paso",
+          "status": "RECRUITING",
+          "city": "El Paso",
+          "state": "Texas",
+          "zip": "79905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Debarata Mukherjee",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Debarata Mukherjee, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.75872,
+            "lon": -106.48693
+          }
+        },
+        {
+          "facility": "North Dallas Research Associates",
+          "status": "RECRUITING",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75069",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "M. Akram Khan, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "M. Akram Khan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Sentara Norfolk General Hospital",
+          "status": "RECRUITING",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23507",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "David Dexter",
+              "role": "CONTACT"
+            },
+            {
+              "name": "David Dexter, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "University of Washington Medical Center",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jake Hemingway",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jake Hemingway, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Medical College of Wisconsin",
+          "status": "RECRUITING",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mitchell Dyer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mitchell Dyer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Sir Charles Gairdner Hospital",
+          "status": "RECRUITING",
+          "city": "Perth",
+          "state": "Western Australia",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Louise Ferguson",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Shirley Jansen, MBChB",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Eastern Health-Box Hill Hospital",
+          "status": "RECRUITING",
+          "city": "Box Hill",
+          "zip": "3128",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Anthony Dear",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Anthony Dear, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.81887,
+            "lon": 145.12545
+          }
+        },
+        {
+          "facility": "Universitair Ziekenhuis Leuven",
+          "status": "RECRUITING",
+          "city": "Leuven",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Kristine Vanheule",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Thomas Vanassche, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Clínica Procárdio",
+          "status": "RECRUITING",
+          "city": "Blumenau",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Elizabeth Zimmermann",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sergio Zimmermann, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -26.91944,
+            "lon": -49.06611
+          }
+        },
+        {
+          "facility": "Sociedade Hospitalar Angelina Caron",
+          "status": "RECRUITING",
+          "city": "Campina Grande do Sul",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Eliane Sehnem",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dalton Precoma, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -25.30556,
+            "lon": -49.05528
+          }
+        },
+        {
+          "facility": "Hospital Universitário (CoraCentro Pesquisa Clinica)",
+          "status": "RECRUITING",
+          "city": "Canoas",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Andressa Baumbach",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Euler Manenti, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -29.91778,
+            "lon": -51.18361
+          }
+        },
+        {
+          "facility": "Incore",
+          "status": "RECRUITING",
+          "city": "Dois Vizinhos",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Bruna Dotto",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Leonardo Precoma, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -25.73361,
+            "lon": -53.05722
+          }
+        },
+        {
+          "facility": "Via Medica",
+          "status": "RECRUITING",
+          "city": "Goiânia",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Lohana Queiroz",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Weimar Souza, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "Hospital Carlos Fernando Malzoni",
+          "status": "RECRUITING",
+          "city": "Matão",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Lucileni Borin",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Cesar Minelli, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -21.60333,
+            "lon": -48.36583
+          }
+        },
+        {
+          "facility": "Santa Casa de Misericórdia de Ponta Grossa",
+          "status": "RECRUITING",
+          "city": "Ponta Grossa",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Milena Goulart",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mario Costa, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -25.095,
+            "lon": -50.16194
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia do Rio Grande do Sul",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Bruna Machado",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Humberto Vaz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "University of Sao Paulo",
+          "status": "RECRUITING",
+          "city": "São Paulo",
+          "zip": "05403-010",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Ivan Casella",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ivan Casella, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "CPTEM - Centro de Pesquisa e Tecnologia Multidisciplinar",
+          "status": "RECRUITING",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Valeria Almeida",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Fabio Rossi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital Alemão Oswaldo Cruz",
+          "status": "RECRUITING",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "Nathalia Lys Trindade Santos",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kenji Nishinari, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "University of Calgary, Peter Lougheed Centre Vascular Clinic",
+          "status": "RECRUITING",
+          "city": "Calgary",
+          "state": "Alberta",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Emi Sanders",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Caleb Zavitz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "University of Alberta, Mazankowski Heart Institute",
+          "status": "RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Suzanne Welsh",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Robert Welsh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Hamilton General Hospital",
+          "status": "RECRUITING",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Michelle Zondag",
+              "role": "CONTACT",
+              "phone": "905-527-4322",
+              "phoneExt": "40430"
+            },
+            {
+              "name": "Noel Chan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "London Health Sciences Centre",
+          "status": "RECRUITING",
+          "city": "London",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Teresa Novick",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adam Power, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Vascular Health Bronte",
+          "status": "RECRUITING",
+          "city": "Oakville",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Christina Machon",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Beverley Chan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.45011,
+            "lon": -79.68292
+          }
+        },
+        {
+          "facility": "Corcare Cardiovascular Research Inc.",
+          "status": "RECRUITING",
+          "city": "Scarborough Village",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Bev Bozek",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alan Joseph Ricci, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.73899,
+            "lon": -79.22124
+          }
+        },
+        {
+          "facility": "Niagara Health System",
+          "status": "RECRUITING",
+          "city": "St. Catharines",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Kelsey Charlebois",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Blair Leonard, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.17126,
+            "lon": -79.24267
+          }
+        },
+        {
+          "facility": "Sunnybrook Research Institute",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Leslie Summers deLuca",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ahmed Kayssi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de l'Université de Montréal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X-0C1",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Laura Drudi",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Laura Drudi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "CIUSSS du Nord-de-l'île-de-Montréal, Hôpital du Sacré-Cœur-de-Montréal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Guylaine Marcotte",
+              "role": "CONTACT"
+            },
+            {
+              "name": "William Fortin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Centre intégré de santé et de services sociaux du Bas-Saint-Laurent",
+          "status": "RECRUITING",
+          "city": "Rimouski",
+          "state": "Quebec",
+          "zip": "G5L 3N2",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Isabelle Gagnon",
+              "role": "CONTACT"
+            },
+            {
+              "name": "François Caron, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.44879,
+            "lon": -68.52396
+          }
+        },
+        {
+          "facility": "Cardiolife",
+          "status": "RECRUITING",
+          "city": "Quito",
+          "state": "Pichincha",
+          "country": "Ecuador",
+          "contacts": [
+            {
+              "name": "Mayra Sanchez Velez",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mayra Sanchez Velez, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -0.22985,
+            "lon": -78.52495
+          }
+        },
+        {
+          "facility": "Hospital de Especialidades de las Fuerzas Armadas N 1",
+          "status": "RECRUITING",
+          "city": "Quito",
+          "state": "Pichincha",
+          "country": "Ecuador",
+          "contacts": [
+            {
+              "name": "Jose Patricio Lopez Villalba",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jose Patricio Lopez Villalba, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -0.22985,
+            "lon": -78.52495
+          }
+        },
+        {
+          "facility": "UniCarMeDr.D",
+          "status": "RECRUITING",
+          "city": "Quito",
+          "state": "Pichincha",
+          "country": "Ecuador",
+          "contacts": [
+            {
+              "name": "Yan Carlos Duarte Vera",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yan Carlos Duarte Vera, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -0.22985,
+            "lon": -78.52495
+          }
+        },
+        {
+          "facility": "AMCOR",
+          "status": "RECRUITING",
+          "city": "Quito",
+          "country": "Ecuador",
+          "contacts": [
+            {
+              "name": "Ivan Zuleta",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ivan Zuleta, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -0.22985,
+            "lon": -78.52495
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Essen",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Christos Rammos",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Christos Rammos, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Deventer Hospital",
+          "status": "RECRUITING",
+          "city": "Deventer",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "R.B.M. van Tongeren",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bob van Tongeren, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.255,
+            "lon": 6.16389
+          }
+        },
+        {
+          "facility": "Slingeland Hospital",
+          "status": "RECRUITING",
+          "city": "Doetinchem",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "D.M. Scharn",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dirk Scharn, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.965,
+            "lon": 6.28889
+          }
+        },
+        {
+          "facility": "Groene Hart Ziekenhuis",
+          "status": "RECRUITING",
+          "city": "Gouda",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Joris Blok",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joris Blok, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.01667,
+            "lon": 4.70833
+          }
+        },
+        {
+          "facility": "University Medical Center Groningen",
+          "status": "RECRUITING",
+          "city": "Groningen",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "B.R. Saleem",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ben Saleem, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.21917,
+            "lon": 6.56667
+          }
+        },
+        {
+          "facility": "Alrijne Hospital",
+          "status": "RECRUITING",
+          "city": "Leiderdorp",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Boudewijn Brger van der Burg",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Boudewijn Borger van der Burg, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.52917
+          }
+        },
+        {
+          "facility": "Maastricht UMC+",
+          "status": "RECRUITING",
+          "city": "Maastricht",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Barend Mees",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Barend Mees, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "Elisabeth-TweeSteden Ziekenhuis",
+          "status": "RECRUITING",
+          "city": "Tilburg",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Maarten Dinkelman",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Maarten Dinkelman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.55551,
+            "lon": 5.0913
+          }
+        },
+        {
+          "facility": "University Medical Center Utrecht",
+          "status": "RECRUITING",
+          "city": "Utrecht",
+          "country": "Netherlands",
+          "contacts": [
+            {
+              "name": "Martin Teraa",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Martin Teraa, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.09083,
+            "lon": 5.12222
+          }
+        },
+        {
+          "facility": "University Hospital Basel, Angiology",
+          "status": "RECRUITING",
+          "city": "Basel",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Ines Meurer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Daniel Staub, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        },
+        {
+          "facility": "Ospedale Regionale Bellinzona e Valli - Ente Ospedaliero Cantonale",
+          "status": "COMPLETED",
+          "city": "Bellinzona",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.19278,
+            "lon": 9.01703
+          }
+        },
+        {
+          "facility": "HFR Fribourg",
+          "status": "RECRUITING",
+          "city": "Fribourg",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Sandrine Foucras",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rolf Engelberger, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.80237,
+            "lon": 7.15128
+          }
+        },
+        {
+          "facility": "Hôpitaux Universitaires de Genève",
+          "status": "RECRUITING",
+          "city": "Geneva",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Nadège Koffi",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marc Righini, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          }
+        },
+        {
+          "facility": "University Hospital Zurich, Clinic of Angiology",
+          "status": "RECRUITING",
+          "city": "Zurich",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "Rebecca Spescha",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Eliane Probst",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Stefano Barco, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "Royal Sussex County Hospital",
+          "status": "RECRUITING",
+          "city": "Brighton",
+          "state": "England",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Abigail Whyte",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mohamed Elahwal, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.82838,
+            "lon": -0.13947
+          }
+        },
+        {
+          "facility": "Southmead Hospital",
+          "status": "RECRUITING",
+          "city": "Bristol",
+          "state": "England",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Seeve Suppiah",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Robert Hinchliffe, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "Kent and Canterbury Hospital",
+          "status": "RECRUITING",
+          "city": "Canterbury",
+          "state": "England",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Vivian Edobhiye",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sandeep Bahia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.27904,
+            "lon": 1.07992
+          }
+        },
+        {
+          "facility": "Derriford Hospital",
+          "status": "RECRUITING",
+          "city": "Plymouth",
+          "state": "England",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Lisa Shainberg",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Devender Mittapalli, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.37153,
+            "lon": -4.14305
+          }
+        },
+        {
+          "facility": "Pinderfields Hospital",
+          "status": "RECRUITING",
+          "city": "Wakefield",
+          "state": "England",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Martin Sylvester",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Patrick Coughlin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.68331,
+            "lon": -1.49768
+          }
+        },
+        {
+          "facility": "Royal Infirmary Edinburgh",
+          "status": "RECRUITING",
+          "city": "Edinburgh",
+          "state": "Scotland",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Rachael Forsythe",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rachael Forsythe, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "Bradford Teaching Hospital",
+          "status": "RECRUITING",
+          "city": "Bradford",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Kevin Mercer",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kevin Mercer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.79391,
+            "lon": -1.75206
+          }
+        },
+        {
+          "facility": "Cambridge University Hospitals",
+          "status": "RECRUITING",
+          "city": "Cambridge",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Mohammed Chowdhury",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mohammed Chowdhury, MBChB",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          }
+        },
+        {
+          "facility": "Hull Royal Infirmary",
+          "status": "RECRUITING",
+          "city": "Hull",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Ian Chetter",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ian Chetter, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.7446,
+            "lon": -0.33525
+          }
+        },
+        {
+          "facility": "The Leeds Teaching Hospital",
+          "status": "RECRUITING",
+          "city": "Leeds",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Marc Bailey",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marc Bailey, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        },
+        {
+          "facility": "Glenfield Hospital",
+          "status": "RECRUITING",
+          "city": "Leicester",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Badri Vijaynagar",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Badri Vijaynagar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.6386,
+            "lon": -1.13169
+          }
+        },
+        {
+          "facility": "Royal Free London",
+          "status": "RECRUITING",
+          "city": "London",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Janice Tsui",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Janice Tsui, MBBS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "St. George's University Hospitals",
+          "status": "RECRUITING",
+          "city": "London",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Paul Moxey",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Paul Moxey, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "St. Thomas Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Bijan Modarai",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bijan Modarai, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Manchester Royal Infirmary",
+          "status": "RECRUITING",
+          "city": "Manchester",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Tawqeer Rashid",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tawqeer Rashid, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "Norfolk and Norwich University Hospitals",
+          "status": "RECRUITING",
+          "city": "Norwich",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Phil Stather",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Phil Stather, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.62783,
+            "lon": 1.29834
+          }
+        },
+        {
+          "facility": "Sheffield Teaching Hospitals",
+          "status": "RECRUITING",
+          "city": "Sheffield",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Yousef Shahin",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yousef Shahin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.38297,
+            "lon": -1.4659
+          }
+        },
+        {
+          "facility": "University Hospital Southampton",
+          "status": "RECRUITING",
+          "city": "Southampton",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Benjamin Patterson",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Benjamin Patterson, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.90395,
+            "lon": -1.40428
+          }
+        },
+        {
+          "facility": "Royal Cornwall Hospital",
+          "status": "RECRUITING",
+          "city": "Truro",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Abhijeet Patil",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Abijheet Patil, MBBS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.26526,
+            "lon": -5.05436
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D058729",
+          "term": "Peripheral Arterial Disease"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D016491",
+          "term": "Peripheral Vascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

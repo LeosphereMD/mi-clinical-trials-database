@@ -1,0 +1,603 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07146360",
+      "orgStudyIdInfo": {
+        "id": "REV-STEMI-III"
+      },
+      "organization": {
+        "fullName": "AO GENERIUM",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety Study of Proposed Biosimilar Product Reveliza vs Actilise in Patients With ST-segment Elevation Myocardial Infarction",
+      "officialTitle": "A Multi-center, Randomized, Single-blind, Parallel Group Clinical Trial to Evaluate the Efficacy and Safety of the Revelise® (GENERIUM, Russia) as Compared With the Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany) in Patients With Acute Myocardial Infarction With ST-segment Elevation on ECG"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-05-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-11-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-12-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-15",
+      "studyFirstSubmitQcDate": "2025-08-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AO GENERIUM",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Thi is is a multi-center, randomized, single-blind, parallel group clinical trial to evaluate the efficacy and safety of the intravenious thrombolysis with Revelise® (GENERIUM, Russia) in comparosin with the Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany) in patients with acute myocardial infarction (MI) with ST-segment elevation on the electrocardiogram (ECG). The thrombolisis was performed within the period of up to 6 hours and from 6 to 12 hours from the MI symptoms onset.",
+      "detailedDescription": "Revelise®, lyophilizate for solution for infusion, 50 mg, is the proposed biosimilar recombinant human tissue plasminogen activator developed by GENERIUM JSC (Russia).\n\nAll the patients with acute myocardial infurction, enrolled into the study, have been randomised to receive either biosimilar product or a reference produc. The stratification factor was the time from the MI symptoms onset: 1) within the 6 hours and 2) from 6 to 12 hours. Each patient was then followed-up for 3 months, including up to 14 days in an inpatient facility. Coronary angiography was to be performed within the first 24 hours after the administration of the study products, but not earlier than 3 hours after beginning of infusion in case of confirmed thrombolysis (onset of myocardial reperfusion) and immediately - in the absence of reperfusion according to ECG data (ST-segment reduction by less than 50% afterthe infusion start). The patients' condition will be assessed at the scheduled visits."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction (MI)"
+      ],
+      "keywords": [
+        "Acute Myocardial Infarction",
+        "Thrombosis",
+        "Recombinant tissue plasminogen activator",
+        "Acute Coronary Syndrome",
+        "Coronary Syndrome",
+        "Chronic heart failure",
+        "Activated partial thromboplastin time",
+        "New York Heart Association",
+        "Thrombolytic therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Revelise® (GENERIUM, Russia)",
+          "type": "EXPERIMENTAL",
+          "description": "аlteplase",
+          "interventionNames": [
+            "Biological: Revelise (GENERIUM, Russia)"
+          ]
+        },
+        {
+          "label": "Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "аlteplase",
+          "interventionNames": [
+            "Biological: Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Revelise (GENERIUM, Russia)",
+          "description": "1. 90-minute accelerated dosing regimen for patients who can start treatment within 6 hours after the onset of symptoms of acute myocardial infarction (AMI): Initial bolus injection: 15 mg intraveniously (IV) followed by an infusion of 50 mg over 30 minutes and then a subsequent infusion of 35 mg over 60 minutes to reach a maximum total dose of 100 mg.\n\n   \\- For patients less than 65 kg: Initial bolus injection: 15 mg IV - 0.75 mg/kg (maximum 50 mg) over 30 minutes followed by an additional infusion of 0.5 mg/kg (maximum 35 mg) over 60 minutes.\n2. 3-hour dosing regimen for patients who can start treatment between 6 and 12 hours after symptom onset of AMI: Initial bolus injection: 10 mg IV followed by an infusion of 50 mg over 60 minutes and then a subsequent infusion of 40 mg over 120 minutes to achieve a maximum total dose of 100 mg.\n\n   * For patients less than 65 kg: The cumulative dose should not exceed 1.5 mg/kg.",
+          "armGroupLabels": [
+            "Revelise® (GENERIUM, Russia)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany)",
+          "description": "1. 90-minute accelerated dosing regimen for patients who can start treatment within 6 hours after the onset of symptoms of acute myocardial infarction (AMI): Initial bolus injection: 15 mg intraveniously (IV) followed by an infusion of 50 mg over 30 minutes and then a subsequent infusion of 35 mg over 60 minutes to reach a maximum total dose of 100 mg.\n\n   \\- For patients less than 65 kg: Initial bolus injection: 15 mg IV - 0.75 mg/kg (maximum 50 mg) over 30 minutes followed by an additional infusion of 0.5 mg/kg (maximum 35 mg) over 60 minutes.\n2. 3-hour dosing regimen for patients who can start treatment between 6 and 12 hours after symptom onset of AMI: Initial bolus injection: 10 mg IV followed by an infusion of 50 mg over 60 minutes and then a subsequent infusion of 40 mg over 120 minutes to achieve a maximum total dose of 100 mg.\n\n   * For patients less than 65 kg: The cumulative dose should not exceed 1.5 mg/kg.",
+          "armGroupLabels": [
+            "Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial reperfusion rate confirmed by the coronary angiography (CAG)",
+          "description": "Myocardial reperfusion confirmed by the CAG: coronary blood flow TIMI 3 or 2 degrees are considered to be myocardial reperfusion. Grade 3 - normal coronary perfusion: antegrade blood flow and contrast washout distal to the site of obstruction do not differ from those in an unaffected vessel; grade 2 - incomplete coronary perfusion: complete contrasting of the coronary artery distal to the site of obstruction, however, there is a delay in filling of the distal bed or slowdown in contrast washout).",
+          "timeFrame": "In 3 hours after the beginning of IV thrombolysis in case of ECG data of successful reperfusion and immediately - if there is no effect of thrombolysis based on ECG data."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Frequency of percutaneous coronary intervention (PCI)",
+          "description": "Frequency of performing PCI after the intravenous thrombolysis results.",
+          "timeFrame": "During the first day after the intravenous thrombolysis, but not earlier than 3 hours after the start of the infusion in case of coronary reperfusion and immediately in case of nocoronary thrombolysis based on ECG data"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Cardiovascular mortality in the period up to 30 days after acute myocardial infarction",
+          "timeFrame": "Up to 30 days after acute myocardial infarction"
+        },
+        {
+          "measure": "Myocardial reperfusion rate according to ECG data.",
+          "description": "Myocardial reperfusion rate according to ECG data - by ST-segment resolution (reduction) by 30%, 50%, 70% or more than 90 minutes after the beginning of the product administration in patients with acute myocardial infarction for up to 6 hours and by ST-segment resolution (reduction) by 50% or more than 180 minutes after the beginning of the product administration in patients with acute myocardial infarction during the period from 6 to 12 hours from the disease onset. (Resolution of ST segment elevation is calculated as follows: the amount (by leads) of ST segment elevation before therapy (at point J) minus the amount of ST segment elevation after therapy (90 or 180 minutes after the beginning of the product administration) divided by the amount of ST segment elevation before therapy and expressed as a percentage.)",
+          "timeFrame": "90 or 180 minutes after the beginning of the IV thrombolysis."
+        },
+        {
+          "measure": "Overall mortality",
+          "description": "Any cause mortality after acute myocardial infarction",
+          "timeFrame": "Up to 90 days"
+        },
+        {
+          "measure": "Incidence of post-infarction complications",
+          "description": "Incidence of post-infarction complications (true cardiogenic shock, clinical signs of congestive heart failure, acute left ventricular aneurysm, cardiac rupture, early post-infarction angina, recurrent myocardial infarction, brain infarction) during the first 30 days, except the rhythm disturbances",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Incidence of the combined cardiovascular events",
+          "description": "Incidence of the combined cardiovascular events \"death from cardiovascular diseases + recurrence of myocardial infarction + stroke\" and \"death from cardiovascular diseases + recurrence of myocardial infarction + stroke + heart failure\" within 30 and 90 days after the acute myocardial infarction",
+          "timeFrame": "Within 30 and 90 days"
+        },
+        {
+          "measure": "Troponin changes",
+          "description": "Troponin concentration changes during the first 14 days after acute myocardial infarction",
+          "timeFrame": "14 days"
+        },
+        {
+          "measure": "Fibrinogen concentration",
+          "description": "Concentration of fibrinogen in plazma sample",
+          "timeFrame": "Days 1, 2 and 3"
+        },
+        {
+          "measure": "D-dimer concentration",
+          "description": "Concentration of the D-dimer in plazma sample",
+          "timeFrame": "Days 1, 2 and 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age between 18 and 80 years\n2. Acute myocardial infarction with ST-segment elevation on ECG (point J) in 2 or more consecutive leads of more than 0.2 mV in men or more than 0.15 mV in women in leads V2-V3 or more than 0.1 mV in other leads after not more than 12 hours from pain onset (lasting at least 20 minutes) in chest (at the time of screening).\n3. Written informed consent of the patient for participation in the trial and conduction of coronary angiography.\n\nExclusion Criteria:\n\n1\\. Significant bleeding at present or during the previous 6 months, hemorrhagic diathesis.\n\n4\\. Congenital-hereditary hemorrhagic coagulopathy (hemophilia, etc.) in medical history 5. Concomitant administration of oral anticoagulants, for example, warfarin (INR \\> 1.3).\n\n6\\. Surgery of the brain or spinal cord, neoplasms of the brain or spinal cord in past medical history, traumatic brain injury during the last 3 months.\n\n7\\. Intracranial (including subarachnoid) hemorrhage currently or in past medical history.\n\n8\\. Hemorrhagic stroke or stroke of unknown etiology in the anamnesis, suspected hemorrhagic stroke.\n\n9\\. Ischemic stroke or transient ischemic attack during the last 6 months. 10. Severe (systolic blood pressure higher than 185 mmHg or diastolic blood pressure higher than 110 mmHg) uncontrolled hypertension.\n\n11\\. Extensive surgery or significant trauma during the previous 3 weeks (including any injury combined with this acute myocardial infarction).\n\n12\\. Long-term or traumatic cardiopulmonary resuscitation (\\>2 min), delivery during the previous 10 days; recently performed puncture of an incompressible blood vessel (for example, subclavian or jugular vein).\n\n13\\. Bacterial endocarditis, pericarditis. 14. Known arterial aneurysms, defects in arteries or veins' development, suspected aortic dissection.\n\n15\\. Confirmed gastric ulcer or duodenal ulcer during the last 3 months. 16. Known severe liver diseases, including liver failure, cirrhosis, portal hypertension (including esophageal varicose veins dilatation), active hepatitis.\n\n17\\. Acute pancreatitis. 18. Known neoplasm with an increased risk of bleeding. 19. Hypersensitivity to the components of the product, allergic reactions to gentamicin in past medical history.\n\n20\\. Pregnancy or lactation.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Oksana A. Markova, MD",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Regional State Budgetary Healthcare Institution \"Altai Regional Cardiological Dispensary\"",
+          "city": "Barnaul",
+          "state": "Altayskiy Kray",
+          "zip": "656055",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.36199,
+            "lon": 83.72786
+          }
+        },
+        {
+          "facility": "City Budgetary Healthcare Institution of Arkhangelsk Region \"First City Clinical Hospital named after E.E. Volosevich\"",
+          "city": "Arkhangelsk",
+          "state": "Arkhangelskaya oblast",
+          "zip": "163001",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 64.5461,
+            "lon": 40.55183
+          }
+        },
+        {
+          "facility": "SBHI Republican Cardiology Center",
+          "city": "Ufa",
+          "state": "Bashkortostan Republic",
+          "zip": "450106",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.74306,
+            "lon": 55.96779
+          }
+        },
+        {
+          "facility": "State Budgetary Healthcare Institution of Novosibirsk \"City Clinical Hospital No. 2\"",
+          "city": "Novosibirsk",
+          "state": "Novosibirsk Oblast",
+          "zip": "630051",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Municipal Health Care Institution City Clinical Hospital No.4",
+          "city": "Perm",
+          "state": "Perm Krai",
+          "zip": "614107",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 58.01046,
+            "lon": 56.25017
+          }
+        },
+        {
+          "facility": "FSBEI of HVE Mordovia State University named after N.P. Ogarev, Medical Institute, SBHI MR \"City Clinical Hospital No. 3\"",
+          "city": "Saransk",
+          "state": "Respublika Mordoviya",
+          "zip": "430005",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.18485,
+            "lon": 45.17166
+          }
+        },
+        {
+          "facility": "Federal State Budgetary Scientific Institution \"Scientific Research Institute for Complex Issues of Cardiovascular Diseases\"",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "SBHI \"State Budgetary Healthcare Institution of MHD\"",
+          "city": "Moscow",
+          "zip": "101000",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Moscow City State Budgetary Healthcare Institution \"Filatov City Clinical Hospital No. 15 of Moscow Healthcare Department\"",
+          "city": "Moscow",
+          "zip": "111539",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "State Budgetary Healthcare Institution of the city of Moscow \"City Clinical Hospital No. 64 of Moscow Healthcare Department\"",
+          "city": "Moscow",
+          "zip": "117292",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Federally Funded Higher Education Institution \"Russian National Research Medical University named after N.I. Pirogov\" of the Ministry of Health of the Russian Federation",
+          "city": "Moscow",
+          "zip": "117997",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Moscow City State Budgetary Healthcare Institution \"Botkin City Clinical Hospital of Moscow Healthcare Department\"",
+          "city": "Moscow",
+          "zip": "125284",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "SBHI \"CCH No. 81 MHD\"",
+          "city": "Moscow",
+          "zip": "127644",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "SBHI \"Sklifosovsky Research Institute of Emergency Medicine of MHD\"",
+          "city": "Moscow",
+          "zip": "129090",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novosibirsk Region State Budgetary Healthcare Institution \"City Clinical Hospital No. 1\"",
+          "city": "Novosibirsk",
+          "zip": "630047",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Novosibirsk Region State Budgetary Healthcare Institution \"City Clinical Hospital No. 34\"",
+          "city": "Novosibirsk",
+          "zip": "630054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Municipal Budgetary Healthcare Institution \"City Emergency Medical Hospital of Rostov-on-Don\"",
+          "city": "Rostov-on-Don",
+          "zip": "344068",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 47.21997,
+            "lon": 39.70769
+          }
+        },
+        {
+          "facility": "SI \"St. Petersburg Dzhanelidze Research Institute of Emergency Medicine\"",
+          "city": "Saint Petersburg",
+          "zip": "192242",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "St. Petersburg State Budgetary Healthcare Institution \"Pokrovskaya City Hospital\"",
+          "city": "Saint Petersburg",
+          "zip": "199106",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "FSI Saratov Research Institute of Cardiology of Russian medical Technologies",
+          "city": "Saratov",
+          "zip": "410028",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.54048,
+            "lon": 45.9901
+          }
+        },
+        {
+          "facility": "State Healthcare Institution \"City Clinical Hospital No. 12\"",
+          "city": "Saratov",
+          "zip": "410039",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.54048,
+            "lon": 45.9901
+          }
+        },
+        {
+          "facility": "SBHI SC \"Stavropol Regional Clinical Hospital\"",
+          "city": "Stavropol",
+          "zip": "355000",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 45.03442,
+            "lon": 41.9642
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Milto A.S., Kokorin V.A., Markova O.A. et. al. Comparative safety and efficacy study of Russian recombinant tissue plazminogen activator Revelisa® in patients with myocardial infarction. Therapy, 2019; 2 \\[28\\]:42-56",
+          "url": "https://therapy-journal.ru/articles/Sravnitelnoe-issledovanie-effektivnosti-i-bezopasnosti-otechestvennogo-rekombinantnogo-tkanevogo-aktivatora-plazminogena-Reveliza-u-bolnyh-infarktom-m.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D013927",
+          "term": "Thrombosis"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D016769",
+          "term": "Embolism and Thrombosis"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010959",
+          "term": "Tissue Plasminogen Activator"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

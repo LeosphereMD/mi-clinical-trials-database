@@ -1,0 +1,377 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05998525",
+      "orgStudyIdInfo": {
+        "id": "2"
+      },
+      "organization": {
+        "fullName": "Instituto Mexicano del Seguro Social",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Dapagliflozin Effects on Coronary Calcium and Epicardial Fat Assessed by Cardiotomography",
+      "officialTitle": "Dapagliflozin Effects on Coronary Calcium and Epicardial Fat Assessed by Cardiotomography"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-06-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-06-27",
+      "studyFirstSubmitQcDate": "2023-08-16",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Hilda Elizabeth Macías Cervantes",
+        "investigatorTitle": "principal investigator",
+        "investigatorAffiliation": "Instituto Mexicano del Seguro Social"
+      },
+      "leadSponsor": {
+        "name": "Hilda Elizabeth Macías Cervantes",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Calcification of the coronary arteries is a direct sign of atherosclerotic disease of the coronary arteries and has been shown to be a strong predictor of the risk of cardiovascular diseases, including myocardial infarction and/or cardiac death, especially in patients with Diabetes Mellitus type 2. Therefore, there is great interest in pharmacotherapies that improve the rates of cardiovascular complications, and modify the outcomes of this group of patients.\n\nLarge randomized controlled trials with SGLT2 inhibitors in patients with DM2 have shown a clear reduction in cardiovascular events among individuals with atherosclerotic disease. Atherosclerosis imaging allows measurable assessments of disease progression and activity, revealing early signs of potential drug effects. Noninvasive methods are preferred for serial imaging in drug trials due to the potential risks associated with invasive procedures. The coronary artery calcium quantification using the Agatston score is the most widely used method",
+      "detailedDescription": "It is now well recognized that Coronary Artery Disease (CAD) is part of the spectrum of cardiovascular diseases (CVDs) that have common underlying risk factors and may manifest as myocardial infarction, stroke or death.\n\nCAD is a pathological process characterized by the accumulation of atherosclerotic plaque in the epicardial arteries, whether obstructive or non-obstructive; it can have long and stable periods, but it can also become unstable at any time.\n\nIt is unknown whether the high risk provided by the presence of obstructive coronary artery atherosclerotic disease is due to stenosis per se, or due to its correlation with the total burden of atherosclerotic plaque. Studies suggest that calcified atherosclerotic burden, not stenosis, is the main predictor of future events of cardiovascular disease (myocardial infarction and cerebrovascular disease) and death in patients with coronary artery disease.\n\nAtherosclerosis imaging allows measurable assessments of disease progression and activity, revealing early signs of potential drug effects. Non-invasive methods are preferable for serial imaging in drug trials because of the potential risks associated with invasive procedures. High participant dropout rates are also observed when invasive methods are used.\n\nTherefore, coronary artery calcium scanning offers a simple, non-invasive, rapid, and reliable method to quantify coronary calcium, which is pathognomonic for established atherosclerosis. It is a powerful screening tool for asymptomatic patients at low or intermediate risk of CVD, including those with diabetes mellitus, and can potentially improve adherence to lifestyle advice and medication.\n\nCoronary artery calcium can be quantified by non-contrast-enhanced CT using the Agatston score, which is currently the most widely used method. Conceptually, the Agatston score is the sum of the scores for all calcified coronary lesions, representing both the total area and the maximum density of coronary calcification. The area of the lesion is multiplied by the density factor that is determined by pre-defined cut points. The density factor is used so that the regions with higher attenuation contribute more strongly to the final calcium score. A CT attenuation threshold of 130 Hounsfield units (HU) is used for calcium detection, and only contiguous voxels totaling an area greater than 1 mm2 are counted as \"lesions\" to reduce the influence of image noise. Standardized categories have been developed for the calcium score with scores of 0 indicating the absence of calcified plaque, 1 to 10 minimal plaque, 11 to 100 mild plaque, 101 to 400 moderate plaque, and \\> 400 severe plaque.\n\nIn 2017, the Society of Cardiovascular Computed Tomography (SCCT) and the Society of Thoracic Radiology (STR) proposed the CAC-DRS as a way to standardize communication regarding CAC findings on non-contrast-enhanced CT scans. CAC-DRS categories are defined as Ax/Ny, where A represents the Agatston score group (where A0, A1, A2, and A3 represent CAC of 0, CAC of 1-99, CAC of 100-299, and CAC ≥ 300, respectively), and N represents the number of vessels affected by CAC, ranging from 0 to 4 for the major epicardial coronary arteries., respectively), and N represents the number of vessels affected by CAC, which varies from 0 to 4 for the main epicardial coronary arteries."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabete Type 2",
+        "Unstable Angina",
+        "Myocardial Infarction",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "keywords": [
+        "Dapagliflozin",
+        "coronary calcium",
+        "Atherosclerosis",
+        "Myocardial Infarction",
+        "Agatston score"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Any patient presenting with a diagnosis of acute myocardial infarction with and without ST segment elevation will be explained the objective of the study and after performing percutaneous coronary intervention they will be randomized using an excel sheet to one of two groups, the intervention group will receive Dapagliflozin 10 mg every 24 hours and the control group will receive placebo. In both groups, a simple cardiotomography was performed to evaluate the calcium score and epicardial fat at baseline and after 12 months of intervention.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The blinding will be double blind, since neither the patient, the responsible investigator, the radiologists and the one who will perform the statistical analysis will know to which group each patient was assigned.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 54,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10 mg orally every 24 hours for 12 months",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10Mg Tab"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo orally every 24 hours for 12 months",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10Mg Tab",
+          "description": "patients who meet the inclusion criteria and after catheterization will be randomized to receive Dapagliflozin 10 mg every 24 hours and upon dischargetreatment will continue for 12 months",
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ],
+          "otherNames": [
+            "Forxiga"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "patients who meet the inclusion criteria and after catheterization will be randomized to receive a placebo pill 24 hours and upon discharge treatment will continue for 12 months",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Placebo pill"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in the coronary calcium score quantified by Agatston's score using simple coronary tomography. Quantified in agatston units (AU)",
+          "description": "Standardized categories have been developed for the calcium score with scores of 0 indicating the absence of calcified plaque, 1 to 10 minimal plaque, 11 to 100 mild plaque, 101 to 400 moderate plaque, and \\> 400 severe plaque. This is evaluated by the Agatston score. cardiac tomography will be performed on admission prior to hospital discharge and after 12 months of treatment in both groups.",
+          "timeFrame": "A baseline tomography will be performed at the time of randomization and at 12 months of follow-up."
+        },
+        {
+          "measure": "changes in cardiac epicardial fat volume quantified in cm3 and evaluated by simple cardiac tomography.",
+          "description": "Visceral fat depot of the heart and can secrete bioactive molecules that have modulatory effects on the myocardium. Cardiac tomography will be performed on admission prior to hospital discharge and after 12 months of treatment in both groups.",
+          "timeFrame": "A baseline tomography will be performed at the time of randomization and at 12 months of follow-up."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of patients with progression of atherosclerotic disease. The increase in coronary calcium and the increase in epicardial fat after 12 months of treatment will be considered as progression.",
+          "description": "Determine changes in the total burden of atherosclerotic disease with the use of Dapagliflozin",
+          "timeFrame": "A baseline tomography will be performed at the time of randomization and at 12 months of follow-up."
+        },
+        {
+          "measure": "Number of patients with new event of acute myocardial infarction",
+          "description": "Determine the association of the coronary calcium score on the development of acute myocardial infarction in both study groups",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Number of patients with new event of unstable angina",
+          "description": "Determine the association of the coronary calcium score on the development of unstable angina in both study groups",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Mortality due to cardiovascular causes",
+          "description": "During the follow-up of the study, the cause of cardiovascular origin will be taken as that related to acute myocardial infarction or worsening of heart failure",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female patients over 18 years of age\n* Who meet the criteria of the fourth definition of infarction with and without ST segment elevation\n* Known with diabetes mellitus 2 or newly diagnosed diabetes according to ADA criteria\n\nExclusion Criteria:\n\n* Patients diagnosed with Type 1 Diabetes Mellitus\n* Patients on chronic replacement therapy for renal function using peritoneal dialysis or hemodialysis or with GFR less than 30 ml / min / 1.73m2\n* Patients who have recently undergone immunosuppressive therapy\n* Patients with a history of recurrent urinary tract infection\n* Patients known to be allergic to SGLT-2 inhibitors\n* Patients presenting as sudden aborted death.\n* Patients who after percutaneous coronary intervention require orotracheal intubation or present a state of shock",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Unidad Medica de Alta Especialidad No. 1, Bajío",
+          "city": "León",
+          "state": "Guanajuato",
+          "zip": "37260,",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 21.12183,
+            "lon": -101.68253
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31504439",
+          "type": "RESULT",
+          "citation": "Knuuti J, Wijns W, Saraste A, Capodanno D, Barbato E, Funck-Brentano C, Prescott E, Storey RF, Deaton C, Cuisset T, Agewall S, Dickstein K, Edvardsen T, Escaned J, Gersh BJ, Svitil P, Gilard M, Hasdai D, Hatala R, Mahfoud F, Masip J, Muneretto C, Valgimigli M, Achenbach S, Bax JJ; ESC Scientific Document Group. 2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes. Eur Heart J. 2020 Jan 14;41(3):407-477. doi: 10.1093/eurheartj/ehz425. No abstract available."
+        },
+        {
+          "pmid": "11239408",
+          "type": "RESULT",
+          "citation": "Glass CK, Witztum JL. Atherosclerosis. the road ahead. Cell. 2001 Feb 23;104(4):503-16. doi: 10.1016/s0092-8674(01)00238-0. No abstract available."
+        },
+        {
+          "pmid": "33303068",
+          "type": "RESULT",
+          "citation": "Mortensen MB, Dzaye O, Steffensen FH, Botker HE, Jensen JM, Ronnow Sand NP, Kragholm KH, Sorensen HT, Leipsic J, Maeng M, Blaha MJ, Norgaard BL. Impact of Plaque Burden Versus Stenosis on Ischemic Events in Patients With Coronary Atherosclerosis. J Am Coll Cardiol. 2020 Dec 15;76(24):2803-2813. doi: 10.1016/j.jacc.2020.10.021."
+        },
+        {
+          "pmid": "26606676",
+          "type": "RESULT",
+          "citation": "Terasaki M, Hiromura M, Mori Y, Kohashi K, Nagashima M, Kushima H, Watanabe T, Hirano T. Amelioration of Hyperglycemia with a Sodium-Glucose Cotransporter 2 Inhibitor Prevents Macrophage-Driven Atherosclerosis through Macrophage Foam Cell Formation Suppression in Type 1 and Type 2 Diabetic Mice. PLoS One. 2015 Nov 25;10(11):e0143396. doi: 10.1371/journal.pone.0143396. eCollection 2015."
+        },
+        {
+          "pmid": "25937196",
+          "type": "RESULT",
+          "citation": "Hecht HS. Coronary artery calcium scanning: past, present, and future. JACC Cardiovasc Imaging. 2015 May;8(5):579-596. doi: 10.1016/j.jcmg.2015.02.006."
+        },
+        {
+          "pmid": "38000564",
+          "type": "DERIVED",
+          "citation": "Macias-Cervantes HE, Martinez-Ramirez DB, Hinojosa-Gutierrez LR, Cordova-Silva DA, Rios-Munoz JA. Effect of dapagliflozin on epicardial fat volume in patients with acute coronary syndrome assessed by computed tomography. Curr Probl Cardiol. 2024 Feb;49(2):102213. doi: 10.1016/j.cpcardiol.2023.102213. Epub 2023 Nov 23."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The provision of data can be by direct request to the principal investigator",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

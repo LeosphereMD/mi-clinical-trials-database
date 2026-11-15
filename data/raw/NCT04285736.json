@@ -1,0 +1,236 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04285736",
+      "orgStudyIdInfo": {
+        "id": "CL1200"
+      },
+      "organization": {
+        "fullName": "Cairo University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Oral Ivabradine in Patients Presenting With NSTEMI",
+      "officialTitle": "The Efficacy of Oral Ivabradine in Patients Presenting With Acute Non ST-segment Elevation Myocardial Infarction (NSTEMI): Interventional Randomized Parallel Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-02-24",
+      "studyFirstSubmitQcDate": "2020-02-24",
+      "studyFirstPostDateStruct": {
+        "date": "2020-02-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Samar Farghali Farid",
+        "investigatorTitle": "Professor and Head of Clinical Pharmacy Department",
+        "investigatorAffiliation": "Cairo University"
+      },
+      "leadSponsor": {
+        "name": "Cairo University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Heart Institute, Egypt",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to evaluate the beneficial effect of heart rate reduction of oral ivabradine in patients presenting with non ST-segment elevation myocardial infarction (NSTEMI) during acute stage post percutaneous coronary intervention versus conventional treatment.\n\nMaterials and methods: A total of 100 patients admitted to the emergency department, National Heart Institute, Cairo, Egypt were randomized into two groups as follows: Group A: 50 patients with NSTEMI treated with ivabradine (5mg twice daily) in addition to the conventional treatment; Group B: 50 patients with NSTEMI treated with the conventional treatment only. Demographic data, detailed history, clinical examination, chest pain onset, blood pressure, heart rate (HR), temperature and respiratory rate, electrocardiogram (ECG) as well as echocardiography and laboratory investigations were recorded. Patients were monitored for a period of 3-5 days (acute stage)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NSTEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A Ivabradine Group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ivabradine"
+          ]
+        },
+        {
+          "label": "Group B Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Ivabradine",
+            "Drug: Conventional Treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ivabradine",
+          "description": "Ivabradine (5mg twice daily)",
+          "armGroupLabels": [
+            "Group A Ivabradine Group",
+            "Group B Control Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Conventional Treatment",
+          "armGroupLabels": [
+            "Group B Control Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Heart Rate",
+          "description": "Heart Rate Reduction",
+          "timeFrame": "acute stage post percutaneous coronary intervention (3-5 days)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with NSTEMI with normal sinus rhythm and heart rate (HR) more than 70 beats per minute (bpm) and systolic blood pressure (SBP) \\>90 mm Hg undergoing PCI\n\nExclusion Criteria:\n\n* Patients needing urgent cardiac surgery, IV inotropic agents or had a HR less than 60 bpm without any medication.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077550",
+          "term": "Ivabradine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

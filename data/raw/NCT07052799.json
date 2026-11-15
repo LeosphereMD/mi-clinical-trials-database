@@ -1,0 +1,381 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07052799",
+      "orgStudyIdInfo": {
+        "id": "Aspirin Colon Study"
+      },
+      "organization": {
+        "fullName": "Chinese University of Hong Kong",
+        "class": "OTHER"
+      },
+      "briefTitle": "Aspirin Continuation or Interruption in Patients at Moderate Risk for Cardiovascular Events Undergoing Colonoscopy and/or Polypectomy",
+      "officialTitle": "Aspirin Continuation or Interruption in Patients at Moderate Risk for Cardiovascular Events Undergoing Colonoscopy and/or Polypectomy; a Placebo-controlled Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-29",
+      "studyFirstSubmitQcDate": "2025-06-29",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "James Yun-wong Lau, MD",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Chinese University of Hong Kong"
+      },
+      "leadSponsor": {
+        "name": "Chinese University of Hong Kong",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "One in 4 adults between 50 and 80 reports taking regular aspirin. The prevalence of aspirin uses increases with age as well as co-morbid vascular diseases. Patients with cardiovascular diseases are at risk of developing colorectal neoplasms. In patients undergoing screening colonoscopy, interruption of aspirin is believed to be associated with increased cardiovascular events. Continuation of aspirin can however be associated with an increased risk of post-polypectomy bleeding. International guidelines on periendoscopy management recommend the continuation of aspirin based on evidence from cohort studies, mostly retrospective, suggesting that the rate of bleeding is low. Cardiovascular complications from aspirin interruption can lead to disabilities and occasional deaths. The cardiovascular risks following aspirin continuation or interruption in endoscopy have not been well studied. There has been no randomized study to compare either strategy. Endoscopists are divided on their opinion on whether to stop or to continue aspirin. The proposed large randomized controlled trial (RCT) is powered to detect small differences in both outcomes. Findings from this RCT will address this important question and inform our clinical practice.",
+      "detailedDescription": "Aspirin is commonly prescribed to patients for protection against cardiovascular diseases.In 2019, the prevalence of aspirin use was 35.6% in the US. Patients with vascular diseases are at increased risk of having colorectal neoplasms and therefore often undergo screening colonoscopy and possible polypectomy. The management of aspirin before and after colonoscopy and polypectomy has been a contentious subject. The updated British Society of Gastroenterologists (BSG) and ESGE guidelines recommend continuing aspirin except for ESD and EMR \\> 2cm. The recommendation is based on the low rate of bleeding complications in large cohort studies. In a BSG audit of 20085 colonoscopies in the UK, 52 (0.26%) cases of bleeding were reported. In the English National Bowel Cancer Screening Programme, 69,028 underwent polypectomy.The overall rate of PPB was 1.14% (4). In large series mostly retrospective (\\> 1000 polypectomies), delayed PPB varied from 0.6 to 2.2 %, and the mean time to onset of bleeding was 4.0 ± 2.9 days (5). The use of aspirin did not emerge to be a factor predicting delayed bleeding. The evidence for continuing aspirin to reduce CV events is conflicting. In an early trial (6) on 220 subjects undergoing non-cardiac surgery, aspirin continuation was associated with a 7.2% risk reduction in postoperative major adverse cardiac events. In the STRATAGEM trial that enrolled 291 patients undergoing general surgery, no difference in thrombotic or bleeding events was observed between groups.The POISE-2 trial was considered the most definitive. It was a placebo-controlled trial that studied patients undergoing again noncardiac surgery, 351 of 4998 patients (7.0%) in the aspirin group and 355 of 5012 patients (7.1%) in the placebo group reached the primary outcome endpoint (death or non-fatal infarcts). Major bleeding was more common in the aspirin group (4.6% vs. 3.8%, P=0.04).Continuation of aspirin was associated with a higher risk of bleeding but did not protect against CV events. There exist variations in clinical practice. A survey of endoscopy centres in the U.S. showed that 44% of endoscopy units recommend continuing aspirin, 33% recommend stopping aspirin and 24% suggest that patients seek advice from a physician. Many endoscopists are concerned about post-polypectomy bleeding and its associated medico-legal risks. In the context of colonoscopy and polypectomy, there has been no randomized comparison between the two strategies of continuing or withholding aspirin. The investigators therefore undertake an RCT to compare cardiovascular and bleeding outcomes in patients undergoing colonoscopy with/without polypectomy. The investigators are planning a large RCT sufficiently powered to detect small differences in these outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction (MI)",
+        "Cardiovascular Events",
+        "Post Polypectomy Bleeding in Antiplatelet Patients"
+      ],
+      "keywords": [
+        "Aspirin continuation or interruption",
+        "polypectomy",
+        "cardiovascular events"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2514,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "aspirin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "8-day (-5, +3) supply of aspirin 80mg before and after colonoscopy",
+          "interventionNames": [
+            "Drug: Aspirin 80mg"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "8-day (-5, +3) supply of placebo 80mg before and after colonoscopy",
+          "interventionNames": [
+            "Drug: Placebo Oral Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Aspirin 80mg",
+          "description": "8-day (-5, +3) supply of aspirin 80mg before and after colonoscopy",
+          "armGroupLabels": [
+            "aspirin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo Oral Tablet",
+          "description": "8-day (-5, +3) supply of placebo before and after colonoscopy",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "cardiovascular events",
+          "description": "cardiovascular events defined according to the Antithrombotic Trialists' criteria (nonfatal myocardial infarction, nonfatal stroke, or death from a vascular cause)",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "major bleeding during colonoscopy",
+          "description": "major bleeding during colonoscopy defined as bleeding requiring transfusion, angiographic embolization, or surgery. PPB is defined by bleeding after withdrawal of the colonoscope",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "mortality by all causes",
+          "description": "mortality by all causes",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients receiving aspirin (80mg daily or more) for secondary prevention against cardiovascular diseases who require elective colonoscopy for colorectal cancer screening.\n\nExclusion Criteria:\n\n* patients who received a coronary stent of any type within 6 months\n* patients who had a cardiovascular event within 3 months\n* patients who had concurrent use of anticoagulants (warfarin or NOAC) or other antiplatelet drugs (P2Y12 receptor antagonists)\n* patient with bleeding diathesis e.g., hemophilia, von Willebrand's disease or coagulopathy from liver cirrhosis\n* patient with terminal malignancies or medical illnesses.\n* patient who is unable or refuse to give consents",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "James Yun Wong Lau, MD",
+          "role": "CONTACT",
+          "phone": "+85235051445",
+          "phoneExt": "1411",
+          "email": "laujyw@surgery.cuhk.edu.hk"
+        },
+        {
+          "name": "Cecilia Chan, PhD",
+          "role": "CONTACT",
+          "phone": "35052640",
+          "phoneExt": "2640",
+          "email": "ceciliachan@surgery.cuhk.edu.hk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "James Yun Wong Lau, MD",
+          "affiliation": "Chinese University of Hong Kong",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Prince of Wales Hospital",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "contacts": [
+            {
+              "name": "James Lau, MD",
+              "role": "CONTACT",
+              "phone": "852-35051445",
+              "phoneExt": "1411",
+              "email": "laujyw@surgery.cuhk.edu.hk"
+            },
+            {
+              "name": "Cecilia Chan, PhD",
+              "role": "CONTACT",
+              "phone": "852-35052640",
+              "phoneExt": "2640",
+              "email": "ceciliachan@surgery.cuhk.edu.hk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38670139",
+          "type": "RESULT",
+          "citation": "Ferlitsch M, Hassan C, Bisschops R, Bhandari P, Dinis-Ribeiro M, Risio M, Paspatis GA, Moss A, Libanio D, Lorenzo-Zuniga V, Voiosu AM, Rutter MD, Pellise M, Moons LMG, Probst A, Awadie H, Amato A, Takeuchi Y, Repici A, Rahmi G, Koecklin HU, Albeniz E, Rockenbauer LM, Waldmann E, Messmann H, Triantafyllou K, Jover R, Gralnek IM, Dekker E, Bourke MJ. Colorectal polypectomy and endoscopic mucosal resection: European Society of Gastrointestinal Endoscopy (ESGE) Guideline - Update 2024. Endoscopy. 2024 Jul;56(7):516-545. doi: 10.1055/a-2304-3219. Epub 2024 Apr 26."
+        },
+        {
+          "pmid": "11786451",
+          "type": "RESULT",
+          "citation": "Antithrombotic Trialists' Collaboration. Collaborative meta-analysis of randomised trials of antiplatelet therapy for prevention of death, myocardial infarction, and stroke in high risk patients. BMJ. 2002 Jan 12;324(7329):71-86. doi: 10.1136/bmj.324.7329.71."
+        },
+        {
+          "pmid": "25975531",
+          "type": "RESULT",
+          "citation": "Robbins R, Tian C, Singal A, Agrawal D. Periprocedural management of aspirin during colonoscopy: a survey of practice patterns in the United States. Gastrointest Endosc. 2015 Nov;82(5):895-900. doi: 10.1016/j.gie.2015.03.1976. Epub 2015 May 12."
+        },
+        {
+          "pmid": "24679062",
+          "type": "RESULT",
+          "citation": "Devereaux PJ, Mrkobrada M, Sessler DI, Leslie K, Alonso-Coello P, Kurz A, Villar JC, Sigamani A, Biccard BM, Meyhoff CS, Parlow JL, Guyatt G, Robinson A, Garg AX, Rodseth RN, Botto F, Lurati Buse G, Xavier D, Chan MT, Tiboni M, Cook D, Kumar PA, Forget P, Malaga G, Fleischmann E, Amir M, Eikelboom J, Mizera R, Torres D, Wang CY, VanHelder T, Paniagua P, Berwanger O, Srinathan S, Graham M, Pasin L, Le Manach Y, Gao P, Pogue J, Whitlock R, Lamy A, Kearon C, Baigent C, Chow C, Pettit S, Chrolavicius S, Yusuf S; POISE-2 Investigators. Aspirin in patients undergoing noncardiac surgery. N Engl J Med. 2014 Apr 17;370(16):1494-503. doi: 10.1056/NEJMoa1401105. Epub 2014 Mar 31."
+        },
+        {
+          "pmid": "21873632",
+          "type": "RESULT",
+          "citation": "Mantz J, Samama CM, Tubach F, Devereaux PJ, Collet JP, Albaladejo P, Cholley B, Nizard R, Barre J, Piriou V, Poirier N, Mignon A, Schlumberger S, Longrois D, Aubrun F, Farese ME, Ravaud P, Steg PG; Stratagem Study Group. Impact of preoperative maintenance or interruption of aspirin on thrombotic and bleeding events after elective non-cardiac surgery: the multicentre, randomized, blinded, placebo-controlled, STRATAGEM trial. Br J Anaesth. 2011 Dec;107(6):899-910. doi: 10.1093/bja/aer274. Epub 2011 Aug 27."
+        },
+        {
+          "pmid": "20150346",
+          "type": "RESULT",
+          "citation": "Oscarsson A, Gupta A, Fredrikson M, Jarhult J, Nystrom M, Pettersson E, Darvish B, Krook H, Swahn E, Eintrei C. To continue or discontinue aspirin in the perioperative period: a randomized, controlled clinical trial. Br J Anaesth. 2010 Mar;104(3):305-12. doi: 10.1093/bja/aeq003."
+        },
+        {
+          "pmid": "35028736",
+          "type": "RESULT",
+          "citation": "Valvano M, Fabiani S, Magistroni M, Mancusi A, Longo S, Stefanelli G, Vernia F, Viscido A, Romano S, Latella G. Risk of colonoscopic post-polypectomy bleeding in patients on single antiplatelet therapy: systematic review with meta-analysis. Surg Endosc. 2022 Apr;36(4):2258-2270. doi: 10.1007/s00464-021-08975-0. Epub 2022 Jan 13."
+        },
+        {
+          "pmid": "28753697",
+          "type": "RESULT",
+          "citation": "Derbyshire E, Hungin P, Nickerson C, Rutter MD. Post-polypectomy bleeding in the English National Health Service Bowel Cancer Screening Programme. Endoscopy. 2017 Sep;49(9):899-908. doi: 10.1055/s-0043-113442. Epub 2017 Jul 28."
+        },
+        {
+          "pmid": "22661458",
+          "type": "RESULT",
+          "citation": "Gavin DR, Valori RM, Anderson JT, Donnelly MT, Williams JG, Swarbrick ET. The national colonoscopy audit: a nationwide assessment of the quality and safety of colonoscopy in the UK. Gut. 2013 Feb;62(2):242-9. doi: 10.1136/gutjnl-2011-301848. Epub 2012 Jun 1."
+        },
+        {
+          "pmid": "34362780",
+          "type": "RESULT",
+          "citation": "Veitch AM, Radaelli F, Alikhan R, Dumonceau JM, Eaton D, Jerrome J, Lester W, Nylander D, Thoufeeq M, Vanbiervliet G, Wilkinson JR, Van Hooft JE. Endoscopy in patients on antiplatelet or anticoagulant therapy: British Society of Gastroenterology (BSG) and European Society of Gastrointestinal Endoscopy (ESGE) guideline update. Gut. 2021 Sep;70(9):1611-1628. doi: 10.1136/gutjnl-2021-325184."
+        },
+        {
+          "pmid": "34632437",
+          "type": "RESULT",
+          "citation": "Boakye E, Uddin SMI, Obisesan OH, Osei AD, Dzaye O, Sharma G, McEvoy JW, Blumenthal R, Blaha MJ. Aspirin for cardiovascular disease prevention among adults in the United States: Trends, prevalence, and participant characteristics associated with use. Am J Prev Cardiol. 2021 Sep 22;8:100256. doi: 10.1016/j.ajpc.2021.100256. eCollection 2021 Dec."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

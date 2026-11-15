@@ -1,0 +1,344 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06318481",
+      "orgStudyIdInfo": {
+        "id": "IRB-80/2023"
+      },
+      "organization": {
+        "fullName": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      },
+      "briefTitle": "TADCLOT- a Double Blind Randomized Controlled Trial",
+      "officialTitle": "Twice a Day Clopidogrel vs Ticagrelor in Reducing Major Cardiac Events in Patients With Acute STEMI Undergoing Primary Percutaneous Intervention- TADCLOT- a Double Blind Randomized Controlled Trial",
+      "acronym": "TADCLOT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-02-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-20",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-07",
+      "studyFirstSubmitQcDate": "2024-03-15",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Professor Abdul Hakeem",
+        "investigatorTitle": "Professor of Cardiology",
+        "investigatorAffiliation": "National Institute of Cardiovascular Diseases, Pakistan"
+      },
+      "leadSponsor": {
+        "name": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "PharmEvo Pvt Ltd",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Compare the safety and efficacy of a twice-daily Clopidogrel regimen vs. Ticagrelor in reducing major adverse events in patients undergoing primary PCI in a double-blind randomized controlled trial.",
+      "detailedDescription": "Following primary percutaneous coronary intervention (PCI) for acute ST elevation myocardial infarction (STEMI), there persists an elevated risk of adverse events. Recent American College of Cardiology National cath data registry underscores the severity of this issue, revealing a substantial cumulative death rate of 18.5% and a major adverse cardiac events (MACE) risk of 24.4% within the first year of PCI. The critical first 30 days of PCI present a heightened susceptibility to stent thrombosis (ST), particularly in patients with STEMI, thereby necessitating vigilant clinical oversight. Based on the clinical presentation, the risk of ST within the first month varies such that patients with myocardial infarction have a 4.5 fold higher risk compared to non ACS patients. After 30 days, the risk of ST continues to progressively go down such that there is no longer a differences in the risk of ST between ACS and non ACS patients. Additionally, an elevated ST risk in patients with MI within 30 days is largely confined to those with high platelet reactivity (which is significantly more prevalent in ACS patients) on Clopidogrel (HR: 5.77; 95% CI: 2.13 to 15.63; p= 0.001).\n\nThe substantial challenges faced by post- primary PCI patients are further underscored by the national institute of cardiovascular diseases (NICVD) data, which has emerged as the world's largest primary PCI center. A reported stent thrombosis rate of 4.9% correlates with a considerable risk of morbidity and mortality, approximating 40%. Additionally, randomized clinical trials have reported mortality rates as high as 50% in patients with early (within 1 month of the procedure) stent thrombosis.\n\nWhile randomized trials have demonstrated the superior efficacy of Ticagrelor over Clopidogrel in high-risk STEMI cohort enshrining them in current practice guidelines, pragmatic clinical practices persist in favoring the routine utilization of Clopidogrel, primarily due to economic considerations. This deviation from evidence-based recommendations is exacerbated by the widespread adoption of a twice-daily Clopidogrel regimen, substantiated by post hoc analyses indicating enhanced outcomes at thirty days compared to a once-daily standard dose. Meta-analytical evidence further supports this approach, revealing a significant reduction in adverse events with a 150mg dose of Clopidogrel, albeit accompanied by a marginal increase in the risk of minor bleeding. Interestingly, there is dearth of randomized evaluation of the more potent P2Y12 inhibitors including Ticagrelor against a twice daily Clopidogrel regimen, underscoring the need for rigorous scientific scrutiny. Complicating this landscape is the disproportionately higher prevalence of CYP2C19 mutations among South Asian populations, contributing to a nearly six fold increased risk of Clopidogrel non-responsiveness and a three folds higher odds of recurrent MI.\n\nThis genetic predisposition potentially exacerbates the heightened vulnerability to stent thrombosis and recurrent myocardial infarction observed within this demographic.\n\nDespite South Asia harboring over a quarter of the global population, shouldering a significant burden of coronary artery disease (CAD), and with millions of South Asians residing in the US and Europe, contributing substantially to the global landscape of adverse cardiac events, this population has been markedly underrepresented in pivotal clinical trials of antiplatelet therapy. This underrepresentation not only impedes the generalizability of trial findings but also creates a critical knowledge gap in tailoring effective therapeutic strategies for this high-risk population.\n\nIn light of these intricate challenges and the unique genetic landscape of South Asians, there arises a clear imperative for a methodical, evidence-based evaluation of antiplatelet regimens, including the prevalent twice-daily Clopidogrel against the recommended twice daily Ticagrelor. This imperative is not only essential for the immediate well-being of diverse populations but also holds profound implications for global cardiovascular care influenced by the unique genetic characteristics of South Asians. Addressing these complexities mandates dedicated research efforts, ensuring equitable representation and fostering tailored therapeutic approaches for high-risk populations. Ultimately, such endeavors propel the frontiers of precision medicine in the nuanced realm of post-PCI care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Stent Thrombosis",
+        "Myocardial Infarction, Acute"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Care provider and investigator are same so both are blinded in the trial.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2200,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will be provided ticagrelor twice daily for first 30 days after primary PCI.",
+          "interventionNames": [
+            "Drug: Ticagrelor 90 MG"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will be provided clopidogrel twice daily for first 30 days after primary PCI.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90 MG",
+          "description": "Patients in the treatment group will receive Ticagrelor 180 mg as a loading dose and 90 mg twice daily as a maintenance dose for 30 days. After 30-day doses will be according to standards clinical practice guidelines.",
+          "armGroupLabels": [
+            "Treatment Group"
+          ],
+          "otherNames": [
+            "antiplatelet"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Patients in the control group will receive Clopidogrel 600 mg as a loading dose and 75 mg twice daily as a maintenance dose for 30 days. After 30-day doses will be according to standards clinical practice guidelines.",
+          "armGroupLabels": [
+            "Control Group"
+          ],
+          "otherNames": [
+            "antiplatelet"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Evaluation of efficacy and safety",
+          "description": "Primary outcome measure is the difference in the composite of clinical events between the groups. Number of participants with death, recurrent myocardial infarction, stent thrombosis ,target lesion revascularization, and stroke.",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary endpoint",
+          "description": "Individual components of primary outcome including the number of participants with death, myocardial infarction, stent thrombosis and target lesion revasularization. Number of participants with Major and minor bleeding between the two groups and percentage of partiipants with discontinuation of drug due to side effects.",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ST-segment elevation ≥1 mm in ≥ 2 contiguous ECG leads or New or presumably New left bundle branch block\n* Age ≥18 years\n* Written informed consent\n\nExclusion Criteria:\n\n* Patients with STEMI secondary to stent thrombosis or index event being a complication of PCI within 30 days\n* Thrombolytic therapy \\<24 hours\n* Platelet count \\< 100,000 and Hemoglobin \\<10 gm/dl\n* Pregnancy or lactation\n* Moderate to severe hepatic impairment\n* Patients with advanced CKD and those on hemodialysis\n* Recent ICH or major bleed requiring transfusion\n* Inability to give informed consent\n* Participation in another study\n* Inability to fulfill protocol (living outside the city etc.)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Abdul Hakeem",
+          "affiliation": "NICVD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Institute of Cardiovascular Diseases",
+          "city": "Karachi",
+          "state": "Sindh",
+          "zip": "755000",
+          "country": "Pakistan",
+          "geoPoint": {
+            "lat": 24.8608,
+            "lon": 67.0104
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40892606",
+          "type": "DERIVED",
+          "citation": "Hakeem A, Shah JA, Kumar R, Ali A, Lakho AA, Zeeshan H, Uddin MI, Khan K, Solangi B, Kumar M, Kumar M, Awan R, Ishaq H, Farooq F, Haq EU, Hameed A, Lehri WA, Zada S, Ali A, Raza A, Masood S, Humza A, Karim M; TADCLOT Investigators. Twice-Daily Clopidogrel vs Ticagrelor to Reduce Short-Term Major Adverse Cardiovascular Events After Primary Percutaneous Coronary Intervention: The TADCLOT Trial. J Am Coll Cardiol. 2025 Dec 9;86(23):2330-2345. doi: 10.1016/j.jacc.2025.08.041. Epub 2025 Aug 30."
+        },
+        {
+          "pmid": "40228593",
+          "type": "DERIVED",
+          "citation": "Hakeem A, Ali Shah J, Kumar R, Khan K, Zeeshan H, Lakho AA, Ali A, Uddin MI, Solangi B, Kumar M, Kumar M, Awan R, Dilawar F, Ishaq H, Farooq F, Ul Haq E, Hameed A, Lehri WA, Zada S, Raza A, Masood S, Humza A, Karim M. Rationale and design of the TADCLOT trial: A double blind randomized controlled trial comparing twice a day clopidogrel vs ticagrelor in reducing major cardiac events in patients with acute STEMI undergoing primary percutaneous coronary intervention. Am Heart J. 2025 Sep;287:141-150. doi: 10.1016/j.ahj.2025.03.021. Epub 2025 Apr 12."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

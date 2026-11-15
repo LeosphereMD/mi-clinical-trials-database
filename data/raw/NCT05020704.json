@@ -1,0 +1,295 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05020704",
+      "orgStudyIdInfo": {
+        "id": "GN21CA051"
+      },
+      "organization": {
+        "fullName": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "briefTitle": "EMpagliflozin to PREvent worSening of Left Ventricular Volumes and Systolic Function After Myocardial Infarction",
+      "officialTitle": "EMpagliflozin to PREvent worSening of Left Ventricular Volumes and Systolic Function After Myocardial Infarction",
+      "acronym": "EMPRESS-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-09-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-06-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-06-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-08-19",
+      "studyFirstSubmitQcDate": "2021-08-19",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NHS Greater Glasgow and Clyde",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Glasgow",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The addition of the SGLT2 inhibitor empagliflozin 10mg once daily to standard-of-care therapy administered early following acute myocardial infarction will result in a greater attenuation of adverse left ventricular remodelling, compared with matched placebo, in patients with left ventricular systolic dysfunction as a result of an acute myocardial infarction.",
+      "detailedDescription": "To date, the administration of an SGLT2i has not been proven to improve outcomes when commenced in patients immediately after acute myocardial infarction. In the EMPA-REG OUTCOME trial, which only studied patients with type 2 diabetes, patients were excluded from enrolment if they had had a myocardial infarction in the two months prior to randomisation. Similarly, in the EMPEROR-Reduced trial, patients who had had a myocardial infarction within the previous 90 days were excluded. Two trials are currently examining the effect of the addition of an SGLT2i to standard therapy on outcomes in patients following myocardial infarction; DAPA-MI (ClinicalTrials.gov unique identifier NCT04564742) and EMPACT-MI (NCT04509674).\n\nGiven the observed benefits in patients with and without diabetes in EMPEROR-Reduced and DAPA-HF, the investigators will recruit all patients irrespective of diabetes status in the present trial.\n\nThe dose (10mg once daily) of empagliflozin is based on the dose used in licensed indications and the clinical benefit and safety results seen with this dose in EMPEROR-Reduced and EMPA-REG OUTCOME.\n\nCardiac MRI is the reference method of assessment of LV mass, volumes and ejection fraction. It has the additional benefit of allowing assessment of myocardial viability, tissue characterisation, myocardial fibrosis and regional dysfunction. LVESVI has been shown to be a major determinant of survival after myocardial infarction. The degree of LV remodelling and effect of treatment will be measured by the primary endpoint of the change in LVESVI from baseline to 24 +/- 4 weeks Microvascular obstruction within the infarct core is independently associated with an adverse prognosis, and the magnitude of this association is greater than for infarct size. The investigators research in the British Heart Foundation MR-MI study (NCT02072850) highlighted the complex nature of microvascular obstruction in post-MI patients and, to date, there are no evidence-based treatments for this problem. Microvascular obstruction and, relatedly, myocardial haemorrhage, are associated with adverse left ventricular remodelling, and, potentially, these infarct core microvascular pathologies represent a therapeutic target for limiting adverse left ventricular remodelling.\n\nMyocardial inflammation is a characteristic feature of acute myocardial infarction. However, dysregulation of myocardial inflammation, particularly in ventricular tissue that is remote from the infarct zone, may lead to enhanced tissue fibrosis and adverse left ventricular remodelling. In the BHF MR-MI study, we found that an imaging biomarker of inflammation (T1) was independently predictive of adverse left ventricular remodelling at 6 months post-MI. The investigators also found that extracellular volume fraction (ECV) was also associated with adverse remodelling.\n\nRenal dysfunction early post-MI is an adverse prognostic marker. SGLT2i have favourable effects on renal function in patients with chronic kidney disease with and without type 2 diabetes mellitus and/or HFrEF. The effects of SGLT2i on renal function in post-MI patients are uncertain.\n\nThe investigators will therefore assess the effects of SGLT2i with empagliflozin on renal function (estimated glomerular filtration rate, urine creatinine: albumin ratio) and renal tissue characteristics revealed by MRI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Double blind",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "empagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "empagliflozin 10mg once daily",
+          "interventionNames": [
+            "Drug: Empagliflozin 10 MG"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "matched placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Empagliflozin 10 MG",
+          "description": "SGLT2inhibitor",
+          "armGroupLabels": [
+            "empagliflozin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matched placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Left ventricular end-systolic volume indexed to body surface area (LVESVI)",
+          "description": "Change in left ventricular end-systolic volume measured by cardiac MR measured in ml/m2",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in left ventricular end-diastolic volume indexed to body surface area (LVEDVI)",
+          "description": "Change in left ventricular end-diastolic volume indexed to body surface area (LVEDVI) measured by cardiac MR in ml/m2",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in left ventricular ejection fraction (LVEF)",
+          "description": "Change in left ventricular ejection fraction (LVEF) measured by cardian MR in percentage",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in left atrial volume indexed to body surface area (LAVI)",
+          "description": "Change in left atrial volume indexed to body surface area (LAVI) measured by cardiac MR in ml/m2",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in left ventricular mass indexed to body surface area (LVMI)",
+          "description": "Change in left ventricular mass indexed to body surface area (LVMI) measured by cardiac MR in grams/m2",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in N-terminal pro-B-type natriuretic peptide",
+          "description": "Change in N-terminal pro-B-type natriuretic peptide measured in pg/ml",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in high-sensitivity troponin I",
+          "description": "Change in high-sensitivity troponin I in ng/ml",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Change in infarct size",
+          "description": "Change in infarct size measured by cardiac MR in cm2",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* • Male or female ≥18 years of age\n\n  * Informed consent\n  * Diagnosis of a type 1 acute myocardial infarction meeting the Fourth Universal Definition of Myocardial Infarction (STEMI or NSTEMI)\n  * Left ventricular ejection fraction \\<45% (changed from ≤40% by an amendment to the trial protocol on 23/Feb/2023) as measured by cardiac MRI performed ≥12 hours and ≤14 days following hospital admission with an acute type 1 myocardial infarction). For patients with an in-hospital myocardial infarction as qualifying event, randomization must still occur within 14 days of hospital admission.\n  * eGFR ≥30 ml/min/1.73m2 at the time of randomisation (calculated using the CKD-EPI formula)\n\nExclusion Criteria:\n\n* Inability to give informed consent e.g. due to significant cognitive impairment.\n\n  * Diagnosis of chronic heart failure with reduced ejection fraction (HFrEF) prior to admission with acute myocardial infarction.\n  * Systolic blood pressure \\<90 mmHg at randomisation.\n  * Cardiogenic shock or use of i.v. inotropes in last 24 hours before randomisation.\n  * Coronary Artery Bypass Grafting (CABG) planned at time of randomisation.\n  * Type II acute myocardial infarction\n  * Any current severe (stenotic) valvular heart disease.\n  * Diagnosis of Takotsubo cardiomyopathy\n  * Type I diabetes mellitus.\n  * History of ketoacidosis.\n  * Pacemaker, implantable cardioverter defibrillator or cardiac resynchronization therapy device.\n  * Permanent or persistent atrial fibrillation.\n  * Enrollment in another randomised clinical trial involving medical or device-based interventions (co-enrolment in observational studies is permitted)\n  * Currently pregnant, planning pregnancy, or currently breastfeeding\n  * History of allergy to SGLT2i.\n  * Current or planned use of an SGLT2i at time of randomisation.\n  * Active genital tract infections.\n  * Anyone who, in the investigators' opinion, is not suitable to participate in the trial for other reasons.\n  * Contra-indication to contrast-enhanced cardiac MRI i.e. claustrophobia, metallic foreign object unsuitable for MRI",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Glasgow Royal Infirmary",
+          "city": "Glasgow",
+          "state": "Strathclyde",
+          "zip": "G4 0SF",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Golden Jubilee National Hospital",
+          "city": "Glasgow",
+          "zip": "G81 4HX",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "NHS Greater Glasgow and Clyde",
+          "city": "Glasgow",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "To be discussed"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

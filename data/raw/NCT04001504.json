@@ -1,0 +1,574 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04001504",
+      "orgStudyIdInfo": {
+        "id": "VIP-ACS trial"
+      },
+      "organization": {
+        "fullName": "Hospital Israelita Albert Einstein",
+        "class": "OTHER"
+      },
+      "briefTitle": "Vaccination Against Influenza to Prevent Cardiovascular Events After Acute Coronary Syndromes",
+      "officialTitle": "Evaluation of the Effectiveness of Double Dose Influenza Vaccination to Reduce Major Cardiovascular Events After an Acute Coronary Syndrome",
+      "acronym": "VIP-ACS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-07-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-08-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-08-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-06-26",
+      "studyFirstSubmitQcDate": "2019-06-27",
+      "studyFirstPostDateStruct": {
+        "date": "2019-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-08-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital Israelita Albert Einstein",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ministry of Health, Brazil",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiovascular disease has a great burden in the context of public health, as well as the low pharmacological adherence of patients who have chronic non-transmissible diseases. However, the investigators do not have data on the efficacy of vaccination to reduce cardiovascular events in the acute coronary syndromes, and the few studies evaluating the cardioprotective potential of the influenza vaccine were conducted in countries with well defined seasonalities, divergent of Brazil, that presents a constant viral circulation during all months of the year and distinct among its regions. Therefore, study evaluating higher dose vaccination in a period that contemplates the seasonality of the influenza virus in Brazil may bring important findings to different scientific gaps, as well as clarify questions about the possible benefit of doubled vaccination - which does not present contraindications - immediately after a atherothrombotic event. If it shows real benefit, it could also be a future therapeutic tool adjuvant to traditional drug therapy in the prevention of cardiovascular events.",
+      "detailedDescription": "Phase III, randomized, controlled, multicenter, open-label, superiority, 1:1 allocation, blind assessment of clinical outcomes and intention-to-treat analysis clinical trial to determine whether increased doses(double dose) of influenza vaccine in the hospital phase, when compared to usual dose vaccination (30 days of randomization), decreases the risk of cardiovascular and respiratory events. Hospitalizations due to COVID-19 are excluded from the respiratory infection component of the primary outcome."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Unstable angina",
+        "Non-ST-Elevation Myocardial Infarction - NSTEMI",
+        "ST-Elevation Myocardial Infarction - STEMI",
+        "Quadrivalent Influenza Vaccine - QIV"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1801,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Double Dose Quadrivalent Influenza Vaccine",
+          "type": "EXPERIMENTAL",
+          "description": "Double Dose QIV during index ACS hospitalization",
+          "interventionNames": [
+            "Biological: Double Dose Quadrivalent Influenza Vaccine"
+          ]
+        },
+        {
+          "label": "Standard Dose Quadrivalent Influenza Vaccine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard Dose QIV 30 days after randomization",
+          "interventionNames": [
+            "Biological: Standard Dose Quadrivalent Influenza Vaccine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Double Dose Quadrivalent Influenza Vaccine",
+          "description": "Double Dose QIV (30µg Hemagglutinin)",
+          "armGroupLabels": [
+            "Double Dose Quadrivalent Influenza Vaccine"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Standard Dose Quadrivalent Influenza Vaccine",
+          "description": "Standard Dose QIV (15µg Hemagglutinin)",
+          "armGroupLabels": [
+            "Standard Dose Quadrivalent Influenza Vaccine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hierarchical composite endpoint consisting of death, myocardial infarction, stroke, unstable angina hospitalization, heart failure hospitalization, urgent coronary revascularization or respiratory infections hospitalizations",
+          "description": "The primary objective will be analyzed using the win ratio approach comparing every participant of treatment group to every participant of control group to determine a winner",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Key Secondary End Point is a hierarchical outcome consisting only of cardiovascular death, myocardial infarction or stroke.",
+          "description": "The key secondary end point will be analyzed using the win ratio approach comparing every participant of treatment group to every participant of control group to determine a winner",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Total mortality",
+          "description": "Time to first occurrence of all cause death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cardiovascular mortality",
+          "description": "Time to first occurrence of CV death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Myocardial infarction",
+          "description": "Time to first occurrence of myocardial infarction",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Unstable angina hospitalization",
+          "description": "Time to first occurrence of Unstable angina hospitalization",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Stroke",
+          "description": "Time to first occurrence of stroke",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "TIA (Transient ischemic attack)",
+          "description": "Time to first occurrence of TIA",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Heart failure hospitalizations",
+          "description": "Time to first occurrence of Heart failure hospitalizations",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Respiratory infections hospitalizations",
+          "description": "Time to first occurrence of hospitalization due to upper and lower respiratory tract infection (excluding COVID-19)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Need for myocardial revascularization",
+          "description": "Time to first occurrence of urgent coronary revascularization ischemia guide (urgent or not-urgent)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Stent thrombosis",
+          "description": "Time to first occurrence of probable and definite stent thrombosis",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "COVID-19 hospitalizations",
+          "description": "Time to first occurrence of COVID-19 hospitalizations",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Solicited injection site and systemic events, unsolicited adverse events and serious adverse events following vaccination.",
+          "description": "Occurrence of solicited injection site (Pain, Erythema, Swelling, Induration, and Bruising) and systemic reactions (Fever, Headache, Malaise, Myalgia, and Shivering) will be assessed in all participants.",
+          "timeFrame": "Day 0 up to Day 7 post-vaccination"
+        },
+        {
+          "measure": "Safety overview after influenza vaccination until the end of the study.",
+          "description": "Occurrence of unsolicited adverse events, including serious adverse events.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Age \\>= 18 years and older\n* Acute coronary syndrome in hospital phase.\n\nExclusion Criteria:\n\n* Participation in another clinical trial with vaccines;\n* Refusal to provide consent;\n* Hypersensitivity and/or anaphylaxis to any component of the vaccine, or Guillain-Barré within 6 weeks after previous influenza vaccine;\n* Have already received the influenza vaccine with the same strains used in the study within the last 12 months of inclusion in the study\n* Breastfeeding women;\n* Pregnant women;\n* Presenting an acute coronary syndrome during months of December, January, and February.\n* Acute coronary syndrome hospitalization \\>7 days",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Otávio Berwanger, MD-PhD",
+          "affiliation": "Academic Research Organization -- Hospital Israelita Albert Einstein",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Henrique A Fonseca, PhD",
+          "affiliation": "Academic Research Organization -- Hospital Israelita Albert Einstein",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Universidade Federal do Ceará / Hospital Universitário Walter Cantídio",
+          "city": "Fortaleza",
+          "state": "Ceará",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Hospital e Clínica São Roque",
+          "city": "Ipiaú",
+          "state": "Estado de Bahia",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -14.13449,
+            "lon": -39.73948
+          }
+        },
+        {
+          "facility": "Hospital Ana Nery",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital Cárdio Pulmonar",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia do Distrito Federal",
+          "city": "Brasília",
+          "state": "Federal District",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Hospital Universitário Ciências Médicas",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Hospital Santa Lucia",
+          "city": "Poços de Caldas",
+          "state": "Minas Gerais",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.78778,
+            "lon": -46.56139
+          }
+        },
+        {
+          "facility": "Hospital Universitario da Universidade Estadual de Londrina",
+          "city": "Londrina",
+          "state": "Paraná",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.31028,
+            "lon": -51.16278
+          }
+        },
+        {
+          "facility": "Hospital Agamenon Magalhães",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Pronto Socorro Cardiológico de Pernambuco",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Instituto Estadual de Cardiologia Aloysio de Castro",
+          "city": "Rio de Janeiro",
+          "state": "Rio de Janeiro",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas de Porto Alegre",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital São Lucas da PUCRS",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "IPEMI - Instituto de Pesquisas Médicas de Itajaí",
+          "city": "Itajaí",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -26.90778,
+            "lon": -48.66194
+          }
+        },
+        {
+          "facility": "Hospital Dona Helena",
+          "city": "Joinville",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -26.30444,
+            "lon": -48.84556
+          }
+        },
+        {
+          "facility": "Hospital Regional Hans Dieter Schmidt",
+          "city": "Joinville",
+          "state": "Santa Catarina",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -26.30444,
+            "lon": -48.84556
+          }
+        },
+        {
+          "facility": "Centro de Pesquisa Clinica do Coração",
+          "city": "Aracaju",
+          "state": "Sergipe",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -10.91111,
+            "lon": -37.07167
+          }
+        },
+        {
+          "facility": "Faculdade de Medicina de Botucatu - UNESP",
+          "city": "Botucatu",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.88583,
+            "lon": -48.445
+          }
+        },
+        {
+          "facility": "Irmandade da Santa Casa de Misericórdia de Marília",
+          "city": "Marília",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.21389,
+            "lon": -49.94583
+          }
+        },
+        {
+          "facility": "Santa Casa de Misericórdia de Presidente Prudente",
+          "city": "Presidente Prudente",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.12556,
+            "lon": -51.38889
+          }
+        },
+        {
+          "facility": "Instituto do Coração - HC FMUSP",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Instituto Dante Pazzanese",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40973981",
+          "type": "DERIVED",
+          "citation": "Fonseca HAR, Sampaio Silva G, Monfardini F, Nicolau JC, Rizzo LV, Berwanger O. Influenza vaccination for prevention of death and major cardiovascular events in patients with a history of stroke: A subanalysis of the VIP-ACS trial. Int J Stroke. 2026 Apr;21(4):466-474. doi: 10.1177/17474930251383626. Epub 2025 Sep 19."
+        },
+        {
+          "pmid": "38154990",
+          "type": "DERIVED",
+          "citation": "Fonseca HAR, Zimerman A, Monfardini F, Guimaraes HP, Pedrosa RP, Patriota RLS, Couto Patriota TLG, Passos LCS, Dall'Orto FTC, Hoffmann Filho CR, Nascimento BR, Baldissera FA, Pereira CAC, Caramori PRA, Andrade PB, Okoshi MP, Polanczyk CA, Silveira FS, Villacorta AS, Nicolau JC, Rizzo LV, Berwanger O; VIP-ACS team. In-Hospital influenza vaccination to prevent cardiorespiratory events in the first 45 days after acute coronary syndrome: A prespecified analysis of the VIP-ACS trial. Vaccine. 2024 Jan 25;42(3):496-504. doi: 10.1016/j.vaccine.2023.12.074. Epub 2023 Dec 27."
+        },
+        {
+          "pmid": "36030400",
+          "type": "DERIVED",
+          "citation": "Fonseca HAR, Furtado RHM, Zimerman A, Lemos PA, Franken M, Monfardini F, Pedrosa RP, Patriota RLS, Passos LCS, Dall'Orto FTC, Hoffmann Filho CR, Nascimento BR, Baldissera FA, Pereira CAC, Caramori PRA, de Andrade PB, Esteves C, Salim EF, da Silva JH, Pedro IC, Silva MCR, de Pedri EH, Carioca ACRD, de Piano LPA, Albuquerque CSN, Moia DDF, Momesso RGRAP, Machado FP, Damiani LP, Soares RVP, Schettino GP, Rizzo LV, Nicolau JC, Berwanger O. Influenza vaccination strategy in acute coronary syndromes: the VIP-ACS trial. Eur Heart J. 2022 Nov 1;43(41):4378-4388. doi: 10.1093/eurheartj/ehac472."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D007252",
+          "term": "Influenza Vaccines"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014765",
+          "term": "Viral Vaccines"
+        },
+        {
+          "id": "D014612",
+          "term": "Vaccines"
+        },
+        {
+          "id": "D001688",
+          "term": "Biological Products"
+        },
+        {
+          "id": "D045424",
+          "term": "Complex Mixtures"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

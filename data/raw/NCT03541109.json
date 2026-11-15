@@ -1,0 +1,485 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03541109",
+      "orgStudyIdInfo": {
+        "id": "Persian Polypill"
+      },
+      "organization": {
+        "fullName": "Isfahan University of Medical Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Polypill for Secondary Prevention of Ischemic Heart Disease",
+      "officialTitle": "Fixed Combination Therapy for Secondary Prevention of Major Cardiovascular Events"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-05-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-05-17",
+      "studyFirstSubmitQcDate": "2018-05-17",
+      "studyFirstPostDateStruct": {
+        "date": "2018-05-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-10-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Masoumeh Sadeghi",
+        "investigatorTitle": "Head of Cardiac Rehabilitation Research Center",
+        "investigatorAffiliation": "Isfahan University of Medical Sciences"
+      },
+      "leadSponsor": {
+        "name": "Isfahan University of Medical Sciences",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Tehran University of Medical Sciences",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiovascular diseases (CVD) are the leading cause of mortality and morbidity worldwide. The most important aspect of CVD secondary prevention is adherence to guideline-indicated pharmacological therapy which globally remains low. In previous studies, a Polypill containing fixed dose combination of essential drugs have improved patient adherence to these drugs. The effect of such a strategy on pharmacological therapy uptake, cost-effectiveness, and CVD recurrence in our setting will be assessed in this study. Participants hospitalized in three referral hospitals in Isfahan, Iran because of an acute myocardial infarction (MI) (ST elevation MI (STEMI) or non-ST elevation MI (NSTEMI)) will be randomized to either receiving Polypill or usual care after MI. Patient recruitment will be carried out at the time of patient discharge from the hospitals."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "ST Elevation Myocardial Infarction",
+        "Non-ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "Cardiovascular disease",
+        "fixed dose combination therapy",
+        "cost effectiveness"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Polypill",
+          "type": "EXPERIMENTAL",
+          "description": "Polypill group will receive a fixed dose combinations of aspirin (81mg), atorvastatin (40mg), metoprolol (50 mg), and Valsartan (40 mg), prescribed once daily by moth for 34 months",
+          "interventionNames": [
+            "Drug: Polypill"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "The usual care arm will receive regular drug order at the time of discharge from the hospital."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Polypill",
+          "description": "fixed dose combination of aspirin (81mg), atorvastatin (40mg), metoprolol (50 mg), and Valsartan (40 mg)",
+          "armGroupLabels": [
+            "Polypill"
+          ],
+          "otherNames": [
+            "Polypill-S"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "A composite clinical outcome of major adverse cardiovascular events (MACE)",
+          "description": "MACE includes cardiac death, fatal/nonfatal MI or stroke, hospitalization due to acute coronary syndrome/acute cerebrovascular accident, revascularization procedures, development or worsening of HF, and development of persistent new AF.",
+          "timeFrame": "from time of randomization up to 34 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "cost-effectiveness of Polypill treatment compared with usual care",
+          "description": "The analysis will be done on direct and indirect costs of treatment. Direct costs will be assessed from perspective of health care system. Current Iranian public medical tariffs will be the base of calculations. The incremental cost effectiveness ratio (ICER) will be calculated for primary outcomes.",
+          "timeFrame": "up to 34 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "drug related adverse events",
+          "description": "assessed by a questionnaire filled by the responsible physician",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "drug related adverse events",
+          "description": "assessed by a questionnaire filled by the responsible physician",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "drug related adverse events",
+          "description": "assessed by a questionnaire filled by the responsible physician",
+          "timeFrame": "10 months"
+        },
+        {
+          "measure": "drug related adverse events",
+          "description": "assessed by a questionnaire filled by the responsible physician",
+          "timeFrame": "22 months"
+        },
+        {
+          "measure": "drug related adverse events",
+          "description": "assessed by a questionnaire filled by the responsible physician",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "patient satisfaction with drug consumption",
+          "description": "Satisfaction Questionnaire for Medication (TSQM)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "patient satisfaction with drug consumption",
+          "description": "Satisfaction Questionnaire for Medication (TSQM)",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "patient satisfaction with drug consumption",
+          "description": "Satisfaction Questionnaire for Medication (TSQM)",
+          "timeFrame": "10 months"
+        },
+        {
+          "measure": "patient satisfaction with drug consumption",
+          "description": "Satisfaction Questionnaire for Medication (TSQM)",
+          "timeFrame": "22 months"
+        },
+        {
+          "measure": "patient satisfaction with drug consumption",
+          "description": "Satisfaction Questionnaire for Medication (TSQM)",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "health related quality of life",
+          "description": "Validated Persian version of the EuroQol-5D (EQ-5D)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "health related quality of life",
+          "description": "Validated Persian version of the EuroQol-5D (EQ-5D)",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "health related quality of life",
+          "description": "Validated Persian version of the EuroQol-5D (EQ-5D)",
+          "timeFrame": "10 months"
+        },
+        {
+          "measure": "health related quality of life",
+          "description": "Validated Persian version of the EuroQol-5D (EQ-5D)",
+          "timeFrame": "22 months"
+        },
+        {
+          "measure": "health related quality of life",
+          "description": "Validated Persian version of the EuroQol-5D (EQ-5D)",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "changes in systolic blood pressure from baseline",
+          "description": "average readings of systolic blood pressure measured two times (at least 3 min apart) at sitting position",
+          "timeFrame": "baseline and 1 month"
+        },
+        {
+          "measure": "changes in systolic blood pressure from baseline",
+          "description": "average readings of systolic blood pressure measured two times (at least 3 min apart) at sitting position",
+          "timeFrame": "baseline and 4 months"
+        },
+        {
+          "measure": "changes in systolic blood pressure from baseline",
+          "description": "average readings of systolic blood pressure measured two times (at least 3 min apart) at sitting position",
+          "timeFrame": "baseline and 10 months"
+        },
+        {
+          "measure": "changes in systolic blood pressure from baseline",
+          "description": "average readings of systolic blood pressure measured two times (at least 3 min apart) at sitting position",
+          "timeFrame": "baseline and 22 months"
+        },
+        {
+          "measure": "changes in systolic blood pressure from baseline",
+          "description": "average readings of systolic blood pressure measured two times (at least 3 min apart) at sitting position",
+          "timeFrame": "baseline and 34 months"
+        },
+        {
+          "measure": "change in serum LDL from baseline",
+          "description": "fasting Low Density Lipoprotein Cholesterol (LDL-C)",
+          "timeFrame": "baseline and 1 month"
+        },
+        {
+          "measure": "change in serum LDL from baseline",
+          "description": "fasting Low Density Lipoprotein Cholesterol (LDL-C)",
+          "timeFrame": "baseline and 4 months"
+        },
+        {
+          "measure": "change in serum LDL from baseline",
+          "description": "fasting Low Density Lipoprotein Cholesterol (LDL-C)",
+          "timeFrame": "baseline and 10 months"
+        },
+        {
+          "measure": "change in serum LDL from baseline",
+          "description": "fasting Low Density Lipoprotein Cholesterol (LDL-C)",
+          "timeFrame": "baseline and 22 months"
+        },
+        {
+          "measure": "change in serum LDL from baseline",
+          "description": "fasting Low Density Lipoprotein Cholesterol (LDL-C)",
+          "timeFrame": "baseline and 34 months"
+        },
+        {
+          "measure": "patient adherence to Aspirin at the final visit",
+          "description": "patient is adherent if achieves a score of more than 6 from validated Persian version of Morisky-Medication Adherence Scale (8 item) Questionnaire (MMAS-8) (score: 0 to 8) and more than 85% of pills prescribed over last 3 months are consumed (pill count method)",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "patient adherence to Atorvastatin at the final visit",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "patient adherence to Metoprolol at the final visit",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "patient adherence to valsartan at the final visit",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "34 months"
+        },
+        {
+          "measure": "patient adherence to Aspirin, Atorvastatin, Metoprolol, Valsartan",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "patient adherence to Aspirin, Atorvastatin, Metoprolol, Valsartan",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "patient adherence to Aspirin, Atorvastatin, Metoprolol, Valsartan",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "10 months"
+        },
+        {
+          "measure": "patient adherence to Aspirin, Atorvastatin, Metoprolol, Valsartan",
+          "description": "MMAS-8 questionnaire and pill count",
+          "timeFrame": "22 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients hospitalized because of an acute myocardial infarction (STEMI/NSTEMI) and alive after discharge for at least 1 month\n* signing informed consent\n* clear indication of receiving all components of Polypill (aspirin, statin, ACE inhibitor/ARB, and beta blocker)\n* living in Isfahan city or nearby areas so that they can attend follow-ups\n* No mental illness limiting their self-care ability or Severe illness with an estimated lifespan of less than 3 years\n* No history of adverse reaction or contraindication to any component of the Polypill\n* Not having Secondary hyperlipidemia, serum creatinine ≥ 2, severe heart failure\n* No plan for a procedure (CABG, PCI, or another surgical procedures) within following 6 months\n\nExclusion Criteria:\n\n* Patient unlikely to complete trial\n* Need to change or discontinue any of the four principal drugs of the Polypill to achieve better control of the disease or risk factors or because of adverse drug reactions (based on physician's idea)\n* Severe illness with an estimated lifespan of less than 3 years",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Masoumeh Sadeghi, Professor",
+          "role": "CONTACT",
+          "phone": "00989134091776",
+          "email": "sadeghimasoumeh@gmail.com"
+        },
+        {
+          "name": "Shervin Ghaffari Hoseini, MD,PhD",
+          "role": "CONTACT",
+          "email": "shghaffari@yahoo.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Masoumeh Sadeghi, professor",
+          "affiliation": "Isfahan Cardiovascular Research Center, Cardiovascular Research Institute, Isfahan University of Medical Sciences, Isfahan, Iran",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Chamran cardiology hospital",
+          "status": "RECRUITING",
+          "city": "Isfahan",
+          "zip": "814651148",
+          "country": "Iran",
+          "contacts": [
+            {
+              "name": "Maryam Kelardasht, MS",
+              "role": "CONTACT",
+              "phone": "00983136115313",
+              "email": "Kelardasht@yahoo.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.65246,
+            "lon": 51.67462
+          }
+        },
+        {
+          "facility": "Cardiovascular Research Institute",
+          "status": "RECRUITING",
+          "city": "Isfahan",
+          "country": "Iran",
+          "contacts": [
+            {
+              "name": "Safoora yazdekhasti",
+              "role": "CONTACT",
+              "phone": "00983136115208",
+              "email": "sfa.yazdekhasti@gmail.com"
+            },
+            {
+              "name": "Nizal Sarrafzadegan, Professor",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Shervin Gh Hoseini, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Hamidreza Roohafza, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Marjan Mansourian, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jamshid Najafian, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Alireza Nateghi Nateghi, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.65246,
+            "lon": 51.67462
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "timeFrame": "1 year after study completion",
+      "accessCriteria": "Requests will be assessed by a responsible panel after signing a data access agrement.",
+      "url": "http://icri.mui.ac.ir/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

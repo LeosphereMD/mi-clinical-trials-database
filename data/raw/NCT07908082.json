@@ -1,0 +1,365 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07908082",
+      "orgStudyIdInfo": {
+        "id": "2027-3273"
+      },
+      "organization": {
+        "fullName": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+        "class": "OTHER"
+      },
+      "briefTitle": "Aspirin for the Prevention of Ischemic Complications in Giant Cell Arteritis",
+      "officialTitle": "Aspirin for the Prevention of Ischemic-Related Events in Giant Cell Arteritis Pilot (ASPIRE-GCA Pilot)",
+      "acronym": "ASPIRE-GCA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-10-14",
+      "studyFirstSubmitQcDate": "2026-10-28",
+      "studyFirstPostDateStruct": {
+        "date": "2026-10-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jean-Paul Makhzoum",
+        "investigatorTitle": "Director - Vasculitis Research Program, Principal Investigator",
+        "investigatorAffiliation": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal"
+      },
+      "leadSponsor": {
+        "name": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ASPIRE-GCA Pilot trial will assess the feasibility of a future randomized controlled trial (RCT) evaluating the efficacy of low-dose ASA in preventing ischemic complications in patients with Giant Cell Arteritis (GCA).\n\nASPIRE-GCA Pilot builds on extensive preparatory work and the findings from this study will inform key feasibility outcomes, including recruitment rate, study-drug delivery and treatment initiation, medication adherence, participant retention, and completeness of follow-up data.",
+      "detailedDescription": "ASPIRE-GCA Pilot is a national, multicenter, randomized, double-blind, placebo-controlled, decentralized trial conducted in centers of the Canadian Vasculitis Research Network (CanVasc), designed to evaluate the feasibility of conducting the full international RCT.\n\nTo examine this objective, 120 eligible patients with newly diagnosed GCA will be randomized at a 1:1 ratio to receive low-dose ASA (80 mg/day) or placebo for 52 weeks, in addition to standard-of-care therapy for GCA. Participants will then be followed for 13 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Giant Cell Arteritis (GCA)",
+        "Acute Coronary Syndrome (ACS)",
+        "Ishemic and Thrombotic Complications"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Participants, treating clinicians, investigators, outcome adjudicators, and data analysts will remain blinded through completion of the analyses.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Acetyl Salicylic Acid (ASA)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive low-dose ASA (80 mg orally once daily) for 52 weeks, in addition to standard-of-care therapy for GCA.",
+          "interventionNames": [
+            "Drug: Acetyl Salicylic Acid (ASA)"
+          ]
+        },
+        {
+          "label": "Control Arm",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive a matching low-dose ASA placebo (orally once daily) for 52 weeks, in addition to standard-of-care therapy for GCA.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Acetyl Salicylic Acid (ASA)",
+          "description": "Participants will receive blinded low-dose ASA (80 mg orally once daily) for 52 weeks.",
+          "armGroupLabels": [
+            "Acetyl Salicylic Acid (ASA)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Participants will receive blinded low-dose ASA placebo (orally once daily) for 52 weeks.",
+          "armGroupLabels": [
+            "Control Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recruitment rate defined as the number of participants randomized per center-month.",
+          "description": "Number of participants randomized per center-month, counting each center from the date it is activated and able to enroll participants until completion of recruitment.",
+          "timeFrame": "Through study completion, an average of 18 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Study treatment initiation, assessed as the proportion of randomized participants who initiate study treatment.",
+          "timeFrame": "Up to month 3 following randomization"
+        },
+        {
+          "measure": "Time to study treatment initiation, assessed as the number of days from randomization to first study treatment administration among randomized participants who initiate treatment.",
+          "timeFrame": "Up to 30 days following randomization"
+        },
+        {
+          "measure": "Treatment adherence, assessed using the proportion of days covered.",
+          "description": "The proportion of days covered is calculated as the number of days covered by the dispensed study medication divided by the total number of days in the treatment period, multiplied by 100.",
+          "timeFrame": "Up to 12 months following randomization"
+        },
+        {
+          "measure": "Participant retention, defined as the proportion of randomized participants completing the 12-month follow-up visit.",
+          "timeFrame": "Up to 12 months following randomization"
+        },
+        {
+          "measure": "Completeness of follow-up data, assessed as the proportion of randomized participants completing the 12-month visit for whom all clinical outcome data required for the definitive trial are available.",
+          "timeFrame": "Up to 12 months following randomization"
+        },
+        {
+          "measure": "Study-drug delivery performance, assessed as the proportion of participants experiencing ≥1 delivery-related delay resulting in delayed treatment initiation or treatment interruption.",
+          "timeFrame": "Up to 12 months following randomization"
+        },
+        {
+          "measure": "Barriers for recruitment, assessed by the frequency of reasons for ineligibility.",
+          "timeFrame": "Through study completion, an average of 18 months"
+        },
+        {
+          "measure": "Barriers for adherence, assessed by the frequency of reasons for treatment discontinuation.",
+          "timeFrame": "Through study completion, an average of 18 months"
+        },
+        {
+          "measure": "Barriers for retention, assessed by the frequency of reasons for withdrawal from the trial.",
+          "timeFrame": "Through study completion, an average of 18 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Time to first ischemic event (in days)",
+          "description": "The efficacy composite outcome of the full trial will be the time to first ischemic event, defined as the first occurence of ischemic death, new ischemic vision loss, ischemic stroke, transient ischemic attack, myocardial infarction, unstable angina requiring hospitalization, or acute limb ischemia requiring intervention.",
+          "timeFrame": "Up to 12 months following randomization"
+        },
+        {
+          "measure": "Time to first major bleeding event (in days)",
+          "description": "Major bleeding is defined according to the Bleeding Academic Research Consortium criteria.",
+          "timeFrame": "Up to 12 months following randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adults with newly diagnosed GCA (≤30 days since diagnosis);\n2. GCA fulfilling the 2022 ACR-EULAR Classification Criteria for GCA, supported by positive temporal artery histology, or compatible cranial or large-vessel imaging;\n3. Initiation of standard-of-care treatment for GCA, with or without intravenous glucocorticoids;\n4. Ability to provide informed consent and participate in virtual study procedures.\n\nExclusion Criteria:\n\n1. Established indication for antiplatelet therapy (e.g., prior or current myocardial infarction, ischemic stroke, transient ischemic attack, or known coronary, cerebrovascular, or peripheral arterial disease);\n2. All-cause bilateral permanent vision loss during the screening period;\n3. Chronic use of therapeutic anticoagulation at baseline;\n4. Presence of a condition that, in the investigator's opinion, is expected to limit survival to less than 1 year;\n5. Any contraindication to low-dose ASA according to the product monograph.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jean-Paul Makhzoum, MD",
+          "role": "CONTACT",
+          "phone": "514-338-2222",
+          "phoneExt": "2725",
+          "email": "jean-paul.makhzoum@umontreal.ca"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jean-Paul Makhzoum, MD",
+          "affiliation": "Vasculitis Clinic, Hopital du Sacre-Coeur de Montreal, University of Montreal",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Vasculitis Clinic, Hôpital du Sacré-Coeur de Montréal",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4J1C5",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Jean-Paul Makhzoum, MD, MSc",
+              "role": "CONTACT",
+              "phone": "514-338-2222",
+              "phoneExt": "2725",
+              "email": "jean-paul.makhzoum@umontreal.ca"
+            },
+            {
+              "name": "Rachel Cloutier, MSc",
+              "role": "CONTACT",
+              "email": "rachel.cloutier.cnmtl@ssss.gouv.qc.ca"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Global survey of GCA experts: International practice patterns and beliefs concerning intravenous methylprednisolone and low-dose aspirin in giant cell arteritis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42806062/"
+        },
+        {
+          "label": "Scoping review: Risk factors for acute coronary syndrome in patients with giant cell arteritis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41768522/"
+        },
+        {
+          "label": "Scoping review: Markers of Giant Cell Arteritis in Patients Presenting With Ischemic Stroke",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12701124/"
+        },
+        {
+          "label": "Vasculitis Clinic - University of Montreal",
+          "url": "https://www.vasculitemontreal.com/"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013700",
+          "term": "Giant Cell Arteritis"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020293",
+          "term": "Vasculitis, Central Nervous System"
+        },
+        {
+          "id": "D020274",
+          "term": "Autoimmune Diseases of the Nervous System"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001167",
+          "term": "Arteritis"
+        },
+        {
+          "id": "D014657",
+          "term": "Vasculitis"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

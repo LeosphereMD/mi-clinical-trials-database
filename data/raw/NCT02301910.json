@@ -1,0 +1,1550 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02301910",
+      "orgStudyIdInfo": {
+        "id": "FRIDOM1"
+      },
+      "organization": {
+        "fullName": "Supergene, LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Single Bolus Recombinant Nonimmunogenic Staphylokinase Versus Single Bolus Tenecteplase (Metalyse) in STEMI",
+      "officialTitle": "Multicenter Open Lable Randomized Comparative Study of Efficacy and Safety of Single Bolus Injection of Recombinant Nonimmunogenic Staphylokinase (Fortelyzin) and Tenecteplase (Metalyse) in STEMI Patients",
+      "acronym": "FRIDOM1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-05-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-12-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-12-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-11-24",
+      "studyFirstSubmitQcDate": "2014-11-25",
+      "studyFirstPostDateStruct": {
+        "date": "2014-11-26",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-12-29",
+      "resultsFirstSubmitQcDate": "2025-03-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-03-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Supergene, LLC",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to determine if single-bolus recombinant nonimmunogenic staphylokinase is effective and save thrombolytic agent in patients presenting ST-segment elevation myocardial infarction in comparison to tenecteplase.",
+      "detailedDescription": "Experimental Drug Profile. The active substance of Fortelyzin is Forteplase. It's recombinant protein which contains aminoacid sequence of staphylokinase. It is single chain molecula, consists of 138 aminoacids, weight 15.5 kDa. When staphylokinase is added to human plasma containing a fibrin clot, it preferentially reacts with plasmin at the clot surface, forming a plasmin-staphylokinase complex. This complex activates plasminogen trapped in the thrombus. The plasmin-staphylokinase complex and plasmin bound to fibrin are protected from inhibition by alpha2-antiplasmin. Once liberated from the clot (or generated in plasma), however, they are rapidly inhibited by alpha2-antiplasmin. This selectivity of action confines the process of plasminogen activation to the thrombus, preventing excessive plasmin generation, alpha2-antiplasmin depletion, and fibrinogen degradation in plasma. In rabbits anti forteplase antibodies are not produced. It was achieved by replacement of amino acids in immunogenic epitop of molecule staphylokinase. Blood fibrinogen decrease after i.v. injection of Fortelyzin less 10% within first 24 hours. Angiographic data suggests that restoration of coronary blood flow appears in up to 80% of patients with STEMI after i.v. injection of Fortelyzin.\n\nRisk/benifit for trail participants. Expected benefit is normalisation of blood supply of ischemic myocardium. It will allow to preserve normal heart function and avoid heart failure development. The most frequent advers reactions of Fortelyzin are possibilty of bleeding. It is possible occurence of internal bleeding due to peptic ulcer, erosion of the esophagus, haemorrhoid, veins of esophagus and so on. Thorough collection of patients data and following the drug instruction allows to dicrease risk of bleeding. The benefit of using fibrinolytics for patients with STEMI is supposed to be higher then risk of bleeding. The reperfusion arrhythmias may occur so the careful ECG monitiring is required.\n\nMain goals of the study\n\n* to prove an efficacy of the single-bolus intravenous injection of recombinant nonimmunogenic staphylokinase (Fortelyzin) in comparison with single-bolus tenecteplase (Metalyse) in patients with ST-segment elevation myocardial infarction\n* to prove a safety and to assess possible adverse events in the single-bolus intravenous injection of recombinant nonimmunogenic staphylokinase (Fortelyzin) in comparison with single-bolus tenecteplase (Metalyse) in patients with ST-segment elevation myocardial infarction\n\nStudy Design. All eligible patients will be randomized in two equal groups for administration recombinant nonimmunogenic staphylokinase (Fortelyzin) or tenecteplase (Metalyse) by using \"envelope method\" of randomization. It is an open-lable study. Each of agents will be administered no longer then 12 hours from symptoms onset. Experimental and comparative agent will be administered as prescribed in its instructions.\n\nAll randomized patients will receive double anti-platelet therapy and anticoagulant therapy:\n\nEnoxaparin \\< 75 years:\n\n* 30 mg intravenous bolus\n* Subcutaneous injections of 1.0 mg/kg every 12 hours until hospital discharge or for a maximum of 4 days; the first injection should be given within 15 min of the bolus\n* For the first two subcutaneous injections, a maximum of 100 mg per injection should not be exceeded\n\n  ≥ 75 years:\n* No bolus; Subcutaneous injections of 0.75 mg/kg every 12 hours until hospital discharge or for a maximum of 4 days; the first injection should be given immediately.\n* For the first two subcutaneous injections, a maximum of 75 mg per injection should not be exceeded.\n\nFor patients of any age with a creatinine clearance \\< 30 ml/min, subcutaneous injections of 1.0 mg/kg will be given in intervals of 24 hours.\n\nClopidogrel \\< 75 years: - 300 mg per os loading dose\n\n* 75 mg per os once daily as maintenance dose\n\n  ≥ 75 years: - No loading dose; 75 mg per os immediately after randomization\n* 75 mg per os once daily (maintenance dose)\n\nAcetylsalicylic acid is expected to be administered routinely to all patients at a dose of 250 mg per os before fibrinolysis and then 75 - 325 mg per os once daily.\n\nPatients who received enoxaparin in the pre-hospital setting should not be administered a different type of heparin prior to catheterisation (and vice versa). If heparin was used in the pre-hospital setting or early in-hospital period, subsequent treatment should not be switched to enoxaparin prior to catheterisation. Prior to catheterisation a dose of 0.3 mg/kg intravenous enoxaparin should be given to patients unless the last subcutaneous dose of enoxaparin was given within the previous 8 hrs.\n\nCatheterisation\n\n* If ST-segment resolution is ≥ 50 % in the qualifying lead (that had the maximum initial ST-segment elevation in the baseline ECG) in 90 min, diagnostic coronary angiography (followed by PCI +/- stenting, if indicated) should be performed within 3-24 hours after administration of fibrinolytic agent. This will be considered as planned catheterisation according to protocol\n* If ST-segment resolution is \\< 50 % relative to the ST-segment elevation in the qualifying lead at baseline, irrespective of the presence or absence of clinical symptoms, rescue coronary intervention should be performed promptly.\n* If any of the following indications require coronary intervention (irrespective of previous ST-segment resolution), urgent coronary intervention is indicated at any time:\n\n  * haemodynamic instability (presence of any of the following requiring inotropic support: sustained hypotension, cardiogenic shock, or congestive heart failure)\n  * refractory ventricular arrhythmias requiring cardioversion or pharmacological treatment\n  * worsening ischaemia\n  * progressive or sustained ST-segment elevation which, in the judgement of the investigator, requires immediate coronary intervention.\n\nDuration of follow-up will be 30 days since randomization\n\nObservation plan There are six visits in clinical trail schedule.\n\nFirst. In admission to the clinical center but no longer then 12 hour of symptoms onset:\n\n* if the patient meet inclusion criteria and does not meet exclusion criteria the patient informed consent will be sign according to the protocol\n* evaluation of medical history and physical examination\n* 12-lead ECG - confirmation of STEMI\n* blood analysis (include troponin, CK-MB, INR, APPT, fibrinogen)\n* urine analisis\n* correction of therapy (double anti-platelet therapy, enoxaparin)\n* randomization\n* intravenous injection of Fortelyzin or Metalyse according to instruction\n* ECG criteria of reperfusion assessment (90 min)\n* PCI within 3-24 hours after fibrinolysis\n\nSecond (24 hours), Third (72 hours), Fourth (7 days), Fifth (14 days or discharge)\n\n* physical examination\n* 12-lead ECG\n* blood analysis (include troponin, CK-MB, INR, APPT, fibrinogen)\n* urine analysis\n* correction of the therapy if nececcary\n* monitoring of adverse events and bleeding\n\nSixth (30 day)\n\n* monitoring of adverse events and bleeding\n* assessment of end points\n\nAdverse events (AE). All serious AEs related to study treatment (recombinant nonimmunogenic staphylokinase, tenecteplase, enoxaparin, acetylsalicylic acid, clopidogrel, catheterisation/PCI) will be reported on the serious adverse events (SAE) page as well as on the AE page of the CRF. All SAE neither related to any study treatment nor on the 'list of STEMI related events' will be reported on the SAE page as well as on the AE page of the CRF. All other SAEs not related to any study treatment, but on the 'list of STEMI-related events' will only be recorded on the AE page of the CRF. Only serious AEs (SAEs) and serious/non-serious bleeds will be recorded in the CRF. Non-serious AEs other than bleeds will not be recorded in the CRF.\n\nDetailed instructions - including a flow chart - on the reporting of adverse events will be provided in the Investigator Site File (ISF). During screening/baseline, the patient's condition is assessed; any relevant changes from baseline will be noted subsequently in the source data. Patients and investigators will be required - according to the procedure described above - to report spontaneously any SAEs and bleeds as well as the time of onset, end and intensity of these events. A carefully written record of all SAEs and bleeds will be kept by the investigator in charge of the trial. Records must include data on the time of onset, end time and intensity of the event as well as any treatment or action required for the event and its outcome. All events, including those persisting after trial completion must be followed up until they have resolved or have been sufficiently characterised.\n\nWorsening of pre-existing conditions\n\n* Expected fluctuations or expected deterioration of the underlying disease will not be recorded as an AE. Worsening of the disease under study will be recorded as an AE if one of the following criteria is met.\n\n  * Worsening of disease meets the criteria for an SAE.\n  * Action is taken with investigational drug, i.e. dose is reduced or treatment discontinued or increased.\n  * Treatment is required (concomitant medication is added or changed).\n  * The investigator believes a patient has shown a clear, unexpected deterioration from baseline symptoms.\n* The same criteria as above apply to recording of AEs resulting from worsening of other pre-existing conditions. Pre-existing conditions are not recorded as AEs if they do not meet the criteria above. Specifically, the following will not be recorded as an AE:\n\n  * Pre-existing conditions present at baseline, which remain unchanged during the trial.\n  * Expected fluctuations or expected deterioration of a pre-existing condition.\n\nVital Signs, ECG and Laboratory test results qualifying as AE Changes in safety tests including blood pressure, pulse rate, ECG and laboratory tests will be recorded as AEs, if:\n\n* they are not associated with an already reported AE, symptom or diagnosis and\n* action is taken with the investigational drug, i.e. dose is reduced or treatment discontinued or\n* treatment is required (concomitant medication is added or changed) An AE is defined as any untoward medical occurrence, including an exacerbation of a pre-existing condition, in a patient in a clinical investigation who received a pharmaceutical product. The event does not necessarily have to have a causal relationship with this treatment. All adverse events occurring during the course of the clinical trial (i.e., from signing the informed consent onwards through the observational phase) will be collected, documented and reported to the sponsor by the investigator. A SAE is defined as any AE which results in death, is immediately life-threatening, results in persistent or significant disability / incapacity, requires or prolongs patient hospitalisation, is a congenital anomaly / birth defect, or is to be deemed serious for any other reason representing a significant hazard, which is comparable to the aforementioned criteria. All serious adverse events and non-serious bleeds will be fully documented in the appropriate CRFs. For each adverse event, the investigator will provide the onset, end, intensity, treatment required, outcome, seriousness and action taken with the investigational drug. The investigator will determine the relationship of the investigational drug to all AE as defined in the 'Adverse Event Reporting' section of the Investigator Site File. The basis for judging the intensity of the AE as well as the causal relationship between the investigational product and the AE is described below. Intensity of event\n\n  * Mild: Awareness of sign(s) or symptom(s) which is/are easily tolerated\n  * Moderate: Enough discomfort to cause interference with usual activity\n  * Severe: Incapacitating or causing inability to work or to perform usual activities"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Myocardial Infarction",
+        "Fibrinolysis",
+        "Fortelyzin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 382,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Recombinant staphylokinase",
+          "type": "EXPERIMENTAL",
+          "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds",
+          "interventionNames": [
+            "Drug: Recombinant staphylokinase"
+          ]
+        },
+        {
+          "label": "Tenecteplase",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml",
+          "interventionNames": [
+            "Drug: Tenecteplase"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Recombinant staphylokinase",
+          "description": "15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds",
+          "armGroupLabels": [
+            "Recombinant staphylokinase"
+          ],
+          "otherNames": [
+            "Fortelyzin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tenecteplase",
+          "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml",
+          "armGroupLabels": [
+            "Tenecteplase"
+          ],
+          "otherNames": [
+            "Metalyse"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Number of Participants With Reperfusion",
+          "description": "The number of participants with reperfusion by TIMI (Thrombolysis in Myocardial Infarction) 2-3 assessed by coronary arteriography, where grade 0 - no perfusion, grade 1 - penetration without perfusion, grade 2 - partial perfusion, grade 3 - complete perfusion.",
+          "timeFrame": "90 min after fibrinolysis"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite Endpoint",
+          "description": "All cause death+Reccurent MI+Stroke+Heart failure",
+          "timeFrame": "within 30 days after fibrinolysis"
+        },
+        {
+          "measure": "Cardiovascular Death",
+          "description": "Death caused by any cardiovascular reason/event",
+          "timeFrame": "within 30 days after fibrinolysis"
+        },
+        {
+          "measure": "Repeated Target Vessel Revascularization",
+          "description": "The need for re-intervention on infarct-related artery within 30 days after fibrinolysis",
+          "timeFrame": "within 30 days after fibrinolysis"
+        },
+        {
+          "measure": "Development of Heart Failure",
+          "description": "In case of at least of the one of the following conditions:\n\n1. Pulmonary oedema/congestion on chest X-ray without suspicion of a non-cardiac cause\n2. Rales \\> 1/3 up from the lung base (Killip class 2 or higher)\n3. Pulmonary capillary wedge pressure (PCWP) \\>25 mmHg\n4. Dyspnoea with pO2 \\< 80 mmHg or O2 sat \\< 90 % (no supplemental O2) in the absence of known lung disease;",
+          "timeFrame": "within 30 days after fibrinolysis"
+        },
+        {
+          "measure": "Rehospitalization Due to Cardiovascular Reasons",
+          "timeFrame": "within 30 days after fibrinolysis"
+        },
+        {
+          "measure": "Overall Bleeding",
+          "description": "GUSTO classification",
+          "timeFrame": "within 30 gays after fibrinolysis"
+        },
+        {
+          "measure": "Intracranial Haemorrhages",
+          "timeFrame": "within 30 days after fibrinolysis"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* both gender patients over 18 years\n* 12-lead ECG indicative of an STEMI (ST-segment elevation in acute myocardial infarction, measured at the J point, should be found in two contiguous leads and be ≥0.25 mV in men below the age of 40 years, ≥0.2 mV in men over the age of 40 years, or ≥0.15 mV in women in leads V2-V3 and/or ≥0.1 mV in other leads (in the absence of left ventricular hypertrophy or left bundle branch block\n* the possibility of fibrinolysis within 12 hour of symptom onset\n* inability of primary PCI within 60 min of first medical contact (FMC)\n* informed consent received\n\nExclusion Criteria:\n\n* expected performance of PCI less 60 min from FMC\n* left bundle branch block or ventricular pacing\n* cases of sinus bradycardia associated with hypotension, AV block II (Mobitz 2) or AV block III with bradycardia that causes hypotension or heart failure\n* active bleeding or known bleeding disorders/diathesis\n* uncontrolled hypertension, defined us single blood pressure measurement ≥180/110 mm Hg prior to randomization\n* internal bleeding within the past 2 weeks\n* conditions with increased risk of bleeding (peptic ulceration)\n* prolonged or traumatic resuscitation within the past 2 weeks\n* any known history of hemorrhagic stroke, or transitory ischemic attack\n* ischemic stroke within the past 3 month\n* puncture of unpressable vessels\n* aortic aneurism\n* intracranial neoplasm\n* any head trauma within past 2 weeks\n* intracranial vessel malformation\n* recent administration of anticoagulant within the past month\n* INR \\>1.3\n* sensibilisation to staphylokinase\n* contra-indications to acetylsalicilic acid, clopidogrel, enoxaparin\n* any conditions with unfavorable prognosis\n* in case of surgical treatment required within 30 days after randomization\n* in case of unhallowed medications required\n* pregnancy, lactation\n* inability to follow the protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Valentin A. Markov, MD, Prof.",
+          "affiliation": "Institute of Cardiology, Tomsk, Russia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Segey S Markin, MD, Prof.",
+          "affiliation": "Supergene LCC",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institute of Cardiology",
+          "city": "Tomsk",
+          "state": "Siberia",
+          "zip": "634012",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        },
+        {
+          "facility": "St. Iosaf's Belgorod Regional Clinical Hospital",
+          "city": "Belgorod",
+          "zip": "308007",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 50.60343,
+            "lon": 36.58091
+          }
+        },
+        {
+          "facility": "Kemerovo cardiological dispensary",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "Research Institute of Complex Problems of Cardiovascular diseases",
+          "city": "Kemerovo",
+          "zip": "650002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "City Clinical Hospital #11",
+          "city": "Kemerovo",
+          "zip": "650014",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "Russian national research medical University named after Pirogov",
+          "city": "Moscow",
+          "zip": "117997",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "City Clinical Hospital #81",
+          "city": "Moscow",
+          "zip": "127644",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "The Sklifosovsky Research institute of Emergency",
+          "city": "Moscow",
+          "zip": "129090",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Murmansk Regional Clinical Hospital",
+          "city": "Murmansk",
+          "zip": "183047",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 68.96778,
+            "lon": 33.09922
+          }
+        },
+        {
+          "facility": "City Clinical Hospital #5",
+          "city": "Nizhny Novgorod",
+          "zip": "603005",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.32867,
+            "lon": 44.00205
+          }
+        },
+        {
+          "facility": "Regional Clinical Hospital",
+          "city": "Ryazan",
+          "zip": "390039",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.62696,
+            "lon": 39.70415
+          }
+        },
+        {
+          "facility": "Mariinsk City Hospital",
+          "city": "Saint Petersburg",
+          "zip": "191014",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Leningrad Regional Clinical Hospital",
+          "city": "Saint Petersburg",
+          "zip": "194291",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Samara Regional Clinical Cardiological Dispansery",
+          "city": "Samara",
+          "zip": "44З070",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.20767,
+            "lon": 50.13553
+          }
+        },
+        {
+          "facility": "Regional Clinical Hospital",
+          "city": "Tver'",
+          "zip": "170036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85836,
+            "lon": 35.90057
+          }
+        },
+        {
+          "facility": "Citi Clinical Hospital # 4",
+          "city": "Vladimir",
+          "zip": "600020",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.13854,
+            "lon": 40.39976
+          }
+        },
+        {
+          "facility": "City Clinical Hospital of Emergency #25",
+          "city": "Volgograd",
+          "zip": "400138",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 48.71378,
+            "lon": 44.4976
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20598969",
+          "type": "BACKGROUND",
+          "citation": "Armstrong PW, Gershlick A, Goldstein P, Wilcox R, Danays T, Bluhmki E, Van de Werf F; STREAM Steering Committee. The Strategic Reperfusion Early After Myocardial Infarction (STREAM) study. Am Heart J. 2010 Jul;160(1):30-35.e1. doi: 10.1016/j.ahj.2010.04.007."
+        },
+        {
+          "pmid": "10220625",
+          "type": "BACKGROUND",
+          "citation": "Van de Werf F, Cannon CP, Luyten A, Houbracken K, McCabe CH, Berioli S, Bluhmki E, Sarelin H, Wang-Clow F, Fox NL, Braunwald E. Safety assessment of single-bolus administration of TNK tissue-plasminogen activator in acute myocardial infarction: the ASSENT-1 trial. The ASSENT-1 Investigators. Am Heart J. 1999 May;137(5):786-91. doi: 10.1016/s0002-8703(99)70400-x."
+        },
+        {
+          "pmid": "10475182",
+          "type": "BACKGROUND",
+          "citation": "Assessment of the Safety and Efficacy of a New Thrombolytic (ASSENT-2) Investigators; Van De Werf F, Adgey J, Ardissino D, Armstrong PW, Aylward P, Barbash G, Betriu A, Binbrek AS, Califf R, Diaz R, Fanebust R, Fox K, Granger C, Heikkila J, Husted S, Jansky P, Langer A, Lupi E, Maseri A, Meyer J, Mlczoch J, Mocceti D, Myburgh D, Oto A, Paolasso E, Pehrsson K, Seabra-Gomes R, Soares-Piegas L, Sugrue D, Tendera M, Topol E, Toutouzas P, Vahanian A, Verheugt F, Wallentin L, White H. Single-bolus tenecteplase compared with front-loaded alteplase in acute myocardial infarction: the ASSENT-2 double-blind randomised trial. Lancet. 1999 Aug 28;354(9180):716-22. doi: 10.1016/s0140-6736(99)07403-6."
+        },
+        {
+          "pmid": "11530146",
+          "type": "BACKGROUND",
+          "citation": "Assessment of the Safety and Efficacy of a New Thrombolytic Regimen (ASSENT)-3 Investigators. Efficacy and safety of tenecteplase in combination with enoxaparin, abciximab, or unfractionated heparin: the ASSENT-3 randomised trial in acute myocardial infarction. Lancet. 2001 Aug 25;358(9282):605-13. doi: 10.1016/S0140-6736(01)05775-0."
+        },
+        {
+          "pmid": "12847070",
+          "type": "BACKGROUND",
+          "citation": "Wallentin L, Goldstein P, Armstrong PW, Granger CB, Adgey AA, Arntz HR, Bogaerts K, Danays T, Lindahl B, Makijarvi M, Verheugt F, Van de Werf F. Efficacy and safety of tenecteplase in combination with the low-molecular-weight heparin enoxaparin or unfractionated heparin in the prehospital setting: the Assessment of the Safety and Efficacy of a New Thrombolytic Regimen (ASSENT)-3 PLUS randomized trial in acute myocardial infarction. Circulation. 2003 Jul 15;108(2):135-42. doi: 10.1161/01.CIR.0000081659.72985.A8. Epub 2003 Jul 7."
+        },
+        {
+          "pmid": "9313600",
+          "type": "BACKGROUND",
+          "citation": "Vanderschueren S, Dens J, Kerdsinchai P, Desmet W, Vrolix M, De Man F, Van den Heuvel P, Hermans L, Collen D, Van de Werf F. Randomized coronary patency trial of double-bolus recombinant staphylokinase versus front-loaded alteplase in acute myocardial infarction. Am Heart J. 1997 Aug;134(2 Pt 1):213-9. doi: 10.1016/s0002-8703(97)70127-3."
+        },
+        {
+          "pmid": "10936478",
+          "type": "BACKGROUND",
+          "citation": "Verstraete M. Third-generation thrombolytic drugs. Am J Med. 2000 Jul;109(1):52-8. doi: 10.1016/s0002-9343(00)00380-6."
+        },
+        {
+          "pmid": "17963623",
+          "type": "BACKGROUND",
+          "citation": "Collaborative Research Group of Reperfusion Therapy in Acute Myocardial Infarction. [A randomized multicenter trial comparing recombinant staphylokinase with recombinant tissue-type plasminogen activator in patients with acute myocardial infarction]. Zhonghua Xin Xue Guan Bing Za Zhi. 2007 Aug;35(8):691-6. Chinese."
+        },
+        {
+          "pmid": "9500599",
+          "type": "BACKGROUND",
+          "citation": "Collen D. Staphylokinase: a potent, uniquely fibrin-selective thrombolytic agent. Nat Med. 1998 Mar;4(3):279-84. doi: 10.1038/nm0398-279. No abstract available."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Efficacy Guidelines. The work carried out by ICH under the Efficacy heading is concerned with the design, conduct, safety and reporting of clinical trials.",
+          "url": "http://www.ich.org/products/guidelines/efficacy/article/efficacy-guidelines.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Recombinant Staphylokinase",
+          "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+        },
+        {
+          "id": "FG001",
+          "title": "Tenecteplase",
+          "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "191"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "191"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "191"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "191"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Recombinant Staphylokinase",
+          "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+        },
+        {
+          "id": "BG001",
+          "title": "Tenecteplase",
+          "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "191"
+            },
+            {
+              "groupId": "BG001",
+              "value": "191"
+            },
+            {
+              "groupId": "BG002",
+              "value": "382"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "382"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "141"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "125"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "266"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "116"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "382"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "58.9",
+                      "spread": "9.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "60.01",
+                      "spread": "11.25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59.4",
+                      "spread": "10.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "382"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "146"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "158"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "304"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "title": "Russia",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "382"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "382"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "The Number of Participants With Reperfusion",
+          "description": "The number of participants with reperfusion by TIMI (Thrombolysis in Myocardial Infarction) 2-3 assessed by coronary arteriography, where grade 0 - no perfusion, grade 1 - penetration without perfusion, grade 2 - partial perfusion, grade 3 - complete perfusion.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "90 min after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "191"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "131"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "NON_INFERIORITY",
+              "nonInferiorityComment": "The calculation was carried out taking into account the power of 80%",
+              "pValue": "0.87",
+              "statisticalMethod": "ANOVA"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Composite Endpoint",
+          "description": "All cause death+Reccurent MI+Stroke+Heart failure",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cardiovascular Death",
+          "description": "Death caused by any cardiovascular reason/event",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Repeated Target Vessel Revascularization",
+          "description": "The need for re-intervention on infarct-related artery within 30 days after fibrinolysis",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Development of Heart Failure",
+          "description": "In case of at least of the one of the following conditions:\n\n1. Pulmonary oedema/congestion on chest X-ray without suspicion of a non-cardiac cause\n2. Rales \\> 1/3 up from the lung base (Killip class 2 or higher)\n3. Pulmonary capillary wedge pressure (PCWP) \\>25 mmHg\n4. Dyspnoea with pO2 \\< 80 mmHg or O2 sat \\< 90 % (no supplemental O2) in the absence of known lung disease;",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Rehospitalization Due to Cardiovascular Reasons",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "i.v. Bolus Over 5 - 10 Seconds Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Bleeding",
+          "description": "GUSTO classification",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 gays after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Intracranial Haemorrhages",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "within 30 days after fibrinolysis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Recombinant Staphylokinase",
+              "description": "Lyophilizate for solution making for intravenous injection, 5 mg (745000 ME). 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds\n\nRecombinant staphylokinase: 15 mg of drug reconstituted in 15 ml of 0.9% solution of NaCl given as single i.v. bolus over 5 - 10 seconds"
+            },
+            {
+              "id": "OG001",
+              "title": "Tenecteplase",
+              "description": "50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml\n* 80 to \\<90 45 mg 9 ml\n* 90 50 mg 10 ml\n\nTenecteplase: 50 mg of drug reconstituted in 10 ml sterile water for injection given as single weight-adjusted i.v. bolus over 5 - 10 seconds Weight (kg) Dose (mg) Dose (ml)\n\n* 55 to \\<60 30 mg 6 ml\n* 60 to \\<70 35 mg 7 ml\n* 70 to \\<80 40 mg 8 ml"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "190"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "191"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "30 days",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Recombinant Staphylokinase (Fortelyzin)",
+          "description": "Recombinant Staphylokinase, administrated as a single intravenous bolus in a dose of 15 mg",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 191,
+          "seriousNumAffected": 40,
+          "seriousNumAtRisk": 191,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 191
+        },
+        {
+          "id": "EG001",
+          "title": "Tenecteplase (Metalyse)",
+          "description": "Tenecteplase administrated in depend on body weight",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 191,
+          "seriousNumAffected": 43,
+          "seriousNumAtRisk": 191,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 191
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "death of all causes",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 191
+            }
+          ]
+        },
+        {
+          "term": "Cardiogenic shock",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 9,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 10,
+              "numAffected": 10,
+              "numAtRisk": 191
+            }
+          ]
+        },
+        {
+          "term": "Repeated MI",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 191
+            }
+          ]
+        },
+        {
+          "term": "Development heart failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 15,
+              "numAffected": 15,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 18,
+              "numAffected": 18,
+              "numAtRisk": 191
+            }
+          ]
+        },
+        {
+          "term": "Major bleeding",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 191
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "hematuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 10.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 191
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 191
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Markin Sergey",
+        "organization": "SuperGene LLC",
+        "email": "info@supergene.ru",
+        "phone": "(495) 287-98-07",
+        "phoneExt": "+7"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077785",
+          "term": "Tenecteplase"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010959",
+          "term": "Tissue Plasminogen Activator"
+        },
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

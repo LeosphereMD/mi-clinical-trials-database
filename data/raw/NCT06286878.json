@@ -1,0 +1,550 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06286878",
+      "orgStudyIdInfo": {
+        "id": "SDC 4620/17/120"
+      },
+      "organization": {
+        "fullName": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pleiotropic Effects of Dapagliflozin in Patients With Acute Coronary Syndromes",
+      "officialTitle": "Pleiotropic Effects of Dapagliflozin in Patients With Acute Coronary Syndromes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-12-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-07-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-01-04",
+      "studyFirstSubmitQcDate": "2024-02-23",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jose Carlos Nicolau",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Sao Paulo"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Type 2 diabetes mellitus (T2DM) is one of the most important risk factors for atherosclerotic heart disease. Strategies focused solely on glycemic control have failed to demonstrate vascular events reduction in this population. On the other hand, new antidiabetic drugs recently have demonstrated significant decrease of cardiovascular mortality, raising the hypothesis that possible effects beyond glycemia control could explain this benefit. Aim: This study is intended to evaluate possible pleiothropic effects of dapaglifozin, a SGLT-2 (sodium glucose cotransporter 2) inhibitor, in individuals admitted with a diagnosis of Acute Myocardial Infarction (AMI). Methods: This is a prospective, randomized, double-blind, placebo controlled trial. Individuals presenting with AMI whithin the first seven days of evolution will be randomized to dapaglifozin or placebo. The investigators's goal is to analyze platelet aggregability 48 hours after randomization (primary endpoint), as well as glycemic control, cardiac biomarkers, corrected QT interval electrocardiographic analysis, autonomic modulation through spectral analysis of the RR interval and inflammatory biomarkers at inclusion and 30 days after starting study drug (secondary endpoints). Sample size calculation resulted in 80 individuals (40 per group). Expected results: This study will seek to aggregate new insights to the current knowledge about this new antidiabetic drug class. Previous randomized clinical trials have demonstrated that SGLT-2 inhibitors significantly reduced the composite endpoint of cardiovascular death, AMI or stroke, as well as Heart Failure (HF) hospitalization. Therefore, this study is supposed to clarify possible mechanisms that could explain these results aforementioned.",
+      "detailedDescription": "Study design: Single-center, prospective, randomized, double-blind, placebo-controlled, parallel-group clinical study.\n\nPrimary Outcome: To compare platelet aggregation in the dapagliflozin and placebo groups by the Multiplate Analyzer® test (using ADP as an agonist) in hospitalized patients with a diagnosis of AMI within seven days of evolution, using dual antiplatelet therapy with acetylsalicylic acid (ASA) and an anti-platelet ADP, 48 ± 12 hours after starting dapagliflozin/placebo treatment. Due to the rapid oral absorption of the medication, reaching maximum plasma concentration after 2 hours and as its pharmacokinetics does not change with food or other concomitant medications, our hypothesis is that there may be an antiplatelet effect that can be detected early\n\nOther exploratory analyses:\n\n1. compare B-type natriuretic peptide (BNP) and troponin biomarkers between dapagliflozin and placebo groups at 30 (± 5) days after randomization;\n2. Correlation between levels of ultrasensitive C-reactive protein (us-CRP) and platelet aggregability;\n3. Compare hsCRP levels in dapagliflozin and placebo groups at 30 (± 5) days;\n4. Compare the size of the AMI assessed by peak CK-MB mass and troponin in the dapagliflozin and placebo groups;\n5. Compare the behavior of glycemia in the dapagliflozin and placebo groups, taking into account the following parameters: calculation of the glycemic mean (±SD) of capillary blood glucose tests (remote laboratory tests) during 48 hours after randomization; incidence of hypoglycemia (blood glucose below 70 mg/dl) and severe hypoglycemia (glycemia below 40 mg/dl) during hospitalization; calculation of the average insulin used during 48 hours after randomization;\n6. Compare, in the dapagliflozin and placebo groups, the levels of creatinine, urea and hematocrit analyzed immediately after randomization and before starting treatment, and 30 (± 5) days after randomization;\n7. Test of lipid transfer from artificial nanoemulsion to HDL in dapagliflozin and placebo groups at inclusion and at 30 (± 5) days after randomization: EDTA plasma samples in a volume of 200 μL will be incubated with 50 μL nanoemulsion artificial in 3H-cholesteryl-esters and 14C-phospholipids or with free 14C-cholesterol and 3H-triglycerides. After 1h in agitation of the bath at 37 ºC, the precipitation reagent consisting of 250 μL of the solution with 0.02% dextran sulfate (50,000 MW) and 0.3 mol / L of MgCl2 will be added to the incubation, which will then be mixed for 30 seconds and centrifuged for 10 min (3000g). Finally, 250 μL of the supernatant is transferred to counting vials containing 5 μL of scintillation solution (Packard BioScience, Groeningen, The Netherlands) and the radioactivity measured with a Packard model TR 1600 liquid scintillation analyzer (Palo Alto, CA). Blank plasma samples will be replaced by 200 μL of TRIS solution. The radioactive transfer results from the nanoemulsion to HDL will be expressed as % of the total incubated radioactivity found in the supernatant containing HDL.\n8. Compare the diuresis obtained during 48 hours after randomization in the Coronary Intensive Care Unit, in the dapagliflozin and placebo groups.\n9. Compare, in the dapagliflozin and placebo groups, autonomic modulation, vascular autonomic control and assessment of baroreflex control by means of a 10-minute electrocardiogram, after inclusion and before the start of treatment, and 30 (± 5) days after randomization .\n\nAnalyze the primary objective of the study in the following pre-specified subgroups:\n\n1. obese (BMI ≥ 30 Kg/m2) and non-obese;\n2. male and female sex;\n3. elderly (≥ 65 years) and non-elderly;\n4. smokers and non-smokers;\n5. time since diagnosis of diabetes (≥ or \\< 10 years);\n6. basal blood glucose ≥ 125 mg/dL and \\< 125 mg/dL;\n7. glycated hemoglobin (HbA1c) ≤ 9.0% and \\> 9.0%;\n8. use of clopidogrel or ticagrelor;\n9. treatment performed for the acute coronary event: percutaneous coronary intervention or clinical treatment;\n10. ejection fraction ≤ 40% and \\> 40%.\n11. Diabetics and non-diabetics\n12. Onset of symptoms ≤ 72 hours and \\> 72 hours\n\nStudy plan: Eligible patients will be enrolled within the first seven days of symptom onset. After signing the Informed Consent Form, laboratory tests will be collected, as previously specified in the methodology. Subsequently, patients will be randomized to use dapagliflozin or placebo in a double-blind manner. Randomization will be performed using the Graphipad® program, with distribution of numbered vials containing the study medication (dapagliflozin 10 mg tablets or placebo-equivalent), randomly between the two groups. All patients must be using dual antiplatelet therapy and the results will be stratified by the type of treatment performed for AMI. Study medication, once initiated, will be maintained until the final platelet assessment, scheduled for 30 days, is performed. The other medications, including other oral antidiabetics and insulin, will be used according to the institution's routines, except for prohibited medications, as stated in the exclusion criteria. After the end of the study, the sealed envelopes will be opened to identify the blinding codes.\n\nGlycemic control: According to institutional routines, the cut-off value of 140 mg/dL will be used in two sequential capillary blood glucose levels as the threshold for starting treatment with subcutaneous insulin. Patients whose diabetes control is not adequate, as evidenced by a capillary blood glucose value maintained greater than 250 mg/dL, will receive the intravenous insulin protocol, also in accordance with the institutional routines (summary below).The HbA1c target will be of \\< 7.5%.\n\nInclusion criteria:\n\n1. Men and women aged ≥ 18 years (women of childbearing age must have a negative pregnancy test)\n2. In routine use of dual antiplatelet therapy with ASA plus an ADP receptor antagonist, according to institutional routines;\n3. Acute myocardial infarction, with or without ST-segment elevation (STEMI/NSTEMI) defined according to the 4th Universal Definition of Acute Myocardial Infarction, with up to 7 days of evolution from the onset of symptoms;\n4. Signature of the Free and Informed Consent Term.\n\nExclusion criteria:\n\n1. Current or recent (within 24 months) treatment with pioglitazone and/or use of pioglitazone for a total of 2 years or more during a lifetime at any time;\n2. Current or recent (within 12 months) treatment with rosiglitazone;\n3. Chronic use (\\>15 consecutive days) of any SGLT2 inhibitor at the time of hospitalization;\n4. Chronic use (\\>30 consecutive days) with an oral steroid at a dose equivalent to prednisolone ≥10 mg (eg, betamethasone ≥1.2 mg, dexamethasone ≥1.5 mg, hydrocortisone ≥40 mg) per day;\n5. systolic BP \\> 180 or diastolic BP \\> 100 mmHg at randomization;\n6. Diagnosis of Type 1 diabetes mellitus, MODY (maturity onset diabetes of the Young) or diabetes mellitus secondary to diverse endocrinopathy, pancreatic resection, medication, pancreas neoplasia or chronic pancreatitis;\n7. History of bladder cancer or history of radiation therapy to the lower abdomen or pelvis at any time;\n8. History of any other malignancy within 5 years (with the exception of skin cancers successfully treated non-melanoma);\n9. Chronic cystitis and/or recurrent urinary tract infections (3 or more in the last year);\n10. Any condition that, in the opinion of the Investigator, may render the research participant unfit to complete the study, including, but not limited to, cardiovascular disease (KILLIP \\> 2, modified Forester \\> IIa,recurrent ventricular arrhythmias) or non cardiovascular (eg, active malignancy other than basal cell carcinoma, cirrhosis, chronic lung disease, severe autoimmune disease);\n11. Pregnancy or lactation;\n12. Active participation in another clinical trial\n13. Patients with septic shock or severe glycemic decompensation requiring the use of IV insulin at the time of randomization;\n14. TGP/ALT(Alanine Amino Transferase) \\>3x the upper limit of normality (ULN) or total bilirubin \\>2.5 x ULN;\n15. Estimated glomerular filtration rate (GFR) \\< 45 ml/min/1.73m² , calculated by MDRD, or kidney transplant;\n16. Known thrombophilias or thrombocytosis;\n17. Blood dyscrasias or any disorder that causes hemolysis, previously known;\n18. Hematological abnormality (Hb ≤ 11g/dL or \\> 17g/dL, leukocytes ≤ 4500/mm³ or \\>11000/mm³, platelet count \\<150,000/mm³ or \\> 450,000/mm³)\n\nCasuistry: To calculate the sample size, the following assumptions were taken into account consideration :\n\n1. Aggregability of 482.61 ± 231.82 (area under the curve AUC) in a previous study of patients with ACS using dual antiaggregation therapy with AAS and clopidogrel;\n2. estimated difference of 33% less in the dapagliflozin group (323.35 ± 231.82 AUC);\n3. alpha of 0.05 and statistical power of 80%. Based on this information, the sample size was calculated at 70 patients, and in order to compensate for any follow-up losses, 80 patients (40 in each group) will be included in this project."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction",
+        "Acute Coronary Syndrome",
+        "Diabetes",
+        "Ventricular Dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single-center, prospective, randomized, double-blind, placebo-controlled clinical study.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10 mg tablets given once daily, per oral use",
+          "interventionNames": [
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo tablets given once daily, per oral use",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Patients will be randomized to use dapagliflozin or placebo in a double-blind way",
+          "armGroupLabels": [
+            "Placebo group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin",
+          "description": "Patients will be randomized to use dapagliflozin or placebo in a double-blind way",
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet aggregation using ADP",
+          "description": "To compare platelet aggregation in the dapagliflozin and placebo groups by the Multiplate Analyzer® test (using ADP as an agonist) in hospitalized patients with a diagnosis of AMI within seven days of evolution, using dual antiplatelet therapy with acetylsalicylic acid (ASA) and an anti-platelet ADP, 48 ± 12 hours after starting dapagliflozin/placebo treatment.",
+          "timeFrame": "4 Years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Platelet aggregation using ADP at 30 (± 5) days after study therapy",
+          "description": "Compare between the dapagliflozin and placebo groups: platelet aggregability at 30 (± 5) days after study therapy by the Multiplate Analyzer®️ test with ADP , at the same intervals of the analyzes that will be performed with the ADP.",
+          "timeFrame": "4 Years"
+        },
+        {
+          "measure": "Platelet aggregation using ASPI at 30 (± 5) days after study therapy",
+          "description": "Compare between the dapagliflozin and placebo groups: platelet aggregability at 30 (± 5) days after study therapy by the Multiplate Analyzer®️ test with ASPI, at the same intervals of the analyzes that will be performed with the ADP.",
+          "timeFrame": "4 Years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Analyze the primary objective of the study in the following pre-specified subgroups:",
+          "description": "1. obese (BMI ≥ 30 Kg/m2) and non-obese;\n2. male and female sex;\n3. elderly (≥ 65 years) and non-elderly;\n4. smokers and non-smokers;\n5. time since diagnosis of diabetes (≥ or \\< 10 years);\n6. basal blood glucose ≥ 125 mg/dL and \\< 125 mg/dL;\n7. glycated hemoglobin (HbA1c) ≤ 9.0% and \\> 9.0%;\n8. use of clopidogrel or ticagrelor;\n9. treatment performed for the acute coronary event: percutaneous coronary intervention or clinical treatment;\n10. ejection fraction ≤ 40% and \\> 40%.\n11. Diabetics and non-diabetics\n12. Onset of symptoms ≤ 72 hours and \\> 72 hours",
+          "timeFrame": "4 Years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women aged ≥ 18 years (women of childbearing age must have a negative pregnancy test);\n* In routine use of dual antiplatelet therapy with ASA plus an ADP receptor antagonist, according to institutional routines;\n* Acute myocardial infarction, with or without ST-segment elevation (STEMI/NSTEMI) defined according to the 4th Universal Definition of Acute Myocardial Infarction, with up to 7 days of evolution from the onset of symptoms;\n* Signature of the Free and Informed Consent Term.\n\nExclusion criteria:\n\n* Current or recent (within 24 months) treatment with pioglitazone and/or use of pioglitazone for a total of 2 years or more during a lifetime at any time;\n* Current or recent (within 12 months) treatment with rosiglitazone;\n* Chronic use (\\>15 consecutive days) of any SGLT2 inhibitor at the time of hospitalization;\n* Chronic use (\\>30 consecutive days) with an oral steroid at a dose equivalent to prednisolone ≥10 mg (eg, betamethasone ≥1.2 mg, dexamethasone ≥1.5 mg, hydrocortisone ≥40 mg) per day;\n* Systolic BP \\> 180 or diastolic BP \\> 100 mmHg at randomization;\n* Diagnosis of Type 1 diabetes mellitus, MODY (maturity onset diabetes of the Young) or diabetes mellitus secondary to diverse endocrinopathy, pancreatic resection, medication, pancreas neoplasia or chronic pancreatitis;\n* History of bladder cancer or history of radiation therapy to the lower abdomen or pelvis at any time;\n* History of any other malignancy within 5 years (with the exception of skin cancers successfully treated non-melanoma);\n* Chronic cystitis and/or recurrent urinary tract infections (3 or more in the last year);\n* Any condition that, in the opinion of the Investigator, may render the research participant unfit to complete the study, including, but not limited to, cardiovascular disease (KILLIP \\> 2, modified Forester \\> IIa,35 recurrent ventricular arrhythmias) or non cardiovascular (eg, active malignancy other than basal cell carcinoma, cirrhosis, chronic lung disease, severe autoimmune disease);\n* Pregnancy or lactation;\n* Active participation in another clinical trial\n* Patients with septic shock or severe glycemic decompensation requiring the use of IV insulin at the time of randomization;\n* TGP/ALT(Alanine Amino Transferase) \\>3x the upper limit of normality (ULN) or total bilirubin \\>2.5 x ULN;\n* Estimated glomerular filtration rate (GFR) \\< 45 ml/min/1.73m² , calculated by MDRD, or kidney transplant;\n* Known thrombophilias or thrombocytosis;\n* Blood dyscrasias or any disorder that causes hemolysis, previously known;\n* Hematological abnormality (Hb ≤ 11g/dL or \\> 17g/dL, leukocytes ≤ 4500/mm³ or \\>11000/mm³, platelet count \\<150,000/mm³ or \\> 450,000/mm³)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jose JN Nicolau",
+          "role": "CONTACT",
+          "phone": "+55 (11) 2661-5058",
+          "email": "jose.nicolau@incor.usp.br"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jose JN Nicolu",
+          "affiliation": "University of Sao Paulo",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Instituto do Coracao (InCor), Hospital das Clinicas HCFMUSP, Faculdade de Medicina, Universidade de Sao Paulo",
+          "status": "RECRUITING",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "zip": "05403-900",
+          "country": "Brazil",
+          "contacts": [
+            {
+              "name": "José Carlos Nicolau",
+              "role": "CONTACT",
+              "phone": "551126615058",
+              "email": "josecarlosnicolau@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "17852797",
+          "type": "BACKGROUND",
+          "citation": "Johansen OE. Cardiovascular disease and type 2 diabetes mellitus: a multifaceted symbiosis. Scand J Clin Lab Invest. 2007;67(8):786-800. doi: 10.1080/00365510701408558."
+        },
+        {
+          "pmid": "26378978",
+          "type": "BACKGROUND",
+          "citation": "Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, Mattheus M, Devins T, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME Investigators. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. N Engl J Med. 2015 Nov 26;373(22):2117-28. doi: 10.1056/NEJMoa1504720. Epub 2015 Sep 17."
+        },
+        {
+          "pmid": "22028280",
+          "type": "BACKGROUND",
+          "citation": "Nicolau JC, Serrano CV Jr, Giraldez RR, Baracioli LM, Moreira HG, Lima F, Franken M, Kalil R, Ramires JA, Giugliano RP. In patients with acute myocardial infarction, the impact of hyperglycemia as a risk factor for mortality is not homogeneous across age-groups. Diabetes Care. 2012 Jan;35(1):150-2. doi: 10.2337/dc11-1170. Epub 2011 Oct 25."
+        },
+        {
+          "pmid": "23598457",
+          "type": "BACKGROUND",
+          "citation": "Ladeira RT, Baracioli LM, Faulin TE, Abdalla DS, Seydell TM, Maranhao RC, Mendonca BB, Strunz CC, Castro Id, Nicolau JC. Unrecognized diabetes and myocardial necrosis: predictors of hyperglycemia in myocardial infarction. Arq Bras Cardiol. 2013 May;100(5):404-11. Epub 2013 Apr 19. English, Portuguese."
+        },
+        {
+          "pmid": "16046311",
+          "type": "BACKGROUND",
+          "citation": "Angiolillo DJ, Fernandez-Ortiz A, Bernardo E, Ramirez C, Sabate M, Jimenez-Quevedo P, Hernandez R, Moreno R, Escaned J, Alfonso F, Banuelos C, Costa MA, Bass TA, Macaya C. Platelet function profiles in patients with type 2 diabetes and coronary artery disease on combined aspirin and clopidogrel treatment. Diabetes. 2005 Aug;54(8):2430-5. doi: 10.2337/diabetes.54.8.2430."
+        },
+        {
+          "pmid": "20847109",
+          "type": "BACKGROUND",
+          "citation": "Alzahrani SH, Ajjan RA. Coagulation and fibrinolysis in diabetes. Diab Vasc Dis Res. 2010 Oct;7(4):260-73. doi: 10.1177/1479164110383723. Epub 2010 Sep 16."
+        },
+        {
+          "pmid": "21129165",
+          "type": "BACKGROUND",
+          "citation": "Park KW, Park JJ, Jeon KH, Kang SH, Oh IY, Yang HM, Cho HJ, Lee HY, Kang HJ, Koo BK, Oh BH, Park YB, Kim HS. Clinical predictors of high posttreatment platelet reactivity to clopidogrel in Koreans. Cardiovasc Ther. 2012 Feb;30(1):5-11. doi: 10.1111/j.1755-5922.2010.00249.x. Epub 2010 Dec 6."
+        },
+        {
+          "pmid": "18358749",
+          "type": "BACKGROUND",
+          "citation": "Demirtunc R, Duman D, Basar M, Bilgi M, Teomete M, Garip T. The relationship between glycemic control and platelet activity in type 2 diabetes mellitus. J Diabetes Complications. 2009 Mar-Apr;23(2):89-94. doi: 10.1016/j.jdiacomp.2008.01.006. Epub 2008 Mar 20."
+        },
+        {
+          "pmid": "19853698",
+          "type": "BACKGROUND",
+          "citation": "Singla A, Antonino MJ, Bliden KP, Tantry US, Gurbel PA. The relation between platelet reactivity and glycemic control in diabetic patients with cardiovascular disease on maintenance aspirin and clopidogrel therapy. Am Heart J. 2009 Nov;158(5):784.e1-6. doi: 10.1016/j.ahj.2009.08.013."
+        },
+        {
+          "pmid": "24030863",
+          "type": "BACKGROUND",
+          "citation": "Sanidas EA, Brener SJ, Maehara A, Genereux P, Witzenbichler B, El-Omar M, Fahy M, Mehran R, Gibson CM, Stone GW. Outcomes in diabetic patients undergoing primary percutaneous coronary intervention for acute anterior myocardial infarction: results from the INFUSE-AMI study. Catheter Cardiovasc Interv. 2014 Apr 1;83(5):704-10. doi: 10.1002/ccd.25203. Epub 2013 Oct 23."
+        },
+        {
+          "pmid": "21205121",
+          "type": "BACKGROUND",
+          "citation": "Lamanna C, Monami M, Marchionni N, Mannucci E. Effect of metformin on cardiovascular events and mortality: a meta-analysis of randomized clinical trials. Diabetes Obes Metab. 2011 Mar;13(3):221-8. doi: 10.1111/j.1463-1326.2010.01349.x."
+        },
+        {
+          "pmid": "14502100",
+          "type": "BACKGROUND",
+          "citation": "Grant PJ. Beneficial effects of metformin on haemostasis and vascular function in man. Diabetes Metab. 2003 Sep;29(4 Pt 2):6S44-52. doi: 10.1016/s1262-3636(03)72787-6."
+        },
+        {
+          "pmid": "11602624",
+          "type": "BACKGROUND",
+          "citation": "Zhou G, Myers R, Li Y, Chen Y, Shen X, Fenyk-Melody J, Wu M, Ventre J, Doebber T, Fujii N, Musi N, Hirshman MF, Goodyear LJ, Moller DE. Role of AMP-activated protein kinase in mechanism of metformin action. J Clin Invest. 2001 Oct;108(8):1167-74. doi: 10.1172/JCI13505."
+        },
+        {
+          "pmid": "26026848",
+          "type": "BACKGROUND",
+          "citation": "Papazafiropoulou A, Papanas N, Pappas S, Maltezos E, Mikhailidis DP. Effects of oral hypoglycemic agents on platelet function. J Diabetes Complications. 2015 Aug;29(6):846-51. doi: 10.1016/j.jdiacomp.2015.04.005. Epub 2015 Apr 16."
+        },
+        {
+          "pmid": "20519242",
+          "type": "BACKGROUND",
+          "citation": "De Caterina R, Madonna R, Sourij H, Wascher T. Glycaemic control in acute coronary syndromes: prognostic value and therapeutic options. Eur Heart J. 2010 Jul;31(13):1557-64. doi: 10.1093/eurheartj/ehq162. Epub 2010 Jun 2."
+        },
+        {
+          "pmid": "21403054",
+          "type": "BACKGROUND",
+          "citation": "Bennett WL, Maruthur NM, Singh S, Segal JB, Wilson LM, Chatterjee R, Marinopoulos SS, Puhan MA, Ranasinghe P, Block L, Nicholson WK, Hutfless S, Bass EB, Bolen S. Comparative effectiveness and safety of medications for type 2 diabetes: an update including new drugs and 2-drug combinations. Ann Intern Med. 2011 May 3;154(9):602-13. doi: 10.7326/0003-4819-154-9-201105030-00336. Epub 2011 Mar 14."
+        },
+        {
+          "pmid": "23992601",
+          "type": "BACKGROUND",
+          "citation": "Scirica BM, Bhatt DL, Braunwald E, Steg PG, Davidson J, Hirshberg B, Ohman P, Frederich R, Wiviott SD, Hoffman EB, Cavender MA, Udell JA, Desai NR, Mosenzon O, McGuire DK, Ray KK, Leiter LA, Raz I; SAVOR-TIMI 53 Steering Committee and Investigators. Saxagliptin and cardiovascular outcomes in patients with type 2 diabetes mellitus. N Engl J Med. 2013 Oct 3;369(14):1317-26. doi: 10.1056/NEJMoa1307684. Epub 2013 Sep 2."
+        },
+        {
+          "pmid": "23992602",
+          "type": "BACKGROUND",
+          "citation": "White WB, Cannon CP, Heller SR, Nissen SE, Bergenstal RM, Bakris GL, Perez AT, Fleck PR, Mehta CR, Kupfer S, Wilson C, Cushman WC, Zannad F; EXAMINE Investigators. Alogliptin after acute coronary syndrome in patients with type 2 diabetes. N Engl J Med. 2013 Oct 3;369(14):1327-35. doi: 10.1056/NEJMoa1305889. Epub 2013 Sep 2."
+        },
+        {
+          "pmid": "26052984",
+          "type": "BACKGROUND",
+          "citation": "Green JB, Bethel MA, Armstrong PW, Buse JB, Engel SS, Garg J, Josse R, Kaufman KD, Koglin J, Korn S, Lachin JM, McGuire DK, Pencina MJ, Standl E, Stein PP, Suryawanshi S, Van de Werf F, Peterson ED, Holman RR; TECOS Study Group. Effect of Sitagliptin on Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med. 2015 Jul 16;373(3):232-42. doi: 10.1056/NEJMoa1501352. Epub 2015 Jun 8."
+        },
+        {
+          "pmid": "27295427",
+          "type": "BACKGROUND",
+          "citation": "Marso SP, Daniels GH, Brown-Frandsen K, Kristensen P, Mann JF, Nauck MA, Nissen SE, Pocock S, Poulter NR, Ravn LS, Steinberg WM, Stockner M, Zinman B, Bergenstal RM, Buse JB; LEADER Steering Committee; LEADER Trial Investigators. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med. 2016 Jul 28;375(4):311-22. doi: 10.1056/NEJMoa1603827. Epub 2016 Jun 13."
+        },
+        {
+          "pmid": "28605608",
+          "type": "BACKGROUND",
+          "citation": "Neal B, Perkovic V, Mahaffey KW, de Zeeuw D, Fulcher G, Erondu N, Shaw W, Law G, Desai M, Matthews DR; CANVAS Program Collaborative Group. Canagliflozin and Cardiovascular and Renal Events in Type 2 Diabetes. N Engl J Med. 2017 Aug 17;377(7):644-657. doi: 10.1056/NEJMoa1611925. Epub 2017 Jun 12."
+        },
+        {
+          "pmid": "8282810",
+          "type": "BACKGROUND",
+          "citation": "Kanai Y, Lee WS, You G, Brown D, Hediger MA. The human kidney low affinity Na+/glucose cotransporter SGLT2. Delineation of the major renal reabsorptive mechanism for D-glucose. J Clin Invest. 1994 Jan;93(1):397-404. doi: 10.1172/JCI116972."
+        },
+        {
+          "pmid": "24026259",
+          "type": "BACKGROUND",
+          "citation": "Vasilakou D, Karagiannis T, Athanasiadou E, Mainou M, Liakos A, Bekiari E, Sarigianni M, Matthews DR, Tsapas A. Sodium-glucose cotransporter 2 inhibitors for type 2 diabetes: a systematic review and meta-analysis. Ann Intern Med. 2013 Aug 20;159(4):262-74. doi: 10.7326/0003-4819-159-4-201308200-00007."
+        },
+        {
+          "pmid": "25589482",
+          "type": "BACKGROUND",
+          "citation": "Inzucchi SE, Zinman B, Wanner C, Ferrari R, Fitchett D, Hantel S, Espadero RM, Woerle HJ, Broedl UC, Johansen OE. SGLT-2 inhibitors and cardiovascular risk: proposed pathways and review of ongoing outcome trials. Diab Vasc Dis Res. 2015 Mar;12(2):90-100. doi: 10.1177/1479164114559852. Epub 2015 Jan 14."
+        },
+        {
+          "pmid": "27470878",
+          "type": "BACKGROUND",
+          "citation": "Heerspink HJ, Perkins BA, Fitchett DH, Husain M, Cherney DZ. Sodium Glucose Cotransporter 2 Inhibitors in the Treatment of Diabetes Mellitus: Cardiovascular and Kidney Effects, Potential Mechanisms, and Clinical Applications. Circulation. 2016 Sep 6;134(10):752-72. doi: 10.1161/CIRCULATIONAHA.116.021887. Epub 2016 Jul 28."
+        },
+        {
+          "pmid": "27679584",
+          "type": "BACKGROUND",
+          "citation": "Verma S, Garg A, Yan AT, Gupta AK, Al-Omran M, Sabongui A, Teoh H, Mazer CD, Connelly KA. Effect of Empagliflozin on Left Ventricular Mass and Diastolic Function in Individuals With Diabetes: An Important Clue to the EMPA-REG OUTCOME Trial? Diabetes Care. 2016 Dec;39(12):e212-e213. doi: 10.2337/dc16-1312. Epub 2016 Sep 27. No abstract available."
+        },
+        {
+          "pmid": "30415602",
+          "type": "BACKGROUND",
+          "citation": "Wiviott SD, Raz I, Bonaca MP, Mosenzon O, Kato ET, Cahn A, Silverman MG, Zelniker TA, Kuder JF, Murphy SA, Bhatt DL, Leiter LA, McGuire DK, Wilding JPH, Ruff CT, Gause-Nilsson IAM, Fredriksson M, Johansson PA, Langkilde AM, Sabatine MS; DECLARE-TIMI 58 Investigators. Dapagliflozin and Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med. 2019 Jan 24;380(4):347-357. doi: 10.1056/NEJMoa1812389. Epub 2018 Nov 10."
+        },
+        {
+          "pmid": "30882239",
+          "type": "BACKGROUND",
+          "citation": "Furtado RHM, Bonaca MP, Raz I, Zelniker TA, Mosenzon O, Cahn A, Kuder J, Murphy SA, Bhatt DL, Leiter LA, McGuire DK, Wilding JPH, Ruff CT, Nicolau JC, Gause-Nilsson IAM, Fredriksson M, Langkilde AM, Sabatine MS, Wiviott SD. Dapagliflozin and Cardiovascular Outcomes in Patients With Type 2 Diabetes Mellitus and Previous Myocardial Infarction. Circulation. 2019 May 28;139(22):2516-2527. doi: 10.1161/CIRCULATIONAHA.119.039996. Epub 2019 Mar 18."
+        },
+        {
+          "pmid": "30424892",
+          "type": "BACKGROUND",
+          "citation": "Zelniker TA, Wiviott SD, Raz I, Im K, Goodrich EL, Bonaca MP, Mosenzon O, Kato ET, Cahn A, Furtado RHM, Bhatt DL, Leiter LA, McGuire DK, Wilding JPH, Sabatine MS. SGLT2 inhibitors for primary and secondary prevention of cardiovascular and renal outcomes in type 2 diabetes: a systematic review and meta-analysis of cardiovascular outcome trials. Lancet. 2019 Jan 5;393(10166):31-39. doi: 10.1016/S0140-6736(18)32590-X. Epub 2018 Nov 10."
+        },
+        {
+          "pmid": "26819227",
+          "type": "BACKGROUND",
+          "citation": "Fitchett D, Zinman B, Wanner C, Lachin JM, Hantel S, Salsali A, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME(R) trial investigators. Heart failure outcomes with empagliflozin in patients with type 2 diabetes at high cardiovascular risk: results of the EMPA-REG OUTCOME(R) trial. Eur Heart J. 2016 May 14;37(19):1526-34. doi: 10.1093/eurheartj/ehv728. Epub 2016 Jan 26."
+        },
+        {
+          "pmid": "28522450",
+          "type": "BACKGROUND",
+          "citation": "Kosiborod M, Cavender MA, Fu AZ, Wilding JP, Khunti K, Holl RW, Norhammar A, Birkeland KI, Jorgensen ME, Thuresson M, Arya N, Bodegard J, Hammar N, Fenici P; CVD-REAL Investigators and Study Group*. Lower Risk of Heart Failure and Death in Patients Initiated on Sodium-Glucose Cotransporter-2 Inhibitors Versus Other Glucose-Lowering Drugs: The CVD-REAL Study (Comparative Effectiveness of Cardiovascular Outcomes in New Users of Sodium-Glucose Cotransporter-2 Inhibitors). Circulation. 2017 Jul 18;136(3):249-259. doi: 10.1161/CIRCULATIONAHA.117.029190. Epub 2017 May 18."
+        },
+        {
+          "pmid": "30153967",
+          "type": "BACKGROUND",
+          "citation": "Thygesen K, Alpert JS, Jaffe AS, Chaitman BR, Bax JJ, Morrow DA, White HD; Executive Group on behalf of the Joint European Society of Cardiology (ESC)/American College of Cardiology (ACC)/American Heart Association (AHA)/World Heart Federation (WHF) Task Force for the Universal Definition of Myocardial Infarction. Fourth Universal Definition of Myocardial Infarction (2018). J Am Coll Cardiol. 2018 Oct 30;72(18):2231-2264. doi: 10.1016/j.jacc.2018.08.1038. Epub 2018 Aug 25. No abstract available."
+        },
+        {
+          "pmid": "11595605",
+          "type": "BACKGROUND",
+          "citation": "Nicolau JC, Serrano CV Jr, Garzon SA, Ramires JA. Prognosis of acute myocardial infarction in the thrombolytic era: medical evaluation is still valuable. Eur J Heart Fail. 2001 Oct;3(5):569-76. doi: 10.1016/s1388-9842(01)00170-2."
+        },
+        {
+          "pmid": "24353516",
+          "type": "BACKGROUND",
+          "citation": "O I, M O, A AS, Hh CH, W SF, Rahman M. Evaluation of Aspirin and Clopidogrel resistance in patients with Acute Coronary Syndrome by using Adenosine Diposphate Test and Aspirin Test. Pak J Med Sci. 2013 Jan;29(1):97-102. doi: 10.12669/pjms.291.2820."
+        },
+        {
+          "pmid": "31535829",
+          "type": "BACKGROUND",
+          "citation": "McMurray JJV, Solomon SD, Inzucchi SE, Kober L, Kosiborod MN, Martinez FA, Ponikowski P, Sabatine MS, Anand IS, Belohlavek J, Bohm M, Chiang CE, Chopra VK, de Boer RA, Desai AS, Diez M, Drozdz J, Dukat A, Ge J, Howlett JG, Katova T, Kitakaze M, Ljungman CEA, Merkely B, Nicolau JC, O'Meara E, Petrie MC, Vinh PN, Schou M, Tereshchenko S, Verma S, Held C, DeMets DL, Docherty KF, Jhund PS, Bengtsson O, Sjostrand M, Langkilde AM; DAPA-HF Trial Committees and Investigators. Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction. N Engl J Med. 2019 Nov 21;381(21):1995-2008. doi: 10.1056/NEJMoa1911303. Epub 2019 Sep 19."
+        },
+        {
+          "pmid": "32673497",
+          "type": "BACKGROUND",
+          "citation": "Jackson AM, Dewan P, Anand IS, Belohlavek J, Bengtsson O, de Boer RA, Bohm M, Boulton DW, Chopra VK, DeMets DL, Docherty KF, Dukat A, Greasley PJ, Howlett JG, Inzucchi SE, Katova T, Kober L, Kosiborod MN, Langkilde AM, Lindholm D, Ljungman CEA, Martinez FA, O'Meara E, Sabatine MS, Sjostrand M, Solomon SD, Tereshchenko S, Verma S, Jhund PS, McMurray JJV. Dapagliflozin and Diuretic Use in Patients With Heart Failure and Reduced Ejection Fraction in DAPA-HF. Circulation. 2020 Sep 15;142(11):1040-1054. doi: 10.1161/CIRCULATIONAHA.120.047077. Epub 2020 Jul 16."
+        },
+        {
+          "pmid": "32865377",
+          "type": "BACKGROUND",
+          "citation": "Packer M, Anker SD, Butler J, Filippatos G, Pocock SJ, Carson P, Januzzi J, Verma S, Tsutsui H, Brueckmann M, Jamal W, Kimura K, Schnee J, Zeller C, Cotton D, Bocchi E, Bohm M, Choi DJ, Chopra V, Chuquiure E, Giannetti N, Janssens S, Zhang J, Gonzalez Juanatey JR, Kaul S, Brunner-La Rocca HP, Merkely B, Nicholls SJ, Perrone S, Pina I, Ponikowski P, Sattar N, Senni M, Seronde MF, Spinar J, Squire I, Taddei S, Wanner C, Zannad F; EMPEROR-Reduced Trial Investigators. Cardiovascular and Renal Outcomes with Empagliflozin in Heart Failure. N Engl J Med. 2020 Oct 8;383(15):1413-1424. doi: 10.1056/NEJMoa2022190. Epub 2020 Aug 28."
+        },
+        {
+          "pmid": "31736328",
+          "type": "BACKGROUND",
+          "citation": "Martinez FA, Serenelli M, Nicolau JC, Petrie MC, Chiang CE, Tereshchenko S, Solomon SD, Inzucchi SE, Kober L, Kosiborod MN, Ponikowski P, Sabatine MS, DeMets DL, Dutkiewicz-Piasecka M, Bengtsson O, Sjostrand M, Langkilde AM, Jhund PS, McMurray JJV. Efficacy and Safety of Dapagliflozin in Heart Failure With Reduced Ejection Fraction According to Age: Insights From DAPA-HF. Circulation. 2020 Jan 14;141(2):100-111. doi: 10.1161/CIRCULATIONAHA.119.044133. Epub 2019 Nov 17."
+        },
+        {
+          "pmid": "33594755",
+          "type": "BACKGROUND",
+          "citation": "Butt JH, Nicolau JC, Verma S, Docherty KF, Petrie MC, Inzucchi SE, Schou M, Kosiborod MN, Langkilde AM, Martinez FA, Ponikowski P, Sabatine MS, Sjostrand M, Solomon SD, Bengtsson O, Jhund PS, McMurray JJV, Kober L. Efficacy and safety of dapagliflozin according to aetiology in heart failure with reduced ejection fraction: insights from the DAPA-HF trial. Eur J Heart Fail. 2021 Apr;23(4):601-613. doi: 10.1002/ejhf.2124. Epub 2021 Mar 10."
+        },
+        {
+          "pmid": "34320090",
+          "type": "BACKGROUND",
+          "citation": "Nicolau JC, Feitosa Filho GS, Petriz JL, Furtado RHM, Precoma DB, Lemke W, Lopes RD, Timerman A, Marin Neto JA, Bezerra Neto L, Gomes BFO, Santos ECL, Piegas LS, Soeiro AM, Negri AJA, Franci A, Markman Filho B, Baccaro BM, Montenegro CEL, Rochitte CE, Barbosa CJDG, Virgens CMBD, Stefanini E, Manenti ERF, Lima FG, Monteiro Junior FDC, Correa Filho H, Pena HPM, Pinto IMF, Falcao JLAA, Sena JP, Peixoto JM, Souza JA, Silva LSD, Maia LN, Ohe LN, Baracioli LM, Dallan LAO, Dallan LAP, Mattos LAPE, Bodanese LC, Ritt LEF, Canesin MF, Rivas MBDS, Franken M, Magalhaes MJG, Oliveira Junior MT, Filgueiras Filho NM, Dutra OP, Coelho OR, Leaes PE, Rossi PRF, Soares PR, Lemos Neto PA, Farsky PS, Cavalcanti RRC, Alves RJ, Kalil RAK, Esporcatte R, Marino RL, Giraldez RRCV, Meneghelo RS, Lima RSL, Ramos RF, Falcao SNDRS, Dalcoquio TF, Lemke VMG, Chalela WA, Mathias Junior W. Brazilian Society of Cardiology Guidelines on Unstable Angina and Acute Myocardial Infarction without ST-Segment Elevation - 2021. Arq Bras Cardiol. 2021 Jul;117(1):181-264. doi: 10.36660/abc.20210180. No abstract available. English, Portuguese."
+        },
+        {
+          "pmid": "32877652",
+          "type": "BACKGROUND",
+          "citation": "Zannad F, Ferreira JP, Pocock SJ, Anker SD, Butler J, Filippatos G, Brueckmann M, Ofstad AP, Pfarr E, Jamal W, Packer M. SGLT2 inhibitors in patients with heart failure with reduced ejection fraction: a meta-analysis of the EMPEROR-Reduced and DAPA-HF trials. Lancet. 2020 Sep 19;396(10254):819-829. doi: 10.1016/S0140-6736(20)31824-9. Epub 2020 Aug 30."
+        },
+        {
+          "pmid": "32219386",
+          "type": "BACKGROUND",
+          "citation": "Petrie MC, Verma S, Docherty KF, Inzucchi SE, Anand I, Belohlavek J, Bohm M, Chiang CE, Chopra VK, de Boer RA, Desai AS, Diez M, Drozdz J, Dukat A, Ge J, Howlett J, Katova T, Kitakaze M, Ljungman CEA, Merkely B, Nicolau JC, O'Meara E, Vinh PN, Schou M, Tereshchenko S, Kober L, Kosiborod MN, Langkilde AM, Martinez FA, Ponikowski P, Sabatine MS, Sjostrand M, Solomon SD, Johanson P, Greasley PJ, Boulton D, Bengtsson O, Jhund PS, McMurray JJV. Effect of Dapagliflozin on Worsening Heart Failure and Cardiovascular Death in Patients With Heart Failure With and Without Diabetes. JAMA. 2020 Apr 14;323(14):1353-1368. doi: 10.1001/jama.2020.1906."
+        },
+        {
+          "pmid": "23355343",
+          "type": "BACKGROUND",
+          "citation": "Toschi-Dias E, Trombetta IC, Dias da Silva VJ, Maki-Nunes C, Cepeda FX, Alves MJ, Drager LF, Lorenzi-Filho G, Negrao CE, Rondon MU. Time delay of baroreflex control and oscillatory pattern of sympathetic activity in patients with metabolic syndrome and obstructive sleep apnea. Am J Physiol Heart Circ Physiol. 2013 Apr 1;304(7):H1038-44. doi: 10.1152/ajpheart.00848.2012. Epub 2013 Jan 25."
+        },
+        {
+          "pmid": "9353988",
+          "type": "BACKGROUND",
+          "citation": "Baselli G, Porta A, Rimoldi O, Pagani M, Cerutti S. Spectral decomposition in multichannel recordings based on multivariate parametric identification. IEEE Trans Biomed Eng. 1997 Nov;44(11):1092-101. doi: 10.1109/10.641336."
+        },
+        {
+          "pmid": "11179406",
+          "type": "BACKGROUND",
+          "citation": "Cevese A, Gulli G, Polati E, Gottin L, Grasso R. Baroreflex and oscillation of heart period at 0.1 Hz studied by alpha-blockade and cross-spectral analysis in healthy humans. J Physiol. 2001 Feb 15;531(Pt 1):235-44. doi: 10.1111/j.1469-7793.2001.0235j.x."
+        },
+        {
+          "pmid": "7923668",
+          "type": "BACKGROUND",
+          "citation": "Montano N, Ruscone TG, Porta A, Lombardi F, Pagani M, Malliani A. Power spectrum analysis of heart rate variability to assess the changes in sympathovagal balance during graded orthostatic tilt. Circulation. 1994 Oct;90(4):1826-31. doi: 10.1161/01.cir.90.4.1826."
+        },
+        {
+          "pmid": "8853630",
+          "type": "BACKGROUND",
+          "citation": "Pagani M, Lucini D, Rimoldi O, Furlan R, Piazza S, Porta A, Malliani A. Low and high frequency components of blood pressure variability. Ann N Y Acad Sci. 1996 Aug 15;783:10-23. doi: 10.1111/j.1749-6632.1996.tb26704.x. No abstract available."
+        },
+        {
+          "pmid": "8598068",
+          "type": "BACKGROUND",
+          "citation": "Heart rate variability: standards of measurement, physiological interpretation and clinical use. Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology. Circulation. 1996 Mar 1;93(5):1043-65. No abstract available."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

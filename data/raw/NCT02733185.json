@@ -1,0 +1,2483 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02733185",
+      "orgStudyIdInfo": {
+        "id": "AT009149-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UH3AT009149",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UH3AT009149"
+        },
+        {
+          "id": "UH3AT009150",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/UH3AT009150"
+        },
+        {
+          "id": "R01AT009273",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01AT009273"
+        },
+        {
+          "id": "U24AT009150",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U24AT009150"
+        }
+      ],
+      "organization": {
+        "fullName": "Mt. Sinai Medical Center, Miami",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial to Assess Chelation Therapy 2",
+      "officialTitle": "Trial to Assess Chelation Therapy 2",
+      "acronym": "TACT2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-10-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-06-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-06-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-04-05",
+      "studyFirstSubmitQcDate": "2016-04-05",
+      "studyFirstPostDateStruct": {
+        "date": "2016-04-11",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2024-07-31",
+      "resultsFirstSubmitQcDate": "2024-09-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-10-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Gervasio Lamas, MD",
+        "investigatorTitle": "TACT2 Study Chair",
+        "investigatorAffiliation": "Mt. Sinai Medical Center, Miami"
+      },
+      "leadSponsor": {
+        "name": "Mt. Sinai Medical Center, Miami",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Center for Complementary and Integrative Health (NCCIH)",
+          "class": "NIH"
+        },
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        },
+        {
+          "name": "Duke Clinical Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Trial to Assess Chelation Therapy 2 (TACT2) is a randomized, double blind controlled factorial clinical trial of edetate disodium-based chelation and high-dose oral vitamins and minerals to prevent recurrent cardiac events in diabetic patients with a prior myocardial infarction (MI).",
+      "detailedDescription": "The primary objective of TACT2, therefore, is to determine if the chelation-based strategy increases the time to the first occurrence of any of the components of the TACT2 primary endpoint: all-cause mortality, myocardial infarction, stroke, coronary revascularization, or hospitalization for unstable angina compared to the placebo chelation strategy.\n\nTACT2 is a 2x2 factorial trial testing 40-weekly edetate disodium-based chelation infusions and twice daily high-dose oral multivitamins and multiminerals (OMVM) in a placebo-controlled design.\n\nTACT2 is being carried out to replicate the findings of TACT1, which found a striking reduction of recurrent cardiovascular events in post-MI diabetic patients receiving edetate disodium-based chelation therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes",
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "chelation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active/Active",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)",
+          "interventionNames": [
+            "Drug: disodium EDTA",
+            "Dietary Supplement: Oral Multi Vitamins/Minerals (OMVM)"
+          ]
+        },
+        {
+          "label": "Active/Placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)",
+          "interventionNames": [
+            "Drug: disodium EDTA"
+          ]
+        },
+        {
+          "label": "Placebo/ Active",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)",
+          "interventionNames": [
+            "Dietary Supplement: Oral Multi Vitamins/Minerals (OMVM)",
+            "Drug: Placebo disodium EDTA"
+          ]
+        },
+        {
+          "label": "Placebo/Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)",
+          "interventionNames": [
+            "Drug: Placebo disodium EDTA",
+            "Dietary Supplement: Placebo Oral Multi Vitamins/Minerals (OMVM)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "disodium EDTA",
+          "description": "IV Disodium Ethylene diamine tetra acetic acid in 500 cc",
+          "armGroupLabels": [
+            "Active/Active",
+            "Active/Placebo"
+          ],
+          "otherNames": [
+            "EDTA"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Oral Multi Vitamins/Minerals (OMVM)",
+          "description": "6 tablets of Multi-vitamin/Multimineral daily",
+          "armGroupLabels": [
+            "Active/Active",
+            "Placebo/ Active"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo disodium EDTA",
+          "description": "IV Placebo comparator- 500 normal saline",
+          "armGroupLabels": [
+            "Placebo/ Active",
+            "Placebo/Placebo"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Placebo Oral Multi Vitamins/Minerals (OMVM)",
+          "description": "6 tablets of a placebo Multi-vitamin/Multimineral daily",
+          "armGroupLabels": [
+            "Placebo/Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Primary Composite Outcome",
+          "description": "Time to first event: myocardial infarction, stroke, hospitalization for unstable angina, coronary revascularization, or death from any cause",
+          "timeFrame": "48 month follow-up (median)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Composite Outcome",
+          "description": "Time to first event: myocardial infarction, stroke, or death from cardiovascular causes",
+          "timeFrame": "48 month follow-up (median)"
+        },
+        {
+          "measure": "Secondary Outcome",
+          "description": "Time to All-Cause mortality",
+          "timeFrame": "All-Cause Mortality was assessed through study completion, up to 48 months (median)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age: ≥ 50 years\n2. History of diabetes, defined as medical record evidence or patient report of currently using insulin or oral hypoglycemic agents, or with a history of fasting blood glucose measurement of 126 mg/dL or higher, or a history of HbA1c of 6.5% or higher.\n3. History of myocardial infarction based on the Universal Definition of MI.\n\n   1. When information about the MI hospitalization is available, all MI types except Type 2 qualify for study entry.\n   2. When information about the MI hospitalization is not available, a wall motion abnormality on imaging or a perfusion defect on scan that corresponds to a coronary distribution, whether or not accompanied by pathological Q waves in the appropriate distribution, will qualify the patient for study entry. This criterion requires a call to the CCC for case review.\n\nExclusion Criteria:\n\n1. Baseline serum creatinine \\>2.0 mg/dL.\n2. HbA1C \\>11%.\n3. Myocardial infarction within 6 weeks of randomization.\n4. History of allergic reactions to EDTA or any other components of the chelation solution, including heparin. Site personnel are to call the CCC to discuss heparin allergy.\n5. Coronary or peripheral arterial revascularization procedure performed within the last 6 months.\n6. Planned revascularization procedure in the 6 months following enrollment.\n7. Heart failure hospitalization within 6 months prior to enrollment or in clinical heart failure at the time of proposed enrollment (such as NYHA Class 3 dyspnea + rales \\>basilar, and additional signs of fluid overload). Such patients may be treated with diuretics and enrolled when stable.\n8. Poor or no venous access in the upper extremities.\n9. a. Prior intravenous chelation therapy consisting of \\> 1 infusion within 5 years; if only 1 infusion took place, patient cannot be enrolled for at least 12 months after said infusion.\n\n   b. Oral chelation therapy with an approved oral chelating agent within 2 years.\n10. Prior participation in TACT.\n11. Baseline platelet count \\<100,000.\n12. History of cigarette smoking within the last 3 months.\n13. ALT or AST \\> 2.0 times the upper limit of normal.\n14. Wilson's disease, hemochromatosis, or parathyroid disease.\n15. Any medical condition including a current diagnosis of cancer (except non-melanoma skin cancer) that will limit patient survival over the duration of the trial.\n16. Any factor that suggests that the potential participant will not be able to adhere to the protocol.\n17. Women of child-bearing potential including those with plans for post-menopausal in vitro fertilization or other reproductive technology.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Gervasio A Lamas, MD",
+          "affiliation": "Mount Sinai Medical Center of Florida",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Kevin J Anstrom, PhD",
+          "affiliation": "University of North Carolina, Chapel Hill",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Daniel B Mark, MD",
+          "affiliation": "Duke University (Duke Clinical Research Institute)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mount Sinai Medical Center",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33132",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23532240",
+          "type": "BACKGROUND",
+          "citation": "Lamas GA, Goertz C, Boineau R, Mark DB, Rozema T, Nahin RL, Lindblad L, Lewis EF, Drisko J, Lee KL; TACT Investigators. Effect of disodium EDTA chelation regimen on cardiovascular events in patients with previous myocardial infarction: the TACT randomized trial. JAMA. 2013 Mar 27;309(12):1241-50. doi: 10.1001/jama.2013.2107."
+        },
+        {
+          "pmid": "24254885",
+          "type": "BACKGROUND",
+          "citation": "Escolar E, Lamas GA, Mark DB, Boineau R, Goertz C, Rosenberg Y, Nahin RL, Ouyang P, Rozema T, Magaziner A, Nahas R, Lewis EF, Lindblad L, Lee KL. The effect of an EDTA-based chelation regimen on patients with diabetes mellitus and prior myocardial infarction in the Trial to Assess Chelation Therapy (TACT). Circ Cardiovasc Qual Outcomes. 2014 Jan;7(1):15-24. doi: 10.1161/CIRCOUTCOMES.113.000663. Epub 2013 Nov 19."
+        },
+        {
+          "pmid": "24952858",
+          "type": "BACKGROUND",
+          "citation": "Lamas GA, Boineau R, Goertz C, Mark DB, Rosenberg Y, Stylianou M, Rozema T, Nahin RL, Terry Chappell L, Lindblad L, Lewis EF, Drisko J, Lee KL. EDTA chelation therapy alone and in combination with oral high-dose multivitamins and minerals for coronary disease: The factorial group results of the Trial to Assess Chelation Therapy. Am Heart J. 2014 Jul;168(1):37-44.e5. doi: 10.1016/j.ahj.2014.02.012. Epub 2014 Apr 2."
+        },
+        {
+          "pmid": "22172430",
+          "type": "BACKGROUND",
+          "citation": "Lamas GA, Goertz C, Boineau R, Mark DB, Rozema T, Nahin RL, Drisko JA, Lee KL. Design of the Trial to Assess Chelation Therapy (TACT). Am Heart J. 2012 Jan;163(1):7-12. doi: 10.1016/j.ahj.2011.10.002."
+        },
+        {
+          "pmid": "35598636",
+          "type": "BACKGROUND",
+          "citation": "Lamas GA, Anstrom KJ, Navas-Acien A, Boineau R, Kim H, Rosenberg Y, Stylianou M, Jones TLZ, Joubert BR, Santella RM, Escolar E, Aude YW, Fonseca V, Elliott T, Lewis EF, Farkouh ME, Nathan DM, Mon AC, Gosnell L, Newman JD, Mark DB; TACT2 Investigators. The trial to assess chelation therapy 2 (TACT2): Rationale and design. Am Heart J. 2022 Oct;252:1-11. doi: 10.1016/j.ahj.2022.05.013. Epub 2022 May 19."
+        },
+        {
+          "pmid": "38621575",
+          "type": "BACKGROUND",
+          "citation": "Navas-Acien A, Santella RM, Joubert BR, Huang Z, Lokhnygina Y, Ujueta F, Gurvich I, LoIacono NJ, Ravalli F, Ward CD, Jarrett JM, Salazar AL, Boineau R, Jones TLZ, Mark DB, Newman JD, Nathan DM, Anstrom KJ, Lamas GA. Baseline characteristics including blood and urine metal levels in the Trial to Assess Chelation Therapy 2 (TACT2). Am Heart J. 2024 Jul;273:72-82. doi: 10.1016/j.ahj.2024.04.005. Epub 2024 Apr 15."
+        },
+        {
+          "pmid": "40029647",
+          "type": "DERIVED",
+          "citation": "Ujueta F, Lamas GA, Anstrom KJ, Navas-Acien A, Boineau R, Rosenberg Y, Stylianou M, Jones TLZ, Joubert BR, Yu Q, Wen J, Nemeth H, Huang Z, Fonseca V, Nathan DM, Uwaifo G, Arenas IA, Luo L, Baker J, Visentin D, Paixao A, Schmedtje JF Jr, Mark DB; TACT2 Investigators. Multivitamins After Myocardial Infarction in Patients With Diabetes: A Randomized Clinical Trial. JAMA Intern Med. 2025 May 1;185(5):540-548. doi: 10.1001/jamainternmed.2024.8408."
+        },
+        {
+          "pmid": "39141382",
+          "type": "DERIVED",
+          "citation": "Lamas GA, Anstrom KJ, Navas-Acien A, Boineau R, Nemeth H, Huang Z, Wen J, Rosenberg Y, Stylianou M, Jones TLZ, Joubert BR, Yu Q, Santella RM, Mon AC, Ujueta F, Escolar E, Nathan DM, Fonseca VA, Aude YW, Ehrman JK, Elliott T, Prashad R, Lewis EF, Lopes RD, Farkouh ME, Elliott AM, Newman JD, Mark DB; TACT2 Investigators. Edetate Disodium-Based Chelation for Patients With a Previous Myocardial Infarction and Diabetes: TACT2 Randomized Clinical Trial. JAMA. 2024 Sep 10;332(10):794-803. doi: 10.1001/jama.2024.11463."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "A total of 1,000 patients were enrolled at 88 clinical centers from United States (83) and Canada (5). The first patient was enrolled on October 18, 2017 and the last patient on December 31, 2020. Each patient was randomly assigned to 1 of the 4 treatment groups.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Active/Active",
+          "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+        },
+        {
+          "id": "FG001",
+          "title": "Active/Placebo",
+          "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+        },
+        {
+          "id": "FG002",
+          "title": "Placebo/ Active",
+          "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+        },
+        {
+          "id": "FG003",
+          "title": "Placebo/Placebo",
+          "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "250"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "249"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "250"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "251"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "175"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "187"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "182"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "176"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "75"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "62"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "68"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "75"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "21"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "46"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "35"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "43"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Active/Active",
+          "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+        },
+        {
+          "id": "BG001",
+          "title": "Active/Placebo",
+          "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA"
+        },
+        {
+          "id": "BG002",
+          "title": "Placebo/ Active",
+          "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nOral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA"
+        },
+        {
+          "id": "BG003",
+          "title": "Placebo/Placebo",
+          "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "250"
+            },
+            {
+              "groupId": "BG001",
+              "value": "249"
+            },
+            {
+              "groupId": "BG002",
+              "value": "250"
+            },
+            {
+              "groupId": "BG003",
+              "value": "251"
+            },
+            {
+              "groupId": "BG004",
+              "value": "1000"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66",
+                      "lowerLimit": "59",
+                      "upperLimit": "72"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "67",
+                      "lowerLimit": "61",
+                      "upperLimit": "72"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "67",
+                      "lowerLimit": "61",
+                      "upperLimit": "72"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67",
+                      "lowerLimit": "61",
+                      "upperLimit": "72"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "67",
+                      "lowerLimit": "60",
+                      "upperLimit": "72"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "79"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "270"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "189"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "170"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "175"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "196"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "730"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "198"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "200"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "191"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "197"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "201"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "789"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "54"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "101"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "186"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "194"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "204"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "194"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "778"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "North America",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "250"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "249"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "250"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "251"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Type II Diabetes",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "239"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "242"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "235"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "244"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "960"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time from diabetes diagnosis to randomization",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13",
+                      "lowerLimit": "7",
+                      "upperLimit": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15",
+                      "lowerLimit": "8",
+                      "upperLimit": "21"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15",
+                      "lowerLimit": "7",
+                      "upperLimit": "24"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "14",
+                      "lowerLimit": "7",
+                      "upperLimit": "21"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "14",
+                      "lowerLimit": "7",
+                      "upperLimit": "22"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time from qualifying MI to randomization",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5",
+                      "lowerLimit": "2",
+                      "upperLimit": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5",
+                      "lowerLimit": "2",
+                      "upperLimit": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5",
+                      "lowerLimit": "2",
+                      "upperLimit": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "5",
+                      "lowerLimit": "2",
+                      "upperLimit": "10"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "5",
+                      "lowerLimit": "2",
+                      "upperLimit": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Anterior MI location",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "80"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "86"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "310"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prior coronary revascularization",
+          "description": "Any cardiac revascularization (CABG or PCI)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "209"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "198"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "199"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "207"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "813"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Aspirin, warfarin, or P2Y12 inhibitor",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "223"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "224"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "225"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "225"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "897"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Statin",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "210"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "220"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "201"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "221"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "852"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hemoglobin A1c",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "%",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7.3",
+                      "lowerLimit": "6.5",
+                      "upperLimit": "8.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7.1",
+                      "lowerLimit": "6.4",
+                      "upperLimit": "8.3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7.3",
+                      "lowerLimit": "6.5",
+                      "upperLimit": "8.2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7.3",
+                      "lowerLimit": "6.6",
+                      "upperLimit": "8.5"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "7.2",
+                      "lowerLimit": "6.5",
+                      "upperLimit": "8.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HDL",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "mg/dL",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "41.0",
+                      "lowerLimit": "34.0",
+                      "upperLimit": "49.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41.0",
+                      "lowerLimit": "33.0",
+                      "upperLimit": "50.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42.0",
+                      "lowerLimit": "35.0",
+                      "upperLimit": "51.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "40.0",
+                      "lowerLimit": "34.0",
+                      "upperLimit": "48.0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "41",
+                      "lowerLimit": "34.0",
+                      "upperLimit": "49.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "LDL",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "mg/dL",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "75.0",
+                      "lowerLimit": "60.0",
+                      "upperLimit": "103."
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "72.0",
+                      "lowerLimit": "56.0",
+                      "upperLimit": "93.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "69.0",
+                      "lowerLimit": "54.0",
+                      "upperLimit": "87.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "73.0",
+                      "lowerLimit": "54.0",
+                      "upperLimit": "100.0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "73",
+                      "lowerLimit": "56.0",
+                      "upperLimit": "96.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Triglycerides",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "mg/dL",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "150.0",
+                      "lowerLimit": "103.0",
+                      "upperLimit": "233.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "134.0",
+                      "lowerLimit": "100.0",
+                      "upperLimit": "194.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "139.0",
+                      "lowerLimit": "104.0",
+                      "upperLimit": "201.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "149.0",
+                      "lowerLimit": "102.0",
+                      "upperLimit": "226.0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "144.0",
+                      "lowerLimit": "102.0",
+                      "upperLimit": "217.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lead (blood)",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "mcg/L",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9.80",
+                      "lowerLimit": "6.50",
+                      "upperLimit": "14.69"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8.40",
+                      "lowerLimit": "5.93",
+                      "upperLimit": "13.50"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9.50",
+                      "lowerLimit": "6.41",
+                      "upperLimit": "14.00"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "9.20",
+                      "lowerLimit": "6.31",
+                      "upperLimit": "14.00"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "9.2",
+                      "lowerLimit": "6.3",
+                      "upperLimit": "14.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cadmium (urine)",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "mcg/g",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0.27",
+                      "lowerLimit": "0.16",
+                      "upperLimit": "0.50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0.33",
+                      "lowerLimit": "0.20",
+                      "upperLimit": "0.55"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0.30",
+                      "lowerLimit": "0.18",
+                      "upperLimit": "0.49"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0.28",
+                      "lowerLimit": "0.18",
+                      "upperLimit": "0.52"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0.30",
+                      "lowerLimit": "0.18",
+                      "upperLimit": "0.52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Primary Composite Outcome",
+          "description": "Time to first event: myocardial infarction, stroke, hospitalization for unstable angina, coronary revascularization, or death from any cause",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "48 month follow-up (median)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active/Active",
+              "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active/Placebo",
+              "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo/ Active",
+              "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nOral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo/Placebo",
+              "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "249"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "251"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "85"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "89"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "90"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Secondary Composite Outcome",
+          "description": "Time to first event: myocardial infarction, stroke, or death from cardiovascular causes",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "48 month follow-up (median)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active/Active",
+              "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active/Placebo",
+              "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo/ Active",
+              "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo/Placebo",
+              "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "249"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "251"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Secondary Outcome",
+          "description": "Time to All-Cause mortality",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "All-Cause Mortality was assessed through study completion, up to 48 months (median)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Active/Active",
+              "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG001",
+              "title": "Active/Placebo",
+              "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG002",
+              "title": "Placebo/ Active",
+              "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo/Placebo",
+              "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "249"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "250"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "251"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "All adverse events were collected from randomization until 30 days after their final infusion, approximately 13 months All-Cause Mortality was assessed through study completion, up to 48 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Active EDTA/Active Vitamins",
+          "description": "Active disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)",
+          "deathsNumAffected": 50,
+          "deathsNumAtRisk": 250,
+          "seriousNumAffected": 41,
+          "seriousNumAtRisk": 250,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 250
+        },
+        {
+          "id": "EG001",
+          "title": "Active EDTA /Placebo Vitamins",
+          "description": "Active disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\ndisodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)",
+          "deathsNumAffected": 36,
+          "deathsNumAtRisk": 249,
+          "seriousNumAffected": 40,
+          "seriousNumAtRisk": 249,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 249
+        },
+        {
+          "id": "EG002",
+          "title": "Placebo EDTA/ Active Vitamins",
+          "description": "Placebo disodium EDTA (chelation) + Active Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nOral Multi Vitamins/Minerals (OMVM)",
+          "deathsNumAffected": 40,
+          "deathsNumAtRisk": 250,
+          "seriousNumAffected": 40,
+          "seriousNumAtRisk": 250,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 250
+        },
+        {
+          "id": "EG003",
+          "title": "Placebo EDTA/Placebo Vitamins",
+          "description": "Placebo disodium EDTA (chelation) + Placebo Oral Multi Vitamins/Minerals (OMVM)\n\nPlacebo disodium EDTA\n\nPlacebo Oral Multi Vitamins/Minerals (OMVM)",
+          "deathsNumAffected": 49,
+          "deathsNumAtRisk": 251,
+          "seriousNumAffected": 40,
+          "seriousNumAtRisk": 251,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 251
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Cardiac disorders",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 19,
+              "numAffected": 15,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 13,
+              "numAffected": 11,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 22,
+              "numAffected": 15,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Infections and infestations",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 10,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 10,
+              "numAffected": 8,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 18,
+              "numAffected": 17,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 14,
+              "numAffected": 14,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Renal and Urinary Disorders",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 6,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Nervous System Disorders",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal Disorders",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 3,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "General disorders and administration site conditions",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Metabolism and nutrition disorders",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Respiratory, thoracic and mediastinal disorders",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Vascular disorders",
+          "organSystem": "Vascular disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Neoplasms benign, malignant and unspecified",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Injury, poisoning and procedural complications",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 2,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Psychiatric disorders",
+          "organSystem": "Psychiatric disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal and connective tissue disorders",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Blood and lymphatic system disorders",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Hepatobiliary disorders",
+          "organSystem": "Hepatobiliary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 251
+            }
+          ]
+        },
+        {
+          "term": "Skin and subcutaneous tissue disorders",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 249
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 250
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 251
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Primary analyses were restricted to a modified intention-to-treat. Treatment adherence was imperfect. 12% of participants were lost to follow-up or withdrew consent."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Gervasio Lamas",
+        "organization": "Mount Sinai Medical Center of Florida",
+        "email": "Gervasio.Lamas@msmc.com",
+        "phone": "305-674-2162"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-05-06",
+          "uploadDate": "2024-07-24T12:26",
+          "filename": "Prot_001.pdf",
+          "size": 986237
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-09-12",
+          "uploadDate": "2024-07-24T12:34",
+          "filename": "SAP_002.pdf",
+          "size": 1267037
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2019-05-01",
+          "uploadDate": "2023-08-11T14:32",
+          "filename": "ICF_000.pdf",
+          "size": 427896
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-09-19",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004492",
+          "term": "Edetic Acid"
+        },
+        {
+          "id": "D008903",
+          "term": "Minerals"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005029",
+          "term": "Ethylenediamines"
+        },
+        {
+          "id": "D003959",
+          "term": "Diamines"
+        },
+        {
+          "id": "D011073",
+          "term": "Polyamines"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000085",
+          "term": "Acetates"
+        },
+        {
+          "id": "D000144",
+          "term": "Acids, Acyclic"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,379 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05705089",
+      "orgStudyIdInfo": {
+        "id": "20181022041406N4"
+      },
+      "organization": {
+        "fullName": "Rajaie Cardiovascular Medical and Research Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Rivaroxaban vErsus Warfarin for Antithrombotic TheRapy in Patients With LeFt Ventricular Thrombus After Acute STEMI",
+      "officialTitle": "Rivaroxaban vErsus Warfarin for Antithrombotic TheRapy in Patients With LeFt Ventricular Thrombus After Acute ST-Elevation Myocardial Infarction: A Pilot Randomized Clinical Trial",
+      "acronym": "REWARF-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-02-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-04-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-01-21",
+      "studyFirstSubmitQcDate": "2023-01-21",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Parham Sadeghipour",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Rajaie Cardiovascular Medical and Research Center"
+      },
+      "leadSponsor": {
+        "name": "Rajaie Cardiovascular Medical and Research Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Tehran Heart Center",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to assess the safety and efficacy of rivaroxaban-based versus warfarin-based antithrombotic regimens on outcomes of patients with left ventricle thrombosis following acute ST elevation myocardial infarction at 3 months from enrollment in an open-label parallel groups pilot randomized clinical trial",
+      "detailedDescription": "Direct oral anticoagulants (DOACs), are currently recognized as the first-line treatment of AF and VTE in most clinical scenarios, distinguished by their short half-life, fast onset of action, fewer medication interactions, rare food interactions, and the lack of a need for frequent laboratory monitoring, compared with vitamin K antagonists. Although the use of DOACs has earned a class III recommendation for patients with mechanical prosthetic valves, moderate-to-severe mitral stenosis, and antiphospholipid syndrome, their application in some situations, such as acute limb ischemia and LVT, remains uncertain. Until now, no completed randomized clinical trial has compared the efficacy and safety of left ventricle thrombosis in patients with acute STEMI and the existing evidence is limited to observational studies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Left Ventricular Thrombus",
+        "ST Segment Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "Left Ventricle",
+        "Ventricle, Left",
+        "Thrombosis",
+        "Thromboses",
+        "Blood Clot",
+        "ST Segment Elevation Myocardial Infarction",
+        "ST Elevated Myocardial Infarction",
+        "STEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "1:1 open-label parallel group randomized controlled trial with concealed allocation sequence and blinded outcome adjudication",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Allocation sequence concealment and blinded outcome adjudication",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Rivaroxaban-based antithrombotic regimen",
+          "type": "EXPERIMENTAL",
+          "description": "All patients assigned to the rivaroxaban-based antithrombotic regimen will receive rivaroxaban (15 mg once daily, orally) plus clopidogrel (75 mg daily, orally) plus aspirin (80 mg once daily, orally). Aspirin will be discontinued within 7 days of its initiation. The antithrombotic regimen (i.e., dual therapy) will be continued until three months after randomization.",
+          "interventionNames": [
+            "Drug: Rivaroxaban 15 MG"
+          ]
+        },
+        {
+          "label": "warfarin-based antithrombotic regimen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "All patients assigned to the warfarin-based antithrombotic regimen will receive warfarin (overlapping with enoxaparin until reaching an INR goal of 2-2.5) plus clopidogrel (75 mg once daily, orally) plus aspirin (80 mg once daily, orally). Aspirin will be discontinued within 7 days of its initiation. The antithrombotic regimen (i.e., dual therapy) will be continued until three months after randomization.",
+          "interventionNames": [
+            "Drug: Warfarin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rivaroxaban 15 MG",
+          "description": "Rivaroxaban 15 MG once daily orally + Dual anti-platelet therapy (clopidogrel (75 mg daily, orally)+aspirin (80 mg once daily, orally))",
+          "armGroupLabels": [
+            "Rivaroxaban-based antithrombotic regimen"
+          ],
+          "otherNames": [
+            "XARELTO"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Warfarin",
+          "description": "Warfarin (to reach an INR goal of 2-2.5)+ Dual anti-platelet therapy (clopidogrel (75 mg daily, orally)+aspirin (80 mg once daily, orally))",
+          "armGroupLabels": [
+            "warfarin-based antithrombotic regimen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Resolution of left ventricular thrombus",
+          "description": "Resolution of left ventricular thrombus according to non-contrast 2D TTE performed by the imaging core laboratory, blinded to the allocation assignment",
+          "timeFrame": "at 3 months from enrollment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "The proportion of patients with adjudicated stroke and systemic emboli",
+          "description": "Stroke is defined as an acute episode of focal or global neurological dysfunction caused by the brain, spinal cord, or retinal vascular injury as a result of hemorrhage or infarction.\n\nSystemic emboli are defined as any acute non-cerebral embolic events with a cardiac origin.",
+          "timeFrame": "At 3 months from enrollment"
+        },
+        {
+          "measure": "The proportion of patients with adjudicated major adverse cardiac events (MACE)",
+          "description": "A composite of death from cardiovascular causes, myocardial infarction, or stroke.",
+          "timeFrame": "At 3 months from enrollment"
+        },
+        {
+          "measure": "The proportion of patients with adjudicated all-cause death",
+          "description": "All-cause death is defined as a composite of cardiovascular, non-cardiovascular and undetermined cause of death.",
+          "timeFrame": "At 3 months from enrollment"
+        },
+        {
+          "measure": "Left ventricular thrombus resolution percentage",
+          "description": "Left ventricular thrombus resolution percentage according to non-contrast 2D TTE performed by the imaging core laboratory, blinded to the allocation assignment",
+          "timeFrame": "At 3 months from enrollment"
+        },
+        {
+          "measure": "The proportion of patients with adjudicated major bleeding events",
+          "description": "Adjudicated based on International Society on Thrombosis and Hemostasis (ISTH) definition",
+          "timeFrame": "At 3 months from enrollment"
+        },
+        {
+          "measure": "The proportion of patients with adjudicated clinically relevant not major bleeding events",
+          "description": "Adjudicated based on International Society on Thrombosis and Hemostasis (ISTH) definition",
+          "timeFrame": "At 3 months from enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria\n\n1. Adult patients aged 18-80 years\n2. Admission with acute STEMI in past 2 weeks\n3. Acute LVT confirmed by non-contrast TTE\n4. Willingness to participate and to provide a signed informed consent form\n\nExclusion criteria\n\n1. History of the mechanical prosthetic heart valve, rheumatic heart disease, and confirmed case of antiphospholipid syndrome\n2. Active bleeding\n3. Cardiogenic shock defined as persistent hypotension (systolic blood pressure \\<90 mm Hg, or requirement of vasopressor to maintain systolic pressure \\>90 mm Hg) and clinical signs of hypoperfusion (cold, sweated extremities, oliguria, mental confusion, dizziness, narrow pulse pressure)\n4. Acute kidney injury or chronic kidney disease with a glomerular filtration rate \\<30 ml/min (calculated based on the Cockcroft-Gault formula)\n5. Liver failure (Child-Pugh class C)\n6. Other indications for chronic anticoagulation (e.g., AF, VTE, etc.)\n7. Sensitivity or intolerance to rivaroxaban/warfarin",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Parham Sadeghipour, M.D",
+          "affiliation": "Rajaie Cardiovascular Medical and Research Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rajaie Cardiovascular Medical and Research Center",
+          "city": "Tehran",
+          "zip": "1995614331",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 35.69439,
+            "lon": 51.42151
+          }
+        },
+        {
+          "facility": "Tehran Heart Center",
+          "city": "Tehran",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 35.69439,
+            "lon": 51.42151
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39773831",
+          "type": "DERIVED",
+          "citation": "Jenab Y, Sadeghipour P, Mohseni-Badalabadi R, Kaviani R, Hosseini K, Pasebani Y, Khederlou H, Rafati A, Mohammadi Z, Jamalkhani S, Talasaz AHH, Firouzi A, Ariannejad H, Alemzadeh-Ansari MJ, Ahmadi-Renani S, Maadani M, Farrashi M, Bakhshandeh H, Piazza G, Krumholz HM, Mehran R, Lip GYH, Bikdeli B. Direct oral anticoagulants or warfarin in patients with left ventricular thrombus after ST-elevation myocardial infarction: a pilot trial and a prespecified meta-analysis of randomised trials. EuroIntervention. 2025 Jan 6;21(1):82-92. doi: 10.4244/EIJ-D-24-00527."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D013927",
+          "term": "Thrombosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D016769",
+          "term": "Embolism and Thrombosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069552",
+          "term": "Rivaroxaban"
+        },
+        {
+          "id": "D014859",
+          "term": "Warfarin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009025",
+          "term": "Morpholines"
+        },
+        {
+          "id": "D010078",
+          "term": "Oxazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D015110",
+          "term": "4-Hydroxycoumarins"
+        },
+        {
+          "id": "D003374",
+          "term": "Coumarins"
+        },
+        {
+          "id": "D001578",
+          "term": "Benzopyrans"
+        },
+        {
+          "id": "D011714",
+          "term": "Pyrans"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

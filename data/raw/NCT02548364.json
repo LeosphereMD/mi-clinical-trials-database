@@ -1,0 +1,417 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02548364",
+      "orgStudyIdInfo": {
+        "id": "FJD-VITDAMI-14-01"
+      },
+      "organization": {
+        "fullName": "Instituto de Investigación Sanitaria de la Fundación Jiménez Díaz",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Vitamin D on Ventricular Remodeling in Patients With Acute Myocardial Infarction (VITDAMI)",
+      "officialTitle": "Multicentric, Randomized, Double-blind, Placebo-controlled Clinical Trial to Assess the Effect of Vitamin D on Ventricular Remodeling in Patients With Acute Myocardial Infarction",
+      "acronym": "VITDAMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-07-06",
+      "studyFirstSubmitQcDate": "2015-09-10",
+      "studyFirstPostDateStruct": {
+        "date": "2015-09-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2023-10-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-10-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Instituto de Investigación Sanitaria de la Fundación Jiménez Díaz",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Fondo de Investigacion Sanitaria",
+          "class": "OTHER"
+        },
+        {
+          "name": "Spanish Society of Cardiology",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To study the effect of calcifediol on left ventricular remodeling, mineral metabolism, plasma levels of several prognostic biomarkers and on endothelial function after an anterior myocardial infarction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Vitamin D",
+        "Myocardial Infarction",
+        "Ventricular remodeling",
+        "Biomarkers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 109,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Calcifediol",
+          "type": "EXPERIMENTAL",
+          "description": "One capsule with 15,690 IU p.o. every two weeks",
+          "interventionNames": [
+            "Drug: Calcifediol"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "One capsule with placebo p.o. every two weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Calcifediol",
+          "description": "calcifediol treatment",
+          "armGroupLabels": [
+            "Calcifediol"
+          ],
+          "otherNames": [
+            "vitamin D"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "placebo control group",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in cardiac remodeling by MRI",
+          "description": "It is a composite outcome measure. It will be analyzed by measuring the following parameters: myocardium at risk, size of infarcted myocardium, saved myocardium, ejection fraction, left ventricular telesystolic and telediastolic volumes",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in echocardiographic parameters",
+          "description": "It is a composite outcome measure. It will be analyzed by measuring the following parameters: ventricular thickness and diameters, contractility abnormalities, ejection fraction.",
+          "timeFrame": "1year"
+        },
+        {
+          "measure": "Change in mineral metabolism parameters",
+          "description": "It is a composite outcome measure. It will be analyzed by measuring plasma levels of calcidiol, FGF-23, klotho, phosphate, and PTH",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Change in prognostic biomarkers levels",
+          "description": "It is a composite outcome measure. It will be analyzed by measuring plasma levels of NT-proBNP, hsCRP, MCP-1 and galectin-3",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Change in lipid levels",
+          "description": "It is a composite outcome measure. It will be analyzed by measuring plasma levels of TC, LDL, HDL, TG and non-HDL Cholesterol",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Change in flow mediated vasodilation",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Adverse event rate",
+          "timeFrame": "1.5, 3, 6, 9, 12 and 13 months"
+        },
+        {
+          "measure": "% of treatment compliance",
+          "timeFrame": "3, 6, 9 and 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 40 years and maximum 85 years.\n* Anterior myocardial infarction\n* Sign informed consent\n\nExclusion Criteria:\n\n* Death during the index event\n* Age younger than 40 or older than 85 years\n* Previous Infarction\n* More than 7 days in hospitalization\n* Systemic inflammatory or autoimmune disease\n* Concomitant disorders limiting survival\n* Concomitant cardiomyopathy\n* Left ventricular hypertrophy \\> 16mm in females and \\> 17mm in males\n* eGFR\\<45\n* LVEF\\<30\n* Incomplete revascularization\n* Valvular prosthesis\n* Aortic stenosis with mean gradient\\> 25 mmHg\n* Moderate or severe valvular regurgitation\n* Hypersensitivity or intolerance vitamin D supplement o excipient\n* Blood Calcium \\>10.5 mg/dl\n* Inability to follow.\n* Difficulty in treatment compliance\n* Contraindication for MRI, including indication to place a cardiac device\n* Indication of therapy with vitamin D. Patient desires to take vitamin D.\n* Drugs or conditions that interfere with the pharmacokinetics of calcifediol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "JOSE TUÑON, MD, PhD",
+          "affiliation": "IIS-FJD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital de Fuenlabrada",
+          "city": "Fuenlabrada",
+          "state": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.28419,
+            "lon": -3.79415
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Getafe",
+          "city": "Getafe",
+          "state": "Madrid",
+          "zip": "28905",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.30571,
+            "lon": -3.73295
+          }
+        },
+        {
+          "facility": "Hospital Puerta de Hierro",
+          "city": "Majadahonda",
+          "state": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Hospital Rey Juan Carlos",
+          "city": "Móstoles",
+          "state": "Madrid",
+          "zip": "28933",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.32234,
+            "lon": -3.86496
+          }
+        },
+        {
+          "facility": "Hospital de Móstoles",
+          "city": "Móstoles",
+          "state": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.32234,
+            "lon": -3.86496
+          }
+        },
+        {
+          "facility": "Hospital Infanta Elena",
+          "city": "Valdemoro",
+          "state": "Madrid",
+          "zip": "28342",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.19081,
+            "lon": -3.67887
+          }
+        },
+        {
+          "facility": "Fundación Jiménez Díaz",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41942544",
+          "type": "DERIVED",
+          "citation": "Tunon J, Rodriguez-Lopez C, Balaguer J, Gomez-Talavera S, Rojas A, Salamanca J, Garcia CL, Esteve-Pastor MA, Laffond A, Herrera C, Escudier-Villa JM, Orejas M, Tomas M, Alvarez ML, Tomeo MA, Llanos-Jimenez L, Gonzalez-Lorenzo O, Kallmeyer A, Ibanez B, Gonzalez-Casaus ML, Hernandez G, Espadas C, Lorenzo O, Mahillo-Fernandez I, Egido J, Sanchez PL, Marin F, Alfonso F. Vitamin D in the prevention of left ventricular remodelling after an acute myocardial infarction: a randomized clinical trial. Sci Rep. 2026 Apr 6;16(1):16486. doi: 10.1038/s41598-026-45330-6."
+        },
+        {
+          "pmid": "27496232",
+          "type": "DERIVED",
+          "citation": "Tunon J, Gonzalez-Hernandez I, Llanos-Jimenez L, Alonso-Martin J, Escudier-Villa JM, Tarin N, Cristobal C, Sanz P, Pello AM, Acena A, Carda R, Orejas M, Tomas M, Beltran P, Calero Rueda M, Marcos E, Serrano-Antolin JM, Gutierrez-Landaluce C, Jimenez R, Cabezudo J, Curcio A, Peces-Barba G, Gonzalez-Parra E, Munoz-Siscart R, Gonzalez-Casaus ML, Lorenzo A, Huelmos A, Goicolea J, Ibanez B, Hernandez G, Alonso-Pulpon LM, Farre J, Lorenzo O, Mahillo-Fernandez I, Egido J. Design and rationale of a multicentre, randomised, double-blind, placebo-controlled clinical trial to evaluate the effect of vitamin D on ventricular remodelling in patients with anterior myocardial infarction: the VITamin D in Acute Myocardial Infarction (VITDAMI) trial. BMJ Open. 2016 Aug 5;6(8):e011287. doi: 10.1136/bmjopen-2016-011287."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002112",
+          "term": "Calcifediol"
+        },
+        {
+          "id": "D014807",
+          "term": "Vitamin D"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006887",
+          "term": "Hydroxycholecalciferols"
+        },
+        {
+          "id": "D002762",
+          "term": "Cholecalciferol"
+        },
+        {
+          "id": "D002782",
+          "term": "Cholestenes"
+        },
+        {
+          "id": "D002776",
+          "term": "Cholestanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D013261",
+          "term": "Sterols"
+        },
+        {
+          "id": "D012632",
+          "term": "Secosteroids"
+        },
+        {
+          "id": "D008563",
+          "term": "Membrane Lipids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

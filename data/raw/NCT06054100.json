@@ -1,0 +1,304 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06054100",
+      "orgStudyIdInfo": {
+        "id": "2511"
+      },
+      "organization": {
+        "fullName": "Ain Shams University",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Colchicine on Inflammation in ACS Patients",
+      "officialTitle": "The Effect of Colchicine on Inflammation in Acute Coronary Syndrome Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-02-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-05-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-02-22",
+      "studyFirstSubmitQcDate": "2023-09-22",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hanan ahmed",
+        "investigatorTitle": "Principle investigator",
+        "investigatorAffiliation": "Ain Shams University"
+      },
+      "leadSponsor": {
+        "name": "Ain Shams University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate whether the anti-inflammatory effect of colchicine is beneficial in ACS patients",
+      "detailedDescription": "This study will evaluate the effect of colchicine on inflammation, cardiac remodeling, and atherosclerotic risk in STEMI patients through the assessment of the IL-1β, sST2, and lipid profile parameters as well as to examine the drug safety and tolerability in these patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "STEMI"
+      ],
+      "keywords": [
+        "Colchicine",
+        "Inflammation",
+        "ACS",
+        "STEMI",
+        "Atherosclerosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Electrocardiography parameters assessors and clinical laboratory technicians were masked to the study patient group allocation",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 88,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Colchicine group",
+          "type": "EXPERIMENTAL",
+          "description": "Colchicine group, Colchicine oral tablets, loading dose 1mg every 12 hrs for 1 day, followed by 0.5 mg BID for 3 months",
+          "interventionNames": [
+            "Drug: Colchicine Tablets"
+          ]
+        },
+        {
+          "label": "STEMI standard treatment group",
+          "type": "NO_INTERVENTION",
+          "description": "Control group, STEMI standard treatment only"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Colchicine Tablets",
+          "description": "Colchicine oral tablets loading dose of 1mg every 12 hrs for 1 day, followed by 0.5 mg BID for 3 months",
+          "armGroupLabels": [
+            "Colchicine group"
+          ],
+          "otherNames": [
+            "Colchicine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Effect of colchicine therapy on sST2 levels in ACS patients",
+          "description": "sST2 level in pg/ml is measured using ELISA method before PCI and after 3 months",
+          "timeFrame": "3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Effect of colchicine therapy on occurrence of ischemic events in ACS patients",
+          "description": "Effect of colchicine on the occurrence of major adverse cardiovascular events (MACE) during the study period",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Change in left ventricular ejection fraction",
+          "description": "Effect of colchicine therapy on left ventricular ejection fraction percentage (%)",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Change in serum levels of IL-1beta",
+          "description": "Effect of colchicine therapy on the change in IL-1beta serum levels in pg/L",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Lipid profile parameters and TG/HDL-C ratio",
+          "description": "Effect of colchicine therapy on the change in lipid profile parameters and TG/HDL-C ratio",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* male or female\n* \\>18 yrs\n* STEMI patients who were successfully treated with PCI.\n\nExclusion Criteria:\n\n* Pregnant or breast-feeding women or women of childbearing potential.\n* Active inflammatory, known malignancy, infectious diseases or current treatment with corticosteroids or anti inflammatory agents.\n* Known hypersensitivity to colchicine or current chronic treatment with colchicine.\n* Severe renal failure (estimated creatinine clearance \\<30ml/min) or hepatic failure (Child Pugh score B or C )\n* Cardiac arrest, ventricular fibrillation, cardiogenic shock or previous myocardial infarction.\n* Patients using the following agents: Strong CYP3A4 inhibitors (ritonavir, clarithromycin, ketoconazole, voriconazole, itraconazole), intermediate CYP3A4 inhibitors (aprepitant, diltiazem, erythromycin, fluconazole, verapamil), P-gp inhibitor (amiodarone, clarithromycin, erythromycin, azithromycin, ranolazine, verapamil, ketoconazole, itraconazole) and grape fruit juice",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marwa A Ahmed, Phd",
+          "affiliation": "Faculty of Pharmacy, Ain Shams University",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Lamia El Wakeel, Phd",
+          "affiliation": "Faculty of Pharmacy, Ain Shams University",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ain shams university",
+          "city": "Cairo",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39359014",
+          "type": "DERIVED",
+          "citation": "Hassanain HA, El Wakeel LM, Khorshid H, Ahmed MA. Colchicine effect on biomarkers of cardiac remodelling and atherosclerosis in ST-elevation myocardial infarction: A randomized controlled trial. Br J Clin Pharmacol. 2025 Feb;91(2):427-438. doi: 10.1111/bcp.16270. Epub 2024 Oct 2."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

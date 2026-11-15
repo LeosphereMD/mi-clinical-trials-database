@@ -1,0 +1,466 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07478003",
+      "orgStudyIdInfo": {
+        "id": "2025-524320-21-00"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2025"
+        }
+      ],
+      "organization": {
+        "fullName": "Copenhagen University Hospital, Rigshospitalet",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prehospital Pulse-dose Glucocorticoid in Patients With ST-segment Elevation Myocardial Infarction 2 - The PULSE-MI 2 Trial",
+      "officialTitle": "Prehospital Pulse-dose Glucocorticoid in Patients With ST-segment Elevation Myocardial Infarction 2 - The PULSE-MI 2 Trial",
+      "acronym": "PULSE-MI 2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-04-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2036-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-10",
+      "studyFirstSubmitQcDate": "2026-03-13",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Thomas Engstrom",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Copenhagen University Hospital, Rigshospitalet"
+      },
+      "leadSponsor": {
+        "name": "Thomas Engstrom",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Aarhus University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Odense University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Aalborg University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Prehospital Emergency Medical Service, The North Denmark Region",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Center for Prehospital and Emergency Research, Denmark",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Prehospital Center, Region Zealand",
+          "class": "OTHER"
+        },
+        {
+          "name": "Prehospital Emergency Medical Services Central Denmark Region (Præhospitalet)",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "BACKGROUND Myocardial reperfusion with the use of primary percutaneous coronary intervention (PCI) including stent implantation is the most efficacious treatment for patients with (STEMI) and improves prognosis significantly. Due to continuous improvements in the treatment, the mortality for patients with STEMI has decreased dramatically, but despite these improvements, the mortality rate seems to have reached a plateau at around 10% within 1 year. In addition, 10% develop clinical heart failure with a per se 50% mortality rate within 5 years. Moreover, congestive heart failure is associated with a highly impaired quality of life due to fatigue dyspnea and reduced exercise capacity. Thus, there is a need for further improvement in the treatment to drive the event rates further down. One such key target is reducing the damage to the heart muscle (infarct size) to preserve the heart function and prevent mortality and heart failure. One major driver of infarct size and mortality is reperfusion injury which may account for up to 50% of the damaged myocardium. Reperfusion injury occurs within the first minutes to hours after the restoration of the blood flow in the occluded artery and reperfusion therapy can therefore be considered a \"double-edged sword\", since the ischemic injury may additionally be worsened by reperfusion injury. However, the phenomenon of reperfusion injury is not completely understood, and no preventive treatments exist. Multiple pathophysiological factors may contribute to reperfusion injury of which inflammation has been described as a key factor.\n\nInflammation is induced immediately after the onset of acute myocardial ischemia and is subsequently exacerbated following reperfusion. Hence, inflammation per se may drive excessive cardiomyocyte death resulting in decreased contractility and increased infarct size post-STEMI. Moreover, in the course following STEMI and subsequently reperfusion, the myocardium starts healing and scarring resulting in remodelling of the ventricle potentially causing either compensatory hypertrophy or thinning of the myocardium, which may lead to reduced left ventricle ejection fraction (LVEF) and heart failure. Of note, inflammation plays a critical role in ventricular remodeling post-AMI, thus inflammation in relation to reperfusion injury may extend myocardial damage following STEMI.\n\nGlucocorticoids are crucial in the regulation of the systemic inflammatory response and may therefore be beneficial in limiting myocardial injury following STEMI. We previously conducted the phase II randomized, placebo-controlled PULSE-MI trial (Nov 2022-Oct 2023) in 742 prehospital STEMI patients, showing pulse-dose glucocorticoid was safe and improved LVEF, infarct size, and microvascular obstruction, with a trend toward lower 3-month mortality. However, as the trial was not powered for clinical outcomes, it remains unproven whether this treatment reduces post-STEMI mortality. Thus, the aim of this prospective, randomized trial is to evaluate the effect of prehospital pulse-dose glucocorticoid on all-cause mortality in patients with STEMI.\n\nTo reduce the degree of inflammation effectively and adequately, intervention is to be made as soon as possible as close to initiation of ischemia, as recognized from patients' symptom debut, and before revascularization with primary PCI in the prehospital setting since the effect is more pronounced if the treatment is initiated early after the onset of STEMI. In addition to reperfusion induced inflammation, ischemia itself, immediately after occlusion of the artery, induces inflammation. Hence, initiation of the intervention in the ambulance is needed to harvest the potentially beneficial effects of pulse glucocorticoid therapy as soon as possible. Thus, by performing intervention in the pre-hospital setting, the investigators expect that participation in the trial will have the potential to produce a direct clinically relevant benefit for the patient resulting in reduced all-cause mortality in patients with STEMI.\n\nHYPOTHESIS In patients with STEMI undergoing primary PCI, 250 mg methylprednisolone administrated in the pre-hospital setting reduces all-cause mortality.\n\nSAMPLE SIZE The primary endpoint is all-cause mortality one year after the last patient has been included. The median follow-up of the trial is expected to be 3 years and minimum follow-up of 1 year. As an estimate based on findings from the PULSE-MI trial and the DANAMI-3 trial, the estimated event rate of in the placebo arm is 9% during follow-up. Glucocorticoid is expected to reduce all-cause mortality corresponding to a hazard ratio of 0.77. To demonstrate the reduction in the primary outcome with an 80% power at a 5% significance level, 2602 patients in each treatment arm is needed, thus 5204 patients in total. The primary analyses will be intention to treat principle"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI - ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "STEMI",
+        "Prehospital Intervention",
+        "Glucocorticoids"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5204,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "0.9% NaCl",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: NaCl (0,9%)"
+          ]
+        },
+        {
+          "label": "250 mg methylprednisolone",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Methylprednisolone 250 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methylprednisolone 250 mg",
+          "description": "The active study medicine is 2 x 125 mg/2 mL Solu-Medrol, a total of 250 mg/4 mL, which comes as a sterile powder with preservative free isotonic NaCl as diluent. The medicine takes 30 to 60 sec-onds to mix and needs to be used within 48 hours when opened. The infusion of both study medicine and placebo will be done over a period of 5 minutes during transportation.",
+          "armGroupLabels": [
+            "250 mg methylprednisolone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "NaCl (0,9%)",
+          "description": "The placebo will be 0.9% NaCl in 4 mL ampoules. The infusion of both study medicine and placebo will be done over a period of 5 minutes during transportation.",
+          "armGroupLabels": [
+            "0.9% NaCl"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "All-cause mortality",
+          "timeFrame": "One year after inclusion of the last patient"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cardiovascular mortality",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "Spontaneous myocardial infarction",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "Admission for heart failure",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "All-cause mortality or admission for heart failure",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "Cardiovascular mortality or admission for heart failure",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "Recurrent non-fatal cardiovascular events (spontaneous myocar-dial infarction and admission for heart failure) with death treated as a terminal event",
+          "timeFrame": "One year after inclusion of the last patient"
+        },
+        {
+          "measure": "All-cause mortality in patients with STEMI and type I myocardial infarction",
+          "timeFrame": "One year after inclusion of the last patient"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years including fertile women\n* Acute onset of chest pain with \\< 24 hours duration\n* STEMI as characterized on electrocardiogram (ECG) by one of the following:\n\n  1. at least two contiguous leads with ST-segment elevation ≥2.5 mm in men \\< 40 years, ≥2 mm in men ≥40 years, or ≥1.5 mm in women in leads V2-V3 and/or ≥1 mm in the other leads,\n  2. presumed new left bundle branch block with ≥1 mm concordant ST-segment elevation in leads with a positive QRS complex, or concordant ST-segment depression ≥1 mm in V1-V3, or discordant ST-segment elevation ≥5 mm in leads with a negative QRS complex\n  3. Isolated ST depression ≥0.5 mm in leads V1-V3 indicating posterior acute myocardial infarction (AMI)\n  4. ST-segment depression ≥1 mm in eight or more surface leads, coupled with ST-segment elevation in aVR and/or V1 suggesting left main-, or left main equivalent- coronary obstruction\n\nExclusion Criteria:\n\n* Suspected other type I acute myocardial infarction at time of potential randomization\n* Initial presentation with cardiac arrest (out of hospital cardiac arrest)\n* Known allergy to glucocorticoid",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jacob Lønborg, MD, PhD, DMSc",
+          "role": "CONTACT",
+          "phone": "35458176",
+          "email": "Jacob.Thomsen.Loenborg.01@regionh.dk"
+        },
+        {
+          "name": "Jasmine M Marquard, MD",
+          "role": "CONTACT",
+          "phone": "+4560197827",
+          "email": "jasmine.melissa.marquard@regionh.dk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Thomas Engstrøm, MD, PhD, DMSc",
+          "affiliation": "Copenhagen University Hospital, Rigshospitalet",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Aalborg University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aalborg",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Ashkan Eftekhari, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4597664465",
+              "email": "asef@rn.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "facility": "Skejby, Aarhus University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aarhus",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Christian J Terkelsen, MD, PhD, DMSc",
+              "role": "CONTACT",
+              "phone": "+4524288571",
+              "email": "christian.juhl.terkelsen@clin.au.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Rigshospitalet",
+          "status": "RECRUITING",
+          "city": "Copenhagen",
+          "zip": "2100",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Jacob T Lønborg, MD, PhD, DMSC",
+              "role": "CONTACT",
+              "phone": "+4535458176",
+              "email": "jacob.thomsen.loenborg.01@regionh.dk"
+            },
+            {
+              "name": "Ben Elezi, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jasmine M Marquard, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Thomas Engstrøm, MD, PhD, DMSc",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Odense University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Odense",
+          "country": "Denmark",
+          "contacts": [
+            {
+              "name": "Lisette O Jensen, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+4520147950",
+              "email": "Lisette.Okkels.Jensen@rsyd.dk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38102687",
+          "type": "BACKGROUND",
+          "citation": "Madsen JM, Obling LER, Rytoft L, Folke F, Hassager C, Andersen LB, Vejlstrup N, Bang LE, Engstrom T, Lonborg JT. Pre-hospital pulse glucocorticoid therapy in patients with ST-segment elevation myocardial infarction transferred for primary percutaneous coronary intervention: a randomized controlled trial (PULSE-MI). Trials. 2023 Dec 15;24(1):808. doi: 10.1186/s13063-023-07830-y."
+        },
+        {
+          "pmid": "39211964",
+          "type": "BACKGROUND",
+          "citation": "Madsen JM, Engstrom T, Obling LER, Zhou Y, Nepper-Christensen L, Beske RP, Vejlstrup NG, Bang LE, Hassager C, Folke F, Kyhl K, Andersen LB, Christensen HC, Rytoft L, Arslani K, Holmvang L, Pedersen F, Ahlehoff O, Jabbari R, Barfod C, Hougaard M, Minkkinen M, Tilsted HH, Sorensen R, Lonborg JT. Prehospital Pulse-Dose Glucocorticoid in ST-Segment Elevation Myocardial Infarction: The PULSE-MI Randomized Clinical Trial. JAMA Cardiol. 2024 Oct 1;9(10):882-891. doi: 10.1001/jamacardio.2024.2298."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "https://pulsemi2.dk"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2026-02-24",
+          "uploadDate": "2026-03-10T04:27",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1399018
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008775",
+          "term": "Methylprednisolone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011239",
+          "term": "Prednisolone"
+        },
+        {
+          "id": "D011246",
+          "term": "Pregnadienetriols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

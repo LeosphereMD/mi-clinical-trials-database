@@ -1,0 +1,300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01059136",
+      "orgStudyIdInfo": {
+        "id": "P071216"
+      },
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Aldosterone Blockade Early After Acute Myocardial Infarction",
+      "officialTitle": "Aldosterone Lethal Effects Blocked in AMI Treated With or Without Reperfusion to Improve Outcome and Survival at Six Months Follow-up: THE ALBATROSS TRIAL",
+      "acronym": "ALBATROSS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-01-28",
+      "studyFirstSubmitQcDate": "2010-01-28",
+      "studyFirstPostDateStruct": {
+        "date": "2010-01-29",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-06-11",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Study hypothesis : An early blockade of aldosterone receptors initiated at the first medical contact after acute myocardial infarction may reduce major cardiovascular events within 6 months after the occurrence of the myocardial infarction.\n\nPrimary efficacy criterion : The 6 month rate of the composite of death, resuscitated cardiac arrest, potentially lethal ventricular arrhythmia, indication for implantation of an implantable cardioversion device, occurrence or aggravation of heart failure.\n\nPrimary objective: To demonstrate the superiority of aldosterone blockade initiated as soon as possible within 72 hours after the onset of acute myocardial infarction on top of standard therapy, compared to standard therapy alone, with or without reperfusion therapy.\n\nStudy design : Prospective, multi-centre randomised, open labeled with 2 parallel study arms.",
+      "detailedDescription": "Rational :The blockade of the renin-angiotensin-aldosterone (RAA) pathway by angiotensin conversion enzyme inhibitors (ACEI) is one corner stone in the management of heart failure as well as the management of ischemic heart disease, especially after acute myocardial infarctionHigh plasma aldosterone levels have been associated with both direct and indirect toxic effects on myocardium. ACEIs are associated with partial and temporary reduction of plasma aldosterone levels.The RALES randomized controlled trial has shown a reduction of mortality associated with the use of the selective aldosterone receptor blocker spironolactone, on top of standard therapy including ACEIs in the setting of NYHA 3-4 chronic heart failure. The EPHESUS randomized controlled trial has shown a reduction of mortality associated with the use of another selective aldosterone receptor blocker Eplerenone, initiated 3 to 14 days after acute myocardial infarction complicated by clinical heart failure and left ventricular ejection fraction \\< 40%.Both previous studies have also reported a rapid reduction of global and arrhythmia-related mortality, within 30 days after the initiation of the medication.Such benefit has been reported after delayed initiation of aldosterone blocked, while aldosterone is at its highest level at presentation after acute myocardial infarction, with a rapid decrease within days after admission. Furthermore high aldosterone levels on admission are associated with adverse outcome independent of heart failure.\n\nThe ALBATROSS trial :Hypothesis: An early blockade of aldosterone receptors initiated at the first medical contact after acute myocardial infarction may reduce major cardiovascular events within 6 months after the occurrence of the myocardial infarction.\n\nPrimary objective: To demonstrate the superiority of aldosterone blockade initiated as soon as possible within 72 hours after the onset of acute myocardial infarction on top of standard therapy, compared to standard therapy alone, with or without reperfusion therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Myocardial infarction",
+        "Outcome",
+        "Aldosterone",
+        "Spironolactone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1603,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "1:Spironolactone",
+          "type": "EXPERIMENTAL",
+          "description": "Aldosterone blockade on top of standard therapy",
+          "interventionNames": [
+            "Drug: Spironolactone"
+          ]
+        },
+        {
+          "label": "2:Standard therapy",
+          "type": "NO_INTERVENTION",
+          "description": "Standard therapy"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Spironolactone",
+          "description": "Unique 200mg IV dose of Potassium Canrenoate followed by 25 mg daily oral dose of Spironolactone for 6 months",
+          "armGroupLabels": [
+            "1:Spironolactone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The 6 month rate of the composite of death, resuscitated cardiac arrest, potentially lethal ventricular arrhythmia, indication for implantable cardioversion device, occurrence or aggravation of heart failure.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Any of the criteria of the primary endpoint",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "primary endpoint+ myocardial infarction+stroke cardiovascular death",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "death + resuscitated cardiac arrest",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Death+resuscitated cardiac arrest+ventricular arrhythmia+indication for implantable defibrillator device",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "death+heart failure",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Acute renal failure",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "primary endpoint",
+          "timeFrame": "hospital discharge and 30 days"
+        },
+        {
+          "measure": "rate of hyperkaliemia (> 5.5 mmol.l-1)",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 ans\n2. Ischemic symptom of ≥ 20 minutes\n3. Randomization within 72 hours after symptom onset\n4. Electrocardiogram or biological evidence of myocardial infarction:\n\n   * ST segment elevation ≥ 2 mm in ≥ 2 adjacent precordial derivations\n   * ST segment elevation ≥ 1 mm in ≥ 2 adjacent peripheral derivations\n   * New left bundle branch block\n   * New significant Q wave in ≥ 2 adjacent peripheral derivations\n   * Troponin levels ≥3 times upper local limit of normal values and Thrombolysis In Myocardial Infarction (TIMI) non-ST elevation myocardial infarction risk score ≥ 3.\n5. Patients with health insurance\n6. Written informed consent obtained from:\n\n   1. \\- the patient\n   2. -A member of the family or the person of confidence if the patient is unable to provide informed consent\n\nExclusion Criteria:\n\n1. Contraindication or known intolerance to study drugs\n2. Patients already treated by aldosterone blockers for diseases other than systemic hypertension (e.g. primary hyperaldosteronism)\n3. Hyperkaliemia \\>5.5 mmol/l at the time of randomization\n4. Renal function impairment :Plasma creatinin level \\> 220 µmol/l and/or Creatinin clearance 30 ml/min\n5. Severe liver deficiency (Child-Pugh Class 3)\n6. Pregnant or breast feeding women, or women desiring pregnancy within 6 months after randomization\n7. Patients already included in another biomedical intervention trial\n8. Life expectancy \\< 1 year\n9. Cardiac arrest lasting (ECM) \\>10 minutes prior to randomization\n10. Patient unable or unwilling to comply with the treatment or the follow-up visits",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Farzin BEYGUI, MD, PhD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hôpital PITIE-SALPETRIERE - Institut de Cardiologie",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39878152",
+          "type": "DERIVED",
+          "citation": "Hashimoto H, Yamada H, Murata M, Watanabe N. Diuretics for preventing and treating acute kidney injury. Cochrane Database Syst Rev. 2025 Jan 29;1(1):CD014937. doi: 10.1002/14651858.CD014937.pub2."
+        },
+        {
+          "pmid": "27102506",
+          "type": "DERIVED",
+          "citation": "Beygui F, Cayla G, Roule V, Roubille F, Delarche N, Silvain J, Van Belle E, Belle L, Galinier M, Motreff P, Cornillet L, Collet JP, Furber A, Goldstein P, Ecollan P, Legallois D, Lebon A, Rousseau H, Machecourt J, Zannad F, Vicaut E, Montalescot G; ALBATROSS Investigators. Early Aldosterone Blockade in Acute Myocardial Infarction: The ALBATROSS Randomized Clinical Trial. J Am Coll Cardiol. 2016 Apr 26;67(16):1917-27. doi: 10.1016/j.jacc.2016.02.033."
+        },
+        {
+          "pmid": "20934557",
+          "type": "DERIVED",
+          "citation": "Beygui F, Vicaut E, Ecollan P, Machecourt J, Van Belle E, Zannad F, Montalescot G. Rationale for an early aldosterone blockade in acute myocardial infarction and design of the ALBATROSS trial. Am Heart J. 2010 Oct;160(4):642-8. doi: 10.1016/j.ahj.2010.06.049."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013148",
+          "term": "Spironolactone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,821 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01787110",
+      "orgStudyIdInfo": {
+        "id": "DETO2X-AMI 2012/287-12"
+      },
+      "organization": {
+        "fullName": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "briefTitle": "An Efficacy and Outcome Study of Supplemental Oxygen Treatment in Patients With Suspected Myocardial Infarction",
+      "officialTitle": "DETermination of the Role of OXygen in Suspected Acute Myocardial Infarction (DETO2X-AMI) Based on the SWEDEHEART Registry",
+      "acronym": "DETO2X-AMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-12-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-12-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-02-01",
+      "studyFirstSubmitQcDate": "2013-02-06",
+      "studyFirstPostDateStruct": {
+        "date": "2013-02-08",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-12-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Leif Svensson",
+        "investigatorTitle": "Professor of Cardiology",
+        "investigatorAffiliation": "Karolinska Institutet"
+      },
+      "leadSponsor": {
+        "name": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Swedish Heart Lung Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Swedish Foundation for Strategic Research",
+          "class": "OTHER"
+        },
+        {
+          "name": "The Swedish Research Council",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The use of supplemental oxygen in the setting of suspected acute myocardial infarction (AMI) is manifested in international treatment guidelines and established in prehospital and hospital clinical routine throughout the world.\n\nHowever, to date there is no conclusive evidence from adequately designed and powered trials supporting this practice. Existing data is conflicting and failing to clarify the role of supplemental oxygen in AMI.\n\nThe DETO2X-AMI trial is designed to shed light on this important issue.",
+      "detailedDescription": "AIM:\n\nThe aim of the DETO2X-AMI trial is to evaluate the role of supplemental oxygen delivery in the setting of acute coronary syndrome myocardial infarction including ST-segment elevation myocardial infarction (STEMI), non ST-segment elevation myocardial infarction (NSTEMI) and unstable angina (UA).\n\nDESIGN:\n\nDETO2X-AMI is a multicentre, interventional, controlled, randomized registry based clinical trial (RRCT) recruiting 6600 patients at cardiac care facilities which report into the SWEDEHEART registry throughout the whole of Sweden.\n\nThe SWEDEHEART (Swedish Web-system for Enhancement and Development of Evidence-based care in Heart disease Evaluated According to Recommended Therapies) registry is a nationwide used platform allowing a broad population of all-comers access to the broad registry network which includes:\n\n* RIKS-HIA (nationwide registry where all ischemia cases treated on cardiac intensive care units are registered),\n* SCAAR (Swedish Coronary Angiography and Angioplasty Registry where nationwide all coronary angiography and percutaneous coronary intervention (PCI) procedures are registered))\n* SEPHIA (nationwide registry for all post AMI follow-up in patients below 75 years of age).\n\nAll follow-up will be carried out in SWEDEHEART and other national registries such as the national cause of death register (dödsorsaksregister) or the national patient register (slutenvårdsregister). A similar set-up has been successfully used for the TASTE (Thrombus Aspiration in ST-Elevation myocardial infarction in Scandinavia) trial.\n\nMATERIAL and METHODS:\n\nPatients with normal oxygen saturation (≥90% on pulse oximeter) presenting to the ambulance service or the emergency department (ED) with classical symptoms suggestive of acute coronary syndrome (ACS) and significant ECG changes or elevated cardiac biomarkers (ED) are evaluated for inclusion. If eligible, oral informed consent is obtained by EMD or ED personnel prior to inclusion. Randomization is carried out on the cardiac intensive care unit using a web-based tool as part of registration directly into the national SWEDEHEART registry.\n\nPatients are randomized to either supplemental oxygen delivered by oxymask® (6 L/min) for 12 hours (min 6 hours) or no supplemental O₂. All patients receive standard care according to international ACS guidelines including acute coronary intervention.\n\nEFFICACY OUTCOMES:\n\nPrimary efficacy outcome\n\nAll-cause mortality at one year in all patients with suspected AMI (ITT).\n\nSecondary efficacy outcomes\n\nIn the ITT population and AMI cohort:\n\n* MACE 1: composite of all-cause mortality or rehospitalization with heart failure\\*\n* MACE 2: composite of all-cause mortality or rehospitalization with heart failure or readmission with myocardial infarction\n* rehospitalization with heart failure\n* rehospitalization with AMI\n* rehospitalization with shock (Kilip ≥3)\\*\n* cardiovascular death \\*\n* health economy\n\nIn the STEMI cohort: MACE as a composite of all-cause death, rehospitalization with MI, cardiogenic shock, or stent thrombosis\\* plus as above.\n\n\\*These outcomes were specified after the trial had started, but before any treatment comparisons were available.\n\nPrimary and secondary outcomes will be assessed at 30 days and one year of follow up. Supplementary per-protocol analysis will be performed.\n\nSubgroup analyses consist of predefined subgroups including gender, age, AMI/Non-AMI, Type-I AMI ( STEMI/NSTEMI), smokers, Hb, oxygen saturation levels, patients with chronic obstructive pulmonary disease, chronic kidney disease and diabetes mellitus.\n\nTwo main sub studies will be performed:\n\nDETO2X-Biomarkers, a multicenter sub study to the DETO2X-AMI trial assessing if oxygen treatment enhances oxidative stress, systemic inflammation, and markers of apoptosis and MMPs in ACS patients, thereby potentially increasing myocardial damage and cell death, and potentially the prognosis (see separate trial protocol or clinicaltrials.gov NCT02290080 for details).\n\nDETO2X-OXYPAIN 2, a multicenter sub study to the DETO2X-AMI trial at centers with catheter laboratories evaluating a possible analgesic effect of oxygen in using visual-analog scale (VAS).\n\nFollow-up is carried out according to clinical post AMI routine which includes a standardized registration in the SWEDEHEART registry. Mortality data is obtained from the national cause of death register which is linked to SWEDEHEART.\n\nCONCLUSION:\n\nThere is no conclusive evidence from adequately designed and powered trials supporting the routine administration of supplemental oxygen in the setting of suspected AMI. The DETO2X-AMI trial is designed to shed light on this important issue and give guidance to future recommendations."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "Non-ST Elevation (NSTEMI) Myocardial Infarction",
+        "Acute ST Segment Elevation Myocardial Infarction",
+        "Angina, Unstable"
+      ],
+      "keywords": [
+        "Acute coronary syndrome",
+        "Acute myocardial infarction",
+        "Non ST-segment Myocardial Infarction",
+        "ST-segment Myocardial Infarction",
+        "STEMI",
+        "NSTEMI",
+        "Oxygen",
+        "Unstable angina",
+        "Randomised trial",
+        "CMR",
+        "Mortality",
+        "RCRT",
+        "RRCT"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 6629,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "No oxygen",
+          "type": "NO_INTERVENTION",
+          "description": "For patients randomised to withholding oxygen treatment\n\n* no oxygen is administered at any time as long as the oxygen saturation is ≥90% on pulse oximeter (repetitive checks are performed)\n* all patients receive standard acute coronary syndrome treatment including reperfusion strategies\n* observation duration 12 hours"
+        },
+        {
+          "label": "Oxygen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "For patients randomised to oxygen therapy:\n\n* 6 L/min of oxygen delivered by oxymask® started immediately after inclusion of the ambulance service or in the emergency department given continuously for 6-12 hours (at least 6 hours)\n* all patients receive standard acute coronary syndrome treatment including reperfusion strategies",
+          "interventionNames": [
+            "Drug: Oxygen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Oxygen",
+          "description": "see arm description",
+          "armGroupLabels": [
+            "Oxygen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "1-year all-cause mortality",
+          "description": "1-year all-cause mortality on an intention to treat basis (ITT)",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE 1",
+          "description": "All-cause mortality or rehospitalization with heart failure at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "MACE 2",
+          "description": "All-cause mortality or rehospitalization with heart failure or readmission with myocardial infarction at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "STEMI-PCI-MACE",
+          "description": "All-cause death or rehospitalization with MI or cardiogenic shock or stent thrombosis at one year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Rehospitalization with heart failure",
+          "description": "Rehospitalization with heart failure at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Rehospitalization with AMI",
+          "description": "Rehospitalization with AMI at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Rehospitalization with shock (Killip ≥3)",
+          "description": "Rehospitalization with shock (Killip ≥3) at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "description": "Cardiovascular death at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Health economics",
+          "description": "Health economics concerning supplemental oxygen treatment from prehospital contact of the emergency service, hospital stay until follow-up 1 year in patients with AMI below 75 years of age",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* symptoms (chest pain, dyspnea) indicating acute myocardial ischemia within the last 6 hours\n* ECG changes (ST-segment elevation ≥ 2 mm V1-V4, or ≥ 1 mm in other leads, ST-segment depression \\>1 mm in any lead, negative T-wave in leads V2-V6, pathological Q-wave in at least 2 adjacent leads), left bundle branch block\n\nand/or elevated levels of cardiac troponin levels in the ED\n\nindicating acute myocardial ischemia\n\n* oxygen saturation ≥90% (pulse oximeter)\n* age ≥30\n\nExclusion Criteria:\n\n* unwillingness to participate\n* inability to comprehend given information\n* continuous oxygen delivery at home prior to inclusion\n* cardiac arrest prior to inclusion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Leif Svensson, MD, PHD",
+          "affiliation": "Karolinska Institutet",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Enköping Hospital",
+          "city": "Enköping",
+          "zip": "74525",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.63607,
+            "lon": 17.07768
+          }
+        },
+        {
+          "facility": "Gävle Hospital",
+          "city": "Gävle",
+          "zip": "80187",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 60.67452,
+            "lon": 17.14174
+          }
+        },
+        {
+          "facility": "Gothenburg University Hospital, Sahlgrenska",
+          "city": "Gothenburg",
+          "zip": "41345",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Gothenburg University Hospital, Östra",
+          "city": "Gothenburg",
+          "zip": "41345",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Hallands Hospital Halmstad",
+          "city": "Halmstad",
+          "zip": "30185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.67446,
+            "lon": 12.85676
+          }
+        },
+        {
+          "facility": "Ryhov Hospital Jönköping",
+          "city": "Jönköping",
+          "zip": "55185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.78145,
+            "lon": 14.15618
+          }
+        },
+        {
+          "facility": "Kalmar Regional Hospital",
+          "city": "Kalmar",
+          "zip": "39185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.66157,
+            "lon": 16.36163
+          }
+        },
+        {
+          "facility": "Karlstad Hospital",
+          "city": "Karlstad",
+          "zip": "65185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.3793,
+            "lon": 13.50357
+          }
+        },
+        {
+          "facility": "Kiruna Hospital",
+          "city": "Kiruna",
+          "zip": "98131",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 67.85572,
+            "lon": 20.22513
+          }
+        },
+        {
+          "facility": "Köping Hospital",
+          "city": "Köping",
+          "zip": "73130",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.51404,
+            "lon": 15.99255
+          }
+        },
+        {
+          "facility": "Kristianstad Hospital",
+          "city": "Kristianstad",
+          "zip": "29185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.03129,
+            "lon": 14.15242
+          }
+        },
+        {
+          "facility": "Skaraborgs Hospital Lidköping",
+          "city": "Lidköping",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.50517,
+            "lon": 13.15765
+          }
+        },
+        {
+          "facility": "Linköping University Hospital",
+          "city": "Linköping",
+          "zip": "58191",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "facility": "Skåne University Hospital Lund",
+          "city": "Lund",
+          "zip": "20502",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Skåne University Hospital Malmö",
+          "city": "Malmö",
+          "zip": "20502",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.60587,
+            "lon": 13.00073
+          }
+        },
+        {
+          "facility": "Sahlgrenska Universitetssjukhus Mölndal",
+          "city": "Mölndal",
+          "zip": "41345",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.6554,
+            "lon": 12.01378
+          }
+        },
+        {
+          "facility": "Vrinnevi Hospital Norrköping",
+          "city": "Norrköping",
+          "zip": "60329",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.59419,
+            "lon": 16.1826
+          }
+        },
+        {
+          "facility": "Norrtälje Hospital",
+          "city": "Norrtälje",
+          "zip": "76129",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.75799,
+            "lon": 18.70496
+          }
+        },
+        {
+          "facility": "Nyköping Hospital",
+          "city": "Nyköping",
+          "zip": "61185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.753,
+            "lon": 17.00788
+          }
+        },
+        {
+          "facility": "Örebro University Hospital",
+          "city": "Örebro",
+          "zip": "70185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.27412,
+            "lon": 15.2066
+          }
+        },
+        {
+          "facility": "Örnsköldsvik Hospital",
+          "city": "Örnsköldsvik",
+          "zip": "89189",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 63.29091,
+            "lon": 18.71525
+          }
+        },
+        {
+          "facility": "Östersund Hospital",
+          "city": "Östersund",
+          "zip": "83183",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 63.1792,
+            "lon": 14.63566
+          }
+        },
+        {
+          "facility": "Skaraborgs Hospital Skövde",
+          "city": "Skövde",
+          "zip": "54185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.39118,
+            "lon": 13.84506
+          }
+        },
+        {
+          "facility": "St: Göran Hospital",
+          "city": "Stockholm",
+          "zip": "11281",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Södersjukhuset",
+          "city": "Stockholm",
+          "zip": "11883",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital Huddinge",
+          "city": "Stockholm",
+          "zip": "14186",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Karolinska University Hospital Solna",
+          "city": "Stockholm",
+          "zip": "17176",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Danderyds Sjukhus",
+          "city": "Stockholm",
+          "zip": "18288",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Härnosand Hospital Sundsvall",
+          "city": "Sundsvall",
+          "zip": "85186",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 62.39129,
+            "lon": 17.3063
+          }
+        },
+        {
+          "facility": "Trelleborg Hospital",
+          "city": "Trelleborg",
+          "zip": "23185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 55.37514,
+            "lon": 13.15691
+          }
+        },
+        {
+          "facility": "Norrlands University Hospital",
+          "city": "Umeå",
+          "zip": "90185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 63.82842,
+            "lon": 20.25972
+          }
+        },
+        {
+          "facility": "Uppsala University Hospital",
+          "city": "Uppsala",
+          "zip": "75185",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "facility": "Hallands Hospital Varberg",
+          "city": "Varberg",
+          "zip": "43281",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 57.10557,
+            "lon": 12.25078
+          }
+        },
+        {
+          "facility": "Växjö Hospital",
+          "city": "Vaxjo",
+          "zip": "35188",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 56.87767,
+            "lon": 14.80906
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "773507",
+          "type": "BACKGROUND",
+          "citation": "Rawles JM, Kenmure AC. Controlled trial of oxygen in uncomplicated myocardial infarction. Br Med J. 1976 May 8;1(6018):1121-3. doi: 10.1136/bmj.1.6018.1121."
+        },
+        {
+          "pmid": "19699859",
+          "type": "BACKGROUND",
+          "citation": "Farquhar H, Weatherall M, Wijesinghe M, Perrin K, Ranchord A, Simmonds M, Beasley R. Systematic review of studies of the effect of hyperoxia on coronary blood flow. Am Heart J. 2009 Sep;158(3):371-7. doi: 10.1016/j.ahj.2009.05.037. Epub 2009 Jul 15."
+        },
+        {
+          "pmid": "22305833",
+          "type": "BACKGROUND",
+          "citation": "Ranchord AM, Argyle R, Beynon R, Perrin K, Sharma V, Weatherall M, Simmonds M, Heatlie G, Brooks N, Beasley R. High-concentration versus titrated oxygen therapy in ST-elevation myocardial infarction: a pilot randomized controlled trial. Am Heart J. 2012 Feb;163(2):168-75. doi: 10.1016/j.ahj.2011.10.013. Epub 2012 Jan 13."
+        },
+        {
+          "pmid": "16007057",
+          "type": "BACKGROUND",
+          "citation": "Ukholkina GB, Kostianov IIu, Kuchkina NV, Grendo EP, Gofman IaB. [Effect of oxygenotherapy used in combination with reperfusion in patients with acute myocardial infarction]. Kardiologiia. 2005;45(5):59. No abstract available. Russian."
+        },
+        {
+          "pmid": "20846598",
+          "type": "BACKGROUND",
+          "citation": "Moradkhan R, Sinoway LI. Revisiting the role of oxygen therapy in cardiac patients. J Am Coll Cardiol. 2010 Sep 21;56(13):1013-6. doi: 10.1016/j.jacc.2010.04.052."
+        },
+        {
+          "pmid": "20556775",
+          "type": "BACKGROUND",
+          "citation": "Cabello JB, Burls A, Emparanza JI, Bayliss S, Quinn T. Oxygen therapy for acute myocardial infarction. Cochrane Database Syst Rev. 2010 Jun 16;(6):CD007160. doi: 10.1002/14651858.CD007160.pub2."
+        },
+        {
+          "pmid": "21346260",
+          "type": "BACKGROUND",
+          "citation": "Burls A, Cabello JB, Emparanza JI, Bayliss S, Quinn T. Oxygen therapy for acute myocardial infarction: a systematic review and meta-analysis. Emerg Med J. 2011 Nov;28(11):917-23. doi: 10.1136/emj.2010.103564. Epub 2011 Feb 23."
+        },
+        {
+          "pmid": "21146656",
+          "type": "BACKGROUND",
+          "citation": "Frobert O, Lagerqvist B, Gudnason T, Thuesen L, Svensson R, Olivecrona GK, James SK. Thrombus Aspiration in ST-Elevation myocardial infarction in Scandinavia (TASTE trial). A multicenter, prospective, randomized, controlled clinical registry trial based on the Swedish angiography and angioplasty registry (SCAAR) platform. Study design and rationale. Am Heart J. 2010 Dec;160(6):1042-8. doi: 10.1016/j.ahj.2010.08.040."
+        },
+        {
+          "pmid": "22017777",
+          "type": "BACKGROUND",
+          "citation": "Kones R. Oxygen therapy for acute myocardial infarction-then and now. A century of uncertainty. Am J Med. 2011 Nov;124(11):1000-5. doi: 10.1016/j.amjmed.2011.04.034."
+        },
+        {
+          "pmid": "23554440",
+          "type": "BACKGROUND",
+          "citation": "Shuvy M, Atar D, Gabriel Steg P, Halvorsen S, Jolly S, Yusuf S, Lotan C. Oxygen therapy in acute coronary syndrome: are the benefits worth the risk? Eur Heart J. 2013 Jun;34(22):1630-5. doi: 10.1093/eurheartj/eht110. Epub 2013 Apr 3."
+        },
+        {
+          "pmid": "22424003",
+          "type": "BACKGROUND",
+          "citation": "Stub D, Smith K, Bernard S, Bray JE, Stephenson M, Cameron P, Meredith I, Kaye DM; AVOID Study. A randomized controlled trial of oxygen therapy in acute myocardial infarction Air Verses Oxygen In myocarDial infarction study (AVOID Study). Am Heart J. 2012 Mar;163(3):339-345.e1. doi: 10.1016/j.ahj.2011.11.011."
+        },
+        {
+          "pmid": "24576515",
+          "type": "BACKGROUND",
+          "citation": "Hofmann R, James SK, Svensson L, Witt N, Frick M, Lindahl B, Ostlund O, Ekelund U, Erlinge D, Herlitz J, Jernberg T. DETermination of the role of OXygen in suspected Acute Myocardial Infarction trial. Am Heart J. 2014 Mar;167(3):322-8. doi: 10.1016/j.ahj.2013.09.022. Epub 2013 Dec 19."
+        },
+        {
+          "pmid": "23991656",
+          "type": "BACKGROUND",
+          "citation": "Frobert O, Lagerqvist B, Olivecrona GK, Omerovic E, Gudnason T, Maeng M, Aasa M, Angeras O, Calais F, Danielewicz M, Erlinge D, Hellsten L, Jensen U, Johansson AC, Karegren A, Nilsson J, Robertson L, Sandhall L, Sjogren I, Ostlund O, Harnek J, James SK; TASTE Trial. Thrombus aspiration during ST-segment elevation myocardial infarction. N Engl J Med. 2013 Oct 24;369(17):1587-97. doi: 10.1056/NEJMoa1308789. Epub 2013 Aug 31."
+        },
+        {
+          "pmid": "26002889",
+          "type": "BACKGROUND",
+          "citation": "Stub D, Smith K, Bernard S, Nehme Z, Stephenson M, Bray JE, Cameron P, Barger B, Ellims AH, Taylor AJ, Meredith IT, Kaye DM; AVOID Investigators. Air Versus Oxygen in ST-Segment-Elevation Myocardial Infarction. Circulation. 2015 Jun 16;131(24):2143-50. doi: 10.1161/CIRCULATIONAHA.114.014494. Epub 2015 May 22."
+        },
+        {
+          "pmid": "26783282",
+          "type": "BACKGROUND",
+          "citation": "Bulluck H, Hausenloy DJ. Letter by Bulluck and Hausenloy Regarding Article, \"Air Versus Oxygen in ST-Segment-Elevation Myocardial Infarction\". Circulation. 2016 Jan 19;133(3):e28. doi: 10.1161/CIRCULATIONAHA.115.017968. No abstract available."
+        },
+        {
+          "pmid": "26740484",
+          "type": "BACKGROUND",
+          "citation": "Nehme Z, Stub D, Bernard S, Stephenson M, Bray JE, Cameron P, Meredith IT, Barger B, Ellims AH, Taylor AJ, Kaye DM, Smith K; AVOID Investigators. Effect of supplemental oxygen exposure on myocardial injury in ST-elevation myocardial infarction. Heart. 2016 Mar;102(6):444-51. doi: 10.1136/heartjnl-2015-308636. Epub 2016 Jan 6."
+        },
+        {
+          "pmid": "25781411",
+          "type": "BACKGROUND",
+          "citation": "James S, Rao SV, Granger CB. Registry-based randomized clinical trials--a new clinical trial paradigm. Nat Rev Cardiol. 2015 May;12(5):312-6. doi: 10.1038/nrcardio.2015.33. Epub 2015 Mar 17."
+        },
+        {
+          "pmid": "26002888",
+          "type": "BACKGROUND",
+          "citation": "Nedeljkovic ZS, Jacobs AK. Oxygen for ST-Segment-Elevation Myocardial Infarction: Still Up in the Air. Circulation. 2015 Jun 16;131(24):2101-3. doi: 10.1161/CIRCULATIONAHA.115.017072. Epub 2015 May 22. No abstract available."
+        },
+        {
+          "pmid": "27289409",
+          "type": "BACKGROUND",
+          "citation": "Sepehrvand N, Ezekowitz JA. Oxygen Therapy in Patients With Acute Heart Failure: Friend or Foe? JACC Heart Fail. 2016 Oct;4(10):783-790. doi: 10.1016/j.jchf.2016.03.026. Epub 2016 Jun 8."
+        },
+        {
+          "pmid": "26783283",
+          "type": "BACKGROUND",
+          "citation": "Stub D, Smith K, Bernard S, Nehme Z, Stephenson M, Bray JE, Cameron P, Barger B, Ellims AH, Taylor AJ, Meredith IT, Kaye DM. Response to Letter Regarding Article, \"Air Versus Oxygen in ST-Segment-Elevation Myocardial Infarction\". Circulation. 2016 Jan 19;133(3):e29. doi: 10.1161/CIRCULATIONAHA.115.019038. No abstract available."
+        },
+        {
+          "pmid": "35096723",
+          "type": "DERIVED",
+          "citation": "Hofmann R, Abebe TB, Herlitz J, James SK, Erlinge D, Alfredsson J, Jernberg T, Kellerth T, Ravn-Fischer A, Lindahl B, Langenskiold S; DETO2X-SWEDEHEART Investigators. Avoiding Routine Oxygen Therapy in Patients With Myocardial Infarction Saves Significant Expenditure for the Health Care System-Insights From the Randomized DETO2X-AMI Trial. Front Public Health. 2022 Jan 12;9:711222. doi: 10.3389/fpubh.2021.711222. eCollection 2021."
+        },
+        {
+          "pmid": "33791349",
+          "type": "DERIVED",
+          "citation": "Hofmann R, Befekadu Abebe T, Herlitz J, James SK, Erlinge D, Yndigegn T, Alfredsson J, Kellerth T, Ravn-Fischer A, Volz S, Lauermann J, Jernberg T, Lindahl B, Langenskiold S. Routine Oxygen Therapy Does Not Improve Health-Related Quality of Life in Patients With Acute Myocardial Infarction-Insights From the Randomized DETO2X-AMI Trial. Front Cardiovasc Med. 2021 Mar 15;8:638829. doi: 10.3389/fcvm.2021.638829. eCollection 2021."
+        },
+        {
+          "pmid": "33576075",
+          "type": "DERIVED",
+          "citation": "Lindahl B, Ljung L, Herlitz J, Alfredsson J, Erlinge D, Kellerth T, Omerovic E, Ravn-Fischer A, Sparv D, Yndigegn T, Svensson P, Ostlund O, Jernberg T, James SK, Hofmann R; DETO2X-SWEDEHEART Investigators. Poor long-term prognosis in patients admitted with strong suspicion of acute myocardial infarction but discharged with another diagnosis. J Intern Med. 2021 Aug;290(2):359-372. doi: 10.1111/joim.13272. Epub 2021 Mar 16."
+        },
+        {
+          "pmid": "31838113",
+          "type": "DERIVED",
+          "citation": "James SK, Erlinge D, Herlitz J, Alfredsson J, Koul S, Frobert O, Kellerth T, Ravn-Fischer A, Alstrom P, Ostlund O, Jernberg T, Lindahl B, Hofmann R; DETO2X-SWEDEHEART Investigators. Effect of Oxygen Therapy on Cardiovascular Outcomes in Relation to Baseline Oxygen Saturation. JACC Cardiovasc Interv. 2020 Feb 24;13(4):502-513. doi: 10.1016/j.jcin.2019.09.016. Epub 2019 Dec 11."
+        },
+        {
+          "pmid": "31473600",
+          "type": "DERIVED",
+          "citation": "Nystrom T, James SK, Lindahl B, Ostlund O, Erlinge D, Herlitz J, Omerovic E, Mellbin L, Alfredsson J, Frobert O, Jernberg T, Hofmann R; DETO2X-SWEDEHEART Investigators. Oxygen Therapy in Myocardial Infarction Patients With or Without Diabetes: A Predefined Subgroup Analysis From the DETO2X-AMI Trial. Diabetes Care. 2019 Nov;42(11):2032-2041. doi: 10.2337/dc19-0590. Epub 2019 Aug 31."
+        },
+        {
+          "pmid": "30767504",
+          "type": "DERIVED",
+          "citation": "Jernberg T, Lindahl B, Alfredsson J, Berglund E, Bergstrom O, Engstrom A, Erlinge D, Herlitz J, Jumatate R, Kellerth T, Lauermann J, Lindmark K, Lingman M, Ljung L, Nilsson C, Omerovic E, Pernow J, Ravn-Fischer A, Sparv D, Yndigegn T, Ostlund O, James SK, Hofmann R; DETO2X-SWEDEHEART Investigators. Long-Term Effects of Oxygen Therapy on Death or Hospitalization for Heart Failure in Patients With Suspected Acute Myocardial Infarction. Circulation. 2018 Dec 11;138(24):2754-2762. doi: 10.1161/CIRCULATIONAHA.118.036220."
+        },
+        {
+          "pmid": "28844200",
+          "type": "DERIVED",
+          "citation": "Hofmann R, James SK, Jernberg T, Lindahl B, Erlinge D, Witt N, Arefalk G, Frick M, Alfredsson J, Nilsson L, Ravn-Fischer A, Omerovic E, Kellerth T, Sparv D, Ekelund U, Linder R, Ekstrom M, Lauermann J, Haaga U, Pernow J, Ostlund O, Herlitz J, Svensson L; DETO2X-SWEDEHEART Investigators. Oxygen Therapy in Suspected Acute Myocardial Infarction. N Engl J Med. 2017 Sep 28;377(13):1240-1249. doi: 10.1056/NEJMoa1706222. Epub 2017 Aug 28."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Click here for more information about this study",
+          "url": "http://www.deto2x.se"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010100",
+          "term": "Oxygen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018011",
+          "term": "Chalcogens"
+        },
+        {
+          "id": "D004602",
+          "term": "Elements"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D005740",
+          "term": "Gases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

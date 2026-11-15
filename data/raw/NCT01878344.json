@@ -1,0 +1,255 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01878344",
+      "orgStudyIdInfo": {
+        "id": "ozaydin290"
+      },
+      "organization": {
+        "fullName": "Suleyman Demirel University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of N-acetyl Cysteine During Primary Percutaneous Coronary Intervention",
+      "officialTitle": "Effects of N-acetyl Cysteine on Major Cardiac and Cerebral Events in Patients Undergoing Primary Percutaneous Coronary Intervention Who Have Moderate to High Risk For Contrast Induced Nephropathy",
+      "acronym": "EASE-PRM-PCI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2013-06-12",
+      "studyFirstSubmitQcDate": "2013-06-12",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-14",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-05-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mehmet Ozaydin, MD",
+        "investigatorTitle": "MD, Professor",
+        "investigatorAffiliation": "Suleyman Demirel University"
+      },
+      "leadSponsor": {
+        "name": "Suleyman Demirel University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to evaluate the effects of N-acetyl cysteine on major cardiac and cerebral events in patients undergoing primary percutaneous coronary intervention who have moderate to high risk for contrast induced nephropathy.\n\nIn a sub-group of patients coronary flow reserve will be evaluated."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute ST Segment Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "n-acetyl cysteine",
+          "type": "EXPERIMENTAL",
+          "description": "30 mg/kg/15 min intravenous bolus preprocedural and 50 mg/kg/8 h intravenous infusion during and after the procedure",
+          "interventionNames": [
+            "Drug: NAC"
+          ]
+        },
+        {
+          "label": "Saline",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "30 mg/kg/15 min intravenous bolus preprocedural and 50 mg/kg/8 h intravenous infusion during and after the procedure",
+          "interventionNames": [
+            "Drug: Saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NAC",
+          "armGroupLabels": [
+            "n-acetyl cysteine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Saline",
+          "armGroupLabels": [
+            "Saline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Major cardiac and cerebral events",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "NAC side effects (Asthma exacerbation, Pruritus, Dyspnea)",
+          "timeFrame": "during hospitalization at 48 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with Acute ST Elevation Myocardial Infarction undergoing Primary Percutaneous Coronary intervention Who Have Moderate to High Risk For Contrast Induced Nephropathy (Mehran Score ≥5)\n\nExclusion Criteria:\n\n* Patients \\>18 years old with moderate to high risk for contrast induced nephropathy undergoing percutaneous coronary intervention\n* Low risk for contrast induced nephropathy (Mehran Score \\<5)\n* Use of nephrotoxic agents (NSAIDs, aminoglycosides,recent contrast injection...)\n* Infection\n* Pregnancy, Lactation\n* Renal failure requiring dialysis\n* Hepatic failure\n* Allergy to NAC\n* History of Asthma\n* Chronic nitrate usage\n* Malignancy\n* Use of corticosteroids\n* Leucocytosis,Thrombocytosis,Anemia\n* Blood pressure of \\>180/100mmHg despite anti-hypertensive therapy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Suleyman Demirel University",
+          "city": "Isparta",
+          "state": "Mediterranean Region",
+          "zip": "32260",
+          "country": "Turkey (Türkiye)",
+          "geoPoint": {
+            "lat": 37.76444,
+            "lon": 30.55222
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

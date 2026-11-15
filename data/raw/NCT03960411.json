@@ -1,0 +1,400 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03960411",
+      "orgStudyIdInfo": {
+        "id": "01"
+      },
+      "organization": {
+        "fullName": "Universitas Indonesia",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Doxycycline on Cardiac Remodelling in STEMI Patients",
+      "officialTitle": "Effect of Doxycycline on Cardiac Remodelling in Patients With ST-Elevation Myocardial Infarction (STEMI)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-05-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2019-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-05-16",
+      "studyFirstSubmitQcDate": "2019-05-20",
+      "studyFirstPostDateStruct": {
+        "date": "2019-05-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-08-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Felix Chikita Fredy, MD",
+        "investigatorTitle": "cardiology resident",
+        "investigatorAffiliation": "Universitas Indonesia"
+      },
+      "leadSponsor": {
+        "name": "Felix Chikita Fredy, MD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cardiovascular Center Harapan Kita Hospital Indonesia",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Subsequent to the loss of myocardium post-myocardial infarction (MI), the affected ventricle undergoes some dynamic structural and functional changes known as remodeling. Cardiac remodeling progresses into heart failure (HF). In this revolutionized percutaneous coronary intervention (PCI) era, the incidence of post-MI HF due to cardiac remodeling remains high. Current standard therapeutic interventions, for HF, aimed solely at correcting a low cardiac output do not necessarily impede HF progression. Recently, doxycycline was found to have an additional biological effect aside from their antimicrobial actions. From several experimental studies and clinical trials, doxycycline showed MMP inhibition activities that can prevent ventricular remodeling. This study aims to evaluate the role of doxycycline in cardiac remodeling prevention post-MI. Our hypothesis is that a better heart function will be observed in STEMI patients who receive a short period of doxycycline administration post-PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction",
+        "Anterior Wall Myocardial Infarction",
+        "Heart Failure",
+        "Remodeling, Ventricular"
+      ],
+      "keywords": [
+        "Doxycycline",
+        "Cardiac Remodelling",
+        "STEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "One arm receives standard care after primary PCI, the other receives doxycycline b.i.d for 7 days as an adjunct to standard care",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The only party who is not masked is the pharmacist",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Doxycycline",
+          "type": "EXPERIMENTAL",
+          "description": "Doxycycline 100 mg capsule by mouth every 12 hours for 7 days, administered early after primary PCI",
+          "interventionNames": [
+            "Drug: Doxycycline 100Mg Capsule"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo capsule by mouth every 12 hours for 7 days, administered early after primary PCI",
+          "interventionNames": [
+            "Drug: Placebo oral capsule"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Doxycycline 100Mg Capsule",
+          "description": "Doxycycline capsule",
+          "armGroupLabels": [
+            "Doxycycline"
+          ],
+          "otherNames": [
+            "Doryx",
+            "Doxyhexal",
+            "Doxylin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo oral capsule",
+          "description": "Capsule manufactured to mimic doxycycline 100 mg capsule",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Placebo (for Doxycycline)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "high sensitivity-Troponin T",
+          "description": "hs-Troponin T in ng/L",
+          "timeFrame": "12 hours"
+        },
+        {
+          "measure": "high sensitivity-CRP",
+          "description": "hs-CRP in mg/L",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "NT-pro BNP",
+          "description": "NT-pro BNP in pg/ml",
+          "timeFrame": "5 days"
+        },
+        {
+          "measure": "netrophils",
+          "description": "absolute amount per micro liters",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "ST2",
+          "description": "ST2 in ng/ml",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mortality rate",
+          "description": "The number of deceased participants",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Heart failure incidence",
+          "description": "Evaluating the occurrence of heart failure signs and/or symptoms",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Re-hospitalization rate",
+          "description": "The number of patients re-admitted due to heart failure signs and/or symptoms",
+          "timeFrame": "4 months"
+        },
+        {
+          "measure": "Left ventricle function and dimension",
+          "description": "Assessed through echocardiography",
+          "timeFrame": "4 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Onset of STEMI \\<12 hours\n* Anterior wall STEMI or Killip grade II-III or LVEF \\<50%\n* Undergoing primary PCI\n\nExclusion Criteria:\n\n* Signs of infection (clinical judgement plus leukocyte count \\>15,000)\n* STEMI mechanical complication\n* Moderate-severe valvular disease\n* Allergic to doxycycline\n* Refuse to join the trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Bambang Widyantoro, PhD",
+          "role": "CONTACT",
+          "phone": "+62 812 8164299",
+          "email": "bambang_ui@yahoo.com"
+        },
+        {
+          "name": "Felix C Fredy, MD",
+          "role": "CONTACT",
+          "phone": "+62 821 12099811",
+          "email": "felixchikita@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Bambang Widyantoro, PhD",
+          "affiliation": "Universitas Indonesia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National Cardiovascular Center Harapan Kita Hospital",
+          "status": "RECRUITING",
+          "city": "Jakarta",
+          "zip": "11420",
+          "country": "Indonesia",
+          "contacts": [
+            {
+              "name": "Bambang Widyantoro, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bambang Widyantoro, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Felix C Fredy, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Arief A Subakti, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Anindita Suputri, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": -6.21462,
+            "lon": 106.84513
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24104875",
+          "type": "BACKGROUND",
+          "citation": "Cerisano G, Buonamici P, Valenti R, Sciagra R, Raspanti S, Santini A, Carrabba N, Dovellini EV, Romito R, Pupi A, Colonna P, Antoniucci D. Early short-term doxycycline therapy in patients with acute myocardial infarction and left ventricular dysfunction to prevent the ominous progression to adverse remodelling: the TIPTOP trial. Eur Heart J. 2014 Jan;35(3):184-91. doi: 10.1093/eurheartj/eht420. Epub 2013 Oct 8."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D056988",
+          "term": "Anterior Wall Myocardial Infarction"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004318",
+          "term": "Doxycycline"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013754",
+          "term": "Tetracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

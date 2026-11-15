@@ -1,0 +1,336 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04912167",
+      "orgStudyIdInfo": {
+        "id": "WestChinaH-CVD-003"
+      },
+      "organization": {
+        "fullName": "West China Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effects of Sacubitril-Valsartan vs Enalapril on Left Ventricular Remodeling in ST-elevation Myocardial Infarction",
+      "officialTitle": "A Multi-center, Prospective Randomized Controlled Trial on the Effects of Sacubitril-Valsartan vs Enalapril on Left Ventricular Remodeling in ST-elevation Myocardial Infarction",
+      "acronym": "PERI-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-11",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-05-26",
+      "studyFirstSubmitQcDate": "2021-05-28",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-09-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-09-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yong He",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "West China Hospital"
+      },
+      "leadSponsor": {
+        "name": "West China Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of the PERI-STEMI trial is to assess whether sacubitril-valsartan is more effective in preventing adverse LV remodeling for patients with ST-elevation myocardial infarction (STEMI) than enalapril."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ],
+      "keywords": [
+        "ST-elevation myocardial infarction (STEMI)",
+        "cardiovascular magnetic resonance (CMR)",
+        "angiotensin receptor neprilysin inhibitor (ARNI)",
+        "angiotensin-converting enzyme inhibitor (ACEI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 376,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ARNI-Sacubitril-Valsartan",
+          "type": "EXPERIMENTAL",
+          "description": "patients randomized to angiotensin receptor neprilysin inhibitor (ARNI) group will receive 2 doses of angiotensin receptor blocker (ARB) to ensure a minimum 36-hour washout period prior to initiation of ARNI therapy, and then be started with the first dose or sacubitril-valsartan.",
+          "interventionNames": [
+            "Drug: Sacubitril-Valsartan",
+            "Drug: Valsartan"
+          ]
+        },
+        {
+          "label": "ACEI-Enalapril",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "patients randomized to angiotensin-converting enzyme inhibitor (ACEI) group will directly start with the first dose of enalapril",
+          "interventionNames": [
+            "Drug: Enalapril"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sacubitril-Valsartan",
+          "description": "After initiation of the treatment of sacubitril/valsartan, the dose of the medicine will be titrated to a target level based on the systolic blood pressure of the patients. (24/26 mg, 49/51 mg and 97/103 mg, twice daily)",
+          "armGroupLabels": [
+            "ARNI-Sacubitril-Valsartan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Enalapril",
+          "description": "After initiation of the treatment of enalapril, the dose of the medicine will be titrated to a target level based on the systolic blood pressure of the patients. (2.5 mg, 5 mg, and 10 mg,twice daily)",
+          "armGroupLabels": [
+            "ACEI-Enalapril"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Valsartan",
+          "description": "For patients who were previously treated with ACEI and receiving the last dose of that agent during the last 36 hours prior to randomization, Valsartan (VAL489) 40 mg and 80 mg tablets, two doses for 1 day was used.",
+          "armGroupLabels": [
+            "ARNI-Sacubitril-Valsartan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "LV remodeling index on CMR",
+          "description": "change of the indexed LV mass (Δ LVmassi) from baseline to 6-month follow-up on CMR",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "left ventricular (LV) ejection fraction",
+          "description": "left ventricular ejection fraction indexes at the 6-month CMR.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "global peak LV longitudinal strain",
+          "description": "global peak LV longitudinal strain at the 6-month CMR.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "myocardial fibrosis",
+          "description": "extracelluar volume measured through T1 mapping sequence at the 6-month CMR.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Time to the first occurrence of a composite endpoint of adverse clinical events",
+          "description": "including all deaths (cardiac death vs non-cardiac death), non-fatal myocardial re-infarction, hospitalization for worsening heart failure or need for advanced HF therapies (hospital stay \\> 24 hours)(e.g., intravenous use of inotropes, left ventricular assist device placement, or cardiac transplantation)",
+          "timeFrame": "up to approximately 60 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged between 18 - 75 years old\n* First-time ST-segment elevation myocardial infarction based on the newest ESC guidelines\n* Timely primary percutaneous coronary intervention within 12 hours from onset\n* Written informed consent acquired\n\nExclusion Criteria:\n\n* Known history of or persistent clinical chronic heart failure prior to randomization\n* Previous use of ARNI, or intolerance or contraindications to study drugs including ARNI or ACEI\n* History of significant chronic coronary obstruction and adverse ventricular remodeling\n* History of any cardiomyopathy, valvular heart disease, congenital heart disease, stent or CABG, or planned open-heart surgery within 3 months\n* History of hepatic impairment or history of cirrhosis with evidence of portal hypertension\n* History of chronic renal dysfunction, or eGFR \\< 30 ml/min/1.73 m2\n* History of malignancy and with a life span less than one year\n* Patients with a known history of angioedema related to previous ACEIs/ARB therapy.\n* With contraindication to MRI examination (pacemaker and claustrophobia) or cannot finish breath-holding when lying on the examination bed\n* Pregnancy or nursing women",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "West China Hospital",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "621000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34668596",
+          "type": "DERIVED",
+          "citation": "Diao K, Wang D, Chen Z, Wu X, Ma M, Zhu Y, Zhang L, Wang H, Wang M, He S, Li C, Deng Q, Yan T, Wu T, Tang L, Huang B, Sun J, He Y. Rationale and design of a multi-center, prospective randomized controlled trial on the effects of sacubitril-valsartan versus enalapril on left ventricular remodeling in ST-elevation myocardial infarction: The PERI-STEMI study. Clin Cardiol. 2021 Dec;44(12):1709-1717. doi: 10.1002/clc.23744. Epub 2021 Oct 20."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C549068",
+          "term": "sacubitril and valsartan sodium hydrate drug combination"
+        },
+        {
+          "id": "D004656",
+          "term": "Enalapril"
+        },
+        {
+          "id": "D000068756",
+          "term": "Valsartan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004151",
+          "term": "Dipeptides"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014633",
+          "term": "Valine"
+        },
+        {
+          "id": "D000597",
+          "term": "Amino Acids, Branched-Chain"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000601",
+          "term": "Amino Acids, Essential"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

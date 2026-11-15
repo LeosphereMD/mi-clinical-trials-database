@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07297589",
+      "orgStudyIdInfo": {
+        "id": "R-2025-1001-087"
+      },
+      "organization": {
+        "fullName": "Instituto Mexicano del Seguro Social",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Epicardial Cardiac Fat-CT (EPIC-CT)",
+      "officialTitle": "Epicardial Cardiac Fat Comparative Trial",
+      "acronym": "EPIC-CT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-09",
+      "studyFirstSubmitQcDate": "2025-12-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hilda Elizabeth Macías Cervantes",
+        "investigatorTitle": "Ph.D.",
+        "investigatorAffiliation": "Instituto Mexicano del Seguro Social"
+      },
+      "leadSponsor": {
+        "name": "Instituto Mexicano del Seguro Social",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Both globally and nationally, heart disease remains the leading cause of death overall and across genders, with ischemic heart disease being the primary cause. It is now understood that multiple risk factors contribute to the development of this condition, notably type 2 diabetes mellitus and obesity, especially an increase in visceral fat. Among these, the role of epicardial fat volume in the presence of atheromatous plaques in patients with coronary artery disease has been emphasized, along with the link between its volume and the risk of ischemic cardiovascular events. Consequently, recent decades have seen focused research on the potential of epicardial fat as a marker for major adverse cardiac events and on strategies to reduce its volume as a treatment goal for patients with risk factors.\n\nSelective sodium-glucose cotransporter 2 inhibitors are drugs that, beyond their antihyperglycemic effect, have demonstrated cardiovascular benefits through various mechanisms, including a reduction in epicardial fat. This was supported by a previous study conducted by our research group, although no statistically significant difference was found. On the other hand, GLP-1 agonists are effective drugs for weight control in patients with severe obesity. However, little research has been done on their effect on more localized fat, such as epicardial fat.",
+      "detailedDescription": "This randomized, open-label clinical trial will assess the effects of dapagliflozin compared to semaglutide on epicardial fat in patients with ST-segment elevation myocardial infarction and non-ST-segment elevation myocardial infarction over a 12-month period. Epicardial fat will be measured by simple coronary tomography during initial hospitalization for infarction and after 12 months of treatment with both medications.\n\nIt will include patients over 18 years old with STEMI and NSTEMI, with or without a diagnosis of type 2 diabetes and clinical obesity. Patients will be discharged following treatment guidelines, and their adherence to medication and tolerability will be monitored."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI - ST Elevation Myocardial Infarction",
+        "Epicardial Fat"
+      ],
+      "keywords": [
+        "Epicardial fat",
+        "STEMI",
+        "Semaglutide",
+        "Dapagliflozin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 136,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dapagliflozin",
+          "type": "EXPERIMENTAL",
+          "description": "Dapagliflozin 10 mg daily",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10 MG Oral Tablet"
+          ]
+        },
+        {
+          "label": "Semaglutide",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Semaglutide 3 mg, gradually increasing to 14 mg every 24 hours",
+          "interventionNames": [
+            "Drug: Semaglutide (Rybelsus®)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin 10 MG Oral Tablet",
+          "description": "10 mg of dapagliflozin daily for 12 months",
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Semaglutide (Rybelsus®)",
+          "description": "Semaglutide 3 mg, gradually increasing to 14 mg every 24 hours for 12 months",
+          "armGroupLabels": [
+            "Semaglutide"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Epicardial fat",
+          "description": "The volume of epicardial fat will be measured using simple coronary tomography during hospitalization for STEMI and after 12 months of treatment with both drugs to evaluate the change.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in LDL",
+          "description": "The effect of both interventions on LDL levels after 12 months of treatment will be evaluated.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in fasting glucose and HbA1c",
+          "description": "The impact of both interventions on changes in fasting glucose and HbA1c after 12 months of treatment will be assessed.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Major adverse cardiovascular events (MACE)",
+          "description": "During patient follow-up, the occurrence of cardiac failure events, whether requiring hospitalization or not, along with new acute myocardial infarction, cardiovascular death, or stroke, will be evaluated.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Change in body weight",
+          "description": "The effect of both interventions on body weight, expressed in kilograms, will be evaluated after 12 months of treatment.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Criteria for the fourth definition of acute myocardial infarction with and without ST-segment elevation.\n\n  * Diagnosed with type 2 diabetes.\n  * Initial serum high-sensitivity CRP value \\> 2.0 mg/L.\n  * Clinically obese.\n  * LVEF \\>50%.\n\nExclusion Criteria:\n\n* Patients who have recently received immunosuppressive therapy\n* Patients with a history of ischemic heart disease\n* Known allergy to any of the medications used\n* Use of any of the study drugs more than 6 months prior to randomization\n* Patients experiencing diabetic ketoacidosis\n* Patients with hemodynamic instability (mean arterial pressure \\<60 mmHg while on vasopressors)\n* Pregnant women\n* Patients with a history or current diagnosis of cancer\n* Patients with documented active infections, such as pneumonia or urinary tract infections\n* Patients with pancreatitis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Hilda Elizabeth Macías-Cervantes, Ph.D.",
+          "role": "CONTACT",
+          "phone": "4777174800",
+          "phoneExt": "31315",
+          "email": "hildamacer@gmail.com"
+        },
+        {
+          "name": "Rodolfo Guardado-Mendoza, Ph.D.",
+          "role": "CONTACT",
+          "phone": "4772674900",
+          "phoneExt": "3683",
+          "email": "guardamen@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Rodolfo Guardado-Mendoza, Ph.D.",
+          "affiliation": "Universidad de Guanajuato",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Unidad Medica de Alta Especialidad No. 1, Bajío",
+          "status": "RECRUITING",
+          "city": "León",
+          "state": "Guanajuato",
+          "zip": "37260,",
+          "country": "Mexico",
+          "contacts": [
+            {
+              "name": "Hilda E Macias Cervantes, master in clinical research",
+              "role": "CONTACT",
+              "email": "liz_2787@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 21.12183,
+            "lon": -101.68253
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,234 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00965406",
+      "orgStudyIdInfo": {
+        "id": "GIKI2"
+      },
+      "organization": {
+        "fullName": "University of Monastir",
+        "class": "OTHER"
+      },
+      "briefTitle": "Glucose Insulin Potassium With Intensive Insulin Therapy and (GIK2) Versus GIK Alone",
+      "officialTitle": "Glucose Insulin Potassium With Intensive Insulin Therapy and (GIK2) Versus GIK Alone in the Early Management of Acute Coronary Syndrome: Randomised Controlled Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-08-24",
+      "studyFirstSubmitQcDate": "2009-08-24",
+      "studyFirstPostDateStruct": {
+        "date": "2009-08-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-04-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-05-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pr. Semir Nouira",
+        "investigatorTitle": "Prof. Semir Nouira",
+        "investigatorAffiliation": "University of Monastir"
+      },
+      "leadSponsor": {
+        "name": "University of Monastir",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to evaluate the effect of the glucose insulin potassium (GIK) infusion associated with intensive insulin therapy compared to GIK alone and control group in patients presenting to the ED with acute coronary syndrome.",
+      "detailedDescription": "It is well recognised that diabetes is a factor of worse prognosis in acute coronary syndrome (ACS). Recently, the relationship between the glucidic metabolism and cardiac ischemia was highlighted whether patients have diabetes or not. Indeed, it was established that hyperglycemia occurring during hospitalization in non diabetic patients, is a powerful risk factor of death.\n\nStress related hyperglycemia occurs during number of acute pathological situations (AMI, stroke, pancreatitis, hypothermia, hypoxia, cirrhosis, polytrauma, burn, sepsis…. It is due to an excess of hyperglycemia hormones (glucagon, growth hormone, catecholamines and glucosteroids) and of inflammatory mediators (cytokines…). Hyperglycemia has several deleterious effects on the cardiovascular system as it promotes microvascular inflammatory reaction, activation of the coagulation system, and free radical oxygen liberation.\n\nCurrently, the idea of controlling glycemia in surgical and medical intensive care patients is widely accepted and maintaining blood sugar level closest to normal by intensive insulin therapy became largely recommended.\n\nSeveral decades ago, glucose-insulin-potassium infusion (GIK) was proposed to protect acute cardiac ischemia. GIK has been assessed in many previous studies.\n\nThe results of these studies are contradictory. According to CREATE-ECLA study which is the largest (including 20201 patients), GIK didn't show a significant beneficial effect in ACS. However, in these trials using GIK alone glycemia was not strictly controlled.\n\nRecently, the importance of tight glycemic control has been highlighted in ICU patients and early post heart surgery. Our hypothesis is that GIK treatment associated to intensive insulin therapy in ACS would be beneficial and superior to GIK alone possibly because intensive insulin therapy would prevent potential deleterious effects of hyperglycemia induced by GIK."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "acute coronary syndrome",
+        "glucose insulin potassium"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 772,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "glucose insulin potassium (GIK)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Glucose + insulin +6 potassium (GIK) infusion (1000 ml of Glucose 10%, 20 UI Insulin, 70 mEq of Potassium) within 24 hours.",
+          "interventionNames": [
+            "Drug: GIK and intensive insulin therapy"
+          ]
+        },
+        {
+          "label": "GIK and intensive insulin therapy",
+          "type": "EXPERIMENTAL",
+          "description": "GIK infusion (1000 ml of Glucose 10%, 20 UI Insulin, 70 mEq of Potassium) within 24 hours. Intravenous intensive insulin therapy is simultaneously administered according to our protocol in the ED",
+          "interventionNames": [
+            "Drug: GIK and intensive insulin therapy"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "No intervention and patients were treated with updated international recommendations of acute coronary syndrome."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GIK and intensive insulin therapy",
+          "description": "GIK infusion (1000 ml of Glucose 10%, 20 UI Insulin, 70 mEq of Potassium) within 24 hours. Intravenous intensive insulin therapy is simultaneously administered according to our protocol in the ED",
+          "armGroupLabels": [
+            "GIK and intensive insulin therapy",
+            "glucose insulin potassium (GIK)"
+          ],
+          "otherNames": [
+            "GIKI2"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "30 days mortality, reinfarction, urgent coronary revascularisation, and stroke.",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Severe dysrhythmias, acute left ventricular failure with ejection fraction<45%, serum troponin, PAI level and platelet factor activator (PFA-100) within 24 hours after the start of protocol treatment. Safety: major or minor hypoglycemia",
+          "timeFrame": "24 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* All patients fulfilling ACS criteria with or without known diabetes.\n\nExclusion Criteria:\n\n* Patients under 18 years old.\n* Killip II class or SaO2 ≤ 90%.\n* Blood creatinine ≥ 180 µmol/L\n* Potassium serum ≥ 6.5 mmol/L.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "nouira semir, Prof.",
+          "affiliation": "Research Laboratory (LR12SP18) University of Monastir Tunisia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mahdia University Hospital",
+          "city": "Monastir",
+          "state": "Mahdia Governorate",
+          "country": "Tunisia"
+        },
+        {
+          "facility": "Monastir University Hospital",
+          "city": "Monastir",
+          "zip": "5000",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 35.77799,
+            "lon": 10.82617
+          }
+        },
+        {
+          "facility": "Sahloul University Hospital",
+          "city": "Sousse",
+          "country": "Tunisia",
+          "geoPoint": {
+            "lat": 35.82539,
+            "lon": 10.63699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29138181",
+          "type": "DERIVED",
+          "citation": "Bouida W, Beltaief K, Msolli MA, Bzeouich N, Sekma A, Echeikh M, Mzali M, Boubaker H, Grissa MH, Boukef R, Hassine M, Dridi Z, Belguith A, Najjar F, Khochtali I, Nouira S; GREAT Network. One-Year Outcome of Intensive Insulin Therapy Combined to Glucose-Insulin-Potassium in Acute Coronary Syndrome: A Randomized Controlled Study. J Am Heart Assoc. 2017 Nov 14;6(11):e006674. doi: 10.1161/JAHA.117.006674."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

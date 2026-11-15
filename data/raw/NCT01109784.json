@@ -1,0 +1,275 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01109784",
+      "orgStudyIdInfo": {
+        "id": "PATRASCARDIOLOGY-1"
+      },
+      "organization": {
+        "fullName": "University of Patras",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prasugrel Versus High Dose Clopidogrel in Clopidogrel Resistant Patients Post Percutaneous Coronary Intervention (PCI).",
+      "officialTitle": "Phase 3 Study of Prasugrel vs High Dose (150 mg) Clopidogrel in Clopidogrel Resistant Patients Post Coronary Angioplasty."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2010-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-04-22",
+      "studyFirstSubmitQcDate": "2010-04-22",
+      "studyFirstPostDateStruct": {
+        "date": "2010-04-23",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2010-08-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2010-08-24",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Dimitrios Alexopoulos",
+        "oldOrganization": "Patras University Hospital"
+      },
+      "leadSponsor": {
+        "name": "University of Patras",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The use of dual antiplatelet therapy is considered standard of care in patients post percutaneous coronary intervention (PCI) with stenting. However, a significant proportion of patients is considered clopidogrel resistant and this resistance is shown to be accompanied by future adverse events. Additionally, clopidogrel resistance has been linked with the CYP2C19 polymorphism. The hypothesis of the study is to define in consecutive patients undergoing PCI those that are clopidogrel resistant PCI following routinely used loading as estimated predischarge with the VerifyNow point of care system of platelet reactivity. Clopidogrel resistant patients will be randomized in 1:1 fashion to prasugrel 10 mg or clopidogrel 150mg daily. Platelet reactivity will be assessed at day 30, when treatment crossover will be performed. At day 60 platelet reactivity will be determined as well. In addition, in all patients genetic determination of CYP polymorphisms (including the CYP2C19)known to affect clopidogrel metabolism will be performed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease (CAD)",
+        "Acute Coronary Syndrome (ACS)"
+      ],
+      "keywords": [
+        "coronary angioplasty",
+        "clopidogrel resistance",
+        "prasugrel"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "prasugrel per os 10mg/day",
+          "interventionNames": [
+            "Drug: prasugrel"
+          ]
+        },
+        {
+          "label": "clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "clopidogrel per os 150mg/day",
+          "interventionNames": [
+            "Drug: clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "prasugrel",
+          "description": "prasugrel 10 mg/day",
+          "armGroupLabels": [
+            "prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "clopidogrel",
+          "description": "clopidogrel per os 150mg/day",
+          "armGroupLabels": [
+            "clopidogrel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Units (PRU) assessed by VerifyNow P2Y12(Accumetrics)",
+          "timeFrame": "Day 60"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years old\n* Patients having PCI with stenting 24-48 hours prior randomization, for 1. Stable angina 2.Ischaemia in provocative test 3.Acute coronary syndrome (unstable angina or myocardial infarction)\n* Written Informed consent\n* Platelet reactivity units (PRU) (VerifyNow) \\>230\n\nExclusion Criteria:\n\n* A history of bleeding diathesis\n* Chronic oral anticoagulation treatment\n* Contraindications to antiplatelet therapy\n* Known platelet function disorders\n* PCI or coronary artery bypass surgery \\< 3 months\n* Unsuccessful PCI (residual stenosis \\> 30% or flow \\< Thrombolysis in myocardial infarction flow 3)\n* Planned staged PCI in the next 60 days\n* Hemodynamic instability\n* Cancer or hemodialysis\n* Platelet count \\<100 000/ μL, hematocrit \\<30%\n* Creatinine clearance \\<25 ml/min\n* A life expectancy\\<1 year, inability to give informed consent\n* High likelihood of being unavailable for the Day 60 follow up",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Cardiology Department, Patras University Hospital",
+          "city": "Rio, Patras",
+          "zip": "26500",
+          "country": "Greece"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "21511219",
+          "type": "DERIVED",
+          "citation": "Alexopoulos D, Dimitropoulos G, Davlouros P, Xanthopoulou I, Kassimis G, Stavrou EF, Hahalis G, Athanassiadou A. Prasugrel overcomes high on-clopidogrel platelet reactivity post-stenting more effectively than high-dose (150-mg) clopidogrel: the importance of CYP2C19*2 genotyping. JACC Cardiovasc Interv. 2011 Apr;4(4):403-10. doi: 10.1016/j.jcin.2010.12.011."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

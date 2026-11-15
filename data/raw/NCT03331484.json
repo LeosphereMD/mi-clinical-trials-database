@@ -1,0 +1,317 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03331484",
+      "orgStudyIdInfo": {
+        "id": "MRL-PCI AF"
+      },
+      "organization": {
+        "fullName": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Safety and Efficacy Of Rivaroxaban and Ticagrelor for Patients With Atrial Fibrillation After Percutaneous Coronary Intervention",
+      "officialTitle": "THE CAPITAL PCI AF Study: The Safety and Efficacy of Rivaroxaban and Ticagrelor for Patients With Atrial Fibrillation After Percutaneous Coronary Intervention",
+      "acronym": "CAPITAL PCI AF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-07-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-10-31",
+      "studyFirstSubmitQcDate": "2017-10-31",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ottawa Heart Institute Research Corporation",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Currently, there is minimal data on the combination of rivaroxaban and ticagrelor in patients with atrial fibrillation (AF) managed with percutaneous coronary intervention (PCI). Furthermore, there exists significant controversy among physicians in the use of oral anticoagulants in conjunction with antiplatelet therapy in this population. The present recommendation is triple therapy (aspirin + clopidogrel + warfarin), which has been related to major bleeding complications. Previous studies have shown that ticagrelor has been proven to be more effective in reducing the rate of death, new heart attacks, or strokes than the previously recommended drug, clopidogrel, and studies have shown that less bleeding occurs with rivaroxaban than with warfarin. Therefore, it would be ideal to investigate the two potent drugs, ticagrelor and rivaroxaban, in combination in order to gain insight in the management of these high-risk patients.\n\nThe CAPITAL PCI AF study is a phase 3 Health Canada regulated interventional study involving the use of investigational drugs. It is a non-randomized, open-design study. The investigational team is studying the highly potent drug Ticagrelor, which is prescribed to participants receiving a stent placement, given in combination with Rivaroxaban, an oral anticoagulant recommended for patients with AF. The primary clinical endpoint is a safety outcome measuring bleeding complications in participants with AF treated within one year of the index PCI. The primary efficacy endpoint is measured by the clinical outcomes of death, stroke, non-central nervous system systemic embolism, myocardial infarction, and stent thrombosis within one year of the index PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "percutaneous coronary intervention",
+        "bleeding",
+        "atrial fibrillation",
+        "Ticagrelor",
+        "Rivaroxaban"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor and Rivaroxaban",
+          "type": "OTHER",
+          "description": "All participants will be prescribed ticagrelor 90 mg twice daily and rivaroxaban 15 mg once daily for a year.",
+          "interventionNames": [
+            "Drug: Ticagrelor",
+            "Drug: Rivaroxaban"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "Ticagrelor 90 mg twice daily",
+          "armGroupLabels": [
+            "Ticagrelor and Rivaroxaban"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rivaroxaban",
+          "description": "Rivaroxaban 15 mg once daily (10mg for patients with moderate renal impairment, creatinine clearance: 30-50 mL/min by the Cockcoft Gault method)",
+          "armGroupLabels": [
+            "Ticagrelor and Rivaroxaban"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite of TIMI Bleeds",
+          "description": "Composite of TIMI Major Bleed, Minor Bleed, and Bleeding requiring medical attention",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The frequency of the individual components of the primary endpoint",
+          "description": "Frequency of TIMI major, TIMI Minor, and TIMI bleeding requiring medical attention",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "The composite of multiple adverse cardiovascular events (MACE)",
+          "description": "The composite of cardiovascular death and stroke events and its individual components",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "The frequency of stent thrombosis",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "All-cause mortality",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patient has undergone a PCI with stent placement, plus\n2. Documented non-valvular atrial fibrillation (AF)\\* within 1 year before screening, OR \\>1 year before screening if patient had been receiving oral anticoagulation (OAC)therapy for the atrial fibrillation for 3 months immediately before the index PCI.\n\n   * AF is defined by its presence on an electrocardiogram (ECG), Holter monitor, or any device that provides a rhythm strip documenting paroxysmal, persistent or, permanent atrial fibrillation.\n\nAtrial flutter can be included as \"AF equivalent\". The stroke risk in patients with atrial flutter is not much different from that in AF. Furthermore, many patients diagnosed with atrial flutter subsequently develop AF. Hence, current guidelines recommend that OAC should be used in patients with atrial flutter similar to that in patients with AF.\n\nNon-valvular AF is defined as the absence of moderate to severe mitral stenosis or the presence of a mechanical valve as per 2016 ESC guidelines.\n\nExclusion Criteria:\n\n1. Age \\<18 years old\n2. Any condition that contraindicates anticoagulant therapy or would confer an unacceptable risk of bleeding, such as, but not limited to:\n\n   i. active internal bleeding, ii. bleeding at a non-compressible site, iii. bleeding diathesis within 30 days of PCI, iv. baseline platelet count \\<90,000/μL, v. history of intracranial hemorrhage, vi. clinically significant gastrointestinal bleeding within 12 months of PCI, vii. baseline INR \\> 1.5 in patients not prescribed VKA, suggesting underlying coagulation disorder.\n3. History of stroke\n4. Cardiogenic shock at the time of screening\n5. Ventricular arrhythmias refractory to treatment at the time of screening\n6. Calculated CrCl \\<30 mL/min at the time of screening\n7. Known significant liver disease (e.g., acute hepatitis, chronic active hepatitis, cirrhosis), or liver function test (LFT) abnormalities at screening: alanine transaminase (ALT) \\>5 times the upper limit of normal or ALT \\>3 times the upper limit of normal plus total bilirubin \\>2 times the upper limit of normal\n8. Hemoglobin level \\<90 g/dL at screening\n9. Any severe condition that would limit life expectancy to less than 12 months\n10. Major surgery, biopsy of a parenchymal organ, or serious trauma within the past 30 days\n11. Incomplete staged PCI procedure (once completion of the staged PCI has occurred, the final PCI may become the index event)\n12. CABG planned\n13. Transient AF caused by a reversible disorder (e.g. thyrotoxicosis, pulmonary embolism, recent surgery)\n14. Any condition other than non-valvular AF requiring long-term anticoagulation with VKAs such as moderate to severe mitral valve stenosis, mechanical heart valves, deep vein thrombosis, pulmonary embolism, or left ventricular thrombus\n15. Known allergies, hypersensitivity, or intolerance to rivaroxaban or ticagrelor\n16. Pregnant or planning to become pregnant while enrolled in this study, or unwilling to employ an investigator-approved method of birth control\n17. Participation in a study with another investigational device or drug \\< four weeks\n18. Is receiving systemic treatment with strong inhibitors of both cytochrome P450 (CYP) 3A4 and p-glycoprotein (P-gp; eg, the azole-antimycotic ketoconazole and the HIV-protease inhibitor ritonavir). Treatment with fluconazole is allowed.\n19. CHADS-VASC \\<1",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michel Le May, MD",
+          "affiliation": "Ottawa Heart Institute Research Corporation",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Ottawa Heart Institute",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1Y 4W7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D006470",
+          "term": "Hemorrhage"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000069552",
+          "term": "Rivaroxaban"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009025",
+          "term": "Morpholines"
+        },
+        {
+          "id": "D010078",
+          "term": "Oxazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

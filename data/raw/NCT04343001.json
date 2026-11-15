@@ -1,0 +1,514 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04343001",
+      "orgStudyIdInfo": {
+        "id": "2020-KEP-420"
+      },
+      "organization": {
+        "fullName": "London School of Hygiene and Tropical Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Coronavirus Response - Active Support for Hospitalised Covid-19 Patients",
+      "officialTitle": "Aspirin, Losartan and Simvastatin in Hospitalised COVID-19 Patients: a Multinational Randomised Open-label Factorial Trial",
+      "acronym": "CRASH-19"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Grant not obtained",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2021-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-04-08",
+      "studyFirstSubmitQcDate": "2020-04-10",
+      "studyFirstPostDateStruct": {
+        "date": "2020-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-11-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-11-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "London School of Hygiene and Tropical Medicine",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The CRASH-19 trial is a multinational, open-label, factorial, randomised trial in adults hospitalised with suspected or confirmed acute COVID-19 infection.",
+      "detailedDescription": "We will evaluate the effect of aspirin (150mg once daily), losartan (100mg once daily), and simvastatin (80mg once daily) in patients with COVID-19 infection.\n\nEligible patients will be randomly allocated to one of eight study arms (aspirin only; losartan only; simvastatin only; aspirin and losartan; aspirin and simvastatin; losartan and simvastatin; aspirin, losartan and simvastatin; standard care only). Trial treatments are given in addition to the usual standard of care at the study hospital.\n\nTreatment will be started as soon as possible after randomisation and will continue until death, discharge or 28 days after randomisation, whichever occurs first."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Covid-19"
+      ],
+      "keywords": [
+        "Adult Respiratory Distress Syndrome",
+        "Pneumonia",
+        "Myocardial infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "2 x 2 x 2",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard care",
+          "type": "NO_INTERVENTION",
+          "description": "Usual standard of care at the study hospital"
+        },
+        {
+          "label": "Aspirin",
+          "type": "EXPERIMENTAL",
+          "description": "Aspirin 150mg once daily",
+          "interventionNames": [
+            "Drug: Aspirin"
+          ]
+        },
+        {
+          "label": "Losartan",
+          "type": "EXPERIMENTAL",
+          "description": "Losartan 100mg once daily. Dose may be stopped or reduced if patient is hypotensive and can be restarted anytime during the treatment period.",
+          "interventionNames": [
+            "Drug: Losartan"
+          ]
+        },
+        {
+          "label": "Simvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Simvastatin 80mg once daily",
+          "interventionNames": [
+            "Drug: Simvastatin"
+          ]
+        },
+        {
+          "label": "Aspirin and Losartan",
+          "type": "EXPERIMENTAL",
+          "description": "Aspirin 150mg once daily and Losartan 100mg once daily. Losartan dose may be stopped or reduced if patient is hypotensive and can be restarted anytime during the treatment period.",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: Losartan"
+          ]
+        },
+        {
+          "label": "Aspirin and Simvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Aspirin 150mg once daily and Simvastatin 80mg once daily",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: Simvastatin"
+          ]
+        },
+        {
+          "label": "Losartan and Simvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Losartan 100mg once daily and Simvastatin 80mg once daily. Losartan dose may be stopped or reduced if patient is hypotensive and can be restarted anytime during the treatment period.",
+          "interventionNames": [
+            "Drug: Losartan",
+            "Drug: Simvastatin"
+          ]
+        },
+        {
+          "label": "Aspirin, Losartan and Simvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Aspirin 150mg once daily, Losartan 100mg once daily and Simvastatin 80mg once daily. Losartan dose may be stopped or reduced if patient is hypotensive and can be restarted anytime during the treatment period.",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: Losartan",
+            "Drug: Simvastatin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Aspirin",
+          "description": "Aspirin 150mg",
+          "armGroupLabels": [
+            "Aspirin",
+            "Aspirin and Losartan",
+            "Aspirin and Simvastatin",
+            "Aspirin, Losartan and Simvastatin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Losartan",
+          "description": "Losartan 100mg",
+          "armGroupLabels": [
+            "Aspirin and Losartan",
+            "Aspirin, Losartan and Simvastatin",
+            "Losartan",
+            "Losartan and Simvastatin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Simvastatin",
+          "description": "Simvastatin 80mg",
+          "armGroupLabels": [
+            "Aspirin and Simvastatin",
+            "Aspirin, Losartan and Simvastatin",
+            "Losartan and Simvastatin",
+            "Simvastatin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Death",
+          "description": "Cause of death will be described",
+          "timeFrame": "up to 28 days of randomisation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Myocardial infarction",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Congestive cardiac failure",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Severe cardiac arrythmia",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Myocarditis",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Respiratory failure including ARDS",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Viral pneumonitis",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Acute renal failure",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Sepsis",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Gastrointestinal bleeding",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Receipt of non invasive or mechanical ventilation",
+          "timeFrame": "up to 28 days of randomisation"
+        },
+        {
+          "measure": "Ability to self care at hospital discharge",
+          "timeFrame": "up to 28 days of randomisation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults age 40 years and older\n* with suspected or confirmed acute COVID-19 infection. Acute COVID-19 infection is suspected in the presence of a fever and at least one symptom of respiratory disease e.g. cough, difficulty breathing, signs of hypoxia. The clinician may suspect COVID-19 infection if i) the patient lives in or has recently travelled to an area with COVID-19 transmission; ii) the patient had recent contact with a confirmed or probable COVID-19 case, or iii) no alternative diagnosis fully explains the clinical presentation\n* requiring hospitalisation\n\nExclusion Criteria:\n\n* Women known to be pregnant\n* Patients hospitalised without symptoms of acute COVID-19 infection should not be recruited even if they test positive for COVID-19\n* Patients already receiving mechanical ventilation\n* Patients with a definite indication or contraindication for any of the trial treatments.\n* Patients who are very severely frail (completely dependent and approaching end of life who typically they could not recover even from a mild illness) or terminally ill should not be recruited.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Haleema Shakur-Still",
+          "affiliation": "London School of Hygiene and Tropical Medicine",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Ian Roberts",
+          "affiliation": "London School of Hygiene and Tropical Medicine",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University College Hospital",
+          "city": "Ibadan",
+          "state": "Oyo State",
+          "country": "Nigeria",
+          "geoPoint": {
+            "lat": 7.37756,
+            "lon": 3.90591
+          }
+        },
+        {
+          "facility": "Shifa Tameer-e-Millat University",
+          "city": "Rawalpindi",
+          "country": "Pakistan",
+          "geoPoint": {
+            "lat": 33.59733,
+            "lon": 73.0479
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "As many sites will contribute to this trial, individual sites cannot restrict the publication of the manuscript relating to the outcomes of this trial. All anonymised data from this trial will be made freely available on our data sharing site: http://freebird.lshtm.ac.uk.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Within 6 months or sooner of publication",
+      "accessCriteria": "Log-in required for the sole purpose to monitor data download.",
+      "url": "http://freebird.lshtm.ac.uk"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000086382",
+          "term": "COVID-19"
+        },
+        {
+          "id": "D012128",
+          "term": "Respiratory Distress Syndrome"
+        },
+        {
+          "id": "D011014",
+          "term": "Pneumonia"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011024",
+          "term": "Pneumonia, Viral"
+        },
+        {
+          "id": "D012141",
+          "term": "Respiratory Tract Infections"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D014777",
+          "term": "Virus Diseases"
+        },
+        {
+          "id": "D018352",
+          "term": "Coronavirus Infections"
+        },
+        {
+          "id": "D003333",
+          "term": "Coronaviridae Infections"
+        },
+        {
+          "id": "D030341",
+          "term": "Nidovirales Infections"
+        },
+        {
+          "id": "D012327",
+          "term": "RNA Virus Infections"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D019808",
+          "term": "Losartan"
+        },
+        {
+          "id": "D019821",
+          "term": "Simvastatin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001713",
+          "term": "Biphenyl Compounds"
+        },
+        {
+          "id": "D007093",
+          "term": "Imidazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D008148",
+          "term": "Lovastatin"
+        },
+        {
+          "id": "D009281",
+          "term": "Naphthalenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

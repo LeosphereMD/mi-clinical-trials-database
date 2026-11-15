@@ -1,0 +1,264 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01626534",
+      "orgStudyIdInfo": {
+        "id": "2011-005164-15"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2011-22",
+          "type": "OTHER",
+          "domain": "AP HM"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique Hopitaux De Marseille",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of Ticagrelor Anti Platelet and Pleiotropic Effects in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome",
+      "officialTitle": "Evaluation of Ticagrelor Anti Platelet and Pleiotropic Effects in Patients Undergoing Percutaneous Coronary Intervention for an Acute Coronary Syndrome."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-03-16",
+      "studyFirstSubmitQcDate": "2012-06-20",
+      "studyFirstPostDateStruct": {
+        "date": "2012-06-22",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-08-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-08-28",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique Hopitaux De Marseille",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Ticagrelor is a new P2Y12 ADP receptor antagonist. This drug demonstrated a faster onset of action and a higher potency compared to clopidogrel standard regimen. Consistently these properties were associated in the PLATO trial, and particularly in the percutaneous coronary intervention (PCI) arm of the study, with a lower incidence of thrombotic complications at one year follow-up but at a price of increased major bleedings (7,8). The major finding of the trial was a significant reduction in one year mortality in patients treated with ticagrelor. This reduction in mortality may not be related to the anti-platelet effect of the drug since another potent anti-platelet agent which was recently commercialized a did not exhibit any improvement in death compared to clopidogrel. Therefore there may be non anti platelet directed properties, or pleiotropic effects, of ticagrelor that could be involved in a reduction in mortality in acute coronary syndrome (ACS) patients. In fact together with its anti platelet properties, ticagrelor, has been shown to inhibit the uptake of adenosine by red cells, leading to an increase in adenosine plasma level and then activating the low affinity adenosine receptor thus potentially affecting the vascular homeostasis including endothelial cells. Therefore, it is hypothesis that the side effects and its benefit on mortality may be related to its interaction with adenosine metabolism. In line with this hypothesis, some adverse effects of ticagrelor (bradycardia and modulation of bronchoconstriction) are compatible with the activation of low affinity A1 or A2A adenosine receptors.\n\nIn addition the investigators have recently demonstrated that P2Y12 ADP blockade did impact the endothelial compartment during PCI (9). In fact the investigators have observed that the level of PR inhibition achieved by clopidogrel before PCI correlated with the extent of endothelial damage during PCI. More potent anti platelet drugs such as ticagrelor may thus be associated with reduced peri-procedural endothelial lesion which could further improve the clinical prognosis of patients. The investigators have previously observed that endothelial marker of lesion and regeneration could be measured in the blood post PCI (10).\n\nFinally, in the response trial no patients in the ticagrelor arm had HTPR compared to 50% in the clopidogrel arm (7). This finding is surprising since recent data suggest that some patients still exhibit HTPR following the use of the very potent third generation thienopyridine prasugrel. This may be related to the fact that in the response trial only stable patients were included.\n\nThe investigators aimed to evaluate the anti-platelet efficacy and pleiotropic effects of ticagrelor in acute coronary syndromes patients undergoing percutaneous coronary intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 125,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "clopidogrel group",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "tricagrelor group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: trigagrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "600mg loading dose then 75mg/day",
+          "armGroupLabels": [
+            "clopidogrel group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "trigagrelor",
+          "description": "180 mg loading dose then 90 mg Twice a day",
+          "armGroupLabels": [
+            "tricagrelor group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Numeration of cells(units) circulating endothéliales (CEC)",
+          "description": "to estimate the balance between hurt and repair of the endothélial compartment",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "NUMERATION OF microparticles ( MP)",
+          "timeFrame": "12 MONTHS"
+        },
+        {
+          "measure": "NUMERATION OF THE proparents circulating endothéliaux ( PEC)",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Measure the IRP",
+          "description": "after a dose of load(responsibility) of ticagrelor or clopidogrel by means of the index VASP and according to the consensual definition of RPEST.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* acute coronary syndrome patient undergoing PCI and eligible for clopidogrel or tricagrelor therapy according to the guidelines\n* Subject of more than 18 years old\n* Subject agreeing to be followed over a period of 1 month \\_ Subject agreeing to participate in the research and having given its signed lit consent\n\nExclusion Criteria:\n\n* crdiac arrest\n* contra indications to antiplatelet therapy\n* a platelet count \\< 100g/l\n* history of bleeding diathesis and concurrent severe illness with expected survival of \\< 1 year month\n* age \\< 18 years old\n* pregnant of childbearing woman\n* inability to provide an informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "BERNARD BELAIGUES",
+          "affiliation": "Assistance Publique hôpitaux de Marseille",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Assistance Publique Hopitaux de Marseille",
+          "city": "Marseille",
+          "zip": "13354",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

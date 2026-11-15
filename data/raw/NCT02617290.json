@@ -1,0 +1,364 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02617290",
+      "orgStudyIdInfo": {
+        "id": "P141103"
+      },
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Assessment of Loading With the P2Y12 Inhibitor Ticagrelor or Clopidogrel to Halt Ischemic Events in Patients Undergoing Elective Coronary Stenting",
+      "officialTitle": "Assessment of Loading With the P2Y12 Inhibitor Ticagrelor or Clopidogrel to Halt Ischemic Events in Patients Undergoing Elective Coronary Stenting: The ALPHEUS Study",
+      "acronym": "ALPHEUS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-01-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-05-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-09-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-09-15",
+      "studyFirstSubmitQcDate": "2015-11-27",
+      "studyFirstPostDateStruct": {
+        "date": "2015-11-30",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-10-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Action Research Group",
+          "class": "OTHER"
+        },
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The new P2Y12 inhibitors prasugrel (Efient®-Effient®) and ticagrelor (Brilique®-Brilinta®) have shown promising results in the respective TRITON and PLATO trials making of prasugrel and ticagrelor recommended first line treatments for acute coronary syndrome ACS (ESC Guidelines: Class 1 LOE B). These two drugs showed superiority over clopidogrel in ACS patients undergoing percutaneous coronary intervention (PCI), by the dramatic diminution of stent thrombosis, the reduction in death or Myocardial Infarction (MI) as well as the reduction in death in a meta-analysis.\n\nThe field of elective PCI (stable patients) has not been studied with these 2 new drugs and clopidogrel remains the standard of care. However, off-label use of prasugrel and ticagrelor is increasing in patients undergoing high risk elective PCI (left main, diabetics, multiple stenting, high risk of stent thrombosis, no clopidogrel pretreatment…) but is not supported by scientific evidence. More than half of PCI patients undergo elective stenting for proven ischemia and/or stable angina, a relatively safe procedure with the use of the latest generation of stents. However complications remain either frequent when considering PCI-related myonecrosis/myocardial injury that have been linked to the prognosis of patients or rare but serious when considering stent thrombosis, Q wave MI or stroke, leaving room for improvement with these two newest drugs.\n\nThe investigators propose to perform a multicenter international study in stable patients undergoing elective PCI with a randomization between clopidogrel and ticagrelor. The investigators hypothesize that this study will show superiority of the new P2Y12 inhibitor over clopidogrel in elective PCI on the primary ischemic endpoint (peri-procedural MI and myocardial injury) without significant excess bleeding (BARC definition)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Myocardial Ischemia",
+        "Myocardial Infarction",
+        "Stent Thrombosis",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Coronary Artery Disease (CAD)",
+        "Percutaneous Coronary Intervention (PCI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1900,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Ticagrelor is an oral antiplatelet agent which was approved for use in the European Union by the European Commission on December 3, 2010. The drug was approved by the US Food and Drug Administration on July 20, 2011. It is available as round, yellow tablets (90 mg). The standard dose is 90 mg twice a day during the maintenance phase and 180 mg once for the loading dose. It is approved for duration of 12 month in ACS patients and will be used for duration of one month in the ALPHEUS Study.",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        },
+        {
+          "label": "Clopidogrel Arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Clopidoprel is an oral antiplatelet agent which was approved for use in the European Union by the European Commission in 1997 and available as generic since 2007. The standard dose of clopidogrel is one 75 mg tablet once a day. The dosage for the loading dose is normally 300 mg but 600 mg is also used. Clopidogrel is the standard of care for PCI at the moment.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "Ticagrelor Loading dose of 180mg given after angiography and before PCI , followed by a 30 days treatment with the maintenance dose of 90mg bid.",
+          "armGroupLabels": [
+            "Ticagrelor Arm"
+          ],
+          "otherNames": [
+            "Brilique, Brilinta"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Clopidogrel Loading dose of 300 or 600mg given after angiography and before PCI , followed by a 30 days treatment with the maintenance dose of 75mg per day.",
+          "armGroupLabels": [
+            "Clopidogrel Arm"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ischemic Episode",
+          "description": "The rate of PCI-related myocardial infarction (MI type 4) or injury (I) within 48 hours (or at hospital discharge if earlier) of elective PCI/stent",
+          "timeFrame": "48 hours (hospital discharge if earlier)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Bleeding Episode",
+          "description": "The rate of major bleeding events as assessed by the BARC criteria (BARC type 3 or 5) at 48 hours (or discharge if it occurs earlier)",
+          "timeFrame": "48 hours (or discharge if it occurs earlier)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female ≥18 years of age\n* Having at least one high-risk feature (Age \\> 75, Renal insufficiency (Clearance below 60ml/min calculated with Cockcroft-Gault formula), Diabetes Mellitus, Overweight (BMI \\>30), History of ACS (in the past 12 months) including UA/NSTEMI and STEMI, LVEF \\< 40% and/or prior episode of heart failure, Multivessel disease (2 or 3 V), Multiple stents needed defined as i) more than one stent implanted in one vessel or ii) more than 2 stents in 2 or more vessels, or iii) total stent length envisioned \\> 30mm, Left main stenting, Bifurcation stenting (whatever the technique), ACC/AHA type B2 or C lesion , Stenting of venous or arterial coronary graft).\n* Undergoing non-emergent single or multiple sites/vessels PCI during the same procedure)\n* Negative troponin before enrolment (according to local measurement - hsTn preferably)\n* Informed consent obtained in writing at enrolment into the study\n\nExclusion Criteria:\n\n* Women of child-bearing potential (ie, those who are not chemically or surgically sterilised or who are not post-menopause) who are not willing to use a medically accepted method of contraception that is considered reliable in the judgment of the investigator OR women who have a positive pregnancy test at randomisation OR women who are breast-feeding\n* Thrombolytic therapy within the previous 24 hours\n* Undergoing primary PCI for ongoing STEMI\n* Undergoing rescue PCI after failed thrombolysis\n* Any other elective PCI scheduled within the following 30 days after the index PCI\n* History of intracranial haemorrhage at any time\n* Increased bleeding risk: intracranial tumor or aneurysm; recent trauma or major surgery (\\< 1 month) (including bypass surgery), active gastrointestinal, active bleeding\n* Uncontrolled arterial hypertension (defined as a systolic BP ≥180 mmHg and/or diastolic BP ≥100 mmHg)\n* Recent (\\<48 hours) or planned spinal/epidural anesthesia or puncture\n* Impaired haemostasis such as known International Normalized Ratio (INR) \\>1.5; past or present bleeding disorder (including congenital bleeding disorders such as von Willebrand's disease or hemophilia, acquired bleeding disorders, and unexplained clinically significant bleeding disorders), thrombocytopenia (platelet count \\<100,000/μL)\n* Known severe and moderated hepatic impairment\n* Treatment with oral anticoagulant therapy within 72 hours prior to inclusion or current need for oral anticoagulant therapy in the next month.\n* Use of abciximab within the previous 7 days or, tirofiban or eptifibatide within the past 12 hours of index PCI\n* Prohibited treatments (see section 8.3)\n* Inability to give informed consent or high likelihood of being unavailable for follow-up\n* Participation in another clinical research protocol with other investigational agents or devices within the previous 30 days, planned use of investigational drugs or devices, or previous enrolment in this trial (routine care authorized)\n* Known intolerance to clopidogrel or ticagrelor\n* Hypersensitivity to ticagrelor or its excipients\n* Hypersensitivity to clopidogrel or its excipients\n* Patient on prasugrel or ticagrelor before the procedure",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Johanne SILVAIN, MD-PhD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institut de Cardiologie - USIC - Hôpital Pitié-Salpêtrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41999954",
+          "type": "DERIVED",
+          "citation": "Giovachini L, Ferrante A, Guedeney P, Rahoual G, Procopi N, Barthelemy O, Kerneis M, Zeitouni M, El Kasty M, Cayla G, Beygui F, Range G, Motovska Z, Laredo M, Dumaine R, Ducrocq G, Rouanet S, Portal JJ, Vicaut E, Montalescot G, Silvain J; ALPHEUS investigators* of the ACTION Group. Impacts of stent characteristics on periprocedural ischemic events in elective PCI: the ALPHEUS-stents study. Int J Cardiol. 2026 Aug 1;456:134506. doi: 10.1016/j.ijcard.2026.134506. Epub 2026 Apr 16."
+        },
+        {
+          "pmid": "41763360",
+          "type": "DERIVED",
+          "citation": "Zeitouni M, Montalescot G, Roule V, Guedeney P, Georges JL, Bellemain-Appaix A, Hauguel-Moreau M, Le Breton H, Saint-Etienne C, Caussin C, Montsegu JJ, Maillard L, Isaaz K, Cuisset T, Bressollette E, Schiele F, Cayla G, Beygui F, Range G, Motovska Z, Portal JJ, Vicaut E, Collet JP, Silvain J; ALPHEUS Investigators of the ACTION Group. Definition and Prediction of Periprocedural Myocardial Infarction in Elective Percutaneous Coronary Intervention: The ALPHEUS-MI Study. Can J Cardiol. 2026 Feb 27:S0828-282X(26)00140-6. doi: 10.1016/j.cjca.2026.02.023. Online ahead of print."
+        },
+        {
+          "pmid": "33202219",
+          "type": "DERIVED",
+          "citation": "Silvain J, Lattuca B, Beygui F, Range G, Motovska Z, Dillinger JG, Boueri Z, Brunel P, Lhermusier T, Pouillot C, Larrieu-Ardilouze E, Boccara F, Labeque JN, Guedeney P, El Kasty M, Laredo M, Dumaine R, Ducrocq G, Collet JP, Cayla G, Blanchart K, Kala P, Vicaut E, Montalescot G; ALPHEUS investigators. Ticagrelor versus clopidogrel in elective percutaneous coronary intervention (ALPHEUS): a randomised, open-label, phase 3b trial. Lancet. 2020 Nov 28;396(10264):1737-1744. doi: 10.1016/S0140-6736(20)32236-4. Epub 2020 Nov 14."
+        },
+        {
+          "pmid": "32473356",
+          "type": "DERIVED",
+          "citation": "Silvain J, Cayla G, Beygui F, Range G, Lattuca B, Collet JP, Dillinger JG, Boueri Z, Brunel P, Pouillot C, Boccara F, Christiaens L, Labeque JN, Lhermusier T, Georges JL, Bellemain-Appaix A, Le Breton H, Hauguel-Moreau M, Saint-Etienne C, Caussin C, Jourda F, Motovska Z, Guedeney P, El Kasty M, Laredo M, Dumaine R, Ducrocq G, Vicaut E, Montalescot G; ALPHEUS study group. Blunting periprocedural myocardial necrosis: Rationale and design of the randomized ALPHEUS study. Am Heart J. 2020 Jul;225:27-37. doi: 10.1016/j.ahj.2020.04.017. Epub 2020 Apr 29."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

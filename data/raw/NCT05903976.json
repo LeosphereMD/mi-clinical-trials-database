@@ -1,0 +1,340 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05903976",
+      "orgStudyIdInfo": {
+        "id": "DESC-HBR"
+      },
+      "organization": {
+        "fullName": "Azienda Ospedaliera Universitaria Policlinico \"G. Martino\"",
+        "class": "OTHER"
+      },
+      "briefTitle": "De-escalating Antiplatelet Therapy to Assess Platelet Reactivity and Outcomes in High Bleeding Risk Patients With Recent ACS",
+      "officialTitle": "De-Escalation of Antiplatelet Therapy to Evaluate Platelet Reactivity and Clinical Outcomes After Coronary Stenting in Patients at High Bleeding Risk and Recent Acute Coronary Syndrome: DESC-HBR Trial",
+      "acronym": "DESC-HBR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-06-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-10-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-26",
+      "studyFirstSubmitQcDate": "2023-06-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-08-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Azienda Ospedaliera Universitaria Policlinico \"G. Martino\"",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Giampiero Vizzari",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Giorgio Quadri",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Greca Zanda",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Ferdinando Varbella",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Gianluca Di Bella",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Antonio Micari",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "High bleeding risk (HBR) patients, comprising up to 50% of those presenting with acute coronary syndrome (ACS), are a high-risk group that is increasing in size due to an aging population. The optimal selection of the potency and duration of antiplatelet therapy to reduce the risk of recurrent ischemic and bleeding events in HBR patients is still a matter of debate. Multiple strategies to reduce bleeding during secondary prevention, such as reducing the duration of dual antiplatelet therapy, using single antiplatelet therapy with a P2Y12 inhibitor, or de-escalating to a lower potency or lower-dose P2Y12 inhibitor, have been proposed. De-escalation to a lower potency or lower-dose P2Y12 inhibitor is particularly attractive because it maintains efficient pharmacological inhibition of multiple platelet pathways while potentially reducing bleeding through less aggressive activity. Yet, there has been no study comparing the effects of different de-escalation strategies with the standard potent P2Y12 inhibitors in HBR patients. The aim of the DESC-HBR study is to assess the impact of de-escalating P2Y12 inhibitor to clopidogrel 75mg, prasugrel 5mg or ticagrelor 60mg bid in HBR patients, in comparison with full-dose potent P2Y12 inhibitors, on the proportion of patients with optimal platelet reactivity (OPR). Secondary objectives involve exploring the effect of de-escalation on clinical events and patients' quality of life.",
+      "detailedDescription": "The aim of the DESC-HBR trial is to compare the impact of de-escalating P2Y12 inhibitor to clopidogrel 75mg, prasugrel 5mg or ticagrelor 60mg bid, with full-dose potent P2Y12 inhibitors, on the proportion of patients with optimal platelet reactivity (OPR). The secondary objective is to explore the effect of de-escalating P2Y12 inhibitor therapy on clinical events and patients' quality of life. The primary outcome is the proportion of patients in the OPR range measured through the VerifyNow system at peak level after drug maintenance dose (MD) at 14±2 days. OPR is defined as a platelet reactive unit (PRU) between 85 and 208 reactivity units based on international consensus. A key secondary outcome will be major, minor and nuisance bleeding according to the bleeding academic research consortium (BARC) definition up to 5 months. Secondary pharmacodynamic outcomes include platelet reactivity with the VerifyNow and T-TAS system at different timepoints (baseline, 2h after first dose, through levels before MD and peak levels after MD at 14±2 days). Further pharmacodynamic assessment at 1 and 2 weeks after P2Y12 inhibitor discontinuation will be performed in the subset of patients discontinuing P2Y12 inhibitor at study conclusion or in case of P2Y12 discontinuation at anytime during the study.Other secondary endpoints will be explored including all-cause death, major adverse cardiac and cerebrovascular events (MACCE), a composite of cardiac death, myocardial infarction (MI), target vessel revascularization (TVR) and stroke, net adverse clinical events (NACE), a composite of MACCE and BARC 2-5 bleeding, and each individual endpoint singularly appraised. Quality of life will be evaluated with health mobility and performance scales (i.e. EQ-5D-5L, SF-12), perceived stress scale (i.e. PPS).Cost-effectives analysis will be also carried out by inputting direct and indirect costs in relation to outcomes. Study visits are scheduled at baseline,14±2 days, 3 and 5 months after randomization."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dual Antiplatelet Therapy",
+        "Acute Coronary Syndrome",
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "DAPT De-escalation",
+        "P2Y12 inhibitors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CLOPIDOGREL 75 mg qd",
+          "type": "EXPERIMENTAL",
+          "description": "50 patients treated with clopidogrel 75mg",
+          "interventionNames": [
+            "Drug: P2Y12 inhibitor de-escalation"
+          ]
+        },
+        {
+          "label": "PRASUGREL 5mg qd",
+          "type": "EXPERIMENTAL",
+          "description": "50 patients treated with prasugrel 5mg",
+          "interventionNames": [
+            "Drug: P2Y12 inhibitor de-escalation"
+          ]
+        },
+        {
+          "label": "TICAGRELOR 60mg bid",
+          "type": "EXPERIMENTAL",
+          "description": "50 patients treated with ticagrelor 60mg bid",
+          "interventionNames": [
+            "Drug: P2Y12 inhibitor de-escalation"
+          ]
+        },
+        {
+          "label": "Continue Potent P2Y12i Full-Dose",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "50 patients in the full-dose potent P2Y12 inhibitor (prasugrel 10 mg or ticagrelor 90 mg bid according to prior prescription)",
+          "interventionNames": [
+            "Drug: P2Y12 inhibitor de-escalation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "P2Y12 inhibitor de-escalation",
+          "description": "Comparing, in patients at High Bleeding Risk (HBR) after a recent Acute Coronary Syndrome (ACS), continuation of full-dose potent P2Y12 inhibitor with a P2Y12i de-escalation strategy transitioning to clopidogrel 75mg, prasugrel 5mg or ticagrelor 60mg/bid.",
+          "armGroupLabels": [
+            "CLOPIDOGREL 75 mg qd",
+            "Continue Potent P2Y12i Full-Dose",
+            "PRASUGREL 5mg qd",
+            "TICAGRELOR 60mg bid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of Patients Achieving Optimal Platelet Reactivity (OPR) at peak level following Drug Maintenance Dose (MD) Using the VerifyNow System",
+          "description": "The incidence of optimal platelet reactivity (OPR) measured by means of the VerifyNow system. OPR will be defined as a PRU between 85 and 208 reactivity units according to international expert consensus.",
+          "timeFrame": "2 hours after drug MD at 14±2 days from study inclusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of Bleeding Events According to Multiple Bleeding Definitions",
+          "description": "The incidence of nuisance, minor or major bleeding according to the BARC definition (BARC 1-5).",
+          "timeFrame": "5 Months after enrollment"
+        },
+        {
+          "measure": "Platelet reactive units (PRU) at VerifyNow system",
+          "description": "Platelet reactive units (PRU) measurement at VerifyNow system",
+          "timeFrame": "baseline, 2 hours after the first treatment administration and before MD at 14±2 days from study inclusion"
+        },
+        {
+          "measure": "Proportion of high platelet reactivity (HPR) and the proportion of low platelet reactivity (LPR) measured through the VerifyNow system",
+          "description": "The proportion of high platelet reactivity (HPR) defined as PRU \\> 208, and the proportion of low platelet reactivity (LPR), defined as PRU \\< 85, measured through the VerifyNow system before first randomized treatment administration (baseline), 2 hours after the first randomized treatment administration, before MD at 14±2 days from study inclusion and at 2 hours after drug MD administration at 14±2 days from study inclusion. PRU at 1 and 2 weeks after P2Y12 inhibitor discontinuation study in patients permanently ceasing treatment.",
+          "timeFrame": "baseline, 2 hours after the first treatment administration, before MD at 14±2 days from study inclusion and at 2 hours after drug MD administration at 14±2 days"
+        },
+        {
+          "measure": "Platelet-derived thrombogenicity at Total Thrombus Formation (T-TAS)",
+          "description": "Platelet-derived thrombogenicity at Total Thrombus Formation (T-TAS) before first randomized treatment administration (baseline), 2 hours after the first randomized treatment administration, before and after MD at 14±2 days from study inclusion.",
+          "timeFrame": "baseline, 2 hours after the first treatment administration, before and after MD at 14±2 days from study inclusion."
+        },
+        {
+          "measure": "Adverse clinical event",
+          "description": "Adverse clinical events, assessed at each visit and up to 5 months after randomization. They include: death, cardiac death, non-fatal myocardial infarction, non-fatal stroke, urgent target vessel revascularization, definite/probable stent thrombosis and net adverse clinical events.",
+          "timeFrame": "14±2 days, 3 and 5 months from study inclusion"
+        },
+        {
+          "measure": "Cost-effectiveness",
+          "description": "Cost-effectives analysis will be carried out by inputting direct and indirect costs in relation to outcomes assessed.",
+          "timeFrame": "5 Months after enrollment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Participants fulfilling all the following inclusion criteria are eligible for the study:\n\n* Informed Consent signed and dated.\n* Patients deemed at HBR according to standard definitions (i.e. PRECISE-DAPT ≥25 or HBR-ARC with at least 1 major or 2 minor criteria).\n* Treated with PCI due to a recent ACS (i.e. unstable angina, non-ST segment elevated myocardial infarction or ST segment elevated myocardial infarction) 30 ±7 days earlier.\n* Treated with DAPT with full-dose potent P2Y12 inhibitors (e.g. prasugrel 10mg or ticagrelor 90mg bid) according to international guidelines recommendations.\n\nThe presence of anyone of the following exclusion criteria will lead to exclusion of the participant:\n\n* Age \\< 18 years\n* Known intolerance, hypersensitivity or contraindication (including active bleeding) to aspirin, clopidogrel, prasugrel, ticagrelor or to any of the excipients\n* Indication to oral anticoagulation\n* Indication to prolonged treatment with full-dose potent P2Y12 inhibitors (e.g. previous stent thrombosis, stenting of last remaining vessel, stent with indication for longer-term DAPT, perceived very high coronary ischemic risk)\n* Any planned major surgery or interventional procedure requiring treatment modification\n* Prior transient ischemic attack, ischemic or haemorrhagic stroke\n* Severe hepatic insufficiency (Child-Pugh class C)\n* Ongoing therapy with strong CYP3A inducers or strong CYP3A inhibitors (e.g. ketoconazole, clarithromycin, nefazodone, ritonavir, atazanavir etc.)\n* Women who are pregnant, breast feeding or of childbearing potential (i.e. fertile, following menarche and who are not surgically sterile, including hysterectomy, bilateral salpingectomy, bilateral oophorectomy, or post-menopausal defined as no menses for 12 months without an alternative medical cause); Participation in another study with investigational drug within the 30 days, or 5 half-lives of the study drug whichever is longer, preceding and during the present study\n* Enrolment of the investigator, his/her family members, employees\n* Inability to follow the procedures of the study (language problems, mental disorders, dementia) or comorbidities associated with less than 12 months-life expectation (active malignancies drug or alcohol abuse, etc.) or other conditions that might result in protocol non-compliance.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Francesco Costa, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+39090221",
+          "phoneExt": "2341",
+          "email": "francesco.costa@unime.it"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Azienda Ospedaliera Universitaria Gaetano Martino",
+          "status": "RECRUITING",
+          "city": "Messina",
+          "zip": "98125",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesco Costa, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Francesco Costa, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "facility": "Ospedale degli Infermi",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Rivoli",
+          "zip": "10098",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Greca Zanda, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Giorgio Quadri, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Greca Zanda, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.07073,
+            "lon": 7.51465
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "42567765",
+          "type": "DERIVED",
+          "citation": "Costa F, Vizzari G, Zecchino S, Galli M, Montalto C, Carciotto G, Quadri G, Vergallo R, Castriota F, Soraci E, Magliarditi A, Giudice SL, Iuvara G, Munafo A, Giannino F, Pallante F, Franzino M, Teresi L, Piccolo R, Varbella F, Musumeci G, Di Bella G, Ortega-Paz L, Angiolillo DJ, Micari A. De-escalation of antiplatelet therapy to evaluate platelet reactivity and clinical outcomes after coronary stenting in patients at high bleeding risk and recent acute coronary syndrome: Rationale and design of the DESC-HBR trial. Cardiovasc Revasc Med. 2026 Aug 4:S1553-8389(26)00334-9. doi: 10.1016/j.carrev.2026.07.022. Online ahead of print."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,386 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05043610",
+      "orgStudyIdInfo": {
+        "id": "IR.SUMS.REC.1400.409"
+      },
+      "organization": {
+        "fullName": "Shiraz University of Medical Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "MSCs for Prevention of MI-induced HF",
+      "officialTitle": "Transplantation of Mesenchymal Stem Cells for Prevention of Acute Myocardial Infarction Induced Heart Failure: a Phase III Randomized Clinical Trial",
+      "acronym": "PREVENT-TAHA8"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-08-29",
+      "studyFirstSubmitQcDate": "2021-09-06",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Armin Attar",
+        "investigatorTitle": "Director of cardiovascular regeneration and genetics program, and cardiovascular diseases' registries, Principal Investigator, Clinical Professor",
+        "investigatorAffiliation": "Shiraz University of Medical Sciences"
+      },
+      "leadSponsor": {
+        "name": "Shiraz University of Medical Sciences",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Institute for Medical Research and Development",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Results from recent clinical trials on bone marrow mononuclear cell (BM-MNC) transplantation show that this intervention can help reduce the incidence of heart failure (HF) after acute myocardial infarction (AMI). However, no study has evaluated the effect of the transplantation of mesenchymal stem cells (MSCs) on a clinical endpoint such as HF.\n\nThis single-blinded, randomized, multicenter trial aims to establish whether the intracoronary infusion of umbilical cord-derived Wharton's jelly MSCs (WJ-MSCs) helps prevent HF development after AMI. The study will enroll 240 patients 3 to 7 days following an AMI treated with primary percutaneous coronary intervention (PPCI). Only patients aged below 65 years with impaired LV function (LVEF \\< 40%) will be included. Patients will be randomized to receive either a single intracoronary infusion of WJ-MSCs or standard care. The primary outcome of this study is the assessment of HF development during long-term follow-up (three years). Since the efficacy of MSCs is higher than BM-MNCs after AMI in the improvement of LVEF, it would be probable that these cells may have a better clinical effect as well. However, no study has evaluated the impact of the transplantation of MSCs on a clinical endpoint such as HF. This study will help determine whether or not the infusion of intracoronary WJ-MSCs in AMI patients with impaired LVEF would prevent HF development and future adverse events.",
+      "detailedDescription": "A randomized, multicenter, single-blinded phase III trial will be conducted to assess whether the intracoronary infusion of umbilical cord WJ-MSCs demonstrates a superior effect in reducing HF incidence following AMIs compared to standard treatment.\n\nThe sample size was determined with a 5% error, 80% power, a one-year HF incidence rate of 1.3-4%, and division between two groups in a 2:1 ratio (control:intervention), and a three-year follow-up period.\n\nA total of 360 patients with a history of an anterior ST-elevation MI (STEMI) successfully reperfused within standard golden time within 3-7 days after AMI will be enrolled.\n\nRandomization will be done via permuted block randomization through a web-based service. A block size of 4 will be considered. Two groups of equal proportion will be formed, where only one will receive an intracoronary infusion of WJ-MSCs besides the conventional therapy provided to both groups. Those who assess the study outcomes will remain unaware of the allocation (single-blind).\n\nThis study will use cGMP-certified clinical-grade human WJ-MSCs. In the intervention group, all 120 patients will receive a single intracoronary infusion of 10\\^7 WJ-MSCs alongside the conventional treatment that will be provided to the same number of patients in the control group. Patients in the intervention group will be taken to the cardiac catheterization lab, where the infusion of 10\\^7 WJ-MSCs will be done through the intracoronary route.\n\nBefore statistical analysis, adjudication of all measurements will be done by an experienced cardiology department member excluded from the research group. The adjudicator will assess the quality of each measurement and will exclude patients with inadequate quality from the analysis, where participants will be regarded as missing. An independent, blinded safety committee will evaluate potential major adverse cardiac events (MACEs). Once the adjudication process is complete, the finalized database will be unblinded.\n\nData will be kept anonymous until analysis, which is to be performed by an independent statistician external to the research group. Treatment efficacy will be assessed according to the decrement in HF with the help of Cox regression analysis. The investigators will consider the EF to have improved significantly if a minimum increment of 3% is achieved after six months. The analysis will follow the intention-to-treat approach. The baseline characteristics of the two study groups will also be compared. Continuous variables will be summarized using the mean and standard deviation, while frequencies and percentages will be given for categorical data. The EF, as the primary outcome, will be compared between the study groups using the independent t-test and one-way analysis of variance (ANOVA). The therapeutic effect will be estimated with a 95% CI. Two-sided P-values will be used. Safety will be compared between the two groups according to the occurrence of MACEs (death, recurrent AMI, ICD insertion, non-target vessel revascularization, etc.) and serious adverse events (SAEs). These events will be followed over time with Kaplan-Meier curves, which will allow us to understand their patterns. With the help of the Cox proportional hazards model, The investigators will assess the statistical significance and 95% CI.\n\nData will be kept anonymous until analysis, which is to be performed by an independent statistician external to the research group. Treatment efficacy will be assessed according to the decrement in HF with the help of Cox regression analysis. The investigators will consider the EF to have improved significantly if a minimum increment of 3% is achieved after six months. The analysis will follow the intention-to-treat approach. The baseline characteristics of the two study groups will also be compared. Continuous variables will be summarized using the mean and standard deviation, while frequencies and percentages will be given for categorical data. The EF, as the primary outcome, will be compared between the study groups using the independent t-test and one-way analysis of variance (ANOVA). The therapeutic effect will be estimated with a 95% CI. Two-sided P-values will be used. Safety will be compared between the two groups according to the occurrence of MACEs (death, recurrent AMI, ICD insertion, non-target vessel revascularization, etc.) and serious adverse events (SAEs). These events will be followed over time with Kaplan-Meier curves, which will allow us to understand their patterns. With the help of the Cox proportional hazards model, The investigators will assess the statistical significance and 95% CI.\n\nAdverse events will be reported by the study's executive committee to an independent Data and Safety and Monitoring Board (DSMB). The DSMB will have the authority to stop the trial early if patient safety is compromised or if the primary research objective is met. All safety issues (unanticipated SAEs, mortality, intracoronary infusion complications, and severe arrhythmias, etc.) will be monitored by the DSMB, and the DSMB statistician will report the occurrence of safety issues in each study group quarterly. All deaths will be reported.\n\nThe investigators have discussed all ethical issues with the Institutional Review Board of Shiraz University of Medical Sciences, which ultimately approved the study protocol (IR.SUMS.REC.1400.409). Informed consent will be obtained once patients are clinically stable and sedatives or strong analgesics do not alter their consciousness. Importantly, the use of low balloon inflation pressure and divided (three-part) infusions will prevent complications related to intracoronary cell infusion. The principles of the Declaration of Helsinki will be upheld throughout this study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction, Acute",
+        "Myocardial Infarction First",
+        "Myocardial Infarction, Anterior Wall",
+        "Cardiac Remodeling, Ventricular",
+        "STEMI",
+        "Regenerative Medicine",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "WJ-MSCs",
+        "Myocardial infarction",
+        "Heart failure",
+        "Regenerative medicine",
+        "Tissue therapy",
+        "Stem cell therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A single-blinded, randomized, multicenter trial.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Single-blinded",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 420,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "WJ-MSCs intracoronary infusion + standard care",
+          "type": "EXPERIMENTAL",
+          "description": "In the experimental group, 3-7 days after an acute anterior myocardial infarction treated successfully with primary percutaneous coronary intervention, 120 patients will receive a single intracoronary infusion of 10\\^7 umbilical cord-derived Wharton's Jelly Mesenchymal Stem Cells (WJ-MSCs) alongside conventional treatment.",
+          "interventionNames": [
+            "Biological: Umbilical Cord-Derived Wharton's Jelly Mesenchymal Stem Cells (WJ-MSCs)",
+            "Other: Conventional Treatment"
+          ]
+        },
+        {
+          "label": "standard care (Control Group)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "In the control group, after an acute anterior myocardial infarction treated successfully with primary percutaneous coronary intervention, 240 patients will receive only conventional treatment.",
+          "interventionNames": [
+            "Other: Conventional Treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Umbilical Cord-Derived Wharton's Jelly Mesenchymal Stem Cells (WJ-MSCs)",
+          "description": "cGMP grade WJ-MSCs. 10\\^7 WJ-MSCs will be delivered through the intracoronary route. WJ-MSCs will be infused at a rate of 2.5 ml/min across three portions.",
+          "armGroupLabels": [
+            "WJ-MSCs intracoronary infusion + standard care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Conventional Treatment",
+          "description": "Beta-blocker, angiotensin-converting enzyme (ACE) inhibitor, aldosterone antagonist, aspirin, ticagrelor, statin, and glyceryl trinitrate plus cardiac rehabilitation.",
+          "armGroupLabels": [
+            "WJ-MSCs intracoronary infusion + standard care",
+            "standard care (Control Group)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Heart Failure",
+          "description": "The incidence of heart failure during the follow-up period.",
+          "timeFrame": "Checked at three years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Left Ventricular Function from base line",
+          "description": "Measurement of left ventricular function with echocardiography",
+          "timeFrame": "At baseline and after six months"
+        },
+        {
+          "measure": "Cardiovascular Death",
+          "description": "Occurrence of mortality due to cardiovascular causes",
+          "timeFrame": "Checked at three years"
+        },
+        {
+          "measure": "Composite outcome of cardiovascular death and heart failure incidence",
+          "description": "Occurrence of mortality due to cardiovascular causes or heart failure",
+          "timeFrame": "Checked at three years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-65 years\n* Either gender\n* First myocardial infarction in the preceding 3 to 7 days\n* Post-acute myocardial infarction left ventricular ejection fraction \\< 40%\n* Negative pregnancy test (for women of reproductive age)\n* Written informed consent\n\nExclusion Criteria:\n\n* A history of any prior cardiac conditions (valvular, ischemic, or congenital disorders)\n* Regional wall motion abnormalities outside the region of the infarction\n* LV dysfunction due to other etiologies like non-ischemic cardiomyopathy, anthracycline use, or ethanol abuse (\\> 6 oz./day regularly)\n* Poor echocardiography window\n* Active infection, malignancy, or autoimmune disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Armin Attar, MD",
+          "affiliation": "Department of Cardiovascular Medicine, TAHA clinical trial group, Shiraz University of Medical Sciences, Shiraz, Iran",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Al-Zahra Heart Hospital, Shiraz University of Medical Sciences",
+          "city": "Shiraz",
+          "state": "Fars",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 29.61031,
+            "lon": 52.53113
+          }
+        },
+        {
+          "facility": "Faghihi Hospital",
+          "city": "Shiraz",
+          "state": "Fars",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 29.61031,
+            "lon": 52.53113
+          }
+        },
+        {
+          "facility": "Namazee Hospital",
+          "city": "Shiraz",
+          "state": "Fars",
+          "country": "Iran",
+          "geoPoint": {
+            "lat": 29.61031,
+            "lon": 52.53113
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35927674",
+          "type": "BACKGROUND",
+          "citation": "Attar A, Monabati A, Montaseri M, Vosough M, Hosseini SA, Kojouri J, Abdi-Ardekani A, Izadpanah P, Azarpira N, Pouladfar G, Ramzi M. Transplantation of mesenchymal stem cells for prevention of acute myocardial infarction induced heart failure: study protocol of a phase III randomized clinical trial (Prevent-TAHA8). Trials. 2022 Aug 4;23(1):632. doi: 10.1186/s13063-022-06594-1."
+        },
+        {
+          "pmid": "18955667",
+          "type": "BACKGROUND",
+          "citation": "Velagaleti RS, Pencina MJ, Murabito JM, Wang TJ, Parikh NI, D'Agostino RB, Levy D, Kannel WB, Vasan RS. Long-term trends in the incidence of heart failure after myocardial infarction. Circulation. 2008 Nov 11;118(20):2057-62. doi: 10.1161/CIRCULATIONAHA.108.784215. Epub 2008 Oct 27."
+        },
+        {
+          "pmid": "12361819",
+          "type": "BACKGROUND",
+          "citation": "Hellermann JP, Jacobsen SJ, Gersh BJ, Rodeheffer RJ, Reeder GS, Roger VL. Heart failure after myocardial infarction: a review. Am J Med. 2002 Sep;113(4):324-30. doi: 10.1016/s0002-9343(02)01185-3."
+        },
+        {
+          "pmid": "14563590",
+          "type": "BACKGROUND",
+          "citation": "Lewis EF, Moye LA, Rouleau JL, Sacks FM, Arnold JM, Warnica JW, Flaker GC, Braunwald E, Pfeffer MA; CARE Study. Predictors of late development of heart failure in stable survivors of myocardial infarction: the CARE study. J Am Coll Cardiol. 2003 Oct 15;42(8):1446-53. doi: 10.1016/s0735-1097(03)01057-x."
+        },
+        {
+          "pmid": "22357361",
+          "type": "BACKGROUND",
+          "citation": "Juilliere Y, Cambou JP, Bataille V, Mulak G, Galinier M, Gibelin P, Benamer H, Bouvaist H, Meneveau N, Tabone X, Simon T, Danchin N; FAST-MI Investigators. Heart failure in acute myocardial infarction: a comparison between patients with or without heart failure criteria from the FAST-MI registry. Rev Esp Cardiol (Engl Ed). 2012 Apr;65(4):326-33. doi: 10.1016/j.recesp.2011.10.027. Epub 2012 Feb 20."
+        },
+        {
+          "pmid": "29976683",
+          "type": "BACKGROUND",
+          "citation": "Braunwald E. Cell-Based Therapy in Cardiac Regeneration: An Overview. Circ Res. 2018 Jul 6;123(2):132-137. doi: 10.1161/CIRCRESAHA.118.313484. No abstract available."
+        },
+        {
+          "pmid": "9701245",
+          "type": "BACKGROUND",
+          "citation": "Taylor DA, Atkins BZ, Hungspreugs P, Jones TR, Reedy MC, Hutcheson KA, Glower DD, Kraus WE. Regenerating functional myocardium: improved performance after skeletal myoblast transplantation. Nat Med. 1998 Aug;4(8):929-33. doi: 10.1038/nm0898-929."
+        },
+        {
+          "pmid": "11283669",
+          "type": "BACKGROUND",
+          "citation": "Kocher AA, Schuster MD, Szabolcs MJ, Takuma S, Burkhoff D, Wang J, Homma S, Edwards NM, Itescu S. Neovascularization of ischemic myocardium by human bone-marrow-derived angioblasts prevents cardiomyocyte apoptosis, reduces remodeling and improves cardiac function. Nat Med. 2001 Apr;7(4):430-6. doi: 10.1038/86498."
+        },
+        {
+          "pmid": "21960725",
+          "type": "BACKGROUND",
+          "citation": "Williams AR, Hare JM. Mesenchymal stem cells: biology, pathophysiology, translational findings, and therapeutic implications for cardiac disease. Circ Res. 2011 Sep 30;109(8):923-40. doi: 10.1161/CIRCRESAHA.111.243147."
+        },
+        {
+          "pmid": "22281257",
+          "type": "BACKGROUND",
+          "citation": "Houtgraaf JH, den Dekker WK, van Dalen BM, Springeling T, de Jong R, van Geuns RJ, Geleijnse ML, Fernandez-Aviles F, Zijlsta F, Serruys PW, Duckers HJ. First experience in humans using adipose tissue-derived regenerative cells in the treatment of patients with ST-segment elevation myocardial infarction. J Am Coll Cardiol. 2012 Jan 31;59(5):539-40. doi: 10.1016/j.jacc.2011.09.065. No abstract available."
+        },
+        {
+          "pmid": "29482311",
+          "type": "BACKGROUND",
+          "citation": "Jeong H, Yim HW, Park HJ, Cho Y, Hong H, Kim NJ, Oh IH. Mesenchymal Stem Cell Therapy for Ischemic Heart Disease: Systematic Review and Meta-analysis. Int J Stem Cells. 2018 May 30;11(1):1-12. doi: 10.15283/ijsc17061."
+        },
+        {
+          "pmid": "26162993",
+          "type": "BACKGROUND",
+          "citation": "Gao LR, Chen Y, Zhang NK, Yang XL, Liu HL, Wang ZG, Yan XY, Wang Y, Zhu ZM, Li TC, Wang LH, Chen HY, Chen YD, Huang CL, Qu P, Yao C, Wang B, Chen GH, Wang ZM, Xu ZY, Bai J, Lu D, Shen YH, Guo F, Liu MY, Yang Y, Ding YC, Yang Y, Tian HT, Ding QA, Li LN, Yang XC, Hu X. Intracoronary infusion of Wharton's jelly-derived mesenchymal stem cells in acute myocardial infarction: double-blind, randomized controlled trial. BMC Med. 2015 Jul 10;13:162. doi: 10.1186/s12916-015-0399-z."
+        },
+        {
+          "pmid": "41224473",
+          "type": "DERIVED",
+          "citation": "Attar A, Mirhosseini SA, Mathur A, Dowlut S, Monabati A, Kasaei M, Abtahi F, Kiwan Y, Vosough M, Azarpira N. Prevention of acute myocardial infarction induced heart failure by intracoronary infusion of mesenchymal stem cells: phase 3 randomised clinical trial (PREVENT-TAHA8). BMJ. 2025 Oct 29;391:e083382. doi: 10.1136/bmj-2024-083382."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Investigators published the study protocol. The final results will be published in the form of an article soon.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "The study protocol is published.",
+      "accessCriteria": "Supporting data will be made available upon reasonable request. All inquiries should be sent to the study director, Dr. Armin Attar.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35927674/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D056988",
+          "term": "Anterior Wall Myocardial Infarction"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

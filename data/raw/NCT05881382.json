@@ -1,0 +1,286 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05881382",
+      "orgStudyIdInfo": {
+        "id": "REC-DUT-003"
+      },
+      "organization": {
+        "fullName": "Recardio, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Dutogliptin in Co-administration With Filgrastim in Early Recovery Post-myocardial Infarction",
+      "officialTitle": "Phase 3, Randomized, Double-blind, Placebo-controlled, Safety and Efficacy Study of Dutogliptin in Co-administration With Filgrastim in Early Recovery Post-myocardial Infarction",
+      "acronym": "HEAL-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-06",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-19",
+      "studyFirstSubmitQcDate": "2023-05-19",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-06-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-06-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Recardio, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this phase 3, randomized, double-blind, placebo-controlled clinical trial is to explore the safety and efficacy of dutogliptin administered subcutaneously (SC) in co-administration with filgrastim in adult patients with ST-elevation myocardial infarction (STEMI) undergoing primary percutaneous coronary intervention (PCI).\n\nThe primary objective is to evaluate the efficacy of dutogliptin compared with placebo in STEMI patients within 180 days of randomization measured by the time of first occurrence of a composite endpoint of cardiovascular (CV) death and worsening heart failure (HF) within 180 days. Participants will receive dutogliptin twice daily subcutaneously (SC) for 14 days and filgrastim (SC) daily for 5 days or placebo."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dutogliptin + Filgrastim",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive BID SC injections of 60 mg dutogliptin for 14 days in co-administration with 10 µg/kg filgrastim for 5 days.",
+          "interventionNames": [
+            "Drug: Dutogliptin + Filgrastim"
+          ]
+        },
+        {
+          "label": "Placebo-Dutogliptin + Placebo-Filgrastim",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Randomized participants will receive BID SC injections of dutogliptin placebo for 14 days in co-administration with filgrastim placebo for 5 days.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dutogliptin + Filgrastim",
+          "description": "dutogliptin twice daily subcutaneously for 14 days and filgrastim daily subcutaneously for 5 days.",
+          "armGroupLabels": [
+            "Dutogliptin + Filgrastim"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo dutogliptin twice daily subcutaneously for 14 days and placebo filgrastim daily subcutaneously for 5 days.",
+          "armGroupLabels": [
+            "Placebo-Dutogliptin + Placebo-Filgrastim"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time of first occurence of the following composite endpoint of cardiovascular (CV) death and worsening of heart failure (HF)",
+          "description": "defined as either an unplanned hospitalization or urgent visit resulting in intravenous therapy for heart failure",
+          "timeFrame": "within 180 days of randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to cardiovascular death",
+          "description": "defined as the time from randomization to the date of cardiovascular death",
+          "timeFrame": "within 180 days of randomization"
+        },
+        {
+          "measure": "Worsening heart failure",
+          "description": "defined as either an unplanned hospitalization or urgent visit resulting in intravenous therapy for heart failure",
+          "timeFrame": "within 180 days of randomization"
+        },
+        {
+          "measure": "Total symptom score of the Kansas City Cardiomyopathy Questionnaire",
+          "timeFrame": "at 180 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female, age 18 to 85 years (having reached 18 years of age and before having reached 86 years of age at the time of ICF signing)\n2. Able to provide written informed consent, including signing and dating the ICF\n3. STEMI is defined as follows:\n\nSymptoms of myocardial ischemia (such as chest pain, shortness of breath, jaw pain, arm pain, diaphoresis, or any anginal equivalent) AND\n\nAnterior STEMI:\n\n* ECG Criteria\n\n  * men \\> 40 years: ≥ 2 mm of new ST elevation in V2 and V3\n  * men ≤ 40 years: ≥ 2.5 mm of new ST elevation in V2 and V3\n  * women: ≥ 1.5 mm of new ST elevation in V2 and V3\n* ECG Criteria\n\n  o ≥ 1 mm of new ST elevation in two contiguous leads 4. STEMI must meet one of the following criteria:\n* Anterior STEMI with thrombolysis in myocardial infarction (TIMI) 0 or 1 flow at presentation\n* Non-anterior MI with the following:\n\n  * TIMI 0 flow at presentation AND\n  * Signs of HF, defined as at least one of the following radiographic evidence of pulmonary congestion, peripheral edema, increased jugular venous pressure, hepatojugular reflux or both, third heart sound or gallop 6. Female patients of childbearing potential must have a negative serum pregnancy test at Screening and an additional negative urine pregnancy test prior to the first dose of IMP unless regulated differently by national legislation.\n\nExclusion Criteria:\n\n1. Known significant pre-existing cardiomyopathy, moderate or severe mitral disease or aortic valvular disease\n2. Known pre-existing left ventricular ejection fraction \\< 40%\n3. Existing heart transplant\n4. Treatment with any dipeptidyl peptidase 4 (DPP4) inhibitors (eg, alogliptin, lingliptin, vildagliptin, saxagliptin, sitagliptin) or granulocyte colony-stimulation factor (G-CSF) medication (eg, filgrastim, lenograstim, pegfilgrastim, lipegfilgrastim) within 4 months prior to randomization.\n5. Contraindication to treatment with filgrastim, including known allergy to filgrastim or other G-CSF medication\n6. Pregnant, planning to become pregnant, or nursing female patients\n7. Known history of severe renal impairment or current renal impairment requiring dialysis\n8. History of pancreatitis (induced by high doses of DPP-4 inhibitors)\n9. Current or planned use of sulfonyl urea (risk of severe hypoglycemia)\n10. Any clinically significant abnormality identified prior to randomization that in the judgement of the Investigator or Sponsor that would preclude safe completion of the study, or confound the anticipated benefit of dutogliptin",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C552164",
+          "term": "dutogliptin"
+        },
+        {
+          "id": "D000069585",
+          "term": "Filgrastim"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D016179",
+          "term": "Granulocyte Colony-Stimulating Factor"
+        },
+        {
+          "id": "D003115",
+          "term": "Colony-Stimulating Factors"
+        },
+        {
+          "id": "D006023",
+          "term": "Glycoproteins"
+        },
+        {
+          "id": "D006001",
+          "term": "Glycoconjugates"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D016298",
+          "term": "Hematopoietic Cell Growth Factors"
+        },
+        {
+          "id": "D016207",
+          "term": "Cytokines"
+        },
+        {
+          "id": "D036341",
+          "term": "Intercellular Signaling Peptides and Proteins"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

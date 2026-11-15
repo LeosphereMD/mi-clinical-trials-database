@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07736313",
+      "orgStudyIdInfo": {
+        "id": "PCSK9 inhibitors in ACS"
+      },
+      "organization": {
+        "fullName": "Assiut University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Proprotein Convertase Subtilisin/Kexin Type 9 Inhibitors With Statin for ACS Patients",
+      "officialTitle": "Does PCSK9 Inhibitor on Top of High Intensity Statin Impact Liver Steatosis Assessed by FibroScan in Diabetic Patients Undergoing Percutaneous Coronary Intervention for Acute Coronary Syndromes?"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-07-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-07-18",
+      "studyFirstSubmitQcDate": "2026-07-29",
+      "studyFirstPostDateStruct": {
+        "date": "2026-07-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Christina Saeed Boules",
+        "investigatorTitle": "Resident doctor",
+        "investigatorAffiliation": "Assiut University"
+      },
+      "leadSponsor": {
+        "name": "Assiut University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiovascular diseases (CVDs) remain the leading cause of death globally, with a dominant contribution from atherosclerotic CVD (ASCVD).\n\n* Percutaneous coronary intervention (PCI) is a key method for revascularization in ASCVD patients, improving their prognosis. With the continuous advancement of PCI in recent years, its indications have become increasingly diverse. However, patients still face a pronounced residual risk post-PCI. Research indicates that plaque vulnerability and other risk factors contribute to a 15%-20% rate of major adverse cardiovascular events (MACE) within one year following PCI.\n* The pathological mechanism of atherosclerosis is closely tied to the abnormal deposition of low-density lipoprotein cholesterol (LDL-C) beneath the vascular endothelium. This lipid particle can provoke a chronic inflammatory response in the vessel wall, eventually causing plaque formation. Moreover, the marked elevation of LDL-C levels is highly connected to the occurrence and progression of ASCVD.\n* Metabolic dysfunction-associated steatotic liver disease (MASLD) is the most common liver disease worldwide, with a prevalence of approximately 25% (range 14%-32%).\n* It is regarded as the hepatic manifestation of metabolic syndrome (MetS) and is strongly associated with obesity and diabetes mellitus (DM).\n* Cardiovascular (CV) disease is one of the leading causes of death in patients with MASLD\n* Statins are the cornerstone of lipid-lowering therapy, noticeably diminishing LDL-C levels by blockading HMG-CoA reductase. For patients following PCI, several guidelines suggest high-intensity statin therapy to reach a target LDL-C level of ≤1.4 mmol/L and a ≥50% decline from baseline.\n* However, even with intensive statin therapy, many post-PCI patients still exhibit LDL-C levels above the target limits.\n* Inhibitors of proprotein convertase subtilisin/kexin type 9(PCSK9) notably decrease plasma LDL-C levels by preventing the binding of PCSK9 protein to LDL-C receptors (LDLR) on hepatocyte surfaces, thereby decreasing LDLR degradation. In 2019, guidelines for managing dyslipidemia from the ESC/EAS emphasize that PCSK9 inhibitors should be added for patients with insufficiently controlled LDL-C levels to achieve the target levels.\n* Combining PCSK9 inhibitors with statins has been proven to lead to a 60%-70% reduction in LDL-C levels.\n* Recently, a novel non-invasive parameter to assess steatosis has been developed using the Fibroscan® which is a vibration-controlled transient elastography (VCTE™) device used to assess liver elasticity which is related to liver fibrosis. This novel physical parameter, based on the properties of ultrasonic signals acquired by the Fibroscan®, is called the controlled attenuation parameter (CAP). It uses the postulate that fat affects ultrasound propagation, and is a measure of ultrasound attenuation at the central frequency of the Fibroscan\n* In this study, the investigators will demonstrate overall effect of PCSK9 inhibitors in combination with statins on MASLD and lipid levels for post-PCI patients, and to compare the degree of risk reduction with statin monotherapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndromes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Case group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "will receive PCSK9 inhibitors with rosuvastatin 20mg",
+          "interventionNames": [
+            "Drug: PCSK9 inhibitor plus rosuvastatin 20 mg tab"
+          ]
+        },
+        {
+          "label": "control group",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Rosuvastatin 20 Mg Oral Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PCSK9 inhibitor plus rosuvastatin 20 mg tab",
+          "description": "Group of ACS patients \\& diagnosed with DM will have PCSK9 inhibitor with rosuvastatin 20 mg tab \\& another group will have rosuvastatin 20 mg tab only",
+          "armGroupLabels": [
+            "Case group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rosuvastatin 20 Mg Oral Tablet",
+          "description": "only statin given to the patient",
+          "armGroupLabels": [
+            "control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Treatment-Related Adverse Events as Assessed by Fibroscan, Any change in Liver structure at 6 Months",
+          "timeFrame": "2 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥18y.o\n2. Any patient presented with acute coronary syndromes (Myocardial infarction (MI), non-ST elevation Myocardial infarction (NSTEMI), unstable angina) underwent coronary angiography within admission.\n3. Patients must be diabetic.\n4. Statin naïve patients at the time of enrollment.\n\nExclusion Criteria:\n\n1. patients \\> 18 y.o\n2. Patients who have chronic liver disease other than MASLD\n3. Patients having liver neoplasm\n4. Patient refused",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Christina Saeed Boules, resident doctor",
+          "role": "CONTACT",
+          "phone": "+201559724062",
+          "email": "Christinasaeed3@gmail.com"
+        },
+        {
+          "name": "Tarek AbdelHamid Naguib, Professor",
+          "role": "CONTACT",
+          "phone": "+201099975128",
+          "email": "Tarek.a.n.ahmed@med.aun.edu.eg"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32863243",
+          "type": "RESULT",
+          "citation": "Tamez H, Secemsky EA, Valsdottir LR, Moussa ID, Song Y, Simonton CA, Gibson CM, Popma JJ, Yeh RW. Long-term outcomes of percutaneous coronary intervention for in-stent restenosis among Medicare beneficiaries. EuroIntervention. 2021 Aug 6;17(5):e380-e387. doi: 10.4244/EIJ-D-19-01031."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

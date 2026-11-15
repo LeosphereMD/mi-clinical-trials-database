@@ -1,0 +1,820 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03516903",
+      "orgStudyIdInfo": {
+        "id": "CAAE 68743417.5.0000.0068"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "SCOC SDC: 4508/17/008",
+          "type": "OTHER",
+          "domain": "Heart Institute (InCor)"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Methotrexate Carried by a Lipid Nanoemulsion on Left Ventricular Remodeling After STEMI",
+      "officialTitle": "Effect of Methotrexate Carried by a Lipid Nanoemulsion on Left Ventricular Remodeling After ST-elevation Myocardial Infarction"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to the COVID-19 pandemic. With a second wave just beginning, and considering that we are testing an immunosuppressant in patients with high risk for COVID-19 complications, we would not be able to re-start recruitment safely in the near future.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-04-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-12-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-12-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-04-10",
+      "studyFirstSubmitQcDate": "2018-04-23",
+      "studyFirstPostDateStruct": {
+        "date": "2018-05-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-01-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-01-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jose Carlos Nicolau",
+        "investigatorTitle": "Professor, PhD",
+        "investigatorAffiliation": "University of Sao Paulo"
+      },
+      "leadSponsor": {
+        "name": "University of Sao Paulo",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+          "class": "OTHER_GOV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Prospective, randomized, double-blind, placebo-controlled, proof of concept study. Patients with first anterior wall STEMI will be randomized with 4±2 days after symptoms beginning to receive ddMTX-LDE at the dose of 40 mg/m2 IV or placebo-LDE weekly for 6 weeks. All study participants will additionally receive folic acid (5 mg po qd) once a week, one day after the study drug. The primary and main secondary endpoints will be analyzed by CMR 3±1 days and at 90±7 days after randomization.\n\nPatients will undergo clinical and laboratory safety evaluations before each study drug administration and 90-day post-randomization. Safety evaluations will include assessment of adherence, side effects, safety laboratory tests, and existing medical conditions or planned procedures that might alter study drug dosing. These visits also include screening for the occurrence of clinical events of interest. An algorithm for drug suspension based on clinical and laboratory finding will be followed.\n\nPre-specified unblinded interim analyses by an independent investigator will be developed when 20% and 50% of the inclusions are reached.",
+      "detailedDescription": "Inflammation is extremely important in atherosclerosis and atherothrombosis pathophysiology. It is similarly important after acute myocardial infarction (AMI), with a special participation on healing response and, consequently, on left ventricular remodeling (LVR).\n\nEarly successful reperfusion is highly effective for limiting tissue necrosis and improving outcomes in AMI, but many of these patients show microcirculation dysfunction, phenomenon related to inflammation, leading to worse LVR. Additionally, inflammation may extend into the noninfarcted remote myocardium, which also contribute to adverse LVR.\n\nAs pointed out by Westman et al in a recent review publication, although infarct size correlates with the development of adverse LVR, some patients with relatively small infarcts have adverse LVR, while others with larger infarcts do not. Individual differences in the inflammatory response, perhaps in part genetically, epigenetically, environmentally, or pathogenically modulated, may contribute to this phenomenon.\n\nThe use of inflammatory biomarkers to predict risk, monitor treatments and guide therapy, has shown substantial potential for clinical applicability. Many studies in primary and secondary prevention of cardiovascular disease (CVD) showed that individuals with lower high sensitive C-reactive protein (hsCRP) have better clinical outcomes than those with higher levels.\n\nSo, anti-inflammatory therapies may be useful in preventing left ventricular dysfunction following AMI despite reperfusion and anti-remodeling treatments.\n\nAmong those, methotrexate (MTX) is an anti-inflammatory drug widely used in rheumatology and oncology. It reduces several inflammatory biomarkers including hs-CRP, interleukin 6 (IL-6), and tumor necrosis factor α (TNF α), without affecting negatively lipid, homocysteine or glucose levels, or blood pressure. Besides that, there are reports showing that MTX directly or indirectly releases endogenous anti-inflammatory adenosine, which could be especially useful in AMI patients.\n\nIn a systematic review with rheumatologic patients (including rheumatoid arthritis, psoriasis or polyarthritis), methotrexate was associated with 21% lower risk for total cardiovascular disease (CVD) and 18% lower risk for AMI, suggesting that a direct treatment of inflammation with this drug may reduce the risk of CVD in general.\n\nTo explore this option of treatment, the CIRT (Cardiovascular Inflammation Reduction Trial) was designed to evaluate the effect of methotrexate for secondary prevention on high risk patients with chronic stable coronary disease; this study is currently ongoing.\n\nAlthough a potent anti-inflammatory drug, special attention must be given to methotrexate contraindications and numerous potential adverse effects. To overcome this issue, Moura et al developed a new formulation using a lipophilic derivative of methotrexate, ie, didodecyl methotrexate (ddMTX), associated with a lipid nanoemulsion (ddMTX-LDE).\n\nLipid nanoemulsions (LDE) that bind to low-density lipoprotein receptors was first developed and studied in the cancer scenario by Maranhão et al, who demonstrated that it concentrates the chemotherapeutic agents in tissues with low-density lipoprotein receptor overexpression, decreasing the toxicity of the treatment. The lipid nanoemulsion was already tested in patients with acute leukaemia, multiple myeloma and Hodgkin's and non-Hodgkin's lymphoma, suggesting that LDE is taken up by malignant cells with increased LDL receptors and that LDE, as drug-targeting vehicle, is suitable for patient use.\n\nThe ddMTX-LDE formulation was shown to be stable and uptake of the formulation by neoplastic cells in vitro was remarkably greater than of commercial methotrexate preparation, with much lower haematological toxicity. A study with intravenous ddMTX-LDE in rabbits showed anti-inflammatory effects on the synovia of arthritic joints that were clearly superior to the effects of a commercial methotrexate preparation. These results are conceivably due to greater methotrexate uptake by the joints when the drug is associated with a nanoemulsion. Another study with rabbits fed with high cholesterol diet showed that ddMTX-LDE reduced vessel inflammation and atheromatous lesions.\n\nIn Wistar rats with induced AMI treated with LDE without drug, commercial MTX and ddMTX-LDE, we demonstrated significant improvement in LVR along with infarct size reduction in the group ddMTX-LDE, in comparison with the groups commercial MTX and LDE without drug.\n\nThe above rational is the basis for the present project, where by the first time the role of LDE methotrexate formulation in humans, regarding LV remodelling post ST-segment elevation myocardial infarction (STEMI), will be tested."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction, Anterior Wall",
+        "Myocardial Remodeling, Ventricular"
+      ],
+      "keywords": [
+        "Anterior myocardial infarction",
+        "Methotrexate",
+        "Myocardial remodeling"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 35,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Methotrexate & Folic acid",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "ddMTX-LDE 40mg/m2 (100mL total volume) IV and Folic acid 5mg by mouth (the day after ddMTX-LDE) weekly for 6 weeks",
+          "interventionNames": [
+            "Drug: Methotrexate",
+            "Drug: Folic Acid"
+          ]
+        },
+        {
+          "label": "Placebo & folic acid",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo-LDE IV 100mL and Folic acid 5mg by mouth (the day after Placedo-LDE) weekly for 6 weeks",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Folic Acid"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methotrexate",
+          "description": "ddMTX-LDE (Methotrexate carried by a lipid nanoemulsion)",
+          "armGroupLabels": [
+            "Methotrexate & Folic acid"
+          ],
+          "otherNames": [
+            "Methotrexate carried by a lipid nanoemulsion (ddMTX-LDE)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo-LDE (Lipid nanoemulsion)",
+          "armGroupLabels": [
+            "Placebo & folic acid"
+          ],
+          "otherNames": [
+            "Placebo-LDE"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Folic Acid",
+          "description": "Folic acid pill",
+          "armGroupLabels": [
+            "Methotrexate & Folic acid",
+            "Placebo & folic acid"
+          ],
+          "otherNames": [
+            "FoliFolin (EMS)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ventricular Remodelling",
+          "description": "Compare left ventricular end-diastolic volume (LVEDV) measured by cardiac magnetic resonance (CMR) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Left ventricular end-systolic volume (LVESV)",
+          "description": "Compare LVESV measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF)",
+          "description": "Compare LVEF measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Left ventricular mass (LVM)",
+          "description": "Compare LVM measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Infarct size",
+          "description": "Compare infarct size measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Positive remodelling",
+          "description": "Compare the percentual of patients with positive (≥20% increase on LVEDV) remodelling measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Negative remodelling",
+          "description": "Compare the percentual of patients with negative (≥ 10% decrease on LVESV) remodelling measured by CMR between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Clinical significant symptoms",
+          "description": "Compare the incidence of clinical significant symptoms (new and persistent stomatitis, vomiting, diarrhea, unexplained cough with fever or shortness of breath) reported in each visit between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Other adverse events",
+          "description": "Compare the incidence of other adverse events (not expected) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Mean red blood cell count",
+          "description": "Compare haemoglobin and hematocrits levels between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Mean white blood cell count",
+          "description": "Compare leucocyte and neutrophil levels between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Platelet count",
+          "description": "Compare total platelet count between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Alanine aminotransferase (ALT)",
+          "description": "Compare ALT levels (in units per litre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Aspartate aminotransferase (AST)",
+          "description": "Compare AST levels (in units per litre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Bilirubin",
+          "description": "Compare bilirubin levels (in miligrams per decilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Creatinine clearance",
+          "description": "Compare creatinine clearance measured by MDRD-4 variable equation between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "7±1, 14±1, 21±1, 28±1, 35±1 and 90±7 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "High-sensitivity C reactive protein (hs-CRP)",
+          "description": "Compare hs-CRP levels (in miligrams per litre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Interleukin 6 (IL-6)",
+          "description": "Compare IL-6 levels (in picograms per millilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Platelet agregability - ADP",
+          "description": "Compare platelet aggregability (measured by Multiplate® ADP \\[adenosine diphosphate\\] test) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Platelet agregability - ASPI",
+          "description": "Compare platelet aggregability (measured by Multiplate® ASPI \\[arachidonic acid\\] test) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Mean platelet volume (MPV)",
+          "description": "Compare MPV (in fentoliter) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Immature platelets",
+          "description": "Compare immature platelet fraction (in percentage) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1, 35±1 and 90±7 days"
+        },
+        {
+          "measure": "Total Colesterol",
+          "description": "Compare total colesterol levels (in miligrams per decilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "High-density lipoprotein colesterol (HDL)",
+          "description": "Compare HDL levels (in miligrams per decilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Low-density lipoprotein colesterol (LDL)",
+          "description": "Compare LDL levels (in miligrams per decilitre, by Friedewald equation) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Triglyceride",
+          "description": "Compare triglyceride levels (in miligrams per decilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Glycated haemoglobin (HbA1C)",
+          "description": "Compare HbA1C levels (in percentage) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Brain natriuretic peptide (BNP)",
+          "description": "Compare BNP levels (in picograms per millilitre) between ddMTX-LDE and Placebo-LDE groups.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: sex",
+          "description": "Analyse the main endpoint of the study in male and female individuals.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: age",
+          "description": "Analyse the main endpoint of the study in individuals ≥ or \\< 65 years.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: diabetes mellitus",
+          "description": "Analyse the main endpoint of the study in individuals with or without history of diabetes mellitus.",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: creatinine clearance",
+          "description": "Analyse the main endpoint of the study in individuals with creatinine clearance ≥ or \\< 60mL/kg/min), LVEF \\< or \\> 40% (on first CMR), repercussion therapy strategy (thrombolysis or primary angioplasty), time from STEMI symptoms to reperfusion (≥ or \\< 6 hours), time from STEMI symptoms to first study drug administration (≥ or \\< 96 hours).",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: LVEF",
+          "description": "Analyse the main endpoint of the study in individuals with LVEF \\< or \\> 40% (on first CMR).",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: repercussion strategy",
+          "description": "Analyse the main endpoint of the study in individuals who received different reperfusion therapy strategy (thrombolysis or primary angioplasty).",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: Time to reperfusion",
+          "description": "Analyse the main endpoint of the study in individuals with different time range from STEMI symptoms to reperfusion (≥ or \\< 6 hours).",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Subgroup analysis: Time to study drug administration",
+          "description": "Analyse the main endpoint of the study in individuals with different time range from STEMI symptoms to first study drug administration (≥ or \\< 96 hours).",
+          "timeFrame": "90±7 days"
+        },
+        {
+          "measure": "Correlation of hs-CRP with microcirculation flow.",
+          "description": "Evaluate eventual correlation of hs-CRP with microcirculation flow measured by CMR.",
+          "timeFrame": "Baseline and 90 days"
+        },
+        {
+          "measure": "Correlation of IL-6 with microcirculation flow.",
+          "description": "Evaluate eventual correlation of IL-6 with microcirculation flow measured by CMR.",
+          "timeFrame": "Baseline and 90 days"
+        },
+        {
+          "measure": "Correlation of platelet aggregation with microcirculation flow.",
+          "description": "Evaluate eventual correlation of platelet aggregation with microcirculation flow measured by CMR.",
+          "timeFrame": "Baseline and 90 days"
+        },
+        {
+          "measure": "Correlation of BNP with microcirculation flow.",
+          "description": "Evaluate eventual correlation of BNP with microcirculation flow measured by CMR.",
+          "timeFrame": "Baseline and 90 days"
+        },
+        {
+          "measure": "Adenosine",
+          "description": "Compare adenosine plasmatic levels between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Interleukin-10",
+          "description": "Compare interleukin-10 levels between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Interleukin-6",
+          "description": "Compare interleukin-6 levels between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Tumor necrosis factor alpha (TNF-α)",
+          "description": "Compare TNF-α levels between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Regulatory T lymphocyte population",
+          "description": "Compare regulatory T lymphocyte population between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Expression and activity of ecto-nucleoside triphosphate diphosphohydrolase (CD39)",
+          "description": "Compare expression and activity of CD39 between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        },
+        {
+          "measure": "Expression and activity of ecto-5'-nucleotidase (CD73)",
+          "description": "Compare expression and activity of CD73 between ddMTX-LDE and placebo-LDE groups.",
+          "timeFrame": "Baseline, 3±1 and 35±1 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with type 1 STEMI, documented by: ischemic symptoms, new ST-elevation at the J-point in two contiguous leads (0.2 mV in men or 0.15 mV in women in leads V2-V3 and/or 0.1 mV in other leads or new left bundle branch block \\[LBBB\\]) and cardiac biomarkers (troponin and/or creatine kinase MB) with at least one value above the 99th percentile of the upper reference limit (URL).\n* Submitted to any successful repercussion strategy (thrombolysis or angioplasty).\n* Coronary angiography showing successful reperfusion therapy (Thrombolysis in Myocardial Infarction \\[TIMI\\] flow grade 3 in the infarct-related artery) and residual obstruction in the infarct-related artery \\< 50%.\n* Asymptomatic, without signs of clinical decompensation (heart rate \\< 100bpm, systolic blood pressure \\> 90mmHg, without vasoactive dor inotropic drugs, pulse oximetry \\> 95% with FiO2 21%).\n* Signing the study informed consent.\n\nExclusion Criteria:\n\n* History of AMI.\n* Estimated glomerular filtration rate \\< 40 mL/min/1.73 m2.\n* Contraindications for CMR: pacemaker, metallic devices, claustrophobia, obesity over 150 kg total weight.\n* Prior history of chronic infectious disease, including tuberculosis, severe fungal disease, or known HIV positive.\n* Chronic hepatitis B or C infection.\n* Interstitial pneumonitis, bronchiectasis, or pulmonary fibrosis.\n* Chest x-ray evidence in the past 12 months of interstitial pneumonitis, bronchiectasis, or pulmonary fibrosis.\n* Prior history of nonbasal cell malignancy or myeloproliferative or lymphoproliferative disease within the past 5 years.\n* White blood cell count \\<4000/mm3, hematocrit \\<32%, or platelet count \\<75000/mm3.\n* Alanine aminotransferase levels (ALT) greater than 2-fold the upper limit of normal.\n* History of alcohol abuse or unwillingness to limit alcohol consumption to \\< 4 drinks per week.\n* Pregnancy or breastfeeding.\n* Women of child bearing potential, even if currently using contraception.\n* Men who plan to father children during the study period or who are unwilling to use contraception.\n* Requirement for use of drugs that alter folate metabolism (trimethoprim/sulfamethoxazol) or reduce tubular excretion (probenecid) or known allergies to antibiotics making avoidance of trimethoprim impossible.\n* Current indication for methotrexate therapy.\n* Chronic use of oral steroid therapy or other immunosuppressive or biologic response modifiers.\n* Known chronic pericardial effusion, pleural effusion, or ascites.\n* New York Heart Association class III-IV congestive heart failure.\n* Life expectancy of \\< 1 years.\n* Active infection.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "José C. Nicolau, MD, PhD",
+          "affiliation": "InCor Heart Institute",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Aline G. Ferrari, MD",
+          "affiliation": "InCor Heart Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Rocío Salsoso, PhD",
+          "affiliation": "InCor Heart Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Heart Institute (InCor) - University of São Paulo Medical School, São Paulo, Brazil",
+          "city": "São Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19942084",
+          "type": "BACKGROUND",
+          "citation": "Libby P, Ridker PM, Hansson GK; Leducq Transatlantic Network on Atherothrombosis. Inflammation in atherosclerosis: from pathophysiology to practice. J Am Coll Cardiol. 2009 Dec 1;54(23):2129-38. doi: 10.1016/j.jacc.2009.09.009."
+        },
+        {
+          "pmid": "24663091",
+          "type": "BACKGROUND",
+          "citation": "Frangogiannis NG. The inflammatory response in myocardial injury, repair, and remodelling. Nat Rev Cardiol. 2014 May;11(5):255-65. doi: 10.1038/nrcardio.2014.28. Epub 2014 Mar 25."
+        },
+        {
+          "pmid": "12586264",
+          "type": "BACKGROUND",
+          "citation": "Nicolau JC, Maia LN, Vitola J, Vaz VD, Machado MN, Godoy MF, Giraldez RR, Ramires JA. ST-segment resolution and late (6-month) left ventricular remodeling after acute myocardial infarction. Am J Cardiol. 2003 Feb 15;91(4):451-3. doi: 10.1016/s0002-9149(02)03245-9. No abstract available."
+        },
+        {
+          "pmid": "22228177",
+          "type": "BACKGROUND",
+          "citation": "Kempf T, Zarbock A, Vestweber D, Wollert KC. Anti-inflammatory mechanisms and therapeutic opportunities in myocardial infarct healing. J Mol Med (Berl). 2012 Apr;90(4):361-9. doi: 10.1007/s00109-011-0847-y. Epub 2012 Jan 7."
+        },
+        {
+          "pmid": "27126533",
+          "type": "BACKGROUND",
+          "citation": "Westman PC, Lipinski MJ, Luger D, Waksman R, Bonow RO, Wu E, Epstein SE. Inflammation as a Driver of Adverse Left Ventricular Remodeling After Acute Myocardial Infarction. J Am Coll Cardiol. 2016 May 3;67(17):2050-60. doi: 10.1016/j.jacc.2016.01.073."
+        },
+        {
+          "pmid": "11430324",
+          "type": "BACKGROUND",
+          "citation": "Ridker PM, Rifai N, Clearfield M, Downs JR, Weis SE, Miles JS, Gotto AM Jr; Air Force/Texas Coronary Atherosclerosis Prevention Study Investigators. Measurement of C-reactive protein for the targeting of statin therapy in the primary prevention of acute coronary events. N Engl J Med. 2001 Jun 28;344(26):1959-65. doi: 10.1056/NEJM200106283442601."
+        },
+        {
+          "pmid": "15893181",
+          "type": "BACKGROUND",
+          "citation": "Ridker PM, Morrow DA, Rose LM, Rifai N, Cannon CP, Braunwald E. Relative efficacy of atorvastatin 80 mg and pravastatin 40 mg in achieving the dual goals of low-density lipoprotein cholesterol <70 mg/dl and C-reactive protein <2 mg/l: an analysis of the PROVE-IT TIMI-22 trial. J Am Coll Cardiol. 2005 May 17;45(10):1644-8. doi: 10.1016/j.jacc.2005.02.080. Epub 2005 Apr 25."
+        },
+        {
+          "pmid": "16847150",
+          "type": "BACKGROUND",
+          "citation": "Morrow DA, de Lemos JA, Sabatine MS, Wiviott SD, Blazing MA, Shui A, Rifai N, Califf RM, Braunwald E. Clinical relevance of C-reactive protein during follow-up of patients with acute coronary syndromes in the Aggrastat-to-Zocor Trial. Circulation. 2006 Jul 25;114(4):281-8. doi: 10.1161/CIRCULATIONAHA.106.628909. Epub 2006 Jul 17."
+        },
+        {
+          "pmid": "20031795",
+          "type": "BACKGROUND",
+          "citation": "Wilson PW, Pencina M, Jacques P, Selhub J, D'Agostino R Sr, O'Donnell CJ. C-reactive protein and reclassification of cardiovascular risk in the Framingham Heart Study. Circ Cardiovasc Qual Outcomes. 2008 Nov;1(2):92-7. doi: 10.1161/CIRCOUTCOMES.108.831198. Epub 2008 Nov 9."
+        },
+        {
+          "pmid": "19329177",
+          "type": "BACKGROUND",
+          "citation": "Ridker PM, Danielson E, Fonseca FA, Genest J, Gotto AM Jr, Kastelein JJ, Koenig W, Libby P, Lorenzatti AJ, Macfadyen JG, Nordestgaard BG, Shepherd J, Willerson JT, Glynn RJ; JUPITER Trial Study Group. Reduction in C-reactive protein and LDL cholesterol and cardiovascular event rates after initiation of rosuvastatin: a prospective study of the JUPITER trial. Lancet. 2009 Apr 4;373(9670):1175-82. doi: 10.1016/S0140-6736(09)60447-5. Epub 2009 Mar 28."
+        },
+        {
+          "pmid": "20031199",
+          "type": "BACKGROUND",
+          "citation": "Emerging Risk Factors Collaboration; Kaptoge S, Di Angelantonio E, Lowe G, Pepys MB, Thompson SG, Collins R, Danesh J. C-reactive protein concentration and risk of coronary heart disease, stroke, and mortality: an individual participant meta-analysis. Lancet. 2010 Jan 9;375(9709):132-40. doi: 10.1016/S0140-6736(09)61717-7. Epub 2009 Dec 22."
+        },
+        {
+          "pmid": "18045808",
+          "type": "BACKGROUND",
+          "citation": "Wessels JA, Huizinga TW, Guchelaar HJ. Recent insights in the pharmacological actions of methotrexate in the treatment of rheumatoid arthritis. Rheumatology (Oxford). 2008 Mar;47(3):249-55. doi: 10.1093/rheumatology/kem279. Epub 2007 Nov 28."
+        },
+        {
+          "pmid": "19684849",
+          "type": "BACKGROUND",
+          "citation": "Rho YH, Oeser A, Chung CP, Milne GL, Stein CM. Drugs Used in the Treatment of Rheumatoid Arthritis: Relationship between Current Use and Cardiovascular Risk Factors. Arch Drug Inf. 2009 Jun;2(2):34-40. doi: 10.1111/j.1753-5174.2009.00019.x."
+        },
+        {
+          "pmid": "10411156",
+          "type": "BACKGROUND",
+          "citation": "Baggott JE, Morgan SL, Sams WM, Linden J. Urinary adenosine and aminoimidazolecarboxamide excretion in methotrexate-treated patients with psoriasis. Arch Dermatol. 1999 Jul;135(7):813-7. doi: 10.1001/archderm.135.7.813."
+        },
+        {
+          "pmid": "1057756",
+          "type": "BACKGROUND",
+          "citation": "DiNicola AF. Letter: The endogenous catabolic traumatic triad syndrome. N Z Med J. 1975 Jul 9;82(543):27-8. No abstract available."
+        },
+        {
+          "pmid": "16782719",
+          "type": "BACKGROUND",
+          "citation": "Kloner RA, Forman MB, Gibbons RJ, Ross AM, Alexander RW, Stone GW. Impact of time to therapy and reperfusion modality on the efficacy of adenosine in acute myocardial infarction: the AMISTAD-2 trial. Eur Heart J. 2006 Oct;27(20):2400-5. doi: 10.1093/eurheartj/ehl094. Epub 2006 Jun 16."
+        },
+        {
+          "pmid": "21855836",
+          "type": "BACKGROUND",
+          "citation": "Micha R, Imamura F, Wyler von Ballmoos M, Solomon DH, Hernan MA, Ridker PM, Mozaffarian D. Systematic review and meta-analysis of methotrexate use and risk of cardiovascular disease. Am J Cardiol. 2011 Nov 1;108(9):1362-70. doi: 10.1016/j.amjcard.2011.06.054. Epub 2011 Aug 17."
+        },
+        {
+          "pmid": "19630828",
+          "type": "BACKGROUND",
+          "citation": "Ridker PM. Testing the inflammatory hypothesis of atherothrombosis: scientific rationale for the cardiovascular inflammation reduction trial (CIRT). J Thromb Haemost. 2009 Jul;7 Suppl 1:332-9. doi: 10.1111/j.1538-7836.2009.03404.x."
+        },
+        {
+          "pmid": "23895801",
+          "type": "BACKGROUND",
+          "citation": "Everett BM, Pradhan AD, Solomon DH, Paynter N, Macfadyen J, Zaharris E, Gupta M, Clearfield M, Libby P, Hasan AA, Glynn RJ, Ridker PM. Rationale and design of the Cardiovascular Inflammation Reduction Trial: a test of the inflammatory hypothesis of atherothrombosis. Am Heart J. 2013 Aug;166(2):199-207.e15. doi: 10.1016/j.ahj.2013.03.018. Epub 2013 May 3."
+        },
+        {
+          "pmid": "18512708",
+          "type": "BACKGROUND",
+          "citation": "Saag KG, Teng GG, Patkar NM, Anuntiyo J, Finney C, Curtis JR, Paulus HE, Mudano A, Pisu M, Elkins-Melton M, Outman R, Allison JJ, Suarez Almazor M, Bridges SL Jr, Chatham WW, Hochberg M, MacLean C, Mikuls T, Moreland LW, O'Dell J, Turkiewicz AM, Furst DE; American College of Rheumatology. American College of Rheumatology 2008 recommendations for the use of nonbiologic and biologic disease-modifying antirheumatic drugs in rheumatoid arthritis. Arthritis Rheum. 2008 Jun 15;59(6):762-84. doi: 10.1002/art.23721. No abstract available."
+        },
+        {
+          "pmid": "22072866",
+          "type": "BACKGROUND",
+          "citation": "Moura JA, Valduga CJ, Tavares ER, Kretzer IF, Maria DA, Maranhao RC. Novel formulation of a methotrexate derivative with a lipid nanoemulsion. Int J Nanomedicine. 2011;6:2285-95. doi: 10.2147/IJN.S18039. Epub 2011 Oct 12."
+        },
+        {
+          "pmid": "8062260",
+          "type": "BACKGROUND",
+          "citation": "Maranhao RC, Garicochea B, Silva EL, Dorlhiac-Llacer P, Cadena SM, Coelho IJ, Meneghetti JC, Pileggi FJ, Chamone DA. Plasma kinetics and biodistribution of a lipid emulsion resembling low-density lipoprotein in patients with acute leukemia. Cancer Res. 1994 Sep 1;54(17):4660-6."
+        },
+        {
+          "pmid": "14574458",
+          "type": "BACKGROUND",
+          "citation": "Hungria VT, Latrilha MC, Rodrigues DG, Bydlowski SP, Chiattone CS, Maranhao RC. Metabolism of a cholesterol-rich microemulsion (LDE) in patients with multiple myeloma and a preliminary clinical study of LDE as a drug vehicle for the treatment of the disease. Cancer Chemother Pharmacol. 2004 Jan;53(1):51-60. doi: 10.1007/s00280-003-0692-y. Epub 2003 Oct 22."
+        },
+        {
+          "pmid": "16133527",
+          "type": "BACKGROUND",
+          "citation": "Pinheiro KV, Hungria VT, Ficker ES, Valduga CJ, Mesquita CH, Maranhao RC. Plasma kinetics of a cholesterol-rich microemulsion (LDE) in patients with Hodgkin's and non-Hodgkin's lymphoma and a preliminary study on the toxicity of etoposide associated with LDE. Cancer Chemother Pharmacol. 2006 May;57(5):624-30. doi: 10.1007/s00280-005-0090-8. Epub 2005 Aug 25."
+        },
+        {
+          "pmid": "26872084",
+          "type": "BACKGROUND",
+          "citation": "Mello SB, Tavares ER, Guido MC, Bonfa E, Maranhao RC. Anti-inflammatory effects of intravenous methotrexate associated with lipid nanoemulsions on antigen-induced arthritis. Clinics (Sao Paulo). 2016 Jan;71(1):54-8. doi: 10.6061/clinics/2016(01)09."
+        },
+        {
+          "pmid": "24065615",
+          "type": "BACKGROUND",
+          "citation": "Bulgarelli A, Leite AC Jr, Dias AA, Maranhao RC. Anti-atherogenic effects of methotrexate carried by a lipid nanoemulsion that binds to LDL receptors in cholesterol-fed rabbits. Cardiovasc Drugs Ther. 2013 Dec;27(6):531-9. doi: 10.1007/s10557-013-6488-3."
+        },
+        {
+          "pmid": "28553113",
+          "type": "BACKGROUND",
+          "citation": "Maranhao RC, Guido MC, de Lima AD, Tavares ER, Marques AF, Tavares de Melo MD, Nicolau JC, Salemi VM, Kalil-Filho R. Methotrexate carried in lipid core nanoparticles reduces myocardial infarction size and improves cardiac function in rats. Int J Nanomedicine. 2017 May 17;12:3767-3784. doi: 10.2147/IJN.S129324. eCollection 2017."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "BC Cancer Agency Cancer Drug Manual©. Chapter: Methotrexate. Vancouver, British Columbia: BC Cancer Agency; Limited Revision: 1 February 2016. Pages 1-16."
+        },
+        {
+          "pmid": "18036459",
+          "type": "BACKGROUND",
+          "citation": "Thygesen K, Alpert JS, White HD; Joint ESC/ACCF/AHA/WHF Task Force for the Redefinition of Myocardial Infarction. Universal definition of myocardial infarction. J Am Coll Cardiol. 2007 Nov 27;50(22):2173-95. doi: 10.1016/j.jacc.2007.09.011. No abstract available."
+        },
+        {
+          "pmid": "24002794",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, Macaya C, Sanchez-Brunete V, Pizarro G, Fernandez-Friera L, Mateos A, Fernandez-Ortiz A, Garcia-Ruiz JM, Garcia-Alvarez A, Iniguez A, Jimenez-Borreguero J, Lopez-Romero P, Fernandez-Jimenez R, Goicolea J, Ruiz-Mateos B, Bastante T, Arias M, Iglesias-Vazquez JA, Rodriguez MD, Escalera N, Acebal C, Cabrera JA, Valenciano J, Perez de Prado A, Fernandez-Campos MJ, Casado I, Garcia-Rubira JC, Garcia-Prieto J, Sanz-Rosa D, Cuellas C, Hernandez-Antolin R, Albarran A, Fernandez-Vazquez F, de la Torre-Hernandez JM, Pocock S, Sanz G, Fuster V. Effect of early metoprolol on infarct size in ST-segment-elevation myocardial infarction patients undergoing primary percutaneous coronary intervention: the Effect of Metoprolol in Cardioprotection During an Acute Myocardial Infarction (METOCARD-CNIC) trial. Circulation. 2013 Oct 1;128(14):1495-503. doi: 10.1161/CIRCULATIONAHA.113.003653. Epub 2013 Sep 3."
+        },
+        {
+          "pmid": "24694530",
+          "type": "BACKGROUND",
+          "citation": "Pizarro G, Fernandez-Friera L, Fuster V, Fernandez-Jimenez R, Garcia-Ruiz JM, Garcia-Alvarez A, Mateos A, Barreiro MV, Escalera N, Rodriguez MD, de Miguel A, Garcia-Lunar I, Parra-Fuertes JJ, Sanchez-Gonzalez J, Pardillos L, Nieto B, Jimenez A, Abejon R, Bastante T, Martinez de Vega V, Cabrera JA, Lopez-Melgar B, Guzman G, Garcia-Prieto J, Mirelis JG, Zamorano JL, Albarran A, Goicolea J, Escaned J, Pocock S, Iniguez A, Fernandez-Ortiz A, Sanchez-Brunete V, Macaya C, Ibanez B. Long-term benefit of early pre-reperfusion metoprolol administration in patients with acute myocardial infarction: results from the METOCARD-CNIC trial (Effect of Metoprolol in Cardioprotection During an Acute Myocardial Infarction). J Am Coll Cardiol. 2014 Jun 10;63(22):2356-62. doi: 10.1016/j.jacc.2014.03.014. Epub 2014 Mar 30."
+        },
+        {
+          "pmid": "6585550",
+          "type": "BACKGROUND",
+          "citation": "Rosowsky A, Forsch RA, Yu CS, Lazarus H, Beardsley GP. Methotrexate analogues. 21. Divergent influence of alkyl chain length on the dihydrofolate reductase affinity and cytotoxicity of methotrexate monoesters. J Med Chem. 1984 May;27(5):605-9. doi: 10.1021/jm00371a009."
+        },
+        {
+          "pmid": "8377582",
+          "type": "BACKGROUND",
+          "citation": "Maranhao RC, Cesar TB, Pedroso-Mariani SR, Hirata MH, Mesquita CH. Metabolic behavior in rats of a nonprotein microemulsion resembling low-density lipoprotein. Lipids. 1993 Aug;28(8):691-6. doi: 10.1007/BF02535988."
+        },
+        {
+          "pmid": "17469101",
+          "type": "BACKGROUND",
+          "citation": "Montesinos MC, Takedachi M, Thompson LF, Wilder TF, Fernandez P, Cronstein BN. The antiinflammatory mechanism of methotrexate depends on extracellular conversion of adenine nucleotides to adenosine by ecto-5'-nucleotidase: findings in a study of ecto-5'-nucleotidase gene-deficient mice. Arthritis Rheum. 2007 May;56(5):1440-5. doi: 10.1002/art.22643."
+        },
+        {
+          "pmid": "2006182",
+          "type": "BACKGROUND",
+          "citation": "Cronstein BN, Eberle MA, Gruber HE, Levin RI. Methotrexate inhibits neutrophil function by stimulating adenosine release from connective tissue cells. Proc Natl Acad Sci U S A. 1991 Mar 15;88(6):2441-5. doi: 10.1073/pnas.88.6.2441."
+        },
+        {
+          "pmid": "81197",
+          "type": "BACKGROUND",
+          "citation": "Kruse LC, Hahn CW, Barry J, Gay JE. Utilization of a media instructional support staff in the development of a simulated learning experience: medication administration. J Nurs Educ. 1978 Oct;17(8):27-35. No abstract available."
+        },
+        {
+          "pmid": "18758473",
+          "type": "BACKGROUND",
+          "citation": "Hasko G, Linden J, Cronstein B, Pacher P. Adenosine receptors: therapeutic aspects for inflammatory and immune diseases. Nat Rev Drug Discov. 2008 Sep;7(9):759-70. doi: 10.1038/nrd2638."
+        },
+        {
+          "pmid": "26944097",
+          "type": "BACKGROUND",
+          "citation": "Borea PA, Gessi S, Merighi S, Varani K. Adenosine as a Multi-Signalling Guardian Angel in Human Diseases: When, Where and How Does it Exert its Protective Effects? Trends Pharmacol Sci. 2016 Jun;37(6):419-434. doi: 10.1016/j.tips.2016.02.006. Epub 2016 Mar 2."
+        },
+        {
+          "pmid": "24828189",
+          "type": "BACKGROUND",
+          "citation": "Idzko M, Ferrari D, Eltzschig HK. Nucleotide signalling during inflammation. Nature. 2014 May 15;509(7500):310-7. doi: 10.1038/nature13085."
+        },
+        {
+          "pmid": "24607729",
+          "type": "BACKGROUND",
+          "citation": "Antonioli L, Csoka B, Fornai M, Colucci R, Kokai E, Blandizzi C, Hasko G. Adenosine and inflammation: what's new on the horizon? Drug Discov Today. 2014 Aug;19(8):1051-68. doi: 10.1016/j.drudis.2014.02.010. Epub 2014 Mar 6."
+        },
+        {
+          "pmid": "18302942",
+          "type": "BACKGROUND",
+          "citation": "Yegutkin GG. Nucleotide- and nucleoside-converting ectoenzymes: Important modulators of purinergic signalling cascade. Biochim Biophys Acta. 2008 May;1783(5):673-94. doi: 10.1016/j.bbamcr.2008.01.024. Epub 2008 Feb 12."
+        },
+        {
+          "pmid": "24362516",
+          "type": "BACKGROUND",
+          "citation": "Fredholm BB. Adenosine--a physiological or pathophysiological agent? J Mol Med (Berl). 2014 Mar;92(3):201-6. doi: 10.1007/s00109-013-1101-6. Epub 2013 Dec 22."
+        },
+        {
+          "pmid": "17082591",
+          "type": "BACKGROUND",
+          "citation": "Kobie JJ, Shah PR, Yang L, Rebhahn JA, Fowell DJ, Mosmann TR. T regulatory and primed uncommitted CD4 T cells express CD73, which suppresses effector CD4 T cells by converting 5'-adenosine monophosphate to adenosine. J Immunol. 2006 Nov 15;177(10):6780-6. doi: 10.4049/jimmunol.177.10.6780."
+        },
+        {
+          "pmid": "25675517",
+          "type": "BACKGROUND",
+          "citation": "Peres RS, Liew FY, Talbot J, Carregaro V, Oliveira RD, Almeida SL, Franca RF, Donate PB, Pinto LG, Ferreira FI, Costa DL, Demarque DP, Gouvea DR, Lopes NP, Queiroz RH, Silva JS, Figueiredo F, Alves-Filho JC, Cunha TM, Ferreira SH, Louzada-Junior P, Cunha FQ. Low expression of CD39 on regulatory T cells as a biomarker for resistance to methotrexate therapy in rheumatoid arthritis. Proc Natl Acad Sci U S A. 2015 Feb 24;112(8):2509-14. doi: 10.1073/pnas.1424792112. Epub 2015 Feb 9."
+        },
+        {
+          "pmid": "30076384",
+          "type": "BACKGROUND",
+          "citation": "Cronstein BN. Methotrexate BAFFles anti-drug antibodies. Nat Rev Rheumatol. 2018 Sep;14(9):505-506. doi: 10.1038/s41584-018-0064-y. No abstract available."
+        },
+        {
+          "pmid": "29532212",
+          "type": "BACKGROUND",
+          "citation": "Yu MB, Firek A, Langridge WHR. Predicting methotrexate resistance in rheumatoid arthritis patients. Inflammopharmacology. 2018 Jun;26(3):699-708. doi: 10.1007/s10787-018-0459-z. Epub 2018 Mar 12."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "IPD can be shared after reasonable request approved by the study coordination.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2020-10-13",
+          "uploadDate": "2021-01-07T13:55",
+          "filename": "SAP_001.pdf",
+          "size": 81859
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D056988",
+          "term": "Anterior Wall Myocardial Infarction"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008727",
+          "term": "Methotrexate"
+        },
+        {
+          "id": "D005492",
+          "term": "Folic Acid"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000630",
+          "term": "Aminopterin"
+        },
+        {
+          "id": "D011622",
+          "term": "Pterins"
+        },
+        {
+          "id": "D011621",
+          "term": "Pteridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

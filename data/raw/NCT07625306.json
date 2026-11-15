@@ -1,0 +1,295 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07625306",
+      "orgStudyIdInfo": {
+        "id": "CTQJ230A1US13"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Lp(a) Lowering Study of Pelacarsen (TQJ230) in Patients in the US With Elevated Lp(a) and Recent ACS (STEMI/NSTEMI) - Lp(a)FRONTIERS PEARL",
+      "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Multicenter Study Evaluating the Efficacy, Safety, Tolerability, and Coronary Plaque Effects of Early Pelacarsen (TQJ230) Initiation in Patients in the US With Elevated Lp(a) and Recent Acute Coronary Syndrome"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Study terminated by sponsor following the outcome of the Lp(a)HORIZON study (NCT04023552), which did not meet its primary endpoint",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": true,
+        "nctId": "NCT07000695",
+        "statusForNctId": "NO_LONGER_AVAILABLE"
+      },
+      "startDateStruct": {
+        "date": "2026-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-01-22",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-01-22",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-05-27",
+      "studyFirstSubmitQcDate": "2026-05-27",
+      "studyFirstPostDateStruct": {
+        "date": "2026-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-10-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "CTQJ230A1US13 is a randomized, double-blind, placebo-controlled, multicenter phase IIIb study designed to evaluate the efficacy, safety, tolerability, and coronary plaque effects of early pelacarsen (TQJ230) initiation in participants with elevated Lp(a) and recent acute coronary syndrome (ACS).",
+      "detailedDescription": "This study consists of Lp(a) measurement and additional screening assessments, a double-blind treatment period of 18 months, and a 16-week safety follow up period from the last dose. Efficacy, safety, and tolerability of pelacarsen (TQJ230) compared to placebo will be assessed throughout the study, with primary analysis at Day 180 and final analysis at Day 540."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome (ACS)"
+      ],
+      "keywords": [
+        "Lipoprotein(a)",
+        "ASCVD",
+        "Acute Coronary Syndrome (ACS)",
+        "STEMI",
+        "NSTEMI",
+        "pelacarsen (TQJ230)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pelacarsen",
+          "type": "EXPERIMENTAL",
+          "description": "Pelacarsen (TQJ230) 80 mg s.c. QM",
+          "interventionNames": [
+            "Drug: Pelacarsen"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Corresponding placebo s.c. QM",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pelacarsen",
+          "description": "Pelacarsen 80 mg subcutaneously (s.c.) once a month (QM)",
+          "armGroupLabels": [
+            "Pelacarsen"
+          ],
+          "otherNames": [
+            "TQJ230"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo subcutaneously (s.c.) once a month (QM)",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in log-transformed Lp(a) concentration",
+          "description": "Change in log-transformed Lipoprotein A (Lp(a)) concentration from baseline to Day 180",
+          "timeFrame": "Baseline, Day 180"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of participants with Lp(a) < 105 nmol/L",
+          "description": "Proportion of participants with Lipoprotein A (Lp(a)) \\< 105 nmol/L",
+          "timeFrame": "Day 180 and Day 540"
+        },
+        {
+          "measure": "Proportion of participants with TEAEs, TESAEs,TEAEs or TESAEs leading to study drug discontinuation and TEAEs of special interest",
+          "description": "Proportion of participants with:\n\n* Treatment-emergent adverse events (TEAEs)\n* Treatment-emergent serious adverse events (TESAEs)\n* TEAEs or TESAEs leading to study drug discontinuation\n* TEAEs of special interest",
+          "timeFrame": "22 months"
+        },
+        {
+          "measure": "Summary of observed values for Glomerular Filtration Rate (GFR)",
+          "description": "Summary of observed values in GFR (Safety laboratory parameters)",
+          "timeFrame": "Up to 18 months"
+        },
+        {
+          "measure": "Change from baseline in Glomerular Filtration Rate (GFR)",
+          "description": "Change from baseline in GFR (Safety laboratory parameters)",
+          "timeFrame": "Baseline and up to 18 months"
+        },
+        {
+          "measure": "Summary of observed values for Heart Rate (HR)",
+          "description": "Summary of observed values for HR (electrocardiogram)",
+          "timeFrame": "Up to 18 months"
+        },
+        {
+          "measure": "Change from baseline in Heart Rate (HR)",
+          "description": "Change from baseline in HR (electrocardiogram)",
+          "timeFrame": "Baseline and up to 18 months"
+        },
+        {
+          "measure": "Summary of observed values for Systolic Blood Pressure (SBP) and Diastolic Blood Pressure (DBP)",
+          "description": "Summary of observed values for SBP and DBP (vital signs)",
+          "timeFrame": "Up to 18 months"
+        },
+        {
+          "measure": "Change from baseline in Systolic Blood Pressure (SBP) and Diastolic Blood Pressure (DBP)",
+          "description": "Change from baseline in SBP and DBP (vital signs)",
+          "timeFrame": "Baseline and up to 18 months"
+        },
+        {
+          "measure": "Change from baseline to Day 540 in non-calcified coronary plaque volume",
+          "description": "Change from baseline to Day 540 in non-calcified coronary plaque volume, as assessed by CCTA",
+          "timeFrame": "Baseline and Day 540"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Lp(a) ≥ 150 nmol/L\n* Within 10 days of hospitalization for ACS event and meets all of the following criteria:\n* Clinical syndrome consistent with spontaneous cardiac ischemia\n* Diagnosis of ACS: ST-elevation myocardial infarction (STEMI) or non-ST-elevation myocardial infarction (NSTEMI)\n\nExclusion Criteria:\n\n* Uncontrolled hypertension\n* Heart failure New York Heart Association (NYHA) class IV\n* History of malignancy of any organs\n* History of hemorrhagic stroke or other major bleeding\n* Platelet count ≤ LLN\n* Active liver disease or hepatic dysfunction\n* Significant kidney disease\n* Contraindication for CCTA or severe contrast allergy\n* Pregnant or nursing women\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "79 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000730804",
+          "term": "pelacarsen"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

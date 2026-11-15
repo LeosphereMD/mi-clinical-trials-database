@@ -46,7 +46,11 @@ CREATE TABLE trials (
     lead_sponsor            TEXT,
     sponsor_class           TEXT,
     population              TEXT CHECK (population IN
-                                ('STEMI', 'NSTEMI', 'MI unspecified', 'ACS mixed')),
+                                ('STEMI', 'NSTEMI', 'STEMI + NSTEMI',
+                                 'ACS mixed', 'MI unspecified')),
+    population_source       TEXT CHECK (population_source IN
+                                ('mesh', 'title', 'conditions', 'eligibility')),
+    n_countries             INTEGER,
     has_device_or_procedure INTEGER CHECK (has_device_or_procedure IN (0, 1)),
     allocation              TEXT,
     masking                 TEXT,
@@ -256,6 +260,42 @@ BEGIN
     SELECT RAISE(ABORT, 'This value has review decisions and cannot be deleted. Update it in place instead.');
 END;
 
+-- 12. One row per country where a trial has sites
+CREATE TABLE trial_countries (
+    nct_id  TEXT NOT NULL REFERENCES trials(nct_id),
+    country TEXT NOT NULL,
+    PRIMARY KEY (nct_id, country)
+);
+
+-- 13. Registry hand-check decisions (step 2b), one row per decision
+CREATE TABLE registry_checks (
+    check_id         INTEGER PRIMARY KEY,
+    nct_id           TEXT NOT NULL REFERENCES trials(nct_id),
+    field            TEXT NOT NULL,
+    db_value         TEXT,
+    selection_reason TEXT,   -- one or more of: random trial / text-based
+                             -- population / MeSH population sample
+    fetch_run_id     INTEGER REFERENCES fetch_runs(run_id),
+    decision         TEXT NOT NULL CHECK (decision IN
+                         ('approve', 'correct', 'changed since download')),
+    corrected_value  TEXT,
+    comment          TEXT,
+    decided_at       TEXT NOT NULL DEFAULT (datetime('now')),
+    CHECK (decision <> 'correct' OR corrected_value IS NOT NULL)
+);
+
+CREATE TRIGGER registry_checks_no_delete
+BEFORE DELETE ON registry_checks
+BEGIN
+    SELECT RAISE(ABORT, 'Registry check decisions are never deleted. Add a new decision instead.');
+END;
+
+CREATE TRIGGER registry_checks_no_update
+BEFORE UPDATE ON registry_checks
+BEGIN
+    SELECT RAISE(ABORT, 'Registry check decisions are never edited. Add a new decision instead.');
+END;
+
 -- 11. Outcome-switch check (built in Phase 3; table only for now)
 CREATE TABLE outcome_comparisons (
     comparison_id         INTEGER PRIMARY KEY,
@@ -298,11 +338,16 @@ def connect(path=DB_PATH):
 
 
 def count_decisions(path):
+    """Number of the project owner's decisions stored in the database."""
     con = sqlite3.connect(path)
+    total = 0
     try:
-        return con.execute("SELECT COUNT(*) FROM review_decisions").fetchone()[0]
-    except sqlite3.OperationalError:  # older database without this table
-        return 0
+        for table in ("review_decisions", "registry_checks"):
+            try:
+                total += con.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+            except sqlite3.OperationalError:  # older database without this table
+                pass
+        return total
     finally:
         con.close()
 
@@ -321,7 +366,7 @@ def main():
             sys.exit(1)
         n = count_decisions(DB_PATH)
         if n:
-            print(f"Refusing to delete: the database holds {n} review decision(s).")
+            print(f"Refusing to delete: the database holds {n} decision(s) by the project owner.")
             print("Summary: tables in 0, tables created 0, skipped 1 (review decisions present)")
             sys.exit(1)
         DB_PATH.unlink()

@@ -1,0 +1,434 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03371784",
+      "orgStudyIdInfo": {
+        "id": "PN-III-P4-ID-PCE-2016-0393"
+      },
+      "organization": {
+        "fullName": "Iuliu Hatieganu University of Medicine and Pharmacy",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Glucocorticoid Therapy on Left Ventricular Remodelling in Acute Myocardial Infarction (RECONSIDER)",
+      "officialTitle": "The Effect of Glucocorticoid Therapy on Left Ventricular Remodelling in Acute ST-segment Elevation Myocardial Infarction (RECONSIDER)",
+      "acronym": "RECONSIDER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-03-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-12-04",
+      "studyFirstSubmitQcDate": "2017-12-12",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2020-09-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-09-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Adrian Corneliu Iancu",
+        "investigatorTitle": "Professor of Cardiology",
+        "investigatorAffiliation": "Iuliu Hatieganu University of Medicine and Pharmacy"
+      },
+      "leadSponsor": {
+        "name": "Iuliu Hatieganu University of Medicine and Pharmacy",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Romanian Governmental Funding (UEFISCDI)",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Introduction: In the setting of acute ST-segment elevation myocardial infarction (STEMI) coronary wedge pressure (CWP) emerges as a new marker for the advanced form of pre-procedural microvascular obstruction (MVO), which is associated with inflammatory interstitial edema. Through its anti-inflammatory effects, glucocorticoid therapy may prove beneficial in patients with high CWP.\n\nAim: To identify the presence of the advanced form of MVO before primary percutaneous coronary intervention (PPCI) by CWP measurement and to test the benefit of cortisol therapy, in terms of infarct size and left ventricular remodeling, in patients with raised CWP.\n\nMethods: 50 patients with a first STEMI, candidates for PPCI, with proximal coronary occlusion, will undergo CWP measurement followed by percutaneous revascularization. Cardiac MRI will be performed 3-5 days after the procedure. A cutoff for CWP in predicting MVO, interstitial oedema and intramyocardial haemorrhage will be derived.Based on the above mentioned cutoff, 180 patients with continuous elevation of the pressure line will be randomized, by a 1:1 model, either to cortisol therapy or to placebo. Inflammatory parameters will be determined from peripheral blood samples. Patients will undergo cardiac magnetic resonance (CMR) imaging 3 to 5 days after revascularization.\n\nStudy endpoints: The primary endpoint will be the extent of MVO, interstitial edema and hemorrhage. Secondary endpoints will include infarct size, myocardial salvage, left ventricular volumes and ejection fraction. The clinical endpoints of all-cause and cardiovascular death, myocardial re-infarction, target vessel revascularization, stent thrombosis and stroke will be recorded at 6 months.",
+      "detailedDescription": "PATIENT POPULATION Consecutive patients with first STEMI, candidates for PPCI (typical cardiac chest pain, within 12h of symptom onset, with ST segment elevation of more than 1 mm in at least two contiguous leads) and proximal coronary artery culprit lesion will be considered for randomization.\n\nExclusion criteria are cardiogenic shock. previous myocardial infraction, previous PCI and coronary artery bypass surgery (CABG), left bundle branch block, active bleeding, administration of thrombolytic agents for the current episode, recent stroke (during last month), indication for oral anticoagulant therapy, severe or untreated infections and the impossibility of CWP measurement.\n\nVerbal assent will be obtained, with the agreement of two qualified cardiologists. Full consent will be obtained after the procedure, in accord with the protocols followed by several recent studies.\n\nThis is a triple-blind clinical study. The physicians performing the procedure, the subjects and the biostatistician will be blinded to the treatment administered.\n\nThe study will take place in a high-volume university hospital center that provides 24-hours emergency cardiac care in a region with 1.3M inhabitants: \"Niculae Stãncioiu\" Heart Institute - Cardiology Department. The hospital is affiliated to \"Iuliu Haţieganu\" University of Medicine and Pharmacy, Cluj-Napoca.\n\nSTUDY PROTOCOL Patients will receive a standard dual antiplatelet therapy regimen protocol with ticagrelor (180mg) and aspirin (300 mg) loading before PPCI and will be treated with intravenous heparin 100UI/kg during the procedure. Coronary catheterization and intervention will be performed using a 6-F guiding catheter via radial or femoral access.\n\nAccording to the type of the culprit lesion, three different techniques will be used:\n\n1. Coronary occlusion: the lesion is crossed with a pressure guidewire (Verrata Pressure Guide Wire, Volcano Corporation) - CWP is recorded if TIMI flow remains 0.\n2. Coronary occlusion: the lesion can not be crossed with the pressure guidewire - the lesion is crossed with a standard coronary guidewire, a dual-lumen microcatheter (NHancer Rx Dual Lumen Micro Catheter, Interventional Medical Device Solutions) is positioned distal to the occlusion, backflow is obtained and CWP measurement is performed, through the micro-catheter only if the occlusion persists. A pressure guidewire is introduced through the over-the-wire lumen of the micro-catheter and CWP is again recorded.\n3. Coronary stenosis (circulated vessel): the lesion is crossed with a pressure guidewire and CWP is measured during the inflation of the predilatation balloon or during stent balloon inflation in case of a direct stenting procedure.\n\nFollowing CWP measurement, blood samples are collected from a peripheral vein for hsCRP, IL-6, IL-18 and IL-1Ra determination.\n\nThe first 50 patients will not receive study treatment. They will undergo CWP measurement followed by percutaneous revascularization. Cardiac MRI will be performed 3-5 days after the procedure. A cutoff for CWP in predicting MVO, interstitial oedema and intramyocardial haemorrhage will be derived.\n\nBased on the above mentioned cutoff, 188 patients with continuous elevation of the pressure line will be randomized, by a 1:1 model, either to cortisol therapy or to placebo.\n\nGroup A (GA) will be randomized to hydrocortisone during the first 5 days, and Group B (GB) will be randomized to placebo. Following CWP determination, patients in GA will have an intravenous injection of 500 mg of hydrocortisone followed by an intravenous infusion of 500 mg of hydrocortisone in 250 ml of 5% sugar solution over eight to ten hours. This treatment will be repeated daily for the next five days. This protocol was used by Barzilai et al. which reported a significant mortality reduction with therapy.\n\nPCI will be performed according to standard practice, at the discretion of the operator, following CWP measurement. Heparin will be given as an initial bolus of 100 U/kg during the procedure and if necessary, additional boluses will be administered to achieve an activated clotting time of 300sec.\n\nAppropriate secondary prevention will be performed with statins, angiotensin-converting enzyme inhibitors, beta-blockers and dual anti platelet therapy for 1 year.\n\nCARDIAC MAGNETIC RESONANCE (CMR) IMAGE AQUISITION AND ANALYSIS Patients will undergo CMR three to five days after randomization for the evaluation of the primary endpoint (MVO, interstitial edema and hemorrhage) and selected secondary endpoints (infarct size, left ventricular ejection fraction and volumes). A standard protocol will be used on a 1.5T scanner.\n\nIn brief, infarct size and MVO will be assessed by late enhancement in short-axis images covering the left ventricle approximately 15 min after injection of gadolinium chelate. An inversion-recovery turbo gradient-echo sequence will be used for image acquisition. A hypo-intense core within the hyper-enhanced infarcted area will be defined as MVO. For determination of infarct-related myocardial edema/area at risk, short-axis slices covering the LV using a T2-weighted triple- inversion recovery turbo spin-echo sequence before contrast administration will be obtained. Assessment of LV function and volumes will be performed in short-axis slices from base to apex acquired by a standard steady-state free precession technique.\n\nMVO and infarct size will be expressed as percentage of LV mass, given by the sum of the mass of MVO and late gadolinium enhancement regions for all slices divided by the overall mass of the LV myocardial cross-section slices. If present, myocardial salvage index will be calculated as area at risk minus infarct size divided by area at risk multiplied by100.\n\nSTUDY ENDPOINTS The primary endpoint will be the extent of MVO, interstitial edema and hemorrhage assessed by CMR in the modified intention-to-treat population. The correlation between CWP, interstitial edema and surrogate parameters of inflammation from peripheral blood samples will be analyzed. Secondary CMR endpoints will include infarct size, myocardial salvage, LV volumes and ejection fraction. LV ejection fraction and volumes will be determined both at discharge and 6 months after the procedure. For enzymatic infarct size determination, high-sensitivity troponin T after 24 and 48 h will be measured. Clinical endpoints of all-cause and cardiovascular death, myocardial re-infarction, target vessel revascularization, stent thrombosis and stroke will be recorded at 6 months.\n\nSTATISTICAL ANALYSIS The number of patients that would be needed to detect a difference of 21% between GA and GB for the clinical end-point, with a α of 0.05, a β of 0.20 and a 1:1 ratio was calculated using the formula provided by Whitley and Ball. The necessary number of patients, under the risk of dropout of 10%, led to a number of 94 patients per arm.\n\nIntention-to-treat analysis will be applied in the analysis of both primary and secondary end-points. Statistical analyses will be performed using \"Statistical\" software (StatSoft v.8, OK, USA). Quantitative variables will be summarized as mean and standard deviation for normally distributed data and median and interquartile range for abnormally distributed data. Groups will be compared with the Student-t test for independent samples in case of normally distributed quantitative variables. Otherwise, the comparison will be performed with the Mann-Whitney test. Categorical variables will be summarized as frequencies and percentage with 95% associated confidence intervals. Groups will be compared with the Chi-square or Fischer exact test, as appropriate. Statistical analysis will be conducted at a significance level of 5%."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-segment Elevation Myocardial Infarction",
+        "Left Ventricular Remodeling"
+      ],
+      "keywords": [
+        "Acute myocardial infarction",
+        "Left ventricular remodeling",
+        "Coronary wedge pressure",
+        "Glucocorticoid therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "1:1 model randomization",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 77,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Hydrocortisone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients who meet the inclusion criteria, with a CWP above the derived cutoff, with continuous elevation of the pressure line, who are randomized to i.v hydrocortisone administration.",
+          "interventionNames": [
+            "Drug: Hydrocortisone"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients who meet the inclusion criteria, with a CWP above the derived cutoff, with continuous elevation of the pressure line, who are randomized to placebo (sodium chloride 0.9%).",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Hydrocortisone",
+          "description": "I.V. administration",
+          "armGroupLabels": [
+            "Hydrocortisone"
+          ],
+          "otherNames": [
+            "no other name"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "I.V. administration",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "sodium chloride 0.9%"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The extent of interstitial edema",
+          "description": "Cardiac magnetic resonance (CMR) assessment (% of left ventricular end-diastolic mass)",
+          "timeFrame": "3-5 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The extent of microvascular obstruction",
+          "description": "Cardiac magnetic resonance (CMR) assessment (% of left ventricular end-diastolic mass)",
+          "timeFrame": "3-5 days"
+        },
+        {
+          "measure": "The extent of intramyocardial haemorrhage",
+          "description": "Cardiac magnetic resonance (CMR) assessment (% of left ventricular end-diastolic mass)",
+          "timeFrame": "3-5 days"
+        },
+        {
+          "measure": "Infarct size",
+          "description": "CMR assessment (% of left ventricular end-diastolic mass)",
+          "timeFrame": "3-5 days"
+        },
+        {
+          "measure": "Myocardial salvage",
+          "description": "CMR assessment (area at risk minus infarct size divided by area at risk multiplied by100)",
+          "timeFrame": "3-5 days"
+        },
+        {
+          "measure": "Left ventricular ejection fraction",
+          "description": "CMR and echocardiographic assessment (%)",
+          "timeFrame": "3-5 days and 6 months after the procedure"
+        },
+        {
+          "measure": "Left ventricular end-systolic volume",
+          "description": "CMR and echocardiographic assessment (ml)",
+          "timeFrame": "3-5 days and 6 months after the procedure"
+        },
+        {
+          "measure": "Left ventricular end-diastolic volume",
+          "description": "CMR and echocardiographic assessment (ml)",
+          "timeFrame": "3-5 days and 6 months after the procedure"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age: 18-85 years\n* first episode of ST-segment elevation myocardial infarction\n* candidates for primary PCI (typical cardiac chest pain, within 12h of symptom onset, with ST-segment elevation of more than 1 mm in at least two contiguous leads)\n* left anterior descending artery culprit lesion\n\nExclusion Criteria:\n\n* cardiogenic shock\n* previous PCI and coronary artery bypass surgery (CABG)\n* left bundle branch block\n* active bleeding\n* administration of thrombolytic agents for the current episode\n* recent stroke (during last month)\n* indication for oral anticoagulant therapy\n* severe or untreated infection\n* the impossibility of CWP measurement.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Adrian Corneliu Iancu, M.D, Ph.D",
+          "affiliation": "\"Iuliu Hatieganu\" University of Medicine and Pharmacy, Cluj-Napoca",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "\"Niculae Stancioiu\" Heart Institute",
+          "city": "Cluj-Napoca",
+          "state": "Cluj",
+          "zip": "400001",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27126533",
+          "type": "BACKGROUND",
+          "citation": "Westman PC, Lipinski MJ, Luger D, Waksman R, Bonow RO, Wu E, Epstein SE. Inflammation as a Driver of Adverse Left Ventricular Remodeling After Acute Myocardial Infarction. J Am Coll Cardiol. 2016 May 3;67(17):2050-60. doi: 10.1016/j.jacc.2016.01.073."
+        },
+        {
+          "pmid": "18852369",
+          "type": "BACKGROUND",
+          "citation": "Kramer MC, van der Wal AC, Koch KT, Ploegmakers JP, van der Schaaf RJ, Henriques JP, Baan J Jr, Rittersma SZ, Vis MM, Piek JJ, Tijssen JG, de Winter RJ. Presence of older thrombus is an independent predictor of long-term mortality in patients with ST-elevation myocardial infarction treated with thrombus aspiration during primary percutaneous coronary intervention. Circulation. 2008 Oct 28;118(18):1810-6. doi: 10.1161/CIRCULATIONAHA.108.780734. Epub 2008 Oct 13."
+        },
+        {
+          "pmid": "26404192",
+          "type": "BACKGROUND",
+          "citation": "Patel N, Petraco R, Dall'Armellina E, Kassimis G, De Maria GL, Dawkins S, Lee R, Prendergast BD, Choudhury RP, Forfar JC, Channon KM, Davies J, Banning AP, Kharbanda RK. Zero-Flow Pressure Measured Immediately After Primary Percutaneous Coronary Intervention for ST-Segment Elevation Myocardial Infarction Provides the Best Invasive Index for Predicting the Extent of Myocardial Infarction at 6 Months: An OxAMI Study (Oxford Acute Myocardial Infarction). JACC Cardiovasc Interv. 2015 Sep;8(11):1410-1421. doi: 10.1016/j.jcin.2015.04.029."
+        },
+        {
+          "pmid": "26762918",
+          "type": "BACKGROUND",
+          "citation": "Iancu AC, Rafiroiu D, Marc M. Is Coronary Wedge Pressure a Technique to Identify High-Risk Patients Who May Benefit From Alternative Treatment in Acute Myocardial Infarction?: Is This The Next Step? JACC Cardiovasc Interv. 2016 Jan 11;9(1):104-105. doi: 10.1016/j.jcin.2015.10.018. No abstract available."
+        },
+        {
+          "pmid": "20488311",
+          "type": "BACKGROUND",
+          "citation": "Ndrepepa G, Tiroch K, Fusaro M, Keta D, Seyfarth M, Byrne RA, Pache J, Alger P, Mehilli J, Schomig A, Kastrati A. 5-year prognostic value of no-reflow phenomenon after percutaneous coronary intervention in patients with acute myocardial infarction. J Am Coll Cardiol. 2010 May 25;55(21):2383-9. doi: 10.1016/j.jacc.2009.12.054."
+        },
+        {
+          "pmid": "22986471",
+          "type": "BACKGROUND",
+          "citation": "Iancu A, Ober C, Bondor CI, Cadis H. Microvascular effect of intracoronary eptifibatide in acute myocardial infarction. Cardiology. 2012;123(1):46-53. doi: 10.1159/000341197. Epub 2012 Sep 12."
+        },
+        {
+          "pmid": "12714146",
+          "type": "BACKGROUND",
+          "citation": "Giugliano GR, Giugliano RP, Gibson CM, Kuntz RE. Meta-analysis of corticosteroid treatment in acute myocardial infarction. Am J Cardiol. 2003 May 1;91(9):1055-9. doi: 10.1016/s0002-9149(03)00148-6."
+        },
+        {
+          "pmid": "5046847",
+          "type": "BACKGROUND",
+          "citation": "Barzilai D, Plavnick J, Hazani A, Einath R, Kleinhaus N, Kanter Y. Use of hydrocortisone in the treatment of acute myocardial infarction. Summary of a clinical trial in 446 patients. Chest. 1972 May;61(5):488-91. doi: 10.1378/chest.61.5.488. No abstract available."
+        },
+        {
+          "pmid": "24530674",
+          "type": "BACKGROUND",
+          "citation": "Seropian IM, Toldo S, Van Tassell BW, Abbate A. Anti-inflammatory strategies for ventricular remodeling following ST-segment elevation acute myocardial infarction. J Am Coll Cardiol. 2014 Apr 29;63(16):1593-603. doi: 10.1016/j.jacc.2014.01.014. Epub 2014 Feb 13."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D020257",
+          "term": "Ventricular Remodeling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D006854",
+          "term": "Hydrocortisone"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011282",
+          "term": "Pregnenediones"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D015062",
+          "term": "11-Hydroxycorticosteroids"
+        },
+        {
+          "id": "D006889",
+          "term": "Hydroxycorticosteroids"
+        },
+        {
+          "id": "D000305",
+          "term": "Adrenal Cortex Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D015065",
+          "term": "17-Hydroxycorticosteroids"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,379 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07257198",
+      "orgStudyIdInfo": {
+        "id": "MP-33-2026-3610"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "202409PJT-525999-RC1-CFCK-1990",
+          "type": "OTHER_GRANT",
+          "domain": "Canadian Institutes of Health Research"
+        }
+      ],
+      "organization": {
+        "fullName": "Montreal Heart Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Aspirin-free Strategy With Ticagrelor in Patients With a Myocardial Infarction Treated Medically Alone",
+      "officialTitle": "Evaluation of an asPirin-free Strategy With ticAgrelor in patieNTs witH a Myocardial Infarction treatEd Medically alONe (PANTHEON)",
+      "acronym": "PANTHEON"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-03-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-11-20",
+      "studyFirstSubmitQcDate": "2025-11-20",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Guillaume Marquis-Gravel",
+        "investigatorTitle": "Associate professor of clinic",
+        "investigatorAffiliation": "Université de Montréal"
+      },
+      "leadSponsor": {
+        "name": "Montreal Heart Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In patients with a myocardial infarction (MI) treated medically alone, the objective of the PANTHEON trial is to evaluate if ticagrelor monotherapy reduces bleeding events, without an increase in patient-oriented ischemic events, compared with standard dual antiplatelet therapy (DAPT) with aspirin and ticagrelor for 12 months.",
+      "detailedDescription": "Coronary artery disease is associated with more than 9 million deaths per year worldwide. Following hospital discharge for an MI, both bleeding and recurrent ischemic events are associated with a high risk of subsequent mortality. However, the optimal antiplatelet strategy balancing bleeding and ischemic risks in the vulnerable population of patients with a medically managed MI patients (without revascularization) remains unknown, leading to substantial variability in clinical practice. This group represents 35-45% of patients wit hMI in Canada and the United States.\n\nPrimary Objectives To evaluate whether ticagrelor monotherapy is superior to dual antiplatelet therapy (DAPT) in reducing the risk of type 2, 3, or 5 bleeding events according to the BARC classification at 12 months.\n\nTo evaluate whether ticagrelor monotherapy is non-inferior to dual antiplatelet therapy (DAPT) for the composite endpoint of all-cause mortality, myocardial infarction, stroke, or coronary revascularization - a standardized, patient-centered ischemic clinical endpoint as defined by the Academic Research Consortium - at 12 months.\n\nSecondary Objectives To evaluate differences between ticagrelor monotherapy and DAPT regarding the following endpoints at 12 months: individual components of the two primary endpoints; BARC type 3 or 5 bleeding; TIMI minor or major bleeding and its individual components; cardiovascular mortality; any coronary revascularization; the composite of all-cause mortality, MI, or stroke; and NACE, a composite of all-cause mortality, MI, stroke, any coronary revascularization, or type 2, 3, or 5 BARC bleeding."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NSTEMI - Non-ST Segment Elevation MI",
+        "STEMI (ST Elevation MI)",
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Dual antiplatelet therapy",
+        "NSTEMI",
+        "medical treatment",
+        "STEMI",
+        "aspirin",
+        "ticagrelor",
+        "bleeding",
+        "ischemic events",
+        "randomized trial",
+        "pragmatic trial",
+        "randomized controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2570,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Ticagrelor 90 mg orally twice daily + placebo orally once daily",
+          "interventionNames": [
+            "Drug: Ticagrelor + placebo"
+          ]
+        },
+        {
+          "label": "DAPT with ticagrelor and aspirin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Ticagrelor 90 mg orally twice daily + aspirin 80 mg orally once daily",
+          "interventionNames": [
+            "Drug: Ticagrelor + aspirin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor + placebo",
+          "description": "Ticagrelor 90 mg twice daily + placebo once daily",
+          "armGroupLabels": [
+            "Ticagrelor monotherapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor + aspirin",
+          "description": "Ticagrelor 90 mg twice daily + aspirin 80 mg once daily",
+          "armGroupLabels": [
+            "DAPT with ticagrelor and aspirin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Bleeding",
+          "description": "Time to first BARC type 2, 3, or 5 bleeding",
+          "timeFrame": "From randomization to 12 months"
+        },
+        {
+          "measure": "Patient-oriented ischemic clinical endpoint",
+          "description": "Time to first composite of all-cause mortality, MI, stroke, or any coronary revascularization",
+          "timeFrame": "From randomization to 12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Age ≥18 years;\n* Hospitalized for type 1 MI, according to the 4th Universal Definition of MI;\n* Coronary angiogram performed;\n* Planned for medical management alone, without revascularization;\n* Willingness to participate and to attend study visits;\n* Expected life expectancy ≥12 months.\n\nExclusion criteria:\n\n* Patients hospitalized for type 2-5 MI, or unstable angina, according to the 4th Universal Definition of MI;\n* Patients hospitalized for a STEMI with an acute thrombotic lesion of a major epicardial vessel;\n* Elevations in cardiac biomarkers (troponins or CK-MB) that is believed by the investigator not to be of ischemic origin (e.g. myocardial injury, myocarditis, Takotsubo syndrome, etc.);\n* Confirmed or suspected spontaneous coronary artery dissection;\n* Concomitant indication for chronic oral anticoagulant;\n* Concomitant non-coronary indication for dual antiplatelet therapy;\n* Use of any non-trial antiplatelet drug that needs to be continued based on the judgement of the treating physician;\n* Previous hospitalization for MI, PCI, or CABG within 12 months;\n* Known hypersensitivity, intolerance, or contra-indication to ASA or ticagrelor;\n* Unsuitability for either randomization treatment, based on the judgement of the treating physician",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Guillaume Marquis-Gravel, MD",
+          "role": "CONTACT",
+          "phone": "1-514-376-3330",
+          "phoneExt": "2777",
+          "email": "guillaume.marquis.gravel@umontreal.ca"
+        },
+        {
+          "name": "Roseline Therrien",
+          "role": "CONTACT",
+          "phone": "1-514-461-1300",
+          "phoneExt": "2007",
+          "email": "roseline.therrien@seriant.org"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Montreal Heart Institute",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1Y2P3",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "Guillaume Marquis-Gravel, MD",
+              "role": "CONTACT",
+              "phone": "1-514-376-3330",
+              "phoneExt": "2777",
+              "email": "guillaume.marquis.gravel@umontreal.ca"
+            },
+            {
+              "name": "Samara Bloom, Msc",
+              "role": "CONTACT",
+              "phone": "1-514-376-3330",
+              "phoneExt": "2698",
+              "email": "samara.bloom@icm-mhi.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D006470",
+          "term": "Hemorrhage"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

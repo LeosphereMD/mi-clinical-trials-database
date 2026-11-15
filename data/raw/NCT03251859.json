@@ -1,0 +1,335 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03251859",
+      "orgStudyIdInfo": {
+        "id": "CMUMK202H"
+      },
+      "organization": {
+        "fullName": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effectiveness of Lower Maintenance Dose of Ticagrelor Early After Myocardial Infarction (ELECTRA) Pilot Study",
+      "officialTitle": "A Randomized, Open-label, Pharmacodynamic and Pharmacokinetic Trial Assessing the Effect of Lowering Ticagrelor Maintenance Dose Early After Myocardial Infarction on Platelet Inhibition (ELECTRA Pilot Study)."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-08-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-02-23",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-02-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-08-14",
+      "studyFirstSubmitQcDate": "2017-08-14",
+      "studyFirstPostDateStruct": {
+        "date": "2017-08-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jacek Kubica",
+        "investigatorTitle": "Prof. Jacek Kubica, MD, PhD",
+        "investigatorAffiliation": "Collegium Medicum w Bydgoszczy"
+      },
+      "leadSponsor": {
+        "name": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The ELECTRA pilot study is a randomized, open-label, pharmacokinetic and pharmacodynamic trial designed to evaluate the effect of ticagrelor maintenance dose reduction on platelet inhibition in stable patients who recently underwent acute myocardial infarction and were treated with percutaneous coronary intervention."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "platelet reactivity",
+        "ticagrelor",
+        "myocardial infarction",
+        "pharmacodynamics",
+        "antiplatelet therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 52,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard ticagrelor maintenance dose",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Ticagrelor 90 mg twice daily for the first 45 days after myocardial infarction treated with percutaneous coronary intervention.",
+          "interventionNames": [
+            "Drug: Ticagrelor 90 mg"
+          ]
+        },
+        {
+          "label": "Reduced ticagrelor maintenance dose",
+          "type": "EXPERIMENTAL",
+          "description": "Ticagrelor 90 mg twice daily for the first 30 days after myocardial infarction treated with percutaneous coronary intervention, then reduction of the maintenance dose to ticagrelor 60 mg twice daily for the next 15 days.",
+          "interventionNames": [
+            "Drug: Ticagrelor 90 mg",
+            "Drug: Ticagrelor 60 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 90 mg",
+          "description": "Ticagrelor 90 mg twice daily",
+          "armGroupLabels": [
+            "Reduced ticagrelor maintenance dose",
+            "Standard ticagrelor maintenance dose"
+          ],
+          "otherNames": [
+            "Brilique 90 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 60 mg",
+          "description": "Ticagrelor 60 mg daily",
+          "armGroupLabels": [
+            "Reduced ticagrelor maintenance dose"
+          ],
+          "otherNames": [
+            "Brilique 60 mg"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Assessed with the VASP assay",
+          "description": "Platelet inhibition evaluated with the VASP assay 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Assessed with Multiple Electrode Aggregometry",
+          "description": "Platelet inhibition evaluated with Multiple Electrode Aggregometry 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        },
+        {
+          "measure": "Number of Patients With High Platelet Reactivity according to the VASP assay",
+          "description": "Number of Patients With High Platelet Reactivity according to the VASP assay 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        },
+        {
+          "measure": "Number of Patients With High Platelet Reactivity according to Multiple Electrode Aggregometry",
+          "description": "Percentage of Patients With High Platelet Reactivity according to Multiple Electrode Aggregometry 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        },
+        {
+          "measure": "Plasma concentration of Ticagrelor",
+          "description": "Evaluation of ticagrelor plasma concentration 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        },
+        {
+          "measure": "Plasma concentration of AR-C124910XX",
+          "description": "Evaluation of ticagrelor active metabolite plasma concentration 45 days after myocardial infarction.",
+          "timeFrame": "45 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* provision of informed consent prior to any study specific procedures\n* diagnosis of acute ST-segment elevation myocardial infarction or acute non-ST-segment elevation myocardial infarction according to the Third Universal Definition of Myocardial Infarction\n* index event treatment with percutaneous coronary intervention\n* male or non-pregnant female, aged 18-80 years old\n\nExclusion Criteria:\n\n* contraindications for ticagrelor\n* further coronary revascularization planned during the first 45 days after myocardial infarction\n* indications for chronic treatment with oral anticoagulant or low-molecular-weight heparin\n* active bleeding\n* history of intracranial hemorrhage\n* recent gastrointestinal bleeding (within 30 days)\n* history of coagulation disorders\n* history of moderate or severe hepatic impairment\n* history of major surgery or severe trauma (within 3 months)\n* active neoplastic disease\n* patient requiring dialysis\n* chronic inflammatory disease\n* current therapy with strong CYP3A inhibitors or strong CYP3A inducers",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Prof. Jacek Kubica, MD, PhD",
+          "affiliation": "Collegium Medicum im. Ludwika Rydygiera w Bydgoszczy, Uniwersytet Mikołaja Kopernika w Toruniu",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eliano Navarese, Md, PhD",
+          "affiliation": "Collegium Medicum, Nicolaus Copernicus University, Bydgoszcz, Poland",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiology Department, Dr. A. Jurasz University Hospital",
+          "city": "Bydgoszcz",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "85-094",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "30689800",
+          "type": "DERIVED",
+          "citation": "Kubica J, Adamski P, Buszko K, Baranska M, Sikora J, Marszall MP, Sobczak P, Sikora A, Kuliczkowski W, Fabiszak T, Kubica A, Jilma B, Alexopoulos D, Navarese EP. Platelet inhibition with standard vs. lower maintenance dose of ticagrelor early after myocardial infarction (ELECTRA): a randomized, open-label, active-controlled pharmacodynamic and pharmacokinetic study. Eur Heart J Cardiovasc Pharmacother. 2019 Jul 1;5(3):139-148. doi: 10.1093/ehjcvp/pvz004."
+        },
+        {
+          "pmid": "29040445",
+          "type": "DERIVED",
+          "citation": "Kubica J, Adamski P, Buszko K, Kubica A, Kuliczkowski W, Fabiszak T, Jilma B, Alexopoulos D, Paciorek P, Navarese EP. Rationale and Design of the Effectiveness of LowEr maintenanCe dose of TicagRelor early After myocardial infarction (ELECTRA) pilot study. Eur Heart J Cardiovasc Pharmacother. 2018 Jul 1;4(3):152-157. doi: 10.1093/ehjcvp/pvx032."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

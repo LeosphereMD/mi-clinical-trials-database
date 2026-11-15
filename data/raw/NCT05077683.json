@@ -1,0 +1,311 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05077683",
+      "orgStudyIdInfo": {
+        "id": "APHP200015"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-001534-19",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Direct Oral Anticoagulants for Prevention of lEft ventRIcular Thrombus After Anterior Acute Myocardial InFarction - APERITIF",
+      "officialTitle": "Direct Oral Anticoagulants for Prevention of lEft ventRIcular Thrombus After Anterior Acute Myocardial InFarction",
+      "acronym": "APERITIF"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-03-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-02-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-27",
+      "studyFirstSubmitQcDate": "2021-10-01",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "APERITIF is a prospective randomized open-label, blinded end-point (PROBE) trial, nested in the ongoing the \"FRENCHIE\" registry, a French multicenter prospective observational study granted by \"ANR-RHU Grand Emprunt\", in which all consecutive patients admitted within 48 hours after symptom onset in a cardiac Intensive Care Unit (ICU) for an acute myocardial infarction (AMI) are included (NCT04050956). Among them, eligible Patients for \"APERITIF\" will be randomized into two groups: Dual Anti-Platelet Therapy (DAPT) alone or DAPT plus rivaroxaban 2.5mg twice daily for 4 weeks, prescribed as soon as possible after admission and completion of the initial percutaneous coronary intervention/angiography procedure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction, Acute",
+        "Left Ventricular Thrombus"
+      ],
+      "keywords": [
+        "Myocardial infarction",
+        "Left ventricular thrombus"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 560,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "DAPT",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "aspirin (≤100mg per day) and P2Y12 inhibitors (i.e. clopidogrel 75mg per day or ticagrelor 90mg twice a day), as per current guidelines",
+          "interventionNames": [
+            "Drug: DAPT strategy"
+          ]
+        },
+        {
+          "label": "DAPT + Direct Oral AntiCoagulants (DOAC)",
+          "type": "EXPERIMENTAL",
+          "description": "aspirin (≤100mg per day), clopidogrel (75mg per day) or ticagrelor (90mg twice daily) and rivaroxaban 2.5mg twice daily.",
+          "interventionNames": [
+            "Drug: Rivaroxaban 2.5 MG [Xarelto]",
+            "Drug: DAPT strategy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Rivaroxaban 2.5 MG [Xarelto]",
+          "description": "Experimental group: usual DAPT strategy (aspirin (≤100mg per day), clopidogrel (75mg per day) or ticagrelor (90mg twice daily)) + rivaroxaban 2.5mg twice daily.",
+          "armGroupLabels": [
+            "DAPT + Direct Oral AntiCoagulants (DOAC)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "DAPT strategy",
+          "description": "usual DAPT strategy (aspirin (≤100mg per day), clopidogrel (75mg per day) or ticagrelor (90mg twice daily)) +",
+          "armGroupLabels": [
+            "DAPT",
+            "DAPT + Direct Oral AntiCoagulants (DOAC)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of thrombus between the two arms",
+          "description": "The main objective of this randomized trial is to determine whether, in anterior AMI patients (e.g., large necrosis area), the use of rivaroxaban 2.5mg twice daily in addition to DAPT (dual antiplatelet therapy) will reduce LV thrombus formation, compared with the use of DAPT alone (current practice).\n\nThe primary endpoint is the presence of Left Ventricular (LV) thrombus at 1-month, as detected by the validated delayed enhancement (Cardiovascular Magnetic Resonance) CMR method",
+          "timeFrame": "1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Description of the thrombus",
+          "description": "LV thrombus dimension (greatest diameter)",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Rate of bleeding events",
+          "description": "Rate of bleeding events using the Thrombolysis in Myocardial Infarction (TIMI) and the Bleeding Academic Research Consortium (BARC) criteria at 1 month (investigator-reported),",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Rate of major adverse cardiac events (MACE) at 1 month",
+          "description": "Rate of major adverse cardiac events (MACE) defined as a composite of death, non-fatal MI or stroke at 1 month",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Rate of major adverse cardiac events (MACE) at 1 year",
+          "description": "Rate of major adverse cardiac events (MACE) defined as a composite of death, non-fatal MI or stroke at 1-year",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Rate of antithrombotic using",
+          "description": "Antithrombotic drugs used in the patients with confirmed LV thrombus on CMR between 1 month and 1 year",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years;\n* Anterior STEMI (e.g., ST elevation above the J-point of ≥0.1 millivolt in ≥two contiguous leads or left bundle branch block) or very high-risk NSTEMI (e.g., dynamic ECG changes or ongoing chest pain or acute heart failure or hemodynamic instability independent of ECG changes or life-threatening ventricular arrhythmias) with echographic evidence of anterior wall motion abnormalities and, with a culprit lesion of the proximal or mid portion of the left anterior descending (LAD) on the coronary angiography;\n* No contraindication to CMR (e.g., claustrophobia, pacemaker or defibrillator not compatible);\n* Ability to provide written informed consent and willing to participate in 1-month follow-up period.\n* Affiliation of social security regime.\n\nExclusion Criteria:\n\n* Patients with cardiogenic shock (systolic blood pressure \\<90 mmHg with clinical signs of low output or patients requiring inotropic agents);\n* Patients referred to surgery for coronary artery bypass grafting (CABG) or treatment of acute complications (e.g. ventricular septal rupture);\n* Patients treated with fibrinolytic therapy;\n* LV thrombus diagnosed before randomization using a transthoracic echocardiography;\n* Active major bleeding or major surgery within the last 30 days;High bleeding risk (patients considered at increased risk of bleeding during DAPT; e.g. PRECISE-DAPT score \\>25; severe liver failure or Child Pugh class C);\n* Known history of intracranial hemorrhagic stroke or intra-cranial aneurysm;\n* Known history of peptic ulcer;\n* Known stroke (any type) within the last 30 days;\n* Known intolerance to aspirin, P2Y12 inhibitors, rivaroxaban and their excipients;\n* Patients with presence of malignant neoplasms at high risk of bleeding\n* Patients with hepatic impairment\n* According to the SmPC any contraindication to rivaroxaban, aspirin, clopidogrel, ticagrelor\n* Known intolerance to gadolinium chelates;\n* Chronic kidney disease (creatinine clearance (ClCr) \\<30 mL/min);\n* Indication for anticoagulation (e.g. atrial fibrillation, mechanical valves, LV thrombus…);\n* Life expectancy \\<1 month;\n* Known pregnancy at time of randomization (pregnancy test done) or breastfeeding women;\n* Currently participating in another trial\n* Protected adults (including individual under guardianship by court order)\n* Persons deprived of their liberty by judicial or administrative decision",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Etienne PUYMIRAT",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "HEGP",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41739450",
+          "type": "DERIVED",
+          "citation": "Puymirat E, Soulat G, Lattuca B, Bouleti C, Delarche N, Roubille F, Cottin Y, Bression D, Combaret N, Gerbaud E, Lhermusier T, Biere L, Dubreuil O, Mousseaux E, Steg PG, Cayla G, Lemesle G, Silvain J, Dillinger JG, Georges JL, Ducrocq G, Genet T, Morelle JF, Montalescot G, Berard L, Rousseau A, Soen M, Simon T, Danchin N; APERITIF study investigators. Low-Dose Rivaroxaban to Prevent Left Ventricular Thrombosis After Anterior Myocardial Infarction: The APERITIF Randomized Clinical Trial. JAMA Cardiol. 2026 Apr 1;11(4):323-331. doi: 10.1001/jamacardio.2026.0026."
+        },
+        {
+          "pmid": "37716448",
+          "type": "DERIVED",
+          "citation": "Puymirat E, Soulat G, Fayol A, Mousseaux E, Montalescot G, Cayla G, Steg PG, Berard L, Rousseau A, Drouet E, Simon T, Danchin N; APERITIF study investigators. Rationale and design of the direct oral anticoagulants for prevention of left ventricular thrombus after anterior acute myocardial infarction (APERITIF) trial. Am Heart J. 2023 Dec;266:98-105. doi: 10.1016/j.ahj.2023.09.005. Epub 2023 Sep 14."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069552",
+          "term": "Rivaroxaban"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009025",
+          "term": "Morpholines"
+        },
+        {
+          "id": "D010078",
+          "term": "Oxazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

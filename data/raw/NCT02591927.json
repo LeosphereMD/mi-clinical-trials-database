@@ -1,0 +1,334 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02591927",
+      "orgStudyIdInfo": {
+        "id": "32003B_159727"
+      },
+      "organization": {
+        "fullName": "Centre Hospitalier Universitaire Vaudois",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reappraisal of GIK in Acute STEMI by Pre-hospital Administration",
+      "officialTitle": "Reappraisal of Glucose-insulin-potassium Therapy in Acute St-segment Elevation Myocardial Infarction by Pre-hospital Administration",
+      "acronym": "REAGIK-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-10",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-10-28",
+      "studyFirstSubmitQcDate": "2015-10-29",
+      "studyFirstPostDateStruct": {
+        "date": "2015-10-30",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-10-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-10-30",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pier Giorgio Masci",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Centre Hospitalier Universitaire Vaudois"
+      },
+      "leadSponsor": {
+        "name": "Centre Hospitalier Universitaire Vaudois",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is:\n\n1. to assess whether pre-hospital glucose-insulin-potassium (GIK) administration in acute STEMI patients would reduce infarct size and ischemia/reperfusion damage using comprehensive tissue characterization by cardiovascular magnetic resonance (CMR) at an early post-infarction phase.\n2. to explore the putative cardioprotective mechanisms of pre-hospital GIK administration",
+      "detailedDescription": "Background - After an acute ST-segment elevation myocardial infarction (STEMI), early and successful myocardial reperfusion with primary percutaneous coronary intervention (PCI) is the most effective strategy for reducing the infarct size and improving clinical outcome. The process of restoring blood flow to the ischemic myocardium, however, can induce injury per se, paradoxically increasing the extent of final infarction (i.e., reperfusion injury). Research has been focusing for years on a strategy to effectively counteract reperfusion injury and, thereby, reduce the final infarct size with salutary effects on clinical outcome. Robust experimental evidences support Glucose-Insulin-Potassium (GIK) as an effective cardioprotective agent being capable to metabolically protect the myocardium against ischemia and ischemia/reperfusion injury. These benefits are clearly related to the time that GIK is administered in the course of cardiac ischemia, with effectiveness increasing with early administration. However, clinical trials in the reperfusion era have lost the opportunity to translate the beneficial effects seen in the laboratory to the clinical setting, because of the unacceptably prolonged delay from the onset of ischemic symptoms to GIK administration. A properly-designed prospective trial with double-blinded randomization to placebo or GIK in the out-of-hospital setting would straightforwardly overcome this limitation, thereby providing convincing evidences in favor or disfavor of GIK treatment. Notable, GIK is an un-expensive compound, and upon the verification of its efficacy, GIK treatment would be ready for primetime clinical application with matchless cost/effectiveness profile.\n\nAims\n\n1. to assess whether pre-hospital GIK administration in acute STEMI patients would reduce infarct size and ischemia/reperfusion damage using comprehensive tissue characterization by cardiovascular magnetic resonance (CMR) at an early post-infarction phase.\n2. to explore the putative cardioprotective mechanisms of pre-hospital GIK administration\n\nMethods - The investigators will conduct a single-center randomized, placebo-controlled, double-blinded trial for testing the efficacy of pre-hospital GIK administration in patients with acutely reperfused STEMI. The pre-specified primary end-point is the reduction of infarct size, as quantitated by late gadolinium enhancement CMR in the early post-infarction phase. Major secondary end-points are: 1) reduction of ischemia/reperfusion injury quantitated by CMR, and 2) investigation of the putative cardioprotective mechanisms ofGIK treatment in subjects with acute STEMI.\n\nOutlook: The investigators study results, if positive, will persuade the scientific community to reconsider pre-hospital GIK treatment as adjunctive to primary PCI in acute STEMI patients and revitalize the field of metabolism-based cardioprotection. They will illustrate by which mechanisms cardioprotection is achieved in the clinical setting, prompting large prospective multicentre trials to test the efficacy of pre-hospital GIK administration on hard clinical end-points."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "myocardial infarction",
+        "glucose-insulin-potassium"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 334,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Glucose-Insulin-Potassium",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Rackley's Glucose-Insulin-Potassium formula consisting of 30% glucose (300 mg/L), 50 units of regular insulin per liter and 80 mEqu of KCL per liter.",
+          "interventionNames": [
+            "Drug: Glucose-Insulin-Potassium"
+          ]
+        },
+        {
+          "label": "Glucose 5%",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Glucose 5%",
+          "interventionNames": [
+            "Drug: Glucose 5%"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glucose-Insulin-Potassium",
+          "description": "Rackley's GIK formula by continuous I.V. infusion at 1.5 ml/Kg/hour for 12 hours (about 100 ml/hour for a 70 kg patient).",
+          "armGroupLabels": [
+            "Glucose-Insulin-Potassium"
+          ],
+          "otherNames": [
+            "GIK"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Glucose 5%",
+          "description": "Glucose 5% (Placebo) by continuous I.V. infusion at 1.5ml/kg/hour for 12 hours (about 100 ml/hour for 70 Kg patient)",
+          "armGroupLabels": [
+            "Glucose 5%"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Infarct size quantified by Late Gadolinium Enhancement using Cardiovascular Magnetic Resonance",
+          "timeFrame": "12 to 72 hours after the acute event"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The severity of ischemia/reperfusion injury (myocardial edema, microvascular obstruction and myocardial hemorrhage)",
+          "description": "The of ischemia/reperfusion injury will be assessed by multiparametric CMR",
+          "timeFrame": "12 to 72 hours after the acute event"
+        },
+        {
+          "measure": "Major Adverse Cardiovascular Events",
+          "timeFrame": "at 7-day, 30-day, 4-month and at 1-year follow-up"
+        },
+        {
+          "measure": "Post-infarction Remodeling",
+          "description": "Adverse post-infarction remodeling is defined as increase of LV end-systolic volume more than 15% between the first CMR (12 to 72 hours after the acute event) and second CMR (4-month after the acute event)",
+          "timeFrame": "4-month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with the diagnosis of acute STEMI\n2. age≥ 18\n3. informed consent for study participation.\n\nExclusion Criteria evaluated during ambulance transport to primary PCI center:\n\n1. end-stage renal failure requiring dialysis,\n2. prior MI or coronary revascularization (PCI or CABG),\n3. active malignances,\n4. Pregnancy,\n5. Hemodynamic instability (systolic blood pressure \\<100mmHg or significant pulmonary congestion defined as O2 saturation \\<90% on ambient air at pulso-oxymetry)\n\nExclusion Criteria evaluated after hospital admission at the primary PCI center (all patients will be re-evaluated for study continuation):\n\n1. total ischemic time more than 8 hours (from symptoms onset to infarct-related artery mechanical re-opening)\n2. evidence at diagnostic angiograms of TIMI flow-grade \\>1 of infarct-related artery or significant epicardial collaterals to the ischemic myocardium at risk (Rentrop flow-grade \\>1),\n3. moderate-to-severe renal failure (estimated glomerular filtration rate \\< 30 ml/min/1.73 m2 by Cockcroft-Gault formula) and\n4. urgent CABG.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Pier-Giorgio Masci, MD",
+          "role": "CONTACT",
+          "phone": "79-556-48-63",
+          "phoneExt": "+41",
+          "email": "pgmasci@gmail.com"
+        },
+        {
+          "name": "Juerg Schwitter, MD",
+          "role": "CONTACT",
+          "phone": "79-556-83-27",
+          "phoneExt": "+41",
+          "email": "jurg.schwitter@chuv.ch"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Pier-Giorgio Masci, MD",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Juerg Schwitter, MD",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "Pierre Vogt, MD",
+          "affiliation": "Centre Hospitalier Universitaire Vadois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Eric Eeckhout, MD",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Juan-Fernando Iglesias",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Olivier Muller",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Olivier Hugli",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Fabrice Dami",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Pierre Monney",
+          "affiliation": "Centre Hospitalier Universitaire Vaudois",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Hospitalier Universitaire Vaudois - CHUV",
+          "city": "Lausanne",
+          "state": "Canton of Vaud",
+          "zip": "1011",
+          "country": "Switzerland",
+          "contacts": [
+            {
+              "name": "PierGiorgio Masci, MD, PhD",
+              "role": "CONTACT",
+              "phone": "79-556-48-63",
+              "phoneExt": "+41",
+              "email": "pgmasci@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.516,
+            "lon": 6.63282
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23459576",
+          "type": "BACKGROUND",
+          "citation": "Grossman AN, Opie LH, Beshansky JR, Ingwall JS, Rackley CE, Selker HP. Glucose-insulin-potassium revived: current status in acute coronary syndromes and the energy-depleted heart. Circulation. 2013 Mar 5;127(9):1040-8. doi: 10.1161/CIRCULATIONAHA.112.130625. No abstract available."
+        },
+        {
+          "pmid": "22452807",
+          "type": "BACKGROUND",
+          "citation": "Selker HP, Beshansky JR, Sheehan PR, Massaro JM, Griffith JL, D'Agostino RB, Ruthazer R, Atkins JM, Sayah AJ, Levy MK, Richards ME, Aufderheide TP, Braude DA, Pirrallo RG, Doyle DD, Frascone RJ, Kosiak DJ, Leaming JM, Van Gelder CM, Walter GP, Wayne MA, Woolard RH, Opie LH, Rackley CE, Apstein CS, Udelson JE. Out-of-hospital administration of intravenous glucose-insulin-potassium in patients with suspected acute coronary syndromes: the IMMEDIATE randomized controlled trial. JAMA. 2012 May 9;307(18):1925-33. doi: 10.1001/jama.2012.426. Epub 2012 Mar 27."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C030396",
+          "term": "glucose-insulin-potassium cardioplegic solution"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

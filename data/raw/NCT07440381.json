@@ -1,0 +1,811 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07440381",
+      "orgStudyIdInfo": {
+        "id": "G114"
+      },
+      "organization": {
+        "fullName": "Heart Care Foundation",
+        "class": "OTHER"
+      },
+      "briefTitle": "triPle Oral thERapy With Bempedoic Acid vs uSual Care in Early Lipid Management of Patients With acUte coronAry synDromE",
+      "officialTitle": "triPle Oral thERapy With Bempedoic Acid vs uSual Care in Early Lipid Management of Patients With acUte coronAry synDromE (PERSUADE) Trial",
+      "acronym": "PERSUADE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-02-20",
+      "studyFirstSubmitQcDate": "2026-02-26",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Heart Care Foundation",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Daiichi Sankyo Europe, GmbH, a Daiichi Sankyo Company",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Early and intensive LDL-cholesterol (LDL-c) reduction is associated with improved short-term and long-term outcomes. Bempedoic acid is an oral ATP citrate lyase inhibitor that lowers LDL-c upstream of HMG-CoA reductase. When added to maximally tolerated statins, it has demonstrated significant LDL-c reduction and cardiovascular benefit, particularly in statin-intolerant or high-risk patients. However, evidence on early initiation of bempedoic acid during the index ACS hospitalization is currently lacking. The investigators therefore would like to see whether early (pre-discharge) initiation of an oral triple lipid-lowering therapy including bempedoic acid, high-intensity statin (HIS), and ezetimibe is superior to usual care in reducing LDL-c levels at 8 weeks after randomization in patients hospitalized for ACS.",
+      "detailedDescription": "Despite major improvements in the acute management of Acute Coronary Syndromes (ACS), recurrent cardiovascular events remain frequent after hospital discharge. Real-world registries consistently show suboptimal implementation of guideline-recommended lipid-lowering strategies, with more than 60% of patients failing to achieve recommended LDL-cholesterol (LDL-c) targets after ACS. Early and intensive LDL-c reduction is associated with improved short-term and long-term outcomes. While injectable lipid-lowering therapies such as PCSK9 inhibitors have demonstrated rapid LDL-c reduction when initiated early after ACS, their high cost and parenteral administration limit widespread adoption. Bempedoic acid is an oral ATP citrate lyase inhibitor that lowers LDL-c upstream of HMG-CoA reductase. When added to maximally tolerated statins, it has demonstrated significant LDL-c reduction and cardiovascular benefit, particularly in statin-intolerant or high-risk patients. However, evidence on early initiation of bempedoic acid during the index ACS hospitalization is currently lacking."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndromes",
+        "Secondary Prevention",
+        "Lipids"
+      ],
+      "keywords": [
+        "ACS",
+        "Lipid-lowering therapy",
+        "atherothrombotic coronary event",
+        "secondary prevention",
+        "triple oral lipid lowering therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Usual Care"
+        },
+        {
+          "label": "High intensity statin plus ezetimibe plus bempedoic acid",
+          "type": "EXPERIMENTAL",
+          "description": "patients will receive a triple oral lipid lowering therapy including a high intensity statin, ezetimibe and bempedoic acid",
+          "interventionNames": [
+            "Drug: Triple oral lipid lowering treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Triple oral lipid lowering treatment",
+          "description": "Triple oral lipid lowering treatment including high intensity statin, ezetimibe and bembedoic acid",
+          "armGroupLabels": [
+            "High intensity statin plus ezetimibe plus bempedoic acid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean percent change in LDL-c levels",
+          "description": "the difference in the mean percent change in LDL-c levels from baseline at 8 weeks between triple combo therapy and usual care.",
+          "timeFrame": "8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of patients with LDL-c level <70 mg/dL",
+          "description": "Difference in percentage of patients with LDL-c level \\<70 mg/dL at 8 weeks",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percentage of patients with LDL-c level <55 mg/dL",
+          "description": "Difference in percentage of patients with LDL-c level \\<55 mg/dL at 8 weeks",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Percentage of patients with LDL-c level <40 mg/dL in those with a recurrent ACS event in the previous 48 months",
+          "description": "Difference in percentage of patients with LDL-c level \\<40 mg/dL at 8 weeks in those with a recurrent ACS event in the previous 48 months",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Change in high-sensitivity CRP (hs-CRP)",
+          "description": "Change in high-sensitivity CRP (hs-CRP) at 8 weeks",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Persistence of active treatment and discontinuation rate",
+          "description": "Rate of persistence of active treatment and discontinuation rate of allocated treatment",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Rate of adverse events",
+          "description": "Safety of the investigational study drug by adverse event recording",
+          "timeFrame": "8 weeks"
+        },
+        {
+          "measure": "Rate of adverse events",
+          "description": "Safety of the investigational study drug by adverse event recording",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Male and females at birth\n* Admitted for ACS caused by an atherothrombotic coronary event;\n* Calculated LDL-c: 70-140 mg/dL within 24 hours from admission for the ACS index event\n* Lipid lowering therapy on admission consisting of a low/moderate intensity statin or a high intensity statin (HIS); or no lipid lowering therapy (naïve patients)\n* Lipid-lowering therapy at discharge (at the time of randomization) consisting of HIS or HIS + ezetimibe\n* Scheduled home discharge\n* Written informed consent provided; patients who are unable to give informed consent for any reason will be excluded from the study.\n\nExclusion Criteria:\n\n* Patients already treated with HIS+Ezetimibe on admission for the ACS event,\n* Patients currently, previously or planned to be treated with PCSK9i or inclisiran,\n* Patients treated currently or in the last 3 months with bempedoic acid or in whom this treatment is planned in the following 8 weeks,\n* Known allergy, sensitivity or intolerance to bempedoic acid and/or study drugs' formulation ingredients (e.g. lactose intolerance),\n* Patients with history of documented intolerance to statins, ezetimibe or bempedoic acid\n* Patients with known Familial Hypercholesterolemia (FH; heterozygous or homozygous),\n* Patients with plasma triglycerides concentration exceeding 400 mg/dL (4.52 mmol/L),\n* Patients with dysbetalipoproteinemia (type III hyperlipoproteinemia),\n* Unstable clinical status (hemodynamic or electrical instability),\n* Severe renal dysfunction (eGFR \\<30 ml/min/1.73m2 using the CKD-EPI formula),\n* Active liver disease or hepatic dysfunction (AST or ALT levels \\> 3xUNL),\n* Current enrolment in another investigational device or drug study,\n* Current pregnancy, lactation or women of childbearing potential, unless using highly effective contraception,\n* Patients unlikely to comply with the protocol or unable to understand the nature, scope and possible consequences of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Francesco Orso, MD",
+          "role": "CONTACT",
+          "phone": "+390555101230",
+          "email": "persuade@heartcarefoundation.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Furio Colivicchi, MD",
+          "affiliation": "San Filippo neri Hospital - Rome",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Aldo P Maggioni, MD",
+          "affiliation": "Fondazione per il Tuo cuore",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Pietro Scicchitano, MD",
+          "affiliation": "Ospedale Miulli - Bari",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ospedale Miulli - U.O.C. CARDIOLOGIA - UTIC",
+          "city": "Acquaviva delle Fonti",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Massimo Grimaldi, MD",
+              "role": "CONTACT",
+              "email": "m.grimaldi@miulli.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.89704,
+            "lon": 16.8433
+          }
+        },
+        {
+          "facility": "Ospedale Della Murgia - Fabio Perinei - S.C. Cardiologia-Utic",
+          "city": "Altamura",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Pietro Scicchitano, MD",
+              "role": "CONTACT",
+              "email": "pietro.scicchitano@asl.bari.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.82664,
+            "lon": 16.54952
+          }
+        },
+        {
+          "facility": "Ospedale San Donato - U.O.C Cardiologia",
+          "city": "Arezzo",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alessandra Sabini, MD",
+              "role": "CONTACT",
+              "email": "alesabini@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.46276,
+            "lon": 11.88068
+          }
+        },
+        {
+          "facility": "Aorn San Giuseppe Moscati - U.O. Cardiologia/Utic 'D. Rotiroti'",
+          "city": "Avellino",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesca Lanni, MD",
+              "role": "CONTACT",
+              "email": "francesca.lanni@aornmoscati.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.91494,
+            "lon": 14.79103
+          }
+        },
+        {
+          "facility": "Ospedale San Paolo - Cardiologia-Utic",
+          "city": "Bari",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Cosimo Campanella, MD",
+              "role": "CONTACT",
+              "email": "cosimocamp@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.12066,
+            "lon": 16.86982
+          }
+        },
+        {
+          "facility": "Ospedale Santo Spirito - SC Cardiologia",
+          "city": "Casale Monferrato",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Federico Nardi, MD",
+              "role": "CONTACT",
+              "email": "fnardi@aslal.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.13338,
+            "lon": 8.4525
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera S. Anna E S. Sebastiano - U.O. Cardiologia D'Emergenza Con Utic",
+          "city": "Caserta",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Paolo Calabrò, MD",
+              "role": "CONTACT",
+              "email": "paolo.calabro@unicampania.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.07262,
+            "lon": 14.33231
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Cannizzaro - Uoc Cardiologia",
+          "city": "Catania",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Simona Giubilato, MD",
+              "role": "CONTACT",
+              "email": "simogiub@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "OSPEDALE PIO XI - UOC di Cardiologia",
+          "city": "Desio",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Felice Achilli, MD",
+              "role": "CONTACT",
+              "email": "felice.achilli@asst-brianza.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.61831,
+            "lon": 9.20249
+          }
+        },
+        {
+          "facility": "Presidio Ospedaliero \"Santa Maria Del Prato\" - U.O.C. Di Cardiologia-Utic",
+          "city": "Feltre",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Christian Piergentili, MD",
+              "role": "CONTACT",
+              "email": "christian.piergentili@aulss1.veneto.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.02085,
+            "lon": 11.90031
+          }
+        },
+        {
+          "facility": "Arcispedale Sant'Anna - U.O. Cardiologia",
+          "city": "Ferrara",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Gabriele Guardigli, MD",
+              "role": "CONTACT",
+              "email": "grdgrl@unife.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          }
+        },
+        {
+          "facility": "Aou Careggi - Interventistica Cardiologica Strutturale",
+          "city": "Florence",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesco Meucci, MD",
+              "role": "CONTACT",
+              "email": "francescomeu19@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "Policlinico Riuniti - S.C. Di Cardiologia Universitaria-Utic",
+          "city": "Foggia",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Natale D Brunetti, MD",
+              "role": "CONTACT",
+              "email": "natale.brunetti@unifg.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.45845,
+            "lon": 15.55188
+          }
+        },
+        {
+          "facility": "Ospedale Del Tigullio Polo Lavagna - Sc Cardiologia E Utic",
+          "city": "Lavagna",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Guido Parodi, MD",
+              "role": "CONTACT",
+              "email": "guido.parodi@asl4.liguria.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.3062,
+            "lon": 9.35383
+          }
+        },
+        {
+          "facility": "OSPEDALE CIVILE FORNAROLI - UO Cardiologia",
+          "city": "Magenta",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alessandra Russo, MD",
+              "role": "CONTACT",
+              "email": "alessandra.russo@asst-ovestmi.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.46456,
+            "lon": 8.88453
+          }
+        },
+        {
+          "facility": "Asst Ospedale Metropolitano Niguarda - Cardiologia 1 - Emodinamica",
+          "city": "Milan",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Giovanna Viola, MD",
+              "role": "CONTACT",
+              "email": "giovanna.viola@ospedaleniguarda.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Fondazione Irccs Ca' Granda Ospedale Maggiore Policlinico - Uoc Malattie Cardiovascolari",
+          "city": "Milan",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Stefano Carugo, MD",
+              "role": "CONTACT",
+              "email": "stefano.carugo@unimi.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Irccs Ospedale Galeazzi - Sant'Ambrogio - Cardiologia Universitaria Ed Imaging Cardiaco",
+          "city": "Milan",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Daniele Andreini, MD",
+              "role": "CONTACT",
+              "email": "daniele.andreini@unimi.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Ospedale Policlinico - Uoc Di Cardiologia",
+          "city": "Modena",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Guseppe Boriani, MD",
+              "role": "CONTACT",
+              "email": "giuseppe.boriani@unimore.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Aou Policlinico P. Giaccone - U.O.C. Cardiologia",
+          "city": "Palermo",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alfredo R Galassi, MD",
+              "role": "CONTACT",
+              "email": "alfredo.galassi@unipa.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Arnas P.O. Civico E Benfratelli - Uoc Utic",
+          "city": "Palermo",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Ignazio M Smecca, MD",
+              "role": "CONTACT",
+              "email": "ignaziomaria.smecca@arnascivico.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "FONDAZIONE IRCCS POLICLINICO SAN MATTEO - UOC Cardiologia",
+          "city": "Pavia",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Leonardo De Luca, MD",
+              "role": "CONTACT",
+              "email": "l.deluca@smatteo.pv.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "facility": "Ospedale Santo Spirito - Cardiologia Con Utic",
+          "city": "Pescara",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Massimo Di Marco, MD",
+              "role": "CONTACT",
+              "email": "massimo.dimarco@asl.pe.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.4584,
+            "lon": 14.20283
+          }
+        },
+        {
+          "facility": "Ospedale San Jacopo - Soc Cardiologia",
+          "city": "Pistoia",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Paola Angelotti, MD",
+              "role": "CONTACT",
+              "email": "paola.Angelotti@uslcentro.toscana.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.93064,
+            "lon": 10.92365
+          }
+        },
+        {
+          "facility": "Aor San Carlo - Ospedale San Carlo - Ssd Terapia Intensiva Cardiologica",
+          "city": "Potenza",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Pasqualino Innelli, MD",
+              "role": "CONTACT",
+              "email": "pasquale.innelli@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.64175,
+            "lon": 15.80794
+          }
+        },
+        {
+          "facility": "Ospedale Giovanni Paolo Ii - U.O.C. Cardiologia-Utic",
+          "city": "Ragusa",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Antonino Nicosia, MD",
+              "role": "CONTACT",
+              "email": "antonino.nicosia@asp.rg.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.92574,
+            "lon": 14.72443
+          }
+        },
+        {
+          "facility": "Po Santa Maria Nuova - Ausl Re Irccs - Soc Cardiologia Ospedaliera",
+          "city": "Reggio Emilia",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alessandro Navazio, MD",
+              "role": "CONTACT",
+              "email": "alessandro.navazio@ausl.re.it,a.navazio@iol.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.69825,
+            "lon": 10.63125
+          }
+        },
+        {
+          "facility": "OSPEDALE DEGLI INFERMI - SC Cardiologia",
+          "city": "Rivoli",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Emanuele Tizzani, MD",
+              "role": "CONTACT",
+              "email": "etizzani@aslto3.piemonte.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.07073,
+            "lon": 7.51465
+          }
+        },
+        {
+          "facility": "Ospedale San Camillo - Uoc Cardiologia",
+          "city": "Roma",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Domenico Gabrielli, MD",
+              "role": "CONTACT",
+              "email": "dgabrielli@scamilloforlanini.rm.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "P.O. San Filippo Neri - Asl Roma 1 - Cardiologia Clinica E Riabilitativa",
+          "city": "Roma",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Furio Colivicchi, MD",
+              "role": "CONTACT",
+              "email": "furio.colivicchi@aslroma1.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "PRESIDIO OSPEDALIERO - UO Cardiologia",
+          "city": "Sanremo",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Fabio Ferrari, MD",
+              "role": "CONTACT",
+              "email": "ferrari.cardiologo@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.81725,
+            "lon": 7.7772
+          }
+        },
+        {
+          "facility": "P.O. Levante - Ospedale San Paolo - S.C. Cardiologia Levante",
+          "city": "Savona",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alberto Somaschini, MD",
+              "role": "CONTACT",
+              "email": "alberto.somaschini08@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.30905,
+            "lon": 8.47715
+          }
+        },
+        {
+          "facility": "OSPEDALE SANTA CHIARA - Divisione di Cardiologia",
+          "city": "Trento",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Michela Saltori, MD",
+              "role": "CONTACT",
+              "email": "michela.saltori@apss.tn.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.06787,
+            "lon": 11.12108
+          }
+        },
+        {
+          "facility": "OSPEDALE CA' FONCELLO - UOC Cardiologia",
+          "city": "Treviso",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Nicola Gasparetto, MD",
+              "role": "CONTACT",
+              "email": "nicola.gasparetto@aulss2.veneto.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.66673,
+            "lon": 12.2416
+          }
+        },
+        {
+          "facility": "Nuovo Ospedale Di Vimercate - S.C. Cardiologia E Utic",
+          "city": "Vimercate",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Antonio Cirò, MD",
+              "role": "CONTACT",
+              "email": "antonio.ciro@asst-brianza.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.61545,
+            "lon": 9.36801
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

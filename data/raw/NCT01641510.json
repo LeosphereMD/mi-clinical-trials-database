@@ -1,0 +1,302 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01641510",
+      "orgStudyIdInfo": {
+        "id": "PRAISE-GENE"
+      },
+      "organization": {
+        "fullName": "Dong-A University",
+        "class": "OTHER"
+      },
+      "briefTitle": "PRAsugrel or clopIdogrel In Acute Coronary SyndromE With CYP2C19 GENEtic Variants",
+      "officialTitle": "Phase 3 Study Comparing the Efficacy and Safety of Prasugrel and Clopidogrel in Acute Coronary Syndrome Patients With CYP2C19 Polymorphism Who Undergo Percutaneous Coronary Intervention.",
+      "acronym": "PRAISE-GENE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-07-02",
+      "studyFirstSubmitQcDate": "2012-07-12",
+      "studyFirstPostDateStruct": {
+        "date": "2012-07-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-02-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-02-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Moo Hyun Kim",
+        "investigatorTitle": "MD. Director, Regional Clinical Trial Center. Professor, Dept. of Cardiology Dong-A University Hospital",
+        "investigatorAffiliation": "Dong-A University"
+      },
+      "leadSponsor": {
+        "name": "Dong-A University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators hypothesize that reduced loading dose of prasugrel followed by reduced maintenance dose of prasugrel in acute coronary syndrome patients with CYP2C19 polymorphism undergoing percutaneous coronary intervention might exhibit lower platelet reactivity 24 hours and 30 days later which is associated with major adverse cardiovascular events.",
+      "detailedDescription": "Antiplatelet treatment is recommended worldwide for the secondary prevention and clopidogrel is an essential drug. But clopidogrel has limited value because of its pharmacodynamic interpatient variability and delayed onset time.\n\nIt is well known that patients who carry a common reduced-function CYP2C19 allele have a lower level of active metabolite of clopidogrel, diminished platelet inhibition, and furthermore, higher rate of major adverse cardiovascular events than noncarriers.\n\nTo achieve maximum plateau more rapidly and reduce the rate of high on-treatment platelet reactivity, higher loading dose of clopidogrel, up to 600 mg, is recommended. Although, however, the higher loading dose of clopidogrel, many patients still remain as non-responder.\n\nIncidence of patients with clopidogrel resistance, especially CYP2C19\\*2 and \\*3, which encounter loss function, is higher in Eastern Asian peoples than Western peoples. Some studies report incidence rate of clopidogrel resistance in Eastern Asian peoples up to 99%.\n\nHowever, the metabolism is not influenced by the presence of CYP2C19 genetic variation and prasugrel shows potent platelet inhibition. Although prasugrel exhibit potent platelet inhibition, recent reports describe the possible over inhibition of platelet especially in the East Asian people.\n\nThe investigators are going to compare the efficacy and safety of loading dose of prasugrel 30 mg which is lower than conventional loading dose followed by 5 mg/day which is also lower than conventional maintenance dose for 30 days and loading dose of clopidogrel 600 mg followed by 75 mg/day for 30 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndromes"
+      ],
+      "keywords": [
+        "reduced-function CYP2C19 allele",
+        "high platelet reactivity",
+        "clopidogrel",
+        "prasugrel"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "Loading and maintenance dose of prasugrel",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Loading and maintenance dose of clopidogrel",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Loading with prasugrel 30 mg followed by daily administration of prasugrel 5 mg",
+          "armGroupLabels": [
+            "Prasugrel"
+          ],
+          "otherNames": [
+            "Effient"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Loading with clopidogrel 600 mg followed by daily administration of clopidogrel 75 mg",
+          "armGroupLabels": [
+            "Clopidogrel"
+          ],
+          "otherNames": [
+            "Plavix",
+            "Plavitor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HPR 1 day",
+          "description": "High platelet reactivity unit defined as platelet reactivity of 242u or more using VerifyNow method at 24 hours after PCI",
+          "timeFrame": "24 hours after PCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE",
+          "description": "Major adverse cardiovascular events consist of cardiac death, myocardial infarction, stroke, stent thrombosis, cardiac enzyme (CRP, CK-MB, Troponin-I)",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "Bleeding",
+          "description": "Major, minor or minimal bleeding defined by TIMI(thrombolysis in myocardial infarction) bleeding criteria",
+          "timeFrame": "30 days"
+        },
+        {
+          "measure": "HPRs",
+          "description": "High platelet reactivity unit defined as platelet reactivity of 240u or more using VerifyNow method at 4 hours and 30 days after PCI",
+          "timeFrame": "4 hours after PCI, 30 days after PCI"
+        },
+        {
+          "measure": "HPR by VASP at 24 hours",
+          "description": "HPR defined by VASP at 24 hours after PCI",
+          "timeFrame": "24 hours from PCI"
+        },
+        {
+          "measure": "HPR by VASP at 30 days",
+          "description": "HPR by VASP at 30 days from PCI",
+          "timeFrame": "30 days from PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute coronary syndrome\n* Patients planned to undergo percutaneous transluminal coronary angioplasty\n* Patients who agreed to the experimental plan which was permitted by IRB\n\nExclusion Criteria:\n\n* Low body weight (\\< 50kg)\n* History of stroke or transient ischemic attack\n* History of upper gastrointestinal bleeding in recent 6 months\n* Renal dysfunction defined by serum creatinine \\> 2.5 mg/dl\n* Severe hepatic dysfunction defined by Child-Pugh criteria B or C\n* Bleeding tendency\n* Anticoagulation treatment including warfarin\n* Thrombocytopenia defined by platelet \\< 100,000/ml\n* Anemia defined by hemoglobin \\< 10 g/dl\n* Contraindication for antiplatelet treatment or anticoagulation treatment\n* History of administer glycoprotein IIb/IIIa inhibitor in recent 24hrs or planned to",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Moo Hyun Kim, MD",
+          "affiliation": "Director, Regional Clinical Trial Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "DongA University Hospital",
+          "city": "Busan",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

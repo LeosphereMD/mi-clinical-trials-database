@@ -1,0 +1,641 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07380919",
+      "orgStudyIdInfo": {
+        "id": "2025-520801-12-00"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2025"
+        }
+      ],
+      "organization": {
+        "fullName": "Federico II University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Inhibition of Late Sodium Current (INa) to Prevent Coronary MICROvascular Dysfunction in Patients Presenting With ST-Elevation Myocardial Infarction and Multivessel Disease: INaMICRON Study",
+      "officialTitle": "Inhibition of Late Sodium Current (INa) to Prevent Coronary MICROvascular Dysfunction in Patients Presenting With ST-Elevation Myocardial Infarction and Multivessel Disease: A Multicenter, Randomized, Controlled and Open Label Study (INaMICRON Study)",
+      "acronym": "INaMICRON"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-15",
+      "studyFirstSubmitQcDate": "2026-01-23",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Luigi Di Serafino",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Federico II University"
+      },
+      "leadSponsor": {
+        "name": "Federico II University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Università Magna Grecia, Catanzaro",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "Santa Maria Goretti Hospital, Latina",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase IIb, multicentric, prospective, randomized (1:1 ratio), open label, and no profit study, with the aim of evaluating the efficacy of late INa current inhibition to improve coronary microcirculation in patients presenting with acute myocardial infarction and multivessel disease.\n\nAll consecutive patients presenting with acute MI undergoing primary PCI (pPCI) on a major coronary artery, and with at least one remaining angiographically significant (% diameter stenosis \\> 50%) non-culprit stenosis will be enrolled.\n\nThe primary objective of the study is to evaluate the potential effect of Ranolazine in preserving coronary microcirculation subtended to the culprit vessel as compared with control group. Coronary microcirculation will be assessed both at the time of the culprit lesion revascularization and within 6+/-2 weeks by measuring the Index of Microcirculatory Resistance (IMR) either invasively or derived by the angiography (angioIMR).\n\nIn addition, the following secondary endpoints will be assessed: 1. The prevalence of residual CMD downstream to the culprit vessel in all patients (CMDculprit). CMDculprit will be defined as the finding of an IMR/angioIMR value \\> 25, assessed after successful pPCI.\n\n2\\. The prevalence of CMD downstream to the non-culprit vessel in the two group of patients (CMDnon-culprit). CMDnon-culprit will be defined as the finding of an IMRnon-culprit or an angioIMRnon-culprit value \\> 25. IMRnon-culprit or angioIMRnon-culprit will be assessed at the time of staged PCI of the non-culprit stenosis.\n\n3\\. The incidence of peri-procedural CMD after staged PCI of the non-culprit stenoses, defined as a 20% increase of IMR values assessed before and after elective PCI of the non-culprit vessel (CMDprocedural).\n\n4\\. The difference between the two groups of patients, in terms of incidence of periprocedural Myocardial Infarction (PMI), eventually occurring during the staged procedure.\n\n5\\. The effects of INa current inhibition on endothelial function assessed at follow up as compared with control group.\n\n6\\. The extent of the Infarct Size, as assessed by the CMR, as compared with control group.\n\n7\\. The incidence of MACE, defined as composite of death, myocardial infarction, periprocedural MI, or any unplanned percutaneous coronary revascularization at short (42+/-7 days) term follow-up.\n\n8\\. Angina symptoms and quality of life",
+      "detailedDescription": "Ranolazine has already been studied in the setting of the acute coronary syndromes, without any significant advantage in terms of MACE occurrence as compared with control group. However, it was not associated with any significant adverse event, thereby the use of ranolazine is not forbidden in ACS patients, especially in the setting of patients with MVD. Of note, the individual component of recurrent ischemia was significantly reduced by ranolazine, as compared with control group and ranolazine reduced recurrent ischemic events, regardless of whether patients did or did not receive PCI within 30 days of a non-ST-segment ACS.\n\nThe aim of the present multicenter, randomized, controlled and open-label study is to evaluate the efficacy of late INa current inhibition to preserve coronary microcirculation after the acute myocardial infarction in patients presenting with STEMI and multivessel disease. Thereby, primary endpoint will be the relative difference in terms of IMR and/or angioIMR will be evaluated. IMR and/or angioIMR will be assessed both at the baseline (after successful coronary revascularization) and at the time of staged revascularization of the non-culprit stenosis (either at 5+/-2 days or within 6+/-2 weeks after pPCI).\n\nIn addition, as secondary objectives, It will be assessed whether the late INa current inhibition, as compared with the control group, might be effective at:\n\n1. Reducing the prevalence of CMD after successful pPCI\n2. Reducing the extension of the infarct size, as assessed at the cardiac magnetic resonance\n3. Reducing the prevalence of CMD downstream to the non-culprit vessel before staged PCI\n4. Reducing the incidence of CMD downstream to the non-culprit vessel after staged PCI\n5. Reducing the incidence of periprocedural MI eventually occurring after staged procedures\n6. Reducing the incidence of endothelial dysfunction\n7. Reducing the early incidence of major cardiovascular events (MACE)\n8. Improving residual angina symptoms and quality of life\n\nThereby, the following secondary endpoints will be evaluated:\n\n1. The prevalence of residual CMD downstream to the culprit vessel in the two group of patients. Residual CMD will be defined as the finding of an IMRculprit or angioIMRculprit value \\> 25\n2. The extent of the Infarct Size, as assessed by the CMR, in terms of grams (g) and percentage as compared with control group.\n3. The prevalence of CMD downstream to the non-culprit vessel in the two group of patients (CMDnon-culprit). CMDnon-culprit will be defined as the finding of an IMRnon-culprit or angioIMRnon-culprit value \\> 25\n4. The incidence of peri-procedural CMD after staged PCI of the non-culprit stenoses, defined as a 20% increase of IMRnon-culprit or angioIMRnon-culprit values assessed before and after elective PCI of the non-culprit vessel.\n5. The difference between the two groups of patients, in terms of incidence of periprocedural Myocardial Infarction (PMI), eventually occurring during the staged procedure. PMI require to satisfy all the criteria of the fourth Universal Definition of Myocardial Infarction\n6. The effects of INa current inhibition on endothelial function will be assessed at follow up as compared with control group. Endothelial function will be evaluated with the EndoPAT, measuring both the Endoscore and RHI\n7. The incidence of MACE, defined as composite of death, myocardial infarction, or target-vessel revascularization at short (42+/-7 days) term follow-up.\n8. Angina symptoms and quality of life will be assessed with SAQ7 and EuroQoL questionnaires and results compared between the two groups. Study Design This will be a prospective, multicenter, randomized (1:1 ratio), open-label, trial to evaluate the relative difference in terms of IMR and/or angioIMR measured both at baseline (after successful pPCI) and at follow-up (during staged PCI procedure).\n\nPatients enrolled in the experimental group will receive ranolazine by oral administration, on top of regular therapy, starting with a dosage of 500mg bid and increased at 750mg bid starting from 7 days after pPCI up to 6 +/-2 weeks. Conversely, patients enrolled in the Control group will be managed, as per standard practice, with regular therapy only.\n\nAll comer patients undergoing successful pPCI for ST-segment elevation myocardial infarction (STEMI) will be screened for eligibility for study participation within six hours. STEMI will be defined by symptom onset within 24 hours and ST-segment elevation of ≥ 1 mm in 2 or more contiguous leads, true posterior MI, or new left bundle branch block. Patients who fulfil all inclusion criteria and do not meet any of the exclusion criteria will be eligible for trial inclusion soon after successful pPCI. Patients will be informed on the nature of the trial and of any potential harm or risk that the study may cause and will be assured of confidentiality. Patients will receive a copy of the signed and dated written informed consent form."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI (ST Elevation MI)"
+      ],
+      "keywords": [
+        "STEMI",
+        "Coronary Microvascular Dysfunction",
+        "Ranolazine",
+        "Multivessel Coronary Artery Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This will be a prospective, multicenter, randomized (1:1 ratio), open-label, phase 2b trial to evaluate the relative difference in terms of IMR and/or angioIMR measured both at baseline (after successful pPCI) and at follow-up (during staged PCI procedure). Patients enrolled in the experimental group will receive ranolazine by oral administration, on top of regular therapy, starting with a dosage of 500mg bid and increased at 750mg bid starting from 7 days after pPCI up to 6 +/-2 weeks. Conversely, patients enrolled in the Control group will be managed, as per standard practice, with regular therapy only.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients enrolled in the experimental group will receive ranolazine by oral administration, on top of regular therapy, starting with a dosage of 500mg bid and increased at 750mg bid starting from 7 days after pPCI up to 6 +/-2 weeks.",
+          "interventionNames": [
+            "Drug: Ranolazine"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "NO_INTERVENTION",
+          "description": "Patients enrolled in the Control group will be managed, as per standard practice, with regular therapy only."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ranolazine",
+          "description": "Patients enrolled in the experimental group will receive ranolazine by oral administration, on top of regular therapy, starting with a dosage of 500mg bid and increased at 750mg bid starting from 7 days after pPCI up to 6 +/-2 weeks.",
+          "armGroupLabels": [
+            "Experimental Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Preservation of the coronary microcirculation",
+          "description": "he relative difference in terms of IMR and/or angioIMR will be evaluated. IMR and/or angioIMR will be assessed both at the baseline (after successful coronary revascularization) and at the time of staged revascularization of the non-culprit stenosis (either at 5+/-2 days or within 6+/-2 weeks after pPCI).",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Difference in terms of CMD prevalence between the two groups",
+          "description": "The prevalence of residual CMD downstream to the culprit vessel in the two group of patients. Residual CMD will be defined as the finding of an IMRculprit or angioIMRculprit value \\> 25",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Infarct Size Extension",
+          "description": "The extent of the Infarct Size, as assessed by the CMR, in terms of grams (g) and percentage as compared with control group",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "CMD prevalence downstream to the non-culprit vessel before staged PCI",
+          "description": "The prevalence of CMD downstream to the non-culprit vessel in the two group of patients (CMDnon-culprit). CMDnon-culprit will be defined as the finding of an IMRnon-culprit or angioIMRnon-culprit value \\> 25",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "CMD prevalence after staged PCI",
+          "description": "The incidence of peri-procedural CMD after staged PCI of the non-culprit stenoses, defined as a 20% increase of IMRnon-culprit or angioIMRnon-culprit values assessed before and after elective PCI of the non-culprit vessel.",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Incidence of periprocedural MI eventually occurring after staged procedures",
+          "description": "The difference between the two groups of patients, in terms of incidence of periprocedural Myocardial Infarction (PMI), eventually occurring during the staged procedure. PMI require to satisfy all the criteria of the fourth Universal Definition of Myocardial Infarction",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Incidence of MACE",
+          "description": "The incidence of MACE, defined as composite of death, myocardial infarction, or target-vessel revascularization at short (42+/-7 days) term follow-up.",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Residual angina symptoms",
+          "description": "Angina symptoms will be assessed with The SAQ-7 (Seattle Angina Questionnaire-7) summary score which is a 0-100 validated measure of coronary artery disease (CAD) patient health status, averaging Physical Limitation, Angina Frequency, and Quality of Life domains. Higher scores (0-100) indicate better health status, less frequent angina, and improved quality of life and results compared between the two groups.",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Patients' Quality of Life",
+          "description": "Quality of life will be assessed with the EQ5D5L including a vertical visual analogue scale (EQ VAS) that allows patients to self-rate their current, overall health-related quality of life from 0 (\"worst imaginable health\") to 100 (\"best imaginable health\").",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Incidence of endothelial dysfunction",
+          "description": "The effects of INa current inhibition on endothelial function will be assessed at follow up as compared with control group. Endothelial function will be evaluated with the EndoPAT, measuring both the Endoscore and RHI",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Age ≥ 18 years and \\< 80 years on day of signing informed consent\n2. Ability to provide written informed consent in a time window 0 to 1 day after successful pPCI\n3. ST-Elevation Myocardial Infarction at the time of the index hospitalization.\n4. Successful pPCI (Thrombolysis In Myocardial Infarction \\[TIMI\\] flow 3 and residual coronary stenosis \\<30%)\n5. Presence of at least one remaining angiographically significant (% diameter stenosis \\> 50%) non-culprit stenosis treatable with PCI\n6. Evidence of post-menopausal status or negative urinary or serum pregnancy test for child-bearing potential patients (definitions reported in section 10.9)\n7. Agreement for child-bearing potential patients who are sexually active to use contraception (definitions reported in section 10.10)\n\nExclusion Criteria:\n\n1. Hemodynamically unstable patients\n2. Previous myocardial infarction\n3. Previous coronary artery by-pass graft (CABG)\n4. Female patients with a positive pregnancy test at enrollment or prior to administration of study medication.\n5. Female patients who are pregnant or breastfeeding or reproductive potential who are not willing to employ effective birth control from screening to 90 days after the last dose of Ranolazine\n6. Known hypersensitivity to the active principle (Ranolazine) or any of the excipients\n7. Chronic Kidney Disease Stage 4 or 5 (eGFR \\< 30 mL/min/1.73 m 2)\n8. Moderate to severe liver failure (Child Pugh B - C)\n9. Simultaneous intake of the following classes of drugs: strong CYP3A4 inhibitors (i.e. clarithromycin, erythromycin, diltiazem, itraconazole, ketoconazole); HIV protease inhibitors (i.e. saquinavir, indinavir, ritonavir); class Ia antiarrhythmic drugs (i.e. ajmaline, disopyramide, procainamide, quinidine ) and class III antiarrhythmic drugs except amiodarone (i.e. dofetilide, sotalol)\n10. Previous participation in a clinical trial in which an investigational drug was administered within 30 days of screening or within the 5 half-lives of the study drug, whichever is longer.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Luigi Di Serafino, Professor",
+          "role": "CONTACT",
+          "phone": "+390817462235",
+          "email": "luigi.diserafino@unina.it"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Medical and Surgical Sciences and \"Renato Dulbecco\" University Hospital, \"Magna Graecia\" University",
+          "status": "RECRUITING",
+          "city": "Catanzaro",
+          "state": "Italy",
+          "zip": "88100",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Salvatore De Rosa, Full Professor",
+              "role": "CONTACT",
+              "phone": "0961/3697123",
+              "email": "saderosa@unicz.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.88247,
+            "lon": 16.60086
+          }
+        },
+        {
+          "facility": "Department of Cardiology, Santa Maria Goretti Hospital, Latina, Italy",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Latina",
+          "state": "Italy",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Marco Bernardi, MD",
+              "role": "CONTACT",
+              "phone": "‪+39 334 841 0722‬",
+              "email": "marco.bernardi23@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.46614,
+            "lon": 12.9043
+          }
+        },
+        {
+          "facility": "Federico II University Hospital - Division of Cardiology",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alessandra Spinelli, MSc",
+              "role": "CONTACT",
+              "phone": "+39081676540",
+              "email": "aless.spinelli@gmail.com"
+            },
+            {
+              "name": "Stefano Cristiano, MSc",
+              "role": "CONTACT",
+              "phone": "+39081676540",
+              "email": "stefano.cristiano@unina.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33732867",
+          "type": "BACKGROUND",
+          "citation": "Topal DG, Aleksov Ahtarovski K, Lonborg J, Hofsten D, Nepper-Christensen L, Kyhl K, Schoos M, Ghotbi AA, Goransson C, Bertelsen L, Holmvang L, Helqvist S, Pedersen F, Schnabel R, Kober L, Kelbaek H, Vejlstrup N, Engstrom T, Clemmensen P. Impact of age on reperfusion success and long-term prognosis in ST-segment elevation myocardial infarction - A cardiac magnetic resonance imaging study. Int J Cardiol Heart Vasc. 2021 Mar 2;33:100731. doi: 10.1016/j.ijcha.2021.100731. eCollection 2021 Apr."
+        },
+        {
+          "pmid": "34389857",
+          "type": "BACKGROUND",
+          "citation": "Zeymer U, Ludman P, Danchin N, Kala P, Laroche C, Sadeghi M, Caporale R, Shaheen SM, Legutko J, Iakobsishvili Z, Alhabib KF, Motovska Z, Studencan M, Mimoso J, Becker D, Alexopoulos D, Kereseselidze Z, Stojkovic S, Zelveian P, Goda A, Mirrakhimov E, Bajraktari G, Al-Farhan H, Serpytis P, Raungaard B, Marandi T, Moore AM, Quinn M, Karjalainen PP, Tatu-Chitolu G, Gale CP, Maggioni AP, Weidinger F; ACVC EAPCI EORP ACS STEMI investigators group of the ESC. Reperfusion therapies and in-hospital outcomes for ST-elevation myocardial infarction in Europe: the ACVC-EAPCI EORP STEMI Registry of the European Society of Cardiology. Eur Heart J. 2021 Nov 21;42(44):4536-4549. doi: 10.1093/eurheartj/ehab342."
+        },
+        {
+          "pmid": "37821183",
+          "type": "BACKGROUND",
+          "citation": "El Farissi M, Zimmermann FM, De Maria GL, van Royen N, van Leeuwen MAH, Carrick D, Carberry J, Wijnbergen IF, Konijnenberg LSF, Hoole SP, Marin F, Fineschi M, Pijls NHJ, Oldroyd KG, Banning AP, Berry C, Fearon WF. The Index of Microcirculatory Resistance After Primary PCI: A Pooled Analysis of Individual Patient Data. JACC Cardiovasc Interv. 2023 Oct 9;16(19):2383-2392. doi: 10.1016/j.jcin.2023.08.030."
+        },
+        {
+          "pmid": "30571511",
+          "type": "BACKGROUND",
+          "citation": "Thygesen K, Alpert JS, Jaffe AS, Chaitman BR, Bax JJ, Morrow DA, White HD; Executive Group on behalf of the Joint European Society of Cardiology (ESC)/American College of Cardiology (ACC)/American Heart Association (AHA)/World Heart Federation (WHF) Task Force for the Universal Definition of Myocardial Infarction. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018 Nov 13;138(20):e618-e651. doi: 10.1161/CIR.0000000000000617. No abstract available."
+        },
+        {
+          "pmid": "18458169",
+          "type": "BACKGROUND",
+          "citation": "Hamburg NM, Keyes MJ, Larson MG, Vasan RS, Schnabel R, Pryde MM, Mitchell GF, Sheffy J, Vita JA, Benjamin EJ. Cross-sectional relations of digital vascular function to cardiovascular risk factors in the Framingham Heart Study. Circulation. 2008 May 13;117(19):2467-74. doi: 10.1161/CIRCULATIONAHA.107.748574. Epub 2008 May 5."
+        },
+        {
+          "pmid": "15582310",
+          "type": "BACKGROUND",
+          "citation": "Bonetti PO, Pumper GM, Higano ST, Holmes DR Jr, Kuvin JT, Lerman A. Noninvasive identification of patients with early coronary atherosclerosis by assessment of digital reactive hyperemia. J Am Coll Cardiol. 2004 Dec 7;44(11):2137-41. doi: 10.1016/j.jacc.2004.08.062."
+        },
+        {
+          "pmid": "30236867",
+          "type": "BACKGROUND",
+          "citation": "Mangiacapra F, Pellicano M, Di Serafino L, Bressi E, Peace AJ, Di Gioia G, Morisco C, Bartunek J, Wijns W, Bruyne B, Barbato E. Platelet reactivity and coronary microvascular impairment after percutaneous revascularization in stable patients receiving clopidogrel or prasugrel. Atherosclerosis. 2018 Nov;278:23-28. doi: 10.1016/j.atherosclerosis.2018.08.044. Epub 2018 Aug 30."
+        },
+        {
+          "pmid": "34242489",
+          "type": "BACKGROUND",
+          "citation": "Mejia-Renteria H, Lee JM, Choi KH, Lee SH, Wang L, Kakuta T, Koo BK, Escaned J. Coronary microcirculation assessment using functional angiography: Development of a wire-free method applicable to conventional coronary angiograms. Catheter Cardiovasc Interv. 2021 Nov 15;98(6):1027-1037. doi: 10.1002/ccd.29863. Epub 2021 Jul 9."
+        },
+        {
+          "pmid": "29980523",
+          "type": "BACKGROUND",
+          "citation": "Westra J, Andersen BK, Campo G, Matsuo H, Koltowski L, Eftekhari A, Liu T, Di Serafino L, Di Girolamo D, Escaned J, Nef H, Naber C, Barbierato M, Tu S, Neghabat O, Madsen M, Tebaldi M, Tanigaki T, Kochman J, Somi S, Esposito G, Mercone G, Mejia-Renteria H, Ronco F, Botker HE, Wijns W, Christiansen EH, Holm NR. Diagnostic Performance of In-Procedure Angiography-Derived Quantitative Flow Reserve Compared to Pressure-Derived Fractional Flow Reserve: The FAVOR II Europe-Japan Study. J Am Heart Assoc. 2018 Jul 6;7(14):e009603. doi: 10.1161/JAHA.118.009603."
+        },
+        {
+          "pmid": "28400462",
+          "type": "BACKGROUND",
+          "citation": "De Bruyne B, Adjedj J, Xaplanteris P, Ferrara A, Mo Y, Penicka M, Flore V, Pellicano M, Toth G, Barbato E, Duncker DJ, Pijls NH. Saline-Induced Coronary Hyperemia: Mechanisms and Effects on Left Ventricular Function. Circ Cardiovasc Interv. 2017 Apr;10(4):e004719. doi: 10.1161/CIRCINTERVENTIONS.116.004719."
+        },
+        {
+          "pmid": "33220317",
+          "type": "BACKGROUND",
+          "citation": "Gutierrez-Barrios A, Izaga-Torralba E, Rivero Crespo F, Gheorghe L, Canadas-Pruano D, Gomez-Lara J, Silva E, Noval-Morillas I, Zayas Rueda R, Calle-Perez G, Vazquez-Garcia R, Alfonso F. Continuous Thermodilution Method to Assess Coronary Flow Reserve. Am J Cardiol. 2021 Feb 15;141:31-37. doi: 10.1016/j.amjcard.2020.11.011. Epub 2020 Nov 19."
+        },
+        {
+          "pmid": "33528358",
+          "type": "BACKGROUND",
+          "citation": "Gallinoro E, Candreva A, Colaiori I, Kodeboina M, Fournier S, Nelis O, Di Gioia G, Sonck J, van 't Veer M, Pijls NHJ, Collet C, De Bruyne B. Thermodilution-derived volumetric resting coronary blood flow measurement in humans. EuroIntervention. 2021 Oct 1;17(8):e672-e679. doi: 10.4244/EIJ-D-20-01092."
+        },
+        {
+          "pmid": "32091402",
+          "type": "BACKGROUND",
+          "citation": "Keulards DCJ, Van 't Veer M, Zelis JM, El Farissi M, Zimmermann FM, de Vos A, Teeuwen K, Brueren GRG, Wijnbergen IF, Vlaar PJ, Tonino PAL, Pijls NHJ. Safety of absolute coronary flow and microvascular resistance measurements by thermodilution. EuroIntervention. 2021 Jun 25;17(3):229-232. doi: 10.4244/EIJ-D-20-00074. No abstract available."
+        },
+        {
+          "pmid": "26905054",
+          "type": "BACKGROUND",
+          "citation": "Wijnbergen I, van 't Veer M, Lammers J, Ubachs J, Pijls NH. Absolute coronary blood flow measurement and microvascular resistance in ST-elevation myocardial infarction in the acute and subacute phase. Cardiovasc Revasc Med. 2016 Mar;17(2):81-7. doi: 10.1016/j.carrev.2015.12.013. Epub 2016 Jan 7."
+        },
+        {
+          "pmid": "29870386",
+          "type": "BACKGROUND",
+          "citation": "Xaplanteris P, Fournier S, Keulards DCJ, Adjedj J, Ciccarelli G, Milkas A, Pellicano M, Van't Veer M, Barbato E, Pijls NHJ, De Bruyne B. Catheter-Based Measurements of Absolute Coronary Blood Flow and Microvascular Resistance: Feasibility, Safety, and Reproducibility in Humans. Circ Cardiovasc Interv. 2018 Mar;11(3):e006194. doi: 10.1161/CIRCINTERVENTIONS.117.006194."
+        },
+        {
+          "pmid": "12821539",
+          "type": "BACKGROUND",
+          "citation": "Fearon WF, Balsam LB, Farouque HM, Caffarelli AD, Robbins RC, Fitzgerald PJ, Yock PG, Yeung AC. Novel index for invasively assessing the coronary microcirculation. Circulation. 2003 Jul 1;107(25):3129-32. doi: 10.1161/01.CIR.0000080700.98607.D1. Epub 2003 Jun 23."
+        },
+        {
+          "pmid": "15103605",
+          "type": "BACKGROUND",
+          "citation": "Aarnoudse W, van den Berg P, van de Vosse F, Geven M, Rutten M, Van Turnhout M, Fearon W, de Bruyne B, Pijls N. Myocardial resistance assessed by guidewire-based pressure-temperature measurement: in vitro validation. Catheter Cardiovasc Interv. 2004 May;62(1):56-63. doi: 10.1002/ccd.10793."
+        },
+        {
+          "pmid": "16636168",
+          "type": "BACKGROUND",
+          "citation": "Ng MK, Yeung AC, Fearon WF. Invasive assessment of the coronary microcirculation: superior reproducibility and less hemodynamic dependence of index of microcirculatory resistance compared with coronary flow reserve. Circulation. 2006 May 2;113(17):2054-61. doi: 10.1161/CIRCULATIONAHA.105.603522. Epub 2006 Apr 24."
+        },
+        {
+          "pmid": "33293902",
+          "type": "BACKGROUND",
+          "citation": "Keulards DCJ, El Farissi M, Tonino PAL, Teeuwen K, Vlaar PJ, van Hagen E, Wijnbergen IF, de Vos A, Brueren GRG, Van't Veer M, Pijls NHJ. Thermodilution-Based Invasive Assessment of Absolute Coronary Blood Flow and Microvascular Resistance: Quantification of Microvascular (Dys)Function? J Interv Cardiol. 2020 Nov 17;2020:5024971. doi: 10.1155/2020/5024971. eCollection 2020."
+        },
+        {
+          "pmid": "37622654",
+          "type": "BACKGROUND",
+          "citation": "Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, Claeys MJ, Dan GA, Dweck MR, Galbraith M, Gilard M, Hinterbuchner L, Jankowska EA, Juni P, Kimura T, Kunadian V, Leosdottir M, Lorusso R, Pedretti RFE, Rigopoulos AG, Rubini Gimenez M, Thiele H, Vranckx P, Wassmann S, Wenger NK, Ibanez B; ESC Scientific Document Group. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023 Oct 12;44(38):3720-3826. doi: 10.1093/eurheartj/ehad191. No abstract available."
+        },
+        {
+          "pmid": "14734593",
+          "type": "BACKGROUND",
+          "citation": "Chaitman BR, Pepine CJ, Parker JO, Skopal J, Chumakova G, Kuch J, Wang W, Skettino SL, Wolff AA; Combination Assessment of Ranolazine In Stable Angina (CARISA) Investigators. Effects of ranolazine with atenolol, amlodipine, or diltiazem on exercise tolerance and angina frequency in patients with severe chronic angina: a randomized controlled trial. JAMA. 2004 Jan 21;291(3):309-16. doi: 10.1001/jama.291.3.309."
+        },
+        {
+          "pmid": "15093870",
+          "type": "BACKGROUND",
+          "citation": "Chaitman BR, Skettino SL, Parker JO, Hanley P, Meluzin J, Kuch J, Pepine CJ, Wang W, Nelson JJ, Hebert DA, Wolff AA; MARISA Investigators. Anti-ischemic effects and long-term survival during ranolazine monotherapy in patients with chronic severe angina. J Am Coll Cardiol. 2004 Apr 21;43(8):1375-82. doi: 10.1016/j.jacc.2003.11.045."
+        },
+        {
+          "pmid": "19502624",
+          "type": "BACKGROUND",
+          "citation": "Orn S, Manhenke C, Greve OJ, Larsen AI, Bonarjee VV, Edvardsen T, Dickstein K. Microvascular obstruction is a major determinant of infarct healing and subsequent left ventricular remodelling following primary percutaneous coronary intervention. Eur Heart J. 2009 Aug;30(16):1978-85. doi: 10.1093/eurheartj/ehp219. Epub 2009 Jun 6."
+        },
+        {
+          "pmid": "23290547",
+          "type": "BACKGROUND",
+          "citation": "Mangiacapra F, Peace AJ, Di Serafino L, Pyxaras SA, Bartunek J, Wyffels E, Heyndrickx GR, Wijns W, De Bruyne B, Barbato E. Intracoronary EnalaPrilat to Reduce MICROvascular Damage During Percutaneous Coronary Intervention (ProMicro) study. J Am Coll Cardiol. 2013 Feb 12;61(6):615-21. doi: 10.1016/j.jacc.2012.11.025. Epub 2013 Jan 2."
+        },
+        {
+          "pmid": "29051217",
+          "type": "BACKGROUND",
+          "citation": "Fanaroff AC, Kaltenbach LA, Peterson ED, Hess CN, Cohen DJ, Fonarow GC, Wang TY. Management of Persistent Angina After Myocardial Infarction Treated With Percutaneous Coronary Intervention: Insights From the TRANSLATE-ACS Study. J Am Heart Assoc. 2017 Oct 19;6(10):e007007. doi: 10.1161/JAHA.117.007007."
+        },
+        {
+          "pmid": "38415135",
+          "type": "BACKGROUND",
+          "citation": "Ling H, Fu S, Xu M, Wang B, Li B, Li Y, Liu X, Zhang X, Wang Q, Li A, Liu M. Ranolazine for improving coronary microvascular function in patients with nonobstructive coronary artery disease: a systematic review and meta-analysis with a trial sequential analysis of randomized controlled trials. Quant Imaging Med Surg. 2024 Feb 1;14(2):1451-1465. doi: 10.21037/qims-23-1029. Epub 2024 Jan 9."
+        },
+        {
+          "pmid": "28576663",
+          "type": "BACKGROUND",
+          "citation": "Ahmed B, Mondragon J, Sheldon M, Clegg S. Impact of ranolazine on coronary microvascular dysfunction (MICRO) study. Cardiovasc Revasc Med. 2017 Sep;18(6):431-435. doi: 10.1016/j.carrev.2017.04.012. Epub 2017 Apr 22."
+        },
+        {
+          "pmid": "26059896",
+          "type": "BACKGROUND",
+          "citation": "Gutierrez JA, Karwatowska-Prokopczuk E, Murphy SA, Belardinelli L, Farzaneh-Far R, Walker G, Morrow DA, Scirica BM. Effects of Ranolazine in Patients With Chronic Angina in Patients With and Without Percutaneous Coronary Intervention for Acute Coronary Syndrome: Observations From the MERLIN-TIMI 36 Trial. Clin Cardiol. 2015 Aug;38(8):469-75. doi: 10.1002/clc.22425. Epub 2015 Jun 8."
+        },
+        {
+          "pmid": "19389561",
+          "type": "BACKGROUND",
+          "citation": "Wilson SR, Scirica BM, Braunwald E, Murphy SA, Karwatowska-Prokopczuk E, Buros JL, Chaitman BR, Morrow DA. Efficacy of ranolazine in patients with chronic angina observations from the randomized, double-blind, placebo-controlled MERLIN-TIMI (Metabolic Efficiency With Ranolazine for Less Ischemia in Non-ST-Segment Elevation Acute Coronary Syndromes) 36 Trial. J Am Coll Cardiol. 2009 Apr 28;53(17):1510-6. doi: 10.1016/j.jacc.2009.01.037."
+        },
+        {
+          "pmid": "17456819",
+          "type": "BACKGROUND",
+          "citation": "Morrow DA, Scirica BM, Karwatowska-Prokopczuk E, Murphy SA, Budaj A, Varshavsky S, Wolff AA, Skene A, McCabe CH, Braunwald E; MERLIN-TIMI 36 Trial Investigators. Effects of ranolazine on recurrent cardiovascular events in patients with non-ST-elevation acute coronary syndromes: the MERLIN-TIMI 36 randomized trial. JAMA. 2007 Apr 25;297(16):1775-83. doi: 10.1001/jama.297.16.1775."
+        },
+        {
+          "pmid": "18439620",
+          "type": "BACKGROUND",
+          "citation": "Sossalla S, Wagner S, Rasenack EC, Ruff H, Weber SL, Schondube FA, Tirilomis T, Tenderich G, Hasenfuss G, Belardinelli L, Maier LS. Ranolazine improves diastolic dysfunction in isolated myocardium from failing human hearts--role of late sodium current and intracellular ion accumulation. J Mol Cell Cardiol. 2008 Jul;45(1):32-43. doi: 10.1016/j.yjmcc.2008.03.006. Epub 2008 Mar 14."
+        },
+        {
+          "pmid": "7873471",
+          "type": "BACKGROUND",
+          "citation": "Hayashida W, van Eyll C, Rousseau MF, Pouleur H. Effects of ranolazine on left ventricular regional diastolic function in patients with ischemic heart disease. Cardiovasc Drugs Ther. 1994 Oct;8(5):741-7. doi: 10.1007/BF00877121."
+        },
+        {
+          "pmid": "17027025",
+          "type": "BACKGROUND",
+          "citation": "Fraser H, Belardinelli L, Wang L, Light PE, McVeigh JJ, Clanachan AS. Ranolazine decreases diastolic calcium accumulation caused by ATX-II or ischemia in rat hearts. J Mol Cell Cardiol. 2006 Dec;41(6):1031-8. doi: 10.1016/j.yjmcc.2006.08.012. Epub 2006 Oct 5."
+        },
+        {
+          "pmid": "18046526",
+          "type": "BACKGROUND",
+          "citation": "Hasenfuss G, Maier LS. Mechanism of action of the new anti-ischemia drug ranolazine. Clin Res Cardiol. 2008 Apr;97(4):222-6. doi: 10.1007/s00392-007-0612-y. Epub 2007 Nov 28."
+        },
+        {
+          "pmid": "22709755",
+          "type": "BACKGROUND",
+          "citation": "Pelliccia F, Pasceri V, Marazzi G, Rosano G, Greco C, Gaudio C. A pilot randomized study of ranolazine for reduction of myocardial damage during elective percutaneous coronary intervention. Am Heart J. 2012 Jun;163(6):1019-23. doi: 10.1016/j.ahj.2012.03.018. Epub 2012 May 21."
+        },
+        {
+          "pmid": "34620412",
+          "type": "BACKGROUND",
+          "citation": "De Bruyne B, Pijls NHJ, Gallinoro E, Candreva A, Fournier S, Keulards DCJ, Sonck J, Van't Veer M, Barbato E, Bartunek J, Vanderheyden M, Wyffels E, De Vos A, El Farissi M, Tonino PAL, Muller O, Collet C, Fearon WF. Microvascular Resistance Reserve for Assessment of Coronary Microvascular Function: JACC Technology Corner. J Am Coll Cardiol. 2021 Oct 12;78(15):1541-1549. doi: 10.1016/j.jacc.2021.08.017."
+        },
+        {
+          "pmid": "36534493",
+          "type": "BACKGROUND",
+          "citation": "Mejia-Renteria H, Wang L, Chipayo-Gonzales D, van de Hoef TP, Travieso A, Espejo C, Nunez-Gil IJ, Macaya F, Gonzalo N, Escaned J. Angiography-derived assessment of coronary microcirculatory resistance in patients with suspected myocardial ischaemia and non-obstructive coronary arteries. EuroIntervention. 2023 Apr 3;18(16):e1348-e1356. doi: 10.4244/EIJ-D-22-00579."
+        },
+        {
+          "pmid": "18237685",
+          "type": "BACKGROUND",
+          "citation": "Fearon WF, Shah M, Ng M, Brinton T, Wilson A, Tremmel JA, Schnittger I, Lee DP, Vagelos RH, Fitzgerald PJ, Yock PG, Yeung AC. Predictive value of the index of microcirculatory resistance in patients with ST-segment elevation myocardial infarction. J Am Coll Cardiol. 2008 Feb 5;51(5):560-5. doi: 10.1016/j.jacc.2007.08.062."
+        },
+        {
+          "pmid": "23681066",
+          "type": "BACKGROUND",
+          "citation": "Fearon WF, Low AF, Yong AS, McGeoch R, Berry C, Shah MG, Ho MY, Kim HS, Loh JP, Oldroyd KG. Prognostic value of the Index of Microcirculatory Resistance measured after primary percutaneous coronary intervention. Circulation. 2013 Jun 18;127(24):2436-41. doi: 10.1161/CIRCULATIONAHA.112.000298. Epub 2013 May 16."
+        },
+        {
+          "pmid": "16980514",
+          "type": "BACKGROUND",
+          "citation": "Galiuto L, Gabrielli FA, Lombardo A, La Torre G, Scara A, Rebuzzi AG, Crea F. Reversible microvascular dysfunction coupled with persistent myocardial dysfunction: implications for post-infarct left ventricular remodelling. Heart. 2007 May;93(5):565-71. doi: 10.1136/hrt.2006.091538. Epub 2006 Sep 15."
+        },
+        {
+          "pmid": "23270553",
+          "type": "BACKGROUND",
+          "citation": "Niccoli G, Cosentino N, Spaziani C, Fracassi F, Tarantini G, Crea F. No-reflow: incidence and detection in the cath-lab. Curr Pharm Des. 2013;19(25):4564-75. doi: 10.2174/1381612811319250005."
+        },
+        {
+          "pmid": "15165914",
+          "type": "BACKGROUND",
+          "citation": "Iwakura K, Ito H, Kawano S, Okamura A, Tanaka K, Nishida Y, Maekawa Y, Masuyama T, Hori M, Fujii K. Prediction of the no-reflow phenomenon with ultrasonic tissue characterization in patients with anterior wall acute myocardial infarction. Am J Cardiol. 2004 Jun 1;93(11):1357-61, A5. doi: 10.1016/j.amjcard.2004.02.030."
+        },
+        {
+          "pmid": "20394867",
+          "type": "BACKGROUND",
+          "citation": "Bekkers SC, Yazdani SK, Virmani R, Waltenberger J. Microvascular obstruction: underlying pathophysiology and clinical diagnosis. J Am Coll Cardiol. 2010 Apr 20;55(16):1649-60. doi: 10.1016/j.jacc.2009.12.037."
+        },
+        {
+          "pmid": "23536610",
+          "type": "BACKGROUND",
+          "citation": "Frohlich GM, Meier P, White SK, Yellon DM, Hausenloy DJ. Myocardial reperfusion injury: looking beyond primary PCI. Eur Heart J. 2013 Jun;34(23):1714-22. doi: 10.1093/eurheartj/eht090. Epub 2013 Mar 27."
+        },
+        {
+          "pmid": "26364289",
+          "type": "BACKGROUND",
+          "citation": "Niccoli G, Scalone G, Lerman A, Crea F. Coronary microvascular obstruction in acute myocardial infarction. Eur Heart J. 2016 Apr 1;37(13):1024-33. doi: 10.1093/eurheartj/ehv484. Epub 2015 Sep 12."
+        },
+        {
+          "pmid": "15238822",
+          "type": "BACKGROUND",
+          "citation": "Britten MB, Zeiher AM, Schachinger V. Microvascular dysfunction in angiographically normal or mildly diseased coronary arteries predicts adverse cardiovascular long-term outcome. Coron Artery Dis. 2004 Aug;15(5):259-64. doi: 10.1097/01.mca.0000134590.99841.81."
+        },
+        {
+          "pmid": "17347176",
+          "type": "BACKGROUND",
+          "citation": "Lerman A, Holmes DR, Herrmann J, Gersh BJ. Microcirculatory dysfunction in ST-elevation myocardial infarction: cause, consequence, or both? Eur Heart J. 2007 Apr;28(7):788-97. doi: 10.1093/eurheartj/ehl501. Epub 2007 Mar 8."
+        },
+        {
+          "pmid": "28886621",
+          "type": "BACKGROUND",
+          "citation": "Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, Caforio ALP, Crea F, Goudevenos JA, Halvorsen S, Hindricks G, Kastrati A, Lenzen MJ, Prescott E, Roffi M, Valgimigli M, Varenhorst C, Vranckx P, Widimsky P; ESC Scientific Document Group. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC). Eur Heart J. 2018 Jan 7;39(2):119-177. doi: 10.1093/eurheartj/ehx393. No abstract available."
+        },
+        {
+          "pmid": "20558366",
+          "type": "BACKGROUND",
+          "citation": "Yeh RW, Sidney S, Chandra M, Sorel M, Selby JV, Go AS. Population trends in the incidence and outcomes of acute myocardial infarction. N Engl J Med. 2010 Jun 10;362(23):2155-65. doi: 10.1056/NEJMoa0908610."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "It will be shared upon request"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069458",
+          "term": "Ranolazine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000083",
+          "term": "Acetanilides"
+        },
+        {
+          "id": "D000813",
+          "term": "Anilides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,384 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04754789",
+      "orgStudyIdInfo": {
+        "id": "High dose statin pre PPCI"
+      },
+      "organization": {
+        "fullName": "Assiut University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Upstream Treatment With High Intensity Statin on the Outcomes of STMI Patients Treated With PPCI",
+      "officialTitle": "Effect of Upstream Treatment With High Intensity Statin on the Outcomes of ST Segment Elevation Myocardial Infarction Patients Treated With Primary Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-02",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-20",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2021-03-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-09-21",
+      "studyFirstSubmitQcDate": "2021-02-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-02-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Monica Nabil Attalla",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Assiut University"
+      },
+      "leadSponsor": {
+        "name": "Assiut University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Effect of upstream treatment with high intensity statin on the outcome of ST segment elevation myocardial infarction patients treated with primary percutaneous coronary intervention",
+      "detailedDescription": "Inflammation plays a key role in the occurrence and development of atherosclerosis(.T lymphocytes are among the earliest cells to be recruited into the atherosclerotic plaque.The combination of macrophages and lymphocytes in vulnerable plaque is associated with the secretion of cytokines and lytic enzymes that result in thinning of the fibrous cap, predisposing a lesion to rupture.The neutrophil to lymphocyte ratio (NLR) is an indicator of systemic inflammation and a prognostic marker in patients undergoing percutaneous coronary intervention (PCI).In previous studies, the NLR has been demonstrated to be related to in-hospital cardiovascular mortality and long-term mortality in patients with ST segment elevation myocardial infarction (STEMI).\n\nIn addition to its beneficial lipid modulation effects, statins exert a variety of pleiotropic actions such as inflammatory inhibition, antiventricular remodeling, improving vascular endothelial function, and antioxidant effects. Because ofitsmultiple functions, atorvastatin therapy was associated with a significant reduction in cardiovascular morbidity and mortality both in primary and secondary prevention. The Myocardial Ischemia Reduction with Aggressive Cholesterol Lowering (MIRACL)study demonstrated thatatorvastatin 80 mg which was given during the first days after an ACS decreased the rate of major adverse cardiovascular events (MACE). This effect was observed as early as 6 weeks after randomization and was significant at 16 weeks. Atorvastatin for Reduction of MYocardial Damage during Angioplasty (ARMYDA) trial demonstrated a reduction in peri-procedural myocardial infarction (MI) in patients with stable CAD undergoing PCI preloaded by high potency statins atorvastatin 80 mg. The ARMYDARECAPTURE study showed a reduction in 30 days MACE in patients with stable angina or with non-ST elevation MI who were previously treated with statins and were reloaded with high potency statins.\n\nThe prompt effect that was observed with high-potency statins is one of the cornerstones of the plaque stabilization hypothesis, in which a clinical effect is demonstrated well before the low levels of low density lipoprotein-cholesterol (LDL-c) can affect plaque progression.\n\nThe effect of high vs. low potency statins in ACS was examined by the Pravastatin or Atorvastatin. ThePCI PROVE IT, a sub-study of the PROVE IT-TIMI 22 trial, demonstrated that patients pretreated with high potency statins before PCI had a significantly lower rate of target vessel revascularization. TheIn-vitro models showed that statins given prior to PCI decrease distal embolization and increase circulating endothelial progenitor cells, thus potentially increase endothelial healing following the injury caused by PCI. In addition, patients undergoing elective PCI, which were pre-treated with statins, had less microcirculatory resistance compared to placebo.\n\nConversely, the STATIN STEMI Trial did not show a significant reduction of MACEs in patients preloaded with high-dose (80 mg) versus low-dose (10 mg) atorvastatin before primary PCI (5.8% versus 0.6%, p=0.26) but showed improved immediate coronary flow after primary PCI.\n\nFurthermore, in the SECURE-PCI trial, the periprocedural loading doses of atorvastatin did not reduce the rate of MACE at 30 days in ACS patients.However, the subgroup analysis showed a significant reduction of MACE in STEMI patients preloaded with atorvastatin compared with the placebo (P=0.01), still not all patients were treated with primary PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "PPCI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "To assess the impact of treatment preloading with high dose statins (atorvastatin 80mg) pre-primary PCI on:\n\nThe inflammatory markers (TLC, NLR, CRP), TIMI flow (corrected TIMI frame count), Myocardial blush ST resolution at 90 min after PCI, Major adverse cardiovascular events (MACE) (in-hospital, 30 days, 3months), (Cardiac mortality, MI, HF, stroke, revascularization, stent thrombosis).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 160,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "group for loading with statin before PPCI",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "All patients will receive the routine guidelines advised management before and after primary PCI.\n\nPatients will be randomly assigned (1:1) to receive two 80-mg loading doses of atorvastatin, the first loading dose will be administered in the Emergency Room before transfer to Cath Lab, the second dose of 80-mg atorvastatin will be administered 24 hours afterthe first dose.",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ]
+        },
+        {
+          "label": "group receive the routine guidelines management before PPCI",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "All patients will receive the routine guidelines advised management before and after primary PCI.\n\nPatients will be randomly assigned (1:1) to receive only the routine management.",
+          "interventionNames": [
+            "Drug: Aspirin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atorvastatin",
+          "description": "preloading with high dose statins (atorvastatin 80mg) with loading dose of dual antiplatelet( asprine 300 mg and ticagrelor 180 mg) pre-primary PCI",
+          "armGroupLabels": [
+            "group for loading with statin before PPCI"
+          ],
+          "otherNames": [
+            "aspirin",
+            "ticagrelor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aspirin",
+          "description": "Loading dose of dual antiplatelet (asprine 300 mg and ticagrelor 180 mg)",
+          "armGroupLabels": [
+            "group receive the routine guidelines management before PPCI"
+          ],
+          "otherNames": [
+            "ticagrelor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "laboratory investigation",
+          "description": "Follow up the change in inflammatory marker: C reactive protein during hospital admission, after 24 hours, 1 month then after 3 months",
+          "timeFrame": "up to 3 months after primary PCI"
+        },
+        {
+          "measure": "laboratory investigation",
+          "description": "Follow up the change in inflammatory marker: Neutrophil lymphocyte ratio during hospital admission, after 24 hours, 1 month then after 3 months",
+          "timeFrame": "up to 3 months after primary PCI"
+        },
+        {
+          "measure": "laboratory investigation",
+          "description": "Follow up the change in inflammatory marker: total leukocytic count during hospital admission, after 24 hours, 1 month then after 3 months",
+          "timeFrame": "up to 3 months after primary PCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "TIMI flow during PCI",
+          "description": "-During PCI: TIMI flow of the culprit vessel",
+          "timeFrame": "During primary PCI"
+        },
+        {
+          "measure": "corrected TIMI frame count",
+          "description": "-During PCI: corrected TIMI frame count of the culprit vessel",
+          "timeFrame": "During primary PCI"
+        },
+        {
+          "measure": "Myocardial blush grade during PCI",
+          "description": "-During PCI: myocardial blush grade of the culprit vessel",
+          "timeFrame": "During primary PCI"
+        },
+        {
+          "measure": "MACE within 1 month and 3 months after primary PCI",
+          "description": "-MACE(major adverse cardiovascular events) within 1 month and 3 months after primary PCI",
+          "timeFrame": "up to 3 months after primary PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* STEMI patients eligible for primary PCI presented to Assiut university heart hospital.\n\nExclusion Criteria:\n\n* Previous (within 3 months) or current treatment with statins\n* Patients with contraindications to statins.\n* Patients with cardiogenic shock.\n* Patients with acute STEMI not eligible for Primary.\n* Patients with other factors affecting leucocytic count such as active infection or leukemia.\n* Inability to provide informed consent",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Monica Nabil Attalla, resident",
+          "role": "CONTACT",
+          "phone": "0122929123",
+          "email": "monikanabil94@gmail.com"
+        },
+        {
+          "name": "Yehia Taha Kishk, professor",
+          "role": "CONTACT",
+          "phone": "01223971269",
+          "email": "ytkishk2002@yahoo.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Nagwa Ahmed Abdelrahman, Lecturer",
+          "affiliation": "Nagwaabdelrahman@yahoo.com",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

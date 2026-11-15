@@ -1,0 +1,306 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07714746",
+      "orgStudyIdInfo": {
+        "id": "IRB-33/25"
+      },
+      "organization": {
+        "fullName": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ivabradine in the Acute Management of Cardiogenic Shock",
+      "officialTitle": "Ivabradine in the Acute Management of Cardiogenic Shock - IVASHOCK-a Double-blind Randomized Controlled Trial",
+      "acronym": "IVASHOCK"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-07-06",
+      "studyFirstSubmitQcDate": "2026-07-14",
+      "studyFirstPostDateStruct": {
+        "date": "2026-07-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Dr Asim Ali",
+        "investigatorTitle": "Senior Registrar",
+        "investigatorAffiliation": "National Institute of Cardiovascular Diseases, Pakistan"
+      },
+      "leadSponsor": {
+        "name": "National Institute of Cardiovascular Diseases, Pakistan",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Brief Summary:\n\nThe IVASHOCK trial investigates whether ivabradine can achieve at least one-class improvement in SCAI cardiogenic shock classification compared to placebo, and evaluates its safety profile in patients with cardiogenic shock (CS).\n\nPrimary Objectives:\n\n1. To determine whether ivabradine improves SCAI shock classification by at least one class from baseline within 72 hours compared to placebo\n2. To assess whether ivabradine facilitates earlier weaning from vasoactive and inotropic support compared to placebo\n\nSafety Endpoints:\n\nAdverse events monitored include: sinus node dysfunction, new-onset atrial fibrillation or atrial flutter, atrioventricular block, drug-related hypotension, and ventricular arrhythmia.\n\nParticipant Schedule:\n\nParticipants will receive ivabradine or placebo orally every 12 hours for 3 days.\n\nHemodynamic and metabolic assessments will include:\n\nArterial pH, central venous oxygen saturation (ScvO2), and serum lactate - every 6 hours on Day 1, then every 8 hours on Days 2 and 3 Heart rate, mean arterial pressure (MAP), vasoactive/inotropic support dose, and urine output - measured on the same timeline"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock Post Myocardial Infarction"
+      ],
+      "keywords": [
+        "ivabradine",
+        "cardiogenic shock",
+        "SCAI Shock Stage Classification",
+        "Heart Rate Reduction",
+        "Randomized clinical trial",
+        "Shock Severity Improvement"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ivabradine Plus Standard Care",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive standard treatment for STEMI complicated by cardiogenic shock, including revascularization, guideline-directed medical therapy as clinically appropriate, standardized vasopressor and inotropic support, and mechanical circulatory support when indicated. Participants will receive ivabradine 5 mg orally twice daily for up to 3 days, with a maximum of six doses. Study treatment will be discontinued if the heart rate decreases to \\<72 bpm or a beta-blocker is initiated.",
+          "interventionNames": [
+            "Drug: Ivabradine 5mg Tab"
+          ]
+        },
+        {
+          "label": "Matching Placebo Plus Standard Care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive the same standard treatment for STEMI complicated by cardiogenic shock, including revascularization, guideline-directed medical therapy as clinically appropriate, standardized vasopressor and inotropic support, and mechanical circulatory support when indicated. Participants will receive a matching placebo tablet orally twice daily for up to 3 days, with a maximum of six doses. Study treatment will be discontinued if the heart rate decreases to \\<72 bpm or a beta-blocker is initiated.",
+          "interventionNames": [
+            "Drug: Placebo Oral Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ivabradine 5mg Tab",
+          "description": "Ivabradine 5mg oral BID for 3 days (6 tablets)",
+          "armGroupLabels": [
+            "Ivabradine Plus Standard Care"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo Oral Tablet",
+          "description": "Placebo tablets, with same color and texture, for 3 days in BID doses",
+          "armGroupLabels": [
+            "Matching Placebo Plus Standard Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hierarchical Composite Clinical Recovery at 72 Hours Assessed Using the Win Ratio",
+          "description": "The primary outcome will be analyzed using a hierarchical win ratio. Participants will be compared sequentially as follows: (1) greater increase in total shock score from baseline to 72 hours; the score ranges from 0 to 12 and sums four 0-3 components: mean arterial pressure/vasoactive support, mixed venous oxygen saturation, urine output, and arterial lactate, with higher scores indicating better status; (2) less vasoactive/inotropic support at 72 hours, and if the number of agents is equal, the lower total dose; (3) lactate \\<2 mmol/L; (4) mixed venous oxygen saturation ≥65%; (5) urine output ≥30 mL/hour; and (6) heart rate \\<100 beats/min without symptomatic bradycardia, high-grade atrioventricular block, or new atrial fibrillation/flutter. If participants remain equal after all components, the comparison will be a tie. The effect will be reported as the win ratio (ivabradine wins/placebo wins).",
+          "timeFrame": "72 hours"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged 18-75 years diagnosed with STEMI complicated by cardiogenic shock (CS) as defined by SCAI shock classification \\> C:\n\nSigns of Hypoperfusion including:\n\n1. SBP \\<90 OR MAP \\<60 OR \\>30 mmHg drop from baseline AND drugs/device used to maintain BP above these targets\n2. Cold, clammy extremities\n3. Urine output \\<30 mL/h\n4. pulmonary congestion (either crackles, congestion in chest X-ray or B-lines in lung US)\n5. Mixed venous oxygen saturation ≤ 65%\n\n   * Severe Left ventricular (LV) dysfunction or right ventricular (RV) infarction\n   * Heart rate (HR) ≥ 100 bpm (Sinus Rhythm) in whom beta-blocker therapy cannot be initiated, including: On inotropic or vasopressor support, Requiring an intra-aortic balloon pump (IABP), With Killip class III or IV, Requiring BiPAP or mechanical ventilation\n\nExclusion Criteria:\n\n* Age \\> 75 years\n* CPR \\> 12 mints\n* Atrial fibrillation\n* Complete Heart Block\n* Heart rate of \\< 100 bpm\n* End stage Renal Disease\n* Extensive comorbidities; Prior CVA, Malignancy, Pregnancy or Ongoing Participation in Other Trials",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Umair Saleem, MBBS",
+          "role": "CONTACT",
+          "phone": "+923363937264",
+          "email": "umairsaleem1002@gmail.com"
+        },
+        {
+          "name": "Asim Ali, MBBS",
+          "role": "CONTACT",
+          "phone": "+92 301 3717252",
+          "email": "dr.aasemali@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Asim Ali, MBBS",
+          "affiliation": "National Institute of Cardiovascular Diseases",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Abdul Hakeem, MD FACC, FSCAI, FASE",
+          "affiliation": "National Institute of Cardiovascular Diseases",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "National institute of cardiovascular diseases",
+          "status": "RECRUITING",
+          "city": "Karachi",
+          "country": "Pakistan",
+          "geoPoint": {
+            "lat": 24.8608,
+            "lon": 67.0104
+          }
+        }
+      ]
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2026-01-15",
+          "uploadDate": "2026-07-14T14:43",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 4634480
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077550",
+          "term": "Ivabradine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,364 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02290080",
+      "orgStudyIdInfo": {
+        "id": "DETO2X-biomarkers 2012/287-12"
+      },
+      "organization": {
+        "fullName": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "briefTitle": "Determination of the Role of Oxygen in Suspected Acute Myocardial Infarction by Biomarkers",
+      "officialTitle": "Determination of the Role of Oxygen on Mechanisms Involved in Ischemia-reperfusion Injury in Suspected Acute Myocardial Infarction by Biomarkers. A Sub Study to the DETO2X-AMI Trial.",
+      "acronym": "DETO2X-bio"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-11-08",
+      "studyFirstSubmitQcDate": "2014-11-08",
+      "studyFirstPostDateStruct": {
+        "date": "2014-11-13",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-12-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Leif Svensson",
+        "investigatorTitle": "MD, PHD",
+        "investigatorAffiliation": "Karolinska Institutet"
+      },
+      "leadSponsor": {
+        "name": "Karolinska Institutet",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University Hospital, Linkoeping",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Oxygen treatment is widely used in acutely ill patients, both pre-hospital and in hospital. The indication for oxygen is sometimes unquestionable, such as in many hypoxic patients, but in other situations its use is more of a practise and much less based on scientific evidence. In particular, oxygen treatment is routinely used in patients with a suspected heart attack and variably recommended in guidelines, despite very limited data supporting a beneficial effect. Indeed, a few studies even indicate that oxygen treatment might be harmful.\n\nImmediate re-opening of the acutely blocked artery to the heart muscle is the treatment of choice to limit permanent injury. However, the sudden re-initiation of blood flow achieved with primary percutaneous coronary intervention (PCI), the reopening and stenting of the blocked vessel, can give rise to further endothelial and myocardial damage, so-called reperfusion injury. Ischemia and reperfusion associated myocardial injury (IR-injury) involves a wide range of pathological processes. Vascular leakage, activation of cell death programs, thrombocytes and white blood cells leading to extended inflammation and formation of clots are examples of those effects.\n\nThe role of oxygen treatment on these pathological processes, on the extent of IR-injury and the final infarct size in patients with acute myocardial infarctions (AMI) has not previously been studied.\n\nIn an ongoing national multicentre, randomized, registry based clinical trial, the DETO2X-AMI trial (NCT01787110), the effect of oxygen on morbidity and mortality in ACS patients is being investigated.\n\nThe present DETO2X-biomarkers study is a substudy of the DETO2X-AMI trial, evaluating the effect of oxygen treatment on biological systems involved in the pathogenesis of reversible and irreversible myocardial damage and cell death in ACS.",
+      "detailedDescription": "The DETermination of the role of OXygen i suspected Acute Myocardial Infarction (DETO2X-AMI) trial (NCT01787110), an ongoing multicentre, randomized, registry based clinical trial, is investigating the effect of oxygen on morbidity and mortality in ACS patients.\n\nThe present DETO2X-biomarkers study is a substudy of the DETO2X-AMI trial, evaluating the effect of oxygen treatment on biological systems involved in the pathogenesis of reversible and irreversible myocardial damage and cell death in ACS.\n\nAIMS\n\nTo evaluate the effect of oxygen treatment on markers of oxidative stress in ACS patients. To assess the effect of oxygen treatment on soluble markers of apoptosis, MMPs and TIMPs in ACS patients.\n\nTo study the effect of oxygen treatment on systemic inflammatory activity and leukocyte activation.\n\nTo evaluate the effect of oxygen treatment on platelet activation in ACS patients.\n\nHYPOTHESIS\n\nThe main hypothesis is that oxygen treatment enhances oxidative stress, systemic inflammation, and markers of apoptosis and MMPs in ACS patients, thereby potentially increasing myocardial damage and cell death, and worsening the prognosis.\n\nSTUDY DESIGN and POPULATION\n\nThe present study is a biomarker substudy of the DETO2X-AMI trial. The design and population of the DETO2X-AMI trial has previously been described in detail (NCT01787110). All patients included in the DETO2X-AMI trial at Södersjukhuset Stockholm and University Hospital Linköping during the study period specified below are also eligible to be included in the DETO2X-biomarkers study. We intend to include 150 patients with suspected AMI.\n\nSTUDY PLAN\n\nAll study participants in the DETO2X-biomarkers study have been allocated to receive oxygen (6L/min) or no oxygen treatment as part of the DETO2X-AMI trial. To a variable degree, the participants have already started this treatment when entering the biomarker substudy. Baseline blood samples will be collected as soon as possible after inclusion in the DETO2X-AMI trial, preferably prior to initiation of oxygen treatment. Study subjects will then continue to receive their allocated DETO2X-AMI study treatment. A second set of blood samples will be collected 5-7 hours after randomisation in the DETO2X-AMI trial, and always prior to discontinuation of oxygen treatment.\n\nANALYSIS of blood samples\n\nAs a marker of oxidative stress, plasma-isoprostane will be measured using gas chromatography combined with a massspectrometric detector. Soluble markers of apoptosis, MMP-2 and TIMP-2 will be analyzed by Luminex. Plasma inflammatory markers (C-reactive protein (CRP) and interleukin (IL)-6), myeloperoxidase, and markers of platelet activation will be analysed by ELISA. Flow cytometry will be used to analyse neutrophil integrin receptors and platelet-leukocyte aggregates in whole blood. Whole blood will be fixated and red blood cells lysed before analysis.\n\nEFFICACY OUTCOME\n\nTo determine the effect of oxygen treatment on biomarkers of oxidative stress, apoptosis, matrix metalloproteinases, markers of inflammation, and leukocyte and platelet activation in patients admitted to hospital due to suspected AMI.\n\nSUMMARY\n\nThe DETO2X-AMI trial will address the effects of oxygen on morbidity and mortality in ACS patients. The present DETO2X-biomarkers substudy is evaluating effects of oxygen treatment on biological systems involved in the pathogenesis of reversible and irreversible myocardial damage and cell death in ACS and may add essential new knowledge to the mechanistics of ischaemic myocardial injury."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction (AMI)",
+        "Acute Coronary Syndrome (ACS)",
+        "ST Elevation (STEMI) Myocardial Infarction",
+        "Ischemic Reperfusion Injury",
+        "Non-ST Elevation (NSTEMI) Myocardial Infarction",
+        "Angina, Unstable"
+      ],
+      "keywords": [
+        "acute myocardial infarction (AMI)",
+        "acute coronary syndrome (ACS)",
+        "ST-segment elevation myocardial infarction (STEMI)",
+        "Non ST-segment elevation myocardial infarction (NSTEMI)",
+        "Ischemic Reperfusion injury (IR-injury)",
+        "Biomarkers",
+        "Oxygen",
+        "Apoptosis",
+        "Fluorescence-activated cell sorting (FACS)",
+        "Flow cytometry",
+        "Matrix metalloproteinase (MMP)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 175,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Oxygen",
+          "type": "EXPERIMENTAL",
+          "description": "For patients randomized to oxygen therapy:\n\n* 6 L/min of oxygen delivered by oxymask® started immediately after inclusion of the ambulance service or in the emergency department given continuously for 6-12 hours (at least 6 hours)\n* all patients receive standard acute coronary syndrome treatment including reperfusion strategies",
+          "interventionNames": [
+            "Drug: Oxygen"
+          ]
+        },
+        {
+          "label": "No oxygen",
+          "type": "NO_INTERVENTION",
+          "description": "For patients randomized to withholding oxygen treatment\n\n* no oxygen is administered at any time as long as the oxygen saturation is ≥90% on pulse oximeter (repetitive checks are performed)\n* all patients receive standard acute coronary syndrome treatment including reperfusion strategies\n* observation duration 12 hours"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Oxygen",
+          "description": "see arm description",
+          "armGroupLabels": [
+            "Oxygen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Plasma concentration levels over time of biomarkers of oxidative stress, apoptosis, inflammation and platelet aggregation",
+          "description": "Venous blood samples will be collected at baseline and 5-7 hours after baseline. Plasma concentration levels will be analyzed for Interleukin (IL)-6 \\[pg/mL\\], CRP \\[mg/L\\], Isoprostane \\[pg/mL\\], Soluble TNF receptor 1 \\[pg/mL\\], Soluble TNF receptor 2 \\[pg/mL\\], Soluble Fas \\[pg/mL\\], Soluble Fas ligand (pg/mL\\], MMP-2 \\[ng/mL\\], TIMP-2 \\[ng/mL\\], Soluble P-selectin \\[ng/mL\\], Platelet factor (PF)-4 \\[ng/mL\\], Beta-thromboglobulin \\[ng/mL\\].\n\nOptional, flow cytometry will be used to analyse neutrophil integrin receptors (CD11b/CD18) and platelet-leukocyte aggregates (CD41a/CD11b/CD45) in whole blood. Whole blood will be fixated and red blood cells lysed before analysis.",
+          "timeFrame": "Within 8hours from baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* symptoms (chest pain, dyspnea) indicating acute myocardial ischemia within the last 6 hours\n* ECG changes (ST-segment elevation ≥ 2 mm V1-V4, or ≥ 1 mm in other leads, ST-segment depression \\>1 mm in any lead, negative T-wave in leads V2-V6, pathological Q-wave in at least 2 adjacent leads), left bundle branch block\n\nand/or elevated levels of cardiac troponin levels in the emergency department indicating acute myocardial ischemia\n\n* oxygen saturation ≥90% (pulse oximeter)\n* age ≥30\n\nExclusion Criteria:\n\n* unwillingness to participate\n* inability to comprehend given information\n* continuous oxygen delivery at home prior to inclusion\n* cardiac arrest prior to inclusion",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lennart Lennart, MD, PHD",
+          "affiliation": "Department of Medical and Health Sciences, Linköping University, and Department of Cardiology, University Hospital, 58185 Linköping, Sweden",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Linköping University Hospital",
+          "city": "Linköping",
+          "zip": "58191",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "facility": "Södersjukhuset",
+          "city": "Stockholm",
+          "zip": "11883",
+          "country": "Sweden",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23963794",
+          "type": "BACKGROUND",
+          "citation": "Cabello JB, Burls A, Emparanza JI, Bayliss S, Quinn T. Oxygen therapy for acute myocardial infarction. Cochrane Database Syst Rev. 2013 Aug 21;(8):CD007160. doi: 10.1002/14651858.CD007160.pub3."
+        },
+        {
+          "pmid": "17855673",
+          "type": "BACKGROUND",
+          "citation": "Yellon DM, Hausenloy DJ. Myocardial reperfusion injury. N Engl J Med. 2007 Sep 13;357(11):1121-35. doi: 10.1056/NEJMra071667. No abstract available."
+        },
+        {
+          "pmid": "19017180",
+          "type": "BACKGROUND",
+          "citation": "Ekstrom M, Eriksson P, Tornvall P. Vaccination, a human model of inflammation, activates systemic inflammation but does not trigger proinflammatory gene expression in adipose tissue. J Intern Med. 2008 Dec;264(6):613-7. doi: 10.1111/j.1365-2796.2008.01998.x. No abstract available."
+        },
+        {
+          "pmid": "22064429",
+          "type": "BACKGROUND",
+          "citation": "Eltzschig HK, Eckle T. Ischemia and reperfusion--from mechanism to translation. Nat Med. 2011 Nov 7;17(11):1391-401. doi: 10.1038/nm.2507."
+        },
+        {
+          "pmid": "23554440",
+          "type": "BACKGROUND",
+          "citation": "Shuvy M, Atar D, Gabriel Steg P, Halvorsen S, Jolly S, Yusuf S, Lotan C. Oxygen therapy in acute coronary syndrome: are the benefits worth the risk? Eur Heart J. 2013 Jun;34(22):1630-5. doi: 10.1093/eurheartj/eht110. Epub 2013 Apr 3."
+        },
+        {
+          "pmid": "12607706",
+          "type": "BACKGROUND",
+          "citation": "Piper HM, Meuter K, Schafer C. Cellular mechanisms of ischemia-reperfusion injury. Ann Thorac Surg. 2003 Feb;75(2):S644-8. doi: 10.1016/s0003-4975(02)04686-6."
+        },
+        {
+          "pmid": "24576515",
+          "type": "RESULT",
+          "citation": "Hofmann R, James SK, Svensson L, Witt N, Frick M, Lindahl B, Ostlund O, Ekelund U, Erlinge D, Herlitz J, Jernberg T. DETermination of the role of OXygen in suspected Acute Myocardial Infarction trial. Am Heart J. 2014 Mar;167(3):322-8. doi: 10.1016/j.ahj.2013.09.022. Epub 2013 Dec 19."
+        },
+        {
+          "pmid": "31081342",
+          "type": "DERIVED",
+          "citation": "Andell P, James S, Ostlund O, Yndigegn T, Sparv D, Pernow J, Jernberg T, Lindahl B, Herlitz J, Erlinge D, Hofmann R. Oxygen therapy in suspected acute myocardial infarction and concurrent normoxemic chronic obstructive pulmonary disease: a prespecified subgroup analysis from the DETO2X-AMI trial. Eur Heart J Acute Cardiovasc Care. 2020 Dec;9(8):984-992. doi: 10.1177/2048872619848978. Epub 2019 May 13."
+        },
+        {
+          "pmid": "29226465",
+          "type": "DERIVED",
+          "citation": "Hofmann R, Tornvall P, Witt N, Alfredsson J, Svensson L, Jonasson L, Nilsson L. Supplemental oxygen therapy does not affect the systemic inflammatory response to acute myocardial infarction. J Intern Med. 2018 Apr;283(4):334-345. doi: 10.1111/joim.12716. Epub 2017 Dec 11."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Homepage of the DETO2X trial",
+          "url": "http://www.deto2x.se"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010100",
+          "term": "Oxygen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018011",
+          "term": "Chalcogens"
+        },
+        {
+          "id": "D004602",
+          "term": "Elements"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D005740",
+          "term": "Gases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,238 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06723002",
+      "orgStudyIdInfo": {
+        "id": "ATHEROLIV_ACS"
+      },
+      "organization": {
+        "fullName": "University of Monastir",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Olive Leaf Extracts on Endothelial Dysfunction in Patients With Acute Coronary Syndrome",
+      "officialTitle": "Effect of Olive Leaf Extracts on Endothelial Dysfunction and Short-term Outcome in Patients With Acute Coronary Syndrome",
+      "acronym": "ACS_ATHEROLIV"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-11-20",
+      "studyFirstSubmitQcDate": "2024-12-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Pr. Semir Nouira",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "University of Monastir"
+      },
+      "leadSponsor": {
+        "name": "University of Monastir",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "the study aims to examine the short-term (30 days) effects of olive leaf extract on endothelial function in patients with acute coronary syndrome (ACS).\n\nThis investigation will be conducted on patients admitted to the emergency department for ACS. All participants will be screened and included within 24 hours post-ACS event and prior to discharge from the emergency department."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome (ACS)",
+        "Reactive Hyperemia",
+        "Endothelial Dysfunction"
+      ],
+      "keywords": [
+        "acute conary syndrome",
+        "endothelial dysfunction",
+        "olive leaf extract"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will be randomly assigned to one of three groups:\n\nIntervention Group 1:Patients in this group will receive the study drug (olive leaf extract) at a dose of 500 mg (two capsules) twice daily, for a total of 1000 mg per day, for one month.\n\nIntervention Group 2:Patients in this group will receive the study drug (olive leaf extract) at a dose of 250 mg (one capsule) twice daily, for a total of 500 mg per day, for one month.\n\nControl Group:Patients in this group will receive a placebo, with one capsule prescribed twice daily, for one month.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Atherolive simple dose",
+          "interventionNames": [
+            "Drug: Atherolive 500mg/day"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Atherolive double dose",
+          "interventionNames": [
+            "Drug: Atherolive 1000/day"
+          ]
+        },
+        {
+          "label": "Arm C",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Palcebo",
+          "interventionNames": [
+            "Drug: Placbo_Atherolive"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atherolive 500mg/day",
+          "description": "Patients will receive a study drug (olive leaf extracts) which will be prescribed at dose of 250 mg (one capsule ) twice daily ( total500mg daily) for one month.\n\npatients will be assigned to one of three arm using a computer-generated randomization list ( 1:1:1 allocation ).",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Atherolive 1000/day",
+          "description": "Patients will receive a study drug (olive leaf extracts) which will be prescribed at dose of 500 mg (two capsule ) twice daily ( total 1000mg daily) for one month.\n\npatients will be assigned to one of three arm using a computer-generated randomization list ( 1:1:1 allocation ).",
+          "armGroupLabels": [
+            "Arm B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placbo_Atherolive",
+          "description": "Patients will receive placebo which will be prescribed one capsule twice daily for one months.\n\npatients will be assigned to one of three arm using a computer-generated randomization list ( 1:1:1 allocation ).",
+          "armGroupLabels": [
+            "Arm C"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reactive Hyperemia Index (RHI)",
+          "description": "Change in endothelial function will be evaluated using Reactive Hyperemia Index (RHI) via Peripheral Arterial Tonometry (PAT), measured at baseline and after drug administration (olive leaf extract) in patients with acute coronary syndrome.",
+          "timeFrame": "30-day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE rate",
+          "description": "-The MACE (Major Adverse Cardiovascular Events) rate will include the following components: Myocardial infarction readmission Nonfatal stroke readmission Cardiovascular death Coronary revascularization, including percutaneous coronary intervention (PCI) and coronary artery bypass grafting (CABG) Admission for heart failure",
+          "timeFrame": "30-day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAge over 18 years. Patients presenting with ST-segment alterations at rest, including ST elevation, with or without troponin elevation.\n\nPatients who have not undergone surgery or have no additional primary percutaneous coronary intervention (P-PCI) planned within 8 weeks from the initial P-PCI.\n\nPatients who provide informed consent. Patients available for and willing to adhere to follow-up procedures. Patients without significant cognitive impairment. Patients with a life expectancy of at least 2 years.\n\nExclusion Criteria:\n\n* Severe LV hypertrophy (\\>15 mm);\n* Patients with any evidence of inflammatory or malignant disease.\n* Patient having valvular heart disease, pacemaker; cardiogenic shock\n* Patient having any serious non-cardiac disease associated with a life expectancy \\<1 year\n* Patients undergoing surgery within 30 days\n* Patient having gastrointestinal disorder such as Crohn's disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Semir Nouira, Pr",
+          "role": "CONTACT",
+          "phone": "+21673106046",
+          "email": "semir.nouira@gmail.com"
+        },
+        {
+          "name": "khouloud boukhris, PhD Student",
+          "role": "CONTACT",
+          "email": "kouloud.boukhris@gmail.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D006940",
+          "term": "Hyperemia"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

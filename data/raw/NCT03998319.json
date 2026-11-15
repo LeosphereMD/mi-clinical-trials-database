@@ -1,0 +1,901 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03998319",
+      "orgStudyIdInfo": {
+        "id": "CTC0150"
+      },
+      "organization": {
+        "fullName": "University of Sydney",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study of Low-dose Intracoronary Thrombolytic Therapy in STEMI (Heart Attack) Patients.",
+      "officialTitle": "A Randomised Trial to Evaluate the Efficacy of Low-dose Intracoronary Tenecteplase in ST-Elevation Myocardial Infarction (STEMI) Patients With High Microvascular Resistance Post-percutaneous Coronary Intervention (PCI).",
+      "acronym": "RESTORE-MI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-05-06",
+      "studyFirstSubmitQcDate": "2019-06-23",
+      "studyFirstPostDateStruct": {
+        "date": "2019-06-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Sydney",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart attacks are caused by a blood clot blocking the blood vessels of the heart, preventing blood getting to the heart muscle. Opening up the artery with a balloon (angioplasty) and a small mesh tube (stent) although life saving can cause this clot to break up and get washed downstream, which can make the heart attack worse. The investigators can measure the amount of damage caused to the microcirculation by calculating the IMR (Index of Microcirculatory resistance).\n\nThis can be measured by a wire in the coronary artery with a pressure sensor at the tip. If the IMR is elevated, it is suggestive of extensive microcirculatory damage. A clot dissolving medicine can be administered in the artery to try and reduce the IMR which can reduce damage to the heart muscle and improve outcomes.\n\nImpaired microcirculatory perfusion in patients as a result of ST-elevation myocardial infarction (STEMI) is associated with poor clinical outcomes. This project seeks to identify patients with impaired microcirculatory perfusion after STEMI and to assess whether acute improvement in microcirculatory perfusion in these patients by the use of intracoronary thrombolytic therapy results in improved clinical outcomes.",
+      "detailedDescription": "Patients presenting to the participating hospitals with a heart attack will be approached to participate in the study. After angioplasty has been performed, the IMR will be measured in the infarct related artery. If the IMR is \\>32 patients will be randomised to receive intracoronary clot dissolving therapy in the form of low dose tenecteplase (TNK) or water as a placebo. Patients who have an IMR ≤32 will be followed up in a registry. Cardiac enzymes will be measured at baseline and discharge. Randomised participants will receive a cardiac MRI at discharge (3-7 days post primary PCI) and at 6 months post PCI. All participants will be followed up at 30 days, and 6, 12 and 24 months following discharge."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI",
+        "Elevated IMR (>32)"
+      ],
+      "keywords": [
+        "STEMI",
+        "IMR",
+        "microcirculation",
+        "microvascular obstruction",
+        "myocardial infarction",
+        "physiology",
+        "angioplasty",
+        "PCI",
+        "thrombolysis treatment",
+        "thrombolysis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multi-Centre double-blind, placebo controlled randomised phase IIIb clinical trial, stratified and balanced between groups on important prognostic factors.",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "All parties involved will be blinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 445,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tenecteplase (1/3 systemic weight based dose)",
+          "type": "EXPERIMENTAL",
+          "description": "Tenecteplase will be reconstituted in 20mL sterile water for injection at 1/3 of the weight based dose, and administered by intracoronary infusion over 3 minutes.",
+          "interventionNames": [
+            "Drug: Tenecteplase (1/3 systemic weight based dose)"
+          ]
+        },
+        {
+          "label": "Sterile Water for injection (WFI)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Water for injection will be prepared to 20mL over an equivalent time period to the reconstitution time of the experimental arm, in order to maintain the blind, and administered by intracoronary infusion over 3 minutes.",
+          "interventionNames": [
+            "Other: Sterile water for injection (WFI)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tenecteplase (1/3 systemic weight based dose)",
+          "description": "50mg reconstituted to 20mL for intracoronary infusion at 1/3 weight based dose.",
+          "armGroupLabels": [
+            "Tenecteplase (1/3 systemic weight based dose)"
+          ],
+          "otherNames": [
+            "TNKase"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Sterile water for injection (WFI)",
+          "description": "Placebo comparative arm.",
+          "armGroupLabels": [
+            "Sterile Water for injection (WFI)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To compare the number of participants who experience cardiovascular mortality and rehospitalisation for heart failure at 24 months in those given tenecteplase with those given placebo (Cardiac MRI cohort only)",
+          "description": "Cardiovascular mortality and rehospitalisation for heart failure assessed by medical record review.",
+          "timeFrame": "24 months"
+        },
+        {
+          "measure": "To compare MI size as a % of LV mass and intramyocardial bleeding rates in participants at 6 months post PCI in those given low dose tenecteplase with those given placebo.",
+          "description": "MI size and intramyocardial bleeding rates will be assessed upon cardiac MRI at discharge (3-7 days post procedure) as a baseline measure, and at 6 months post-PCI.",
+          "timeFrame": "6 months after primary PCI procedure."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants who experience individual components of the primary endpoint: (a) cardiovascular mortality at 24 months, (b) rehospitalisation for heart failure at 24 months;",
+          "description": "Cardiovascular mortality and rehospitalisation for heart failure assessed by medical record review, respectively.",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "Number of Major Adverse Cardiac Events (MACE)",
+          "description": "Major Adverse Coronary Events (these are combination events involving cardiovascular death, non-fatal MI, non-fatal stroke and unstable angina) assessed from physical assessment and medical record review",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "All-cause mortality assessed by physical assessment and medical record review.",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "Number of stroke events",
+          "description": "Stroke events will be assessed by medical record review. Assessment will cover all aspects of the stroke event (including type, severity, frequency).",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "Number of incidences of bailout treatment use for no-reflow syndrome",
+          "description": "Use of Bailout treatment for no-reflow syndrome assessed by medical record review",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "Occurrence of major (Type 3 or greater) and minor (Type 2) bleeding as defined by the Bleeding Academic Research Consortium",
+          "description": "Major (Type 3 or greater) and minor (Type 2) bleeding as defined by the Bleeding Academic Research Consortium. Assessed by medical record review.",
+          "timeFrame": "24 months after primary PCI procedure"
+        },
+        {
+          "measure": "Index of Microcirculatory Resistance (IMR)",
+          "description": "Index of microcirculatory resistance (IMR) measurement assessed by coronary pressure wire data output review.\n\nThis is a simple unit scale, with a higher number indicating a worse outcome with a score of more than 25 indicating abnormal microcirculatory function in the heart.",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "Fractional Flow Reserve (FFR)",
+          "description": "Fractional Flow Reserve measurement assessed by coronary pressure wire data output review prior to randomisation and immediately after primary PCI",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "Coronary Flow Reserve (CFR)",
+          "description": "Coronary Flow Reserve measurement assessed by coronary pressure wire data output review, prior to randomisation and immediately after primary PCI.",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "Wall Motion Score",
+          "description": "The score is measured by simple unit scale (1 = normal, 2 = hypokinetic (muscle impaired), 3= akinetic (muscle dead)). Each of the 16 segments of the hearts is scored, with the total being divided by 16 to derive the score.",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Left ventricular ejection fraction (LVEF)",
+          "description": "Left ventricular ejection fraction measurement from echocardiogram will be used to assess cardiac function prior to randomisation, 48 hours and 6 months post primary PCI",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Myocardial Blush Grade",
+          "description": "Myocardial Blush Grade measurement from angiogram will be used to assess cardiac function. The score goes from 0 to 3, with 3 being normal and 0 being absence of myocardial blush",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "TIMI Myocardial Perfusion Grade",
+          "description": "Thrombolysis in myocardial infarction score from angiogram will be used to assess myocardial perfusion. This score goes from 0 to 3, 3 indicates normal flow within the artery and 0 indicates a complete coronary occlusion.",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "TIMI corrected frame count",
+          "description": "Thrombolysis in myocardial infarction score with corrected frame count from angiogram to assess myocardial perfusion",
+          "timeFrame": "0-2 hours"
+        },
+        {
+          "measure": "Cardiac enzyme measurements",
+          "description": "Cardiac enzyme levels including troponin T, creatine kinase, creatine kinase-MB and high sensitivity troponin T, from blood samples collected during the hospitalisation period (prior to primary PCI and at 8, 16, 24 and 32 hours post primary PCI).",
+          "timeFrame": "0-32 hours"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "DNA analyses (Subject to funding)",
+          "description": "Samples of whole blood will be used for DNA analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "MicroRNA analyses (Subject to funding)",
+          "description": "Samples of whole blood will be used for microRNA analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Vasoactive markers (Subject to funding)",
+          "description": "Samples of whole blood will be used for vasoactive marker analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Inflammatory markers (Subject to funding)",
+          "description": "Samples of whole blood will be used for inflammatory marker analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Angiogenic markers (Subject to funding)",
+          "description": "Samples of whole blood will be used for angiogenic marker analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Liver function (Subject to funding)",
+          "description": "Samples of whole blood will be used for liver function analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Thyroid Function (Subject to funding)",
+          "description": "Samples of whole blood will be used for thyroid function analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Lipid profile (Subject to funding)",
+          "description": "Samples of whole blood will be used for lipid profile analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        },
+        {
+          "measure": "Lipoprotein profile (Subject to funding)",
+          "description": "Samples of whole blood will be used for lipoprotein profile analyses at baseline, post-PCI, discharge and 6 month follow up (6m follow up for Randomised participants only).",
+          "timeFrame": "0-6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adult men and women aged over 18 who present with STEMI within 6 hours of symptom onset. Patients will be eligible if they have symptoms consistent with myocardial ischaemia (chest pain, dyspnoea) for at least 20 minutes accompanied by definite ECGs indicating STEMI as defined by Australian National Heart Foundation (NHF) guidelines\n2. Willing and able to comply with all study requirements, including treatment, assessment and clinic visit attendances\n3. Able to personally read and understand the Participant Information and Consent Form and provide written, signed and dated informed consent to participate in the study\n4. (At time of PCI) Patient has received metallic drug-eluting stent\n5. Participant consents to have a 3-7 day (discharge) and 6 month follow up cardiac MRI\n\nExclusion Criteria:\n\nAt the time of screening and/or prior to randomisation, no known;\n\n1. Previous coronary bypass grafting\n2. Other residual lesions with ≥50% diameter stenosis in the culprit vessel\n3. Prior myocardial infarction in the target territory\n4. Presence of contraindications to thrombolytic therapy (including history of stroke and recent brain surgery active internal bleeding; history of cerebrovascular accident; intracranial or intraspinal surgery, or trauma within 2 months; intracranial neoplasm, arteriovenous malformation, or aneurysm; known bleeding diathesis; and severe uncontrolled hypertension)\n5. Presence of contraindications to adenosine infusion for IMR measurement including sinus node disease, moderate to severe bronchoconstrictive disease and second or third-degree atrioventricular (AV) block\n6. Diagnosis of metastatic disease\n7. Concurrent illness, including severe infection that may jeopardise the ability of the patient to undergo the procedures outlined in this protocol with reasonable safety\n8. Serious medical or psychiatric conditions that might limit the ability of the patient to comply with the protocol\n9. Pregnancy, lactation, or inadequate contraception. Women must be post-menopausal, infertile, or use a reliable means of contraception. Women of childbearing potential must have a negative pregnancy test done within 7 days prior to registration. Men must have been surgically sterilised or use a (double if required) barrier method of contraception.\n10. Participation in any investigational study in the previous 30 days\n\n    Other exclusion criteria:\n11. (Cardiac MRI cohort only) Presence of contraindications to contrast enhanced MRI including severe claustrophobia, pregnancy, pacemakers, non-MRI compatible aneurysm clips, defibrillators and estimated glomerular filtration rate of \\&lt;30mL/min.\n\n    (At time of PCI)\n12. Patients who received GpIIb/IIIa treatment prior to IMR measurement\n13. Patients who do not undergo primary PCI due to lack of severity of culprit lesion or other reasons.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Martin Ng, MBBS (Hons)",
+          "role": "CONTACT",
+          "phone": "+614 3407 8507",
+          "email": "martin.ng@sydney.edu.au"
+        },
+        {
+          "name": "Rebecca Mister",
+          "role": "CONTACT",
+          "phone": "+612 9562 5000",
+          "phoneExt": "5342",
+          "email": "RESTORE-MI.Study@sydney.edu.au"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Martin Ng, MBBS (Hons)",
+          "affiliation": "Royal Prince Alfred Hospital, Sydney, Australia",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Andy Yong, MBBS",
+          "affiliation": "Concord Repatriation General Hospital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Anthony Keech, MBBS",
+          "affiliation": "National Health and Medical Research Council, Australia",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "William Fearon, MD",
+          "affiliation": "Stanford University",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Jamie Layland, MBBS",
+          "affiliation": "Peninsula Health",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Harvey White, FRCS",
+          "affiliation": "Green Lane Cardiovascular Service",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Bankstown-Lidcombe Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bankstown",
+          "state": "New South Wales",
+          "zip": "2200",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Kaleab Asrress",
+              "role": "CONTACT",
+              "phone": "+612 9722 8486",
+              "email": "kaleab.asrress@sydney.edu.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.91667,
+            "lon": 151.03333
+          }
+        },
+        {
+          "facility": "Royal Prince Alfred Hospital",
+          "status": "RECRUITING",
+          "city": "Camperdown",
+          "state": "New South Wales",
+          "zip": "2050",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Martin Ng, MBBS (Hons)",
+              "role": "CONTACT",
+              "phone": "+614 3407 8507",
+              "email": "martin.ng@sydney.edu.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "Concord Repatriation General Hospital",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "New South Wales",
+          "zip": "2139",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Andy Yong, MBBS",
+              "role": "CONTACT",
+              "phone": "+614 0130 1790",
+              "email": "sze.yong@sydney.edu.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "Northern Beaches Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Frenchs Forest",
+          "state": "New South Wales",
+          "zip": "2086",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Antony Lau",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.74821,
+            "lon": 151.22322
+          }
+        },
+        {
+          "facility": "Liverpool Hospital",
+          "status": "RECRUITING",
+          "city": "Liverpool",
+          "state": "New South Wales",
+          "zip": "2170",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Sidney Lo",
+              "role": "CONTACT",
+              "phone": "(02) 8738 3051",
+              "email": "sidney.lo@health.nsw.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.91938,
+            "lon": 150.92588
+          }
+        },
+        {
+          "facility": "John Hunter Hospital",
+          "status": "RECRUITING",
+          "city": "New Lambton Heights",
+          "state": "New South Wales",
+          "zip": "2305",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Andrew Boyle",
+              "role": "CONTACT",
+              "phone": "(02) 4921 4720",
+              "email": "Andrew.Boyle@health.nsw.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -32.92466,
+            "lon": 151.69364
+          }
+        },
+        {
+          "facility": "Prince of Wales Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Randwick",
+          "state": "New South Wales",
+          "zip": "2031",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Sze-Yuan Ooi",
+              "role": "CONTACT",
+              "phone": "(02) 9382 0770",
+              "email": "szeyuan.ooi@ehc.com.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -33.91439,
+            "lon": 151.24895
+          }
+        },
+        {
+          "facility": "Wollongong Hospital",
+          "status": "WITHDRAWN",
+          "city": "Wollongong",
+          "state": "New South Wales",
+          "zip": "2500",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.424,
+            "lon": 150.89345
+          }
+        },
+        {
+          "facility": "Royal Adelaide Hospital",
+          "status": "RECRUITING",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "zip": "5000",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Jerrett Lau",
+              "role": "CONTACT",
+              "phone": "(08) 7074 1796",
+              "email": "jerrett.lau@sa.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Lyell McEwin Hospital",
+          "status": "RECRUITING",
+          "city": "Elizabeth Vale",
+          "state": "South Australia",
+          "zip": "5112",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Purendra Pati",
+              "role": "CONTACT",
+              "email": "Purendra.Pati@sa.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -34.74857,
+            "lon": 138.66819
+          }
+        },
+        {
+          "facility": "Box Hill Hospital",
+          "status": "RECRUITING",
+          "city": "Box Hill",
+          "state": "Victoria",
+          "zip": "3128",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Jaya Chandrasekhar",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.81887,
+            "lon": 145.12545
+          }
+        },
+        {
+          "facility": "Jessie McPherson Private Hospital",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Robert Gooley",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Victorian Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Robert Gooley",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "The Northern Hospital",
+          "status": "RECRUITING",
+          "city": "Epping",
+          "state": "Victoria",
+          "zip": "3076",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "William van Gaal",
+              "role": "CONTACT",
+              "email": "William.vangaal@nh.org.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.65,
+            "lon": 145.03333
+          }
+        },
+        {
+          "facility": "Frankston Hospital",
+          "status": "RECRUITING",
+          "city": "Frankston",
+          "state": "Victoria",
+          "zip": "3199",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Jamie Layland",
+              "role": "CONTACT",
+              "phone": "(03) 9748 2687",
+              "email": "jlayland@phcn.vic.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -38.14458,
+            "lon": 145.12291
+          }
+        },
+        {
+          "facility": "Sunshine Hospital",
+          "status": "RECRUITING",
+          "city": "Saint Albans",
+          "state": "Victoria",
+          "zip": "3021",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "William Chan",
+              "role": "CONTACT",
+              "phone": "0435 612 868",
+              "email": "william.chan@unimelb.edu.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.73333,
+            "lon": 144.8
+          }
+        },
+        {
+          "facility": "Fiona Stanley Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Murdoch",
+          "state": "Western Australia",
+          "zip": "6150",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Matthew Erickson",
+              "role": "CONTACT",
+              "phone": "08 6152 6604",
+              "email": "matthew.erickson@health.wa.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -32.06987,
+            "lon": 115.83757
+          }
+        },
+        {
+          "facility": "Royal Perth Hospital",
+          "status": "RECRUITING",
+          "city": "Perth",
+          "state": "Western Australia",
+          "zip": "6000",
+          "country": "Australia",
+          "contacts": [
+            {
+              "name": "Jonathan Spiro",
+              "role": "CONTACT",
+              "phone": "(08) 9224 3290",
+              "email": "Jonathan.Spiro@health.wa.gov.au"
+            }
+          ],
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Auckland City Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Auckland",
+          "zip": "1023",
+          "country": "New Zealand",
+          "contacts": [
+            {
+              "name": "Jithendra Somaratne",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          }
+        },
+        {
+          "facility": "Christchurch Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Christchurch",
+          "zip": "4710",
+          "country": "New Zealand",
+          "contacts": [
+            {
+              "name": "Aniket Puri",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Waikato Hospital",
+          "status": "RECRUITING",
+          "city": "Hamilton",
+          "zip": "3240",
+          "country": "New Zealand",
+          "contacts": [
+            {
+              "name": "Sanjeevan Pasupati",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 175.28333
+          }
+        },
+        {
+          "facility": "Wellington Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wellington",
+          "zip": "2820",
+          "country": "New Zealand",
+          "contacts": [
+            {
+              "name": "Scott Harding",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": -41.28664,
+            "lon": 174.77557
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Please refer to the NHMRC Clinical Trials Centre publication and data sharing Standard Operating Procedure."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "removedCountries": [
+        "United States"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077785",
+          "term": "Tenecteplase"
+        },
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010959",
+          "term": "Tissue Plasminogen Activator"
+        },
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D004333",
+          "term": "Drug Administration Routes"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

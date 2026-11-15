@@ -1,0 +1,708 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01755520",
+      "orgStudyIdInfo": {
+        "id": "GE IDE No. D00112"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2012-003630-16",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Deutsches Herzzentrum Muenchen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study Comparing Ticagrelor With Aspirin for Prevention of Vascular Events in Patients Undergoing CABG",
+      "officialTitle": "A Randomized, Parallel Group, Double-Blind Study of Ticagrelor Compared With Aspirin for Prevention of Vascular Events in Patients Undergoing Coronary Artery Bypass Graft Operation TiCAB- Ticagrelor in CABG",
+      "acronym": "TiCAB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "DSMB Interim Analyses",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-04-24"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-05-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-05-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-12-19",
+      "studyFirstSubmitQcDate": "2012-12-21",
+      "studyFirstPostDateStruct": {
+        "date": "2012-12-24",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-08-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-08-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Deutsches Herzzentrum Muenchen",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study ist to test the hypothesis that ticagrelor is superior to Aspirin (ASA) fort he prevention of major cardio- and cerebrovascular events (MACCE) in patients undergoing artery bypass operation.\n\nThe primary efficiacy MACCE-endpoint is the composite of cardiovascular death, myocardial infarction, recurent revascularisation, and stroke at twelve month after coronary artery bypass operation.",
+      "detailedDescription": "For stable patients who underwent coronary bypass operation, Aspirin alone currently represents the gold standard of antiplatelet treatment.\n\nThe CABG substudy of the PLATO-trial (http://www.nejm.org/doi/full/10.1056/NEJMoa0904327) comprising more than 1200 patients has convincingly shown a high significant reduction of cardiovascular and all-cause mortality for patients recieving Aspirin and Ticagrelor as compared to those subjects randomized to Aspirin plus Clopidogrel. Moreover the results of the PLATO CABG substudy showed that benefits of Ticagrelor increase with decreasing Aspirin doses. Therefore Ticagrelor monotherapy (2x 90mg/day) appears to offer the best balance of safety with anticipated improved efficacy over Aspirin (1x 100mg/day) alone, but until now there are no further data available to support this hypothesis.\n\nHence this study (TiCAB) is assigned as a pivotal efficacy and safety study of Ticagrelor in patients undergoing coronary artery bypass operation and to test the hypothesis that ticagrelor is superior to Aspirin for the prevention of major cardio- and cerebrovascular events (MACCE) in this patient population.\n\nThe TiCAB trial is designed as a randomized, double-blind, double-dummy, parallel group, phase III, multicenter study, comparing the efficacy and safety of Ticagrelor 90mg administered twice daily with Aspirin 100mg once daily, for the prevention of MACCE within the first year after CABG operation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Stable Angina",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "CABG",
+        "CAD",
+        "antiplatelet drug",
+        "Ticagrelor",
+        "Aspirin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1893,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ticagrelor",
+          "type": "EXPERIMENTAL",
+          "description": "Intervention: Drug: Ticagrelor verum + Aspirin placebo",
+          "interventionNames": [
+            "Drug: Ticagrelor",
+            "Drug: Placebo - Aspirin"
+          ]
+        },
+        {
+          "label": "Aspirin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Intervention: Drug: Aspirin verum + Ticagrelor placebo",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: Placebo - Ticagrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "90mg twice daily dose",
+          "armGroupLabels": [
+            "Ticagrelor"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aspirin",
+          "description": "Aspirin 100mg once daily",
+          "armGroupLabels": [
+            "Aspirin"
+          ],
+          "otherNames": [
+            "ASS"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo - Ticagrelor",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Aspirin"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo - Aspirin",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Ticagrelor"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MACCE",
+          "description": "Composite of cardiovascular death, myocardial infarction, target vessel revascularization, and stroke",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cardiovascular death",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        },
+        {
+          "measure": "Major bleeding events",
+          "description": "Incidence of major bleeding events",
+          "timeFrame": "within 12 months after coronary arerty bypass surgery"
+        },
+        {
+          "measure": "All cause death",
+          "description": "All cause death",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        },
+        {
+          "measure": "Myocardial Infarction",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        },
+        {
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "at 12 months after coronary artery bypass surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients 18 years of age or older\n2. Informed, written consent by the patient\n3. Indication for CABG surgery:\n\n   * coronary three vessel disease, or\n   * left main stenosis, or\n   * two vessel disease with impaired left ventricular function (\\<50%)\n\nExclusion Criteria:\n\n1. Cardiogenic shock, haemodynamic instability\n2. Indication for oral anticoagulation or dual antiplatelet therapy that can not be stopped after CABG\n3. Need for concomitant non-coronary surgery (e.g. valve replacement)\n4. Intolerance of or Allergy to Ticagrelor or ASA or any of their ingredients\n5. History of bleeding diathesis within three months prior presentation\n6. History of significant gastrointestinal bleeding within six months prior presentation\n7. History of intracranial hemorrhage\n8. History of moderate to severe liver impairment (Child Pugh B or C)\n9. Chronic renal insufficiency requiring dialysis\n10. Patient with an increased risk of bradycardic events (e.g. patients without a pacemaker who have sick sinus syndrome, 2nd or 3rd degree AV block or bradycardic-related syncope)\n11. Known, clinically important thrombocytopenia (i.e. \\<100.000/µl)\n12. Known, clinically important anaemia (i.e. \\<10mg/dl)\n13. Participation in another investigational drug or device study in the last 30 days\n14. Pregnancy or lactation (for premenopausal women 2 methods of reliable contraception, one of which must be barrier method, are required); in women with childbearing potential a pregnancy test is mandatory\n15. Concomitant oral or intravenous therapy (see examples below) with strong CYP3A inhibitors, CYP3A substrates with narrow therapeutic indices, or strong CYP3A inducers which cannot be stopped for the course of the study\n\n    * Strong inhibitors: ketoconazole, itraconazole, voriconazole, telithromycin, clarithromycin, nefazadone, ritonavir, saquinavir, nelfinavir, indinavir, atazanavir, over 1 litre daily of grapefruit juice.\n    * Substrates with narrow therapeutic index: cyclosporine, quinidine.\n    * Strong inducers: rifampin/rifampicin, phenytoin, carbamazepine.\n16. Life expectancy less than 12 months that may result in protocol non-compliance or a risk for being lost to follow-up, active cancer\n17. Indication for major surgery (e.g. cancer treatment, carotid surgery, cerebral surgery, major vascular surgery)\n18. Previous enrollment or randomization of treatment in the present study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Heribert Schunkert, MD",
+          "affiliation": "Deutsches Herzzentrum Munich Germany",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medizinische Universität Wien",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Klinikum Wels-Grieskirchen",
+          "city": "Wels",
+          "zip": "4600",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.16667,
+            "lon": 14.03333
+          }
+        },
+        {
+          "facility": "Deutsches Herzzentrum München",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "80636",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Herzzentrum Brandenburg in Bernau",
+          "city": "Bernau bei Berlin",
+          "state": "Brandenburg",
+          "zip": "16321",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.67982,
+            "lon": 13.58708
+          }
+        },
+        {
+          "facility": "Herz- und Kreislaufzentrum Rothenburg an der Fulda",
+          "city": "Rotenburg an der Fulda",
+          "state": "Hesse",
+          "zip": "36199",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.99556,
+            "lon": 9.72838
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Jena",
+          "city": "Jena",
+          "state": "Thuringia",
+          "zip": "07747",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.92878,
+            "lon": 11.5899
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Aachen",
+          "city": "Aachen",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Herz- und Gefäßzentrum",
+          "city": "Bad Bevensen",
+          "zip": "29549",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07923,
+            "lon": 10.58129
+          }
+        },
+        {
+          "facility": "Kerckhoff-Klinik GmbH",
+          "city": "Bad Nauheim",
+          "zip": "61231",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.36463,
+            "lon": 8.73859
+          }
+        },
+        {
+          "facility": "Charité Universitätsmedizin Berlin",
+          "city": "Berlin",
+          "zip": "10117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Deutsches Herzzentrum Berlin",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Gesundheit Nord gGmbH, Klinikum Links der Weser gGmbH",
+          "city": "Bremen",
+          "zip": "28277",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07582,
+            "lon": 8.80717
+          }
+        },
+        {
+          "facility": "Sana Herzzentrum Cottbus GmbH",
+          "city": "Cottbus",
+          "zip": "03048",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.75769,
+            "lon": 14.32888
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Düsseldorf",
+          "city": "Düsseldorf",
+          "zip": "40225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Erlangen",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "St. Antonius Hospital",
+          "city": "Eschweiler",
+          "zip": "52249",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.81854,
+            "lon": 6.27184
+          }
+        },
+        {
+          "facility": "Universitäts-Herzzentrum Freiburg / Bad Krozingen",
+          "city": "Freiburg im Breisgau",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Gießen",
+          "city": "Giessen",
+          "zip": "35392",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.58727,
+            "lon": 8.67554
+          }
+        },
+        {
+          "facility": "Universitätsmedizin Göttingen",
+          "city": "Göttingen",
+          "zip": "37075",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.53443,
+            "lon": 9.93228
+          }
+        },
+        {
+          "facility": "Asklepios Klinik St.Georg",
+          "city": "Hamburg",
+          "zip": "20099",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Universitäres Herzzentrum Hamburg GmbH",
+          "city": "Hamburg",
+          "zip": "20299",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Schleswig-Holstein, Campus Kiel",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Herzzentrum Leipzig GmbH",
+          "city": "Leipzig",
+          "zip": "04289",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Klinikum Ludwigshafen",
+          "city": "Ludwigshafen",
+          "zip": "67063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.81663,
+            "lon": 9.06138
+          }
+        },
+        {
+          "facility": "Universitätsklinikum Schleswig-Holstein, Campus Lübeck",
+          "city": "Lübeck",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Kliniken Maria Hilf GmbH",
+          "city": "Mönchengladbach",
+          "zip": "41063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Klinikum Nürnberg Süd",
+          "city": "Nuremberg",
+          "zip": "90419",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.45421,
+            "lon": 11.07752
+          }
+        },
+        {
+          "facility": "Krankenhaus der Barmherzigen Brüder Trier",
+          "city": "Trier",
+          "zip": "54292",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.75565,
+            "lon": 6.63935
+          }
+        },
+        {
+          "facility": "Schweizer Herz- und Gefässchirurgie",
+          "city": "Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31750899",
+          "type": "DERIVED",
+          "citation": "Sandner SE, Schunkert H, Kastrati A, Wiedemann D, Misfeld M, Boning A, Tebbe U, Nowak B, Stritzke J, Laufer G, von Scheidt M; TiCAB Investigators. Ticagrelor monotherapy versus aspirin in patients undergoing multiple arterial or single arterial coronary artery bypass grafting: insights from the TiCAB trial. Eur J Cardiothorac Surg. 2020 Apr 1;57(4):732-739. doi: 10.1093/ejcts/ezz313."
+        },
+        {
+          "pmid": "31145798",
+          "type": "DERIVED",
+          "citation": "Schunkert H, Boening A, von Scheidt M, Lanig C, Gusmini F, de Waha A, Kuna C, Fach A, Grothusen C, Oberhoffer M, Knosalla C, Walther T, Danner BC, Misfeld M, Zeymer U, Wimmer-Greinecker G, Siepe M, Grubitzsch H, Joost A, Schaefer A, Conradi L, Cremer J, Hamm C, Lange R, Radke PW, Schulz R, Laufer G, Grieshaber P, Pader P, Attmann T, Schmoeckel M, Meyer A, Ziegelhoffer T, Hambrecht R, Kastrati A, Sandner SE. Randomized trial of ticagrelor vs. aspirin in patients after coronary artery bypass grafting: the TiCAB trial. Eur Heart J. 2019 Aug 1;40(29):2432-2440. doi: 10.1093/eurheartj/ehz185."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D060050",
+          "term": "Angina, Stable"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

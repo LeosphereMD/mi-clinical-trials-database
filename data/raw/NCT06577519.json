@@ -1,0 +1,265 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06577519",
+      "orgStudyIdInfo": {
+        "id": "VCP1-III-01"
+      },
+      "organization": {
+        "fullName": "Jiangsu vcare pharmaceutical technology co., LTD",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety Study of Vicagrel in Patients With Acute Coronary Syndrome (ACS) Undergoing Percutaneous Coronary Intervention (PCI)",
+      "officialTitle": "Efficacy and Safety of Vicagrel in Patients With With Acute Coronary Syndrome (ACS) Undergoing Percutaneous Coronary Intervention (PCI): a Multi-center, Randomized, Double-blind, Double-dummy , Parallel-controlled, Phase III Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-09-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-08-28",
+      "studyFirstSubmitQcDate": "2024-08-28",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Jiangsu vcare pharmaceutical technology co., LTD",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multi-center, randomized, double-blind, double-dummy, parallel-controled, phase III trial, aiming to evaluate the effectiveness and safety of long-term continuous administration of Vicagrel capsules in ACS patients undergoing PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome (ACS) Undergoing Percutaneous Coronary Intervention (PCI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental group",
+          "type": "EXPERIMENTAL",
+          "description": "Vicagrel loading followed by Maintenance dose",
+          "interventionNames": [
+            "Drug: Vicagrel"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Clopidogrel loading followed by Maintenance dose",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vicagrel",
+          "description": "Vicagrel loading followed by Maintenance dose",
+          "armGroupLabels": [
+            "Experimental group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Clopidogrel loading followed by Maintenance dose",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The incidence of MACE",
+          "timeFrame": "6 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients between 18 and 80 years old, with no gender restrictions.\n* Patients diagnosed with ACS and scheduled for PCI, including STEMI and NSTE-ACS (UA/NSTEMI).\n* Voluntarily sign the ICF and be able to follow the visit arrangements specified in the protocol during the trial period.\n\nExclusion Criteria:\n\n* Expected survival time\\<12 months;\n* Severe liver dysfunction (non heart disease induced ALT or AST\\>3x ULN) and cirrhosis;\n* Pregnant or lactating women, or participants and their partners who plan to become pregnant during the trial period;\n* The researchers determined that other reasons were not suitable for participants in this experiment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Xiaojuan Lai",
+          "role": "CONTACT",
+          "phone": "15358160458",
+          "email": "lai_xiaojuan@vcarepharmatech.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "General Hospital of Northern Theater Command of Chinese PLA",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "zip": "110015",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yaling Han, M.D.",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C574646",
+          "term": "methyl 2-(2-acetoxy-6,7-dihydrothieno(3,2-c)pyridin-5(4H)-yl)-2-(2-chlorophenyl)acetate"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

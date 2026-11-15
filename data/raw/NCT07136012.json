@@ -1,0 +1,3339 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07136012",
+      "orgStudyIdInfo": {
+        "id": "20230222"
+      },
+      "organization": {
+        "fullName": "Amgen",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "OCEAN(a)-PreEvent - Olpasiran Trials of Cardiovascular Events And LipoproteiN(a) Reduction to Prevent First Major Cardiovascular Events",
+      "officialTitle": "A Double-blind, Randomized, Placebo-controlled, Multicenter Study Assessing Olpasiran Use to Prevent First Major Cardiovascular Events in Participants With Elevated Lipoprotein(a)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": true,
+        "nctId": "NCT07079267",
+        "statusForNctId": "AVAILABLE"
+      },
+      "startDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-10-20",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-10-20",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-08-18",
+      "studyFirstSubmitQcDate": "2025-08-18",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-08-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-08-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Amgen",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective is to evaluate the effect of olpasiran, compared to placebo, on the risk for coronary heart disease death (CHD death), myocardial infarction, or urgent coronary revascularization in participants at risk for a first major cardiovascular event with elevated lipoprotein(a) (Lp\\[a\\])."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Disease"
+      ],
+      "keywords": [
+        "Olpasiran",
+        "AMG 890",
+        "Coronary heart disease",
+        "CHD",
+        "Myocardial infarction",
+        "Coronary revascularization"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 11000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Olpasiran",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive subcutaneous (SC) olpasiran.",
+          "interventionNames": [
+            "Drug: Olpasiran"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive SC placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Olpasiran",
+          "description": "Olpasiran will be administered via SC injection.",
+          "armGroupLabels": [
+            "Olpasiran"
+          ],
+          "otherNames": [
+            "AMG 890"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo will be administered via SC injection.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to CHD Death, Myocardial Infarction, or Urgent Coronary Revascularization, Whichever Occurs First",
+          "timeFrame": "Up to approximately 6.2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to Cardiovascular Death, Myocardial Infarction, or Ischemic Stroke, Whichever Occurs First",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Cardiovascular Death, Myocardial Infarction, Urgent Coronary Revascularization, or Ischemic Stroke, Whichever Occurs First",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Percent Change From Baseline to Week 48 Lp(a) Levels",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Time to Myocardial Infarction",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to CHD Death or Myocardial Infarction, Whichever Occurs First",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Urgent Coronary Revascularization",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Coronary Revascularization",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to CHD Death",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Cardiovascular Death",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Death by any Cause",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Time to Ischemic Stroke",
+          "timeFrame": "Up to approximately 6.2 years"
+        },
+        {
+          "measure": "Serum Concentration of Olpasiran",
+          "timeFrame": "Up to Week 48"
+        },
+        {
+          "measure": "Number of Participants with Treatment Emergent Adverse Events (TEAEs)",
+          "description": "Including serious adverse events and adverse events leading to discontinuation of investigational product.",
+          "timeFrame": "Up to approximately 6.2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥50 years\n* Lp(a)≥ 200 nmol/L during screening\n* Multiple atherosclerotic cardiovascular disease risk factors, and/or evidence of atherosclerosis\n\nExclusion Criteria:\n\n* Prior acute atherothrombotic event (myocardial infarction, stroke, transient ischemic attack, acute limb ischemia)\n* Prior or planned arterial revascularization\n* History of major bleeding disorder",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "50 Years",
+      "maximumAge": "105 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Amgen Call Center",
+          "role": "CONTACT",
+          "phone": "866-572-6436",
+          "email": "medinfo@amgen.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "MD",
+          "affiliation": "Amgen",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Advanced Cardiovascular LLC",
+          "status": "RECRUITING",
+          "city": "Alexander City",
+          "state": "Alabama",
+          "zip": "35010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.94401,
+            "lon": -85.95385
+          }
+        },
+        {
+          "facility": "University of Alabama Birmingham Saint Vincents Birmingham",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Birmingham Clinical Research",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Alliance For Multispecialty Research - Daphne",
+          "status": "RECRUITING",
+          "city": "Daphne",
+          "state": "Alabama",
+          "zip": "36526",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.60353,
+            "lon": -87.9036
+          }
+        },
+        {
+          "facility": "Eastern Shore Research Institute",
+          "status": "RECRUITING",
+          "city": "Fairhope",
+          "state": "Alabama",
+          "zip": "36532",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.52297,
+            "lon": -87.90333
+          }
+        },
+        {
+          "facility": "Heart Center Research LLC",
+          "status": "RECRUITING",
+          "city": "Huntsville",
+          "state": "Alabama",
+          "zip": "35801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          }
+        },
+        {
+          "facility": "CB Flock Research Corporation",
+          "status": "RECRUITING",
+          "city": "Mobile",
+          "state": "Alabama",
+          "zip": "36608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.69436,
+            "lon": -88.04305
+          }
+        },
+        {
+          "facility": "Phoenix Clinical",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Elite Clinical Studies LLC",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85018",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Hero Clinical Research",
+          "status": "RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "HonorHealth Research Institute",
+          "status": "RECRUITING",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "Eclipse Clinical Research",
+          "status": "RECRUITING",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85745",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Lynn Institute of the Ozarks",
+          "status": "RECRUITING",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "National Heart Institute",
+          "status": "RECRUITING",
+          "city": "Beverly Hills",
+          "state": "California",
+          "zip": "90211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          }
+        },
+        {
+          "facility": "310 Clinical Research",
+          "status": "RECRUITING",
+          "city": "Inglewood",
+          "state": "California",
+          "zip": "90301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.96168,
+            "lon": -118.35313
+          }
+        },
+        {
+          "facility": "University of California San Diego",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92037",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "InvivoCure",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "91405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Valley Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Northridge",
+          "state": "California",
+          "zip": "91325",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.22834,
+            "lon": -118.53675
+          }
+        },
+        {
+          "facility": "Clinical Trials Research - Sacramento",
+          "status": "RECRUITING",
+          "city": "Roseville",
+          "state": "California",
+          "zip": "95661",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.75212,
+            "lon": -121.28801
+          }
+        },
+        {
+          "facility": "Alliance Clinical Research",
+          "status": "RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Encompass Clinical Research",
+          "status": "RECRUITING",
+          "city": "Spring Valley",
+          "state": "California",
+          "zip": "91978",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.74477,
+            "lon": -116.99892
+          }
+        },
+        {
+          "facility": "Stanford Health Care",
+          "status": "RECRUITING",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Manshadi Heart Institute",
+          "status": "RECRUITING",
+          "city": "Stockton",
+          "state": "California",
+          "zip": "95204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.9577,
+            "lon": -121.29078
+          }
+        },
+        {
+          "facility": "Blue Coast Cardiology",
+          "status": "RECRUITING",
+          "city": "Vista",
+          "state": "California",
+          "zip": "92083",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.20004,
+            "lon": -117.24254
+          }
+        },
+        {
+          "facility": "Diablo Clinical Research",
+          "status": "RECRUITING",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "Focus Clinical Research",
+          "status": "RECRUITING",
+          "city": "West Hills",
+          "state": "California",
+          "zip": "91307",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.19731,
+            "lon": -118.64398
+          }
+        },
+        {
+          "facility": "Interventional Cardiology Medical Group",
+          "status": "RECRUITING",
+          "city": "West Hills",
+          "state": "California",
+          "zip": "91307",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.19731,
+            "lon": -118.64398
+          }
+        },
+        {
+          "facility": "UCHealth Memorial Central",
+          "status": "RECRUITING",
+          "city": "Colorado Springs",
+          "state": "Colorado",
+          "zip": "80909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          }
+        },
+        {
+          "facility": "South Denver Cardiology Associates",
+          "status": "RECRUITING",
+          "city": "Littleton",
+          "state": "Colorado",
+          "zip": "80120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.61332,
+            "lon": -105.01665
+          }
+        },
+        {
+          "facility": "Gandelman Cardiology, PC",
+          "status": "RECRUITING",
+          "city": "Greenwich",
+          "state": "Connecticut",
+          "zip": "06830",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.02649,
+            "lon": -73.62846
+          }
+        },
+        {
+          "facility": "ClinTrial Hamden",
+          "status": "RECRUITING",
+          "city": "Hamden",
+          "state": "Connecticut",
+          "zip": "06518",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.39593,
+            "lon": -72.89677
+          }
+        },
+        {
+          "facility": "Chase Medical Research LLC",
+          "status": "RECRUITING",
+          "city": "Waterbury",
+          "state": "Connecticut",
+          "zip": "06708",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.55815,
+            "lon": -73.0515
+          }
+        },
+        {
+          "facility": "Excel Medical Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Boca Raton",
+          "state": "Florida",
+          "zip": "33434",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          }
+        },
+        {
+          "facility": "Clearwater Cardiovascular Consultants",
+          "status": "RECRUITING",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "Proactive Clinical Research",
+          "status": "TERMINATED",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Elite Cardiac Research Center LLC",
+          "status": "TERMINATED",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33013",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "Jacksonville Center for Clinical Research",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "East Coast Institute for Research, LLC",
+          "status": "RECRUITING",
+          "city": "Lake City",
+          "state": "Florida",
+          "zip": "32055",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.18968,
+            "lon": -82.63929
+          }
+        },
+        {
+          "facility": "Columbus Clinical Services LLC",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33125",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Kendall South Medical Center",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33175",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Inpatient Research Clinic, LLC",
+          "status": "RECRUITING",
+          "city": "Miami Lakes",
+          "state": "Florida",
+          "zip": "33014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          }
+        },
+        {
+          "facility": "Panax Clinical Research",
+          "status": "RECRUITING",
+          "city": "Miami Lakes",
+          "state": "Florida",
+          "zip": "33014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          }
+        },
+        {
+          "facility": "Indago Research and Health Center",
+          "status": "RECRUITING",
+          "city": "Miami Lakes",
+          "state": "Florida",
+          "zip": "33016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          }
+        },
+        {
+          "facility": "Eminat, LLC",
+          "status": "RECRUITING",
+          "city": "Miramar",
+          "state": "Florida",
+          "zip": "33027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.98731,
+            "lon": -80.23227
+          }
+        },
+        {
+          "facility": "Suncoast Clinical Research Inc",
+          "status": "RECRUITING",
+          "city": "New Port Richey",
+          "state": "Florida",
+          "zip": "34652",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.24418,
+            "lon": -82.71927
+          }
+        },
+        {
+          "facility": "Ocala Cardiovascular Research",
+          "status": "RECRUITING",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34471",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Ocala Research Institute, Inc",
+          "status": "RECRUITING",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34474",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Ormond Beach Clinical Research",
+          "status": "RECRUITING",
+          "city": "Ormond Beach",
+          "state": "Florida",
+          "zip": "32174",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.28581,
+            "lon": -81.05589
+          }
+        },
+        {
+          "facility": "Baptist Health Care",
+          "status": "RECRUITING",
+          "city": "Pensacola",
+          "state": "Florida",
+          "zip": "32503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          }
+        },
+        {
+          "facility": "Denali Health Plant City",
+          "status": "RECRUITING",
+          "city": "Plant City",
+          "state": "Florida",
+          "zip": "33563",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.01888,
+            "lon": -82.11469
+          }
+        },
+        {
+          "facility": "FWD Clinical Research",
+          "status": "TERMINATED",
+          "city": "Tamarac",
+          "state": "Florida",
+          "zip": "33321",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.21286,
+            "lon": -80.24977
+          }
+        },
+        {
+          "facility": "Clinical Site Partners Orlando dba Flourish Research",
+          "status": "RECRUITING",
+          "city": "Winter Park",
+          "state": "Florida",
+          "zip": "32789",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.6,
+            "lon": -81.33924
+          }
+        },
+        {
+          "facility": "Guardian Research Organization LLC",
+          "status": "TERMINATED",
+          "city": "Winter Park",
+          "state": "Florida",
+          "zip": "32792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.6,
+            "lon": -81.33924
+          }
+        },
+        {
+          "facility": "Emory University Hospital",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "East Coast Institute for Research",
+          "status": "RECRUITING",
+          "city": "Canton",
+          "state": "Georgia",
+          "zip": "30114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23676,
+            "lon": -84.49076
+          }
+        },
+        {
+          "facility": "Northeast Georgia Medical Center Wisteria Building",
+          "status": "RECRUITING",
+          "city": "Cumming",
+          "state": "Georgia",
+          "zip": "30041",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.20732,
+            "lon": -84.14019
+          }
+        },
+        {
+          "facility": "Nsc Research",
+          "status": "RECRUITING",
+          "city": "Johns Creek",
+          "state": "Georgia",
+          "zip": "30024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.02893,
+            "lon": -84.19858
+          }
+        },
+        {
+          "facility": "Georgia Clinical Research",
+          "status": "RECRUITING",
+          "city": "Lawrenceville",
+          "state": "Georgia",
+          "zip": "30044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.95621,
+            "lon": -83.98796
+          }
+        },
+        {
+          "facility": "North Georgia Clinical Research",
+          "status": "RECRUITING",
+          "city": "Woodstock",
+          "state": "Georgia",
+          "zip": "30189",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.10149,
+            "lon": -84.51938
+          }
+        },
+        {
+          "facility": "St Lukes Idaho",
+          "status": "RECRUITING",
+          "city": "Meridian",
+          "state": "Idaho",
+          "zip": "83642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.61211,
+            "lon": -116.39151
+          }
+        },
+        {
+          "facility": "Solaris Clinical Research",
+          "status": "TERMINATED",
+          "city": "Meridian",
+          "state": "Idaho",
+          "zip": "83646",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.61211,
+            "lon": -116.39151
+          }
+        },
+        {
+          "facility": "Endeavor Health-Northwest Community Healthcare",
+          "status": "RECRUITING",
+          "city": "Arlington Heights",
+          "state": "Illinois",
+          "zip": "60005",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.08836,
+            "lon": -87.98063
+          }
+        },
+        {
+          "facility": "Christie Clinic",
+          "status": "RECRUITING",
+          "city": "Champaign",
+          "state": "Illinois",
+          "zip": "61822",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.11642,
+            "lon": -88.24338
+          }
+        },
+        {
+          "facility": "Advocate Lutheran General Hospital",
+          "status": "RECRUITING",
+          "city": "Park Ridge",
+          "state": "Illinois",
+          "zip": "60068",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.01114,
+            "lon": -87.84062
+          }
+        },
+        {
+          "facility": "Alliance for Multispecialty Research LLC - Park Ridge",
+          "status": "RECRUITING",
+          "city": "Park Ridge",
+          "state": "Illinois",
+          "zip": "66068",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.01114,
+            "lon": -87.84062
+          }
+        },
+        {
+          "facility": "MediSphere Medical Research Center LLC",
+          "status": "RECRUITING",
+          "city": "Evansville",
+          "state": "Indiana",
+          "zip": "47714",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.97476,
+            "lon": -87.55585
+          }
+        },
+        {
+          "facility": "Parkview Research Center",
+          "status": "RECRUITING",
+          "city": "Fort Wayne",
+          "state": "Indiana",
+          "zip": "46845",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.1306,
+            "lon": -85.12886
+          }
+        },
+        {
+          "facility": "Franciscan Health Indianapolis",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46237",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Ascension Saint Vincent Heart Center",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46290",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Cardiovascular Research of Northwest Indiana LLC",
+          "status": "RECRUITING",
+          "city": "Munster",
+          "state": "Indiana",
+          "zip": "46321",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.56448,
+            "lon": -87.51254
+          }
+        },
+        {
+          "facility": "Reid Physician Associates",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Indiana",
+          "zip": "47374",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.82894,
+            "lon": -84.89024
+          }
+        },
+        {
+          "facility": "MercyOne Iowa Heart Center",
+          "status": "RECRUITING",
+          "city": "West Des Moines",
+          "state": "Iowa",
+          "zip": "50266",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.57721,
+            "lon": -93.71133
+          }
+        },
+        {
+          "facility": "Hutchinson Clinic PA",
+          "status": "RECRUITING",
+          "city": "Hutchinson",
+          "state": "Kansas",
+          "zip": "67502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.06084,
+            "lon": -97.92977
+          }
+        },
+        {
+          "facility": "University of Kansas Medical Center",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66160",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "Midwest Heart and Vascular Specialists",
+          "status": "RECRUITING",
+          "city": "Overland Park",
+          "state": "Kansas",
+          "zip": "66211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98223,
+            "lon": -94.67079
+          }
+        },
+        {
+          "facility": "Graves Gilbert Clinic",
+          "status": "RECRUITING",
+          "city": "Bowling Green",
+          "state": "Kentucky",
+          "zip": "42101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.99032,
+            "lon": -86.4436
+          }
+        },
+        {
+          "facility": "Baptist Health Lexington",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "The Research Group of Lexington LLC",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Heart Clinic of Hammond",
+          "status": "RECRUITING",
+          "city": "Covington",
+          "state": "Louisiana",
+          "zip": "70433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          }
+        },
+        {
+          "facility": "IMA Clinical Research",
+          "status": "RECRUITING",
+          "city": "Monroe",
+          "state": "Louisiana",
+          "zip": "71201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.50931,
+            "lon": -92.1193
+          }
+        },
+        {
+          "facility": "Louisiana Heart Center",
+          "status": "RECRUITING",
+          "city": "Slidell",
+          "state": "Louisiana",
+          "zip": "70458",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.27519,
+            "lon": -89.78117
+          }
+        },
+        {
+          "facility": "Monroe Research LLC",
+          "status": "RECRUITING",
+          "city": "West Monroe",
+          "state": "Louisiana",
+          "zip": "71291",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.51848,
+            "lon": -92.14764
+          }
+        },
+        {
+          "facility": "Ascension Saint Agnes Heart Care",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Johns Hopkins Hospital",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Metropolitan Cardiovascular Consultants LLC",
+          "status": "RECRUITING",
+          "city": "Beltsville",
+          "state": "Maryland",
+          "zip": "20705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.03483,
+            "lon": -76.90747
+          }
+        },
+        {
+          "facility": "Suburban Hospital",
+          "status": "TERMINATED",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20814",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "Flourish Research",
+          "status": "RECRUITING",
+          "city": "Bowie",
+          "state": "Maryland",
+          "zip": "20715",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.94278,
+            "lon": -76.73028
+          }
+        },
+        {
+          "facility": "Johns Hopkins University",
+          "status": "RECRUITING",
+          "city": "Columbia",
+          "state": "Maryland",
+          "zip": "21044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.24038,
+            "lon": -76.83942
+          }
+        },
+        {
+          "facility": "Centennial Medical Group",
+          "status": "RECRUITING",
+          "city": "Columbia",
+          "state": "Maryland",
+          "zip": "21045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.24038,
+            "lon": -76.83942
+          }
+        },
+        {
+          "facility": "Capitol Cardiology Associates",
+          "status": "RECRUITING",
+          "city": "Lanham",
+          "state": "Maryland",
+          "zip": "20706",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.96875,
+            "lon": -76.8634
+          }
+        },
+        {
+          "facility": "MedStar Health Research Institute",
+          "status": "RECRUITING",
+          "city": "Olney",
+          "state": "Maryland",
+          "zip": "20832",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.15316,
+            "lon": -77.06692
+          }
+        },
+        {
+          "facility": "Brigham and Womens Hospital",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Henry Ford Health System",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Healthy Heart Cardiology",
+          "status": "RECRUITING",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49546",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "MyMichigan Medical Center Midland - Clinical Research Department",
+          "status": "RECRUITING",
+          "city": "Midland",
+          "state": "Michigan",
+          "zip": "48670",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.61558,
+            "lon": -84.24721
+          }
+        },
+        {
+          "facility": "Advanced Cardiology Associates",
+          "status": "RECRUITING",
+          "city": "Rochester Hills",
+          "state": "Michigan",
+          "zip": "48307",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.65837,
+            "lon": -83.14993
+          }
+        },
+        {
+          "facility": "Revival Research Institute",
+          "status": "RECRUITING",
+          "city": "Southfield",
+          "state": "Michigan",
+          "zip": "48034",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.47337,
+            "lon": -83.22187
+          }
+        },
+        {
+          "facility": "Saint Marys Medical Center",
+          "status": "RECRUITING",
+          "city": "Duluth",
+          "state": "Minnesota",
+          "zip": "55805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          }
+        },
+        {
+          "facility": "Health East Cancer Care",
+          "status": "RECRUITING",
+          "city": "Maplewood",
+          "state": "Minnesota",
+          "zip": "55109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.95302,
+            "lon": -92.99522
+          }
+        },
+        {
+          "facility": "University of Minnesota",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Methodist Hospital",
+          "status": "RECRUITING",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55426",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Jackson Heart Clinic",
+          "status": "RECRUITING",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "Cardiology Associates Research LLC",
+          "status": "RECRUITING",
+          "city": "Tupelo",
+          "state": "Mississippi",
+          "zip": "38801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.25807,
+            "lon": -88.70464
+          }
+        },
+        {
+          "facility": "Sisters of Saint Mary Health Heart and Vascular Care",
+          "status": "RECRUITING",
+          "city": "Bridgeton",
+          "state": "Missouri",
+          "zip": "63044",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.767,
+            "lon": -90.41151
+          }
+        },
+        {
+          "facility": "Kansas City Veterans Affairs Medical Center",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64128",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Washington University",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Bryan Heart",
+          "status": "RECRUITING",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "Physician Research Collaboration, LLC",
+          "status": "RECRUITING",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68516",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "Excel Clinical Research",
+          "status": "RECRUITING",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "American Institute of Medical Research",
+          "status": "RECRUITING",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Las Vegas Clinical Trials",
+          "status": "RECRUITING",
+          "city": "North Las Vegas",
+          "state": "Nevada",
+          "zip": "89030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.19886,
+            "lon": -115.1175
+          }
+        },
+        {
+          "facility": "Renown Institute for Heart and Vascular Health",
+          "status": "RECRUITING",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "Advanced Heart Care LLC",
+          "status": "RECRUITING",
+          "city": "Bridgewater",
+          "state": "New Jersey",
+          "zip": "08807",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.60079,
+            "lon": -74.64815
+          }
+        },
+        {
+          "facility": "Advanced Heart and Vascular Institute of Hunterdon",
+          "status": "RECRUITING",
+          "city": "Flemington",
+          "state": "New Jersey",
+          "zip": "08822",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.51233,
+            "lon": -74.85933
+          }
+        },
+        {
+          "facility": "Clinical Reseach Philadelphia Pennington",
+          "status": "RECRUITING",
+          "city": "Hamilton",
+          "state": "New Jersey",
+          "zip": "08690",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.20706,
+            "lon": -74.08125
+          }
+        },
+        {
+          "facility": "Med Clinical Research Partners - Irvington",
+          "status": "RECRUITING",
+          "city": "Irvington",
+          "state": "New Jersey",
+          "zip": "07111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.73232,
+            "lon": -74.23487
+          }
+        },
+        {
+          "facility": "New Jersey Medcare / New Jersey Heart",
+          "status": "RECRUITING",
+          "city": "Linden",
+          "state": "New Jersey",
+          "zip": "07036",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.62205,
+            "lon": -74.24459
+          }
+        },
+        {
+          "facility": "Saint Michaels Medical Center",
+          "status": "RECRUITING",
+          "city": "Newark",
+          "state": "New Jersey",
+          "zip": "07102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.73566,
+            "lon": -74.17237
+          }
+        },
+        {
+          "facility": "Circuit Clinical / Optum Medical Care of New Jersey",
+          "status": "RECRUITING",
+          "city": "Secaucus",
+          "state": "New Jersey",
+          "zip": "07094",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.78955,
+            "lon": -74.05653
+          }
+        },
+        {
+          "facility": "The Heart House - Washington Township",
+          "status": "RECRUITING",
+          "city": "Sewell",
+          "state": "New Jersey",
+          "zip": "08080",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.7665,
+            "lon": -75.14434
+          }
+        },
+        {
+          "facility": "CardioMetabolic Collaborative Clinic",
+          "status": "RECRUITING",
+          "city": "Somerset",
+          "state": "New Jersey",
+          "zip": "08873",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.4976,
+            "lon": -74.48849
+          }
+        },
+        {
+          "facility": "Ima Clinical Research - Warren",
+          "status": "RECRUITING",
+          "city": "Warren Township",
+          "state": "New Jersey",
+          "zip": "07059",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.60822,
+            "lon": -74.51803
+          }
+        },
+        {
+          "facility": "Albany Medical College",
+          "status": "RECRUITING",
+          "city": "Albany",
+          "state": "New York",
+          "zip": "12203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          }
+        },
+        {
+          "facility": "Basil Clinical",
+          "status": "RECRUITING",
+          "city": "Inwood",
+          "state": "New York",
+          "zip": "11096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.86566,
+            "lon": -73.9268
+          }
+        },
+        {
+          "facility": "Rasai Research",
+          "status": "RECRUITING",
+          "city": "Jackson Heights",
+          "state": "New York",
+          "zip": "11372",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.75566,
+            "lon": -73.88541
+          }
+        },
+        {
+          "facility": "Crystal Run Healthcare",
+          "status": "RECRUITING",
+          "city": "Monroe",
+          "state": "New York",
+          "zip": "10950",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.33065,
+            "lon": -74.18681
+          }
+        },
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai Queens",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Ima Clinical Research Manhattan",
+          "status": "TERMINATED",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10036",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Niagara Falls Memorial Medical Center",
+          "status": "RECRUITING",
+          "city": "Niagara Falls",
+          "state": "New York",
+          "zip": "14304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0945,
+            "lon": -79.05671
+          }
+        },
+        {
+          "facility": "Circuit Clinical Orchard Park Family Practice",
+          "status": "RECRUITING",
+          "city": "Orchard Park",
+          "state": "New York",
+          "zip": "14127",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.76756,
+            "lon": -78.74392
+          }
+        },
+        {
+          "facility": "Hudson Valley Cardiovascular Physicians PC",
+          "status": "RECRUITING",
+          "city": "Poughkeepsie",
+          "state": "New York",
+          "zip": "12601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.70037,
+            "lon": -73.92097
+          }
+        },
+        {
+          "facility": "Saratoga Clinical Research, LLC",
+          "status": "RECRUITING",
+          "city": "Saratoga Springs",
+          "state": "New York",
+          "zip": "12866",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.08313,
+            "lon": -73.78457
+          }
+        },
+        {
+          "facility": "Duke University Health System",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Moses H Cone Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Medication Management LLC",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Triad Clinical Trials, LLC",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27410",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "ClinCept, LLC",
+          "status": "RECRUITING",
+          "city": "Kinston",
+          "state": "North Carolina",
+          "zip": "28501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.26266,
+            "lon": -77.58164
+          }
+        },
+        {
+          "facility": "Monroe Biomedical Research",
+          "status": "RECRUITING",
+          "city": "Monroe",
+          "state": "North Carolina",
+          "zip": "28112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.98543,
+            "lon": -80.54951
+          }
+        },
+        {
+          "facility": "Piedmont Healthcare",
+          "status": "RECRUITING",
+          "city": "Statesville",
+          "state": "North Carolina",
+          "zip": "28625",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.78264,
+            "lon": -80.8873
+          }
+        },
+        {
+          "facility": "Accellacare Research of Wilmington",
+          "status": "RECRUITING",
+          "city": "Wilmington",
+          "state": "North Carolina",
+          "zip": "28401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          }
+        },
+        {
+          "facility": "Wake Forest University Health Sciences",
+          "status": "RECRUITING",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Lillestol Research LLC",
+          "status": "RECRUITING",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Aultman Cardiology Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Canton",
+          "state": "Ohio",
+          "zip": "44710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79895,
+            "lon": -81.37845
+          }
+        },
+        {
+          "facility": "The Christ Hospital",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Velocity Clinical Research - Cincinnati",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Nexgen Research",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "state": "Ohio",
+          "zip": "45801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.74255,
+            "lon": -84.10523
+          }
+        },
+        {
+          "facility": "K and R Research",
+          "status": "RECRUITING",
+          "city": "Marion",
+          "state": "Ohio",
+          "zip": "43302",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.58867,
+            "lon": -83.12852
+          }
+        },
+        {
+          "facility": "Alliance for Multispecialty Research",
+          "status": "RECRUITING",
+          "city": "Norman",
+          "state": "Oklahoma",
+          "zip": "73069",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22257,
+            "lon": -97.43948
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Preferred Primary Care Physicians, Inc",
+          "status": "RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15236",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Pottstown Medical Specialists Inc",
+          "status": "RECRUITING",
+          "city": "Pottstown",
+          "state": "Pennsylvania",
+          "zip": "19464",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.24537,
+            "lon": -75.64963
+          }
+        },
+        {
+          "facility": "Miriam Hospital",
+          "status": "RECRUITING",
+          "city": "East Greenwich",
+          "state": "Rhode Island",
+          "zip": "02818",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66038,
+            "lon": -71.45589
+          }
+        },
+        {
+          "facility": "Pharmacorp Clinical Trials Inc",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29412",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Prisma Health Carolina Cardiology - Greenville",
+          "status": "RECRUITING",
+          "city": "Gantt",
+          "state": "South Carolina",
+          "zip": "29605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.80012,
+            "lon": -82.42429
+          }
+        },
+        {
+          "facility": "Walker Family Care",
+          "status": "RECRUITING",
+          "city": "Little River",
+          "state": "South Carolina",
+          "zip": "29566",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.87323,
+            "lon": -78.61418
+          }
+        },
+        {
+          "facility": "Accellacare Charleston",
+          "status": "RECRUITING",
+          "city": "Mt. Pleasant",
+          "state": "South Carolina",
+          "zip": "29464",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.79407,
+            "lon": -79.86259
+          }
+        },
+        {
+          "facility": "Tribe Clinical Research - Spartanburg",
+          "status": "RECRUITING",
+          "city": "Spartanburg",
+          "state": "South Carolina",
+          "zip": "29301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.94957,
+            "lon": -81.93205
+          }
+        },
+        {
+          "facility": "Monument Health Clinical Research",
+          "status": "RECRUITING",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Erlanger Health, Inc.",
+          "status": "RECRUITING",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Apex Research Foundation, LLC",
+          "status": "TERMINATED",
+          "city": "Jackson",
+          "state": "Tennessee",
+          "zip": "38301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.61452,
+            "lon": -88.81395
+          }
+        },
+        {
+          "facility": "Alliance for Multispecialty Research Knoxville",
+          "status": "TERMINATED",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        },
+        {
+          "facility": "Ascension Saint Thomas",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Parkway Cardiology Associates",
+          "status": "RECRUITING",
+          "city": "Oak Ridge",
+          "state": "Tennessee",
+          "zip": "37830",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.01036,
+            "lon": -84.26964
+          }
+        },
+        {
+          "facility": "Tennessee Center for Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Tullahoma",
+          "state": "Tennessee",
+          "zip": "37388",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.36202,
+            "lon": -86.20943
+          }
+        },
+        {
+          "facility": "PharmaTex Research, LLC",
+          "status": "RECRUITING",
+          "city": "Amarillo",
+          "state": "Texas",
+          "zip": "79106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.222,
+            "lon": -101.8313
+          }
+        },
+        {
+          "facility": "Texas Diabetes and Endocrinology",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78731",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Ima Clinical Research",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78745",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Pioneer Medical Associates",
+          "status": "RECRUITING",
+          "city": "Carrollton",
+          "state": "Texas",
+          "zip": "75007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.95373,
+            "lon": -96.89028
+          }
+        },
+        {
+          "facility": "Baylor Scott and White Heart and Vascular Hospital-Dallas",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Zenos Clinical Research",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75230",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "The Heartbeat Clinic",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75243",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Cedar Health Research, LLC",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75251",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Cedar Health Research, LLC",
+          "status": "RECRUITING",
+          "city": "Euless",
+          "state": "Texas",
+          "zip": "76040",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.83707,
+            "lon": -97.08195
+          }
+        },
+        {
+          "facility": "East Texas Cardiology PA",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77002",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Baylor College of Medicine",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Cardiovascular Specialists of Willowbrook",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77070",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Vital Heart and Vein",
+          "status": "RECRUITING",
+          "city": "Humble",
+          "state": "Texas",
+          "zip": "77338",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.99883,
+            "lon": -95.26216
+          }
+        },
+        {
+          "facility": "Tcr Institute Llc",
+          "status": "RECRUITING",
+          "city": "Kingwood",
+          "state": "Texas",
+          "zip": "77339",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.05691,
+            "lon": -95.18349
+          }
+        },
+        {
+          "facility": "Epic Clinical Research",
+          "status": "RECRUITING",
+          "city": "Lewisville",
+          "state": "Texas",
+          "zip": "75057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.04623,
+            "lon": -96.99417
+          }
+        },
+        {
+          "facility": "Texas Tech University Health Sciences Center",
+          "status": "RECRUITING",
+          "city": "Lubbock",
+          "state": "Texas",
+          "zip": "79430",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.57786,
+            "lon": -101.85517
+          }
+        },
+        {
+          "facility": "North Dallas Research Associates",
+          "status": "TERMINATED",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75069",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Revival Research Institute",
+          "status": "RECRUITING",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75071",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Texas Institute of Cardiology",
+          "status": "RECRUITING",
+          "city": "McKinney",
+          "state": "Texas",
+          "zip": "75071",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.19762,
+            "lon": -96.61527
+          }
+        },
+        {
+          "facility": "Southern Endocrinology Associates PA",
+          "status": "RECRUITING",
+          "city": "Mesquite",
+          "state": "Texas",
+          "zip": "75149",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.7668,
+            "lon": -96.59916
+          }
+        },
+        {
+          "facility": "Orion Medical",
+          "status": "RECRUITING",
+          "city": "Pasadena",
+          "state": "Texas",
+          "zip": "77505",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.69106,
+            "lon": -95.2091
+          }
+        },
+        {
+          "facility": "Valley Institute of Research Plano",
+          "status": "RECRUITING",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Ima Clinical Research San Antonio",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "St Davids Heart & Vascular PLLC dba Austin Heart",
+          "status": "RECRUITING",
+          "city": "San Marcos",
+          "state": "Texas",
+          "zip": "78666",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.88327,
+            "lon": -97.94139
+          }
+        },
+        {
+          "facility": "Tyler Cardiovascular Consultants",
+          "status": "RECRUITING",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Alpine Research Organization",
+          "status": "RECRUITING",
+          "city": "Layton",
+          "state": "Utah",
+          "zip": "84041",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.06022,
+            "lon": -111.97105
+          }
+        },
+        {
+          "facility": "Inova Cardiology - Fairfax",
+          "status": "RECRUITING",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Virginia Heart",
+          "status": "RECRUITING",
+          "city": "Falls Church",
+          "state": "Virginia",
+          "zip": "22042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.88233,
+            "lon": -77.17109
+          }
+        },
+        {
+          "facility": "Virginia Heart - Loudoun",
+          "status": "RECRUITING",
+          "city": "Leesburg",
+          "state": "Virginia",
+          "zip": "20176",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11566,
+            "lon": -77.5636
+          }
+        },
+        {
+          "facility": "Carient Heart and Vascular",
+          "status": "RECRUITING",
+          "city": "Manassas",
+          "state": "Virginia",
+          "zip": "20109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.75095,
+            "lon": -77.47527
+          }
+        },
+        {
+          "facility": "Bon Secours Cardiology",
+          "status": "RECRUITING",
+          "city": "Midlothian",
+          "state": "Virginia",
+          "zip": "23114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.50598,
+            "lon": -77.64916
+          }
+        },
+        {
+          "facility": "Tidewater Physicians Multispecialty Group Clinical Research",
+          "status": "RECRUITING",
+          "city": "Newport News",
+          "state": "Virginia",
+          "zip": "23606",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.98038,
+            "lon": -76.42975
+          }
+        },
+        {
+          "facility": "Alliance for Multispecialty Research Norfolk",
+          "status": "RECRUITING",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Centricity Research",
+          "status": "RECRUITING",
+          "city": "Suffolk",
+          "state": "Virginia",
+          "zip": "23435",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.72836,
+            "lon": -76.58496
+          }
+        },
+        {
+          "facility": "Selma Medical Associates",
+          "status": "RECRUITING",
+          "city": "Winchester",
+          "state": "Virginia",
+          "zip": "22601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.18566,
+            "lon": -78.16333
+          }
+        },
+        {
+          "facility": "Winchester Medical Center",
+          "status": "TERMINATED",
+          "city": "Winchester",
+          "state": "Virginia",
+          "zip": "22601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.18566,
+            "lon": -78.16333
+          }
+        },
+        {
+          "facility": "Western Washington Medical Group",
+          "status": "RECRUITING",
+          "city": "Everett",
+          "state": "Washington",
+          "zip": "98208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.97898,
+            "lon": -122.20208
+          }
+        },
+        {
+          "facility": "Rainier Clinical Research Center",
+          "status": "RECRUITING",
+          "city": "Renton",
+          "state": "Washington",
+          "zip": "98057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.48288,
+            "lon": -122.21707
+          }
+        },
+        {
+          "facility": "Canberra Hospital",
+          "status": "RECRUITING",
+          "city": "Garran",
+          "state": "Australian Capital Territory",
+          "zip": "2605",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.34206,
+            "lon": 149.10846
+          }
+        },
+        {
+          "facility": "Royal Prince Alfred Hospital",
+          "status": "RECRUITING",
+          "city": "Camperdown",
+          "state": "New South Wales",
+          "zip": "2050",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          }
+        },
+        {
+          "facility": "Novatrials",
+          "status": "RECRUITING",
+          "city": "Charlestown",
+          "state": "New South Wales",
+          "zip": "2290",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.96828,
+            "lon": 151.69318
+          }
+        },
+        {
+          "facility": "Concord Repatriation General Hospital",
+          "status": "RECRUITING",
+          "city": "Concord",
+          "state": "New South Wales",
+          "zip": "2139",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "Aim Research",
+          "status": "RECRUITING",
+          "city": "Merewether",
+          "state": "New South Wales",
+          "zip": "2291",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.94801,
+            "lon": 151.74325
+          }
+        },
+        {
+          "facility": "Orange Health Service",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "New South Wales",
+          "zip": "2800",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.28397,
+            "lon": 149.10018
+          }
+        },
+        {
+          "facility": "Wollongong Hospital",
+          "status": "RECRUITING",
+          "city": "Wollongong",
+          "state": "New South Wales",
+          "zip": "2500",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.424,
+            "lon": 150.89345
+          }
+        },
+        {
+          "facility": "Advara HeartCare Wesley",
+          "status": "RECRUITING",
+          "city": "Auchenflower",
+          "state": "Queensland",
+          "zip": "4066",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.47443,
+            "lon": 152.99213
+          }
+        },
+        {
+          "facility": "Core Research Group Pty Ltd",
+          "status": "RECRUITING",
+          "city": "Milton",
+          "state": "Queensland",
+          "zip": "4064",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.47039,
+            "lon": 153.00312
+          }
+        },
+        {
+          "facility": "University of The Sunshine Coast Clinical Trials, Sippy Downs",
+          "status": "RECRUITING",
+          "city": "Sippy Downs",
+          "state": "Queensland",
+          "zip": "4556",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.71793,
+            "lon": 153.05475
+          }
+        },
+        {
+          "facility": "Dr Heart Pty Ltd",
+          "status": "RECRUITING",
+          "city": "Woolloongabba",
+          "state": "Queensland",
+          "zip": "4102",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48855,
+            "lon": 153.03655
+          }
+        },
+        {
+          "facility": "Flinders Medical Centre",
+          "status": "RECRUITING",
+          "city": "Bedford Park",
+          "state": "South Australia",
+          "zip": "5042",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Advara HeartCare Leabrook",
+          "status": "RECRUITING",
+          "city": "Leabrook",
+          "state": "South Australia",
+          "zip": "5068",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92976,
+            "lon": 138.65862
+          }
+        },
+        {
+          "facility": "Fusion Clinical Research",
+          "status": "RECRUITING",
+          "city": "Norwood",
+          "state": "South Australia",
+          "zip": "5067",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.9273,
+            "lon": 138.62849
+          }
+        },
+        {
+          "facility": "Victorian Heart Hospital",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "The Alfred Hospital",
+          "status": "RECRUITING",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3004",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Momentum Clinical Research - Sunshine",
+          "status": "RECRUITING",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3021",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Clinitrials - Mandurah",
+          "status": "RECRUITING",
+          "city": "Greenfields",
+          "state": "Western Australia",
+          "zip": "6210",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.52429,
+            "lon": 115.76315
+          }
+        },
+        {
+          "facility": "Advara HeartCare Joondalup",
+          "status": "RECRUITING",
+          "city": "Joondalup",
+          "state": "Western Australia",
+          "zip": "6027",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.74445,
+            "lon": 115.76835
+          }
+        },
+        {
+          "facility": "Hollywood Private Hospital",
+          "status": "RECRUITING",
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Linear Clinical Research Limited",
+          "status": "RECRUITING",
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Clinitrials - West Perth",
+          "status": "RECRUITING",
+          "city": "Perth",
+          "state": "Western Australia",
+          "zip": "6000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Centricity Research Calgary",
+          "status": "RECRUITING",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2H 2G4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Edmonton Cardiology Consultants",
+          "status": "RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T5H 4B9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Fraser Clinical Trials",
+          "status": "RECRUITING",
+          "city": "New Westminster",
+          "state": "British Columbia",
+          "zip": "V3L 3W4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.20678,
+            "lon": -122.91092
+          }
+        },
+        {
+          "facility": "SMH Cardiology Clinical Trials Incorporated",
+          "status": "RECRUITING",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "zip": "V3V 0C6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        },
+        {
+          "facility": "ARC Biosystems Incorporated",
+          "status": "RECRUITING",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V6Z 1Y6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Victoria Heart Institute Foundation",
+          "status": "RECRUITING",
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8R 1B2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "Discovery Clinical Services Ltd",
+          "status": "RECRUITING",
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8T 5G4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "Centricity Research Brampton",
+          "status": "RECRUITING",
+          "city": "Brampton",
+          "state": "Ontario",
+          "zip": "L6S 0C6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.68341,
+            "lon": -79.76633
+          }
+        },
+        {
+          "facility": "Circulate Cardiac & Vascular Centre",
+          "status": "RECRUITING",
+          "city": "Burlington",
+          "state": "Ontario",
+          "zip": "L7M 1K9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.38621,
+            "lon": -79.83713
+          }
+        },
+        {
+          "facility": "Cambridge Cardiac Care Centre",
+          "status": "RECRUITING",
+          "city": "Cambridge",
+          "state": "Ontario",
+          "zip": "N1R 6V6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.3601,
+            "lon": -80.31269
+          }
+        },
+        {
+          "facility": "Hamilton Health Sciences Hamilton General Hospital",
+          "status": "RECRUITING",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Premier Clinical Trial Network",
+          "status": "COMPLETED",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 5G4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "St Josephs Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 4V2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Elevate Clinical Research KMH Missisauga",
+          "status": "RECRUITING",
+          "city": "Mississauga",
+          "state": "Ontario",
+          "zip": "L5K 2L3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.5789,
+            "lon": -79.6583
+          }
+        },
+        {
+          "facility": "Partners in Advanced Cardiac Evaluation",
+          "status": "RECRUITING",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "L3Y 8C3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "North York Diagnostic and Cardiac Centre",
+          "status": "RECRUITING",
+          "city": "North York",
+          "state": "Ontario",
+          "zip": "M6B 3H7",
+          "country": "Canada"
+        },
+        {
+          "facility": "Oakville Cardiovascular Research",
+          "status": "RECRUITING",
+          "city": "Oakville",
+          "state": "Ontario",
+          "zip": "L6K 3W7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.45011,
+            "lon": -79.68292
+          }
+        },
+        {
+          "facility": "Heart Health Institute Research Incorporated",
+          "status": "RECRUITING",
+          "city": "Scarborough Village",
+          "state": "Ontario",
+          "zip": "M1B 4Z8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.73899,
+            "lon": -79.22124
+          }
+        },
+        {
+          "facility": "Womens College Hospital",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5S 1B2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Ecogene-21",
+          "status": "RECRUITING",
+          "city": "Chicoutimi",
+          "state": "Quebec",
+          "zip": "G7H 7K9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.41963,
+            "lon": -71.06369
+          }
+        },
+        {
+          "facility": "Montreal Heart Institute",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 1C8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Institut de recherches cliniques de Montreal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1R7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Centre de Recherche du Centre Hospitalier de l Universite de Montreal",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1T8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Research Institute of McGill University Health Center - Glen Site",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4A 3J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "CIUSSS de l Estrie CHUS Hopital Fleurimont",
+          "status": "RECRUITING",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "AmgenTrials clinical trials website",
+          "url": "http://www.amgentrials.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "De-identified individual patient data for variables necessary to address the specific research question in an approved data sharing request.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "Data sharing requests relating to this study will be considered beginning 18 months after the study has ended and either 1) the product and indication (or other new use) have been granted marketing authorization in both the US and Europe or 2) clinical development for the product and/or indication discontinues and the data will not be submitted to regulatory authorities. There is no end date for eligibility to submit a data sharing request for this study.",
+      "accessCriteria": "Qualified researchers may submit a request containing the research objectives, the Amgen product(s) and Amgen study/studies in scope, endpoints/outcomes of interest, statistical analysis plan, data requirements, publication plan, and qualifications of the researcher(s). In general, Amgen does not grant external requests for individual patient data for the purpose of re-evaluating safety and efficacy issues already addressed in the product labelling. Requests are reviewed by a committee of internal advisors, and if not approved, may be further arbitrated by a Data Sharing Independent Review Panel. Upon approval, information necessary to address the research question will be provided under the terms of a data sharing agreement. This may include anonymized individual patient data and/or available supporting documents, containing fragments of analysis code where provided in analysis specifications. Further details are available at the link below.",
+      "url": "https://www.amgen.com/datasharing"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000723009",
+          "term": "olpasiran"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

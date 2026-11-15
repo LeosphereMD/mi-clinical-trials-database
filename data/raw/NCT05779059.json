@@ -1,0 +1,315 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05779059",
+      "orgStudyIdInfo": {
+        "id": "2023/01"
+      },
+      "organization": {
+        "fullName": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prasugrel Or Ticagrelor De-escalation in NSTE-ACS",
+      "officialTitle": "Prasugrel Or Ticagrelor De-escalation in Non-ST-elevation Acute Coronary Syndrome",
+      "acronym": "PROTEUS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-09",
+      "studyFirstSubmitQcDate": "2023-03-09",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Piotr Adamski",
+        "investigatorTitle": "MD, PhD, Associate Professor",
+        "investigatorAffiliation": "Collegium Medicum w Bydgoszczy"
+      },
+      "leadSponsor": {
+        "name": "Collegium Medicum w Bydgoszczy",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The PROTEUS study is a randomized, cross-over, open-label, pharmacodynamic trial designed to compare the antiplatelet effect of reduced maintenance doses of prasugrel and ticagrelor in stable patients who recently had non-ST-elevation acute coronary syndrome (non-ST-elevation myocardial infarction or unstable angina)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non ST Segment Elevation Acute Coronary Syndrome",
+        "Non-ST-Segment Elevation Myocardial Infarction (NSTEMI)",
+        "Unstable Angina"
+      ],
+      "keywords": [
+        "acute coronary syndrome",
+        "de-escalation",
+        "prasugrel",
+        "ticagrelor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Initial ticagrelor",
+          "type": "EXPERIMENTAL",
+          "description": "All patients will receive standard 180 mg loading dose of ticagrelor, followed by a standard maintenance dose of 90 mg bid for 30 days, after which de-escalation to 60 mg bid will take place and this dosing will be maintained for 15 days. At day 45 all patients will be loaded with standard 60 mg dose of prasugrel followed by reduced maintenance dose of 5 mg qd for 15 days. At day 60 all patients will be switched back to guideline recommended antiplatelet therapy.",
+          "interventionNames": [
+            "Drug: De-escalation to ticagrelor 60 mg at day 30",
+            "Drug: Switch to prasugrel 5 mg at day 45"
+          ]
+        },
+        {
+          "label": "Initial prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "All patients will receive standard 60 mg loading dose of prasugrel, followed by a standard maintenance dose 10 mg qd for 30 days, after which de-escalation to 5 mg qd will take place and this dosing will be maintained for 15 days. At day 45 patients will be loaded with standard 180 mg dose of ticagrelor followed by reduced maintenance dose of 60 mg bid for 15 days. At day 60 all patients will be switched back to guideline recommended antiplatelet therapy.",
+          "interventionNames": [
+            "Drug: De-escalation to prasugrel 5 mg at day 30",
+            "Drug: Switch to ticagrelor 60 mg at day 45"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "De-escalation to ticagrelor 60 mg at day 30",
+          "description": "Change of P2Y12 receptor antagonist regimen to ticagrelor 60 mg bid at day 30.",
+          "armGroupLabels": [
+            "Initial ticagrelor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "De-escalation to prasugrel 5 mg at day 30",
+          "description": "Change of P2Y12 receptor antagonist regimen to prasugrel 5 mg qd at day 30.",
+          "armGroupLabels": [
+            "Initial prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Switch to ticagrelor 60 mg at day 45",
+          "description": "Switch to ticagrelor 60 mg bid at day 45.",
+          "armGroupLabels": [
+            "Initial prasugrel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Switch to prasugrel 5 mg at day 45",
+          "description": "Switch to prasugrel 5 mg qd at day 45.",
+          "armGroupLabels": [
+            "Initial ticagrelor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Assessed with Multiple Electrode Aggregometry",
+          "description": "Platelet Reactivity Assessed with Multiple Electrode Aggregometry will be evaluated after 15 days of using reduced maintenance dose of prasugrel or ticagrelor.",
+          "timeFrame": "day 15 of using reduced maintenance dose of prasugrel or ticagrelor"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Platelet Reactivity Assessed with the VerifyNow assay",
+          "description": "Platelet Reactivity Assessed with the VerifyNow assay will be evaluated after 15 days of using reduced maintenance dose of prasugrel or ticagrelor.",
+          "timeFrame": "day 15 of using reduced maintenance dose of prasugrel or ticagrelor"
+        },
+        {
+          "measure": "High Platelet Reactivity according to Multiple Electrode Aggregometry",
+          "description": "Percentage of Patients With High Platelet Reactivity according to Multiple Electrode Aggregometry after 15 days of using reduced maintenance dose of prasugrel or ticagrelor.",
+          "timeFrame": "day 15 of using reduced maintenance dose of prasugrel or ticagrelor"
+        },
+        {
+          "measure": "High Platelet Reactivity according to the VerifyNow assay",
+          "description": "Percentage of Patients With High Platelet Reactivity according to the VerifyNow assay after 15 days of using reduced maintenance dose of prasugrel or ticagrelor.",
+          "timeFrame": "day 15 of using reduced maintenance dose of prasugrel or ticagrelor"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* provision of informed consent prior to any study specific procedures\n* diagnosis of non-ST-segment elevation acute coronary syndrome (non-ST-segment elevation myocardial treatment or unstable angina)\n* male or non-pregnant female, aged 18-75 years old\n\nExclusion Criteria:\n\n* known hypersensitivity to ticagrelor or prasugrel\n* presence of contraindications for ticagrelor or prasugrel\n* current treatment with oral anticoagulant or chronic therapy with low-molecular-weight heparin\n* history of ischemic stroke or transient ischemic attack\n* history of intracranial hemorrhage\n* recent gastrointestinal bleeding (within 30 days)\n* history of moderate or severe hepatic impairment\n* history of major surgery or severe trauma (within 3 months)\n* patient required dialysis\n* concomitant therapy with strong CYP3A inhibitors (ketoconazole, itraconazole, voriconazole, telithromycin, clarithromycin, nefazadone, ritonavir, saquinavir, nelfinavir, indinavir, atazanavir) or strong CYP3A inducers (rifampicin, phenytoin, carbamazepine, dexamethasone, phenobarbital) within 14 days and during study treatment\n* body weight below 60 kg",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Piotr Adamski, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+48 52 585 40 23",
+          "email": "piotr.adamski@cm.umk.pl"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Piotr Adamski, MD, PhD",
+          "affiliation": "CM UMK",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology, Dr. A. Jurasz University Hospital, Collegium Medicum, Nicolaus Copernicus University",
+          "city": "Bydgoszcz",
+          "state": "Kuyavian-Pomeranian Voivodeship",
+          "zip": "85-094",
+          "country": "Poland",
+          "contacts": [
+            {
+              "name": "Piotr Adamski, MD, PhD",
+              "role": "CONTACT",
+              "phone": "+48525854023",
+              "email": "piotr.adamski@cm.umk.pl"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

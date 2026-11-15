@@ -1,0 +1,341 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02976701",
+      "orgStudyIdInfo": {
+        "id": "DLBS1033-0716"
+      },
+      "organization": {
+        "fullName": "Dexa Medica Group",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Effect of DLBS1033 After Primary PCI in Patients With STE-ACS",
+      "officialTitle": "The Effect of DLBS1033 in Patients With ST Elevation Acute Coronary Syndrome (STE-ACS) After Primary Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The investigational cases were no longer relevant considering the recent implementation of our current national healthcare system.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-11-21",
+      "studyFirstSubmitQcDate": "2016-11-24",
+      "studyFirstPostDateStruct": {
+        "date": "2016-11-29",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2023-09-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Dexa Medica Group",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Binawaluya Cardiac Hospital",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, randomized, double-blind, double-dummy, and controlled clinical study over a total of 4-week therapy with DLBS1033 in the management of STE-ACS after a primary PCI. There will be 40 STE-ACS subjects (20 subjects in each group) planned to complete the study.",
+      "detailedDescription": "STE-ACS patients who undergo intermediate-delayed (\\> 3 hours after the onset of the STEMI) primary PCI will be enrolled in the study. Before the intervention, they will be given standard medication for PCI.\n\nRight after PCI, all eligible subjects will be assessed for microvascular perfusion, using a pressure-temperature sensor-tipped coronary guidewire.\n\nThe day after, in addition to the dual antiplatelet therapy, i.e. 80 mg aspirin once daily and clopidogrel 75 mg once daily, DLBS1033 at a dose of 980 mg three times daily or its placebo will be given to the subjects for 4 weeks.\n\nClinical and laboratory examinations to evaluate the investigational drug's efficacy and safety will be performed at Baseline (right after subjects undergo the primary PCI) and at the End of study (week 4th of DLBS1033 therapy)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "STEMI",
+        "acute coronary syndrome",
+        "DLBS1033",
+        "microvascular resistance index",
+        "Left ventricular function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 23,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "DLBS1033",
+          "type": "EXPERIMENTAL",
+          "description": "DLBS1033 enteric-coated tablet is administered at the dose of 980 mg (two tablets@490 mg) three times daily, everyday for four weeks of study period",
+          "interventionNames": [
+            "Drug: DLBS1033",
+            "Drug: Standard therapy"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo is administered two tablets three times daily, everyday for four weeks of study period",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Standard therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "DLBS1033",
+          "armGroupLabels": [
+            "DLBS1033"
+          ],
+          "otherNames": [
+            "Disolf"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard therapy",
+          "description": "Standard therapy which consists of: aspirin enteric-coated tablet 1 x 80 mg and clopidogrel film-coated tablet 1 x 75 mg daily for four weeks will be given to both arms.",
+          "armGroupLabels": [
+            "DLBS1033",
+            "Placebo"
+          ],
+          "otherNames": [
+            "Asp-Clopi"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Index of microvascular resistance (IMR)",
+          "description": "Improvement in the index of microvascular resistance (IMR) from baseline to week 4th of treatment, measured using the pressure and temperature sensor-tipped guidewire.",
+          "timeFrame": "Week 4"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Improvement in fractional flow reserve (FFR) from baseline to week 4th of treatment, measured using the pressure and temperature sensor-tipped guidewire",
+          "description": "Improvement in fractional flow reserve (FFR) from baseline and to Week 4th of treatment, measured using the pressure and temperature sensor-tipped guidewire.",
+          "timeFrame": "Week 4"
+        },
+        {
+          "measure": "LV function",
+          "description": "Improvement in several parameters of left ventricular (LV) function \\[EF, ESV, EDV\\], from baseline and to Week 4th of treatment will be measured by 2D echocardiography.",
+          "timeFrame": "Week 4"
+        },
+        {
+          "measure": "Routine hematology",
+          "description": "Routine hematology, including: RBC, WBC, and platelet count, will be measured at baseline and week 4th of treatment.",
+          "timeFrame": "Week 0 and 4"
+        },
+        {
+          "measure": "Routine hematology (Hemoglobin)",
+          "description": "Hemoglobin will be measured at baseline and every interval of 2 weeks over the 4 weeks of treatment.",
+          "timeFrame": "Week 0, 2 and 4"
+        },
+        {
+          "measure": "Routine hematology (Hematocrit)",
+          "description": "Hematocrit will be measured at baseline and every interval of 2 weeks over the 4 weeks of treatment.",
+          "timeFrame": "Week 0, 2 and 4"
+        },
+        {
+          "measure": "Liver function",
+          "description": "Liver function measured includes: serum ALT (SGPT), serum AST (SGOT), alkaline phosphatase, and total bilirubin.",
+          "timeFrame": "Week 0 and 4"
+        },
+        {
+          "measure": "Renal function",
+          "description": "Renal function measured includes: serum creatinine and BUN.",
+          "timeFrame": "Week 0 and 4"
+        },
+        {
+          "measure": "Haemostasis parameter (Prothrombin time (PT))",
+          "description": "Prothrombin time (PT) will be measured at baseline and every interval of 2 weeks over the 4 weeks of study treatment.",
+          "timeFrame": "Week 0, 2, and 4"
+        },
+        {
+          "measure": "Haemostasis parameter (International Normalized Ratio (INR))",
+          "description": "International Normalized Ratio (INR) will be measured at baseline and every interval of 2 weeks over the 4 weeks of study treatment.",
+          "timeFrame": "Week 0, 2, and 4"
+        },
+        {
+          "measure": "Adverse event",
+          "description": "Adverse events (especially major and minor bleeding) are observed and carefully evaluated along the course of the study.",
+          "timeFrame": "Week 0 - 4"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "KEY Inclusion Criteria:\n\n1. Signed informed consent.\n2. Men or women of 30-75 years of age.\n3. Evidence of acute ST elevation myocardial infarction (STEMI) at screening, as confirmed by ECG presentation of STEMI: new ST elevation at the J point in two contiguous leads with the cut-points: ≥ 0.1 mV in all leads other than leads V2-V3, where the following cut-points apply: ≥ 0.2 mV in men ≥ 40 years, ≥ 0.25 mV in men \\< 40 years, or ≥ 0.15 mV in women; or new or presumably new left bundle-branch block (LBBB); and with at least one of the following:\n\n   * Positive plasma biomarkers of myocardial necrosis (cardiac troponin I \\[cTnI\\]).\n   * Possible ischaemic symptoms include various combinations of chest, upper extremity, mandibular or epigastric discomfort (with exertion or at rest) or an ischaemic equivalent such as dyspnoea or fatigue.\n4. The onset of the STEMI is \\> 3 hours before undergoing the primary PCI.\n5. Therapy with study medication can be started within 24 hours after primary PCI.\n6. Able to take oral medication.\n\nKEY Exclusion Criteria:\n\n1. Females of childbearing potential: pregnancy, breast-feeding.\n2. History of hemorrhagic stroke, serious head injury within the last 3 months.\n3. History of major surgery within the last 6 months.\n4. History of PCI or CABG, or previous myocardial infarction.\n5. Ongoing long term need for oral anticoagulants, antiplatelets, fibrinolytic, or antithrombotic agents, other than the study medication.\n6. Having any implanted pacemaker or cardiac resynchronization therapy (CRT) or cardiac resynchronization therapy defibrillators (CRT-D).\n7. Present with cardiogenic shock, 3rd degree atrioventricular (AV) block, complex anatomical coronary condition.\n8. Planned for a staged PCI within 30 days after the current PCI\n9. Inadequate liver function\n10. CRUSADE bleeding score of \\> 30\n11. Known or suspected allergy to other lumbrokinase products.\n12. Prior experience with DLBS1033 or other oral lumbrokinase products.\n13. Clinical evidence of malignancies with survival period \\< 1 year.\n14. Any other disease state, including chronic or acute systemic infections, uncontrolled illnesses or other chronic diseases, which judged by the investigator, could jeopardize patient's safety or interfere with trial participation or trial evaluation.\n15. Subjects enrolled in other interventional protocol within 30 days prior to Screening\n16. Any other disease state, including chronic or acute systemic infections, uncontrolled illnesses or other chronic diseases, which judged by the investigator, could jeopardize patient's safety or interfere with trial participation or trial evaluation.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Muhammad Munawar, SpJP(K), MD",
+          "affiliation": "Binawaluya Cardiac Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Binawaluya Cardiac Hospital",
+          "city": "Jakarta",
+          "zip": "13570",
+          "country": "Indonesia",
+          "geoPoint": {
+            "lat": -6.21462,
+            "lon": 106.84513
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C559131",
+          "term": "DLBS 1033"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

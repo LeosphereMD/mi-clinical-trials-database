@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07583446",
+      "orgStudyIdInfo": {
+        "id": "Seismic-Ista-001"
+      },
+      "organization": {
+        "fullName": "Seismic Pharmaceuticals Operations LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Randomized Evaluation of Istaroxime for Stabilization in Acute Heart Failure-Cardiogenic Shock",
+      "officialTitle": "A Randomized, Double-blind, Phase 2b/3 Clinical Study of Istaroxime Combined With Standard Care Versus Placebo and Standard of Care for the Treatment of Cardiogenic Shock (CS) Society for Cardiovascular Angiography and Interventions (SCAI) Stage B or C Due to Acute Heart Failure (AHF)",
+      "acronym": "RESCUE HF-CS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-09-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-05-01",
+      "studyFirstSubmitQcDate": "2026-05-07",
+      "studyFirstPostDateStruct": {
+        "date": "2026-05-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-09-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-09-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Seismic Pharmaceuticals Operations LLC",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if the drug istaroxime works to treat cardiogenic shock due to acute heart failure in adults. It will also learn about the safety of istaroxime. Researchers will compare istaroxime to a placebo (a look-alike substance that contains no drug) to see if istaroxime works to treat cardiogenic shock due to acute heart failure.\n\nThe main questions it aims to answer are:\n\n* Does istaroxime relieve participants' shortness of breath compared to a placebo?\n* Does istaroxime provide clinical benefit in terms of lowering the risk of dying, having invasive procedures, being rehospitalized or having worsening heart failure, and/or increasing quality of life compared to a placebo?\n* Does istaroxime reduce the duration of the initial hospital stay compared with placebo?\n\nParticipants will:\n\n* Receive a 48-hour intravenous infusion of istaroxime or placebo with possible additional retreatment depending on their clinical condition\n* Complete questionnaires rating their breathing and describing their quality of life\n* Return for visits 30 and 90 days after the start of Cycle 1 infusion. The trial will end when the last participant completes Day 30 and all participants have been followed for at least 30 days after their last IMP exposure. At trial termination, participants who have not been followed to Day 90 will have an end-of-study (EOS) visit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "istaroxime",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive istaroxime by continuous intravenous infusion.",
+          "interventionNames": [
+            "Drug: istaroxime"
+          ]
+        },
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will receive placebo (normal saline) by continuous intravenous infusion.",
+          "interventionNames": [
+            "Drug: placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "istaroxime",
+          "description": "intravenous istaroxime",
+          "armGroupLabels": [
+            "istaroxime"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "placebo",
+          "description": "intravenous placebo",
+          "armGroupLabels": [
+            "placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in participant-reported dyspnea",
+          "description": "Area under the curve (AUC) of change from baseline in dyspnea visual analog scale (VAS) score (0-100; higher scores indicate better breathing).",
+          "timeFrame": "24 hours"
+        },
+        {
+          "measure": "Hierarchical composite endpoint",
+          "description": "Hierarchical composite of (1) time to all-cause death; (2) time to first initiation of new mechanical circulatory support, urgent durable LVAD implantation or heart transplantation, or invasive mechanical respiratory support; (3) time to first heart failure rehospitalization or worsening heart failure; and (4) change from baseline in EQ-VAS score (0-100; higher scores indicate better health).",
+          "timeFrame": "30 days; EQ-VAS change from baseline to 48 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Length of hospital stay",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged between 18 and 80 years old (inclusive) at the time of informed consent, regardless of gender.\n2. Diagnosed with CS due to AHF during screening, before randomization, and meeting all of the following criteria:\n\n   1. Dyspnea at rest or with minimal activity before screening and randomization.\n   2. Pulmonary rales, or lower limb edema by physical examination.\n   3. Evidence of pulmonary congestion by chest X-ray, CT scan or lung ultrasound\n   4. At the time of screening and just prior to randomization either:\n\n      1. systolic BP ≤ 100 mmHg or\n      2. systolic BP ≤ 115 mmHg and \\>100 mmHg accompanied by at least one sign of hypoperfusion or hemodynamic compromise: cool extremities, altered mentation attributable to low output, oliguria, elevated lactate (\\>2 mmol/L), worsening renal function attributable to low perfusion, or invasive/noninvasive hemodynamic evidence of reduced cardiac output.\n3. Initial hospitalization (defined as first medical contact in the hospital) for this AHF event within 20 hours before randomization.\n4. Documented history within 6 months prior to screening, or during the current admission, of left ventricular ejection fraction (LVEF) \\< 40%.\n5. N-terminal pro-B-type natriuretic peptide (NT-proBNP) \\> 1,500 pg/mL or BNP \\> 400 pg/mL during screening, before randomization.\n6. Signed informed consent, including compliance with the requirements and restrictions listed in the informed consent form (ICF) and the study protocol.\n\nExclusion Criteria:\n\n1. Body weight \\< 40 kg or ≥ 150 kg at Screening.\n2. Rapidly deteriorating cardiogenic shock requiring escalating support\n3. Patients with any systolic blood pressure measurement \\>130 mmHg within 2 hours prior to randomization.\n4. Administration during the 6 hours prior to screening of vasodilators such as nitroglycerin, nitrates, recombinant human brain natriuretic peptide.\n5. Received digoxin within 7 days before randomization.\n6. Taking a medication that is a substrate of cytochrome P450 2C19 (CYP2C19).\n7. Patients with severe lung disease (dependent on oral steroids or immunosuppressive therapy or require home oxygen therapy), respiratory failure, or severe pulmonary hypertension.\n8. Acute ischemic or hemorrhagic cerebral infarction or transient ischemic attack within 30 days before screening.\n9. Abnormal laboratory findings including during screening:\n\n   1. Renal impairment (eGFR \\< 25 ml/min/1.73 m2) or the need for long-term or intermittent renal support therapy (hemodialysis, ultrafiltration or peritoneal dialysis);\n   2. Severe electrolyte imbalance (Na+ \\<120mmol/L or \\>160mmol/L, and/or K+ \\<3.2mmol/L or \\>5.5mmol/L);\n   3. Liver function impairment (ALT and/or AST \\> 3 times the upper limit of the normal range and/or bilirubin exceeds 1.5 times the upper limit of the normal range); or\n   4. Hemoglobin \\<9 g/dL (\\<5.6 mmol/L).\n10. Severe valvular stenosis that has not been surgically corrected, or moderate or severe aortic regurgitation.\n11. Obstructive hypertrophic cardiomyopathy or restrictive cardiomyopathy, constrictive pericarditis, cardiac tamponade, cardiomyopathy based on infiltrative disease (such as amyloidosis), accumulation disease (such as hemochromatosis, Fabry disease), myocardial dysplasia, cardiomyopathy caused by reversible causes (such as stress cardiomyopathy) or acute myocarditis.\n12. Sustained ventricular tachycardia or ventricular fibrillation within 30 days of screening and randomization.\n13. Significant bradycardia (sustained ventricular rate \\<50 beats per minute), or second or third-degree atrioventricular block (except those using permanent pacemakers).\n14. Type 1 acute coronary syndrome (ACS)/myocardial infarction (MI) in the 30 days prior to screening inclusive of the current admission.\n15. Patients who have undergone percutaneous coronary angiography or coronary artery bypass grafting or other major cardiovascular surgery including ICD and / or CRT or mechanical support devices within one month before screening, or patients who are expected to require revascularization within three months after screening.\n16. Patients on mechanical circulatory support (MCS) during Screening or at the time of randomization.\n17. Patients who are expected to require heart transplantation or left ventricular assist during the study period.\n18. Patients diagnosed with malignant tumors within 1 year before signing the informed consent form or at the time of screening (excluding fully treated cervical carcinoma in situ, basal cell or squamous cell skin cancer, localized prostate cancer after radical surgery, and breast ductal carcinoma in situ after radical surgery), or those undergoing anti-tumor treatment at the time of screening.\n19. Patients with diseases that in the opinion of the investigator may lead to mortality within 90 days from randomization.\n20. Patients who suffer from severe mental or psychological disorders, cognitive impairment, or a history of mental illness.\n21. Patients with known severe allergies or a history of severe drug or food allergic reactions, or those known to be allergic to istaroxime or its ingredients including lactose.\n22. Patients who are pregnant, breastfeeding or planning pregnancy.\n23. Patients who cannot be guaranteed to take effective contraceptive measures from the time of signing the informed consent to the 30 days following their last exposure to study drug, or who are of childbearing potential and plan to donate sperm/eggs during this period.\n24. Patients of childbearing potential without a negative highly sensitive serum pregnancy test within 24 hours before the first dose of trial intervention.\n25. Patients participating in other clinical studies and/or received other study intervention (study drugs or medical devices, etc.) within 30 days before signing the informed consent form, or who are still in the follow up period of other clinical studies.\n26. Patients who are unable to comply with all study requirements.\n27. Any other circumstances deemed by the investigator to be inappropriate for conducting this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Gad Cotter, MD",
+          "role": "CONTACT",
+          "phone": "919-317-2993",
+          "email": "Meghnapatel@momentum-research.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Gabe Coitler",
+          "affiliation": "Seismic Pharmaceuticals",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institute of Surgery Mikayelyan CJSC",
+          "status": "RECRUITING",
+          "city": "Yerevan",
+          "zip": "0052",
+          "country": "Armenia",
+          "contacts": [
+            {
+              "name": "Andranik Mshetsyan, MD",
+              "role": "CONTACT",
+              "email": "andranikmshetsyan@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.17765,
+            "lon": 44.5126
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C468128",
+          "term": "Istaroxime"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

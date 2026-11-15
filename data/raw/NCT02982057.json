@@ -1,0 +1,220 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02982057",
+      "orgStudyIdInfo": {
+        "id": "Non Culprit Lesion Study"
+      },
+      "organization": {
+        "fullName": "Cliniques universitaires Saint-Luc- Université Catholique de Louvain",
+        "class": "OTHER"
+      },
+      "briefTitle": "Non Culprit Lesion Study",
+      "officialTitle": "A Randomized Trial of the Treatment of Non- Culprit Lesion After STEMI: Bioresorbable Vascular Scaffold Versus Optimal Medical Therapy (NCLstudy)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-11-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-11-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-11-07",
+      "studyFirstSubmitQcDate": "2016-11-30",
+      "studyFirstPostDateStruct": {
+        "date": "2016-12-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-05-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-05-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cliniques universitaires Saint-Luc- Université Catholique de Louvain",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the present study is to compare the evolution of non culprit lesions after treatment by BVS versus optimal medical therapy at 2-years follow- up",
+      "detailedDescription": "Objectives and hypothesis: scaffolding a non culprit /vulnerable coronary plaque with BVS could facilitate the stabilization process into the atherosclerotic plaque with modifications of plaque morphology, especially the lipid content which is considered as one of the main factor leading to recurrent MACE after an ACS.\n\nThe interaction between the polymer Platform and the vessel wall, the effect of the everolimus on neointima growth and cellular response into the media could reduce the inflammatory process into the vulnerable plaque could be different Under OMT and BVS implantation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Bioresorbable vascular scaffold(BVS)+ OMT",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "hypothesis: scaffolding a non culprit coronary plaque with BVS could facilitate the stabilization process into the atherosclerotic plaque with modification of plaque morphology.\n\nIntervention:Device",
+          "interventionNames": [
+            "Device: the ABSORB:bioresorbable vascular scaffold"
+          ]
+        },
+        {
+          "label": "OMT",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Comparator with ONLY optimal medical treatment (OMT): the aim of the study is to compare the evolution of non culprit lesions after treatment by BVS versus Optimal Medical Therapy at 2 years follow- up.\n\nIntervention: medical treatment",
+          "interventionNames": [
+            "Drug: O.M.T"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "the ABSORB:bioresorbable vascular scaffold",
+          "armGroupLabels": [
+            "Bioresorbable vascular scaffold(BVS)+ OMT"
+          ],
+          "otherNames": [
+            "to compare to optimal medical treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "O.M.T",
+          "armGroupLabels": [
+            "OMT"
+          ],
+          "otherNames": [
+            "to compare with device"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "measure size of the vulnerable plaque",
+          "description": "the size of the vulnerable plaque measured by angio FU at 2 years with an investigation of the same segment than at baseline.",
+          "timeFrame": "2 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* STEMI and multivessel ASCL\n* Successful and uneventful primary PCI\n* Non culprit lesion \\> /= 2.5mm RVD suitable for investigation by FFR\n* At least one segment of minimum 10 mm length containing a non culprit lesion\n\nExclusion Criteria:\n\n* non compliant profile\n* patient not able to sign an IC\n* cardiogenic shock\n* left main disease\n* GFR\\<30ml/min/m2\n* previous CABG\n* LVEF\\<35%",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "StLuc",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

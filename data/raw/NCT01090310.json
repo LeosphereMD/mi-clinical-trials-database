@@ -1,0 +1,3510 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01090310",
+      "orgStudyIdInfo": {
+        "id": "CAIN457C2301E1"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2009-015508-24"
+        },
+        {
+          "id": "2009",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2009"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Efficacy of AIN457 in Patients With Quiescent Non-infectious Uveitis",
+      "officialTitle": "A 38-week Extension to a 24-week Multicenter, Randomized, Double-masked, Placebo Controlled, Dose-ranging Phase III Study of AIN457 Versus Placebo for Maintaining Uveitis Suppression When Reducing Systemic Immunosuppression in Patients With Quiescent, Non-infectious Intermediate, Posterior or Panuveitis",
+      "acronym": "ENDURE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-12",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-08"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-03-18",
+      "studyFirstSubmitQcDate": "2010-03-18",
+      "studyFirstPostDateStruct": {
+        "date": "2010-03-19",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2015-02-12",
+      "resultsFirstSubmitQcDate": "2015-12-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2016-01-14",
+        "type": "ESTIMATED"
+      },
+      "dispFirstSubmitDate": "2013-07-25",
+      "dispFirstSubmitQcDate": "2013-07-25",
+      "dispFirstPostDateStruct": {
+        "date": "2013-08-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-12-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-01-14",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This extension study will assess the safety and efficacy of AIN457 versus placebo for maintaining uveitis suppression when reducing systemic immunosuppression"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-infectious Uveitis"
+      ],
+      "keywords": [
+        "Quiescent uveitis",
+        "intermediate uveitis",
+        "panuveitis",
+        "posterior uveitis",
+        "uveitis",
+        "NVS Definition: Words or phrases that best describe the protocol. Keywords help users find studies in the database.",
+        "Avoid acronyms, abbreviations and trade names.",
+        "Examples: Heart failure, aliskiren, heart attack, cardiovascular diseases",
+        "Psoriasis, inflammatory skin disease, scaly patches"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 86,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AIN457 300mg every 2 weeks",
+          "type": "EXPERIMENTAL",
+          "description": "AIN457 300 mg subcutaneous (s.c.) weekly for 3 weeks followed by AIN457 300 mg s.c. every 2 weeks",
+          "interventionNames": [
+            "Drug: AIN457"
+          ]
+        },
+        {
+          "label": "AIN457 300 mg every 4 weeks",
+          "type": "EXPERIMENTAL",
+          "description": "AIN457 300 mg s.c. at baseline for Week 2 followed by AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly",
+          "interventionNames": [
+            "Drug: AIN457"
+          ]
+        },
+        {
+          "label": "AIN457 150 mg every 4 weeks",
+          "type": "EXPERIMENTAL",
+          "description": "AIN457 150 mg s.c. and placebo s.c. at Baseline and Week 2 followed by AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly",
+          "interventionNames": [
+            "Drug: AIN457"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo s.c. every 2 weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AIN457",
+          "description": "AIN457 150 mg powder for solution was provided in glass vials each containing 150 mg AIN457 as a lyophilized cake",
+          "armGroupLabels": [
+            "AIN457 150 mg every 4 weeks",
+            "AIN457 300 mg every 4 weeks",
+            "AIN457 300mg every 2 weeks"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo to AIN457",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Time to the First Recurrence in Any Eye of Active Intermediate, Posterior, or Panuveitis From Baseline",
+          "description": "Kaplan-Meier estimates for the time to the first recurrence in any eye of active intermediate, posterior, or panuveitis from baseline defined by either: ≥ 2 step increase in vitreous haze with or without an increase in anterior chamber cell grade or decrease in best corrected visual acuity, core and extension",
+          "timeFrame": "Baseline to 52 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Vitreous Haze Score for the Study Eye From Baseline to the Highest Post-baseline Value",
+          "description": "The changes in steps (0, 1, or \\>= 2) from previous visit for vitreous haze, where the score is evaluated based on NEI Vitreous Haze Grading Scale (0 -4). Vitreous haze was recorded as 0-clear; to 4+ as dense opacity obscuring the optic nerve head. A 1 step increase is defined as any of the following changes: 0-1, 0.5-1, 1-2, 2-3, 3-4. A 2 step increase is defined as any of the following changes: 0-2, 0.5-2, 1-3, 2-4. A recurrent episode of active intermediate, posterior or panuveitis was considered to be resolved, if the eye returns and maintains in a quiescent state (\\<1+ anterior chamber cell grade and \\<1+ vitreous haze) for at least 2 weeks",
+          "timeFrame": "Baseline to 52 weeks"
+        },
+        {
+          "measure": "Mean Change in Best Corrected Visual Acuity From Baseline, Core and Extension",
+          "description": "The Best Corrected Visual Acuity (BCVA) is tested using the Early Treatment Diabetic Retinopathy Study (ETDRS) Visual Acuity (VA) testing protocol. VA measurements are taken in a sitting position at an initial test distance of 4 meters using ETDRS charts. The overall BCVA score is calculated using the BCVA worksheet 0-100 letter score",
+          "timeFrame": "Baseline to 52 weeks"
+        },
+        {
+          "measure": "Number of Participants With First Recurrence in in Any Eye of Active Intermediate, Posterior, or Panuveitis From Baseline During the Core and Extension Studies",
+          "description": "Evaluation of recurrence until resolution is ascertained, based on the first criteria (a \\>2 step increase in vitreous haze with or without an increase in anterior chamber cell grade in either eye). A 2 step increase is defined as any of the following changes: 0-2, 0.5-2, 1-3, 2-4",
+          "timeFrame": "Baseline to 52 weeks"
+        },
+        {
+          "measure": "Composite Immunosuppressive Medication Score From Baseline to Week 52, Core and Extension",
+          "description": "IMS is a combined, single numeric score derived on the basis of the total daily dose of specific immunosuppressive agents per unit body weight, ranged on a scale from 0 to 9 for the total daily dose in milligrams per kilogram. The total IMS is the sum of the scores derived for the agents included into the score. The treatment groups will be compared using an analysis of covariance with treatment, region, and baseline IMS as covariate. The total IMS is the sum of scores derived from the agents included into the score, and ranged from 0 to 55. Treatment groups compared using analysis of covariance with treatment \\& baseline IMS as covariate, where the lower IMS showed better clinical outcome.",
+          "timeFrame": "Baseline to 52 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients who have completed the entire treatment period of the 24 week core study\n\nExclusion Criteria:\n\n* Inability or unwillingness to undergo repeated subcutaneous injections; inability to comply with study or follow-up procedures; any medical or psychiatric condition which, in the investigator's opinion wouldpreclude the participant from adhering to the protocol or completing the study per protocol.\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Beverly Hills",
+          "state": "California",
+          "zip": "90211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21205-2005",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cambridge",
+          "state": "Massachusetts",
+          "zip": "02142",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.3751,
+            "lon": -71.10561
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Teaneck",
+          "state": "New Jersey",
+          "zip": "07666",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8976,
+            "lon": -74.01597
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Arlington",
+          "state": "Texas",
+          "zip": "76012",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.73569,
+            "lon": -97.10807
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77025",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "zip": "04023-900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "zip": "05403-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Berlin",
+          "zip": "13353",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tübingen",
+          "zip": "72076",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "New Delhi",
+          "zip": "110 029",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Jerusalem",
+          "zip": "9112001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Petah Tikva",
+          "zip": "49100",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.0888,
+            "lon": 34.88666
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ramat Gan",
+          "zip": "5266202",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tel Aviv",
+          "zip": "6423906",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Santiago de Compostela",
+          "state": "Galicia",
+          "zip": "15705",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "state": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lausanne",
+          "state": "CHE",
+          "zip": "1004",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.516,
+            "lon": 6.63282
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lausanne",
+          "state": "Switzerland",
+          "zip": "1003",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.516,
+            "lon": 6.63282
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bern",
+          "zip": "3012",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lucerne",
+          "zip": "6000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sankt Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zurich",
+          "zip": "8063",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Birmingham",
+          "zip": "B18 7QU",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Liverpool",
+          "zip": "L7 8XP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "London",
+          "zip": "SE1 7EH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "York",
+          "zip": "YO31 8HE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.95763,
+            "lon": -1.08271
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "In total, 125 patients were randomized to the core study with 1 patient misrandomized. Of these 124 patients 70 patients entered the extension period of the study. Core study NCT01032915",
+      "recruitmentDetails": "Between August 2010 and March 2011, 70 patients were enrolled from 51 centers in 9 countries (United States, Germany, Switzerland, India, Spain, United Kingdom, Israel, Brazil, Italy). Recruitment was stopped due to study termination, therefore 16 out of 86 patients signed informed consent while being in core study were not enrolled into extension",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "AIN457 300mg Every 2 Weeks",
+          "description": "AIN457 300 mg s.c. every 2 weeks"
+        },
+        {
+          "id": "FG001",
+          "title": "AIN457 300 mg Every 4 Weeks",
+          "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+        },
+        {
+          "id": "FG002",
+          "title": "AIN457 150 mg Every 4 Weeks",
+          "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+        },
+        {
+          "id": "FG003",
+          "title": "Placebo",
+          "description": "Placebo s.c. every 2 weeks"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Core Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "31"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "31"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "34"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "21"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "20"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "7"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Subject withdrew consent",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Abnormal test procedure result",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Administrative reasons",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Protocol deviation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Extension Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "17"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "21"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "20"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Aministrative problems",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "15"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Unsatisfactory therapeutic effect",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Subject withdrew consent",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "AIN457 300mg Every 2 Weeks",
+          "description": "AIN457 300 mg s.c. every 2 weeks"
+        },
+        {
+          "id": "BG001",
+          "title": "AIN457 300 mg Every 4 Weeks",
+          "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+        },
+        {
+          "id": "BG002",
+          "title": "AIN457 150 mg Every 4 Weeks",
+          "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+        },
+        {
+          "id": "BG003",
+          "title": "Placebo",
+          "description": "Placebo s.c. every 2 weeks"
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "29"
+            },
+            {
+              "groupId": "BG001",
+              "value": "31"
+            },
+            {
+              "groupId": "BG002",
+              "value": "31"
+            },
+            {
+              "groupId": "BG003",
+              "value": "34"
+            },
+            {
+              "groupId": "BG004",
+              "value": "125"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46.2",
+                      "spread": "14.29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49.2",
+                      "spread": "11.14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47.7",
+                      "spread": "13.50"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "47.3",
+                      "spread": "15.46"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "47.6",
+                      "spread": "13.60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "71"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "The Time to the First Recurrence in Any Eye of Active Intermediate, Posterior, or Panuveitis From Baseline",
+          "description": "Kaplan-Meier estimates for the time to the first recurrence in any eye of active intermediate, posterior, or panuveitis from baseline defined by either: ≥ 2 step increase in vitreous haze with or without an increase in anterior chamber cell grade or decrease in best corrected visual acuity, core and extension",
+          "populationDescription": "Full analysis set (FAS): all randomized patients who received at least one dose of study drug in the core study and had at least one post-baseline assessment for the primary efficacy parameter or any of its components. Following the intent-to-treat principle, patients were analyzed according to the treatment they were assigned to at randomization",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Days",
+          "timeFrame": "Baseline to 52 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AIN457 300mg Every 2 Weeks",
+              "description": "AIN457 300 mg s.c. every 2 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "AIN457 300 mg Every 4 Weeks",
+              "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG002",
+              "title": "AIN457 150 mg Every 4 Weeks",
+              "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Placebo s.c. every 2 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "265.0",
+                      "upperLimit": "NA",
+                      "comment": "Not estimable due to low number of events"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "NA",
+                      "lowerLimit": "87.0",
+                      "upperLimit": "NA",
+                      "comment": "Not estimable due to low number of events"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "NA",
+                      "lowerLimit": "178.0",
+                      "upperLimit": "NA",
+                      "comment": "Not estimable due to low number of events"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "NA",
+                      "lowerLimit": "228.0",
+                      "upperLimit": "NA",
+                      "comment": "Not estimable due to low number of events"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Vitreous Haze Score for the Study Eye From Baseline to the Highest Post-baseline Value",
+          "description": "The changes in steps (0, 1, or \\>= 2) from previous visit for vitreous haze, where the score is evaluated based on NEI Vitreous Haze Grading Scale (0 -4). Vitreous haze was recorded as 0-clear; to 4+ as dense opacity obscuring the optic nerve head. A 1 step increase is defined as any of the following changes: 0-1, 0.5-1, 1-2, 2-3, 3-4. A 2 step increase is defined as any of the following changes: 0-2, 0.5-2, 1-3, 2-4. A recurrent episode of active intermediate, posterior or panuveitis was considered to be resolved, if the eye returns and maintains in a quiescent state (\\<1+ anterior chamber cell grade and \\<1+ vitreous haze) for at least 2 weeks",
+          "populationDescription": "Full analysis set (FAS): all randomized patients who received at least one dose of study drug in the core study and had at least one post-baseline assessment for the primary efficacy parameter or any of its components. Following the intent-to-treat principle, patients were analyzed according to the treatment they were assigned to at randomization",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Number of participants",
+          "timeFrame": "Baseline to 52 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AIN457 300mg Every 2 Weeks",
+              "description": "AIN457 300 mg s.c. every 2 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "AIN457 300 mg Every 4 Weeks",
+              "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG002",
+              "title": "AIN457 150 mg Every 4 Weeks",
+              "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Placebo s.c. every 2 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "2 or more steps increase",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1 step increase",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No changes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1 step decrease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2 or more steps decrease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Change in Best Corrected Visual Acuity From Baseline, Core and Extension",
+          "description": "The Best Corrected Visual Acuity (BCVA) is tested using the Early Treatment Diabetic Retinopathy Study (ETDRS) Visual Acuity (VA) testing protocol. VA measurements are taken in a sitting position at an initial test distance of 4 meters using ETDRS charts. The overall BCVA score is calculated using the BCVA worksheet 0-100 letter score",
+          "populationDescription": "Full analysis set (FAS): all randomized patients who received at least one dose of study drug in the core study and had at least one post-baseline assessment for the primary efficacy parameter or any of its components. Following the intent-to-treat principle, patients were analyzed according to the treatment they were assigned to at randomization",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Letters",
+          "timeFrame": "Baseline to 52 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AIN457 300mg Every 2 Weeks",
+              "description": "AIN457 300 mg s.c. every 2 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "AIN457 300 mg Every 4 Weeks",
+              "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG002",
+              "title": "AIN457 150 mg Every 4 Weeks",
+              "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Placebo s.c. every 2 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9",
+                      "spread": "4.36"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "16",
+                      "spread": "NA",
+                      "comment": "No results due to no or low numbers completing this time point"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "5",
+                      "spread": "NA",
+                      "comment": "No results due to no or low numbers completing this time point"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With First Recurrence in in Any Eye of Active Intermediate, Posterior, or Panuveitis From Baseline During the Core and Extension Studies",
+          "description": "Evaluation of recurrence until resolution is ascertained, based on the first criteria (a \\>2 step increase in vitreous haze with or without an increase in anterior chamber cell grade in either eye). A 2 step increase is defined as any of the following changes: 0-2, 0.5-2, 1-3, 2-4",
+          "populationDescription": "Full analysis set (FAS): all randomized patients who received at least one dose of study drug in the core study and had at least one post-baseline assessment for the primary efficacy parameter or any of its components. Following the intent-to-treat principle, patients were analyzed according to the treatment they were assigned to at randomization",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Number of participants",
+          "timeFrame": "Baseline to 52 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AIN457 300mg Every 2 Weeks",
+              "description": "AIN457 300 mg s.c. every 2 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "AIN457 300 mg Every 4 Weeks",
+              "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG002",
+              "title": "AIN457 150 mg Every 4 Weeks",
+              "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Placebo s.c. every 2 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "33"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Patients with recurrence",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Patients with only vitreous haze criterion",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Patients with only visual acuity criterion",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Both criteria at the same time",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Composite Immunosuppressive Medication Score From Baseline to Week 52, Core and Extension",
+          "description": "IMS is a combined, single numeric score derived on the basis of the total daily dose of specific immunosuppressive agents per unit body weight, ranged on a scale from 0 to 9 for the total daily dose in milligrams per kilogram. The total IMS is the sum of the scores derived for the agents included into the score. The treatment groups will be compared using an analysis of covariance with treatment, region, and baseline IMS as covariate. The total IMS is the sum of scores derived from the agents included into the score, and ranged from 0 to 55. Treatment groups compared using analysis of covariance with treatment \\& baseline IMS as covariate, where the lower IMS showed better clinical outcome.",
+          "populationDescription": "Full analysis set (FAS): all randomized patients who received at least one dose of study drug in the core study and had at least one post-baseline assessment for the primary efficacy parameter or any of its components. Following the intent-to-treat principle, patients were analyzed according to the treatment they were assigned to at randomization",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Units on a scale",
+          "timeFrame": "Baseline to 52 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AIN457 300mg Every 2 Weeks",
+              "description": "AIN457 300 mg s.c. every 2 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "AIN457 300 mg Every 4 Weeks",
+              "description": "AIN457 300 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG002",
+              "title": "AIN457 150 mg Every 4 Weeks",
+              "description": "AIN457 150 mg s.c. monthly, alternating with placebo s.c. at Weeks 1 and 4 and then monthly"
+            },
+            {
+              "id": "OG003",
+              "title": "Placebo",
+              "description": "Placebo s.c. every 2 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "3"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "1"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.67",
+                      "spread": "4.163"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-1",
+                      "spread": "NA",
+                      "comment": "No results due to no or low numbers completing this time point"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-1",
+                      "spread": "NA",
+                      "comment": "No results due to no or low numbers completing this time point"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "AIN457 300mg Every 2 Weeks",
+          "description": "AIN457 300mg every 2 weeks",
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 20,
+          "otherNumAtRisk": 29
+        },
+        {
+          "id": "EG001",
+          "title": "AIN457 300mg Every 4 Weeks",
+          "description": "AIN457 300mg every 4 weeks",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 31,
+          "otherNumAffected": 19,
+          "otherNumAtRisk": 31
+        },
+        {
+          "id": "EG002",
+          "title": "AIN457 150mg Every 4 Weeks",
+          "description": "AIN457 150mg every 4 weeks",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 31,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 31
+        },
+        {
+          "id": "EG003",
+          "title": "Placebo Every 2 Weeks",
+          "description": "Placebo every 2 weeks",
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 33,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 33
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Uveitis (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Uveitis (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Sarcoidosis",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Lower respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Joint dislocation",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Diabetes mellitus",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Bowen's disease",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Breast cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Seborrhoeic keratosis",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Mononeuropathy multiplex",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Dermal cyst",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Lentigo",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Cataract subcapsular (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Cystoid macular oedema (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Dry eye (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Dry eye (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Macular oedema (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Macular oedema (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Visual acuity reduced (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Visual impairment (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Vitreous floaters (Fellow eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Vitreous floaters (Study eye)",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Malaise",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Ear infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Hordeolum",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Influenza",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Oral herpes",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Contusion",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Intraocular pressure increased (Fellow eye)",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal stiffness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Migraine",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Oropharyngeal pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        },
+        {
+          "term": "Rash erythematous",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 29
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 33
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The terms and conditions of Novartis' agreements with its investigators may vary. However, Novartis does not prohibit any investigator from publishing. Any publications from a single-site are postponed until the publication of the pooled data (i.e., data from all sites) in the clinical trial or disclosure of trial results in their entirety"
+      },
+      "pointOfContact": {
+        "title": "Study Director",
+        "organization": "Novartis",
+        "phone": "862-778-8300"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "removedCountries": [
+        "Italy",
+        "Turkey (Türkiye)"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015867",
+          "term": "Uveitis, Intermediate"
+        },
+        {
+          "id": "D015864",
+          "term": "Panuveitis"
+        },
+        {
+          "id": "D015866",
+          "term": "Uveitis, Posterior"
+        },
+        {
+          "id": "D014605",
+          "term": "Uveitis"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D011565",
+          "term": "Psoriasis"
+        },
+        {
+          "id": "D003872",
+          "term": "Dermatitis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014603",
+          "term": "Uveal Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D017444",
+          "term": "Skin Diseases, Papulosquamous"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C555450",
+          "term": "secukinumab"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

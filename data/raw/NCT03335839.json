@@ -1,0 +1,430 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03335839",
+      "orgStudyIdInfo": {
+        "id": "STRIVE.2018"
+      },
+      "organization": {
+        "fullName": "Population Health Research Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adjunctive, Low-dose tPA in Primary PCI for STEMI",
+      "officialTitle": "Adjunctive, Low-dose Intracoronary Recombinant Tissue Plasminogen Activator (tPA) Versus Placebo for Primary PCI in Patients With ST-segment Elevation Myocardial Infarction",
+      "acronym": "STRIVE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-09-17",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-03",
+      "studyFirstSubmitQcDate": "2017-11-06",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Population Health Research Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Heart and Stroke Foundation of Canada",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "STRIVE will evaluate the use of adjunctive, low-dose intracoronary tissue plasminogen activator during primary percutaneous coronary intervention (PCI) for patients with ST elevation myocardial infarction (STEMI) in reducing the incidence of post-procedural myocardial blush (MBG) grade 0/1 or distal embolization.",
+      "detailedDescription": "STRIVE is a prospective, 3-arm, parallel group, blinded, randomized controlled trial evaluating the efficacy of a novel approach to prevent and treat microvascular obstruction thereby reducing major cardiovascular events using intracoronary administration of very low-dose fibrinolytic (tissue plasminogen activator, tPA) directly into the culprit coronary artery during primary PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction",
+        "Percutaneous Coronary Intervention"
+      ],
+      "keywords": [
+        "tPA"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 210,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intracoronary tPA 10 mg",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: tissue plasminogen activator"
+          ]
+        },
+        {
+          "label": "Intracoronary tPA 20 mg",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: tissue plasminogen activator"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "saline",
+          "interventionNames": [
+            "Other: Saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "tissue plasminogen activator",
+          "description": "Recombinant tPA is a fibrin-specific 2nd generation plasminogen activator and thrombolytic drug.",
+          "armGroupLabels": [
+            "Intracoronary tPA 10 mg",
+            "Intracoronary tPA 20 mg"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Saline",
+          "description": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MACE OR Myocardial Blush Grade 0/1 OR Distal Embolization OR Failure to Achieve ≥50% ST-segment Resolution",
+          "description": "The primary efficacy variable is the binary composite outcome with the following components:\n\n* The occurrence of any of the MACE outcomes (cardiovascular death, myocardial re-infarction, cardiogenic shock and new onset heart failure) at 30 days post-randomization.\n* Post-procedural Myocardial Blush Grade of either 0 (Failure of dye to enter the microvasculature or persistent \"staining\", suggesting leakage of the contrast medium into the extravascular space) or 1 (Dye enters slowly but fails to exit the microvasculature. Dye is present in the next injection (30 seconds)).\n* Post-procedural Distal embolization, defined as distal filling defect with an abrupt 'cut-off' in one of the peripheral coronary branches of the infarct related artery, distal to the angioplasty site following PCI).\n* Failure to achieve ≥50% ST-segment resolution post-procedure.",
+          "timeFrame": "30 days post-randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The Composite of MBG grade 0/1 or Distal Embolization or Failure to Achieve ≥50% ST-segment Resolution",
+          "description": "* Post-procedural Myocardial Blush Grade of either 0 (Failure of dye to enter the microvasculature or persistent \"staining\", suggesting leakage of the contrast medium into the extravascular space) or 1 (Dye enters slowly but fails to exit the microvasculature. Dye is present in the next injection (30 seconds)).\n* Post-procedural Distal embolization, defined as distal filling defect with an abrupt 'cut-off' in one of the peripheral coronary branches of the infarct related artery, distal to the angioplasty site following PCI).\n* Failure to achieve ≥50% ST-segment resolution post-procedure of the summed absolute ST-segment deviations across associated and reciprocal leads at 30 minutes post-PCI",
+          "timeFrame": "30 minutes post-PCI"
+        },
+        {
+          "measure": "The Composite of MBG grade 0/1 or Distal Embolization",
+          "description": "* Post-procedural Myocardial Blush Grade of either 0 (Failure of dye to enter the microvasculature or persistent \"staining\", suggesting leakage of the contrast medium into the extravascular space) or 1 (Dye enters slowly but fails to exit the microvasculature. Dye is present in the next injection (30 seconds)).\n* Post-procedural Distal embolization, defined as distal filling defect with an abrupt 'cut-off' in one of the peripheral coronary branches of the infarct related artery, distal to the angioplasty site following PCI).",
+          "timeFrame": "Immediately following PCI"
+        },
+        {
+          "measure": "MBG Grade 0/1",
+          "description": "Post-procedural Myocardial Blush Grade of either 0 (Failure of dye to enter the microvasculature or persistent \"staining\", suggesting leakage of the contrast medium into the extravascular space) or 1 (Dye enters slowly but fails to exit the microvasculature. Dye is present in the next injection (30 seconds)).",
+          "timeFrame": "Immediately following PCI"
+        },
+        {
+          "measure": "Distal Embolization",
+          "description": "Post-procedural distal embolization, defined as distal filling defect with an abrupt 'cut-off' in one of the peripheral coronary branches of the infarct related artery, distal to the angioplasty site following PCI.",
+          "timeFrame": "Immediately following PCI"
+        },
+        {
+          "measure": "Failure to Achieve ≥50% ST-segment Resolution.",
+          "description": "Failure to achieve ≥50% ST-segment resolution of the summed absolute ST-segment deviations across associated and reciprocal leads at 30 minutes post-PCI.",
+          "timeFrame": "30 minutes post-PCI"
+        },
+        {
+          "measure": "Time to the First Occurrence of MACE",
+          "description": "Time to the first occurrence of MACE (composite of cardiovascular death, myocardial re-infarction, cardiogenic shock or new onset heart failure) over the duration of 30 days follow-up.",
+          "timeFrame": "30 days post-randomization"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Time to the First Occurrence of Major Bleeding Over the Duration of 30 Days Follow-up",
+          "description": "Clinically overt, bleeding with at least one of the following criteria:\n\n* Fatal or\n* Symptomatic intracranial hemorrhage or\n* Retroperitoneal hemorrhage or\n* Intraocular hemorrhage leading to significant vision loss or\n* Decrease in hemoglobin of ≥ 3.0 g/dL (with each blood transfusion unit counting for 1.0 g/dL of hemoglobin or requiring transfusion of two or more units of red blood cells or equivalent of whole blood) or\n* Requiring surgical intervention to stop the bleeding",
+          "timeFrame": "30 days post-randomization"
+        },
+        {
+          "measure": "Time to the First Occurrence of Major or Clinically Significant Bleeding Over the Duration of 30 Days Follow-up",
+          "description": "Clinically overt, bleeding with at least one of the following criteria:\n\n* Fatal or\n* Symptomatic intracranial hemorrhage or\n* Retroperitoneal hemorrhage or\n* Intraocular hemorrhage leading to significant vision loss or\n* Decrease in hemoglobin of ≥ 3.0 g/dL (with each blood transfusion unit counting for 1.0 g/dL of hemoglobin or requiring transfusion of two or more units of red blood cells or equivalent of whole blood) or\n* Requiring surgical intervention to stop the bleeding Any other clinically significant bleeding not meeting the definition for major bleeding and resulting in hospital admission, prolonged hospital stay or transfusion of one unit of blood (whole blood or packed red blood cells (PRBC))",
+          "timeFrame": "30 days post-randomization"
+        },
+        {
+          "measure": "Failure to achieve ≥ 50% resolution",
+          "description": "Failure to achieve ≥ 50% resolution of the ST-segment value (worst lead) at 30 minutes post-PCI",
+          "timeFrame": "30 minutes post-PCI"
+        },
+        {
+          "measure": "All-Cause Mortality at 30 Days",
+          "description": "The composite of cardiovascular or non-cardiovascular death",
+          "timeFrame": "30 days post-randomization"
+        },
+        {
+          "measure": "Flow Velocity as Measured by the Corrected TIMI Frame Count (Continuous)",
+          "description": "Continuous measure of TIMI frame count as reported by Angiographic Core Lab.",
+          "timeFrame": "Immediately following PCI"
+        },
+        {
+          "measure": "Post-Procedural TIMI Flow Grade 3",
+          "description": "Full perfusion of the infarct vessel with normal flow.",
+          "timeFrame": "Immediately following PCI"
+        },
+        {
+          "measure": "Time to the First Occurrence of Composite of Cardiovascular Death (CV), Cardiogenic Shock and New Onset Heart Failure (HF) Over the Duration of 30 Days Follow-up",
+          "description": "All deaths with a CV or unknown cause will be classified as CV. Only deaths due to a documented non-CV cause will be classified as non-CV.\n\nAt least one of the following:\n\n* SBP \\<90mmHg and not responsive to fluid resuscitation and/or HR correction for at least 1 hr\n* Need for vasopressor/inotropic therapy to maintain SBP \\>90mmHg for at least 1 hr, believed to be secondary to cardiac dysfunction and associated with Pulmonary edema/Hypoperfusion/Cardiac Index \\<2.0L/min New onset HF as per NYHA and defined as decision to treat with IV diuretic, inotropic agent or vasodilator with at least one of the following: presence of pulmonary edema or pulmonary vascular congestion on chest radiograph thought to be due to HF / râles reaching above the lower 1/3 of the lung fields thought to be due to HF / pulmonary capillary wedge pressure or left ventricular end-diastolic pressure = 18mmHg. In the case of new onset outpatient HF, re-admission to an acute care facility is required.",
+          "timeFrame": "30 days post-randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with STEMI undergoing primary PCI and,\n2. ECG changes indicating large territory STEMI (defined as ≥2mm ST-segment elevation in 2 contiguous anterior precordial leads; or ≥2mm ST-segment elevation in 2 inferior leads coupled with ST-segment depression in 2 contiguous anterior leads for a total ST-segment deviation of ≥8mm) and,\n3. Randomization within 6 to 12 hours of symptom onset and,\n4. Large thrombus burden with angiographic TIMI Thrombus Grade ≥3 after guidewire crossing.\n\nExclusion Criteria:\n\n1. Active internal bleeding or high risk of bleeding or any prior intracranial bleeding.\n2. Any other absolute or relative contraindication to fibrinolytic therapy.\n3. Administration of a fibrinolytic ≤24hrs prior to randomization.\n4. Cardiogenic shock on presentation.\n5. Left bundle branch block (excluded because the ECG cannot be evaluated for ST segment resolution, an outcome of the study).\n6. Planned upfront use of a glycoprotein IIb/IIIa inhibitor.\n7. Any medical, geographic, or social factor making study participation impractical or precluding 1 month follow-up.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Shamir Mehta, MD",
+          "affiliation": "McMaster University, Hamilton Health Sciences, Population Health Research Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Calgary - Foothills Medical Centre",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N 4Z6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "University of Alberta - Mazankowski Alberta Heart Insitute",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2B7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Hamilton General Hospital",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41194755",
+          "type": "DERIVED",
+          "citation": "Mehta SR, Pinilla-Echeverri N, Tiong D, Kovalova T, Sheth T, Natarajan MK, Sibbald M, Velianou JL, Welsh R, Har B, Jolly SS, Valettas N, Schwalm JD, Tsang M, Khatun R, Mian R, Cunningham J, Ly E, McCready T, Bainey KR. Intracoronary Low-Dose Recombinant Tissue Plasminogen Activator in Primary PCI for ST-Segment Elevation Myocardial Infarction and Large Thrombus Burden: A Randomized Trial. J Am Coll Cardiol. 2026 Jan 27;87(3):238-248. doi: 10.1016/j.jacc.2025.10.008. Epub 2025 Oct 28."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D010959",
+          "term": "Tissue Plasminogen Activator"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012697",
+          "term": "Serine Endopeptidases"
+        },
+        {
+          "id": "D010450",
+          "term": "Endopeptidases"
+        },
+        {
+          "id": "D010447",
+          "term": "Peptide Hydrolases"
+        },
+        {
+          "id": "D006867",
+          "term": "Hydrolases"
+        },
+        {
+          "id": "D004798",
+          "term": "Enzymes"
+        },
+        {
+          "id": "D045762",
+          "term": "Enzymes and Coenzymes"
+        },
+        {
+          "id": "D057057",
+          "term": "Serine Proteases"
+        },
+        {
+          "id": "D010960",
+          "term": "Plasminogen Activators"
+        },
+        {
+          "id": "D001779",
+          "term": "Blood Coagulation Factors"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        },
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

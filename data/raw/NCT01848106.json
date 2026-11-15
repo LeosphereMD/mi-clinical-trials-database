@@ -1,0 +1,302 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01848106",
+      "orgStudyIdInfo": {
+        "id": "REG1-CLIN310"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2013-001384-23",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Regado Biosciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study To Determine the Efficacy and Safety of REG1 Compared to Bivalirudin in Patients Undergoing PCI",
+      "officialTitle": "A Randomized, Open-Label, Multi-Center, Active-Controlled, Parallel Group Study To Determine the Efficacy and Safety of the REG1 Anticoagulation System Compared to Bivalirudin in Patients Undergoing Percutaneous Coronary Intervention",
+      "acronym": "Regulate"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Clinical Hold",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-05-02",
+      "studyFirstSubmitQcDate": "2013-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2013-05-07",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-10-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-10-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Regado Biosciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "The Cleveland Clinic",
+          "class": "OTHER"
+        },
+        {
+          "name": "Duke Clinical Research Institute",
+          "class": "OTHER"
+        },
+        {
+          "name": "Canadian VIGOUR Centre",
+          "class": "OTHER"
+        },
+        {
+          "name": "Icahn School of Medicine at Mount Sinai",
+          "class": "OTHER"
+        },
+        {
+          "name": "Parexel",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is designed to determine the efficacy of REG1 compared to bivalirudin in preventing periprocedural ischemic complications and major bleeding in patients undergoing PCI as a treatment for CAD. Bivalirudin has been studied in patients undergoing PCI in both ACS (NSTEMI and unstable angina \\[UA\\]) and elective PCI. In comparison to UFH, bivalirudin has shown similar rates of ischemic events while demonstrating a significant reduction in bleeding and an improved net clinical benefit.\n\nEvidence from previous studies indicates that pegnivacogin represents an extremely potent, chemically unique anticoagulant that can be reversed by anivamersen across multiple populations (refer to Section 1.2.2). The question that still remains is whether Factor IX (FIX) inhibition by pegnivacogin can result in fewer ischemic events than a previously studied agent while active control with anivamersen can preserve the benefit of reduced bleeding. The purpose of this study is to evaluate REG1 in an adequately powered definitive study with an open-label, multi-center, active-controlled, randomized design to answer that question."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Percutaneous Coronary Intervention",
+        "Coronary Artery Disease",
+        "Acute Coronary Syndrome",
+        "Regado",
+        "Reg 1",
+        "bivalirudin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3232,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Bivalirudin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Bivalirudin bolus and infusion",
+          "interventionNames": [
+            "Drug: Bivalirudin"
+          ]
+        },
+        {
+          "label": "Reg 1 (pegnivacogin/anivamersen)",
+          "type": "EXPERIMENTAL",
+          "description": "Bolus pegnivacogin plus anivamersen active control agent",
+          "interventionNames": [
+            "Drug: pegnivacogin/anivamersen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "pegnivacogin/anivamersen",
+          "armGroupLabels": [
+            "Reg 1 (pegnivacogin/anivamersen)"
+          ],
+          "otherNames": [
+            "Reg 1 Anticoagulation System"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bivalirudin",
+          "armGroupLabels": [
+            "Bivalirudin"
+          ],
+          "otherNames": [
+            "Angiox, Angiomax"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ischemic composite",
+          "description": "The primary efficacy endpoint is the composite of death, nonfatal myocardial infarction, nonfatal stroke and urgent TLR through Day 3.",
+          "timeFrame": "Day 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The study population will consist of patients with CAD undergoing PCI. Three key subgroups will be included\n2. Willing and able to sign an Institutional Review Board/Ethics Committee (IRB/EC) approved informed consent prior to any study-related activities;\n3. Male or female age 18 or greater;\n4. If female of childbearing potential, must have a negative urine or serum pregnancy test or be post-menopausal for at least 1 year prior to randomization. Females of childbearing potential must be practicing adequate birth control to be eligible. It is the Investigator's responsibility for determining whether the patient has adequate birth control for study participation;\n5. Subject is able and willing to comply with the protocol and all study procedures\n\nExclusion Criteria:\n\n1. Acute ST-segment elevation myocardial infarction within 48 hours of randomization;\n2. Evidence of current clinical instability\n3. Evidence of a contraindication to anticoagulation or increased risk of bleeding\n4. Use of any investigational drug or device within 30 days of randomization or the planned use of an investigational drug or device through EOS (Day 30 follow-up);\n5. Use of the select antithrombotic agents\n6. Baseline hemoglobin (Hgb) \\<9 g/dL or equivalent;\n7. Baseline estimated glomerular filtration rate (GFR) ≤ 10 mL/min/1.73m² or currently undergoing renal replacement therapy (hemodialysis or peritoneal dialysis);\n8. Baseline platelet count \\<100,000/mm3;\n9. Known allergy or intolerance to aspirin, to all available ADP/P2Y12 inhibitors (clopidogrel, prasugrel, ticagrelor), or to bivalirudin or REG1 (or any of their respective components);\n10. The following planned procedures: a. Planned staged PCI procedure within 3 days after randomization; b. Planned CABG or valve surgery within 30 days after randomization;\n11. Any other medical or psychiatric condition that in the Investigator's judgment precludes participation in the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Steven L Zelenkofske, DO, FACC",
+          "affiliation": "Regado Biosciences",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "name": "A. Michael Lincoff, MD",
+          "affiliation": "The Cleveland Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Roxana Mehran, MD",
+          "affiliation": "Icahn School of Medicine at Mount Sinai",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "John H Alexander, MD, MHS",
+          "affiliation": "Duke Clinical Research Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Black Hills Cardiovascular Research",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36583436",
+          "type": "DERIVED",
+          "citation": "Marquis-Gravel G, Boivin-Proulx LA, Huang Z, Zelenkofske SL, Lincoff AM, Mehran R, Steg PG, Bode C, Alexander JH, Povsic TJ. Femoral Vascular Closure Devices and Bleeding, Hemostasis, and Ambulation Following Percutaneous Coronary Intervention. J Am Heart Assoc. 2023 Jan 3;12(1):e025666. doi: 10.1161/JAHA.122.025666. Epub 2022 Dec 30."
+        },
+        {
+          "pmid": "30957581",
+          "type": "DERIVED",
+          "citation": "Park EJ, Choi J, Lee KC, Na DH. Emerging PEGylated non-biologic drugs. Expert Opin Emerg Drugs. 2019 Jun;24(2):107-119. doi: 10.1080/14728214.2019.1604684. Epub 2019 Apr 19."
+        },
+        {
+          "pmid": "26547100",
+          "type": "DERIVED",
+          "citation": "Lincoff AM, Mehran R, Povsic TJ, Zelenkofske SL, Huang Z, Armstrong PW, Steg PG, Bode C, Cohen MG, Buller C, Laanmets P, Valgimigli M, Marandi T, Fridrich V, Cantor WJ, Merkely B, Lopez-Sendon J, Cornel JH, Kasprzak JD, Aschermann M, Guetta V, Morais J, Sinnaeve PR, Huber K, Stables R, Sellers MA, Borgman M, Glenn L, Levinson AI, Lopes RD, Hasselblad V, Becker RC, Alexander JH; REGULATE-PCI Investigators. Effect of the REG1 anticoagulation system versus bivalirudin on outcomes after percutaneous coronary intervention (REGULATE-PCI): a randomised clinical trial. Lancet. 2016 Jan 23;387(10016):349-356. doi: 10.1016/S0140-6736(15)00515-2. Epub 2015 Nov 5."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C515724",
+          "term": "RB 006"
+        },
+        {
+          "id": "C515725",
+          "term": "RB 007"
+        },
+        {
+          "id": "C074619",
+          "term": "bivalirudin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

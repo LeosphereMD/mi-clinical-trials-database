@@ -1,0 +1,348 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02944123",
+      "orgStudyIdInfo": {
+        "id": "HOPE-TAILOR"
+      },
+      "organization": {
+        "fullName": "Dong-A University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Half Dose of Prasugrel and Ticagrelor in Acute Coronary Syndrome (HOPE-TAILOR)",
+      "officialTitle": "An Open-label, Randomized, Prospective Study Exploring Half Dose of Prasugrel and Ticagrelor in Platelet Response After Acute Coronary Syndromes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2020-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-10-24",
+      "studyFirstSubmitQcDate": "2016-10-24",
+      "studyFirstPostDateStruct": {
+        "date": "2016-10-25",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2020-08-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2020-08-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Moo Hyun Kim",
+        "investigatorTitle": "Professor, Dept. of Cardiology Dong-A University Hospital",
+        "investigatorAffiliation": "Dong-A University"
+      },
+      "leadSponsor": {
+        "name": "Dong-A University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "East Asian patients will be required optimal dose of newer P2Y12 inhibitors (prasugrel or ticagrelor) to determine the safer treatment and better outcome. Whether lower dose of these regimens are more adequate for clinical practice in Korea is unclear. Therefore, the investigators aim to evaluate efficacy and safety of half dose of new oral P2Y12 inhibitors in Korean patients with acute coronary syndrome (ACS) undergoing percutaneous coronary intervention (PCI).",
+      "detailedDescription": "In recent years, newer oral P2Y12 receptor blockers (prasugrel or ticagrelor) have been strong recommendations for management of patients with ACS undergoing (PCI). These drugs provided more profound inhibitory effects than clopidogrel, which could lead to marked reduction in ischemic events, with relatively increase in bleeding complication, specific to low body weight, especially in women and East Asian patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Half dose",
+        "Newer oral P2Y12 receptor inhibitors",
+        "Acute coronary syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Open-labeled",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Clopidogrel 75 mg",
+          "type": "OTHER",
+          "description": "Clopidogrel 600 mg as loading dose and followed by 75 mg/day as maintenance dose.",
+          "interventionNames": [
+            "Drug: Clopidogrel 75 mg"
+          ]
+        },
+        {
+          "label": "Prasugrel 5 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Loading / maintenance dose: prasugrel 60 mg / 10 mg/day; After 1-month treatment of conventional dose, followed half dose of 5 mg/day for chronic treatment.",
+          "interventionNames": [
+            "Drug: Prasugrel 5 mg"
+          ]
+        },
+        {
+          "label": "Ticagrelor 45 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Loading / maintenance dose: ticagrelor 180 mg / 90 mg/bid; After 1-month treatment of conventional dose, followed half dose of 45 mg/bid for chronic treatment.",
+          "interventionNames": [
+            "Drug: Ticagrelor 45 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel 75 mg",
+          "description": "Clopidogrel 600 mg as loading dose followed by 75 mg/day as maintenance dose.",
+          "armGroupLabels": [
+            "Clopidogrel 75 mg"
+          ],
+          "otherNames": [
+            "Plavix 75 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Prasugrel 5 mg",
+          "description": "Loading / maintenance dose: prasugrel 60 mg / 10 mg/day; After 1-month treatment of conventional dose, followed half dose of 5 mg/day for chronic treatment.",
+          "armGroupLabels": [
+            "Prasugrel 5 mg"
+          ],
+          "otherNames": [
+            "Effient 5 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor 45 mg",
+          "description": "Loading / maintenance dose: ticagrelor 180 mg / 90 mg/bid; After 1-month treatment of conventional dose, followed half dose of 45 mg/bid for chronic treatment.",
+          "armGroupLabels": [
+            "Ticagrelor 45 mg"
+          ],
+          "otherNames": [
+            "Brilinta 45 mg"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Optimal platelet reactivity (OPR) rate",
+          "description": "OPR, indicate 85 to 208 for P2Y12 reaction units (PRU) or 16% to 50% for vasodilator-stimulated phosphoprotein (VASP)-platelet reactivity index (PRI)",
+          "timeFrame": "At post-PCI 3 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Major adverse cardiac and cerebrovascular events (MACCE)",
+          "description": "MACCE: composite of cardiac death, non-fatal myocardial infarction, repeat revascularization and stroke",
+          "timeFrame": "Post-PCI 6 months."
+        },
+        {
+          "measure": "Bleeding events",
+          "description": "BARC: Bleeding Academic Research Consortium (BARC ≥2).",
+          "timeFrame": "Post-PCI 6 months."
+        },
+        {
+          "measure": "Drug side effects",
+          "description": "Dyspnea or ventricular pauses ≥3 sec",
+          "timeFrame": "Post-PCI 6 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients present with acute coronary syndrome undergoing primary PCI.\n* Patients receive DAPT (conventional dose of P2Y12 inhibitors+aspirin) at least 1 month.\n* Patients provide written informed consent prior to enrollment.\n\nExclusion Criteria:\n\n* Low body weight (\\<60kg).\n* History of transient ischemic attack or stroke.\n* History of upper gastrointestinal bleeding in recent 6 months.\n* Renal dysfunction defined as serum creatinine \\> 2.5 mg/dl\n* Severe hepatic dysfunction defined as serum transaminase \\> 3 times normal limit\n* On treatment with oral anticoagulant (Vitamin K antagonists, dabigatran, rivaroxaban).\n* Bleeding tendency.\n* Thrombocytopenia defined by platelet \\< 100,000/ml.\n* Anemia defined by hemoglobin \\< 10 g/dl.\n* Current treatment with drugs interfering with CYP3A4 metabolism (to avoid interaction with Ticagrelor): Ketoconazole, itraconazole, voriconazole, clarithromycin, nefazodone, ritonavir, saquinavir, nelfinavir, indinavir, atazanavir, and telithromycin.\n* Known severe chronic obstructive pulmonary disease or bradycardia (sick sinus syndrome (SSS) or high degree AV block without pacemaker protection).\n* Contraindication for study drugs.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Moo Hyun Kim, MD",
+          "affiliation": "Dong-A University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Dong-A University Hospital",
+          "city": "Busan",
+          "zip": "602-715",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26376600",
+          "type": "BACKGROUND",
+          "citation": "Goto S, Huang CH, Park SJ, Emanuelsson H, Kimura T. Ticagrelor vs. clopidogrel in Japanese, Korean and Taiwanese patients with acute coronary syndrome -- randomized, double-blind, phase III PHILO study. Circ J. 2015;79(11):2452-60. doi: 10.1253/circj.CJ-15-0112. Epub 2015 Sep 16."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

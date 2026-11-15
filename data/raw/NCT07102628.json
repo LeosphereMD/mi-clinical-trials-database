@@ -1,0 +1,1119 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07102628",
+      "orgStudyIdInfo": {
+        "id": "CKJX839A12309"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-521670-34",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2025",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2025"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation of Efficacy and Safety of Early in Hospital Initiation of Inclisiran Treatment in Patients With Acute Coronary Syndromes",
+      "officialTitle": "A Randomized, Double-blind, Placebo-controlled Study to Evaluate Efficacy and Safety of Early in Hospital Initiation of Inclisiran Treatment in Patients With Acute Coronary Syndromes: Victorion - RIDES",
+      "acronym": "ACS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-11",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-02-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-31",
+      "studyFirstSubmitQcDate": "2025-07-31",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-09-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-09-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this trial is to learn about the effects of inclisiran in people with serious heart conditions (acute coronary syndromes), when this treatment is started early after hospital admission. To do this, researchers will test the effects of inclisiran compared to placebo, when given with standard treatment.",
+      "detailedDescription": "This is a multicenter, prospective, randomized, double-blind, placebo-controlled, two arms, parallel groups clinical trial in participants experiencing an ACS (STEMI or NSTEMI) of recent onset. The study drug treatment (inclisiran/placebo) will be initiated at randomization (Day 1) and before discharge.\n\nThe study consists of:\n\n1. Screening visit within 7 days (≤ 7 days) from hospital admission. Screening visit might happen at hospital admission day or any time after hospital admission and before randomization (Day 1).\n2. Randomization/Baseline visit (Day 1) within 7 days (≤ 7 days) from hospital admission and before or at day of discharge.\n\n   The discharge can happen any time after randomization and first study drug administration (Day 1).\n3. Double-blinded treatment period (150 days).\n4. Scheduled safety calls in between visits during the double-blind treatment period (they do not replace on-site visits)\n5. Safety Follow-up call (30 days after EOS visit)\n\nScreening and randomization visits must happen during the in-hospital phase, within 7 days (≤ 7 days), and before discharge. The Screening period, of no more than 6 days after the date of hospital admission, will be used to determine if patients qualify to enter the double-blind treatment phase of the study. Screening and Randomization/Day 1 visits cannot occur on the same day. The overall study duration is 150 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "KJX839",
+        "Acute Coronary Syndrome",
+        "ACS",
+        "NSTEMI",
+        "STEMI",
+        "Inclisiran",
+        "LDL-C",
+        "Hyperlipidemia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Inclisiran sodium 300 mg s.c. + Standard treatment",
+          "type": "EXPERIMENTAL",
+          "description": "* Inclisiran sodium 300 mg subcutaneous (s.c.) on top of HIS (+/- LLT) or non-statin LLT in statin intolerant participants\n* KJX839 284 mg / 1.5 mL (Dose: 300 mg)\n* Pharmaceutical Dosage Form: solution for subcutaneous injection",
+          "interventionNames": [
+            "Drug: Inclisiran"
+          ]
+        },
+        {
+          "label": "Matching placebo + Standard treatment",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "* Matching placebo on top of HIS (+/- LLT) or non-statin LLT in statin intolerant participants\n* KJX839 Placebo / 1.5 mL (Dose: 0 mg)\n* Pharmaceutical Dosage Form: solution for subcutaneous injection",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "The participants will receive placebo subcutaneous at randomization (Day 1, Baseline visit) and Day 90",
+          "armGroupLabels": [
+            "Matching placebo + Standard treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Inclisiran",
+          "description": "The participants will receive Inclisiran sodium 300 mg subcutaneous at randomization (Day 1, Baseline visit) and Day 90",
+          "armGroupLabels": [
+            "Inclisiran sodium 300 mg s.c. + Standard treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent change in LDL-C",
+          "description": "To demonstrate the superiority of inclisiran treatment compared to placebo, when initiated before/at discharge, in combination with standard of care (SoC) (statin therapy +/- LLT (Lipid Lowering Therapy) or non-statin treatment in case of documented statin intolerance) on LDL-C reduction at Day 150",
+          "timeFrame": "From baseline to Day 150"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Participants achieving LDL-C <70 mg/dL (yes, no)",
+          "description": "To assess the proportion of participants reaching pre-specified LDL-C target (\\<70 mg/dL) on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "At Day 90 and Day 150"
+        },
+        {
+          "measure": "Participants achieving LDL-C <55 mg/dL (yes, no)",
+          "description": "To assess the proportion of participants reaching pre-specified LDL-C target (\\<55 mg/dL) on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "At Day 90 and Day 150"
+        },
+        {
+          "measure": "Participants achieving LDL-C <100 mg/dL (yes, no) (among the subset of participants with LDL-C ≥100 mg/dL at baseline)",
+          "description": "To assess the proportion of participants reaching pre-specified LDL-C target (\\<100 mg/dL) on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "At Day 90 and Day 150"
+        },
+        {
+          "measure": "Participants achieving ≥50% reduction from baseline in LDL-C (yes, no)",
+          "description": "To assess the proportion of participants reaching pre-specified LDL-C target (≥50% reduction from baseline) on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "At Day 90 and Day 150"
+        },
+        {
+          "measure": "Percent change from baseline to mean LDL-C over the double-blind treatment period (averaged over all post-baseline visits)",
+          "description": "To assess the mean change (averaged over all post-baseline visits), and the change by visit, from baseline in LDL-C for participants receiving inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "From baseline to Day 30, Day 90 and Day 150"
+        },
+        {
+          "measure": "Absolute change from baseline to mean LDL-C over the double-blind treatment period (averaged over all post-baseline visits)",
+          "description": "To assess the mean change (averaged over all post-baseline visits), and the change by visit, from baseline in LDL-C for participants receiving inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "From baseline to Day 30, Day 90 and Day 150"
+        },
+        {
+          "measure": "Percent change in LDL-C",
+          "description": "To assess the mean change (averaged over all post-baseline visits), and the change by visit, from baseline in LDL-C for participants receiving inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "From baseline to Day 30 and Day 90"
+        },
+        {
+          "measure": "Absolute change in LDL-C",
+          "description": "To assess the mean change (averaged over all post-baseline visits), and the change by visit, from baseline in LDL-C for participants receiving inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "From baseline to Day 30, Day 90 and Day 150"
+        },
+        {
+          "measure": "Percent change and absolute change in PCSK9",
+          "description": "To assess the change of PCSK9 from baseline to Day 150 in participants on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "From baseline to Day 30, Day 90 and Day 150"
+        },
+        {
+          "measure": "Percent change and absolute change from baseline in: apoB, VLDL, non-HDLC, HDL-C, total cholesterol and triglycerides",
+          "description": "To assess the change in plasma lipoproteins and triglycerides from baseline to Day 150 in participants on inclisiran treatment compared to placebo, on top of SoC",
+          "timeFrame": "At Day 150"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nParticipant eligible for inclusion in this study must meet all the following criteria:\n\nAt Screening:\n\n1. Signed informed consent must be obtained prior to participation in the study.\n2. Males and females, ≥18 years of age at the time of providing written informed consent.\n3. Ability to understand study's requirements and provide informed consent and comply with all required study procedures.\n4. Hospitalization for a ACS event (STEMI or NSTEMI).\n5. Receiving treatment for the qualifying ACS event, according to clinical judgement, by means of medical treatment alone or percutaneous coronary revascularization.\n6. Had a successful PCI (with or without stent) for the qualifying event if a PCI was required.\n7. LDL-C values measured by the local lab either at the Screening visit or results from local lab tests performed prior to ICF signature, strictly as part of the routine clinical practice in this emergency ACS setting and not older than 2 days of:\n\n   * LDL-C ≥70 mg/dL in participant previously treated with high-intensity statin (atorvastatin ≥40 mg/day or rosuvastatin ≥20 mg/day) or equivalent as per national guidelines and local regulation for at least 4 weeks before screening or\n   * LDL-C ≥80 mg/dL in participant previously treated with low/moderate-intensity statin for at least 4 weeks before screening or\n   * LDL-C ≥100 mg/dL in participant previously not treated with statins for at least 4 weeks before screening, or who never received statins (including statin intolerant participants).\n\n   At Randomization:\n8. The participant must have a Baseline fasting LDL-C ≥70 mg/dL (local lab assessment) to be eligible for randomization.\n9. Randomization within 7 days (≤ 7 days) following hospital admission for the qualifying ACS event and before/at discharge.\n\nExclusion Criteria:\n\nParticipant meeting any of the following criteria is not eligible for inclusion in this study.\n\nOnly for Japan: For exclusion criteria 6, investigator judgment should be documented in the source data document.\n\n1. Participant who is clinically unstable during hospitalization for the qualifying ACS event, defined by any of the following events within 24 hours prior to randomization:\n\n   * Hemodynamic instability: hypotension, defined as sustained systolic blood pressure of \\<90 mmHg due to cardiac failure with associated symptoms requiring inotropes\n   * Sustained arrhythmic events such as: ventricular storm (e.g., torsade, ventricular tachycardia, ventricular flutter) not resolved before randomization\n   * Cardiogenic shock or mechanical complication of myocardial infarction\n   * New York Heart Association (NYHA) class IV heart failure\n   * Left ventricular ejection fraction \\<20% at randomization (after all treatment procedures, based on the latest assessment of the LVEF using invasive or non-invasive assessment modalities)\n   * Uncontrolled severe hypertension: systolic blood pressure \\>180 mmHg or diastolic blood pressure \\>110 mmHg prior to randomization despite antihypertensive therapy.\n2. Participant who has undergone or is scheduled to undergo CABG for treatment of the qualifying ACS event.\n3. Active liver disease defined as: (i) any known current infectious, neoplastic, or metabolic pathology of the liver or (ii) alanine aminotransferase (ALT) elevation \\>3x ULN or aspartate aminotransferase (AST) elevation \\>3x ULN, or total bilirubin elevation \\>2x ULN (except participant with Gilbert's syndrome) at the Screening visit, in the context of an ACS, and assessed as related to the index event and/or treatment procedures (such as PCI). Eligibility will be based on Investigator's judgement for participant who will be randomized.\n4. Renal insufficiency (eGFR \\<30 mL/min/1.73m2) at the Screening visit.\n5. Fasting triglycerides value \\>400 mg/dL (4.52 mmol/L; assessed by local labs) at randomization visit.\n6. Participant, who based on the Investigator's judgement, could reach the LDL-C target value of \\<55 mg/dL after 4 weeks on statin treatment only.\n7. Secondary hypercholesterolemia (based on medical history).\n8. Homozygous familial hypercholesterolemia (based on medical history).\n9. Participant on apheresis at the Screening visit or for whom an apheresis is planned during study (from Day 1 to EOS).\n10. Ongoing or medical history of myopathy at the Screening visit.\n11. CK values ≥5x ULN at Screening visit and confirmed by repeat test during Screening (local lab) , in the context of an ACS, and assessed as related to the index event and/or treatment procedures (such as PCI) eligibility will be based on Investigator's judgement for participant who will be randomized (who will be switched to or initiated on the protocol-specified dose of high-intensity statin of atorvastatin ≥40 mg QD or rosuvastatin ≥20 mg QD). Unless a more stringent CK value threshold is mandated by a local regulatory authority (e.g., ≥3x ULN in Korea according to MFDS internal guideline).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT",
+          "phone": "+41613241111",
+          "email": "novartis.email@novartis.com"
+        },
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT",
+          "phone": "+81337978748"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Capital Federal",
+          "state": "Buenos Aires",
+          "zip": "B1406",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Garran",
+          "state": "Australian Capital Territory",
+          "zip": "2605",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.34206,
+            "lon": 149.10846
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 2B7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8L 2X2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5W9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "J7Y 2P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 1C8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Québec",
+          "state": "Quebec",
+          "zip": "G1V 4G5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "China",
+          "zip": "100037",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510080",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Luoyang",
+          "state": "Henan",
+          "zip": "471002",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.67345,
+            "lon": 112.43684
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Xuzhou",
+          "state": "Jiangsu",
+          "zip": "221003",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Nanchang",
+          "state": "Jiangxi",
+          "zip": "330009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Wenzhou",
+          "state": "Zhejiang",
+          "zip": "325000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 27.99942,
+            "lon": 120.66682
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100191",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100730",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Fuzhou",
+          "zip": "350001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 26.06139,
+            "lon": 119.30611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510260",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510280",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Jining",
+          "zip": "272011",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.405,
+            "lon": 116.58139
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200120",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "zip": "300052",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Chambray-lès-Tours",
+          "zip": "37170",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.33537,
+            "lon": 0.70286
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Montpellier",
+          "zip": "34295",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Nantes",
+          "zip": "44093",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Poitiers",
+          "zip": "86021",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Leipzig",
+          "state": "Saxony",
+          "zip": "04289",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Coburg",
+          "zip": "96450",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.25937,
+            "lon": 10.96384
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Erfurt",
+          "zip": "99089",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.97734,
+            "lon": 11.03536
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Essen",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Hennigsdorf",
+          "zip": "16761",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.63598,
+            "lon": 13.20419
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "state": "Hong Kong",
+          "zip": "999077",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "zip": "999077",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Pécs",
+          "state": "Baranya",
+          "zip": "7623",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Debrecen",
+          "state": "Hajdu Bihar Megye",
+          "zip": "4032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Budapest",
+          "zip": "1083",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Budapest",
+          "zip": "1134",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Miskolc",
+          "zip": "3526",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 48.10327,
+            "lon": 20.77806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Belagavi",
+          "state": "Karnataka",
+          "zip": "590010",
+          "country": "India",
+          "geoPoint": {
+            "lat": 15.85212,
+            "lon": 74.50447
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Nashik",
+          "state": "Maharashtra",
+          "zip": "422005",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.99727,
+            "lon": 73.79096
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Bikaner",
+          "state": "Rajasthan",
+          "zip": "334003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.01762,
+            "lon": 73.31495
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "COMPLETED",
+          "city": "Chikushino-shi",
+          "state": "Fukuka",
+          "zip": "8188516",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.49631,
+            "lon": 130.5156
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kitakyushu",
+          "state": "Fukuoka",
+          "zip": "8028555",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.85181,
+            "lon": 130.85034
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kamakura",
+          "state": "Kanagawa",
+          "zip": "2478533",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.31085,
+            "lon": 139.54698
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Sagamihara",
+          "state": "Kanagawa",
+          "zip": "2520375",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.56707,
+            "lon": 139.24167
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "COMPLETED",
+          "city": "Bunkyo Ku",
+          "state": "Tokyo",
+          "zip": "1138431",
+          "country": "Japan"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Gdansk",
+          "zip": "80-214",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Katowice",
+          "zip": "40-635",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Krakow",
+          "zip": "31-202",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Opole",
+          "zip": "45-401",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.67119,
+            "lon": 17.92604
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "state": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "07804",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Santiago Compostela",
+          "state": "A Coruna",
+          "zip": "15706",
+          "country": "Spain"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Huelva",
+          "state": "Andalusia",
+          "zip": "21005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "El Palmar",
+          "state": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Las Palmas GC",
+          "zip": "35010",
+          "country": "Spain"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Salamanca",
+          "zip": "37007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Bern",
+          "zip": "3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Geneva",
+          "zip": "1211",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Lucerne",
+          "zip": "6000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C585830",
+          "term": "ALN-PCS"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,378 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01334671",
+      "orgStudyIdInfo": {
+        "id": "W2-2009041"
+      },
+      "organization": {
+        "fullName": "General Hospital of Chinese Armed Police Forces",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Clinical Effect of Intensive Statin Therapy in STEMI Patients Before Emergency PCI",
+      "officialTitle": "The Clinical Effect of Intensive Statin Therapy in STEMI(ST-elevated Myocardial Infarction) Patients Before Emergency PCI(Percutaneous Coronary Intervention)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2011-04",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-02"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2013-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2011-03-30",
+      "studyFirstSubmitQcDate": "2011-04-12",
+      "studyFirstPostDateStruct": {
+        "date": "2011-04-13",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2011-04-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2011-04-13",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "oldNameTitle": "Department of Cardiology of General Hospital of Chinese People's Armed Police Forces",
+        "oldOrganization": "Department of Cardiology of General Hospital of Chinese People's Armed Police Forces"
+      },
+      "leadSponsor": {
+        "name": "General Hospital of Chinese Armed Police Forces",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the clinical effect of intensive statin therapy before emergency PCI in patients with STEMI.",
+      "detailedDescription": "150 STEMI patients planned for emergency PCI were randomized to three groups, Group 1:received atorvastatin 80-mg loading dose before PCI then followed by 40-mg daily for one month and a maintenance dose of 20-mg qd thereafter(n=50); Group 2:received atorvastatin 40-mg qd after PCI for one month and a maintenance dose of 20-mg qd thereafter(n=50); Group 3: received atorvastatin 20-mg qd after PCI (n=50).Before PCI,all subjects received oral administration of aspirin 300mg and clopidogrel 300mg.Levels of creatine kinase,CK-MB(creatine kinase-MB),were measured to estimate myocardial damage degree.HS-CRP(high sensitivity C -reactive protein),NO(NO synthase),SAA(Serum amyloid A) were measured at preoperation 1 hour,postoperative 24 and 72 hours,7days after PCI. To compare echocardiography changes among three groups.Patients enrolled in the study need to receive follow-up survey which was carried out by clinical doctors.Hence,MACEs were analyzed during 6-month follow-up.So, the aim of our study is to evaluate the clinical significance of loading dosage of atorvastatin therapy and analyze the mechanism underlying it."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST-elevation Myocardial Infarction",
+        "(STEMI)"
+      ],
+      "keywords": [
+        "ST-elevation myocardial infarction(STEMI)",
+        "emergency percutaneous coronary intervention(PCI)",
+        "lipitor or Atorvastatin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "group 1, Atorvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "STEMI patients will be randomly divided into three groups Group 1 which has been give 80mg atorvastatin before PCI will be administered with atorvastatin 40mg per day for one month,then 20mg per day until the end of the trial",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ]
+        },
+        {
+          "label": "group 2 , Atorvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Group 2 will be administered with atorvastatin 40mg per day for one month,then 20mg per day until the end of the trial",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ]
+        },
+        {
+          "label": "group 3 , Atorvastatin",
+          "type": "EXPERIMENTAL",
+          "description": "Group 3 will be administered with atorvastatin 20mg per day until the end of the trial",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atorvastatin",
+          "description": "Group 1:80mg before PCI and 40mg per day after PCI for one month then 20mg per day until the end of the trial Group 2:40mg per day after PCI for one month then 20mg per day until the end of the trial Group 3:20mg per day after PCI until the end of the trial",
+          "armGroupLabels": [
+            "group 1, Atorvastatin",
+            "group 2 , Atorvastatin",
+            "group 3 , Atorvastatin"
+          ],
+          "otherNames": [
+            "lipitol"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "MACEs (Major adverse cardiac events)",
+          "description": "MACEs were compared among three groups during follow-up in STEMI patients undergoing emergency PCI.",
+          "timeFrame": "follow-up for 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Echocardiographic changes",
+          "description": "to compare echocardiographic changes ( left ventricular ejection fraction(LVEF); Left Ventricular Internal Diameter diastolic(LVIDd);Left Ventricular Internal Diameter systolic (LVIDs),Left Ventricular Enddiastolic Volume(LVEDV);Left Ventricular Endsystolic Volume(LVESV)at postoperative 6 month among three groups",
+          "timeFrame": "postoperative 6 month"
+        },
+        {
+          "measure": "HS-CRP,NO,SAA values",
+          "description": "to compare hs-crp,no,saa values at differnt treatment period among three groups",
+          "timeFrame": "preoperation 1 hour,postoperative 24 and 72 hours,postoperative 7 days"
+        },
+        {
+          "measure": "CK,CK-MB",
+          "description": "to estimate myocardial damage degree among three groups",
+          "timeFrame": "preoperation 1hour,postoperation 4/8/12/16/20/24hours"
+        },
+        {
+          "measure": "AST(glutamic-oxalacetic transaminease ),ALT(glutamic-pyruvic transaminase),LDL(low density lipoprotein cholesterin),TG(triglyceride)",
+          "description": "to monitor adverse drug reaction",
+          "timeFrame": "preoperation 1 hour,postoperation 24 and 72hours,postoperation 7 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1.Clinical diagnosis of STEMI less than 12 hours 2.Eligible for emergency PCI\n\nExclusion Criteria:\n\n* 1.Contradiction to atorvastatin 2.Contradiction to aspirin, clopidogrel and contrast medium 3.Life expectancy less than 3 months 4.Tumor or inflammatory diseases",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "HuiLiang LIU, Doctor",
+          "role": "CONTACT",
+          "phone": "86-10-57976531",
+          "email": "lhl518@vip.sina.com"
+        },
+        {
+          "name": "Yong Yang, Doctor",
+          "role": "CONTACT",
+          "phone": "86-10-57976533",
+          "email": "yangyongfmmu@yahoo.com.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "HuiLiang Liu, Doctor",
+          "affiliation": "Department of Cardiology of General Hospital of Chinese People's Armed Police Forces",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "General Hospital of Chinese People's Armed Police Forces",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100039",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "HuiIiang Liu, Doctor",
+              "role": "CONTACT",
+              "phone": "86-10-57976531",
+              "email": "lhl518@vip.sina.com"
+            },
+            {
+              "name": "Yong Yang, Doctor",
+              "role": "CONTACT",
+              "phone": "86-10-57976533",
+              "email": "672862837@qq.com;yangyongfmmu@yahoo.com.cn"
+            },
+            {
+              "name": "HuiLiang Liu, Doctor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Yong Yang, Doctors",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Wenwen Yuan, Master",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "15861319",
+          "type": "RESULT",
+          "citation": "Walter DH, Dimmeler S, Zeiher AM. Effects of statins on endothelium and endothelial progenitor cell recruitment. Semin Vasc Med. 2004 Nov;4(4):385-93. doi: 10.1055/s-2004-869595."
+        },
+        {
+          "pmid": "16337036",
+          "type": "RESULT",
+          "citation": "Wilson AM, Ryan MC, Boyle AJ. The novel role of C-reactive protein in cardiovascular disease: risk marker or pathogen. Int J Cardiol. 2006 Jan 26;106(3):291-7. doi: 10.1016/j.ijcard.2005.01.068."
+        },
+        {
+          "type": "RESULT",
+          "citation": "Katayama T，Nakashima H，Yonekura T，et al. Significance of acutephase inflammatory reactants as an indicator of prognosis after acute myocardial infarction：which is the most useful predictor？J Cardiol，2003"
+        },
+        {
+          "pmid": "15007111",
+          "type": "RESULT",
+          "citation": "Topol EJ. Intensive statin therapy--a sea change in cardiovascular prevention. N Engl J Med. 2004 Apr 8;350(15):1562-4. doi: 10.1056/NEJMe048061. Epub 2004 Mar 8. No abstract available."
+        },
+        {
+          "type": "RESULT",
+          "citation": "Albrecht C，KaePPel N，Gauglitz G.Twoimmunoassay formats for fully automated CRPdetection in human serum【J」Anal Bioanal Chem，2008， 391(5):1845一1852."
+        },
+        {
+          "pmid": "16916504",
+          "type": "RESULT",
+          "citation": "Wu TL, I Chen Tsai, Chang PY, Tsao KC, Sun CF, Wu LL, Wu JT. Establishment of an in-house ELISA and the reference range for serum amyloid A (SAA): complementarity between SAA and C-reactive protein as markers of inflammation. Clin Chim Acta. 2007 Feb;376(1-2):72-6. doi: 10.1016/j.cca.2006.07.012. Epub 2006 Jul 15."
+        },
+        {
+          "pmid": "16168297",
+          "type": "RESULT",
+          "citation": "Antoniades C, Tousoulis D, Vasiliadou C, Pitsavos C, Chrysochoou C, Panagiotakos D, Tentolouris C, Marinou K, Koumallos N, Stefanadis C. Genetic polymorphism on endothelial nitric oxide synthase affects endothelial activation and inflammatory response during the acute phase of myocardial infarction. J Am Coll Cardiol. 2005 Sep 20;46(6):1101-9. doi: 10.1016/j.jacc.2005.05.072."
+        },
+        {
+          "pmid": "23410871",
+          "type": "DERIVED",
+          "citation": "Liu HL, Yang Y, Yang SL, Luo JP, Li H, Jing LM, Shen ZQ. Administration of a loading dose of atorvastatin before percutaneous coronary intervention prevents inflammation and reduces myocardial injury in STEMI patients: a randomized clinical study. Clin Ther. 2013 Mar;35(3):261-72. doi: 10.1016/j.clinthera.2013.01.009. Epub 2013 Feb 12."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

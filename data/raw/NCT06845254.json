@@ -1,0 +1,345 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06845254",
+      "orgStudyIdInfo": {
+        "id": "2024XLA098-3"
+      },
+      "organization": {
+        "fullName": "Xiyuan Hospital of China Academy of Chinese Medical Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Study on the Intervention of Xuesaitong Soft Capsules in Post-Intervention Patients with Acute Coronary Syndrome and Clinical Research Protocol",
+      "officialTitle": "Clinical Study and Molecular Mechanism of Xuesaitong Soft Capsule in the Treatment of Acute Coronary Syndrome After Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-03-01",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-16",
+      "studyFirstSubmitQcDate": "2025-02-23",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Xiyuan Hospital of China Academy of Chinese Medical Sciences",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess the effects of Xuesaitong soft capsules on platelet function, clinical efficacy, prognosis, and safety in the treatment of acute coronary syndrome, 400 patients with acute coronary syndrome who underwent PCI were treated with Xuesaitong soft capsules (mainly containing ginsenosides) for 12 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Acute coronary syndrome",
+        "traditional Chinese medicine",
+        "Total saponins of Panax notoginseng"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 400,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group",
+          "type": "EXPERIMENTAL",
+          "description": "Routine western medicine treatment (oral drug therapy and standard percutaneous coronary intervention) + Xuesaitong soft capsule, 0.33g/ tablets, 2 tablets each time, twice a day. The treatment period is 12 weeks",
+          "interventionNames": [
+            "Drug: Xuesaitong soft capsule (main ingredient is Panax notoginseng saponins)"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Routine western medicine treatment (oral drug therapy and standard percutaneous coronary intervention) +Placebo capsule, 0.33g/ tablets, 2 tablets each time, twice a day. The treatment period is 12 weeks",
+          "interventionNames": [
+            "Drug: placebo capsule"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Xuesaitong soft capsule (main ingredient is Panax notoginseng saponins)",
+          "description": "Routine western medicine treatment (oral drug therapy and standard percutaneous coronary intervention) + Xuesaitong soft capsule, 0.33g/ tablets, 2 tablets each time, twice a day. The treatment period is 12 weeks.",
+          "armGroupLabels": [
+            "Intervention group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "placebo capsule",
+          "description": "Routine western medicine treatment (oral drug therapy and standard percutaneous coronary intervention) + placebo capsule, 0.33g/ tablets, 2 tablets each time, twice a day. The treatment period is 12weeks.",
+          "armGroupLabels": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in thromboelastography induced by AA, including R value, K value , α angle , MA value , CI, TPI， LY30, and AAYZL, before and after treatment, as assessed by thromboelastography.",
+          "description": "This outcome measure will assess changes in thromboelastography induced by AA, including R value (reaction time), K value (coagulation time), αangle (alpha angle), MA value (maximum amplitude), CI (coagulation index), TPI (thrombodynamic potential index)， LY30 (amplitude at 30 minutes), and AAYZL Percentage platelet clotting inhibition of AA), before and after treatment. Data will be summarized based on the change in levels of each marker from baseline to post-treatment, and any significant changes will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Changes in thromboelastography induced by ADP, including R value, K value , α angle , MA value , CI, TPI， LY30, and ADPYZL, before and after treatment, as assessed by thromboelastography.",
+          "description": "This outcome measure will assess changes in thromboelastography induced by ADP, including R value (reaction time), K value (coagulation time), αangle (alpha angle), MA value (maximum amplitude), CI (coagulation index), TPI (thrombodynamic potential index)， LY30 (amplitude at 30 minutes), and ADPYZL（ Percentage platelet clotting inhibition of ADP), before and after treatment. Data will be summarized based on the change in levels of each marker from baseline to post-treatment, and any significant changes will be noted.",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in platelet granule markers, including platelet factor 4 (PF4) and β-thromboglobulin, before and after treatment, as assessed by ELISA",
+          "description": "This outcome measure will assess changes in platelet granule markers, including platelet factor 4 (PF4) and β-thromboglobulin, before and after treatment. Both markers will be measured using enzyme-linked immunosorbent assay (ELISA) and reported in consistent units (pg/mL). Data will be summarized based on the change in levels of each marker from baseline to post-treatment, and any significant changes will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Changes in platelet surface activation markers and platelet-neutrophil aggregation before and after treatment, as assessed by flow cytometry",
+          "description": "This outcome measure involves the detection of changes in platelet surface activation markers, including P-selectin (CD62P) and the GPIIb/IIIa complex (CD41/CD61), using flow cytometry. Additionally, platelet-neutrophil aggregation will be assessed by measuring the co-expression of CD41 (platelet marker) and CD15 (neutrophil marker). These analyses will quantify the impact of treatment on platelet activation and the interaction between platelets and neutrophils, with results presented as mean fluorescence intensity for each marker. Changes will be compared before and after treatment.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Changes in endothelial function markers, including plasma soluble vascular cell adhesion molecule 1 (VCAM-1), soluble intercellular adhesion molecule 1 (ICAM-1), vascular hemophilic factor (vWF), before and after treatment, as assessed by ELISA",
+          "description": "This outcome measure will assess changes in platelet granule markers, including plasma soluble vascular cell adhesion molecule 1 (VCAM-1), soluble intercellular adhesion molecule 1 (ICAM-1), vascular hemophilic factor (vWF), before and after treatment. Both markers will be measured using enzyme-linked immunosorbent assay (ELISA) and reported in consistent units (pg/mL). Data will be summarized based on the change in levels of each marker from baseline to post-treatment, and any significant changes will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Changes in inflammatory markers, including serum hs-CRP, IL-11,IL-6,MCP-1,MMP-9,CD40L,before and after treatment, as assessed by ELISA.",
+          "description": "Changes in inflammatory markers, including serum high-sensitivity C-reactive protein (hs-CRP), interleukin 11 (IL-11), interleukin 6 (IL-6), monocyte chemotactic protein 1 (MCP-1), matrix metalloproteinase-9 (MMP-9), and leukocyte differentiation antigen40 ligand (CD40L) before and after treatment. Both markers will be measured using enzyme-linked immunosorbent assay (ELISA) and reported in consistent units (pg/mL). Data will be summarized based on the change in levels of each marker from baseline to post-treatment, and any significant changes will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "ejection fraction",
+          "description": "Ejection fraction is a measurement of the percentage of blood pumped out of the heart with each contraction(%). The number of participants with values outside the normal range will be reported, along with any significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Changes in lipid markers, including TC, HDL-C, LDL-C, TG, lLPa, APO-A1, APO-B, before and after treatment, as assessed by enzymatic and immunoturbidimetric methods",
+          "description": "This outcome measure will assess changes in lipid markers including total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), triglycerides (TG), lipoprotein a (LPa), apolipoprotein A1 (APO-A1), apolipoprotein B (APO-B),before and after treatment. Both markers will be measured using enzymatic and immunoturbidimetric methods, and reported in consistent units (mmol/L).",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "white blood cell count and red blood cell count",
+          "description": "The white blood cell count and red blood cell count will be measured in cells per microliter (cells/µL). Data will be summarized by the number of participants with values outside the normal reference range, and any significant changes from baseline will be reported.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "hemoglobin levels",
+          "description": "Hemoglobin will be measured in grams per deciliter (g/dL). The number of participants with values outside the normal range will be reported, along with any significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "hematocrit levels",
+          "description": "Hematocrit will be reported as a percentage (%), and the number of participants with abnormal values will be summarized.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "platelet count",
+          "description": "Platelet count will be measured in platelets per microliter (platelets/µL). Participants with values outside the normal range will be recorded, along with any significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urine analysis of biochemical markers",
+          "description": "Urine glucose, protein, and ketones will be measured qualitatively (e.g., negative, trace, 1+, 2+) or quantitatively (e.g., mg/dL). Specific gravity will be measured as a ratio. Data will be summarized by the number of participants with abnormal levels or significant changes from baseline for each parameter.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Urine analysis of cellular components",
+          "description": "Red blood cells (RBCs), white blood cells (WBCs), and epithelial cells will be measured as the number of cells per high-power field (HPF). Data will be summarized by identifying any abnormal findings (e.g., hematuria or pyuria) or significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Stool appearance",
+          "description": "the consistency and color of stool will be evaluated. Stool color will be categorized (e.g., light brown, green, dark brown), and stool consistency will be assessed on a scale ranging from loose to hard. Data will be presented as categories for stool color and consistency grades.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Biochemical components in stool",
+          "description": "The presence of blood, mucus, or parasites will be assessed using qualitative measures. Results will be reported as \"positive\" or \"negative\" for each component (e.g., blood present: yes/no).",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Cellular components in stool",
+          "description": "Stool will be examined for cellular components such as red and white blood cells. The number of cells per high-power field (HPF) will be recorded and summarized as mean counts (e.g., number of red blood cells/HPF).",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "liver function based on the enzyme levels",
+          "description": "Alanine aminotransferase (ALT), aspartate aminotransferase (AST), and alkaline phosphatase (ALP) will be measured in units per liter (U/L). Data will be summarized by the number of participants with values outside the normal reference range for each enzyme, and significant changes from baseline will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "liver function based on the bilirubin levels",
+          "description": "Total bilirubin will be measured in milligrams per deciliter (mg/dL). Participants with abnormal bilirubin levels or significant changes from baseline will be reported.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Serum creatinine and blood urea nitrogen (BUN)",
+          "description": "Both will be measured in milligrams per deciliter (mg/dL). Data will be summarized by the number of participants with levels outside the normal reference range for each parameter, and significant changes from baseline will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Estimated glomerular filtration rate (GFR)",
+          "description": "GFR will be estimated and reported in milliliters per minute per 1.73 m² (mL/min/1.73 m²). Participants with abnormal GFR values or significant changes from baseline will be recorded.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Prothrombin time (PT) and activated partial thromboplastin time (aPTT)",
+          "description": "Both will be measured in seconds (s). Data will be summarized by the number of participants with values outside the normal reference range for each parameter, and significant changes from baseline will be noted.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "International normalized ratio (INR)",
+          "description": "INR will be reported as a unitless value. Participants with abnormal INR values or significant changes from baseline will be recorded.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Assessment of electrocardiogram (ECG) parameters, including QT interval, heart rate, and ST segment changes, before and after treatment",
+          "description": "This measure involves evaluating various ECG parameters to monitor cardiac electrical activity. Specifically, it includes the measurement of the QT interval, heart rate, and any changes in the ST segment. The ECG recordings will be analyzed before and after treatment to assess the impact on cardiac function. Data will be summarized by the measurement of these parameters and any significant deviations from normal ranges.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "left ventricular end-diastolic internal diameter",
+          "description": "Left ventricular end-diastolic internal diameter (LVEDD) is obtained by measuring the widest point of the left ventricle at its maximum diameter(mm). The number of participants with values outside the normal range will be reported, along with any significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "mitral valve diastolic E/A ratio",
+          "description": "The mitral valve diastolic E/A ratio is a measurement used in echocardiography to assess the diastolic function of the left ventricle. It refers to the ratio of the early (E) to late (A) diastolic filling velocities of the left ventricle, as measured by Doppler ultrasound of the mitral valve.. The number of participants with values outside the normal range will be reported, along with any significant changes from baseline.",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients diagnosed with acute ST-segment elevation myocardial infarction, acute non-ST-segment elevation myocardial infarction, or unstable angina according to Western medical standards. Inclusion Criteria.\n2. Within 4 weeks post-PCI.\n3. Aged between 18 and 80 years, both male and female.\n4. Voluntarily participating in the clinical trial, having signed the informed consent form.\n\nExclusion Criteria:\n\n1. Uncontrolled hypertension after medication (systolic BP \\>180mmHg or diastolic BP \\> 110mmHg).\n2. Increased bleeding risk: history of hemorrhagic stroke; intracranial aneurysm; major trauma or surgery within the past month (including Exclusion Criteria bypass surgery); active bleeding disorders.\n3. History of gastrointestinal ulcers or significant gastrointestinal bleeding.\n4. Severe organic heart disease, such as LVEF \\< 35% or NYHA/Killip heart function grade IV.\n5. History of malignant arrhythmias within the past year (arrhythmias affecting hemodynamics requiring medication or electrical cardioversion, or requiring CPR), congenital heart disease, or malignant tumors.\n6. Severe liver or kidney dysfunction: ALT or AST ≥ 3×ULN, TBIL≥ 2×ULN, or creatinine clearance \\< 30ml/min.\n7. Pregnant or lactating women.\n8. Recent blood donation or significant blood loss within the past 3 months (≥400ml).\n9. History of alcohol abuse (≥28 standard units/week for males, ≥21 standard units/week for females) or frequent alcohol consumption in the past 6 months (≥14 standard units/week).\n10. History of drug abuse or dependence within the past year. Participation in other clinical trials and taking trial drugs within the past 3 months.\n11. Allergy or intolerance to aspirin or P2Y12 receptor inhibitors.\n12. Allergy to any components of the trial drug.\n13. Other conditions deemed inappropriate for participation by the nvestigator",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dazhuo Shi, professor",
+          "role": "CONTACT",
+          "phone": "010-62835303",
+          "email": "shidazhuo@126.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Xiyuan Hospital, China Academy of Chinese Medical Sciences",
+          "city": "Beijing",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Dazhuo Shi",
+              "role": "CONTACT",
+              "phone": "17611487217",
+              "email": "shidazhuo@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

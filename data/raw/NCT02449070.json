@@ -1,0 +1,294 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02449070",
+      "orgStudyIdInfo": {
+        "id": "D-1407-011-030"
+      },
+      "organization": {
+        "fullName": "Pusan National University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of Nicorandil on Cardiac Infarct Size in Patients With ST-segment Elevation Acute Myocardial Infarction",
+      "officialTitle": "Effects of Nicorandil on Cardiac Infarct Size in Patients With ST-segment Elevation Acute Myocardial Infarction : A Randomized Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-05"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2018-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-05-13",
+      "studyFirstSubmitQcDate": "2015-05-15",
+      "studyFirstPostDateStruct": {
+        "date": "2015-05-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-09-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-09-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jun-Hyok OH",
+        "investigatorTitle": "Assistant professor",
+        "investigatorAffiliation": "Pusan National University Hospital"
+      },
+      "leadSponsor": {
+        "name": "Pusan National University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "JW Pharmaceutical",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether nicorandil reduce cardiac infarct size in patient with ST-segment elevation acute myocardial infarction.",
+      "detailedDescription": "Study objective :\n\nTo investiage whether nicorandil treatment reduce infarct size measured by cardiac MRI at 6 months after primary PCI\n\nAllocation :\n\n1. Nicorandil arm :\n\n   Recieve nicorandil 4 mg i.v. before undergoing PCI, additionall 2mg i.c. just before 1st ballooning, additionall 2mg i.c. just before stenting, After successful PCI, 10 mg/day (or 5 mg/day) p.o. for 6 months.\n2. Control arm :\n\nRecieve standard treatment including PCI, but avoid nicoranil and adenosine.\n\nFollow-up and Measurement :\n\nCardiac MRI scans are scheduled at 5 days and 6 months after primary PCI. Clinically followed upto 6 months after parimary PCI."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Nicorandil",
+        "Cardiac MRI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 86,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Nicorandil",
+          "type": "EXPERIMENTAL",
+          "description": "Receive nicorandil before primary PCI and thereafter for 6 months along with the standard therapy.",
+          "interventionNames": [
+            "Drug: Nicorandil"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Receive primary PCI and the standard therapy."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nicorandil",
+          "description": "4 mg iv after randomization, 2 mg ic just before ballooning, 2 mg ic just before stenting",
+          "armGroupLabels": [
+            "Nicorandil"
+          ],
+          "otherNames": [
+            "Nicrodandil"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Infarct size as measured by cardiac MRI",
+          "timeFrame": "Six months after primary PCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "LVEF(%) as measured by cardiac MRI",
+          "timeFrame": "Five days and 6 months after primary PCI"
+        },
+        {
+          "measure": "MVO as measured by cardiac MRI",
+          "timeFrame": "Five days after primary PCI"
+        },
+        {
+          "measure": "ST-segment resolution",
+          "timeFrame": "One hour after primary PCI"
+        },
+        {
+          "measure": "MACE (Death, Spontaneous MI, Stroke)",
+          "timeFrame": "up to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* STEMI patients presenting within 12 hours after symptom onset\n* Undergoing primary PCI\n\nExclusion Criteria:\n\n* Previous myocardial infarction\n* Atrial fibrillation\n* RV infarction\n* Cardiogenic shock\n* Serum creatinine \\>2.0 mg/dL\n* Narrow angle glaucoma\n* Taking PDE-5 inhibitors",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jun-Hyok Oh, MD",
+          "role": "CONTACT",
+          "phone": "82-51-240-7794",
+          "email": "jhoh724@hanmail.net"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jun-Hyok Oh, MD",
+          "affiliation": "Pusan National University Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Pusan National University Hospital",
+          "status": "RECRUITING",
+          "city": "Pusan",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "Jun-Hyok Oh, MD",
+              "role": "CONTACT",
+              "email": "jhoh724@hanmail.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.3809,
+            "lon": 128.3681
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020108",
+          "term": "Nicorandil"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009566",
+          "term": "Nitrates"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009536",
+          "term": "Niacinamide"
+        },
+        {
+          "id": "D009539",
+          "term": "Nicotinic Acids"
+        },
+        {
+          "id": "D000147",
+          "term": "Acids, Heterocyclic"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

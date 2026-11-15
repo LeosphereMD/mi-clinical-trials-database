@@ -1,0 +1,2064 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02565147",
+      "orgStudyIdInfo": {
+        "id": "MDCO-BIV-12-02"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2012-002314-39",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "The Medicines Company",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Bivalirudin Infusion for Ventricular Infarction Limitation",
+      "officialTitle": "Bivalirudin Infusion for Ventricular Infarction Limitation",
+      "acronym": "BIVAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-12",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Futility at the interim analysis.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-12-19",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-06-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-06-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-12-05",
+      "studyFirstSubmitQcDate": "2015-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2015-10-01",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2017-05-23",
+      "resultsFirstSubmitQcDate": "2017-12-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-10-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-12-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "The Medicines Company",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate whether the use of bivalirudin will reduce extent of the damage done to the heart muscle in participants who suffered a heart attack, compared to the comparator treatment (heparin).",
+      "detailedDescription": "The study will assess the effect of bivalirudin administration during primary percutaneous coronary intervention (PPCI) and for 4 hours (h) afterwards, looking at contrast enhanced cardiac magnetic resonance imaging (CMR) assessed infarct size and on circulating markers of thrombosis and cell injury in participants treated with PPCI for a large myocardial infarction (MI).\n\nThe objective of this study is to determine whether bivalirudin, compared to heparin \\[unfractionated heparin (UFH)\\], for PPCI in large ST segment elevation myocardial infarction (STEMI) can:\n\nPrimary Objective • Reduce infarct size assessed by CMR 5 days (defined as 5 days ±72 h from randomisation) after PPCI\n\nSecondary Objectives of this study are to determine the effects of bivalirudin compared with UFH treatment for PPCI in STEMI on:\n\n* Other CMR derived parameters of myocardial recovery 5 days after PPCI (that is, left ventricular ejection fraction \\[LVEF\\], myocardial salvage index \\[MSI\\], and micro-vascular obstruction \\[MVO\\])\n* LVEF by CMR at 90 days\n* Modulate markers of thrombin activity and cell injury after reperfusion\n* Coronary flow and micro-circulation at the end of PPCI\n* Survival at 90 days\n\nApproximately 200 participants will be randomized. Participants will be stratified prior to randomization: (a) according to total duration of ischemic pain (\\<6 h versus ≥6 h); (b) by site.\n\nDiagnosis and Main Criteria for Selection: Adult participants (≥18 years) with an onset of ischemic symptoms of \\>20 minutes (min) and \\<12 h; a diagnosis of STEMI with ST segment elevation of ≥1 millimeter (mm) in ≥2 contiguous precordial leads, or presumably new left bundle branch block; had thrombolysis in myocardial infarction (TIMI) 0 or 1 flow in the infarct related artery (IRA); fulfilled angiographic criteria/score for a large infarction; and were candidates for PPCI will be enrolled. All participants should receive as soon as logistically feasible: aspirin (150-325 milligrams \\[mg\\] orally or 250-500 mg intravenously \\[IV\\]) and a loading dose of any approved P2Y12 inhibitor unless already on maintenance dose.\n\nBivalirudin will be administered at the time of PPCI at the approved dose of 0.75 mg/kilogram (kg) bolus followed by a 1.75 mg/kg/h infusion that will continue for 4 h after the completion of the index procedure.\n\nParticipants randomized to UFH should be treated according to the standard institutional protocol (including the timing and dosing of the UFH bolus). A target activated clotting time (ACT) of ≥250 seconds (s) was recommended.\n\nCriteria for Evaluation:\n\nPrimary Endpoint:\n\n• Infarct size assessed by CMR 5 days post-PPCI\n\nSecondary Endpoints:\n\n* CMR MVO assessment at 5 days\n* CMR MSI at 5 days\n* CMR assessment of LVEF at 5 days\n* CMR assessment of LVEF at 90 days\n* TIMI flow and Myocardial Blush Grade at end of PPCI\n* In-hospital net adverse clinical events up to 5 days or discharge, whichever comes first (death, re-infarction, ischaemia driven revascularization, and Bleeding Academic Research Consortium ≥3 bleeding)\n* Death at 90 days\n\nExploratory assessments:\n\n• Assess patterns between comparator groups at various peri-procedural time points with respect to but not limited to: micro-particle release, thrombin anti thrombin complexes, myeloperoxidase\n\nSub-study:\n\n• Index microcirculatory resistance"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction"
+      ],
+      "keywords": [
+        "STEMI, infarct size, CMR, bivalirudin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The primary endpoint was evaluated by a core lab totally blinded to clinical information and the treatment groups.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 78,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PPCI with Bivalirudin",
+          "type": "EXPERIMENTAL",
+          "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure.",
+          "interventionNames": [
+            "Procedure: PPCI",
+            "Drug: Bivalirudin"
+          ]
+        },
+        {
+          "label": "PPCI with Heparin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended.",
+          "interventionNames": [
+            "Procedure: PPCI",
+            "Drug: Heparin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "PPCI",
+          "description": "PPCI for treatment of participants presenting with large STEMI.",
+          "armGroupLabels": [
+            "PPCI with Bivalirudin",
+            "PPCI with Heparin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bivalirudin",
+          "description": "Bivalirudin is an anticoagulant that binds thrombin in a bivalent and reversible fashion and directly inhibits it.",
+          "armGroupLabels": [
+            "PPCI with Bivalirudin"
+          ],
+          "otherNames": [
+            "Angiomax",
+            "Angiox"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Heparin",
+          "description": "Heparin is an anticoagulant.",
+          "armGroupLabels": [
+            "PPCI with Heparin"
+          ],
+          "otherNames": [
+            "UFH"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CMR Assessment Of Infarct Size At Day 5",
+          "description": "Size of cardiac infarct, expressed as grams, as assessed by CMR. The use of CMR has dramatically improved the ability for accurate infarct size estimations and is therefore currently considered the gold standard. The number of participants and their mean reported infarct size, as grams, at Day 5 are presented.",
+          "timeFrame": "5 days post PPCI"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "CMR Assessment Of Myocardial Salvage Index (MSI) At Day 5",
+          "description": "MSI is a CMR-derived parameter of myocardial recovery and treatment efficacy that allows comparisons among infarcts of different sizes. MSI is calculated as the difference between the area at risk (AAR) and the final infarct size, divided by the AAR, and it is expressed as a percentage of AAR. An MSI of 100% indicates maximum treatment success, whereas an MSI of 0% indicates no treatment benefit. The number of participants and their mean-reported MSI at Day 5 are presented.",
+          "timeFrame": "5 days post PPCI"
+        },
+        {
+          "measure": "CMR Assessment Of Micro-vascular Obstruction (MVO) At Day 5",
+          "description": "Early and late assessment of MVO, expressed as grams, as assessed by CMR. MVO is an established complication of coronary reperfusion therapy for acute myocardial infarction. MVO occurs in the setting of reperfusion following prolonged myocardial ischemia and provides incremental prognostic information beyond infarct size, to which it is related. Early MVO is a prolonged (approximately 60 s) perfusion deficit in dynamic gadolinium (Gd) first-pass images that is determined within 2 minutes (min) of administration of the Gd-based contrast agent. Late MVO is usually assessed as a hypointense infarct core on late-Gd-enhancement images acquired 10 min after contrast administration.\n\nThe number of participants and their mean reported early and late MVO, as grams, at Day 5 are presented.",
+          "timeFrame": "5 days post PPCI"
+        },
+        {
+          "measure": "CMR Assessment Of Left Ventricular Ejection Fraction (LVEF) At Day 5",
+          "description": "Percentage of cardiac LVEF as assessed by CMR. LVEF is a measurement of the percentage of blood ejected out of the left ventricle with each contraction. The number of participants and their mean reported LVEF, as a percentage of blood, at Day 5 are presented.",
+          "timeFrame": "5 days post PPCI"
+        },
+        {
+          "measure": "CMR Assessment Of LVEF At Day 90",
+          "description": "Percentage of cardiac LVEF as assessed by CMR. LVEF is a measurement of the percentage of blood ejected out of the left ventricle with each contraction. The number of participants and their mean reported LVEF, as a percentage of blood, at Day 90 are presented.",
+          "timeFrame": "90 days post PPCI"
+        },
+        {
+          "measure": "TIMI Flow And Myocardial Blush Grade (MBG) At End Of PPCI",
+          "description": "TIMI flow (grade 0-3) is an angiographic determination of briskness of epicardial coronary blood flow: TIMI 0 flow (no perfusion); TIMI 1 flow (penetration without perfusion); TIMI 2 flow (partial reperfusion); TIMI 3 flow (complete perfusion/normal flow).\n\nMBG (grade 0-3) is an angiographic method for determination of blood flow in the distal myocardial vascular bed. Blush grades: 0 = failure of dye to enter the micro-vasculature; 1 = dye slowly enters but fails to exit the micro-vasculature; 2 = delayed entry and exit of dye from the micro-vasculature; 3 = normal entry and exit of dye from the micro-vasculature. Blush that is only mildly intense throughout the washout phase, but fades minimally, is also classified as grade 3.\n\nThe number of participants and their mean reported TIMI flow and MBG grades at the end of PPCI are presented.",
+          "timeFrame": "1 day (end of PPCI)"
+        },
+        {
+          "measure": "Percentage of Participants With In-Hospital Net Adverse Cardiac Events (NACE) At Day 5",
+          "description": "The NACE at 5 days is the composite of major bleeding (Bleeding Academic Research Consortium Type 3 or greater \\[BARC type ≥3\\]), death, re-infarction, and ischaemia driven revascularization (IDR).\n\nIn brief, BARC ≥3 includes: Type 3a-3c, clinical, laboratory, and/or imaging evidence of bleeding; Type 4, coronary artery bypass grafting-related bleeding; Type 5, fatal bleeding that directly results in death that is either clinically suspicious or is confirmed as the cause of death.\n\nA participant was defined to have a composite event if the participant experienced at least 1 of the components. If the participant did not have any of the components, then he or she did not have the composite endpoint. If a participant had more than 1 of the components, he or she was only counted once in the determination of the total number of participants experiencing the composite endpoint.\n\nThe percentage of participants with in-hospital NACE up to Day 5 is presented.",
+          "timeFrame": "5 days post PPCI or at discharge, whichever occurs first"
+        },
+        {
+          "measure": "Death At Day 90",
+          "description": "Participant survival during the clinical follow-up period is presented as the number of participants with reported death at 90 days post PPCI.",
+          "timeFrame": "90 days post PPCI"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Index Of Microcirculatory Resistance (IMR)",
+          "description": "IMR, a predictor of clinical outcome, is a readily available, quantitative, and reproducible method for invasively assessing coronary microvascular function. It is measured using the thermodilution technique and defined as mean distal coronary pressure, expressed in millimeters (mm) of mercury (Hg), multiplied by the mean hyperemic transit time (s) (mmHg\\*s). Higher IMR values indicate poorer microcirculation and are associated with a worse clinical outcome. A cutoff point of 32 (associated with better clinical outcomes) was selected as the threshold. Only participants at study locations with previous experience in IMR measurements participated in this sub study.\n\nThe number of participants and their mean reported IMR at the end of PPCI are presented.",
+          "timeFrame": "1 day (end of PPCI)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥18 years\n2. Experienced ischemic symptoms of \\>20 min and \\<12 h and had a diagnosis of STEMI with ST segment elevation of ≥1 mm in ≥2 contiguous precordial leads, or presumably new left bundle branch block\n3. Provided written informed consent or witnessed consent in countries and sites where such participant consenting is applicable, before initiation of any study-related procedures\n4. Had TIMI 0 or 1 flow in the IRA on initial angiogram\n5. Fulfilled angiographic criteria/score for a large infarction based on initial angiogram (Alberta Provincial Project for Outcome Assessment in Coronary Heart Disease score of ≥21)\n6. Were candidates for PPCI\n7. Administration of an initial dose of 150 to 325 mg orally (or 250 to 500 mg IV) and a loading dose of any approved P2Y12 inhibitor\n\nExclusion Criteria:\n\n1. Contraindication or known hypersensitivity to bivalirudin or UFH\n2. Refusal to receive blood transfusion/products\n3. Participants requiring staged coronary artery bypass graft procedure within the first 90 days\n4. Known international normalized ratio ≥2 or known prothrombin time \\>1.5 times upper limit of normal on the day of the index PPCI, or known history of bleeding diathesis\n5. Therapy with vitamin K antagonists within 72 h of PPCI\n6. Therapy with dabigatran, rivaroxaban, or other oral anti-Xa or antithrombin agents within 48 h of PPCI\n7. History of hemorrhagic stroke, intracranial hemorrhage, intracerebral mass, aneurysm, arteriovenous malformation, or recent head injury (within the last 5 days)\n8. Participants with previous history of Q-wave MI\n9. Known glomerular filtration rate (GFR) \\<30 milliliter/min or dialysis dependent\n10. Major surgery within the previous 30 days\n11. Minor surgery/biopsy exclusions in the past 3 days\n12. Upper gastrointestinal or genitourinary bleed 30 days prior to randomization\n13. Stroke or transient ischemic attack 30 days prior to randomization\n14. Administration of thrombolytics or glycoprotein IIb/IIIa inhibitor 72 h prior to PPCI\n15. Administration of enoxaparin 8 h prior to PPCI\n16. Administration of bivalirudin 12 h prior to PPCI\n17. Administration of fondaparinux or other low molecular weight heparin 24 h prior to PPCI\n18. Known contraindications to aspirin or P2Y12 inhibitors\n19. Known allergy that cannot be pre-medicated to iodinated contrast\n20. Known contraindication to CMR\n21. Women of child bearing potential (see below)\n22. Previous enrollment (participants are considered enrolled upon Randomization) in this study\n23. Treatment with other investigational drugs or devices within the 30 days preceding enrollment or planned use of other investigational drugs or devices before the primary endpoint of this study had been reached\n24. Participants with a body weight \\>150 kg\n\nChild bearing potential was defined as:\n\nA female participant was considered to have childbearing potential unless she met at least 1 of the following criteria:\n\n* Age ≥50 years and naturally amenorrheic for ≥1 year (amenorrhea following cancer therapy did not rule out childbearing potential)\n* Premature ovarian failure confirmed by a specialist gynecologist\n* Previous bilateral salpingo-oophorectomy or hysterectomy\n* XY genotype, Turner's syndrome, uterine agenesis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Robert J Van Geuns, MD",
+          "affiliation": "Thorax Centrum, Erasmus Medisch Centrum, s-Grave dijkwal 230, 3015 CE Rotterdam, the Netherlands",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ludovic Drouet, MD",
+          "affiliation": "Hospital Lariboisiere, Angio-Hematologie, 2 Rue Ambroise Pare, 75475 Paris Cedex 10, France",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hopital Ambroise Paré",
+          "city": "Boulogne",
+          "zip": "92104",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.79346,
+            "lon": -1.3194
+          }
+        },
+        {
+          "facility": "Hospital Lariboisière",
+          "city": "Paris",
+          "zip": "75010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "VUMC Amsterdam",
+          "city": "Amsterdam",
+          "zip": "1117 HV",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Erasmus Medical Center",
+          "city": "Rotterdam",
+          "zip": "3015 CE",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "BACKGROUND",
+          "citation": "Alderman EL, Stadius M. The angiographic definitions of the Bypass Angioplasty Revascularization Investigation. Coronary Artery Disease 1992;3: 1189-1207"
+        },
+        {
+          "pmid": "11479464",
+          "type": "BACKGROUND",
+          "citation": "Graham MM, Faris PD, Ghali WA, Galbraith PD, Norris CM, Badry JT, Mitchell LB, Curtis MJ, Knudtson ML; APPROACH Investigators (Alberta Provincial Project for Outcome Assessment in Coronary Heart Disease. Validation of three myocardial jeopardy scores in a population-based cardiac catheterization cohort. Am Heart J. 2001 Aug;142(2):254-61. doi: 10.1067/mhj.2001.116481."
+        },
+        {
+          "pmid": "10556226",
+          "type": "BACKGROUND",
+          "citation": "Kim RJ, Fieno DS, Parrish TB, Harris K, Chen EL, Simonetti O, Bundy J, Finn JP, Klocke FJ, Judd RM. Relationship of MRI delayed contrast enhancement to irreversible injury, infarct age, and contractile function. Circulation. 1999 Nov 9;100(19):1992-2002. doi: 10.1161/01.cir.100.19.1992."
+        },
+        {
+          "pmid": "623206",
+          "type": "BACKGROUND",
+          "citation": "Lowe JE, Reimer KA, Jennings RB. Experimental infarct size as a function of the amount of myocardium at risk. Am J Pathol. 1978 Feb;90(2):363-79."
+        },
+        {
+          "pmid": "17586811",
+          "type": "BACKGROUND",
+          "citation": "Ortiz-Perez JT, Meyers SN, Lee DC, Kansal P, Klocke FJ, Holly TA, Davidson CJ, Bonow RO, Wu E. Angiographic estimates of myocardium at risk during acute myocardial infarction: validation study using cardiac magnetic resonance imaging. Eur Heart J. 2007 Jul;28(14):1750-8. doi: 10.1093/eurheartj/ehm212. Epub 2007 Jun 22."
+        },
+        {
+          "pmid": "7326685",
+          "type": "BACKGROUND",
+          "citation": "Reimer KA, Ideker RE, Jennings RB. Effect of coronary occlusion site on ischaemic bed size and collateral blood flow in dogs. Cardiovasc Res. 1981 Nov;15(11):668-74. doi: 10.1093/cvr/15.11.668."
+        },
+        {
+          "pmid": "1591819",
+          "type": "BACKGROUND",
+          "citation": "Seiler C, Kirkeeide RL, Gould KL. Basic structure-function relations of the epicardial coronary vascular tree. Basis of quantitative coronary arteriography for diffuse coronary artery disease. Circulation. 1992 Jun;85(6):1987-2003. doi: 10.1161/01.cir.85.6.1987."
+        },
+        {
+          "pmid": "8436762",
+          "type": "BACKGROUND",
+          "citation": "Seiler C, Kirkeeide RL, Gould KL. Measurement from arteriograms of regional myocardial bed size distal to any point in the coronary vascular tree for assessing anatomic area at risk. J Am Coll Cardiol. 1993 Mar 1;21(3):783-97. doi: 10.1016/0735-1097(93)90113-f."
+        },
+        {
+          "pmid": "11197356",
+          "type": "BACKGROUND",
+          "citation": "Wu E, Judd RM, Vargas JD, Klocke FJ, Bonow RO, Kim RJ. Visualisation of presence, location, and transmural extent of healed Q-wave and non-Q-wave myocardial infarction. Lancet. 2001 Jan 6;357(9249):21-8. doi: 10.1016/S0140-6736(00)03567-4."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Enrolled participants who underwent successful primary percutaneous coronary intervention (PPCI) defined as thrombolysis in myocardial infarction (TIMI) Flow of 2 or 3, underwent cardiac magnetic resonance imaging (CMR) at 5 days, and were without major protocol deviations were included in the per-protocol population (primary/secondary analyses).",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "PPCI With Bivalirudin",
+          "description": "Bivalirudin was administered as a bolus (0.75 milligrams \\[mg\\]/kilogram \\[kg\\]) and an infusion (1.75 mg/kg/hours \\[h\\]) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+        },
+        {
+          "id": "FG001",
+          "title": "PPCI With Heparin",
+          "description": "Unfractionated heparin (UFH) was administered as a bolus according to standard of care for completion of PPCI per site. An activated clotting time (ACT) ≥250 seconds (s) at the end of the procedure was recommended."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "40"
+                }
+              ]
+            },
+            {
+              "type": "Received Study Drug",
+              "comment": "Safety Population included all enrolled participants who received either bivalirudin or UFH.",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "40"
+                }
+              ]
+            },
+            {
+              "type": "Per-Protocol Population",
+              "comment": "Enrolled participants who underwent successful PPCI and Day-5 CMR without major protocol deviations.",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "28"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "36"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "32"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "37"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Safety Population included all enrolled participants who received either bivalirudin or UFH.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "PPCI With Bivalirudin",
+          "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+        },
+        {
+          "id": "BG001",
+          "title": "PPCI With Heparin",
+          "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "38"
+            },
+            {
+              "groupId": "BG001",
+              "value": "40"
+            },
+            {
+              "groupId": "BG002",
+              "value": "78"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63.6",
+                      "spread": "11.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61.2",
+                      "spread": "13.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "62.4",
+                      "spread": "12.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Netherlands",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "France",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "CMR Assessment Of Infarct Size At Day 5",
+          "description": "Size of cardiac infarct, expressed as grams, as assessed by CMR. The use of CMR has dramatically improved the ability for accurate infarct size estimations and is therefore currently considered the gold standard. The number of participants and their mean reported infarct size, as grams, at Day 5 are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Grams",
+          "timeFrame": "5 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.0",
+                      "spread": "19.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "27.1",
+                      "spread": "20.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.7505",
+              "statisticalMethod": "Wilcoxon Rank Sum Test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "CMR Assessment Of Myocardial Salvage Index (MSI) At Day 5",
+          "description": "MSI is a CMR-derived parameter of myocardial recovery and treatment efficacy that allows comparisons among infarcts of different sizes. MSI is calculated as the difference between the area at risk (AAR) and the final infarct size, divided by the AAR, and it is expressed as a percentage of AAR. An MSI of 100% indicates maximum treatment success, whereas an MSI of 0% indicates no treatment benefit. The number of participants and their mean-reported MSI at Day 5 are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population) and participants with a successful CMR assessment of MSI.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Percentage of AAR",
+          "timeFrame": "5 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.4",
+                      "spread": "19.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "51.2",
+                      "spread": "21.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "CMR Assessment Of Micro-vascular Obstruction (MVO) At Day 5",
+          "description": "Early and late assessment of MVO, expressed as grams, as assessed by CMR. MVO is an established complication of coronary reperfusion therapy for acute myocardial infarction. MVO occurs in the setting of reperfusion following prolonged myocardial ischemia and provides incremental prognostic information beyond infarct size, to which it is related. Early MVO is a prolonged (approximately 60 s) perfusion deficit in dynamic gadolinium (Gd) first-pass images that is determined within 2 minutes (min) of administration of the Gd-based contrast agent. Late MVO is usually assessed as a hypointense infarct core on late-Gd-enhancement images acquired 10 min after contrast administration.\n\nThe number of participants and their mean reported early and late MVO, as grams, at Day 5 are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population) and participants with a successful CMR assessment of MVO.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Grams",
+          "timeFrame": "5 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "CMR Early MVO Assessment",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.3",
+                      "spread": "5.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.7",
+                      "spread": "6.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "CMR Late MVO Assessment",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.7",
+                      "spread": "5.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.2",
+                      "spread": "4.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "CMR Assessment Of Left Ventricular Ejection Fraction (LVEF) At Day 5",
+          "description": "Percentage of cardiac LVEF as assessed by CMR. LVEF is a measurement of the percentage of blood ejected out of the left ventricle with each contraction. The number of participants and their mean reported LVEF, as a percentage of blood, at Day 5 are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Percentage of Blood",
+          "timeFrame": "5 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.5",
+                      "spread": "11.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "48.6",
+                      "spread": "10.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "CMR Assessment Of LVEF At Day 90",
+          "description": "Percentage of cardiac LVEF as assessed by CMR. LVEF is a measurement of the percentage of blood ejected out of the left ventricle with each contraction. The number of participants and their mean reported LVEF, as a percentage of blood, at Day 90 are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population) and participants with a successful CMR assessment of LVEF at Day 90.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Percentage of Blood",
+          "timeFrame": "90 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.6",
+                      "spread": "12.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49.1",
+                      "spread": "12.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "TIMI Flow And Myocardial Blush Grade (MBG) At End Of PPCI",
+          "description": "TIMI flow (grade 0-3) is an angiographic determination of briskness of epicardial coronary blood flow: TIMI 0 flow (no perfusion); TIMI 1 flow (penetration without perfusion); TIMI 2 flow (partial reperfusion); TIMI 3 flow (complete perfusion/normal flow).\n\nMBG (grade 0-3) is an angiographic method for determination of blood flow in the distal myocardial vascular bed. Blush grades: 0 = failure of dye to enter the micro-vasculature; 1 = dye slowly enters but fails to exit the micro-vasculature; 2 = delayed entry and exit of dye from the micro-vasculature; 3 = normal entry and exit of dye from the micro-vasculature. Blush that is only mildly intense throughout the washout phase, but fades minimally, is also classified as grade 3.\n\nThe number of participants and their mean reported TIMI flow and MBG grades at the end of PPCI are presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population) and participants with a detectable TIMI Flow and MBG at the end of PPCI.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Units on a Scale",
+          "timeFrame": "1 day (end of PPCI)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "TIMI Flow Grade",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "36"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.8",
+                      "spread": "0.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.8",
+                      "spread": "0.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MBG",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.8",
+                      "spread": "1.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.5",
+                      "spread": "1.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With In-Hospital Net Adverse Cardiac Events (NACE) At Day 5",
+          "description": "The NACE at 5 days is the composite of major bleeding (Bleeding Academic Research Consortium Type 3 or greater \\[BARC type ≥3\\]), death, re-infarction, and ischaemia driven revascularization (IDR).\n\nIn brief, BARC ≥3 includes: Type 3a-3c, clinical, laboratory, and/or imaging evidence of bleeding; Type 4, coronary artery bypass grafting-related bleeding; Type 5, fatal bleeding that directly results in death that is either clinically suspicious or is confirmed as the cause of death.\n\nA participant was defined to have a composite event if the participant experienced at least 1 of the components. If the participant did not have any of the components, then he or she did not have the composite endpoint. If a participant had more than 1 of the components, he or she was only counted once in the determination of the total number of participants experiencing the composite endpoint.\n\nThe percentage of participants with in-hospital NACE up to Day 5 is presented.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Percentage of Participants",
+          "timeFrame": "5 days post PPCI or at discharge, whichever occurs first",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Death At Day 90",
+          "description": "Participant survival during the clinical follow-up period is presented as the number of participants with reported death at 90 days post PPCI.",
+          "populationDescription": "All enrolled participants who underwent successful PPCI and CMR without major protocol deviations (Per-Protocol Population).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "90 days post PPCI",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "36"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Index Of Microcirculatory Resistance (IMR)",
+          "description": "IMR, a predictor of clinical outcome, is a readily available, quantitative, and reproducible method for invasively assessing coronary microvascular function. It is measured using the thermodilution technique and defined as mean distal coronary pressure, expressed in millimeters (mm) of mercury (Hg), multiplied by the mean hyperemic transit time (s) (mmHg\\*s). Higher IMR values indicate poorer microcirculation and are associated with a worse clinical outcome. A cutoff point of 32 (associated with better clinical outcomes) was selected as the threshold. Only participants at study locations with previous experience in IMR measurements participated in this sub study.\n\nThe number of participants and their mean reported IMR at the end of PPCI are presented.",
+          "populationDescription": "All participants enrolled into the randomized trial (Intent-to-treat \\[ITT\\] Population) who took part in the IMR sub study (IMR-ITT).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "mmHg*s",
+          "timeFrame": "1 day (end of PPCI)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PPCI With Bivalirudin",
+              "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure."
+            },
+            {
+              "id": "OG001",
+              "title": "PPCI With Heparin",
+              "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.49",
+                      "spread": "21.62"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "68.66",
+                      "spread": "35.77"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "1",
+      "timeFrame": "Up to 5 days (±36 h) post randomization/discharge",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "PPCI With Bivalirudin",
+          "description": "Bivalirudin was administered as a bolus (0.75 mg/kg) and an infusion (1.75 mg/kg/h) for the duration of the PPCI and continued for the first 4 h after completion of the procedure.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 38,
+          "seriousNumAffected": 6,
+          "seriousNumAtRisk": 38,
+          "otherNumAffected": 11,
+          "otherNumAtRisk": 38
+        },
+        {
+          "id": "EG001",
+          "title": "PPCI With Heparin",
+          "description": "UFH was administered as a bolus according to standard of care for completion of PPCI per site. An ACT ≥250 s at the end of the procedure was recommended.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 40,
+          "seriousNumAffected": 7,
+          "seriousNumAtRisk": 40,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 40
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Cardiac arrest",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiac asthma",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiac tamponade",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiac ventricular thrombosis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiogenic shock",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Coronary artery perforation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Myocardial rupture",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Ventricular fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Transient ischaemic attack",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Delirium",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Lung disorder",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Cardiac ventricular thrombosis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Ventricular tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Bradycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Ventricular arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Nephropathy toxic",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Renal failure",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Phlebitis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Delirium",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Chronic obstructive pulmonary disease",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Lung disorder",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Drug hypersensitivity",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Type 2 diabetes mellitus",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 40
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (15.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 38
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 40
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Since the measured difference in infarct size at Day 5 (by CMR) was \\<18%, the study was terminated for futility at the interim analysis as pre-defined in the protocol."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "GT60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Global Health Science Center",
+        "organization": "The Medicines Company",
+        "email": "medical.information@themedco.com",
+        "phone": "1.888.977.6326"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C074619",
+          "term": "bivalirudin"
+        },
+        {
+          "id": "D006493",
+          "term": "Heparin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006025",
+          "term": "Glycosaminoglycans"
+        },
+        {
+          "id": "D011134",
+          "term": "Polysaccharides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

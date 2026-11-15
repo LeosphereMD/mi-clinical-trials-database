@@ -1,0 +1,780 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04837001",
+      "orgStudyIdInfo": {
+        "id": "FDY-5301-302"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-001924-16",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Faraday Pharmaceuticals, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation in STEMI Patients Using FDY-5301",
+      "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study of Intravenous FDY 5301 in Patients With an Anterior ST-Elevation Myocardial Infarction",
+      "acronym": "IOCYTE AMI-3"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-05-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-09-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-06",
+      "studyFirstSubmitQcDate": "2021-04-06",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Faraday Pharmaceuticals, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To assess the effect of FDY-5301 on cardiovascular mortality and acute heart failure events in subjects with an anterior STEMI undergoing pPCI.",
+      "detailedDescription": "The purpose of this study is to evaluate the efficacy and safety of FDY-5301 compared to placebo on cardiovascular clinical outcomes in subjects with an anterior ST-elevation myocardial infarction (STEMI) undergoing primary percutaneous coronary intervention (pPCI).\n\nThe study is designed as a randomized double-blind parallel-group comparison of FDY-5301 and placebo. Inclusion and exclusion criteria have been designed to ensure a broad population including seriously ill patients, with or without prior myocardial infarction or coronary artery bypass graft. Demonstration of efficacy in the anterior STEMI population will translate to all STEMIs agnostic of anatomical location, as the pathophysiology and pharmacology are highly likely to translate from anterior STEMIs to non-anterior STEMIs."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "STEMI",
+        "Percutaneous Coronary Revascularization"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "All subjects who fulfill all study eligibility criteria will be randomized and dosed with study drug or placebo.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2351,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "FDY-5301",
+          "type": "EXPERIMENTAL",
+          "description": "FDY-5301 will be administered as a single IV bolus injection.",
+          "interventionNames": [
+            "Drug: FDY-5301"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo (normal saline) will be administered as a single IV bolus injection.",
+          "interventionNames": [
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "FDY-5301",
+          "description": "FDY-5301 will be administered as a single IV bolus injection.",
+          "armGroupLabels": [
+            "FDY-5301"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo will be administered as a single bolus injection.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of either cardiovascular mortality or heart failure",
+          "description": "The proportion of subjects who experience either cardiovascular mortality or a heart failure event",
+          "timeFrame": "Through Month 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause mortality or acute heart failure",
+          "description": "The proportion of subjects who experience either all-cause mortality or a heart failure event",
+          "timeFrame": "Through Month 12"
+        },
+        {
+          "measure": "Cardiovascular events",
+          "description": "The total number of cardiovascular events defined as cardiovascular mortality and heart failure events",
+          "timeFrame": "Through Month 12"
+        },
+        {
+          "measure": "Other non-fatal cardiovascular morbidity",
+          "description": "The proportion of subjects who experience a composite of the following specified non-fatal cardiovascular events: thromboembolic cerebral vascular accident (CVA), ventricular aneurysm/hemorrhage, recurrent myocardial infarction (e.g., remote or stent thrombosis), or persistent arrhythmia requiring intervention (e.g., ventricular fibrillation, sustained ventricular tachycardia, or bradyarrhythmia requiring intervention)",
+          "timeFrame": "Through Month 12"
+        },
+        {
+          "measure": "Serum troponin T",
+          "description": "Serum troponin T",
+          "timeFrame": "Day 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years\n2. Anterior STEMI, based on:\n\n   Symptoms of myocardial ischemia (such as chest pain, shortness of breath, jaw pain, arm pain, diaphoresis, or any anginal equivalent) and\n\n   Electrocardiogram (ECG) criteria:\n   * men \\> 40 years: ≥ 2 mm of ST elevation in V2 and V3\n   * men ≤ 40 years: ≥ 2.5 mm of ST elevation in V2 and V3\n   * women ≥ 1.5 mm of ST elevation in V2 and V3\n3. Planned primary PCI to occur ≤ 6 hours of onset of persistent symptoms that caused the patient to pursue medical care for myocardial infarction\n4. Institutional Review Board (IRB) / Independent Ethics Committee (IEC) approved consent obtained for study participation\n\nExclusion Criteria:\n\n1. Life expectancy of less than 1 year due to non-cardiac pathology\n2. Known thyroid disease or thyroid disorder, including subjects on thyroid hormone replacement therapy at the time of randomization\n3. Known allergy to iodine or the excipient of the investigational product (sodium chloride)\n4. Renal disease requiring dialysis\n5. Women who are pregnant or breastfeeding. Women of reproductive potential must have a negative pregnancy test prior to randomization\n6. Body weight \\> 140 kg (or 309 lbs)\n7. Use of thrombolytic therapy as treatment for the index STEMI event\n8. Use of investigational drugs within 30 days or 5 half-lives, whichever is longer, prior to randomization or the use of investigational devices within 30 days prior to randomization\n9. Any clinically significant abnormality identified prior to randomization that in the judgment of the Investigator or Sponsor would preclude safe completion of the study, or confound the anticipated benefit of FDY-5301",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Harbor-UCLA Medical Center",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "University of Florida Health",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32209",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Brigham and Women's Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Sparrow Clinical Research Institute",
+          "city": "Lansing",
+          "state": "Michigan",
+          "zip": "48912",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.73253,
+            "lon": -84.55553
+          }
+        },
+        {
+          "facility": "Allina Health System",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Lehigh Valley Hospital",
+          "city": "Allentown",
+          "state": "Pennsylvania",
+          "zip": "18103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.60843,
+            "lon": -75.49018
+          }
+        },
+        {
+          "facility": "Southlake Regional Health Center",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "L3Y 2P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Budai Irgalmasrendi Kórház",
+          "city": "Budapest",
+          "zip": "1023",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Gottsegen György Országos Kardiológiai Intézet",
+          "city": "Budapest",
+          "zip": "1096",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Bajcsy-Zsilinszky Kórház és Rendelőintézet IV. Belgyógyászat és Kardiológia, Intenzív Coronaria Egység, Haemodinamikai Osztály",
+          "city": "Budapest",
+          "zip": "1106",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Semmelweis Egyetem Városmajori Szív- és Érgyógyászati Klinika",
+          "city": "Budapest",
+          "zip": "1122",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Észak-Pesti Centrumkórház - Honvédkórház",
+          "city": "Budapest",
+          "zip": "1134",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Somogy Vármegyei Kaposi Mór Oktató Kórház, Kardiológiai Osztály",
+          "city": "Kaposvár",
+          "zip": "7400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.36667,
+            "lon": 17.8
+          }
+        },
+        {
+          "facility": "Bács-Kiskun Vármegyei Oktatókórház",
+          "city": "Kecskemét",
+          "zip": "6000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.90618,
+            "lon": 19.69128
+          }
+        },
+        {
+          "facility": "Borsod-Abaúj-Zemplén Megyei Központi Kórház és Egyetemi Oktatókórház",
+          "city": "Miskolc",
+          "zip": "3526",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 48.10327,
+            "lon": 20.77806
+          }
+        },
+        {
+          "facility": "Szabolcs-Szatmár-Bereg Vármegyei Oktatókórház, Nyíregyházi Jósa András Tagkórház",
+          "city": "Nyíregyháza",
+          "zip": "4400",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.95539,
+            "lon": 21.71671
+          }
+        },
+        {
+          "facility": "Pécsi Tudományegyetem Klinikai Kozpönt Szívgyógyászati Klinika",
+          "city": "Pécs",
+          "zip": "7624",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Fejér Vármegyei Szent György Egyetemi Oktató Kórház",
+          "city": "Székesfehérvár",
+          "zip": "8000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.18995,
+            "lon": 18.41034
+          }
+        },
+        {
+          "facility": "Vas Vármegyei Markusovszky Egyetemi Oktatókórház",
+          "city": "Szombathely",
+          "zip": "9700",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.23088,
+            "lon": 16.62155
+          }
+        },
+        {
+          "facility": "Zala Megyei Szent Rafael Kórház",
+          "city": "Zalaegerszeg",
+          "zip": "8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "facility": "Shamir (Assaf Harofeh) Medical Center",
+          "city": "Be’er Ya‘aqov",
+          "zip": "7033001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.94433,
+            "lon": 34.83902
+          }
+        },
+        {
+          "facility": "Rambam Health Care Campus",
+          "city": "Haifa",
+          "zip": "3109601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "facility": "Hadassah Ein Karem Medical Center",
+          "city": "Jerusalem",
+          "zip": "9112001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Shaare Zedek Medical Center",
+          "city": "Jerusalem",
+          "zip": "91301",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Meir Medical Center",
+          "city": "Kfar Saba",
+          "zip": "4428164",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.175,
+            "lon": 34.90694
+          }
+        },
+        {
+          "facility": "Galilee Medical Center",
+          "city": "Nahariya",
+          "zip": "2210001",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 33.00892,
+            "lon": 35.09814
+          }
+        },
+        {
+          "facility": "Rabin Medical Center, Beilinson Hospital",
+          "city": "Petah Tikva",
+          "zip": "4941492",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.0888,
+            "lon": 34.88666
+          }
+        },
+        {
+          "facility": "Sheba Medical Center",
+          "city": "Ramat Gan",
+          "zip": "5265601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Ziv Medical Center",
+          "city": "Safed",
+          "zip": "13110",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.96465,
+            "lon": 35.496
+          }
+        },
+        {
+          "facility": "Sourasky Medical Center",
+          "city": "Tel Aviv",
+          "zip": "6423906",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny w Białymstoku",
+          "city": "Bialystok",
+          "zip": "15-276",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Uniwersyteckie Centrum Kliniczne",
+          "city": "Gdansk",
+          "zip": "80-214",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "facility": "Independent Public Specialist Hospital of the West st. John Paul II",
+          "city": "Grodzisk Mazowiecki",
+          "zip": "05-825",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10387,
+            "lon": 20.6337
+          }
+        },
+        {
+          "facility": "SP ZOZ Szpital Uniwersytecki w Krakowie",
+          "city": "Krakow",
+          "zip": "30-688",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Center for Invasive Cardiology",
+          "city": "Krosno",
+          "zip": "38-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 49.68866,
+            "lon": 21.77058
+          }
+        },
+        {
+          "facility": "Scanmed Centrum Kardiologii Kutno",
+          "city": "Kutno",
+          "zip": "99-300",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.23064,
+            "lon": 19.36409
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny im. Wojskowej Akademii Medycznej",
+          "city": "Lodz",
+          "zip": "90-549",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Central Clinical Hospital of the Medical University of Łódź",
+          "city": "Lodz",
+          "zip": "92-213",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Wojskowy Szpital Kliniczny z Poliklinika SPZOZ w Lublinie",
+          "city": "Lublin",
+          "zip": "20-049",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Samodzielny Publiczny Szpital Kliniczny nr 4 w Lublinie",
+          "city": "Lublin",
+          "zip": "20-954",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Wojewódzki Szpital Zespolony im. L. Rydygiera w Toruniu",
+          "city": "Torun",
+          "zip": "87-100",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.01375,
+            "lon": 18.59814
+          }
+        },
+        {
+          "facility": "Uniwersytecki Szpital Kliniczny im. Jana Mikulicza-Radeckiego we Wrocławiu",
+          "city": "Wroclaw",
+          "zip": "50-556",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "4. Military Clinical Hospital with Polyclinic SP ZOZ",
+          "city": "Wroclaw",
+          "zip": "50-981",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Provincial Specialist Hospital in Wrocław",
+          "city": "Wroclaw",
+          "zip": "51-124",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Independent Public Provincial Hospital",
+          "city": "Zamość",
+          "zip": "22-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.72314,
+            "lon": 23.25196
+          }
+        },
+        {
+          "facility": "Hospital Garcia da Orta",
+          "city": "Almada",
+          "state": "Setúbal District",
+          "zip": "2805-267",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.67902,
+            "lon": -9.1569
+          }
+        },
+        {
+          "facility": "Hospital de Braga",
+          "city": "Braga",
+          "zip": "4710-243",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.5514,
+            "lon": -8.42311
+          }
+        },
+        {
+          "facility": "Centro Hospitalar e Universitário de Coimbra",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Universitário Lisboa Central",
+          "city": "Lisbon",
+          "zip": "1169-024",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Universitário Lisboa Norte",
+          "city": "Lisbon",
+          "zip": "1649-035",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Universitário do Porto",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Vila Nova de Gaia/Espinho",
+          "city": "Vila Nova de Gaia",
+          "zip": "4434-502",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.12401,
+            "lon": -8.61241
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2025-12-18",
+        "submissionInfos": [
+          {
+            "releaseDate": "2025-12-18",
+            "resetDate": "2026-01-09",
+            "mcpReleaseN": 16
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

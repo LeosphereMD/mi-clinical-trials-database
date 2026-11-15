@@ -1,0 +1,376 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01812330",
+      "orgStudyIdInfo": {
+        "id": "20130118 CR"
+      },
+      "organization": {
+        "fullName": "General Hospital of Chinese Armed Police Forces",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy and Safety Study of Ticagrelor",
+      "officialTitle": "The Effect of Ticagrelor on Acute Coronary Syndrome Patients With Clopidogrel Resistance Undergoing Percutaneous Coronary Intervention"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-03",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2016-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2013-03-14",
+      "studyFirstSubmitQcDate": "2013-03-14",
+      "studyFirstPostDateStruct": {
+        "date": "2013-03-18",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-06-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-06-24",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "General Hospital of Chinese Armed Police Forces",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare the efficacy and safety of ticagrelor with clopidogrel",
+      "detailedDescription": "180 elective percutaneous coronary intervention patients with clopidogrel resistance were randomized to three groups, Group 1:received clopidogrel 75mg qd ;Group 2:received clopidogrel 150mg qd ; Group 3:received ticagrelor 90mg bid after PCI.Platelet funtion were tested by flowcytometric vasodilator-stimulated phosphoprotein(VASP) analysis before PCI,and 3days,7days and 1 month after PCI,respectively.The aim of our study is to compare the efficacy and safety of ticagrelor with clopidogrel"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "ACS",
+        "CR",
+        "PCI",
+        "Platelet funtion",
+        "Ticagrelor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "group 1",
+          "type": "EXPERIMENTAL",
+          "description": "Group 1 will be administered with Clopidogrel 75mg daily until the end of the trial",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "group 2",
+          "type": "EXPERIMENTAL",
+          "description": "Group 2 will be administered with Clopidogrel 150mg daily until the end of trial",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "group 3",
+          "type": "EXPERIMENTAL",
+          "description": "Group 3 will be administered with Ticagrelor 90mg twice daily until the end of the trial",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "After 600mg loading dose, 75mg or 150mg Qd",
+          "armGroupLabels": [
+            "group 1",
+            "group 2"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "90mg Bid",
+          "armGroupLabels": [
+            "group 3"
+          ],
+          "otherNames": [
+            "Brilique"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PRI",
+          "description": "Platelet funtion were tested by flowcytometric vasodilator-stimulated phosphoprotein(VASP) analysis.And a platelet reactivity index (PRI) was calculated.",
+          "timeFrame": "post operative 1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Major adverse cardiac events(MACEs)",
+          "description": "cardiovascular death,angiographically conﬁrmed stent thrombosis, recurrent acute coronary syndrome deﬁned by the American College of Cardiology/American Heart Association guidelines,and recurrent revascularization by either coronary angioplasty or bypass surgery",
+          "timeFrame": "follow-up for 1 month"
+        },
+        {
+          "measure": "major and minor bleeding",
+          "description": "Major bleeding was deﬁned as intracranial bleeding or clinically-overt bleeding associated with a decrease in hemoglobin of 50 g/L, according to the Thrombolysis inMyocardial Infarction (TIMI) criteria .Minor bleeding was also deﬁned according to TIMI criteria .",
+          "timeFrame": "follow-up for 1 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1.Clinical diagnosis of ACS 2.undergoing PCI 3.with clopidogrel resistance\n\nExclusion Criteria:\n\n* 1.any contraindication against the use of clopidogrel and ticagrel 2.Contradiction to aspirin and contrast medium 3.Life expectancy less than 1 year 4.Tumor or inflammatory diseases5. fibrinolytic therapy within 24 hours before randomization 6.a need for oral anticoagulation therapy 7. an increased risk of bradycardia 8.concomitant therapy with a strong cytochrome P-450 3A inhibitor or inducer 9.a history of asthma.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "huiliang liu, doctor",
+          "role": "CONTACT",
+          "phone": "86-10-57976531",
+          "email": "lhl518@vip.sina.com"
+        },
+        {
+          "name": "yujie wei, doctor",
+          "role": "CONTACT",
+          "phone": "86-10-57976707"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "huiliang liu, doctor",
+          "affiliation": "Department of Cardiology of General Hospital of Chinese People's Armed Police Forces",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "General Hospital of Chinese People's Armed Police Forces",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100039",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "huiliang liu, doctor",
+              "role": "CONTACT",
+              "phone": "86-10-57976531",
+              "email": "lhl518@vip.sina.com"
+            },
+            {
+              "name": "yujie wei, doctor",
+              "role": "CONTACT",
+              "phone": "86-10-57976707"
+            },
+            {
+              "name": "yingping xiao, doctor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20194878",
+          "type": "RESULT",
+          "citation": "Gurbel PA, Bliden KP, Butler K, Antonino MJ, Wei C, Teng R, Rasmussen L, Storey RF, Nielsen T, Eikelboom JW, Sabe-Affaki G, Husted S, Kereiakes DJ, Henderson D, Patel DV, Tantry US. Response to ticagrelor in clopidogrel nonresponders and responders and effect of switching therapies: the RESPOND study. Circulation. 2010 Mar 16;121(10):1188-99. doi: 10.1161/CIRCULATIONAHA.109.919456. Epub 2010 Mar 1."
+        },
+        {
+          "pmid": "19761935",
+          "type": "RESULT",
+          "citation": "Cuisset T, Frere C, Quilici J, Poyet R, Gaborit B, Bali L, Brissy O, Morange PE, Alessi MC, Bonnet JL. Comparison of omeprazole and pantoprazole influence on a high 150-mg clopidogrel maintenance dose the PACA (Proton Pump Inhibitors And Clopidogrel Association) prospective randomized study. J Am Coll Cardiol. 2009 Sep 22;54(13):1149-53. doi: 10.1016/j.jacc.2009.05.050."
+        },
+        {
+          "pmid": "15738352",
+          "type": "RESULT",
+          "citation": "Gurbel PA, Bliden KP, Zaman KA, Yoho JA, Hayes KM, Tantry US. Clopidogrel loading with eptifibatide to arrest the reactivity of platelets: results of the Clopidogrel Loading With Eptifibatide to Arrest the Reactivity of Platelets (CLEAR PLATELETS) study. Circulation. 2005 Mar 8;111(9):1153-9. doi: 10.1161/01.CIR.0000157138.02645.11. Epub 2005 Feb 28."
+        },
+        {
+          "pmid": "16260639",
+          "type": "RESULT",
+          "citation": "von Beckerath N, Taubert D, Pogatsa-Murray G, Schomig E, Kastrati A, Schomig A. Absorption, metabolization, and antiplatelet effects of 300-, 600-, and 900-mg loading doses of clopidogrel: results of the ISAR-CHOICE (Intracoronary Stenting and Antithrombotic Regimen: Choose Between 3 High Oral Doses for Immediate Clopidogrel Effect) Trial. Circulation. 2005 Nov 8;112(19):2946-50. doi: 10.1161/CIRCULATIONAHA.105.559088. Epub 2005 Oct 31."
+        },
+        {
+          "pmid": "19717846",
+          "type": "RESULT",
+          "citation": "Wallentin L, Becker RC, Budaj A, Cannon CP, Emanuelsson H, Held C, Horrow J, Husted S, James S, Katus H, Mahaffey KW, Scirica BM, Skene A, Steg PG, Storey RF, Harrington RA; PLATO Investigators; Freij A, Thorsen M. Ticagrelor versus clopidogrel in patients with acute coronary syndromes. N Engl J Med. 2009 Sep 10;361(11):1045-57. doi: 10.1056/NEJMoa0904327. Epub 2009 Aug 30."
+        },
+        {
+          "pmid": "19324253",
+          "type": "RESULT",
+          "citation": "Jeong YH, Lee SW, Choi BR, Kim IS, Seo MK, Kwak CH, Hwang JY, Park SW. Randomized comparison of adjunctive cilostazol versus high maintenance dose clopidogrel in patients with high post-treatment platelet reactivity: results of the ACCEL-RESISTANCE (Adjunctive Cilostazol Versus High Maintenance Dose Clopidogrel in Patients With Clopidogrel Resistance) randomized study. J Am Coll Cardiol. 2009 Mar 31;53(13):1101-9. doi: 10.1016/j.jacc.2008.12.025."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

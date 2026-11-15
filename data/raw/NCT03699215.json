@@ -1,0 +1,301 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03699215",
+      "orgStudyIdInfo": {
+        "id": "LEVOCEST"
+      },
+      "organization": {
+        "fullName": "Hospital Universitario de Canarias",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Trial in Patients Who Have Suffered a Heart Attack and Who Have Undergone Catheterization Treated With Levosimendan",
+      "officialTitle": "Ensayo clínico, Fase III, Aleatorizado, Prospectivo, unicéntrico, Doble Ciego y Controlado Con Placebo, Para Estimar la Eficacia y Seguridad Del Levosimendan Intravenoso, en Las Primeras 24 Horas Tras la Angioplastia Primaria, en Pacientes Con síndrome Coronario Agudo Con elevación Del Segmento ST",
+      "acronym": "LEVOCEST"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2020-08",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-11-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-04-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-09-27",
+      "studyFirstSubmitQcDate": "2018-10-04",
+      "studyFirstPostDateStruct": {
+        "date": "2018-10-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-02-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-02-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hospital Universitario de Canarias",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The disease under study is acute coronary syndrome with ST segment elevation, defined as patients presenting chest pain of anginal characteristics of more than 20 minutes of duration, with changes in the electrocardiogram consisting of ST segment elevation of 1 mm in two contiguous limb leads or 2 mm in two contiguous leads precordial. In a review carried out on patients treated in the investigator center with SCACEST, invetsigators found that, in a cohort of 250 patients, 85% of them presented alterations Segments of left ventricular contractility at 4 months after the acute episode. To verify that the Levosimendan administration reduces that percentage, at least 65%, investigators require to include in the study 83 patients in the experimental group and 83 in the control group, for a power of 80% and a confidence level of 95%. Assuming 10% of lost patients, it is required to include in the study 92 patients in the experimental group and 92 patients in the group control .",
+      "detailedDescription": "The patients will be included randomly, until the calculated sample size is completed. A recruitment period of 12 months is estimated from the beginning of the study. From the date of inclusion of the first patient, the final duration of the study will be 1.5 years.\n\nThe study will end when performing the last cardio-resonance and echocardiography that should be performed 6 months after the inclusion of the last patient in the study.\n\nUpon arrival of the patient at the Coronary Unit, he will receive, in a randomized and double-blind manner, without a loading dose, the 24-hour infusion of Levosimendan, or placebo.\n\nThe continuous infusion of levosimendan 0.1 micrograms / kg / min will be administered during 24h. If the initial dose is tolerated and a greater hemodynamic effect is needed, the infusion rate can be increased to 0.2 micrograms / kg / min. The dose of Levosimendan infusion can be reduced to 0.05 μg / kg / min in case of clinical intolerance or systolic hypotension \\<90 mmHg.\n\nContinuous perfusion of the placebo 0.1 micrograms / kg / min will be administered for 24h. If the initial dose is tolerated and a greater hemodynamic effect is needed, the infusion rate can be increased to 0.2 micrograms / kg / min. The dose of infusion of the placebo can be reduced to 0.05 μg / kg / min in case of clinical intolerance or systolic hypotension \\<90 mmHg."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 184,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "solution for intravenous infusion, with similar organoleptic characteristics than active treatment.",
+          "interventionNames": [
+            "Drug: Placebos"
+          ]
+        },
+        {
+          "label": "levosimendan",
+          "type": "EXPERIMENTAL",
+          "description": "Concentrate for solution for perfusion. Pack with a 5 ml vial",
+          "interventionNames": [
+            "Drug: Levosimendan"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Levosimendan",
+          "description": "Upon arrival of the patient in the Coronary Unit, he will receive, in a randomized and double-blind manner, the 24-hour infusion of Levosimendan, without a loading dose, at a dose of 0.1 μg / kg / min or placebo. If the initial dose is tolerated and a greater hemodynamic effect is needed, the infusion rate can be increased to 0.2 micrograms / kg / min. The dose of Levosimendan infusion can be reduced to 0.05 μg / kg / min in case of clinical intolerance or systolic hypotension \\<90 mmHg.",
+          "armGroupLabels": [
+            "levosimendan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebos",
+          "description": "continuous perfusion of 0.1 micrograms / kg / min for 24h. If the initial dose is tolerated and a greater hemodynamic effect is needed, the infusion rate can be increased to 0.2 micrograms / kg / min.",
+          "armGroupLabels": [
+            "placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Size of acute myocardial infarction",
+          "description": "percentage myocardium infarct/ left ventricle ventricle",
+          "timeFrame": "30 days after acute episode"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "measurement of Biochemical parameters function",
+          "description": "troponine, creatinkinase, creatinkinase-MB",
+          "timeFrame": "first 24 hours"
+        },
+        {
+          "measure": "electrocardiogram parameters",
+          "description": "Residual ST segment deviation",
+          "timeFrame": "1 hour after primary angioplasty"
+        },
+        {
+          "measure": "MAJOR CARDIAC EVENTS",
+          "description": "need of revascularitation or cardiac death",
+          "timeFrame": "6 months after angioplasty"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients of both sexes who come to CHUC.\n* Age between 18 and 85 years old.\n* Symptoms of STEMI over 30 minutes and less than 12 hours of evolution.\n* ST segment elevation of \\>= 1 mm in two contiguous limb leads or \\>= 2 mm in two contiguous precordial leads.\n* Patients agreed to participate in the study and have signed the informed consent.\n* The same patient may not be included more than once.\n\nExclusion Criteria:\n\n* Killip IV class in a situation of cardiogenic shock or with TAM values below 65 mmHg of pressure.\n* Patients that have suffered a previous heart attack.\n* Patients who are being administered amines.\n* Patients that do not have segmental disorders of contractility in left ventriculography.\n* Mental circumstance that makes you unable to participate in the study.\n* Patients that refuse to participate in the study and that they do not sign the informed consent.\n* Severe renal impairment (creatinine clearance \\<30ml / min)\n* Severe hepatic insufficiency - (prothrombin activity rate \\<40%).\n* History of Torsades de Pointes.\n* Acute respiratory distress\n* Allergy to levosimendan or some of its components\n* Anemia (hemoglobin \\<8g / dl)\n* Pregnancy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Francisco Bosa Ojeda, MD PhD",
+          "role": "CONTACT",
+          "phone": "00 34 922678457",
+          "phoneExt": "34457",
+          "email": "franbosa@ull.edu.es"
+        },
+        {
+          "name": "Consuelo Rodríguez Jiménez, MD PhD",
+          "role": "CONTACT",
+          "phone": "922678573",
+          "email": "conrodjim@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UICEC",
+          "status": "RECRUITING",
+          "city": "San Cristóbal de La Laguna",
+          "state": "S/C de Tenerife",
+          "zip": "38320",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Consuelo Rodríguez Jimnénez, PhD, MD",
+              "role": "CONTACT",
+              "phone": "922678175",
+              "email": "conrodjim@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077464",
+          "term": "Simendan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D006835",
+          "term": "Hydrazones"
+        },
+        {
+          "id": "D006834",
+          "term": "Hydrazines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011724",
+          "term": "Pyridazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

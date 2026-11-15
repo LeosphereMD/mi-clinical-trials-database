@@ -1,0 +1,320 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03989531",
+      "orgStudyIdInfo": {
+        "id": "Accost"
+      },
+      "organization": {
+        "fullName": "Universitätsklinikum Hamburg-Eppendorf",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adrecizumab in Cardiogenic Shock",
+      "officialTitle": "Investigator-initiated, Placebo-controlled, Double-blind, Multi-center, Randomized Trial to Assess the Efficacy and Safety of Adrecizumab in Subjects With Cardiogenic Shock",
+      "acronym": "ACCOST-HH"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-04-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-04-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-06-17",
+      "studyFirstSubmitQcDate": "2019-06-17",
+      "studyFirstPostDateStruct": {
+        "date": "2019-06-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-10-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-10-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Dr. med. Mahir Karakas",
+        "investigatorTitle": "PD Dr Mahir Karakas, MBA",
+        "investigatorAffiliation": "Universitätsklinikum Hamburg-Eppendorf"
+      },
+      "leadSponsor": {
+        "name": "Dr. med. Mahir Karakas",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiogenic shock is a serious medical condition with high mortality and morbidity. This trial assesses safety, tolerability and efficacy of Adrecizumab on top of standard of care in patients with cardiogenic shock.",
+      "detailedDescription": "Despite optimal treatment the mortality in patients with cardiogenic shock still exceeds 50% and surviving patients mostly suffer from severe heart failure due to an impaired cardiac function.It is hypothesized, that Adrenomedullin is a key player in the (dys)-regulation of vascular integrity. Adrecizumab is the first-in-class humanized monoclonal anti-Adrenomedullin antibody, and acts as a long-lasting plasma Adrenomedullin enhancer stabilizing barrier function at a reasonable safety profile.When the anti-Adrenomedullin antibody Adrecizumab is administered in the blood circulation at high concentrations by far exceeding those of plasma Adrenomedullin, the compartmental distribution of Adrenomedullin is altered. Adrecizumab, an IgG with a molecular weight of more than 150 kDa, is too large to freely diffuse from the blood circulation to the interstitium. With its fast association kinetics Adrecizumab quickly binds to Adrenomedullin in the blood circulation and \"pulls\" Adrenomedullin, which has been initially located in the interstitium, from this compartment to the blood circulation. The more Adrecizumab is applied, the stronger is the \"pulling\" effect and the higher the resulting concentrations of Adrecizumab-bound Adrenomedullin in the blood circulation. The increase of Adrecizumab-bound Adrenomedullin in the blood circulation occurs within 5-15 minutes after administration of Adrecizumab, since it induces a translocation of preformed Adrenomedullin. As a consequence of this redistribution, the Adrenomedullin concentration in the interstitium decreases, and less Adrenomedullin is able to act on smooth muscle cells to exert its vasodilatative activity. In the progression to cardiogenic shock, when it comes to excessive vasodilation and hypotension, administration of Adrecizumab thus can reduce vasodilation by substracting excessive levels of interstitially located Adrenomedullin."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock",
+        "Endothelial Dysfunction"
+      ],
+      "keywords": [
+        "Cardiogenic Shock",
+        "Adrecizumab",
+        "Vascular integrity",
+        "Endothelial dysfunction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Adrecizumab on top of standard of care",
+          "type": "EXPERIMENTAL",
+          "description": "8 mg/kg body weight Adrecizumab diluted in up to 100 mL saline as single dose infusion",
+          "interventionNames": [
+            "Biological: Adrecizumab"
+          ]
+        },
+        {
+          "label": "Placebo on top of standard of care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "100 mL saline as single dose infusion",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Adrecizumab",
+          "description": "Drip infusion over 60 minutes",
+          "armGroupLabels": [
+            "Adrecizumab on top of standard of care"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Drip infusion over 60 minutes",
+          "armGroupLabels": [
+            "Placebo on top of standard of care"
+          ],
+          "otherNames": [
+            "Saline"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Need of cardiovascular organ support within the first 30 days",
+          "description": "Number of days through day 30 without need for cardiovascular organ support, including vasopressors, or mechanical support (VA-ECMO, Impella)",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "30-day-Mortality",
+          "description": "All-cause mortality",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n-Hospitalization for Cardiogenic shock (at the discretion of the local investigator)\n\nCardiogenic shock is usually defined as:\n\n* Systolic blood pressure \\< 90 mmHg \\> 30 min or inotropes required to maintain pressure \\> 90 mmHg during systole\n* Signs of left heart insufficiency and/ or pulmonary congestion\n* Signs of impaired organ perfusion with at least one of the following:\n* Altered mental status\n* Cold, clammy skin\n* Urine output \\<30 ml/h\n* Serum lactate \\>2mmol/l\n\n  * Age above 18 years at time of screening\n  * Body weight below 150 kg at time of screening\n  * Females/Males who agree to comply with the applicable contraceptive requirements of the protocol\n\nExclusion Criteria:\n\n* Cardiogenic shock due to significant arrhythmias, which include any of the following: sustained ventricular tachycardia, bradycardia with sustained ventricular rate \\<35 beats per minute, or atrial fibrillation/ flutter with sustained ventricular response of \\>160 beats per minute\n* Cardiogenic shock due to left ventricular outflow obstruction, obstructive hypertrophic cardiomyopathy or severe aortic stenosis (i.e., aortic valve area \\<0.8 cm2 or mean gradient \\>50 mmHg on prior or current echocardiogram), and severe mitral stenosis\n* Cardiogenic shock due to mechanical cause or severe bleeding\n* Cardiogenic shock due to untreated clinically significant CAD requiring revascularization\n* Resuscitation \\> 60 minutes\n* Severe pre-existing hepatic disease unrelated to cardiogenic shock\n* Severe pre-existing renal disease (dialysis) unrelated to cardiogenic shock etiology",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mahir Karakas, MD, MBA",
+          "affiliation": "University Heart Center Hamburg",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Berlin, Campus Benjamin-Franklin",
+          "city": "Berlin",
+          "zip": "12203",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "University Heart Center Hamburg",
+          "city": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "University of Ulm",
+          "city": "Ulm",
+          "zip": "89081",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34895483",
+          "type": "DERIVED",
+          "citation": "Karakas M, Akin I, Burdelski C, Clemmensen P, Grahn H, Jarczak D, Kessler M, Kirchhof P, Landmesser U, Lezius S, Lindner D, Mebazaa A, Nierhaus A, Ocak A, Rottbauer W, Sinning C, Skurk C, Soffker G, Westermann D, Zapf A, Zengin E, Zeller T, Kluge S. Single-dose of adrecizumab versus placebo in acute cardiogenic shock (ACCOST-HH): an investigator-initiated, randomised, double-blinded, placebo-controlled, multicentre trial. Lancet Respir Med. 2022 Mar;10(3):247-254. doi: 10.1016/S2213-2600(21)00439-2. Epub 2021 Dec 8."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000706631",
+          "term": "enibarcimab"
+        },
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

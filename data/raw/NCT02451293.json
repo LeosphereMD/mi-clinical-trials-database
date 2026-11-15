@@ -1,0 +1,544 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02451293",
+      "orgStudyIdInfo": {
+        "id": "MTM-03"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2015-002116-32",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2015",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2015"
+        }
+      ],
+      "organization": {
+        "fullName": "Zealand University Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of MElatonin on Depression, Anxiety, CIrcadian and Sleep Disturbances in Patients After Acute Myocardial Syndrome",
+      "officialTitle": "The Effect of MElatonin on Depression, Anxiety, CIrcadian and Sleep Disturbances in Patients After Acute Myocardial Syndrome",
+      "acronym": "MEDACIS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-01-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-08-18",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-07-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-05-12",
+      "studyFirstSubmitQcDate": "2015-05-18",
+      "studyFirstPostDateStruct": {
+        "date": "2015-05-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-01-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-01-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Zealand University Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Psychiatric Research Unit, Region Zealand, Denmark",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Copenhagen",
+          "class": "OTHER"
+        },
+        {
+          "name": "Pharma Nord",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of the study is to investigate whether prophylactic treatment with melatonin has an effect on depressive symptoms. Secondarily melatonin's effect on anxiety, sleep and circadian disturbances will be investigated.\n\nThe MEDACIS trial is a randomised, placebo-controlled, double-blinded multicenter trial investigating the effect of 25 mg exogenous melatonin (intervention group) against placebo (control group) and the study is designed as a parallel group superiority trial.",
+      "detailedDescription": "AIM Depression after Acute coronary syndrome (ACS - myocardial infarction and unstable angina) is highly prevalent and associated with a 2.5 fold increased in all-cause morbidity and mortality. Sleep disturbances is an integrated part of the pathology of depression and have severe consequences for quality of life.\n\nMelatonin has shown potential to reduce depressive symptoms and anxiety. Likewise melatonin has shown sleep improving effects in several populations and also in patients with depression. Melatonin can potentially reduce the incidence of depression and sleep disturbances in patients after myocardial infarction.\n\nThe project sets to answer the following hypotheses:\n\n1. Melatonin will due to its antidepressant effect prevent or reduce the incidence of depressive symptoms in patients after an ACS.\n2. Melatonin will due its anxiolytic effect prevent or reduce the incidence of anxiety in patients after an ACS.\n3. Melatonin will due to its hypnotic and circadian effects prevent development of sleep and circadian disturbances in patients after an ACS.\n\nBACKGROUND In Denmark about 8600 each year suffered an acute myocardial infarction. An acute myocardial infarction is a life-changing event that affects people's lives long after the blood clot. 20% develop a moderate to severe depression requiring pharmacological treatment and up to 50% experience depressive symptoms after the initial treatment. Depression after a acute coronary syndrome is associated with 2.5-fold increased mortality, and 1.5-fold increased risk of a recurrence of thrombosis. Screening of patients for depression has therefore been recommended by both the Danish cardiology Association and the American Heart Association.\n\nDepression in itself requires treatment because depression after myocardial infarction is associated with reduced quality of life, reduced compliance with medication, reduced participation in cardiac rehabilitation, and less likelihood of occupational activity.\n\nMedical treatment of depression would traditionally be a selective serotonin reuptake inhibitor (SSRI) as first-line treatment. SSRI are associated with side-effects such as sleep disorders, sexual disorders and heart rhythm disturbances.\n\nAs an alternative to SSRIs, the investigators focus on the endogenous hormone melatonin which is virtually side-effect free. Previous experiments have shown that 1000 mg of melatonin daily for one month was only associated with mild drowsiness increased. Melatonin regulates the body's circadian rhythm and plays an important role as a hypnotic and in stabilizing the sleep during the night. Sleep disorders are an integral part of the pathogenesis of depression and is important for the development of depression.\n\nMethod The investigators will perform a double-blind, placebo-controlled, randomized trial in which patients allocated to either melatonin or placebo in a prophylactic setup. Participants will be followed for 12 weeks, where they have three clinical visits and depression measurements every two weeks.\n\nDepression in the study is measured by Major Depression Inventory (MDI), a self-rating form with 12 questions. The questionnaire is well studied and validated in a Danish population. The questions covers the 10 ICD-10 symptoms of depression, and is recommended for use in general practice. MDI is a flexible tool that can be used as a diagnostic tool and at the same time as measuring instrument for severity of depressive disorder. MDI will be administered during clinic visits and used in the outpatient phase, so the patients are followed continuously every two weeks throughout the study. Should there be a treatment demanding depression (moderate/severe) the participant will be referred to a dedicated psychiatrist who will perform a Hamilton evaluation and make treatment recommendations.\n\nParticipants are also assessed for depression and anxiety by using the Hospital anxiety and depression scale (HADS). A large Danish study of patients after myocardial infarction was shown have a prevalence of depression in 20%, and HADS will also be used to compare included with non-participating patients (external validity).\n\nMelatonin has been shown ameliorative effect on sleep and circadian rhythm. Sleep and circadian rhythm disorders are an integral part of the development and maintenance of depression. These will be monitored intensively with actigraphy (objective sleep measurements), Pittsburgh sleep quality index (PSQI), sleep diaries and visual analog scales from inclusion meeting to first clinical control. Afterwards subjective sleep measurements will be performed every two weeks.\n\nSample size is calculated on the basis of a conservative assumption that, 31 % of patients following ACS will develop depressive symptoms, which the investigators assume can be reduced to 15.5 % by Melatonin treatment. Power calculation is based on two-sided test, and with a power of 0.80 and the significance level 5 % (alfa= 0.05), the required sample size in each group is 116. There are no interim efficacy analyses planned. The study will proceed until 120 patients have been enrolled in each arm.\n\nMEFACS subtrial (single center)\n\nThe objective of the MEFACS study is to investigate whether prophylactic treatment with melatonin has an effect on endothelial dysfunction. Secondarily, our objective is to investigate the effect of melatonin on inflammation markers.\n\nThe MEFACS trial is a sub-trial of the MEDACIS trial, and The MEFACS trial will be carried out as a single center trial on a subpopulation of the patients enrolled in the MEDACIS trial.\n\nThe MEFACS trial will include 2 x 15 patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Depression",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Depression",
+        "Acute Coronary Syndrome",
+        "Anxiety",
+        "Sleep",
+        "Circadian"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 252,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Melatonin (N-acetyl-5-methoxytryptamine)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Melatonin (N-acetyl-5-methoxytryptamine) 25 mg oral administration 1 hour before bedtime for 12 weeks.",
+          "interventionNames": [
+            "Drug: Melatonin (N-acetyl-5-methoxytryptamine)"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Comparable placebo pill, oral administration 1 hour before bedtime for 12 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Melatonin (N-acetyl-5-methoxytryptamine)",
+          "armGroupLabels": [
+            "Melatonin (N-acetyl-5-methoxytryptamine)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. MDI has previously been investigated in a Danish population. On a six-point Likert scale, the items measure how much time the symptoms have been present during the last 14 days. MDI is scored according to specific guidelines and can be used either as a rating scale or diagnostic instrument. For inclusion the investigators used the diagnostic instrument (depression was an exclusion criteria) and for all other MDI measurements the investigators used the rating scale. Diagnostic scale using the ICD-10 algorithm: Mild depression: 2 core symptoms and 2 other symptoms Moderate depression: 2 core symptoms and 4 other symptoms Severe depression: 3 core symptoms and 5 other symptoms Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 14."
+        },
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50.",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 28"
+        },
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50.",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 42"
+        },
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50.",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 56"
+        },
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50.",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 70"
+        },
+        {
+          "measure": "Major Depression Inventory (MDI)",
+          "description": "MDI is a self-rating depression scale with 12 questions. Rating scale: No depression - score from 0-20 Mild depression - score from 21-25 Moderate depression - score from 26-30 Severe depression - score from 31-50.",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 6 measurements at app. day 84"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Actigraphy - Sleep outcomes - Time in bed",
+          "description": "Outcomes measured - Nightime: time in bed, (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - total sleep time",
+          "description": "Outcomes measured - Nightime: total sleep time (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - sleep effetiveness",
+          "description": "Outcomes measured - Nightime: sleep effectiveness (%)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - wake after sleep onset",
+          "description": "Outcomes measured - Nightime: wake after sleep onset (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - sleep latency",
+          "description": "Outcomes measured - Nightime: sleep latency (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - number of awakenings",
+          "description": "Outcomes measured - Nightime: number of awakenings (duration of 5 min).",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - time awake",
+          "description": "Outcomes measured - Daytime: Time awake (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - time asleep",
+          "description": "Outcomes measured - Daytime: time asleep (min)",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - Sleep outcomes - number of naps",
+          "description": "Outcomes measured - Daytime: number of naps",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - Mesor",
+          "description": "Outcomes measured: Mesor - Adjusted mean of activity counts over 24 hours.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - Acrophase",
+          "description": "Outcomes measured: Acrophase - Time of peak amplitude.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - Amplitude",
+          "description": "Outcomes measured: Amplitude - Peak activity value above mesor.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - F-statistics",
+          "description": "Outcomes measured: F-statistics - Goodness of fit of general cosine model in summarizing the actual data.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - Inter-daily stability",
+          "description": "Outcomes measured: Inter-daily Stability - The regularity of the rhythm from one day to next.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Actigraphy - circadian outcomes - Inter-daily variability",
+          "description": "Outcomes measured: Intra-daily Variability - Fragmentation of the rhythm.",
+          "timeFrame": "From inclusion to first clinical visit (app. 14 days)"
+        },
+        {
+          "measure": "Anxiety measured by Hospital anxiety and depression scale (HADS-A)",
+          "description": "The HADS consists two subscales; one for anxiety (HADS-A) and one for depression (HADS-D), which can be used separately. Each scale consists of 7 questions which are graded on a 4 point scale (0-1-2-3) and is summed into a total score between 0-21. A score of 7 or lower is negative case, a score of 8 - 10 is a doubtful case, and a score of 11 or above is a positive case. The scale inquires about the presence of symptoms during the last week and, hence, should be administered at a maximum of weekly intervals\\].",
+          "timeFrame": "Anxiety at one point in the study (not including baseline) out of 2 measurements at app. day 14 and day 84 of the study"
+        },
+        {
+          "measure": "Depression measured by Hospital anxiety and depression scale (HADS-D)",
+          "description": "The HADS consists two subscales; one for anxiety (HADS-A) and one for depression (HADS-D), which can be used separately. Each scale consists of 7 questions which are graded on a 4 point scale (0-1-2-3) and is summed into a total score between 0-21. A score of 7 or lower is negative case, a score of 8 - 10 is a doubtful case, and a score of 11 or above is a positive case. The scale inquires about the presence of symptoms during the last week and, hence, should be administered at a maximum of weekly intervals\\].",
+          "timeFrame": "Depression at one point in the study (not including baseline) out of 2 measurements at app. day 14 and day 84 of the study"
+        },
+        {
+          "measure": "Subjective sleep quality measured by Pittsburgh sleep quality index (PSQI)",
+          "description": "The PSQI, which asses sleep quality during the last 4 weeks, and has a clinical established cut of 5 ≥ as poor sleeper and 8≥ as having sleep problems needing treatment",
+          "timeFrame": "Subjectie sleep at one point in the study (not including baseline) out of 2 measurements at app. day 14 and day 84 of the study"
+        },
+        {
+          "measure": "Sleep diary",
+          "description": "A sleep diary is the patient's own account of sleep data, and they are asked to fill in a diary page each morning after awakening.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the sleep diary will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "UKU side effect rating scale",
+          "description": "The UKU has been develop for use to monitor side effect of psychotropic drugs, and has been validated in several Nordic countries. The UKU consists of a single symptom rating scale (48 items), a global assessment of influence of side effect on patients daily lives (patient and doctor), and the side effect influence on continued medication treatment.",
+          "timeFrame": "The UKU will be filled out a total of 6 measurements at app. day 14, day 28, day 42, day 56, day 70 and day 84 of the study"
+        },
+        {
+          "measure": "VAS Data on Anxiety",
+          "description": "Anxiety measured by VAS (visual analog scale). A subjective feeling of anxiety was registered on a VAS going from \"no anxiety\", equivalent to 0mm to \"worst possible anxiety\", equivalent to 100mm.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the VAS will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "VAS Data on Fatigue",
+          "description": "Fatigue measured by VAS (visual analog scale). A subjective feeling of Fatigue was registered on a VAS going from \"no Fatigue\", equivalent to 0 mm to \"worst possible Fatigue\", equivalent to 100mm.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the VAS will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "VAS Data on Pain",
+          "description": "Pain measured by VAS (visual analog scale). A subjective feeling of Pain was registered on a VAS going from \"no Pain\", equivalent to 0 mm to \"worst possible Pain\", equivalent to 100mm.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the VAS will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "VAS Data on Sleep Quality",
+          "description": "Sleep Quality measured by VAS (visual analog scale). A subjective feeling of Sleep Quality was registered on a VAS going from \"best possible sleep\", equivalent to 0 mm to \"worst possible sleep\", equivalent to 100mm.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the VAS will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "VAS Data on General Well-being",
+          "description": "General Well-being measured by VAS (visual analog scale). A subjective feeling of General Well-being was registered on a VAS going from \"very high well-being\", equivalent to 0 mm to \"very low well-being\", equivalent to 100mm.",
+          "timeFrame": "From inclusion to first clinical visit each day (day 0 - 14). After the first clinical visit (day 14) the VAS will be filled out on day 28, day 42, day 56, day 70 and day 84 of the study."
+        },
+        {
+          "measure": "Endothelial function (EndoPAT)",
+          "description": "Endothelial function measured by EndoPAT with an outcome measure of reactive hyperemia index (RHI).",
+          "timeFrame": "From inclusion (day 0), first clinical visit (day 14), and final visit (day 84)."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Blood sample",
+          "description": "The blood will be stored in a biobank for later analysis. A not yet determined panel of MiRNA will be measured.",
+          "timeFrame": "Blood sample will be drawn at day 0 and at day 84."
+        },
+        {
+          "measure": "Oxidative-stress markers",
+          "description": "Blood work, oxidative-stress markers ADMA and Arginine.",
+          "timeFrame": "Blood sample will be drawn at day 0 and at day 84"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients should be admitted to a coronary care unit for acute coronary syndrome (ACS), and should be enrolled within 4 weeks after the primary ACS.\n2. Participants should be 18 years or older.\n3. No sign of depression on Major Depression Inventory (MDI) at the point of enrolment.\n4. Participants must sign an informed consent form\n5. Females not in menopause (defined as no menstruation during the last 12 months) should have a negative pregnancy test.\n\nExclusion Criteria:\n\n1. Known allergic reaction to melatonin.\n2. Ongoing or previous pharmacological treated depression or bipolar disorder.\n3. No dementia as determined by mini mental state examination score (MMSE) \\< 24\n4. At the point of inclusion no participation in another pharmacological intervention trial is allowed.\n5. No diagnose of Rotor or Dubin-Johnson syndrome, epilepsy, sleep apnoea syndrome, systemic lupus erythematosus (SLE), rheumatoid arthritis (RA) or multiple sclerosis is allowed.\n6. Severe liver disease defined as transaminases above X 3 normal levels, and severe kidney disease defined as eGRF under 40 ml/min.\n7. Ongoing hypnotic treatment.\n8. Known sleep disorder (e.g. insomnia, restless legs etc.)\n9. Work involving nightshifts.\n10. Daily alcohol consumption above 5 units of alcohol (1 unit = 12 g alcohol)\n11. Predictable poor compliance ( e.g. not speaking fluent Danish)\n12. Pregnant or breastfeeding.\n13. Severe, life-threatening medical condition, that implies that the patient cannot participate in a the study course. (e.g. cancer, stroke, )\n14. Indication for coronary artery bypass graft (CABG).\n\n    For the MEFACS subtrial - (single center)\n15. Conditions that preclude/make impossible the measurement of reliable RHI (e.g. patient with only one arm, known side-difference in brachial arterial blood pressure and other factors).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michael Tvilling Madsen, M.D.",
+          "affiliation": "Department of surgery. Koege and Roskilde Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ismail Gögenur, M.D. Professor",
+          "affiliation": "Department of surgery. Koege and Roskilde Hospital",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Erik Simonsen, M.D. Professor",
+          "affiliation": "Psychiatric Research Unit, Region Zealand",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Roskilde and Køge Hospital, Department of Surgery.",
+          "city": "Køge",
+          "state": "Danmark",
+          "zip": "4600",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.45802,
+            "lon": 12.18214
+          }
+        },
+        {
+          "facility": "Department of internal Medicin, Holbaek Sygehus",
+          "city": "Holbæk",
+          "state": "Region Sjælland",
+          "zip": "4300",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.7175,
+            "lon": 11.71279
+          }
+        },
+        {
+          "facility": "Department of internal medicin, M5",
+          "city": "Køge",
+          "state": "Region Sjælland",
+          "zip": "4600",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.45802,
+            "lon": 12.18214
+          }
+        },
+        {
+          "facility": "Department of Cardiology, Roskilde Sygehus",
+          "city": "Roskilde",
+          "state": "Region Sjælland",
+          "zip": "4000",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.64152,
+            "lon": 12.08035
+          }
+        },
+        {
+          "facility": "Department of Cardiology, Hvidovre Hospital,",
+          "city": "Hvidovre",
+          "zip": "2650",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.64297,
+            "lon": 12.47708
+          }
+        },
+        {
+          "facility": "Department of Cardiology, Slagelse Sygehus",
+          "city": "Slagelse",
+          "zip": "4200",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.40276,
+            "lon": 11.35459
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34145796",
+          "type": "DERIVED",
+          "citation": "Madsen MT, Juel K, Simonsen E, Gogenur I, Zwisler ADO. External validity of randomized clinical trial studying preventing depressive symptoms following acute coronary syndrome. Brain Behav. 2021 Aug;11(8):e02132. doi: 10.1002/brb3.2132. Epub 2021 Jun 17."
+        },
+        {
+          "pmid": "33319916",
+          "type": "DERIVED",
+          "citation": "Madsen BK, Zetner D, Moller AM, Rosenberg J. Melatonin for preoperative and postoperative anxiety in adults. Cochrane Database Syst Rev. 2020 Dec 8;12(12):CD009861. doi: 10.1002/14651858.CD009861.pub3."
+        },
+        {
+          "pmid": "28228148",
+          "type": "DERIVED",
+          "citation": "Madsen MT, Isbrand A, Andersen UO, Andersen LJ, Taskiran M, Simonsen E, Gogenur I. The effect of MElatonin on Depressive symptoms, Anxiety, CIrcadian and Sleep disturbances in patients after acute coronary syndrome (MEDACIS): study protocol for a randomized controlled trial. Trials. 2017 Feb 23;18(1):81. doi: 10.1186/s13063-017-1806-x."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003863",
+          "term": "Depression"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D001008",
+          "term": "Anxiety Disorders"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001526",
+          "term": "Behavioral Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008550",
+          "term": "Melatonin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014363",
+          "term": "Tryptamines"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

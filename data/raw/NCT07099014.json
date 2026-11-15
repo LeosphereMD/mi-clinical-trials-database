@@ -1,0 +1,386 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07099014",
+      "orgStudyIdInfo": {
+        "id": "APHP230844"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-510261-94-00",
+          "type": "CTIS"
+        },
+        {
+          "id": "2023",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2023"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Inhaled Isoflurane for Sedation of Invasively Ventilated Patients With Cardiogenic Shock on Extracorporeal Membrane Oxygenation",
+      "officialTitle": "Inhaled Isoflurane for Sedation of Invasively Ventilated Patients With Cardiogenic Shock on Extracorporeal Membrane Oxygenation",
+      "acronym": "INSEPTION"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-10-13",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-04-13",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-16",
+      "studyFirstSubmitQcDate": "2025-07-25",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Midazolam and propofol are the most used intravenous (IV) sedative agents, but their use is associated with well-known adverse effects such as accumulation, myotoxicity, tachyphylaxis, and unpredictable wake-up time.\n\nFor benzodiazepines, an increased tolerance, possible accumulation after long-term use, and an increased risk of acute withdrawal syndrome are reported. In patients on extracorporeal membrane oxygenation (ECMO) for cardiogenic shock, the negative hemodynamic effects of these drugs are a particular matter of concern. Besides the extracorporeal circuit itself may affect the pharmacokinetics of these IV sedatives. Indeed, drug sequestration in ECMO circuits is a well-known phenomenon influenced by drug chemo-physical properties. Given the large surface area of tubing and membrane, considerable quantities of drugs used in ECMO patients may be sequestered over a period, resulting in a significant increase in their volume of distribution. Similarly, frequent hemodilution and organ dysfunction would also contribute to an increase in the volume of distribution.\n\nPropofol, which is lipophilic is significantly sequestrated in the circuit. Consequently, it is commonly observed that patients receiving ECMO have substantially higher sedative and analgesic drug requirements than patients without ECMO.\n\nTo date, there is no ideal concept for analgesia and sedation of patients on ECMO in the ICU.\n\nA drug that sedates effectively but with minimal residual sedation after the end of the administration and without the aforementioned drawbacks of the current agents would be valuable.\n\nInterestingly, a recent randomized controlled non-inferiority trial that randomized 338 patients showed that, compared with propofol, sedation with inhaled anaesthetics was non-inferior. Sedation with inhaled anaesthetics resulted in a higher rate of spontaneous breathing and a shorter wake-up time after 48h of sedation. Indeed, inhaled sedation, which has been associated with reduced opioid consumption and less delirium in ICU patients, is a promising alternative to IV sedation. Moreover, inhaled anaesthetics might be associated with less myocardial injury and lower doses of inotropic support in patients undergoing cardiac surgery. However, to date, the experience with volatile agents remains limited in patients on ECMO.\n\nWe hypothesized that the use of inhaled isoflurane with the Sedaconda anaesthetics conserving device (ACD) in cardiogenic shock patients on ECMO will reduce the mortality and increase the number of ventilation-free days at day 28 following ECMO onset compared to usual IV sedation by propofol and/or midazolam."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock, ECMO"
+      ],
+      "keywords": [
+        "Cardiogenic shock, ECMO"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Inhaled ISOFLURANE",
+          "type": "EXPERIMENTAL",
+          "description": "Initial rate of 3 mL/h given for up to 14 days or until extubation",
+          "interventionNames": [
+            "Drug: Inahled Isoflurane"
+          ]
+        },
+        {
+          "label": "Propofol +/- Midazolam",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Propofol final dose 4 mg/kg/h +/- Midazolam, maximal dose 0,2 mg/kg/h",
+          "interventionNames": [
+            "Drug: Propofol, midazolam"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Inahled Isoflurane",
+          "description": "treatment administration",
+          "armGroupLabels": [
+            "Inhaled ISOFLURANE"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Propofol, midazolam",
+          "description": "treatment administration",
+          "armGroupLabels": [
+            "Propofol +/- Midazolam"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "A composite hierarchical outcome composed of two components: 1) mortality, 2) number of days alive without invasive mechanical ventilation within 28 days following ECMO initiation",
+          "description": "* Each patient will be compared with every other patient in the study and assigned a score (tie: 0, win: +1, loss: -1) for each pairwise comparison based on whom fared better.\n* If one patient survived on day 28 and the other did not, scores of +1 and -1 will be assigned, respectively, for that pairwise comparison. If both patients in the pairwise comparison survived at day 28, the assigned score will depend on which patient had more days free from mechanical ventilation: the patient with more ventilator-free days alive at day 28 will receive a score of +1, while the patient with fewer days will receive a score of -1. If both patients survived and had the same number of ventilator-free days on day 28, and if both patients died, they will be both assigned a score of 0 for that pairwise comparison. For each patient, scores for all pairwise comparisons will be summed, resulting in a cumulative score.",
+          "timeFrame": "Day 28"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Number of ECMO-free days",
+          "timeFrame": "Day 14, Day 28"
+        },
+        {
+          "measure": "Number of inotropes-free days",
+          "timeFrame": "Day 14, Day 28"
+        },
+        {
+          "measure": "Number of ICU-free days",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Number of ventilation-free days",
+          "timeFrame": "Day 14, Day 28"
+        },
+        {
+          "measure": "incidence of delirium",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Opioids daily consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Consumption of propofol",
+          "description": "consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Consumption of midazolam",
+          "description": "consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Consumption of Clonidine",
+          "description": "consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Consumption of Haloperidol",
+          "description": "consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Consumption of dexmedetomidine",
+          "description": "consumption during invasive mechanical ventilation",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Incidence of drugs side effects (refractory hypertension, malignant hyperthermia)",
+          "description": "assess the safety of prolonged isoflurane inhalation during ECMO",
+          "timeFrame": "From randomization to Day 28"
+        },
+        {
+          "measure": "Number of participants requiring ventricular assist device",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Number of participants undergoing heart transplantation",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Rate of side effects possibly linked to ineffective sedation (self-extubation, accidental ECMO decannulation, catheter withdrawal)",
+          "timeFrame": "From randomization to Day 28"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Cardiogenic shock on VA ECMO support for less than 24 hours\n2. Patients on invasive mechanical ventilation receiving propofol and/or midazolam at the time of randomization\n3. Invasive mechanical ventilation for less than 48 hours\n4. Expected invasive ventilation and sedation for at least 24h, with a prescribed Richmond agitation scale target within the range of -1 to - 4\n5. Social security registration (AME excluded)\n\nExclusion Criteria:\n\n1. Age \\<18 and \\>75\n2. Pregnancy or breastfeeding\n3. Initiation of ECMO \\>24 hours\n4. Initiation of mechanical ventilation \\>48 hours\n5. Cardiopulmonary Resuscitation \\>20 minutes before randomization\n6. Patient moribund on the day of randomization, SAPS II \\>90\n7. Suspected or proven intracranial hypertension\n8. Corrected QT interval \\> 450ms or with a known or suspected genetic predisposition to malignant hyperthermia\n9. Chronic liver disease defined as a Child-Pugh score of 12-15\n10. Patients ventilated with a tidal volume \\< 4ml/kg predicted body weight\n11. Participation in another interventional study or being in the exclusion period at the end of a previous study.\n12. Contraindication or allergies to isoflurane, propofol, midazolam or other halogenated anaesthetics",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Juliette CHOMMELOUX, MD",
+          "role": "CONTACT",
+          "phone": "330142162909",
+          "email": "juliette.chommeloux@aphp.fr"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Matthieu SCHMIDT, MD",
+          "affiliation": "Assistance Publique - Hôpitaux de Paris",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34454654",
+          "type": "BACKGROUND",
+          "citation": "Meiser A, Volk T, Wallenborn J, Guenther U, Becher T, Bracht H, Schwarzkopf K, Knafelj R, Faltlhauser A, Thal SC, Soukup J, Kellner P, Druner M, Vogelsang H, Bellgardt M, Sackey P; Sedaconda study group. Inhaled isoflurane via the anaesthetic conserving device versus propofol for sedation of invasively ventilated patients in intensive care units in Germany and Slovenia: an open-label, phase 3, randomised controlled, non-inferiority trial. Lancet Respir Med. 2021 Nov;9(11):1231-1240. doi: 10.1016/S2213-2600(21)00323-4. Epub 2021 Aug 26."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The procedures carried out with the French data privacy authority (CNIL, Commission nationale de l'informatique et des libertés) do not provide for the transmission of the database, nor do the information and consent documents signed by the patients.\n\nConsultation by the editorial board or interested researchers of individual participant data that underlie the results reported in the article after deidentification may nevertheless be considered, subject to prior determination of the terms and conditions of such consultation and in respect for compliance with the applicable regulations.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Beginning 3 months and ending 3 years following article publication. Requests out of these time frame can also be submitted to the sponsor",
+      "accessCriteria": "Researchers who provide a methodologically sound proposal"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015742",
+          "term": "Propofol"
+        },
+        {
+          "id": "D008874",
+          "term": "Midazolam"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001569",
+          "term": "Benzodiazepines"
+        },
+        {
+          "id": "D001552",
+          "term": "Benzazepines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

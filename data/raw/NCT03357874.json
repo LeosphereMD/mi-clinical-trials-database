@@ -1,0 +1,328 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03357874",
+      "orgStudyIdInfo": {
+        "id": "2017-41"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-002839-42",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2017",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2017"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance Publique Hopitaux De Marseille",
+        "class": "OTHER"
+      },
+      "briefTitle": "TicagRelor Or Clopidogrel in Severe and Terminal Chronic Kidney Disease Patients Undergoing PERcutaneous Coronary Intervention for an Acute Coronary Syndrome.",
+      "officialTitle": "TicagRelor Or Clopidogrel in Severe and Terminal Chronic Kidney Disease Patients Undergoing PERcutaneous Coronary Intervention for an Acute Coronary Syndrome.",
+      "acronym": "TROUPER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-10-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-07-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-14",
+      "studyFirstSubmitQcDate": "2017-11-29",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-27",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique Hopitaux De Marseille",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Ticagrelor is a potent and fast-acting P2Y12-ADP receptor antagonist recommended as first-line agent in ACS (2). This drug was associated with a 20% relative reduction in the rate of MACE in ACS patients undergoing PCI compared to clopidogrel. This benefit came without any increase in major bleedings compared to clopidogrel (6).\n\nIn the PLATO trial, a limited number of kidney failure patients were included (21%) and patients with terminal CKD were excluded. A sub-group analysis focused on CKD patients was performed. Only 214 patients with CKD below stage 4 (creatinine clearance \\<30 ml/min) were included (7). No patient with terminal CKD or undergoing chronic hemodialysis was included.\n\nOf importance, kidney function impairment is frequent and affects up-to 40 % of ACS patients. In addition, CKD is a powerful independent predictor of ischemic complications during ACS (8-9).Indeed, CKD patients have a very high risk of MACE following ACS with an odd ratio between 2 and 3 compared to patients with normal kidney function and event rates above 40% at one year follow-up (8-13). Of importance these patients more often have high on-clopidogrel platelet reactivity which was strongly associated with a worse clinical outcome (3,14-16). In CKD patients HTPR was associated with death after PCI (15). Accordingly ticagrelor which overcomes these limitations of clopidogrel could be associated with a major clinical benefit in severe or terminal CKD patients.\n\nMost of ticagrelor and is active metabolites are excreted through the feces. Preclinical data suggested that renal impairment had little effect on systemic exposure to the drug(EMEA/H/C/1241 (28)). Recent pharmacodynamic and kinetic studies confirmed these preclinical data on the safety of ticagrelor in severe and end-stage CKD (17-19).\n\nTherefore based on the rational above and to the lack of relevant clinical data, the optimal P2Y12-ADP receptor antagonist for patients with stage 4 and 5 and patients undergoing chronic dialysis remains undetermined in ACS treated with PCI.\n\nWe aimed to compare the clinical efficacy ticagrelor and clopidogrel in patients with stage 4 and 5 or on chronic hemodialysis undergoing PCI for ACS."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 259,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Clopidogrel group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        },
+        {
+          "label": "Ticagrelor group",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ticagrelor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "600 mg loading dose of clopidogrel as pretreatment followed by 75 mg daily for 12 months (52 weeks).",
+          "armGroupLabels": [
+            "Clopidogrel group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ticagrelor",
+          "description": "patients will receive a 180 mg loading dose as pretreatment of PCI followed by 90 mg bi-daily for 12 months (52 weeks).",
+          "armGroupLabels": [
+            "Ticagrelor group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "the rate of major adverse cardiovascular events",
+          "timeFrame": "12 MONTHS"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "the rate of bleedings",
+          "description": "using the Bleeding Academic Research Consortium classification ≥3 defined at discharge",
+          "timeFrame": "1 MONTH AND 12MONTHS"
+        },
+        {
+          "measure": "the rate of myocardial infarction at discharge",
+          "timeFrame": "1 MONTH AND 12MONTHS"
+        },
+        {
+          "measure": "the rate of cardiovascular death at discharge",
+          "timeFrame": "1MONTH AND 12 MONTHS"
+        },
+        {
+          "measure": "the rate of urgent revascularization at discharge",
+          "timeFrame": "1MONTH AND 12 MONTHS"
+        },
+        {
+          "measure": "the rate of all-cause death at discharge",
+          "timeFrame": "1MONTH AND 12 MONTHS"
+        },
+        {
+          "measure": "the rate of hospital re-admission",
+          "timeFrame": "1MONTH AND 12 MONTHS"
+        },
+        {
+          "measure": "the rate of probable and definite stent thrombosis (ARC definition) at discharge",
+          "timeFrame": "1MONTH AND 12 MONTHS"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Must not be of child-bearing potential (1 year post-menopausal, contraceptive or surgically sterile).\n\nnon-ST-segment elevation ACS defined by the presence of at least 2 of the following criteria: (1) symptoms of myocardial ischemia, (2) electrocardiographic ST-segment abnormalities (depression or transient elevation of at least 0.1 mV) or T-wave inversion in at least in 2 contiguous leads, or (3) an elevated cardiac troponin value (above the upper limit of normal) (2) or ST segment elevation ACS scheduled for primary PCI defined (22)as a history of chest discomfort or ischemic symptoms of \\>20 minutes duration at rest ≤14 days prior to entry into the study with one of the following present on at least one ECG prior to randomization:\n\n1. ST-segment elevation ≥1 mm in two or more contiguous ECG leads.\n2. New or presumably new left bundle branch block (LBBB).\n3. ST-segment depression ≥1 mm in two anterior precordial leads (V1 through V4) with clinical history and evidence suggestive of true posterior infarction\n\n   * Subject intended for an invasive strategy if NSTE-ACS or primary PCI if STE-ACS according to guidelines (annexe 1)\n   * Subject CKD stage 4 and 5 (estimated glomerular filtration rate (eGFR) \\<30 ml/min/1.73 m2 by (MDRD formula) or undergoing chronic dialysis\n   * Must be enrolled at a cardiac catheterization laboratory hospital or at a hospital/ambulance service affiliated with a cardiac catheterization laboratory hospital.\n   * Subject affiliated to or beneficiary of a social security system.\n   * Subject having signed written informed consent.\n\nExclusion Criteria:\n\n* Minors, pregnant or breast-feeding women;\n* Subject under chronic anticoagulant\n* Subject with thrombolytic therapy during the preceding 24 hours;\n* Subject with bleeding ;\n* Subject participating in another research protocol;\n* Subject not agreeing to participate.\n* Subject with contraindication to clopidogrel or ticagrelor\n* Severe hepatic failure\n* Ischemic Stroke within one month or a history of hemorrhagic stroke\n* Bradycardia\n* Platelet count\\<100 000\n* Major surgery or trauma within 10 days\n* Life expectancy \\<1 year\n* Known significant bleeding risk according to the physician judgment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "jean -olivier ARNAUD",
+          "affiliation": "AP HM",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "APHM",
+          "city": "Marseille",
+          "zip": "13354",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35224730",
+          "type": "DERIVED",
+          "citation": "Natale P, Palmer SC, Saglimbene VM, Ruospo M, Razavian M, Craig JC, Jardine MJ, Webster AC, Strippoli GF. Antiplatelet agents for chronic kidney disease. Cochrane Database Syst Rev. 2022 Feb 28;2(2):CD008834. doi: 10.1002/14651858.CD008834.pub4."
+        },
+        {
+          "pmid": "32473355",
+          "type": "DERIVED",
+          "citation": "Laine M, Lemesle G, Burtey S, Cayla G, Range G, Quaino G, Canault M, Pankert M, Paganelli F, Puymirat E, Bonello L. TicagRelor Or Clopidogrel in severe or terminal chronic kidney patients Undergoing PERcutaneous coronary intervention for acute coronary syndrome: The TROUPER trial. Am Heart J. 2020 Jul;225:19-26. doi: 10.1016/j.ahj.2020.04.013. Epub 2020 Apr 30."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        },
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

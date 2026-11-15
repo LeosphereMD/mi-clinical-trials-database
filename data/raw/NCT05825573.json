@@ -1,0 +1,705 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05825573",
+      "orgStudyIdInfo": {
+        "id": "PHRC-N/2020/BL-01"
+      },
+      "organization": {
+        "fullName": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      },
+      "briefTitle": "Anticoagulation Therapy in Non-device-related Intra-cardiac Thrombus",
+      "officialTitle": "Anticoagulant Regimens Given to Achieve Thrombus Regression and Reduce Clinical Outcomes Among Patients With Non Device-related Intra-cardiac Thrombus: a Randomized Assessment Under Direct Oral Anticoagulant and Vitamin-k Antagonist Therapy",
+      "acronym": "ARGONAUT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-05-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-04-11",
+      "studyFirstSubmitQcDate": "2023-04-11",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Centre Hospitalier Universitaire de Nīmes",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Left ventricular thrombus is found in 10 to 25% of patients with impaired left ventricular function following ST-segment elevation myocardial infarction and up to 20% in dilated cardiomyopathy in observational studies. Likewise, the incidence of atrial thrombus among atrial fibrillation patients treated by vitamin K antagonist (VKA) is between 0.25% and 7%. Despite anticoagulant therapy, intra-cardiac thrombus remains a severe complication associated with a high risk of systemic embolism and subsequent mortality but also bleeding events related to the anticoagulation therapy. The class of non-vitamin K antagonist direct oral anticoagulant (DOA) has emerged in the last decades and has systematically surpassed VKA in the different clinical settings by providing at minimum a similar efficacy and a better safety profile. In the absence of randomized study in the specific clinical setting of intracardiac thrombus, international Guidelines recommend, on the basis of expert opinion, the use of VKA for at least 3 to 6 months in case of left ventricular thrombus and there is no specific recommendation for thrombus management from other cardiac localizations.\n\nIn comparison to VKA, the easier management and the large evidence of better safety of DOA make it an interesting anticoagulant strategy. Data for left ventricule thrombosis treatment are limited and only supported by observational cohorts. However, these recent cohorts have shown promising data in this indication reporting similar thrombus regression following DOA in comparison to VKA and similar ischemic outcomes although no head-to-head comparison would be powered.\n\nAs a consequence, the multicentric randomized ARGONAUT trial aims to confirm these results and evaluate the impact of DOA compared to VKA on thrombus regression and clinical outcomes among patients with intracardiac thrombus, regardless of the thrombus localization and any underlying heart disease."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Intracardiac Thrombus",
+        "STEMI",
+        "Heart Failure"
+      ],
+      "keywords": [
+        "anticoagulation therapy",
+        "direct oral anticoagulant",
+        "stroke",
+        "acute coronary syndrome",
+        "embolism"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 340,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reference treatment",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Vitamin K antagonist"
+          ]
+        },
+        {
+          "label": "Direct Oral Anticoagulant",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Direct oral anticoagulant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vitamin K antagonist",
+          "description": "VKA study medications (Warfarin, Fluindione and Acenocoumarol) will be prescribed and supplied in the usual setting of patient care with respect of the international guidelines and recommended dose protocols and will not be specifically supplied for the trial. Anticoagulant treatment will be prescribed for 6 months. The recommended INR target will be \\[2-3\\] and \\[2-2.5\\] for patients treated with concomitant antiplatelet therapy. Biological monitoring will be performed at discretion of physicians as usual care.",
+          "armGroupLabels": [
+            "Reference treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Direct oral anticoagulant",
+          "description": "DOA study medications (Apixaban, Rivaroxaban and Dabigatran) will be prescribed and supplied in the usual setting of patient care and will not be specifically supplied for the trial. The usual doses of DOA will be prescribed: dabigatran 150mg twice a day, apixaban 5mg twice a day and rivaroxaban 20mg once a day. The adjusted doses (dabigatran 110mg twice a day, apixaban 2.5mg twice a day and rivaroxaban 15mg once a day) will be prescribed according to clinical practice treatment guidelines.",
+          "armGroupLabels": [
+            "Direct Oral Anticoagulant"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Net clinical benefit of DOA in comparison to VKA in patients with intra-cardiac thrombus",
+          "description": "Composite endpoint of all-cause death, myocardial infarction, stroke, acute peripheral emboli, acute pulmonary embolism, thrombus persistence and clinically relevant bleedings (BARC 2 to 5 bleedings)",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All cause death between groups",
+          "description": "Any death documented during the follow-up independently of cause of death",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "All cause death between groups",
+          "description": "Any death documented during the follow-up independently of cause of death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Myocardial infarction occurrence between groups",
+          "description": "All non-fatal MI, excluding MI type 3, which will be captured separately as death",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Myocardial infarction occurrence between groups",
+          "description": "All non-fatal MI, excluding MI type 3, which will be captured separately as death",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Stroke occurrence between groups",
+          "description": "Classified as Transient ischemic attack (TIA), Ischemic Stroke, Haemorrhagic Stroke and Undetermined Stroke",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Stroke occurrence between groups",
+          "description": "Classified as Transient ischemic attack (TIA), Ischemic Stroke, Haemorrhagic Stroke and Undetermined Stroke",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Acute peripheral emboli occurrence between groups",
+          "description": "All acute artery occlusion (limb, renal or digestive artery occlusion confirmed by clinical history consistent with an acute loss of blood flow to a peripheral artery (or arteries), supported by evidence of embolism from surgical specimens, autopsy, angiography, vascular imaging, or other objective testing",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Acute peripheral emboli occurrence between groups",
+          "description": "All acute artery occlusion (limb, renal or digestive artery occlusion confirmed by clinical history consistent with an acute loss of blood flow to a peripheral artery (or arteries), supported by evidence of embolism from surgical specimens, autopsy, angiography, vascular imaging, or other objective testing",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Acute pulmonary embolism occurrence between groups",
+          "description": "Defined as partial or complete occlusion of pulmonary artery or one of its branch confirmed by consistent clinical history and supported by evidence of embolism from surgical specimens, autopsy, angiography or vascular imaging in accordance to international guidelines",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Acute pulmonary embolism occurrence between groups",
+          "description": "Defined as partial or complete occlusion of pulmonary artery or one of its branch confirmed by consistent clinical history and supported by evidence of embolism from surgical specimens, autopsy, angiography or vascular imaging in accordance to international guidelines",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Thrombus persistence between groups",
+          "description": "Defined by cardiac imaging (echocardiography, contrast echocardiography, cardiac CT scan or cardiac MRI) as an increased thrombus dimension, a stable thrombus, or a partial thrombus regression",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Thrombus persistence between groups",
+          "description": "Defined by cardiac imaging (echocardiography, contrast echocardiography, cardiac CT scan or cardiac MRI) as an increased thrombus dimension, a stable thrombus, or a partial thrombus regression",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Clinically relevant bleedings between groups",
+          "description": "International Bleeding Academic Research Consortium (BARC) types 2 to 5",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Clinically relevant bleedings between groups",
+          "description": "International Bleeding Academic Research Consortium (BARC) types 2 to 5",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Systemic embolism between groups",
+          "description": "defined by the composite of stroke, embolic myocardial infarction, peripheral artery occlusion and acute pulmonary embolism",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Systemic embolism between groups",
+          "description": "defined by the composite of stroke, embolic myocardial infarction, peripheral artery occlusion and acute pulmonary embolism",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Cardiovascular death between groups",
+          "description": "Any death due to myocardial infarction, ischemic and haemorrhagic stroke, systemic embolism, sudden death, low-output failure, fatal arrhythmia, cerebrovascular disease, pulmonary embolism, ruptured aortic aneurysm, dissecting aneurysm, or other cardiovascular cause. All unobserved deaths were assumed to be cardiovascular in nature unless a non-cardiovascular cause could be clearly provided.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Cardiovascular death between groups",
+          "description": "Any death due to myocardial infarction, ischemic and haemorrhagic stroke, systemic embolism, sudden death, low-output failure, fatal arrhythmia, cerebrovascular disease, pulmonary embolism, ruptured aortic aneurysm, dissecting aneurysm, or other cardiovascular cause. All unobserved deaths were assumed to be cardiovascular in nature unless a non-cardiovascular cause could be clearly provided.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Total thrombus recurrence between groups",
+          "description": "Recurrence of thrombus on cardiac imaging control following a total thrombus regression during the follow-up",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Total thrombus recurrence between groups",
+          "description": "Recurrence of thrombus on cardiac imaging control following a total thrombus regression during the follow-up",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Major bleedings between groups",
+          "description": "International Bleeding Academic Research Consortium (BARC) types 3 to 5",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Major bleedings between groups",
+          "description": "International Bleeding Academic Research Consortium (BARC) types 3 to 5",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient with a non-device related intra-cardiac thrombus (all localizations in the four cavities) diagnosed by echocardiography, cardiac CT-scanner or cardiac magnetic resonance imaging independently of underlying heart disease.\n* Anticoagulant naïve patient for at least 3 months\n* Patient affiliated to a health insurance program\n* Patient that accepted not to participate in other studies involving a study medication until the one-year follow-up visit. Registries and studies not involving a study drug are allowed.\n* Patient that signed the consent form\n\nExclusion Criteria:\n\n* Active internal bleeding or recent (\\< 6 months) major bleeding event requiring surgical procedure or transfusion\n* History of intracranial, intraocular, spinal bleeding or known intracranial neoplasm, arteriovenous malformation, or aneurysm\n* Severe, disabling stroke (modified Rankin score of 4 to 5, inclusive) within 3 months\n* Planned invasive procedure with potential for uncontrolled bleeding\n* Impaired hemostasis such as known International Normalized Ratio (INR) \\>1.5; past or present bleeding disorder (including congenital bleeding disorders such as von Willebrand's disease or hemophilia, acquired bleeding disorders, and unexplained clinically significant bleeding disorders), thrombocytopenia (platelet count \\<100,000/μL)\n* Severe chronic renal failure (creat. clearance\\<30ml/min)\n* Known significant liver disease\n* Device related thrombus (mechanical valve prosthesis, left atrial appendage or septal closure devices, pacemaker leads)\n* Patients with mechanical valve prosthesis\n* Cardiogenic shock\n* Pregnancy or breast-feeding patient\n* Known allergy or hypersensitivity to VKA or DOA drugs\n* Inability or unwillingness to comply with study-related procedures\n* Participation in another clinical research protocol with other investigational agents or devices within the previous 30 days, planned use of investigational drugs or devices, or previous enrolment in this trial (participation in a trial of routine care is authorized at the same time)\n* Patient under tutorship or curatorship",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "benoit.lattuca@chu-nimes.fr Lattuca",
+          "affiliation": "CHU Nimes",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "CHU Angers",
+          "city": "Angers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Ch Auxerre",
+          "city": "Auxerre",
+          "zip": "89000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.7996,
+            "lon": 3.57033
+          }
+        },
+        {
+          "facility": "Ch Avignon",
+          "city": "Avignon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "CH Bastia",
+          "city": "Bastia",
+          "country": "France",
+          "geoPoint": {
+            "lat": 42.70219,
+            "lon": 9.45123
+          }
+        },
+        {
+          "facility": "Hôpital Cardiologique du Haut Lévêque",
+          "city": "Bordeaux",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "CHU Brest",
+          "city": "Brest",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "CH Chartres",
+          "city": "Chartres",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.44685,
+            "lon": 1.48925
+          }
+        },
+        {
+          "facility": "CHU Gabriel Montpied",
+          "city": "Clermont-Ferrand",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "CH Compiègne Noyon",
+          "city": "Compiègne",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.41794,
+            "lon": 2.82606
+          }
+        },
+        {
+          "facility": "Hôpital Privé Dijon Bourgogne",
+          "city": "Dijon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Groupe Hospitalier Mutualiste",
+          "city": "Grenoble",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "CHU Lille",
+          "city": "Lille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU Limoges",
+          "city": "Limoges",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Hôpital Cardiovasculaire Louis Pradel",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "AP-HM CHU La Timone",
+          "city": "Marseille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "CHR Metz-Thionville",
+          "city": "Metz",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.11911,
+            "lon": 6.17269
+          }
+        },
+        {
+          "facility": "CHU Arnaud de Villeneuve",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Clinique du Millenaire",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHU Nantes",
+          "city": "Nantes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "CHU Nice",
+          "city": "Nice",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "CHU de Nimes",
+          "city": "Nîmes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "AP-HP CHU Bichat",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "AP-HP CHU Lariboisière",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Ap-Hp Hegp",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "AP-HP Hopital Ambroise Paré",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "CHU Pitié-Salpêtrière",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "CH Francois Mitterand",
+          "city": "Pau",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.31117,
+            "lon": -0.35583
+          }
+        },
+        {
+          "facility": "CHU Poitiers",
+          "city": "Potiers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.40483,
+            "lon": 0.39166
+          }
+        },
+        {
+          "facility": "CHU Rennes",
+          "city": "Rennes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Centre Cardiologique du Nord",
+          "city": "Saint-Denis",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.93564,
+            "lon": 2.35387
+          }
+        },
+        {
+          "facility": "CHU Strasbourg",
+          "city": "Strasbourg",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "CHU Toulouse",
+          "city": "Toulouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Centre Hopistalier de Valence",
+          "city": "Valence",
+          "zip": "26000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.9256,
+            "lon": 4.90956
+          }
+        },
+        {
+          "facility": "Ch Bretagne Atlantique",
+          "city": "Vannes",
+          "zip": "56000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.65688,
+            "lon": -2.76205
+          }
+        },
+        {
+          "facility": "CHU La réunion NORD",
+          "city": "Saint-Denis",
+          "country": "Reunion",
+          "geoPoint": {
+            "lat": -20.88231,
+            "lon": 55.4504
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "32273033",
+          "type": "BACKGROUND",
+          "citation": "Lattuca B, Bouziri N, Kerneis M, Portal JJ, Zhou J, Hauguel-Moreau M, Mameri A, Zeitouni M, Guedeney P, Hammoudi N, Isnard R, Pousset F, Collet JP, Vicaut E, Montalescot G, Silvain J; ACTION Study Group. Antithrombotic Therapy for Patients With Left Ventricular Mural Thrombus. J Am Coll Cardiol. 2020 Apr 14;75(14):1676-1685. doi: 10.1016/j.jacc.2020.01.057."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D004617",
+          "term": "Embolism"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D016769",
+          "term": "Embolism and Thrombosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C008208",
+          "term": "acarboxyprothrombin"
+        },
+        {
+          "id": "C065145",
+          "term": "N(4)-oleylcytosine arabinoside"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

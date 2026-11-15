@@ -1,0 +1,337 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04571580",
+      "orgStudyIdInfo": {
+        "id": "RECOVERII"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Low-dose Intracoronary Reteplase on Myocardial Infarct Size During Primary Percutaneous Coronary Intervention",
+      "officialTitle": "Effect of Low-dose Intracoronary Reteplase During Primary Percutaneous Coronary Intervention on Myocardial Infarct Size in Patients With Acute Myocardial Infarction",
+      "acronym": "RECOVERII"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The study enrollment is slow due to the pandemic.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-09-19",
+      "studyFirstSubmitQcDate": "2020-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-09-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Ge Junbo",
+        "investigatorTitle": "Director, Dept. of Cardiology, Zhongshan Hospital, Fudan University, Shanghai, China",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Ge Junbo",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "OBJECTIVE: To determine whether a therapeutic strategy involving low-dose intracoronary fibrinolytic therapy with reteplase infused after coronary reperfusion will reduce the myocardial infarction size.\n\nDESIGN, SETTING, AND PARTICIPANTS: 306 patients presenting at 15 hospitals in China within 12 hours of acute ST-segment elevation myocardial infarction (STEMI) due to a proximal-mid-vessel occlusion of left anterior descending (LAD) coronary artery occlusion will be randomized in a 1:1:1 dose-ranging trial design. Patients will be followed up to 1 month.\n\nINTERVENTIONS: Participants will be randomly assigned to treatment with placebo (n = 102), reteplase 9mg (n = 102), or reteplase 18mg (n = 102) by manual infusion over 2 minutes after reperfusion of the infarct-related coronary artery and before stent implant.\n\nMAIN OUTCOMES AND MEASURES The primary outcomewas the myocardial infarct size (% left ventricular mass) demonstrated by contrast-enhanced cardiac magnetic resonance imaging (MRI) conducted from days 2 through 7 after enrollment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute ST-segment Elevation Myocardial Infarction"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "intracoronary infusion with saline",
+          "interventionNames": [
+            "Drug: Normal Saline"
+          ]
+        },
+        {
+          "label": "reteplase 9mg",
+          "type": "EXPERIMENTAL",
+          "description": "intracoronary infusion with reteplase 9mg",
+          "interventionNames": [
+            "Drug: Reteplase Injection 9mg"
+          ]
+        },
+        {
+          "label": "reteplase 18mg",
+          "type": "EXPERIMENTAL",
+          "description": "intracoronary infusion with reteplase 18mg",
+          "interventionNames": [
+            "Drug: Reteplase Injection 18mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Normal Saline",
+          "description": "intracoronary infusion with normal saline",
+          "armGroupLabels": [
+            "placebo"
+          ],
+          "otherNames": [
+            "intracoronary normal saline"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Reteplase Injection 9mg",
+          "description": "low-dose intracoronary fibrinolytic therapy with reteplase 9mg",
+          "armGroupLabels": [
+            "reteplase 9mg"
+          ],
+          "otherNames": [
+            "intracoronary reteplase 9mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Reteplase Injection 18mg",
+          "description": "low-dose intracoronary fibrinolytic therapy with reteplase 18mg",
+          "armGroupLabels": [
+            "reteplase 18mg"
+          ],
+          "otherNames": [
+            "intracoronary reteplase 18mg"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial infarct size",
+          "description": "Myocardial infarct size (% left ventricular mass) demonstrated by contrast-enhanced cardiac magnetic resonance imaging (MRI)",
+          "timeFrame": "from days 2 through 7 after enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Amount of microvascular obstruction",
+          "description": "The amount of microvascular obstruction (% of left ventricular mass) demonstrated by late gadolinium-enhanced MRI",
+          "timeFrame": "from days 2 through 7 after enrollment"
+        },
+        {
+          "measure": "ST-segment resolution",
+          "description": "The percentage ST-segment resolution on an electrocardiogram",
+          "timeFrame": "60 minutes after reperfusion"
+        },
+        {
+          "measure": "CKMB level",
+          "description": "CKMB area under the curve (AUC)",
+          "timeFrame": "immediately before reperfusion (0 hours) and then again at 2 hours and at 24 hours"
+        },
+        {
+          "measure": "Left ventricular ejection fraction",
+          "description": "Left ventricular ejection fraction assessed by echocardiography",
+          "timeFrame": "1 and 30 days after PCI"
+        },
+        {
+          "measure": "Incidence of major adverse cardiac events (MACE)",
+          "description": "The composite of cardiac mortality, nonfatal myocardial reinfarction and target vessel revascularization",
+          "timeFrame": "30 days after PCI"
+        },
+        {
+          "measure": "Myocardial Blush Grade",
+          "description": "Angiographic measures of reperfusion. The score goes from 0 to 3, with 3 being normal and 0 being absence of myocardial blush",
+          "timeFrame": "0-1 hour at the end of PCI"
+        },
+        {
+          "measure": "TIMI corrected frame count",
+          "description": "Angiographic measures of reperfusion. Thrombolysis in myocardial infarction score with corrected frame count from angiogram to assess myocardial perfusion",
+          "timeFrame": "0-1 hour at the end of PCI"
+        },
+        {
+          "measure": "TIMI flow grade",
+          "description": "Angiographic measures of reperfusion. The score goes from 0 to 3, with 3 being normal and 0 being absence of coronary flow",
+          "timeFrame": "0-1 hour at the end of PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Acute STEMI with persistent ST-segment elevation or recent left bundle-branch block with a symptom onset to reperfusion time of 12 hours or less.\n2. Angiographic criteria included a proximal-mid coronary artery occlusion (TIMI coronary flow grade 0 or 1) or, impaired coronary flow (TIMI flow grade 2, slow but complete filling) in the presence of definite angiographic evidence of large thrombus (TIMI grade ≥2) in left anterior descending (LAD) coronary artery.\n\nExclusion Criteria:\n\n1. Rescue PCI after thrombolytic therapy.\n2. Need for emergency coronary artery bypass grafting.\n3. Presence of cardiogenic shock.\n4. Life expectancy of \\< 6 months.\n5. Inability to provide informed consent.\n6. Contraindications for the use of thrombolysis, including active internal bleeding, history of intracranial haemorrhage or ischaemic stroke within 6 months, recent major surgery or trauma, severe uncontrolled hypertension, thrombocytopenia and severe liver or kidney failure.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Junbo Ge",
+          "affiliation": "Department of Cardiology, Zhongshan Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Cardiology, Zhongshan Hospital, Fudan University",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "35800360",
+          "type": "RESULT",
+          "citation": "Huang D, Ma Y, Wu H, Zhong X, Gao W, Zhou J, Qian J, Ge J. Impact of intracoronary reteplase during primary percutaneous coronary intervention on infarct size in large anterior myocardial infarction: rationale and design of the RECOVER II trial. Cardiovasc Diagn Ther. 2022 Jun;12(3):352-359. doi: 10.21037/cdt-21-756."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        },
+        {
+          "id": "C087896",
+          "term": "reteplase"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

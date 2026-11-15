@@ -1,0 +1,279 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03122340",
+      "orgStudyIdInfo": {
+        "id": "Polyprenols"
+      },
+      "organization": {
+        "fullName": "Tomsk National Research Medical Center of the Russian Academy of Sciences",
+        "class": "OTHER"
+      },
+      "briefTitle": "Polyprenols (Ropren) in Acute Coronary Syndrome",
+      "officialTitle": "Single-center Double-blind, Randomized, Placebo-controlled Study of the Safety and Efficacy of Polyprenols (ROPREN) in Subjects With Acute Coronary Syndrome",
+      "acronym": "POLYNCOR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-04-06",
+      "studyFirstSubmitQcDate": "2017-04-19",
+      "studyFirstPostDateStruct": {
+        "date": "2017-04-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-04-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-04-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Evgeny V. Vyshlov",
+        "investigatorTitle": "Principal investigator",
+        "investigatorAffiliation": "Tomsk National Research Medical Center of the Russian Academy of Sciences"
+      },
+      "leadSponsor": {
+        "name": "Tomsk National Research Medical Center of the Russian Academy of Sciences",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to determine efficacy and safety of polyprenols (ROPREN) using in patients with acute coronary syndrome",
+      "detailedDescription": "This study is randomized double blind placebo controlled. Patients with acute coronary syndrome taking standard therapy including atorvastatin 40 mg/day were randomized into 2 groups: group 1 takes Ropren 8 drops 3 times per day for 3 week, then 5 drops 3 times per day for 5 weeks; group 2 take placebo in the same dose regimen. The hepatoprotective, hypolipidemic, antiinflammatory, cognitive, antidepression functions evaluates after one and two - month therapy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Acute Coronary Syndrome",
+        "Polyprenols",
+        "Cholesterol"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single-center double-blind, randomized, placebo-controlled study",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo Group",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Oil: 8 drops 3 times per day for 3 weeks, then 5 drops 3 times per day for 5 weeks",
+          "interventionNames": [
+            "Other: Oil"
+          ]
+        },
+        {
+          "label": "Polyprenol Group",
+          "type": "EXPERIMENTAL",
+          "description": "Polyprenols (ROPREN): 8 drops 3 times per day for 3 weeks, then 5 drops 3 times per day for 5 weeks",
+          "interventionNames": [
+            "Drug: Ropren"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ropren",
+          "description": "Per os 8 drops 3 times per day for 3 weeks, then 5 drops 3 times per day for 5 weeks",
+          "armGroupLabels": [
+            "Polyprenol Group"
+          ],
+          "otherNames": [
+            "Polyprenol"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Oil",
+          "description": "Per os 8 drops 3 times per day for 3 weeks, then 5 drops 3 times per day for 5 weeks",
+          "armGroupLabels": [
+            "Placebo Group"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Сardiospecific enzymes",
+          "description": "The levels of CK, CK-MB, Troponin I",
+          "timeFrame": "At 9 days after acute coronary syndrome"
+        },
+        {
+          "measure": "Hepatic enzymes",
+          "description": "The levels of AST, ALT, Alkaline phosphatase, Gamma glutamine transferase",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        },
+        {
+          "measure": "Inflammatory enzymes",
+          "description": "CRP, Interleukin-6, products of lipid peroxidation",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        },
+        {
+          "measure": "Cognitive Function",
+          "description": "Cognitive function test evolution: Montreal Cognitive Assessment Scale",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        },
+        {
+          "measure": "Lipid spectrum",
+          "description": "Cholesterol, triglycerides, lipoproteins high density, lipoproteins low density",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        },
+        {
+          "measure": "Bilirubin",
+          "description": "Total and direct",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        },
+        {
+          "measure": "Cognitive Function Anxiety",
+          "description": "Cognitive function test evolution: Sheehan Anxiety Rating Scale",
+          "timeFrame": "At 2 months after acute coronary syndrome"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute coronary syndrome\n* Informed consent received\n\nExclusion Criteria:\n\n* Patient's incapacity to take accurately drops by oneself\n* Cardiogenic shock",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Sergey V Popov, MD, PhD",
+          "affiliation": "Tomsk NRMC",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardiology Research Institute",
+          "city": "Tomsk",
+          "zip": "634012",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.50049,
+            "lon": 84.98216
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "29998439",
+          "type": "DERIVED",
+          "citation": "Vyshlov EV, Tsoy EI, Sultanov VS, Trusov VB, Ryabov VV. Hypolipidemic and Hepatoprotective Effects of a Polyprenol-Containing Drug in Patients with Acute Coronary Syndrome. Bull Exp Biol Med. 2018 Jul;165(3):319-321. doi: 10.1007/s10517-018-4159-x. Epub 2018 Jul 12."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000621159",
+          "term": "Ropren"
+        },
+        {
+          "id": "D009821",
+          "term": "Oils"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

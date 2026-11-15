@@ -1,0 +1,307 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01609647",
+      "orgStudyIdInfo": {
+        "id": "PRAISE-HPR"
+      },
+      "organization": {
+        "fullName": "Dong-A University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reloading Prasugrel or Clopidogrel on High Platelet Reactivity Before Percutaneous Coronary Intervention",
+      "officialTitle": "Comparison of Prasugrel and Clopidogrel Reloading on High Platelet Reactivity in Clopidogrel-loaded Patients Undergoing Percutaneous Coronary Intervention",
+      "acronym": "PRAISE-HPR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2012-05-29",
+      "studyFirstSubmitQcDate": "2012-05-30",
+      "studyFirstPostDateStruct": {
+        "date": "2012-06-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-12-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-12-23",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Moo Hyun Kim",
+        "investigatorTitle": "MD. Director, Regional Clinical Trial Center. Professor, Dept. of Cardiology Dong-A University Hospital",
+        "investigatorAffiliation": "Dong-A University"
+      },
+      "leadSponsor": {
+        "name": "Dong-A University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "High platelet reactivity unit (PRU) after loading dose clopidogrel in patients undergoing percutaneous coronary intervention (PCI) is related to high risk of short and long term recurrent ischemic events including stent thrombosis.\n\nThe investigators hypothesize that additional loading of prasugrel in patients with high PRU after clopidogrel loading would be superior to additional loading of clopidogrel in reducing platelet reactivity and thereby result in lower risk of short term recurrent ischemic events.",
+      "detailedDescription": "Dual antiplatelet therapy with acetylsalicyclic acid (ASA) and additional clopidogrel is now standard regimen for the prevention of recurrent ischemic events in patients who undergo PCI.\n\nBut decreased effect of clopidogrel in a group of patients was reported and they are known to be associated with high risk of recurrent ischemic event. Decreased effect of clopidogrel is mainly resulted from decreased function to metabolite prodrug, clopidogrel to active form of drug.\n\nPrasugrel, newer thienopyridine has been recently developed and showed advantages to clopidogrel. Prasugrel is known to have shorter onset time to achieve steady state level than clopidogrel and constant pharmacologic effect regardless of patient diversity.\n\nHigh PRU after loading dose clopidogrel in patients undergoing PCI is known to be related to increased risk of short and long term recurrent ischemic events including stent thrombosis. Prasugrel has been reported to be effective in reducing platelet reactivity in patients showing resistance to clopidogrel and high PRU.\n\nThe investigators hypothesize that additional loading of prasugrel in patients with high PRU after clopidogrel loading would be superior to additional loading of clopidogrel in reducing platelet reactivity and thereby result in reduced risk of short term recurrent ischemic events.\n\nThe investigators plan to include 70 acute coronary syndrome patients who are planned to undergo PCI and show high platelet reactivity. Most patients with ACS administer loading dose of ASA and clopidogrel as soon as they are assumed to be ACS.\n\nThe investigators plan to perform platelet reactivity test by VeryfyNow (VN) before PCI and enroll patients with high PRU defined by 235 or more. They are to randomly administered additional 300mg of clopidogrel or 20mg of prasugrel."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "High plate reactivity unit after loading dose of clopidogrel"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Prasugrel",
+          "type": "EXPERIMENTAL",
+          "description": "Reloading with prasugrel 20mg \\& followed by administration of 5mg/day for 30 days",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ]
+        },
+        {
+          "label": "Clopidogrel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Reloading with clopidogrel 300mg and followed by administration of clopidogrel 75 mg/day for 30 days",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Prasugrel",
+          "description": "Reloading with prasugrel 20mg and followed by daily administration of prasugrel 5mg for 30 days",
+          "armGroupLabels": [
+            "Prasugrel"
+          ],
+          "otherNames": [
+            "Effient"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Clopidogrel",
+          "description": "Reloading with clopidogrel 300mg and followed by daily administration of clopidogrel 75mg for 30 days",
+          "armGroupLabels": [
+            "Clopidogrel"
+          ],
+          "otherNames": [
+            "Plavix"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HPR at 24 hours",
+          "description": "Persistently high platelet reactivity after PCI. PRU is measured by methods of VerifyNow device and HPRU is defined as PRU of 240 or more.",
+          "timeFrame": "24 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "MACE",
+          "description": "Major adverse cardiovascular events consist of cardiac death, myocardial infarction, stroke, stent thrombosis, cardiac enzyme (CRP, CK-MB, Troponin-I)",
+          "timeFrame": "30 days (1 month)"
+        },
+        {
+          "measure": "Bleeding",
+          "description": "Major, minor or minimal bleeding defined by TIMI(thrombolysis in myocardial infarction) bleeding criteria",
+          "timeFrame": "30 days (1 month)"
+        },
+        {
+          "measure": "HPRs",
+          "description": "Persistently high platelet reactivity 4 hours and 30 days after PCI. PRU is measured by methods of VerifyNow device and HPRU is defined as PRU of 240 or more.",
+          "timeFrame": "4 hours after PCI, 30 days after PCI"
+        },
+        {
+          "measure": "Periprocedural myocardial infarction",
+          "description": "Cardiac troponin value is \\>5x99th percentile upper reference plus either (1) evidence of prolonged ischaemic chest pain (\\>20min) or (2) ischaemic ST changes or new pathological Q waves, or (3) angiographic evidence of a side branch occlusion, slow-flow or no-reflow, embolization, or (4) imaging evidence of new regional wall motion abnormality.",
+          "timeFrame": "48 hours after PCI"
+        },
+        {
+          "measure": "Periprocedural myocardial injury",
+          "description": "Cardiac troponin (cTn) value is ≤5x99th percentile upper reference limit (URL) after PCI and cTn value was normal before the PCI or cTn value is \\>5x99th percentile URL in absence of ischaemic chest pain or ST changes, with normal angiographic and imaging findings.",
+          "timeFrame": "48 hours after PCI"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute coronary syndrome\n* Patients planned to undergo percutaneous transluminal coronary angioplasty\n* Patients who agreed to the experimental plan which was permitted by IRB\n\nExclusion Criteria:\n\n* Low body weight (\\<50kg)\n* Urgent PCI for ACS\n* Use of glycoprotein IIb/IIIa inhibitor in recent 24hrs or planned to\n* History of transient ischemic attack\n* History of upper gastrointestinal bleeding in recent 6 months\n* Renal dysfunction defined as serum creatinine \\> 2.5 mg/dl\n* Severe hepatic dysfunction defined as serum transaminase \\> 3 times normal limit\n* Bleeding tendency\n* Anticoagulation treatment including warfarin\n* Thrombocytopenia defined by platelet \\< 100,000/ml\n* Anemia defined by hemoglobin \\< 10 g/dl\n* Contraindication for study drugs",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Moo Hyun Kim, MD",
+          "affiliation": "Director, Regional Clinical Trial Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "DongA University Hospital",
+          "city": "Busan",
+          "zip": "602-715",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27517654",
+          "type": "DERIVED",
+          "citation": "Guo LZ, Kim MH, Shin ES, Ann SH, De Jin C, Cho YR, Park JS, Park K, Park TH, Lee MS, Serebruany VL. Thienopyridine reloading in clopidogrel-loaded patients undergoing percutaneous coronary interventions: The PRAISE study. Int J Cardiol. 2016 Nov 1;222:639-644. doi: 10.1016/j.ijcard.2016.08.027. Epub 2016 Aug 4."
+        },
+        {
+          "pmid": "23448344",
+          "type": "DERIVED",
+          "citation": "Lee DH, Kim MH, Park TH, Park JS, Park K, Zhang HZ, Seo JM, Lee MS. Comparison of prasugrel and clopidogrel reloading on high platelet reactivity in clopidogrel-loaded patients undergoing percutaneous coronary intervention (PRAISE-HPR): a study protocol for a prospective randomized controlled clinical trial. Trials. 2013 Feb 28;14:62. doi: 10.1186/1745-6215-14-62."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

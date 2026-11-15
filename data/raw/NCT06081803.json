@@ -1,0 +1,301 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06081803",
+      "orgStudyIdInfo": {
+        "id": "EVO-STEMI_version 4.1"
+      },
+      "organization": {
+        "fullName": "Sejong General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evolocumab in STEMI",
+      "officialTitle": "The Effect of Evolocumab on Infarct Size in Patients With ST-segment Elevation Myocardial Infarction; Prospective, Randomized, Open Label, Controlled Trial",
+      "acronym": "EVO-STEMI"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-12-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-09-30",
+      "studyFirstSubmitQcDate": "2023-10-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hyun Jong Lee",
+        "investigatorTitle": "MD, PhD",
+        "investigatorAffiliation": "Sejong General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Sejong General Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Samsung Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Health Insurance Service Ilsan Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Chonnam National University Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Daegu Catholic University Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "Catholic University of Korea Eunpyeong St. Mary's Hospital",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to compare the size of myocardial infarct between evolocumab and control groups in patients with ST segment elevation myocardial infarction who undergoing primary percutaneous coronary intervention(PCI). All study participants will undergo a cardiac MRI 4 weeks after primary reperfusion. The evolocumab group will receive 420 mg before PCI via subcutaneous injection.",
+      "detailedDescription": "The gold standard for the treatment of ST-segment elevation myocardial infarction (STEMI) is to rapidly restore myocardial blood flow through primary percutaneous coronary intervention (primary PCI) as soon as possible. While primary PCI achieves successful reperfusion of the infarct-related epicardial coronary artery in over 90% of these patients, only approximately 35% achieve ideal reperfusion to the myocardium level. This condition is termed myocardial no-reflow or microvascular obstruction (MVO). The primary pathophysiology of MVO includes severe inflammatory reactions within the ischemic vessel, distal embolization of thrombi, microthrombi formation in the microvasculature, and microvascular spasm, tissue peri-infarct edema, and intramyocardial hemorrhage. Previous studies has reported that the use of atorvastatin 80mg before PCI can reduce myocardial injury occurring during PCI in patients with acute coronary syndrome (ACS), and can improve microvascular blood flow in STEMI patients undergoing primary PCI. Furthermore, it has been reported to improve microvascular functional impairment evaluated by microvascular resistance index in non-ST-segment elevation acute coronary syndrome patients and exhibit anti-inflammatory effects. However, Two randomized trials atorvastatin 80mg did not reduce infarct size, which was primary endpoint in STEMI patients.\n\nRecently, strong LDL cholesterol-lowering agent, PCSK9 inhibitors, have been developed and used in clinical practice, and they seem to have pleiotropic effects similar to high-intensity statins, including anti-inflammatory and antithrombotic effects. In-vitro and vivo models have shown that the introduction of human PCSK9 increases platelet aggregation in normal adult plasma and that mice without PCSK9 exhibit decreased arterial thrombosis and thrombus stability when induced . Patients with higher levels of serum PCSK9 had higher platelet reactivity after antiplatelet therapy and an increased incidence of ischemic events following coronary intervention in ACS setting. This suggests that circulating PCSK9 contributes to arterial thrombus formation, and PCSK9 inhibition may improve this. Additionally, evolocumab is known to reduce Lp(a), which is well-known for its pro-atherosclerotic and pro-inflammatory effects, by approximately 30%.\n\nAlso, Pharmaceutically, evolocumab exhibits maximum inhibitory effect against PCSK9 within just 4 hours of injection, potentially beneficial for patients with acute myocardial infarction who need a rapid effect before the infarction fully develops.\n\nIn this clinical trial, we hypothesize that administering evolocumab before primary PCI in patients with acute STEMI may reduce MVO through its antiplatelet and anti-inflammatory effects and subsequently decrease the size of the myocardial infarction."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Elevation Myocardial Infarction"
+      ],
+      "keywords": [
+        "PCSK9",
+        "percutaneous coronary intervention",
+        "Infarct size"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Evolocumab group vs control group",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 166,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Evolocumab group",
+          "type": "EXPERIMENTAL",
+          "description": "Evolocumab 420mg subcutaneous injection before primary PCI",
+          "interventionNames": [
+            "Drug: Repatha®"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "NO_INTERVENTION",
+          "description": "without Evolocumab 420mg before primary PCI"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Repatha®",
+          "description": "Repatha® 140mg x 3 pens subcutaneous injection",
+          "armGroupLabels": [
+            "Evolocumab group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Myocardial infarct size",
+          "description": "assessed by cardiac MRI",
+          "timeFrame": "1 month after primary reperfusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The incidence of MVO",
+          "description": "assessed by cardiac MRI",
+          "timeFrame": "1 month after primary reperfusion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "ST segment resolution",
+          "description": "assessed by 12-leads ECG",
+          "timeFrame": "1 hour after primary reperfusion"
+        },
+        {
+          "measure": "Area under the curve of enzymatic infarct size",
+          "timeFrame": "within 48 hours after primary reperfusion"
+        },
+        {
+          "measure": "Myocardial blush grade",
+          "description": "assessed by coronary angiography",
+          "timeFrame": "Immediate after primary reperfusion"
+        },
+        {
+          "measure": "Corrected TIMI frame count",
+          "description": "assessed by coronary angiography",
+          "timeFrame": "Immediate after primary reperfusion"
+        },
+        {
+          "measure": "TIMI myocardial perfusion grade",
+          "description": "assessed by coronary angiography",
+          "timeFrame": "Immediate after primary reperfusion"
+        },
+        {
+          "measure": "The change of LDL-Cholesterol from baseline",
+          "timeFrame": "1 month after primary reperfusion"
+        },
+        {
+          "measure": "The change of Lipoprotein (a) from baseline",
+          "timeFrame": "1 month after primary reperfusion"
+        },
+        {
+          "measure": "Platelet reactivity on treatment",
+          "description": "Assessed by Verifynow",
+          "timeFrame": "1 month after primary reperfusion"
+        },
+        {
+          "measure": "Hs-CRP level",
+          "timeFrame": "1 month after primary reperfusion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Typical ischemic chest pain persists for more than 30 minutes\n* An elevation of an ST segment greater than 1 mm in two consecutive leads or new-onset left bundle branch block\n* Presenting more than 12 hours after the onset of symptoms\n\nExclusion Criteria:\n\n* Previous history of myocardial infarction\n* Previous history of coronary bypass surgery\n* Cardiogenic shock that lasts more than 10 minutes or cardiac arrest\n* Occlusion of the left main coronary artery\n* Pregnant or have a plan of pregnancy\n* Serum creatinine level is \\>2.5mg/dL or dialysis is required",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "30 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Sejong General Hospital",
+          "city": "Bucheon-si",
+          "zip": "14574",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.49889,
+            "lon": 126.78306
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C577155",
+          "term": "evolocumab"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

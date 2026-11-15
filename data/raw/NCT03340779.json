@@ -1,0 +1,373 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03340779",
+      "orgStudyIdInfo": {
+        "id": "2017-001270-41"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2017"
+        }
+      ],
+      "organization": {
+        "fullName": "Central Hospital, Nancy, France",
+        "class": "OTHER"
+      },
+      "briefTitle": "Norepinephrine vs Norepinephrine and Dobutamine in Cardiogenic Shock",
+      "officialTitle": "Norepinephrine vs Norepinephrine and Dobutamine in Cardiogenic Shock : a Randomised, Opened, Cross-over Study. Heart SHOCK-NORDOB Study",
+      "acronym": "SHOCK-NORDOB"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-09",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "NOT_YET_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-01-15",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-11-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2020-05-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-09-20",
+      "studyFirstSubmitQcDate": "2017-11-08",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-11-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-11-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Central Hospital, Nancy, France",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Cardiogenic shock is a frequent cause of admission and death in the intensive care unit.\n\nMortality is about 50%. Once the etiologic treatment has been done, for instance coronary revascularization, management of the shock state is the cornerstone of the treatment. Norepinephrine is the first-line vasopressor therapy because of its minor effect on heart rhythm. Morever norepinephrine is a inotrope. In a previous study, we demonstrated that increasing the norepinephrine dose increases cardiac index, cardiac power index, SVO2 and tissue perfusion without acceleration of heart rate. Nevertheless, dobutamine remains the first-line inotropic treatment. Dobutamine has a positive chronotropic effect that might cause higher myocardial oxygen consumption. As a result, combination of vasopressor / inotrope is still controversial.\n\nThe aim of this study was to compare hemodynamics and metabolics effects of 2 treatments strategies (norepinephrine dose increasing or addition of dobutamine) in patients with cardiogenic shock and optimised blood pressure level (MAP≥65 mmHg) under norepinephrine treatment.\n\nThe secondary objectives were :\n\n* To evaluate the efficacy of the treatments on micro- and macrocirculation parameters\n* To evaluate the tolerance of the treatments\n* To evaluate the dose and the admistration's kinetics of the treatments"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ],
+      "keywords": [
+        "Norepinephrine",
+        "Dobutamine",
+        "Shock"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "3 first hours : strategy 1, norepinephrine alone with increased dose or norepinephrine + dobutamine 0.5 hour : wash-out (decrease of norepinephrine dose or weaning of dobutamine) 3 last hours : strategy 2, crossover, norepinephrine alone with increased dose or norepinephrine + dobutamine",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Norepinephrine alone",
+          "type": "EXPERIMENTAL",
+          "description": "Administration of norepinephrine with increasing dose",
+          "interventionNames": [
+            "Drug: Norepinephrine"
+          ]
+        },
+        {
+          "label": "Norepinephrine plus Dobutamine",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Administration of norepinephrine and dobutamine",
+          "interventionNames": [
+            "Drug: Norepinephrine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Norepinephrine",
+          "description": "After obtention of a mean arterial pressure (MAP) of 65 mmHg with infusion of norepinephrine, patients with cardiogenic shock receive for 3 hours either increasing doses of norepinephrine (with a maximal MAP of 85 mmHg) or dobutamine. There is a wash-out phase of 30 minutes (decrease of norepinephrine dose or weaning of dobutamine). The third phase of the study is the administration of the comparator treatment during 3 hours. After the 6.5 hours of the study, the hemodynamic management is up to the physician.",
+          "armGroupLabels": [
+            "Norepinephrine alone",
+            "Norepinephrine plus Dobutamine"
+          ],
+          "otherNames": [
+            "Dobutamine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Obtention of a optimal cardiac output",
+          "description": "Measure of increase of cardiac index \\> 15% (L/min/m²), increase of organ perfusion assessed by : lactate clearance \\> 15% (mmoL/L), decrease of mottling (decrease of 2 points of Mottling score), increase of musculaire oxygen saturation measured by NIRS \\> 15% (rSo2%), increase of urine output \\> 50% (mL/h), increase of SVcO2 \\> 15%(%)\n\nEvaluation of occurence of side effects :\n\nIncrease of heart rate \\> 15% (bpm) , increase of oxygen consumption evaluated by decrease of ratio mean arterial pressure / heart rate \\> 15% (Buffington ratio).\n\nThe primary endpoint is defined by the presence of 2 efficacy criterias without any side effects.",
+          "timeFrame": "Hour 0 (H0), Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in hemodynamic parameters",
+          "description": "Measure of heart rate (bpm),",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Occurence of arrythmia",
+          "description": "Notification of atrial arrythmia",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in hemodynamic parameters",
+          "description": "Cumulated dose of catecholamines",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Mortality",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Change in hemodynamic parameters",
+          "description": "Arterial blood pressure (mmHg)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in metabolic parameters",
+          "description": "SVcO2 (%)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in metabolic parameters",
+          "description": "Lactate clearance (mmol/L)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in metabolic parameters",
+          "description": "Muscular oxygen saturation (%)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in metabolic parameters",
+          "description": "Urine output (mL/h)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Change in metabolic parameters",
+          "description": "Mottle (mottle score)",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        },
+        {
+          "measure": "Occurence of arrythmia",
+          "description": "Notification of ventricular arrythmia",
+          "timeFrame": "Hour 0, Hour 1, Hour 3, Hour 3.5, Hour 4,5, Hour 5.5, Hour 6.5"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with cardiogenic shock (ischemic, rythmic, valvular) defined : by cardiac index (CI) \\< 2,2 L/min/m² or CI \\< 2,5 L/min/m² under vasopressor/inotropic treatment and organ hypoperfusion signs : mottles, capillary refill time , urine output \\< 0,5 mL/kg/hour during at least one hour ou renal replacement therapy, consciouness impairment, pulmonary oedema, hyperlactatemia (\\> 2 mmoL/L)\n* Mean arterial pressure \\> 65 mmHg under norepinephrine treatment\n* Patients with social coverage\n\nExclusion Criteria:\n\n* \\< 18 years old\n* Pregnancy\n* Inclusion in other drug study\n* Poisonings with cardiotoxicants\n* Patient with intra-aortic ballon pump, extracorporeal life support\n* Patient under guardianship",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "CHU Nancy-Brabois",
+          "city": "Vandœuvre-lès-Nancy",
+          "zip": "54500",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Thomas Auchet, MD",
+              "role": "CONTACT",
+              "phone": "033383157022",
+              "email": "t.auchet@chru-nancy.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009638",
+          "term": "Norepinephrine"
+        },
+        {
+          "id": "D004280",
+          "term": "Dobutamine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D010627",
+          "term": "Phenethylamines"
+        },
+        {
+          "id": "D005021",
+          "term": "Ethylamines"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,656 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00910065",
+      "orgStudyIdInfo": {
+        "id": "12946"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2007-005163-94",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Bayer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "BAY81-8781, I.V. Aspirin in the Indication of Acute Coronary Syndrome (ACS)",
+      "officialTitle": "A Prospective, Randomized, Verum Controlled, Open Label, Parallel Group Multi-center Phase III Clinical Trial to Demonstrate the Superiority of 500 or 250 mg Aspirin® i.v. (BAY 81-8781) Treatment Versus 300 mg Aspirin® N Tablets p.o. (BAY e4465A) in Patients With Acute Coronary Syndrome, Measured by Time Dependent Thromboxane Inhibition",
+      "acronym": "ACUTE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-05-28",
+      "studyFirstSubmitQcDate": "2009-05-28",
+      "studyFirstPostDateStruct": {
+        "date": "2009-05-29",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-06-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-06-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Bayer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to investigate whether intravenous administration (injected into a vein) of acetylsalicylic acid (Aspirin) in doses of 250 and 500 mg is superior to oral treatment of ACS with tablets containing 300 mg of Aspirin.",
+      "detailedDescription": "In November 2009 it was the company's decision to cancel this study as an international trial. However, to support the local MA application of Aspirin i.v. for the indication \"For the initial treatment in case of suspicion of acute coronary syndrome\", Bayer decided to perform this trial in Germany as a domestic trial, with changed number of participants and study dates."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Acute Coronary Syndrome",
+        "ACS",
+        "Aspirin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 270,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: D,L-lysine acetylsalicylate (Aspirin, BAY81-8781) 500 mg IV"
+          ]
+        },
+        {
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: D,L-lysine acetylsalicylate (Aspirin, BAY81-8781) 250 mg IV"
+          ]
+        },
+        {
+          "label": "Arm 3",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Acetylsalicylic acid (Aspirin, BAYe4465) 300 mg Tablet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "D,L-lysine acetylsalicylate (Aspirin, BAY81-8781) 500 mg IV",
+          "description": "Single IV dose of aspirin at a dose of 500 mg as bolus infusion injection in approximately 30 seconds through the vein on Day 1.",
+          "armGroupLabels": [
+            "Arm 1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "D,L-lysine acetylsalicylate (Aspirin, BAY81-8781) 250 mg IV",
+          "description": "Single IV dose of aspirin at a dose of 250 mg as bolus infusion injection in approximately 30 seconds through the vein on Day 1.",
+          "armGroupLabels": [
+            "Arm 2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Acetylsalicylic acid (Aspirin, BAYe4465) 300 mg Tablet",
+          "description": "Single oral dose of aspirin tablet at a dose of 300 mg on Day 1.",
+          "armGroupLabels": [
+            "Arm 3"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Concentration of Thromboxane B2 (TXB2) at 5 Minutes Post-dose",
+          "timeFrame": "5 minutes post-dose"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Concentration of Thromboxane B2 (TXB2) at 20 Minutes Post-dose",
+          "timeFrame": "20 minutes post-dose"
+        },
+        {
+          "measure": "Platelet Aggregation Inhibition (PAI) at 5 Minutes and 20 Minutes After Single Dose of Study Drug Administration Measured as Response to Treatment",
+          "timeFrame": "5 and 20 minutes post-dose"
+        },
+        {
+          "measure": "Serum Concentration of Prostacyclin Metabolite at 5 and 20 Minutes Post-dose",
+          "timeFrame": "5 and 20 minutes post-dose"
+        },
+        {
+          "measure": "Incidence of the Composite Clinical Endpoint of Cardiovascular Death, Stroke and Myocardial Infarction up to Day 30 After Single Dose of Study Drug Administration",
+          "timeFrame": "Post-randomization up to 30 days after single dose of study drug administration"
+        },
+        {
+          "measure": "Incidence of Post-randomization Deaths From all Causes, Cardiovascular Deaths, Myocardial Re/Infarctions and Ischemic Strokes Within 24 Hours, 7 Days And 30 Days After Single Dose of Study Drug Administration",
+          "timeFrame": "Post-randomization up to 24 hours, 7 days and 30 days after single dose of study drug administration"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Angina pectoris lasting for more than 20 minutes within the last 24 hours before study drug treatment (or equivalent acute symptoms such as increasing dyspnea, diaphoresis, nausea, abdominal/epigastric pain, syncope etc.)\n* ECG change suggestive for ischemia:\n* ST elevation or T-wave change or ST depression, new or presumed left bundle-branch block (LBBB)\n* Elevated troponin T level \\> 0.01 ng/ml, levels according to local laboratory reference values\n* Risk factors for ACS such as known coronary artery disease (CAD), diabetes mellitus, impaired renal function, peripheral artery or cerebrovascular disease, current smoking.\n\nExclusion Criteria:\n\n* Treatment with acetylsalicylic acid (ASA) within 48 hours prior to study drug treatment\n* Treatment with glycoprotein IIa/IIIb inhibitors within 48 hours prior to study drug treatment and before the 20 minutes blood samples for thromboxane, prostacycline and platelet aggregation measurement have been taken\n* Thrombolytic therapy within 24 hours before study drug treatment\n* Obligation for tracheal intubation and mechanical ventilation\n* Contraindications to ASA treatment\n* Known haemorrhagic diathesis\n* Evidence of an active gastrointestinal or urogenital bleeding\n* Stroke within 3 months prior to study drug treatment\n* Major surgery including coronary artery bypass graft (CABG) within 6 weeks prior to study drug treatment\n* Known severe hepatic or renal insufficiency\n* Pregnant or breast-feeding women",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bayer Study Director",
+          "affiliation": "Bayer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510080",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510100",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510120",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510405",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "city": "Changsha",
+          "state": "Hunan",
+          "zip": "410013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "city": "Nanchang",
+          "state": "Jiangxi",
+          "zip": "330006",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "zip": "110004",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "zip": "110016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "city": "Beijing",
+          "zip": "100029",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "city": "Beijing",
+          "zip": "100037",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "city": "Shanghai",
+          "zip": "200080",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "city": "Bad Krozingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "79189",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.91667,
+            "lon": 7.7
+          }
+        },
+        {
+          "city": "Heidelberg",
+          "state": "Baden-Wurttemberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "city": "Coburg",
+          "state": "Bavaria",
+          "zip": "96450",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.25937,
+            "lon": 10.96384
+          }
+        },
+        {
+          "city": "Dachau",
+          "state": "Bavaria",
+          "zip": "85221",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.26,
+            "lon": 11.43402
+          }
+        },
+        {
+          "city": "Melsungen",
+          "state": "Hesse",
+          "zip": "34212",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.13029,
+            "lon": 9.55236
+          }
+        },
+        {
+          "city": "Bonn",
+          "state": "North Rhine-Westphalia",
+          "zip": "53105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "50968",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "city": "Mönchengladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "41063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "city": "Soest",
+          "state": "North Rhine-Westphalia",
+          "zip": "59494",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.57558,
+            "lon": 8.10619
+          }
+        },
+        {
+          "city": "Ludwigshafen am Rhein",
+          "state": "Rhineland-Palatinate",
+          "zip": "67063",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.48121,
+            "lon": 8.44641
+          }
+        },
+        {
+          "city": "Mainz",
+          "state": "Rhineland-Palatinate",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "city": "Worms",
+          "state": "Rhineland-Palatinate",
+          "zip": "67550",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.63278,
+            "lon": 8.35916
+          }
+        },
+        {
+          "city": "Magdeburg",
+          "state": "Saxony-Anhalt",
+          "zip": "39112",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.13129,
+            "lon": 11.63189
+          }
+        },
+        {
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "12351",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "109263",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "115093",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "115516",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "117292",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "119881",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Moscow",
+          "zip": "125101",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "city": "Alicante",
+          "state": "Alicante",
+          "zip": "03010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "city": "San Juan",
+          "state": "Alicante",
+          "zip": "03550",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.13072,
+            "lon": -2.43912
+          }
+        },
+        {
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "city": "Valencia",
+          "state": "Valencia",
+          "zip": "46015",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Click here to find information about studies related to Bayer Healthcare products conducted in Europe.",
+          "url": "http://www.clinicaltrialsregister.eu/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "removedCountries": [
+        "Austria"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,3589 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02981407",
+      "orgStudyIdInfo": {
+        "id": "Pro20160000722"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1U01HL133817-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/1U01HL133817-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "briefTitle": "Myocardial Ischemia and Transfusion",
+      "officialTitle": "Myocardial Ischemia and Transfusion",
+      "acronym": "MINT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-04-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-05-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-10-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-12-01",
+      "studyFirstSubmitQcDate": "2016-12-01",
+      "studyFirstPostDateStruct": {
+        "date": "2016-12-05",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2024-03-19",
+      "resultsFirstSubmitQcDate": "2024-04-16",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-05-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jeffrey L Carson, MD",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Rutgers, The State University of New Jersey"
+      },
+      "leadSponsor": {
+        "name": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Pittsburgh",
+          "class": "OTHER"
+        },
+        {
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare two red blood cell transfusion strategies (liberal and restrictive) for patients who have had an acute myocardial infarction and are anemic.",
+      "detailedDescription": "In most clinical settings, evidence suggests it is safe to wait to give a blood transfusion. However, for those who have suffered a heart attack, there is a lack of high quality evidence to guide transfusions. This 3500 subject multi-center randomized trial will fill that void.\n\nHospital inpatients diagnosed with myocardial infarction who have blood counts less than 10 g/dL are randomized to receive either a liberal or a restrictive transfusion strategy.\n\nPatients randomized to the liberal transfusion strategy will receive a red blood cell transfusion anytime there is a blood count of less than 10 g/dL.\n\nPatients randomized to the restrictive transfusion strategy are permitted to receive a blood transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion is ordered regardless of the blood count.\n\nThe transfusions strategies will be maintained until hospital discharge for a maximum of 30 days.\n\nPatients will be followed for 30 days for clinically relevant outcomes. Vital status will be confirmed at 180 days."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction",
+        "Anemia"
+      ],
+      "keywords": [
+        "Red Blood Cell Transfusion",
+        "Anemia",
+        "Heart Disease",
+        "Cardiovascular Disease"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3506,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Liberal Transfusion Strategy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.",
+          "interventionNames": [
+            "Biological: Red Blood Cell Transfusion"
+          ]
+        },
+        {
+          "label": "Restrictive Transfusion Strategy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.",
+          "interventionNames": [
+            "Biological: Red Blood Cell Transfusion"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Red Blood Cell Transfusion",
+          "description": "Transfusion of packed red blood cell units",
+          "armGroupLabels": [
+            "Liberal Transfusion Strategy",
+            "Restrictive Transfusion Strategy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With All-cause Mortality or Nonfatal Myocardial Reinfarction",
+          "timeFrame": "Within 30 days of randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause Mortality",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Myocardial Reinfarction",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Composite of All-cause Mortality, Nonfatal Myocardial Reinfarction, Ischemia Driven Unscheduled Coronary Revascularization, or Readmission to the Hospital for Ischemic Cardiac Diagnosis",
+          "timeFrame": "Within 30 days of randomization"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Composite of All-cause Mortality,Nonfatal Myocardial Reinfarction, or Unstable Angina",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Ischemia Driven Unscheduled Coronary Revascularization",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Unscheduled Readmission to Hospital for Ischemic Cardiac Diagnosis",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Heart Failure",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Unscheduled Readmission to Hospital for Any Reason",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Stroke",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Pulmonary Embolism or Deep Venous Thrombosis",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Bleed",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Pneumonia",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Blood Stream Infection",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Urinary Tract Infection",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Length of Hospital Stay Post Randomization",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Number of Days Post Randomization in Intensive Care Unit",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "Patient Reported Quality of Life",
+          "description": "EuroQol questionnaire",
+          "timeFrame": "Within 30 days of randomization"
+        },
+        {
+          "measure": "All-cause Mortality",
+          "timeFrame": "Within 6 months of randomization"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Either ST segment elevation myocardial infarction or Non ST segment elevation myocardial infarction consistent with the 3rd Universal Definition of Myocardial Infarction criteria that occurs on admission or during the index hospitalization\n* Hemoglobin concentration less than 10 g/dL at the time of random allocation\n* Patient physician believes that both of the transfusion strategies are consistent with good medical care for the patient\n\nExclusion Criteria:\n\n* Uncontrolled acute bleeding at the time of randomization defined as the need for uncrossed or non-type specific blood\n* Decline blood transfusion\n* Scheduled for cardiac surgery during the current admission\n* Receiving only palliative treatment\n* Known that follow-up will not be possible at 30 days\n* Previously participated in MINT\n* Currently enrolled in a competing study that interferes with the intervention or follow-up of MINT or enrolled in a competing study that has not been approved by the local Institutional Review Board\n* Patient physician does not believe the patient is an appropriate candidate for the trial",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jeffrey L Carson, MD",
+          "affiliation": "Rutgers Robert Wood Johnson Medical School",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Maria Mori Brooks, PhD",
+          "affiliation": "University of Pittsburgh",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Central Arkansas Veterans Healthcare System",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "University of Arkansas Medical Sciences (UAMS) Hospital",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "VAGLAHS",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90073",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Danbury Hospital",
+          "city": "Danbury",
+          "state": "Connecticut",
+          "zip": "06810",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.39482,
+            "lon": -73.45401
+          }
+        },
+        {
+          "facility": "Rush University Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "University of Chicago Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Alexian Brothers Medical Center",
+          "city": "Elk Grove Village",
+          "state": "Illinois",
+          "zip": "60007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.00392,
+            "lon": -87.97035
+          }
+        },
+        {
+          "facility": "AMITA Health",
+          "city": "Hinsdale",
+          "state": "Illinois",
+          "zip": "60521",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.80086,
+            "lon": -87.93701
+          }
+        },
+        {
+          "facility": "Saint Luke's Mid America Heart",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "University of Louisville",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Tulane University School of Medicine",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "01930",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "15261",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Lahey Hospital",
+          "city": "Burlington",
+          "state": "Massachusetts",
+          "zip": "01805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.50482,
+            "lon": -71.19561
+          }
+        },
+        {
+          "facility": "University of Michigan",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "St. Joseph Mercy Health System",
+          "city": "Ypsilanti",
+          "state": "Michigan",
+          "zip": "48197",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.24115,
+            "lon": -83.61299
+          }
+        },
+        {
+          "facility": "Essentia Health",
+          "city": "Duluth",
+          "state": "Minnesota",
+          "zip": "55805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          }
+        },
+        {
+          "facility": "University of Minnesota Medical Center Fairview",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Minneapolis Heart Institute (Foundation)",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407-1130",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Memorial Hospital at Gulfport",
+          "city": "Gulfport",
+          "state": "Mississippi",
+          "zip": "39502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.36742,
+            "lon": -89.09282
+          }
+        },
+        {
+          "facility": "Washington University",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Copper University Hospital",
+          "city": "Camden",
+          "state": "New Jersey",
+          "zip": "08103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.92595,
+            "lon": -75.11962
+          }
+        },
+        {
+          "facility": "Hackensacjk University Medical Center",
+          "city": "Hackensack",
+          "state": "New Jersey",
+          "zip": "07601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.88593,
+            "lon": -74.04347
+          }
+        },
+        {
+          "facility": "Jersey Shore University Medical",
+          "city": "Neptune City",
+          "state": "New Jersey",
+          "zip": "08759",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.20011,
+            "lon": -74.02792
+          }
+        },
+        {
+          "facility": "Robert Wood Johnson University Hospital",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "University of New Mexico",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "Albany Medical College",
+          "city": "Albany",
+          "state": "New York",
+          "zip": "12208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          }
+        },
+        {
+          "facility": "Southside Hospital",
+          "city": "Bay Shore",
+          "state": "New York",
+          "zip": "11706",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.7251,
+            "lon": -73.24539
+          }
+        },
+        {
+          "facility": "NYP Brooklyn Methodist",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "New York Presbyterian/Queens",
+          "city": "Flushing",
+          "state": "New York",
+          "zip": "11355",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76538,
+            "lon": -73.81736
+          }
+        },
+        {
+          "facility": "Westchester Medical Center",
+          "city": "Hawthorne",
+          "state": "New York",
+          "zip": "10532",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.10732,
+            "lon": -73.79597
+          }
+        },
+        {
+          "facility": "North Shore University Hospital",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "Northern Westchester Hospital",
+          "city": "Mount Kisco",
+          "state": "New York",
+          "zip": "10549",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.20426,
+            "lon": -73.72708
+          }
+        },
+        {
+          "facility": "NYU Langone Medical Center, Bellevue Hospital",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Lenox Hilll Hospital",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10075",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Rochester General Hospital",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14450",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "University of Rochester",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14642",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Northwell Staten Island Hopsital",
+          "city": "Staten Island",
+          "state": "New York",
+          "zip": "10305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.56233,
+            "lon": -74.13986
+          }
+        },
+        {
+          "facility": "Stony Brook Medicine",
+          "city": "Stony Brook",
+          "state": "New York",
+          "zip": "11794-8167",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92565,
+            "lon": -73.14094
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "The University of North Carolina at Chapel Hill",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599-7097",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Durham Va",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "WakeMed Health and Hospital",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27610",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Aultman Hospital",
+          "city": "Canton",
+          "state": "Ohio",
+          "zip": "44710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79895,
+            "lon": -81.37845
+          }
+        },
+        {
+          "facility": "University of Toledo Medical Center",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43614",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Lancaster General Hospital",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "PENN Presbyterian Medical Cente",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Thomas Jefferson University",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15261",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Lankenau Medical Center",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        },
+        {
+          "facility": "Rhode Island Hospital",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "The Miriam Hospital",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02906",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Greenville Health System",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "The Memphis VAMC",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        },
+        {
+          "facility": "Baylor St Luke's Medical Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Vermont Medical Center",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        },
+        {
+          "facility": "Virginia Commonwealth University",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23298",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Medical College of Wisconsin - Froedtert Hospital",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Flinders Medical Centre",
+          "city": "Bedford Park",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Concord Repatriation General Hospital",
+          "city": "Concord",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.84722,
+            "lon": 151.10381
+          }
+        },
+        {
+          "facility": "Gosford Hospital",
+          "city": "Gosford",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.4244,
+            "lon": 151.34399
+          }
+        },
+        {
+          "facility": "Royal Perth Hospital",
+          "city": "Perth",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          }
+        },
+        {
+          "facility": "Instituto de Ensino e Pesquisa do Hospital da Bahia",
+          "city": "Pituba",
+          "state": "Salvador",
+          "zip": "41810",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -11.67389,
+            "lon": -42.71806
+          }
+        },
+        {
+          "facility": "Hospital de Base de Rio Preto",
+          "city": "São José do Rio Preto",
+          "state": "São Paulo",
+          "zip": "15080-310",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Hospital Felício Rocho",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Instituto Orizonti",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Instituto de Ensino e Pesquisa do Hospital do Coração do Brasil",
+          "city": "Brasília",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Hospital Vera Cruz",
+          "city": "Campinas",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90556,
+            "lon": -47.06083
+          }
+        },
+        {
+          "facility": "Santa Casa de Marília",
+          "city": "Cascata",
+          "zip": "17515-900",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -31.62444,
+            "lon": -52.50222
+          }
+        },
+        {
+          "facility": "Sociedade Hospitalar Angelina Caron",
+          "city": "Centro",
+          "zip": "83430-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.88899,
+            "lon": -43.12314
+          }
+        },
+        {
+          "facility": "Hospital Maternidade e Pronto Socorro Santa Lúcia",
+          "city": "Poços de Caldas",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -21.78778,
+            "lon": -46.56139
+          }
+        },
+        {
+          "facility": "Instituto de Cardiologia do RS",
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Agamenon Magalhães",
+          "city": "Recife",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Pronto Socorro Cardiológico de Pernambuco Prof. Luiz Tavares- PROCAPE",
+          "city": "Recife",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Hospital Cárdio Pulmonar",
+          "city": "Salvador",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital Universitário Professor Edgard Santos",
+          "city": "Salvador",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital de Base de Rio Preto",
+          "city": "São José do Rio Preto",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          }
+        },
+        {
+          "facility": "Hospital São Paulo",
+          "city": "São Paulo",
+          "zip": "04024-002",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital de Clínicas da UFTM",
+          "city": "Uberaba",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.74833,
+            "lon": -47.93194
+          }
+        },
+        {
+          "facility": "Hospital das Clinicas da UFU",
+          "city": "Uberlândia",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -18.91861,
+            "lon": -48.27722
+          }
+        },
+        {
+          "facility": "Foothills Medical Centre",
+          "city": "Calgary",
+          "state": "Alberta",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Grey Nuns Community Hospital",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Royal Alexandra Hospital",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "University of Alberta Hospital",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Royal Columbian Hospital",
+          "city": "New Westminster",
+          "state": "British Columbia",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.20678,
+            "lon": -122.91092
+          }
+        },
+        {
+          "facility": "Surrey Memorial Hospital",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        },
+        {
+          "facility": "Vancouver General Hospital",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "St. Boniface General Hospital",
+          "city": "Winnipeg",
+          "state": "Manitoba",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "facility": "QE II Health Sciences Center",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "Hamilton Health Sciences",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Hamilton St. Joseph's Health",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "St. Joseph's Health Centre",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "University Hospital - LHSC",
+          "city": "London",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Victoria Hospital - LHSC",
+          "city": "London",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "St. Michael's Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Sunnybrook Health Sciences Centre",
+          "city": "Toronto",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.65333,
+            "lon": -79.38389
+          }
+        },
+        {
+          "facility": "Victoria Heart Institute",
+          "city": "Victoria",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.06694,
+            "lon": -77.47583
+          }
+        },
+        {
+          "facility": "Hôpital Charles Lemoyne",
+          "city": "Greenfield Park",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.48649,
+            "lon": -73.46223
+          }
+        },
+        {
+          "facility": "Hotel-Dieu de Levis",
+          "city": "Lévis",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.80326,
+            "lon": -71.17793
+          }
+        },
+        {
+          "facility": "Centre Hosp. Universitaire de Montréal",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Jewish General Hospital",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Montreal General Hospital",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Royal Victoria Hospital",
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Quebec Heart and Lung Institute",
+          "city": "Québec",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Sherbrooke",
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        },
+        {
+          "facility": "General Hospital Trois-Rivièrs",
+          "city": "Trois-Rivières",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Regina General Hospital",
+          "city": "Regina",
+          "state": "Saskatchewan",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 50.45008,
+            "lon": -104.6178
+          }
+        },
+        {
+          "facility": "CHRU Tours -Hôpital Trousseau",
+          "city": "Chambray-lès-Tours",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.33537,
+            "lon": 0.70286
+          }
+        },
+        {
+          "facility": "CH Chartres - Chartres",
+          "city": "Chartres",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.44685,
+            "lon": 1.48925
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Sud Francilien",
+          "city": "Corbeil-Essonnes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.60603,
+            "lon": 2.48757
+          }
+        },
+        {
+          "facility": "CHU le Bocage - Dijon",
+          "city": "Dijon",
+          "zip": "21079",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "La Tronche Hôpital Michallon",
+          "city": "La Tronche",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.20507,
+            "lon": 5.74629
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Lille",
+          "city": "Lille",
+          "zip": "59000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU Arnaud de Villeneuve - Montpellier",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "CHU Nancy",
+          "city": "Nancy",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.68439,
+            "lon": 6.18496
+          }
+        },
+        {
+          "facility": "Hôpital Pasteur",
+          "city": "Nice",
+          "zip": "06000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Hôpital Universitaire Carémeau (CHU Carémeau)",
+          "city": "Nîmes",
+          "zip": "30029",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.83665,
+            "lon": 4.35788
+          }
+        },
+        {
+          "facility": "Hôpital La Pitié Salpétrière",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Européen Georges-Pompidou",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital BICHAT- APHP",
+          "city": "Paris",
+          "zip": "75018",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Lariboisière",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Hôpital Haut Lévêque",
+          "city": "Pessac",
+          "zip": "33604",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.80565,
+            "lon": -0.6324
+          }
+        },
+        {
+          "facility": "CHU Poitiers - Poitiers",
+          "city": "Poitiers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "Hôpital Charles Nicolle- Rouen",
+          "city": "Rouen",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Hôpital Rangueil",
+          "city": "Toulouse",
+          "zip": "31400",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Auckland City Hospital",
+          "city": "Auckland",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          }
+        },
+        {
+          "facility": "Christchurch Hospital",
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Gisborne Hospital",
+          "city": "Gisborne",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -38.65333,
+            "lon": 178.00417
+          }
+        },
+        {
+          "facility": "Nelson Hospital",
+          "city": "Nelson",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -41.27078,
+            "lon": 173.28404
+          }
+        },
+        {
+          "facility": "Taranaki Hospital",
+          "city": "New Plymouth",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -39.06667,
+            "lon": 174.08333
+          }
+        },
+        {
+          "facility": "Whangarei Hospital",
+          "city": "Whangarei",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -35.73167,
+            "lon": 174.32391
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23708168",
+          "type": "BACKGROUND",
+          "citation": "Carson JL, Brooks MM, Abbott JD, Chaitman B, Kelsey SF, Triulzi DJ, Srinivas V, Menegus MA, Marroquin OC, Rao SV, Noveck H, Passano E, Hardison RM, Smitherman T, Vagaonescu T, Wimmer NJ, Williams DO. Liberal versus restrictive transfusion thresholds for patients with symptomatic coronary artery disease. Am Heart J. 2013 Jun;165(6):964-971.e1. doi: 10.1016/j.ahj.2013.03.001. Epub 2013 Apr 8."
+        },
+        {
+          "pmid": "27732721",
+          "type": "BACKGROUND",
+          "citation": "Carson JL, Guyatt G, Heddle NM, Grossman BJ, Cohn CS, Fung MK, Gernsheimer T, Holcomb JB, Kaplan LJ, Katz LM, Peterson N, Ramsey G, Rao SV, Roback JD, Shander A, Tobian AA. Clinical Practice Guidelines From the AABB: Red Blood Cell Transfusion Thresholds and Storage. JAMA. 2016 Nov 15;316(19):2025-2035. doi: 10.1001/jama.2016.9185."
+        },
+        {
+          "pmid": "36417955",
+          "type": "BACKGROUND",
+          "citation": "Carson JL, Brooks MM, Chaitman BR, Alexander JH, Goodman SG, Bertolet M, Abbott JD, Cooper HA, Rao SV, Triulzi DJ, Fergusson DA, Kostis WJ, Noveck H, Simon T, Steg PG, DeFilippis AP, Goldsweig AM, Lopes RD, White H, Alsweiler C, Morton E, Hebert PC; MINT Investigators. Rationale and design for the myocardial ischemia and transfusion (MINT) randomized clinical trial. Am Heart J. 2023 Mar;257:120-129. doi: 10.1016/j.ahj.2022.11.015. Epub 2022 Nov 20."
+        },
+        {
+          "pmid": "37952133",
+          "type": "BACKGROUND",
+          "citation": "Carson JL, Brooks MM, Hebert PC, Goodman SG, Bertolet M, Glynn SA, Chaitman BR, Simon T, Lopes RD, Goldsweig AM, DeFilippis AP, Abbott JD, Potter BJ, Carrier FM, Rao SV, Cooper HA, Ghafghazi S, Fergusson DA, Kostis WJ, Noveck H, Kim S, Tessalee M, Ducrocq G, de Barros E Silva PGM, Triulzi DJ, Alsweiler C, Menegus MA, Neary JD, Uhl L, Strom JB, Fordyce CB, Ferrari E, Silvain J, Wood FO, Daneault B, Polonsky TS, Senaratne M, Puymirat E, Bouleti C, Lattuca B, White HD, Kelsey SF, Steg PG, Alexander JH; MINT Investigators. Restrictive or Liberal Transfusion Strategy in Myocardial Infarction and Anemia. N Engl J Med. 2023 Dec 28;389(26):2446-2456. doi: 10.1056/NEJMoa2307983. Epub 2023 Nov 11."
+        },
+        {
+          "pmid": "42571785",
+          "type": "DERIVED",
+          "citation": "Kim S, Bertolet M, Chaitman BR, Alexander JH, Steg PG, Lopes RD, Simon T, Goodman SG, Strom JB, de Barros E Silva PGM, Ducrocq G, DeFilippis AP, Brooks MM, Carson J; MINT Trial investigators. Recurrent myocardial infarction identified by centralized troponin review: Insights from the MINT trial. Am Heart J. 2026 Aug 9:107553. doi: 10.1016/j.ahj.2026.107553. Online ahead of print."
+        },
+        {
+          "pmid": "42507445",
+          "type": "DERIVED",
+          "citation": "Bertolet M, Carrier FM, Glynn S, Abbott JD, Defilippis AP, Simon T, Fordyce CB, Senaratne J, Potter BJ, Herbert BM, Rao SV, Caixeta A, Tessalee M, Cooper HA, Beraldo de Andrade P, Dall'Orto FTC, Silvain J, Carson JL, Brooks MM; Myocardial Ischemia and Transfusion (MINT) Trial Investigators. Restrictive vs Liberal Transfusion Strategy After Myocardial Infarction: A Post Hoc Analysis of the MINT Randomized Clinical Trial. JAMA Netw Open. 2026 Jul 1;9(7):e2624991. doi: 10.1001/jamanetworkopen.2026.24991."
+        },
+        {
+          "pmid": "42312774",
+          "type": "DERIVED",
+          "citation": "DeFilippis AP, Abbott JD, Herbert BM, Bertolet MH, Chaitman BR, White HD, Goldsweig AM, Polonsky TS, Gupta R, Alsweiler C, Silvain J, de Barros E Silva PGM, Hillis GS, Daneault B, Tessalee M, Menegus MA, Rao SV, Lopes RD, Hebert PC, Alexander JH, Brooks MM, Carson JL, Goodman SG; MINT Investigators. The Effect of Restrictive vs Liberal Blood Transfusion Strategy on Subsequent Myocardial Infarction Type. JACC Adv. 2026 Jun;5(6 Pt 2):102836. doi: 10.1016/j.jacadv.2026.102836."
+        },
+        {
+          "pmid": "42188994",
+          "type": "DERIVED",
+          "citation": "Cooper HA, Fordyce CB, Herbert BM, Alexander JH, Rao SV, Brooks MM, Bertolet M, Carson JL, Hebert PC; Myocardial Ischemia and Transfusion (MINT) Trial Investigators. Red Cell Transfusion in Critically Ill and Noncritically Ill Patients With Acute Myocardial Infarction and Anemia-A Subanalysis of the Myocardial Ischemia and Transfusion (MINT) Trial. Crit Care Med. 2026 Sep 1;54(9):2430-2435. doi: 10.1097/CCM.0000000000007211. Epub 2026 May 27."
+        },
+        {
+          "pmid": "42145087",
+          "type": "DERIVED",
+          "citation": "Abbott JD, Benatar JR, Ballantyne CM, Jacobs AK, Goldsweig AM, Fergusson DA, Hebert BM, Bertolet M, Simon T, Steg PG, Goodman SG, White HD, Carson JL, Brooks MM; MINT Investigators. Comparative Efficacy of Transfusion Strategies in Women and Men With Myocardial Infarction and Anemia: Prespecified Secondary Findings From the MINT Trial. Circulation. 2026 Jul 21;154(3):201-211. doi: 10.1161/CIRCULATIONAHA.125.078320. Epub 2026 May 18."
+        },
+        {
+          "pmid": "41722885",
+          "type": "DERIVED",
+          "citation": "Goldsweig AM, Ballantyne CM, White HD, Abbott JD, Fergusson DA, Herbert BM, Goodman SG, Carson JL, Brooks MM; MINT Investigators. Effect of age on restrictive and liberal transfusion outcomes in patients with anemia and myocardial infarction. Am Heart J. 2026 Jul;297:107381. doi: 10.1016/j.ahj.2026.107381. Epub 2026 Feb 19."
+        },
+        {
+          "pmid": "41114449",
+          "type": "DERIVED",
+          "citation": "Carson JL, Stanworth SJ, Dennis JA, Fergusson DA, Pagano MB, Roubinian NH, Turgeon AF, Valentine S, Trivella M, Doree C, Hebert PC. Transfusion thresholds and other strategies for guiding red blood cell transfusion. Cochrane Database Syst Rev. 2025 Oct 20;10(10):CD002042. doi: 10.1002/14651858.CD002042.pub6."
+        },
+        {
+          "pmid": "40459491",
+          "type": "DERIVED",
+          "citation": "Prochaska MT, Portela GT, Brooks MM, Fergusson DA, Hebert PC, Polonsky TS, Caixeta A, Cooper HA, Crozier I, Daneault B, Kim S, Bainey KR, de Barros E Silva P, Goldfarb M, Gupta R, Rao SV, Fonteles Ritt LE, Simon T, Carson JL. Transfusion Strategy Effect on Quality of Life in Patients With Myocardial Infarction and Anemia: A Secondary Analysis of the MINT Randomized Clinical Trial. JAMA Intern Med. 2025 Aug 1;185(8):947-954. doi: 10.1001/jamainternmed.2025.0654."
+        },
+        {
+          "pmid": "40159118",
+          "type": "DERIVED",
+          "citation": "Rao SV, Brooks MM, D'Agostino HEA, Steg PG, Simon T, Aronow HD, Goldsweig AM, Malik S, Alsweiler C, Ho KKL, Dehghani P, Caixeta A, Quraishi AR, Robinson S, Traverse JH, Siddiqi O, Fergusson DA, Potter BJ, Schulman-Marcus J, Keating FK, Carson JL; MINT Trial Investigators. Effect of Red Blood Cell Transfusion Strategy on Clinical Outcomes Among Patients With Acute Myocardial Infarction Undergoing Revascularization: A Prespecified Analysis of the MINT Trial. Circ Cardiovasc Interv. 2025 May;18(5):e015249. doi: 10.1161/CIRCINTERVENTIONS.125.015249. Epub 2025 Mar 30."
+        },
+        {
+          "pmid": "40135329",
+          "type": "DERIVED",
+          "citation": "Goldsweig AM, Kostis WJ, Herbert BM, Bouleti C, Potter BJ, Strom JB, Benatar J, Huynh T, Vallurupalli S, Figueiredo EL, Abbott JD, Cooper HA, DeFilippis AP, Fergusson DA, Goodman SG, Hebert PC, Lopes RD, Rao SV, Simon T, Carson JL, Brooks MM, Alexander JH; MINT Investigators. Blood Transfusion in Patients With Acute Myocardial Infarction, Anemia, and Heart Failure: Lessons From MINT. Circ Heart Fail. 2025 Apr;18(4):e012495. doi: 10.1161/CIRCHEARTFAILURE.124.012495. Epub 2025 Mar 26."
+        },
+        {
+          "pmid": "39826701",
+          "type": "DERIVED",
+          "citation": "Portela GT, Ducrocq G, Bertolet M, Alexander JH, Goodman SG, Glynn S, Strom JB, Swanson SA, Lemesle G, Rao SV, Tessalee M, Polonsky TS, Goldfarb M, Traverse JH, Uhl L, Herbert BM, Silvain J, Carson JL, Brooks MM; MINT Trial Investigators. Individualized transfusion decisions to minimize adverse cardiovascular outcomes in patients with acute myocardial infarction and anemia. Am Heart J. 2025 Apr;282:146-155. doi: 10.1016/j.ahj.2025.01.009. Epub 2025 Jan 17."
+        },
+        {
+          "pmid": "39786901",
+          "type": "DERIVED",
+          "citation": "Strom JB, Herbert BM, Bertolet M, Brooks MM, Malik SA, Lemesle G, Madan M, Steg PG, Hebert PC, Traverse JH, White HD, Alsweiler C, Gupta R, Ritt LEF, Menegus MA, Alexander JH, Lopes RD, Chaitman BR, Carson JL; MINT Trial Investigators. Restrictive or Liberal Blood Transfusion in Patients with Myocardial Infarction and CKD. J Am Soc Nephrol. 2025 Jun 1;36(6):1116-1125. doi: 10.1681/ASN.0000000595. Epub 2025 Jan 9."
+        },
+        {
+          "pmid": "39485351",
+          "type": "DERIVED",
+          "citation": "Carrier FM, Cooper HA, Portela GT, Bertolet M, Lemesle G, Prochaska M, Kim S, Alexander JH, Crozier I, Ducrocq G, Quadros AS, Bagai A, Dracoulakis M, Madan M, Brooks MM, Carson JL, Hebert PC; MINT Investigators. Anemia Acuity Effect on Transfusion Strategies in Acute Myocardial Infarction: A Secondary Analysis of the MINT Trial. JAMA Netw Open. 2024 Nov 4;7(11):e2442361. doi: 10.1001/jamanetworkopen.2024.42361."
+        },
+        {
+          "pmid": "39348705",
+          "type": "DERIVED",
+          "citation": "Portela GT, Carson JL, Swanson SA, Alexander JH, Hebert PC, Goodman SG, Steg PG, Bertolet M, Strom JB, Fergusson DA, Simon T, White HD, Cooper HA, Abbott JD, Rao SV, Chaitman BR, Fordyce CB, Lopes RD, Daneault B, Brooks MM; MINT Investigators. Effect of Four Hemoglobin Transfusion Threshold Strategies in Patients With Acute Myocardial Infarction and Anemia : A Target Trial Emulation Using MINT Trial Data. Ann Intern Med. 2024 Nov;177(11):1489-1498. doi: 10.7326/M24-0571. Epub 2024 Oct 1."
+        },
+        {
+          "pmid": "39221566",
+          "type": "DERIVED",
+          "citation": "Simon T, Herbert BM, Brooks MM, Goodman SG, Alexander JH, Steg PG, Lopes RD, Ghafghazi S, Bouleti C, Cooper HA, McCamant EL, Bainey KR, Aronow HD, Abbott JD, Alsweiler C, Bertolet M, Fergusson DA, Goldsweig AM, Hebert PC, Carson JL; MINT Trial Investigators. Restrictive or Liberal Transfusion Strategy in Patients With Acute Myocardial Infarction and Anemia: 6-Month Mortality in the MINT Trial. Circulation. 2024 Sep 24;150(13):1064-1066. doi: 10.1161/CIRCULATIONAHA.124.069917. Epub 2024 Sep 2. No abstract available."
+        },
+        {
+          "pmid": "39206549",
+          "type": "DERIVED",
+          "citation": "DeFilippis AP, Abbott JD, Herbert BM, Bertolet MH, Chaitman BR, White HD, Goldsweig AM, Polonsky TS, Gupta R, Alsweiler C, Silvain J, de Barros E Silva PGM, Hillis GS, Daneault B, Tessalee M, Menegus MA, Rao SV, Lopes RD, Hebert PC, Alexander JH, Brooks MM, Carson JL, Goodman SG; MINT Investigators. Restrictive Versus Liberal Transfusion in Patients With Type 1 or Type 2 Myocardial Infarction: A Prespecified Analysis of the MINT Trial. Circulation. 2024 Dec 3;150(23):1826-1836. doi: 10.1161/CIRCULATIONAHA.124.071208. Epub 2024 Aug 29."
+        },
+        {
+          "pmid": "34932836",
+          "type": "DERIVED",
+          "citation": "Carson JL, Stanworth SJ, Dennis JA, Trivella M, Roubinian N, Fergusson DA, Triulzi D, Doree C, Hebert PC. Transfusion thresholds for guiding red blood cell transfusion. Cochrane Database Syst Rev. 2021 Dec 21;12(12):CD002042. doi: 10.1002/14651858.CD002042.pub5."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Limited access data (i.e., records without personal identifiers) will be prepared by the Data Coordinating Center (DCC) and sent to the NHLBI Biologic Specimen and Data Repository Information Coordinating Center (BioLINCC) within 3 years after the end of the final patient follow-up or 2 years after the main paper of the trial has been published, whichever comes first. The Trial data set will include baseline patient characteristics, follow-up status, and clinical outcome data. The data will be released to requesting institutions and investigators in accordance with BioLINCC policy."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Liberal Transfusion Strategy",
+          "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+        },
+        {
+          "id": "FG001",
+          "title": "Restrictive Transfusion Strategy",
+          "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1757"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1749"
+                }
+              ]
+            },
+            {
+              "type": "Data at 30 Days Post Randomization",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "37 of these participants had incomplete data for some outcomes",
+                  "numSubjects": "1755"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "20 of these participants had incomplete data for some outcomes",
+                  "numSubjects": "1749"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1755"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1749"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Liberal Transfusion Strategy",
+          "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+        },
+        {
+          "id": "BG001",
+          "title": "Restrictive Transfusion Strategy",
+          "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "1755"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1749"
+            },
+            {
+              "groupId": "BG002",
+              "value": "3504"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72.1",
+                      "spread": "11.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "72.2",
+                      "spread": "11.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "72.1",
+                      "spread": "11.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "819"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "774"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1593"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "936"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "975"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1911"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "134"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "119"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "253"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1434"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1445"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2879"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "187"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "185"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "372"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1245"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1229"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2474"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Black",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "223"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "217"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "440"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "115"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "129"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "244"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "172"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "174"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "346"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Type of Myocardial Infarction",
+          "description": "Type 1 myocardial infarction occurs in those with atherosclerotic plaque rupture and thrombosis. Type 2 myocardial infarction occurs due to myocardial oxygen supply and demand imbalance. Other includes myocardial infarction due to stent thrombosis or restenosis.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Type 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "730"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "730"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1460"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Type 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "988"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "967"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1955"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other or Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ST or Non-ST-Elevation Myocardial Infarction",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "STEMI",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "337"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "319"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "656"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "NSTEMI",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1418"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1430"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2848"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "History of Myocardial Infarction",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "549"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "589"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1138"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1206"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1160"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2366"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "History of Percuatneous Coronary Intervention",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "577"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "623"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1200"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1177"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1126"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2303"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "History of Coronary Artery Bypass Surgery",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "390"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "372"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "762"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1365"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1377"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2742"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "History of Heart Failure",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "539"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "527"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1066"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1216"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1222"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2438"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With All-cause Mortality or Nonfatal Myocardial Reinfarction",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "255"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "295"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "All-cause Mortality",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "146"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "173"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Myocardial Reinfarction",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "126"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "149"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Composite of All-cause Mortality, Nonfatal Myocardial Reinfarction, Ischemia Driven Unscheduled Coronary Revascularization, or Readmission to the Hospital for Ischemic Cardiac Diagnosis",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "305"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "342"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Composite of All-cause Mortality,Nonfatal Myocardial Reinfarction, or Unstable Angina",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "300"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "338"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Ischemia Driven Unscheduled Coronary Revascularization",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Unscheduled Readmission to Hospital for Ischemic Cardiac Diagnosis",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Heart Failure",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "111"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Unscheduled Readmission to Hospital for Any Reason",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Stroke",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Pulmonary Embolism or Deep Venous Thrombosis",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 30 days of randomization",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Liberal Transfusion Strategy",
+              "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            },
+            {
+              "id": "OG001",
+              "title": "Restrictive Transfusion Strategy",
+              "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1755"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1749"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Bleed",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Pneumonia",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Blood Stream Infection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Urinary Tract Infection",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Length of Hospital Stay Post Randomization",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Number of Days Post Randomization in Intensive Care Unit",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Patient Reported Quality of Life",
+          "description": "EuroQol questionnaire",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 30 days of randomization",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "All-cause Mortality",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Within 6 months of randomization",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Adverse event data were collected through 30 days and death was collected through 180 days",
+      "description": "Research staff contacted participants/proxies at 30 days to collect clinical events and at 180 days to determine vital status",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Liberal Transfusion Strategy",
+          "description": "Red blood cell transfusion - One unit of packed red cells is transfused following randomization followed by enough red blood cell units to raise the hemoglobin concentration above 10 g/dL any time the hemoglobin concentration is detected to be below 10g/dL during the hospitalization for up to 30 days.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units",
+          "deathsNumAffected": 353,
+          "deathsNumAtRisk": 1755,
+          "seriousNumAffected": 699,
+          "seriousNumAtRisk": 1755,
+          "otherNumAffected": 330,
+          "otherNumAtRisk": 1755
+        },
+        {
+          "id": "EG001",
+          "title": "Restrictive Transfusion Strategy",
+          "description": "Permitted to receive a red blood cell transfusion if the blood count is below 8 g/dL and the physician believes it is in the patient's best interest. A transfusion will be strongly recommended if the blood count drops to less than 7 g/dL. If the patient has symptoms of angina (e.g., chest discomfort described as pressure or heaviness) that do not go away with medication, a blood transfusion will be ordered regardless of the blood count.\n\nRed Blood Cell Transfusion: Transfusion of packed red blood cell units",
+          "deathsNumAffected": 376,
+          "deathsNumAtRisk": 1749,
+          "seriousNumAffected": 723,
+          "seriousNumAtRisk": 1749,
+          "otherNumAffected": 348,
+          "otherNumAtRisk": 1749
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Myocardial Infarction",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 126,
+              "numAffected": 126,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 149,
+              "numAffected": 149,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Heart Failure",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 111,
+              "numAffected": 111,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 102,
+              "numAffected": 102,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Super ventricular tachycardia",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 28,
+              "numAffected": 28,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 27,
+              "numAffected": 27,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Ventricular tachycardia",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 56,
+              "numAffected": 56,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 59,
+              "numAffected": 59,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Ventricular fibrillation",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 14,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 19,
+              "numAffected": 19,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Cardiac arrest",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 45,
+              "numAffected": 45,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 69,
+              "numAffected": 69,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Mobitz type 2 atrial ventricular block",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 13,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 15,
+              "numAffected": 15,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Complete atrial ventricular block",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 14,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 13,
+              "numAffected": 13,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Asystole",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 33,
+              "numAffected": 33,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 41,
+              "numAffected": 41,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Transfusion associated cardiac overload",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 23,
+              "numAffected": 23,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Stroke",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 26,
+              "numAffected": 26,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 30,
+              "numAffected": 30,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Transient ischemic attack",
+          "organSystem": "Nervous system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary embolism or deep venous thrombosis",
+          "organSystem": "Vascular disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 34,
+              "numAffected": 34,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 26,
+              "numAffected": 26,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Acute hemolytic transfusion reaction",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Anaphylactic transfusion reaction",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia or Bacteremai",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 153,
+              "numAffected": 153,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 166,
+              "numAffected": 166,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Transfusion associated sepsis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Acute respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 153,
+              "numAffected": 153,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 148,
+              "numAffected": 148,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Acute renal failure",
+          "organSystem": "Renal and urinary disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 233,
+              "numAffected": 233,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 233,
+              "numAffected": 233,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Transfusion related acute lung injury",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 1749
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Atrial Fibrillation",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 187,
+              "numAffected": 187,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 194,
+              "numAffected": 194,
+              "numAtRisk": 1749
+            }
+          ]
+        },
+        {
+          "term": "Stable Angina",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 183,
+              "numAffected": 183,
+              "numAtRisk": 1755
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 186,
+              "numAffected": 176,
+              "numAtRisk": 1749
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Jeffrey Carson",
+        "organization": "Rutgers Robert Wood Johnson Medical School",
+        "email": "jeffrey.carson@rutgers.edu",
+        "phone": "732-235-7122"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2017-10-24",
+          "uploadDate": "2024-02-29T15:32",
+          "filename": "Prot_001.pdf",
+          "size": 1495520
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-07-24",
+          "uploadDate": "2024-02-22T15:25",
+          "filename": "SAP_002.pdf",
+          "size": 750538
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2018-01-08",
+          "uploadDate": "2023-08-10T15:08",
+          "filename": "ICF_000.pdf",
+          "size": 460939
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-04-16",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D000740",
+          "term": "Anemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D006402",
+          "term": "Hematologic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017707",
+          "term": "Erythrocyte Transfusion"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D016913",
+          "term": "Blood Component Transfusion"
+        },
+        {
+          "id": "D001803",
+          "term": "Blood Transfusion"
+        },
+        {
+          "id": "D001691",
+          "term": "Biological Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

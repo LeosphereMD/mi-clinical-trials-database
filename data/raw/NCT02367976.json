@@ -1,0 +1,277 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02367976",
+      "orgStudyIdInfo": {
+        "id": "2012L01494"
+      },
+      "organization": {
+        "fullName": "Suzhou RxD Biopharmaceutical Co., Ltd",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety on Prouk for STEMI Patients in China",
+      "officialTitle": "A Phase III Study to Research the Efficacy and Safety on Prouk for ST Elevated Mycadial Infarction Patients in China"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-02",
+      "overallStatus": "UNKNOWN",
+      "lastKnownStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2017-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-01-15",
+      "studyFirstSubmitQcDate": "2015-02-13",
+      "studyFirstPostDateStruct": {
+        "date": "2015-02-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-02-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-02-25",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Suzhou RxD Biopharmaceutical Co., Ltd",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to evaluate the efficacy and safety of rh-prouk as pharmacoinvasive therapy on those ST Elevated Myocardial Infarctions patients, it is designed as a multicenter, active controlled, single blinded study. The primary endpoint is to assess the coronary recanalization 90 minutes after thrombolysis. The secondary endpoint is to evaluate the mortality rate at day 30.",
+      "detailedDescription": "The purpose of the study is to evaluate the efficacy and safety of rh-prouk as pharmacoinvasive therapy on those ST Elevated Myocardial Infarctions patients, it is designed as a multicenter, active controlled, single blinded study. The primary endpoint is to assess percentage of patients achieve the coronary recanalization 90 minutes after thrombolysis. The secondary endpoint is to evaluate the mortality rate at day 30."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "STEMI"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 450,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "rhprouk",
+          "type": "EXPERIMENTAL",
+          "description": "rhprouk to be administrated in 60 minutes.",
+          "interventionNames": [
+            "Drug: rhprouk"
+          ]
+        },
+        {
+          "label": "controlled",
+          "type": "NO_INTERVENTION",
+          "description": "The controlled arm patients will be administrated in 90 minutes after randomized."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "rhprouk",
+          "description": "rh-prouk will be administrated within 60 minutes after the patients eligibility confirmed",
+          "armGroupLabels": [
+            "rhprouk"
+          ],
+          "otherNames": [
+            "Controlled"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To compare the percentage of STEMI patients achieving the recanalization of Coronary between the two arms",
+          "timeFrame": "90 minutes after administrative of active/comparator"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Chest pain \\> 30 minutes, while \\<12 hours\n* Expected PCI related delayed time \\> 60 minutes, OR Door To Balloon time \\>90 minutes\n* ECG confirmed STEMI.\n* Age: 18--75 years old\n* Weight \\<=85Kg\n* Consent to participate in this study\n\nExclusion Criteria\n\n* Evidence of cardiac rupture;\n* ECG: new left bundle branch block;\n* Thrombolysis contradictions\n* Any history of central nervous system damage (i.e. neoplasm, aneurysm, intracranial or spinal surgery) or recent trauma to the head or cranium (i.e. \\< 3 months);\n* Active bleeding or known bleeding disorder.\n* Recent administration of any i.v. or s.c. anticoagulation within 12 hours includingunfractionated heparin, enoxaparin and/or bivalirudin or current use of oral anticoagulation(warfarin or coumadin);\n* Uncontrolled hypertension, defined as a single blood pressure measurement ≥ 180/110 mm Hg (systolic BP ≥ 180 mm Hg and/or diastolic BP ≥ 110 mm Hg) prior to randomisation;\n* Major surgery, biopsy of a parenchymal organ, or significant trauma within the past 2 months (this includes any trauma associated with the current myocardial infarction); Prolonged or traumatic cardiopulmonary resuscitation (\\> 10 minutes) within the past 2 Weeks Major surgery pending in the following 30 days;",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Weiqun Shen, MD/PhD",
+          "role": "CONTACT",
+          "email": "jingzhang@gmail.com"
+        },
+        {
+          "name": "Jing Zhang, PhD",
+          "role": "CONTACT",
+          "email": "jingzhang@gmail.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Weiqun Shen, MD/PhD",
+          "affiliation": "Suzhou RxD Biopharma",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Shenyang Northern Hospital",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weiqun Shen, MD/PhD",
+              "role": "CONTACT",
+              "email": "jingzhang@gmail.com"
+            },
+            {
+              "name": "Jing Zhang, PhD",
+              "role": "CONTACT",
+              "email": "jingzhang@gmail.com"
+            },
+            {
+              "name": "Yaling Han, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Geng Wang, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D035061",
+          "term": "Control Groups"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015340",
+          "term": "Epidemiologic Research Design"
+        },
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D012107",
+          "term": "Research Design"
+        },
+        {
+          "id": "D008722",
+          "term": "Methods"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,365 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04057261",
+      "orgStudyIdInfo": {
+        "id": "17-162"
+      },
+      "organization": {
+        "fullName": "RWTH Aachen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Liraglutide on the Metabolic Profile in Patients With Type 2 Diabetes and Cardiovascular Disease",
+      "officialTitle": "Effect of Liraglutide on the Metabolic Profile in Patients With Type 2 Diabetes and Cardiovascular Disease",
+      "acronym": "Lirabolic"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-03",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "A study start is currently not foreseeable for organizational reasons. Due to the delays, research has also been focused on new compounds, which has reduced the interest in the potential results of the above-mentioned clinical trial.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2022-11",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-07-18",
+      "studyFirstSubmitQcDate": "2019-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2019-08-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-03-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RWTH Aachen University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novo Nordisk A/S",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In an unbiased metabolomics approach with subsequent pathway analyses, the current study seeks to examine the effect of Liraglutide treatment on the metabolic signature in treated patients as well as the effect of Liraglutide on various echocardiographic parameters of cardiac function and rhythm profile, thus paving the way for future research to explain the effects of Liraglutide on cardiovascular mortality and overall mortality in treated patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Liraglutide",
+        "Type 2 Diabetes",
+        "High Cardiovascular Risk",
+        "Myocardial Infarction",
+        "Metabolic Profile"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single center, prospective, placebo-controlled, double-blind, randomized, 2 arm parallel, interventional, exploratory pilot study",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 0,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Liraglutide",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Increasing dose of Liraglutide: 0.6 mg/d for the first week, 1.2 mg/d for the second week aiming for a maximum of 1.8 mg/d beginning with the third week (or highest tolerated dose).Subcutaneous injection once daily via pre-filled pen.",
+          "interventionNames": [
+            "Drug: Liraglutide Pen Injector [Victoza]"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Matching Placebo once daily, subcutaneous injection via pre-filled pen.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Liraglutide Pen Injector [Victoza]",
+          "description": "Increasing dose of Liraglutide: 0.6 mg/d for the first week, 1.2 mg/d for the second week aiming for a maximum of 1.8 mg/d beginning with the third week (or highest tolerated dose).Subcutaneous injection once daily via pre-filled pen",
+          "armGroupLabels": [
+            "Liraglutide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching Placebo once daily, subcutaneous injection via pre-filled pen.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in the metabolomics profile (fold changes) between Liraglutide treatment group and placebo group after 1 and 3 months",
+          "description": "Changes in the metabolomics profile (fold changes) between Liraglutide treatment group and placebo group after 1 and 3 months measured by a platform including 2 separate reverse phase (RP)/UPLC-MS/MS with positive ion mode electrospray ionization (ESI), (RP)/UPLC-MS/MS with negative ESI, and (HILIC)/UPLC-MS/MS with negative ESI.",
+          "timeFrame": "3 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "change in left ventricular diastolic function",
+          "description": "change in left ventricular diastolic function between baseline and after 12 weeks as determined by 2D and 3D parameter global Strain Rate E by echocardiography",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "change in left ventricular diastolic function",
+          "description": "change in left ventricular diastolic function between baseline and after 12 weeks as determined by standardized parameter E/é and left atrial (LA) volume by echocardiography",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "change in left ventricular systolic function",
+          "description": "change in left ventricular systolic function by ejection fraction (EF) by echocardiography",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Changes in systolic and diastolic blood pressure (mmHg)",
+          "description": "Changes in systolic and diastolic blood pressure (mmHg) between Liraglutide treatment group and placebo group after 1 and 3 months.",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "body weight",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Changes in NT-proBNP serum levels (pg/ml)",
+          "description": "Changes in NT-proBNP serum levels (pg/ml) between Liraglutide treatment group versus placebo group after 1 and 3 months.",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Differences of the serum lipid profile between Liraglutide treatment group and placebo group",
+          "description": "Differences of the serum lipid profile including serum levels of triglycerides (mg/dl), total cholesterol (mg/dl), low-density lipoprotein cholesterol (mg/dl) and high-density lipoprotein cholesterol (mg/dl)between Liraglutide treatment group and placebo group after 1 and 3 months",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "changes of serum levels of glucose, HbA1c, glucagon, insulin, C-Peptide, β-Hydroxybutyrate between Liraglutide treatment group and placebo group",
+          "description": "Changes in serum levels of glucose (mg/dl), HbA1c (%), glucagon (pg/ml), insulin (ng/ml), C-Peptide (ng/ml), β-Hydroxybutyrate (mmol/l) between Liraglutide treatment group and placebo group after 1 and 3 months",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Heart rate variability",
+          "description": "Differences in heart rate variability measured by 24 hour ECG between Liraglutide treatment group and placebo group after 3 month including the following parameters: mean heart rate (bpm), maximum/minimum heart rate (bpm) and long-term variation of RR intervals (defined as standard deviation over 24 hours of per-minute means of RR intervals).",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Resting energy expenditure",
+          "description": "Resting energy expenditure measured by indirect calorimetry \\[CardioCoach CO2\\]",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Respiratory Exchange Ratio",
+          "description": "Respiratory Exchange Ratio measured by indirect calorimetry \\[CardioCoach CO2\\]",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Differences in gut microbiome composition measured by 16S rRNA targeted gene sequencing of feces between Liraglutide treatment group and placebo group",
+          "description": "Differences in gut microbiome composition measured by 16S rRNA targeted gene sequencing of feces between Liraglutide treatment group and placebo group after 1 and 3 month including the following parameters: alpha diversity (reported as Shannon diversity index) and differences in bacterial composition at different taxonomic levels including genus, family and class of bacteria (reported as relative abundance).",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Albumin excretion",
+          "description": "Albumin excretion by 24 h urine collection",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "changes in inflammasome analyses",
+          "description": "Differences in serum levels of inflammatory cytokines including C-reactive protein (mg/ml), Interleukin 6 (pg/ml), Interleukin 1 beta (pg/ml) and tumor necrosis factor alpha (pg/ml) between Liraglutide treatment group and placebo group after 1 and 3 month",
+          "timeFrame": "3 month"
+        },
+        {
+          "measure": "Differences in circulation inflammatory cell composition by flow cytometry analyses (FACS) between Liraglutide treatment group and placebo group",
+          "description": "Differences in circulation inflammatory cell composition by flow cytometry analyses (FACS) between Liraglutide treatment group and placebo group after 1 and 3 month including the following parameters: Numbers of T-cells including T-cell subsets and monocytes including monocyte subsets. Numbers will be reported as percentage of parent, i.e. total pool of CD45+ immune cells).",
+          "timeFrame": "3 month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Type 2 diabetes\n2. Serum levels of HbA1c ≥ 7,0%\n3. Age ≥ 18 years\n4. Patients with existing cardiovascular disease: coronary heart disease, cerebrovascular disease, peripheral vascular disease, chronic kidney disease of stage III or chronic heart failure of NYHA II or III)\n5. Written informed consent prior to study participation\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Treatment with GLP-1 receptor agonists or DPP-4 inhibitors within the last 4 weeks\n3. Patients with familiar or personal history of multiple endocrine neoplasia-type 2 or medullary C-cell cancer\n4. Renal impairment (eGFR \\< 30 mL/min)\n5. Occurrence of acute vascular events within 6 weeks before screening and randomization\n6. Known or suspected hypersensitivity to Liraglutide\n7. Pregnant females as determined by positive (serum or urine) hCG test at Screening or prior to dosing. Participants of child-bearing age should use adequate contraception as defined in the study protocol.\n8. Lactating females\n9. The subject has a history of any other illness, which, in the opinion of the Investigator, might pose an unacceptable risk by administering study medication.\n10. The subject received an investigational drug within 30 days prior to inclusion into this study.\n11. The subject has any current or past medical condition and/or required medication to treat a condition that could affect the evaluation of the study.\n12. The subject is unwilling or unable to follow the procedures outlined in the protocol.\n13. The subject is mentally or legally incapacitated.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Department of Internal Medicine I, University Hospital",
+          "city": "Aachen",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-11-13"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069450",
+          "term": "Liraglutide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D052216",
+          "term": "Glucagon-Like Peptide 1"
+        },
+        {
+          "id": "D004763",
+          "term": "Glucagon-Like Peptides"
+        },
+        {
+          "id": "D052336",
+          "term": "Proglucagon"
+        },
+        {
+          "id": "D005768",
+          "term": "Gastrointestinal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}
