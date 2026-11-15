@@ -278,6 +278,15 @@ def condition_rows(study):
     return rows
 
 
+def intervention_mesh_rows(study):
+    browse = study.get("derivedSection", {}).get("interventionBrowseModule", {})
+    rows = [(clean(m.get("term")), clean(m.get("id")), "direct term")
+            for m in browse.get("meshes", [])]
+    rows += [(clean(a.get("term")), clean(a.get("id")), "parent term")
+             for a in browse.get("ancestors", [])]
+    return rows
+
+
 def intervention_rows(study):
     items = study["protocolSection"].get("armsInterventionsModule", {}).get("interventions", [])
     return [(clean(i.get("type")), clean(i.get("name")),
@@ -410,7 +419,7 @@ def main():
         new_trials = updated_trials = 0
         stats = {t: Counter() for t in
                  ("conditions", "interventions", "arms", "registered_outcomes",
-                  "trial_countries")}
+                  "trial_countries", "intervention_mesh")}
         populations = Counter()
         for nct_id, study in studies:
             if nct_id in seen:
@@ -442,6 +451,9 @@ def main():
                       nct_id, outcome_rows(study), stats)
             sync_rows(con, "trial_countries", "rowid", ["country"],
                       nct_id, [(c,) for c in countries(study)], stats)
+            sync_rows(con, "intervention_mesh", "rowid",
+                      ["mesh_term", "mesh_id", "match_type"],
+                      nct_id, intervention_mesh_rows(study), stats)
 
         kept = new_trials + updated_trials
         reasons = dict(skipped)

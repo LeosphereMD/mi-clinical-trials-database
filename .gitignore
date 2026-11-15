@@ -19,3 +19,10 @@ review/*
 !review/.gitkeep
 outcome_checks/*
 !outcome_checks/.gitkeep
+
+# Registry-cleaning review files hold no paper quotes and record the
+# owner's approvals, so they are committed (SPEC.md "Registry cleaning").
+!review/drug_names.csv
+!review/drug_name_suggestions_claude.csv
+!review/sponsors.csv
+!review/why_stopped.csv

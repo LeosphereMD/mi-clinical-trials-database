@@ -1,0 +1,87 @@
+﻿nct_id,intervention_name,suggested_generic,note
+NCT00965406,GIK and intensive insulin therapy,glucose + insulin + potassium,general knowledge: check
+NCT01090310,AIN457,secukinumab,AIN457 is the study code of secukinumab (also the trial's registry MeSH term); general knowledge: check
+NCT01156571,cangrelor P2Y12 (platelet) inhibitor,cangrelor,general knowledge: check
+NCT01294462,Acetylsalicylic acid ASA,aspirin,general knowledge: check
+NCT01321255,FDC,aspirin + simvastatin + ramipril,fixed-dose combination; components from the trial's registry MeSH terms; general knowledge: check
+NCT01492361,AMR101,icosapent ethyl,other name says VASCEPA (icosapent ethyl)
+NCT01492361,Statin therapy,statin (drug class),"drug class, not one drug"
+NCT01502774,Injection of Cyclosporin,cyclosporine,general knowledge: check
+NCT01626534,trigagrelor,ticagrelor,registry spelling 'trigagrelor' looks like a typo for ticagrelor; check
+NCT01848106,pegnivacogin/anivamersen,pegnivacogin + anivamersen,general knowledge: check
+NCT01878344,NAC,acetylcysteine,NAC = N-acetylcysteine; general knowledge: check
+NCT01878344,Saline,sodium chloride,saline control
+NCT01882179,Mineralocorticoid receptor antagonist potassium-canrenoate,potassium canrenoate,name says potassium-canrenoate
+NCT01992523,Ticagrelor integral pills,ticagrelor,"same drug, different pill form"
+NCT01992523,Ticagrelor mashed pills,ticagrelor,"same drug, different pill form"
+NCT02145468,Losmapimod 7.5 mg twice daily,losmapimod,general knowledge: check
+NCT02145468,Standard therapy,,"standard care, not one drug"
+NCT02146664,DLBS1033,,study code; no generic name I am sure of
+NCT02301910,Recombinant staphylokinase,staphylokinase (recombinant),general knowledge: check
+NCT02367976,rhprouk,prourokinase (recombinant human),rhPro-UK = recombinant human prourokinase; general knowledge: check
+NCT02591927,Glucose-Insulin-Potassium,glucose + insulin + potassium,general knowledge: check
+NCT02596126,Cardiovascular Polypill,aspirin + ramipril + atorvastatin,"polypill composition from memory, not from the registry entry; check the trial description"
+NCT02596126,Treatment Prevention for Secondary CV,,usual care with several drug classes
+NCT02672267,Stem cells,mesenchymal stem cells (allogeneic),cell therapy; other name says allogeneic mesenchymal stem cells
+NCT02733185,disodium EDTA,edetate disodium,general knowledge: check
+NCT02894138,alteplase,alteplase,registry MeSH is Tissue Plasminogen Activator
+NCT02924727,LCZ696 (sacubitril/valsartan),sacubitril + valsartan,LCZ696 is the study code of sacubitril/valsartan
+NCT02976701,DLBS1033,,study code; no generic name I am sure of
+NCT02976701,Standard therapy,aspirin + clopidogrel,other name says Asp-Clopi; check
+NCT02981407,Red Blood Cell Transfusion,,"transfusion, not a drug"
+NCT02982057,O.M.T,,"optimal medical therapy, not one drug"
+NCT03404063,Cardiac Drug,,CardioCell cell product; I am not sure of a generic name
+NCT03473223,Apolipoprotein A-I [human] (apoA-I),apolipoprotein A-I (human),"CSL112 is the product code of the same drug, not a second drug; general knowledge: check"
+NCT03541109,Polypill,,polypill; components not given in the name
+NCT03552575,sacubitril/valsartan,sacubitril + valsartan,the registry partial match gave only valsartan
+NCT03699215,Levosimendan,levosimendan,registry MeSH is Simendan
+NCT03755700,N-acetyl cysteine,acetylcysteine,general knowledge: check
+NCT03755700,"Normal Saline Flush, 0.9% Injectable Solution",sodium chloride,saline
+NCT03764241,Vitamin K Antagonist,vitamin K antagonist (drug class),"drug class, not one drug"
+NCT03822377,Ticagrelor orodispersible tablets,ticagrelor,"same drug, different tablet form"
+NCT03822377,Ticagrelor standard tablets,ticagrelor,"same drug, different tablet form"
+NCT03989531,Adrecizumab,enibarcimab,the trial's registry MeSH term is enibarcimab; general knowledge: check
+NCT04001504,Double Dose Quadrivalent Influenza Vaccine,"influenza vaccine, quadrivalent",high dose
+NCT04001504,Standard Dose Quadrivalent Influenza Vaccine,"influenza vaccine, quadrivalent",standard dose
+NCT04020263,Levosimendan 2.5 MG/ML Injectable Solution,levosimendan,registry MeSH is Simendan
+NCT04023552,TQJ230,pelacarsen,TQJ230 is the study code of pelacarsen; general knowledge: check
+NCT04285736,Conventional Treatment,,"standard care, not one drug"
+NCT04360720,Antiplatelet Monotherapy,,"treatment strategy, not one drug"
+NCT04476173,Methoxyflurane - Penthrox,methoxyflurane,general knowledge: check
+NCT04571580,Normal Saline,sodium chloride,saline control
+NCT04728932,Levosimendan,levosimendan,registry MeSH is Simendan
+NCT04806893,lerodalcibep,lerodalcibep,general knowledge: check
+NCT04825743,zalunfiban,zalunfiban,general knowledge: check
+NCT04837001,FDY-5301,sodium iodide,"FDY-5301 is an intravenous sodium iodide product, from memory; check"
+NCT04873934,Inclisiran,inclisiran,general knowledge: check
+NCT04912167,Sacubitril-Valsartan,sacubitril + valsartan,the registry partial match gave only valsartan
+NCT04990349,Oxygen gas,oxygen,general knowledge: check
+NCT05043610,Umbilical Cord-Derived Wharton's Jelly Mesenchymal Stem Cells (WJ-MSCs),mesenchymal stem cells (umbilical cord),cell therapy
+NCT05046106,MLC1501,,study code; no generic name I am sure of
+NCT05077683,DAPT strategy,,"treatment strategy (dual antiplatelet therapy), not one drug"
+NCT05739383,Inclisiran sodium 300 mg (equivalent to 284 mg inclisiran) in 1.5 mL,inclisiran,general knowledge: check
+NCT05779059,De-escalation to prasugrel 5 mg at day 30,prasugrel,de-escalation strategy at 5 mg
+NCT05779059,De-escalation to ticagrelor 60 mg at day 30,ticagrelor,de-escalation strategy at 60 mg
+NCT05779059,Switch to prasugrel 5 mg at day 45,prasugrel,switch strategy at 5 mg
+NCT05779059,Switch to ticagrelor 60 mg at day 45,ticagrelor,switch strategy at 60 mg
+NCT05825573,Direct oral anticoagulant,direct oral anticoagulant (drug class),"drug class, not one drug"
+NCT05825573,Vitamin K antagonist,vitamin K antagonist (drug class),"drug class, not one drug"
+NCT05903976,P2Y12 inhibitor de-escalation,,"treatment strategy, not one drug"
+NCT05935423,Umbilical Cord Mesenchymal Stem Cell transplantation,mesenchymal stem cells (umbilical cord),cell therapy
+NCT06081803,Repatha®,evolocumab,Repatha is the brand name of evolocumab (also the trial's registry MeSH term)
+NCT06577519,Vicagrel,vicagrel,general knowledge: check
+NCT06704685,Butylphthalide,3-n-butylphthalide,registry MeSH term
+NCT06704685,Butylphthalide placebo,3-n-butylphthalide,registry MeSH term
+NCT06723002,Atherolive 1000/day,,product name; active ingredient not given
+NCT06723002,Atherolive 500mg/day,,product name; active ingredient not given
+NCT06742567,Control (Standard treatment),,"standard care, not one drug"
+NCT06845254,Xuesaitong soft capsule (main ingredient is Panax notoginseng saponins),panax notoginseng saponins,name says main ingredient is Panax notoginseng saponins
+NCT07099014,Inahled Isoflurane,isoflurane,registry spelling 'Inahled'
+NCT07102628,Inclisiran,inclisiran,general knowledge: check
+NCT07146360,"Actilyse® (Boehringer Ingelheim Pharma GmbH and Co.KG, Germany)",alteplase,Actilyse is the brand name of alteplase
+NCT07146360,"Revelise (GENERIUM, Russia)",alteplase,"Revelise (GENERIUM) appears to be an alteplase product, from memory; check"
+NCT07440381,Triple oral lipid lowering treatment,,combination strategy; drugs not named
+NCT07478003,"NaCl (0,9%)",sodium chloride,saline control
+NCT07604103,antibiotic treatments,,drug class not specified
+NCT07736313,PCSK9 inhibitor plus rosuvastatin 20 mg tab,PCSK9 inhibitor (drug class) + rosuvastatin,the registry partial match gave only rosuvastatin
+NCT07908082,Acetyl Salicylic Acid (ASA),aspirin,general knowledge: check

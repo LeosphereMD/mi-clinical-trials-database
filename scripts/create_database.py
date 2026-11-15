@@ -59,6 +59,18 @@ CREATE TABLE trials (
     publication_status      TEXT CHECK (publication_status IN
                                 ('found', 'no publication found', 'not yet searched')),
     raw_json_file           TEXT,
+    -- registry cleaning (step 2a), filled only from approved review files
+    sponsor_name_clean      TEXT,
+    sponsor_group           TEXT CHECK (sponsor_group IN
+                                ('industry', 'academic or hospital',
+                                 'research network or cooperative group',
+                                 'government', 'individual investigator')),
+    why_stopped_category    TEXT CHECK (why_stopped_category IN
+                                ('safety', 'lack of efficacy or futility',
+                                 'slow enrollment', 'COVID-19',
+                                 'funding or commercial reasons',
+                                 'other sponsor decision', 'new outside evidence',
+                                 'regulatory', 'unclear', 'not stated')),
     first_seen_run          INTEGER REFERENCES fetch_runs(run_id),
     last_seen_run           INTEGER REFERENCES fetch_runs(run_id)
 );
@@ -80,7 +92,19 @@ CREATE TABLE interventions (
     intervention_type TEXT,
     name              TEXT,
     other_names       TEXT,
-    description       TEXT
+    description       TEXT,
+    -- registry cleaning (step 2a)
+    generic_name        TEXT,
+    generic_name_source TEXT CHECK (generic_name_source IN
+                            ('registry MeSH exact match', 'owner approved'))
+);
+
+-- 14. The registry's drug MeSH terms per trial
+CREATE TABLE intervention_mesh (
+    nct_id     TEXT NOT NULL REFERENCES trials(nct_id),
+    mesh_term  TEXT,
+    mesh_id    TEXT,
+    match_type TEXT CHECK (match_type IN ('direct term', 'parent term'))
 );
 
 -- 4. Each study group

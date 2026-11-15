@@ -28,6 +28,7 @@ transparent.
 |---|---|---|---|
 | 1 | Fetch trials from the API | `data/` (raw JSON) | script |
 | 2 | Load into SQLite | `data/` | script |
+| 2a | Registry cleaning: generic drug names, sponsor names and groups, why_stopped categories (see "Registry cleaning") | `review/` | script drafts, project owner approves, script loads |
 | 2b | Registry hand-check: a sample of registry values checked against the ClinicalTrials.gov website (see "Registry hand-check") | `review/` | script makes the sheet, project owner checks |
 | 3 | Find the papers and place the PDFs | `papers/` | project owner, by hand |
 | 4 | Extract results from the PDFs | `extractions/` | AI agent |
@@ -223,6 +224,13 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
     sample), fetch_run_id (the download the value came from), decision
     (approve / correct / changed since download), corrected_value (required
     when the decision is correct), comment, decided_at.
+14. **`intervention_mesh`**: the registry's drug MeSH terms per trial.
+    nct_id, mesh_term, mesh_id, match_type (direct term or parent term).
+
+Registry cleaning (step 2a) adds columns to two tables. To `trials`:
+sponsor_name_clean, sponsor_group and why_stopped_category. To
+`interventions`: generic_name and generic_name_source (registry MeSH exact
+match / owner approved).
 
 ### How the tables connect
 ```
@@ -232,7 +240,7 @@ trials --many:many via trial_publications--> publications
 extracted_values --> trials, publications, arms (optional)
 review_decisions --many:1--> extracted_values
 outcome_comparisons --> trials, publications, registered_outcomes
-trials --1:many--> trial_countries, registry_checks
+trials --1:many--> trial_countries, registry_checks, intervention_mesh
 ```
 
 ## Population label
@@ -268,6 +276,102 @@ first one that fits wins.
 5. No hit anywhere → **MI unspecified** (source: mesh).
 
 The text search never produces ACS mixed.
+
+## Registry cleaning
+Added on 2026-11-15. This is pipeline step 2a, after the trials are loaded and
+before the registry hand-check. Steps:
+1. `scripts/draft_cleaning.py` writes three review files.
+2. The project owner fills in the decision columns.
+3. `scripts/load_cleaning.py` copies approved values into the database.
+
+The only values that go in without approval are exact MeSH matches for drug
+names (see below).
+
+### Review files (all in `review/`, committed to git: no paper quotes)
+- Every row has: decision (approve / correct, or blank = not reviewed yet),
+  a corrected value column, and a comment column.
+- Re-running the draft script never changes a row that has a decision. It
+  refreshes the drafts in rows without one, and adds rows for new items.
+- Files are UTF-8, so Excel shows accents correctly. The loader also accepts
+  files Excel saves with semicolons.
+- The approved CSV files are the record of the owner's decisions. The loader
+  applies them again on every run, so a new download never loses them.
+
+### 1. Generic drug names
+- The registry's drug MeSH terms are stored in `intervention_mesh`
+  (`fetch_trials.py` fills it). The registry gives them per trial, not per
+  intervention.
+- `interventions.generic_name` is filled automatically, without review, only
+  when a DRUG or BIOLOGICAL intervention name equals one of that trial's MeSH
+  terms, ignoring capital letters. generic_name_source = "registry MeSH exact
+  match".
+- Every other DRUG or BIOLOGICAL intervention goes into
+  `review/drug_names.csv`, with a column suggested_generic, clearly marked as
+  a suggestion, and its suggestion_source. They are tried in this order:
+  1. "placebo": the name says placebo, and the name isn't a combination
+     such as "Ticagrelor + placebo".
+  2. "Claude, from general knowledge: check": written by Claude in
+    `review/drug_name_suggestions_claude.csv`, each with a note. It is used
+    for names the registry can't explain (e.g. study codes), and to correct
+    registry partial matches that are misleading (e.g. "sacubitril/valsartan"
+    matched only "valsartan"). Where Claude isn't sure, the suggestion is
+    left empty and the note says why.
+  3. "registry MeSH, partial match": the words of one of the trial's MeSH
+    terms appear in the name or other names (salt words such as
+    "Hydrochloride" or "Calcium" are ignored).
+  4. Otherwise no suggestion.
+- Suggestions go into the database only after the owner approves or corrects
+  them (generic_name_source = "owner approved"). Names are stored in lower case.
+
+### 2. Sponsor names and groups
+- All lead sponsors (127 in the first download) go into `review/sponsors.csv`.
+- sponsor_name_clean merges spellings of the same organization. The draft
+  removes legal-form endings (Inc., LLC, Ltd, Co., AB, AG, GmbH, A/S, S.A. ...),
+  and names that are then the same, ignoring capital letters, accents and
+  punctuation, get one clean name. A possible_same_as column points out
+  names where one is the start of another (e.g. "University of Sao Paulo" and
+  "University of Sao Paulo General Hospital"), for the owner to decide.
+- sponsor_group: industry / academic or hospital / research network or
+  cooperative group / government / individual investigator. The draft uses
+  the registry's sponsor class and keywords in the name, in this order:
+  1. class NIH or FED → government
+  2. network, cooperative, consortium, society, investigator or research
+     group, foundation → research network or cooperative group
+  3. region, NHS, social security, ministry → government
+  4. university, hospital, clinic, medical center, institute, academy,
+     college, school → academic or hospital
+  5. class INDUSTRY or a company ending → industry
+  6. class NETWORK → research network or cooperative group
+  7. no organization word at all (class OTHER or OTHER_GOV) → individual
+     investigator. This comes before the registry's government class, because
+     the registry gives some individual doctors that class.
+  8. anything left: no draft; the owner decides
+
+  draft_basis shows which rule applied.
+- Approved values go into `trials.sponsor_name_clean` and
+  `trials.sponsor_group`.
+
+### 3. why_stopped categories
+- Every trial with a why_stopped text, or with status terminated, withdrawn or
+  suspended, goes into `review/why_stopped.csv`.
+- One category per trial: safety / lack of efficacy or futility / slow
+  enrollment / COVID-19 / funding or commercial reasons / other sponsor
+  decision / new outside evidence / regulatory / unclear / not stated (no
+  reason given).
+- The draft uses keywords, checked in this order, and the first match wins:
+  1. safety
+  2. new outside evidence
+  3. lack of efficacy or futility
+  4. COVID-19
+  5. slow enrollment
+  6. funding or commercial reasons
+  7. regulatory
+  8. other sponsor decision
+  9. otherwise unclear
+- Funding or commercial keywords include "market" (e.g. "market landscape").
+- When the text only says "see detailed description", the detailed
+  description is shown in the file and searched too.
+- Approved values go into `trials.why_stopped_category`.
 
 ## Registry hand-check
 Added on 2026-11-15. This is pipeline step 2b, after the trials are loaded. The
