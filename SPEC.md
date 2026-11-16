@@ -60,11 +60,11 @@ transparent.
 
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
-2. Exclusions applied on 2026-11-16 in two rounds: 196 → 161 → 148 trials (Phase 3 130, Phase 2/3 18); see the Quality log.
+2. Exclusions applied on 2026-11-16 in three rounds: 196 → 161 → 148 → 142 trials (Phase 3 124, Phase 2/3 18); see the Quality log.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
-4. Timing after MI: 78 sure acute loaded; `review/timing_after_mi.csv` (70 rows after the exclusions) waits for the owner, then run `load_timing.py`.
-5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 142 rows for 52 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles: 61 known from owner decisions; `review/intervention_roles.csv` (225 rows, with draft roles) waits for the owner's decisions.
+4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 142 trials: acute 116 (38 owner approved, 78 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, waiting 1 (NCT02617290, see the Quality log). `review/timing_after_mi.csv` has 64 rows.
+5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 141 rows for 51 trials after round 3). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
+6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles: 61 known from owner decisions; `review/intervention_roles.csv` (212 rows after round 3, with draft roles) waits for the owner's decisions.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -205,6 +205,11 @@ Added by the project owner on 2026-11-16:
     without a decision. The drug-class analysis is "Analyses", 4.
 22. **Rule 9 flags.** "mechanistic" is removed from the standard comment
     flags; decision 19's code rule replaces it.
+23. **Acute window.** How wide is "acute" in `timing_after_mi`?
+    Choice (2026-11-16): strict, within 7 days or during the index
+    hospitalisation. 8-14 day windows (e.g. DAPA-MI, EMPACT-MI) are recent.
+    A label taken from a paper cites the paper in the review comment. See
+    "Timing after MI".
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -751,6 +756,18 @@ Added on 2026-11-16 (decision 16). This is part of registry cleaning (step 2a).
 - **Loading:** `load_timing.py` stores the owner's value (source "owner
   approved"). Sure acute drafts with a found quote go in without review
   (source "Claude draft, not reviewed"). Rows still waiting stay empty.
+- **The acute window stays strict** (decision 23, 2026-11-16): acute means
+  within 7 days or during the index hospitalisation, nothing longer. Trials
+  whose window runs to 8-14 days are labelled recent, e.g. DAPA-MI
+  (NCT04564742, 7 days, or up to 10 days) and EMPACT-MI (NCT04509674, up to
+  14 days after admission). Acute trials whose criteria give no window carry
+  the owner's comment "no window stated".
+- **Labels taken from a paper:** when the registry is not enough and the
+  owner takes the label from a paper, the comment on
+  `review/timing_after_mi.csv` cites it (authors, journal, year, volume and
+  article or page, or the DOI, and where in the paper). The comment is kept in
+  the review file; the database keeps the label, the registry evidence quote
+  and the source "owner approved".
 
 ## Quality log
 Problems found in the data, and what was done about them.
@@ -762,6 +779,36 @@ Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
 added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
+
+### 2026-11-16: excluded by hand, round 3 (6 trials, 148 → 142, decision 17)
+Flagged by the owner with comments starting "OUT OF SCOPE?" while reviewing
+`review/timing_after_mi.csv`; the owner's comment (without that prefix) is the
+reason in `review/manual_exclusions.csv`. Decided review rows (13) archived in
+`review/archive/excluded_trial_decisions.csv`. After this run: 142 trials
+(Phase 3 124, Phase 2/3 18). Database backup:
+`data/ami_trials.backup-20261116-171008-before-exclusion-round3.db`.
+- PCI populations with ACS only a subset (same logic as NCT01848106 and
+  NCT01465828): NCT01109784 (clopidogrel resistance after PCI), NCT01156571
+  (CHAMPION PHOENIX, cangrelor), NCT01360437 (high platelet reactivity; ACS
+  or TIMI score >2, so ACS not required), NCT03755700 (contrast kidney injury
+  in CKD patients having angiography/PCI; STEMI excluded).
+- NCT01812330: elective PCI with clopidogrel resistance in stable patients.
+- NCT02982057: device trial (ABSORB BVS vs optimal medical therapy); the
+  medical therapy is registered as "Drug" only as the comparator.
+- Bug found and fixed in `apply_inclusion_rule.py`: deleting a row from
+  `review/registry_check.xlsx` moved the cell text up but left the
+  ctgov_link links in place, so the 26 rows below the deleted one linked to
+  the next trial. The script now sets every link again from the row's
+  nct_id; the sheet was repaired and checked (all 141 links match, all
+  values unchanged). `intervention_roles.csv` was added to the review files
+  the script cleans.
+- Not a duplicate in the database: the owner's paper says NCT04717986 and
+  NCT05998525 are one dapagliflozin study registered twice. NCT04717986
+  (DAPA-AMI) was never stored, because its registry phase is "Not
+  Applicable", so it fails the phase rule; only NCT05998525 is in.
+- Waiting for the owner: NCT02617290 (elective PCI, negative troponin
+  required; MI is in its conditions as an outcome, type 4a). Its timing row
+  has no decision.
 
 ### 2026-11-16: excluded by hand, round 2 (13 trials, 161 → 148, decision 17)
 Found by a check for trials whose inclusion criteria never mention MI or ACS.
