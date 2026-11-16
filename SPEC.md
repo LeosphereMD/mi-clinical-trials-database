@@ -60,11 +60,11 @@ transparent.
 
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
-2. Exclusions applied on 2026-11-16 in three rounds: 196 → 161 → 148 → 142 trials (Phase 3 124, Phase 2/3 18); see the Quality log.
+2. Exclusions applied on 2026-11-16 in three rounds: 196 → 161 → 148 → 141 trials (Phase 3 123, Phase 2/3 18); see the Quality log.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
-4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 142 trials: acute 116 (38 owner approved, 78 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, waiting 1 (NCT02617290, see the Quality log). `review/timing_after_mi.csv` has 64 rows.
-5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 141 rows for 51 trials after round 3). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles: 61 known from owner decisions; `review/intervention_roles.csv` (212 rows after round 3, with draft roles) waits for the owner's decisions.
+4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 141 trials: acute 116 (38 owner approved, 78 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
+5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 140 rows for 50 trials after round 3). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
+6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles: 61 known from owner decisions; `review/intervention_roles.csv` (210 rows after round 3, with draft roles) waits for the owner's decisions.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -780,13 +780,15 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
-### 2026-11-16: excluded by hand, round 3 (6 trials, 148 → 142, decision 17)
+### 2026-11-16: excluded by hand, round 3 (7 trials, 148 → 141, decision 17)
 Flagged by the owner with comments starting "OUT OF SCOPE?" while reviewing
 `review/timing_after_mi.csv`; the owner's comment (without that prefix) is the
-reason in `review/manual_exclusions.csv`. Decided review rows (13) archived in
-`review/archive/excluded_trial_decisions.csv`. After this run: 142 trials
-(Phase 3 124, Phase 2/3 18). Database backup:
-`data/ami_trials.backup-20261116-171008-before-exclusion-round3.db`.
+reason in `review/manual_exclusions.csv`. Decided review rows (13 + 1)
+archived in `review/archive/excluded_trial_decisions.csv`. After this round:
+141 trials (Phase 3 123, Phase 2/3 18). Database backups:
+`data/ami_trials.backup-20261116-171008-before-exclusion-round3.db` (before
+the 6) and `data/ami_trials.backup-20261116-171851-before-exclusion-NCT02617290.db`
+(before NCT02617290).
 - PCI populations with ACS only a subset (same logic as NCT01848106 and
   NCT01465828): NCT01109784 (clopidogrel resistance after PCI), NCT01156571
   (CHAMPION PHOENIX, cangrelor), NCT01360437 (high platelet reactivity; ACS
@@ -799,16 +801,25 @@ reason in `review/manual_exclusions.csv`. Decided review rows (13) archived in
   `review/registry_check.xlsx` moved the cell text up but left the
   ctgov_link links in place, so the 26 rows below the deleted one linked to
   the next trial. The script now sets every link again from the row's
-  nct_id; the sheet was repaired and checked (all 141 links match, all
+  nct_id; the sheet was repaired and checked (all links matched, all
   values unchanged). `intervention_roles.csv` was added to the review files
   the script cleans.
-- Not a duplicate in the database: the owner's paper says NCT04717986 and
-  NCT05998525 are one dapagliflozin study registered twice. NCT04717986
-  (DAPA-AMI) was never stored, because its registry phase is "Not
-  Applicable", so it fails the phase rule; only NCT05998525 is in.
-- Waiting for the owner: NCT02617290 (elective PCI, negative troponin
-  required; MI is in its conditions as an outcome, type 4a). Its timing row
-  has no decision.
+- NCT05998525 kept (owner decision, 2026-11-16): CT sub-study of
+  NCT04717986 (DAPA-AMI, registry phase N/A, not in database); same
+  patients, no double counting. Both registrations share the site (UMAE
+  No. 1 Bajío, León), the investigator, dapagliflozin 10 mg vs placebo and
+  the 2021-2023 period; enrollment 188 (main trial) and 54 (sub-study).
+  NCT04717986 fails the phase rule, so NCT05998525 is the study's only
+  registration in the database. Its timing label (acute) comes from the
+  sub-study paper, cited in the timing comment: Macías-Cervantes HE et al.
+  Curr Probl Cardiol. 2024;49(2):102213. doi:10.1016/j.cpcardiol.2023.102213
+  (PMID 38000564; PubMed links it only to NCT05998525). The main trial's
+  paper is PMID 42471097 (doi:10.1016/j.cpcardiol.2026.103401).
+- NCT02617290, decided by the owner after the scope check: elective PCI,
+  troponin-negative; prior ACS only an optional risk feature. MI listed in
+  conditions as outcome (type 4a), not population. Same as NCT01848106.
+  Excluded in a second run the same day; the repaired link rebuilding was
+  checked again on it (all 140 links match).
 
 ### 2026-11-16: excluded by hand, round 2 (13 trials, 161 → 148, decision 17)
 Found by a check for trials whose inclusion criteria never mention MI or ACS.
