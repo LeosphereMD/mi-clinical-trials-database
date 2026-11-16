@@ -16,8 +16,9 @@ This script writes review/intervention_roles.csv with every DRUG or
 BIOLOGICAL intervention that has no role from 1 or 2. It shows the registry
 arms each intervention belongs to, a hint from the arm types, and a
 draft_role from the hint (only experimental arms = study drug; only
-comparator arms = comparator; every arm = background; mixed or no arms =
-empty). Nothing goes into the database without the owner's decision.
+"Active comparator" arms, when every other arm is placebo, sham or no
+intervention = study drug; other comparator-only = comparator; every arm =
+background; mixed or no arms = empty). Nothing goes into the database without the owner's decision.
 Rows come sorted with the mixed and every-arm rows first.
 
 A row with a decision is never changed on re-runs.
@@ -49,9 +50,13 @@ HINT_MIXED = "mixed arm types: check"
 HINT_EVERY = "in every arm: possibly background"
 HINT_EXPERIMENTAL = "only in experimental arms: possibly study drug"
 HINT_COMPARATOR = "only in comparator arms: possibly comparator"
+HINT_ACTIVE_VS_PLACEBO = ("only in Active comparator arms, compared only with placebo or no "
+                          "intervention: possibly study drug")
 DRAFT_FROM_HINT = {HINT_EXPERIMENTAL: "study drug", HINT_COMPARATOR: "comparator",
-                   HINT_EVERY: "background"}
-HINT_ORDER = {HINT_MIXED: 0, HINT_EVERY: 1, HINT_EXPERIMENTAL: 2, HINT_COMPARATOR: 3}
+                   HINT_EVERY: "background", HINT_ACTIVE_VS_PLACEBO: "study drug"}
+HINT_ORDER = {HINT_MIXED: 0, HINT_EVERY: 1, HINT_ACTIVE_VS_PLACEBO: 2, HINT_EXPERIMENTAL: 3,
+              HINT_COMPARATOR: 4}
+INACTIVE_ARMS = {"PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "NO_INTERVENTION"}
 
 
 def roles_from_comments():
@@ -84,6 +89,11 @@ def registry_arms(raw_file, name):
         hint = HINT_EVERY
     elif types <= {"EXPERIMENTAL"}:
         hint = HINT_EXPERIMENTAL
+    elif types == {"ACTIVE_COMPARATOR"} and all(
+            t in INACTIVE_ARMS for label, t in arm_types.items() if label not in labels):
+        # Registries often label the tested drug's arm "Active comparator" when
+        # the only other arms are placebo or no intervention (decision 21).
+        hint = HINT_ACTIVE_VS_PLACEBO
     elif types <= {"ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "NO_INTERVENTION"}:
         hint = HINT_COMPARATOR
     else:
@@ -126,7 +136,7 @@ def main():
                      "draft_role": DRAFT_FROM_HINT.get(hint, ""),
                      "decision": "", "corrected_role": "", "comment": ""})
     merged, counts = merge_with_existing(ROLE_SHEET, KEY, rows, OWNER_COLUMNS)
-    merged.sort(key=lambda r: (HINT_ORDER.get(r.get("arm_hint"), 4), r["nct_id"],
+    merged.sort(key=lambda r: (HINT_ORDER.get(r.get("arm_hint"), 5), r["nct_id"],
                                r["intervention_name"]))
     bad = [f"{r['nct_id']} {r['intervention_name']}: '{r['corrected_role']}'" for r in merged
            if r.get("corrected_role", "").strip()

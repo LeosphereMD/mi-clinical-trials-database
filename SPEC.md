@@ -60,11 +60,11 @@ transparent.
 
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
-2. Exclusions applied on 2026-11-16 in three rounds: 196 → 161 → 148 → 141 trials (Phase 3 123, Phase 2/3 18); see the Quality log.
+2. Exclusions applied on 2026-11-16 in three rounds plus PREMIER: 196 → 161 → 148 → 141 → 140 trials (Phase 3 122, Phase 2/3 18); see the Quality log.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
-4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 141 trials: acute 116 (38 owner approved, 78 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
+4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 140 trials: acute 115 (38 owner approved, 77 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
 5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 140 rows for 50 trials after round 3). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16: all 269 DRUG/BIOLOGICAL interventions have a role (study drug 130, comparator 132, background 7). Sources: 53 placebo decisions, 6 "role:" comments, 210 rows of `review/intervention_roles.csv` (195 approved, 15 corrected).
+6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16 and fixed the same day (Quality log): all 268 DRUG/BIOLOGICAL interventions have a role (study drug 158, comparator 103, background 7); every trial has at least one study drug. Sources: 53 placebo decisions, 6 "role:" comments, 209 rows of `review/intervention_roles.csv`.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -203,6 +203,15 @@ Added by the project owner on 2026-11-16:
     arms = comparator; every arm = background; mixed = empty), updated on
     2026-11-16: the owner approves or corrects each row, and nothing goes in
     without a decision. The drug-class analysis is "Analyses", 4.
+    Rule change (owner, 2026-11-16): an intervention only in "Active
+    comparator" arms, in a trial whose other arms are all placebo, sham or
+    no intervention, gets the draft "study drug" (registries often label the
+    tested drug's arm "Active comparator").
+    Head-to-head trials (owner, 2026-11-16): the older standard drug is the
+    comparator; if neither is the standard, both are study drugs.
+    Every trial has at least one study drug; a trial whose tested
+    intervention is not a drug is excluded by hand (decision 17), e.g.
+    NCT02982057 (ABSORB) and NCT01004406 (PREMIER).
 22. **Rule 9 flags.** "mechanistic" is removed from the standard comment
     flags; decision 19's code rule replaces it.
 23. **Acute window.** How wide is "acute" in `timing_after_mi`?
@@ -446,9 +455,12 @@ random check (see part 4).
   whose role is not already known from the owner's placebo decisions or
   "role: ..." comments. It shows the registry arms, a hint (e.g. "in every
   arm: possibly background") and a draft_role from the hint (only
-  experimental arms = study drug; only comparator arms = comparator; every
-  arm = background; mixed or no arms = empty). Rows are sorted with the mixed
-  and every-arm rows first. The owner approves (the draft_role) or corrects
+  experimental arms = study drug; only "Active comparator" arms when every
+  other arm is placebo, sham or no intervention = study drug; other
+  comparator-only = comparator; every arm = background; mixed or no arms =
+  empty). Rows are sorted with the mixed and every-arm rows first. Head-to-
+  head trials: the older standard drug is the comparator; if neither is the
+  standard, both are study drugs (decision 21). The owner approves (the draft_role) or corrects
   (corrected_role) each row; `load_cleaning.py` loads only rows with a
   decision.
 - Automatic names that break the conventions are overridden the same way as
@@ -779,6 +791,36 @@ Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
 added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
+
+### 2026-11-16: role fixes and PREMIER excluded (141 → 140)
+A check for trials with no "study drug" found 26 after the roles were loaded.
+Cause: registries often label the tested drug's arm "Active comparator", and
+the old draft rule turned that into the draft "comparator", which the owner
+approved. Database backup:
+`data/ami_trials.backup-20261116-185551-before-role-fixes.db`.
+- Drug vs placebo or no intervention (22 trials), listed drug set to study
+  drug by the owner: NCT01882179, NCT02377388, NCT02404376, NCT02451293,
+  NCT02525939, NCT02551094, NCT02591927, NCT02733185, NCT03048825,
+  NCT03287609, NCT03371784, NCT03516903, NCT05424315, NCT05881382,
+  NCT07478003, NCT07604103 (antibiotics stay background), NCT07736313
+  (rosuvastatin alone = background, because the PCSK9 arm's intervention
+  also includes rosuvastatin 20 mg), NCT01787110, NCT04367935, NCT05182970,
+  NCT05957887, NCT06847568.
+- Head-to-head (new rule in decision 21): NCT01531114 prasugrel and
+  ticagrelor both study drug; NCT02298088 and NCT02429271 ticagrelor =
+  study drug, clopidogrel = comparator.
+- NCT01225562 (PEGASUS): ticagrelor 90 mg set back to study drug (the
+  owner's earlier change was a slip; both doses are tested against
+  placebo).
+- New draft rule (decision 21) applied to every row: 22 drafts change, all in
+  the trials above. Outside them, no row's new draft differs from its old
+  draft; 13 rows differ from the draft only because the owner had already
+  corrected them, so none was put back for review.
+- NCT01004406 (PREMIER) excluded by hand: tested intervention is a device
+  (intensive LDL-lowering, registered as Device); statin is background in
+  both arms. Same as ABSORB. 3 decided rows archived (drug name, role,
+  sponsor "VA Office of Research and Development"). After: 140 trials
+  (Phase 3 122, Phase 2/3 18).
 
 ### 2026-11-16: excluded by hand, round 3 (7 trials, 148 → 141, decision 17)
 Flagged by the owner with comments starting "OUT OF SCOPE?" while reviewing
