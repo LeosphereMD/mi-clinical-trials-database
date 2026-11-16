@@ -64,7 +64,7 @@ transparent.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: 78 sure acute loaded; `review/timing_after_mi.csv` (70 rows after the exclusions) waits for the owner, then run `load_timing.py`.
 5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 142 rows for 52 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Open question: NCT01327846 (CANTOS) "Standard of care" got the generic name "standard of care" automatically (registry MeSH exact match), not "usual care" as in the owner's convention.
+6. Drug names: CANTOS "Standard of care" set to usual care (decision 20). Roles: 57 known from owner decisions; `review/intervention_roles.csv` (229 rows) waits for the owner. Open: automatic names that break the conventions (brand names Vaxigrip and Ropren; "tissue plasminogen activator"); three owner corrections that name a control or background arm after the study drug (NCT06742567 "Control (Standard treatment)" = apixaban, NCT05077683 "DAPT strategy" = rivaroxaban, NCT07604103 "antibiotic treatments" = influenza vaccine).
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -187,6 +187,22 @@ Added by the project owner on 2026-11-16:
     primary_outcome_type is surrogate only and its registry enrollment is
     under 500. SPEC and the README use this name, not "mechanistic". The
     analysis applies the rule in code (see "Analyses", 3).
+20. **"Usual care" convention.** How are standard or optimal medical therapy
+    interventions named?
+    Choice: generic name "usual care", also when the automatic exact MeSH
+    match gave another name (the owner overrides it with a row in
+    `review/drug_names.csv`, which the loader applies after the automatic
+    matches). First case: NCT01327846 (CANTOS) "Standard of care".
+21. **Intervention role.** `interventions.intervention_role` (study drug /
+    comparator / background) for DRUG and BIOLOGICAL interventions, so a
+    drug-class analysis can leave out background therapy. Filled only from
+    the owner: approved placebo = comparator; a "role: ..." comment in
+    `review/drug_names.csv`; or the owner's entry in
+    `review/intervention_roles.csv`. The registry arm types are shown on that
+    sheet as a hint and are never stored as a role. (A drug-class analysis
+    is not yet specified in "Analyses".)
+22. **Rule 9 flags.** "mechanistic" is removed from the standard comment
+    flags; decision 19's code rule replaces it.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -219,7 +235,10 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    passed the inclusion rule. nct_id, condition_text, mesh_term, mesh_id,
    match_type (direct term or parent term).
 3. **`interventions`**: each drug, biological, device or procedure tested.
-   nct_id, intervention_type, name, other_names, description.
+   nct_id, intervention_type, name, other_names, description,
+   generic_name, generic_name_source, intervention_role (study drug /
+   comparator / background) and intervention_role_source (owner placebo
+   decision / owner comment / owner role sheet).
 4. **`arms`**: each study group, so per-arm numbers have something to link to.
    nct_id, arm_label, arm_type, description.
 5. **`registered_outcomes`**: outcomes as registered before results. nct_id,
@@ -301,7 +320,8 @@ primary_outcome_type. To `registered_outcomes`: outcome_category,
 outcome_category_source (Claude draft, not sampled / owner approved) and
 composite_with_surrogate (yes / no). To
 `interventions`: generic_name and generic_name_source (registry MeSH exact
-match / owner approved).
+match / owner approved), intervention_role and intervention_role_source
+(decision 21).
 
 ### How the tables connect
 ```
@@ -411,6 +431,15 @@ random check (see part 4).
   4. Otherwise no suggestion.
 - Suggestions go into the database only after the owner approves or corrects
   them (generic_name_source = "owner approved"). Names are stored in lower case.
+- Conventions (owner): placebo is "placebo"; standard or optimal medical
+  therapy is "usual care" (decision 20); combinations are written "a + b".
+  An owner row in drug_names.csv overrides an automatic exact match.
+- **Roles** (decision 21): `scripts/draft_roles.py` writes
+  `review/intervention_roles.csv` with every DRUG or BIOLOGICAL intervention
+  whose role is not already known from the owner's placebo decisions or
+  "role: ..." comments. It shows the registry arms and a hint (e.g. "in every
+  arm: possibly background"). The owner fills in the role column;
+  `load_cleaning.py` loads it.
 
 ### 2. Sponsor names and groups
 - All lead sponsors (127 in the first download) go into `review/sponsors.csv`.
@@ -546,8 +575,10 @@ Added on 2026-11-15 at the project owner's request.
   8. Organ-support or treatment-defined outcomes (vasopressor-free days, ECMO
      weaning, revascularization) are clinical events.
   9. Standard comment flags, used verbatim so they can be counted in the
-     analysis: "mechanistic", "feasibility", "safety-only primary",
-     "split composite", "composite incl. PRO component".
+     analysis: "feasibility", "safety-only primary", "split composite",
+     "composite incl. PRO component". ("mechanistic" was removed on
+     2026-11-16: the code rule "small surrogate-only trial (<500 patients)",
+     decision 19, replaces it. No comment had used it.)
 - **Each trial's `primary_outcome_type`** follows by rule from its primary
   outcomes, never by hand (updated by the project owner on 2026-11-15):
   - clinical only: every primary outcome is a clinical event
@@ -737,12 +768,15 @@ Listed in `review/manual_exclusions.csv`; decided review rows archived in
     split composite)
   - NCT07052799: aspirin users having colonoscopy; MI is an outcome
   - NCT07908082: giant cell arteritis population
-- Population defined by PCI/CABG/AF/LV thrombus/CA-AKI; ACS patients only a
-  subset; title, conditions and inclusion criteria don't define an MI/ACS
-  population (same logic as NCT01848106): NCT01465828 (PCI, clopidogrel
-  resistance), NCT01755520 (CABG), NCT02352402 (CABG), NCT03331484 (AF after
-  PCI), NCT05825573 (intracardiac thrombus), NCT06286059 (contrast kidney
-  injury after complex PCI).
+- Lists ACS among its conditions, but the population is defined by
+  PCI/CABG/AF/LV thrombus/CA-AKI, with ACS patients only a subset (same logic
+  as NCT01848106): NCT01465828 (PCI, clopidogrel resistance), NCT01755520
+  (CABG), NCT02352402 (CABG), NCT03331484 (AF after PCI), NCT06286059
+  (contrast kidney injury after complex PCI).
+- NCT05825573 (intracardiac thrombus): the same reason, except that it lists
+  STEMI, not ACS, among its conditions.
+- Reason wording updated on 2026-11-16 at the owner's request; the archive
+  file keeps the wording in use when the rows were archived.
 - Kept: NCT06081803, a STEMI trial that describes STEMI by ECG criteria.
 
 ### 2026-11-16: drug_names.csv rows for NCT02145468 and NCT02596126 fixed

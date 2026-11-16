@@ -25,6 +25,7 @@ NCT01321255,NCT01321255,DRUG,FDC,,Simvastatin; Aspirin; Ramipril,aspirin + simva
 NCT01321255,NCT01321255,DRUG,"Separately drugs, simvastatin, aspirin and ramipril",,Simvastatin; Aspirin; Ramipril,simvastatin + aspirin + ramipril,"registry MeSH, partial match",,approve,,
 NCT01327534,NCT01327534,DRUG,Prasugrel,Effient; Efient,Prasugrel Hydrochloride; Clopidogrel,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01327846,NCT01327846,DRUG,Placebo,,canakinumab; Standard of Care,placebo,placebo,,approve,,
+NCT01327846,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT01327846"",""NCT01327846"")",DRUG,Standard of care,,canakinumab; Standard of Care,standard of care,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,usual care,"standard or optimal medical therapy is ""usual care"" (owner convention); owner override of an automatic exact MeSH match, 2026-11-16"
 NCT01336348,NCT01336348,DRUG,Prasugrel,,Prasugrel Hydrochloride; Tirofiban,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01338909,NCT01338909,DRUG,Prasugrel,,Prasugrel Hydrochloride; Clopidogrel,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01360437,NCT01360437,DRUG,Prasugrel,,Prasugrel Hydrochloride; Ticagrelor,prasugrel,"registry MeSH, partial match",,approve,,

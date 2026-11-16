@@ -6,6 +6,9 @@ Usage:
 What goes in:
   - interventions.generic_name: exact registry MeSH matches (automatic), plus
     rows of review/drug_names.csv that the owner approved or corrected
+  - interventions.intervention_role (DRUG/BIOLOGICAL): comparator for approved
+    placebo, a "role: ..." comment in drug_names.csv, or the owner's entry in
+    review/intervention_roles.csv (decision 21)
   - trials.sponsor_name_clean / sponsor_group: approved rows of review/sponsors.csv
   - trials.why_stopped_category, why_stopped_secondary_category and
     why_stopped_source: approved rows of review/why_stopped.csv
@@ -22,6 +25,7 @@ import sys
 from collections import Counter, defaultdict
 
 from create_database import DB_PATH, WHY_CATEGORIES, connect
+from draft_roles import ROLE_SHEET, ROLES, roles_from_comments
 from review_files import REVIEW_DIR, decision_of, read_csv
 
 SPONSOR_GROUPS = {"industry", "academic or hospital",
@@ -64,6 +68,7 @@ def main():
     sponsors = load_file("sponsors.csv")
     stopped = load_file("why_stopped.csv")
     report = defaultdict(Counter)
+    roles_report = Counter()
 
     con = connect()
     try:
@@ -101,6 +106,41 @@ def main():
                 (value.lower(), row["nct_id"], row["intervention_type"],
                  row["intervention_name"])).rowcount
             report["drug_names.csv"]["loaded" if n else "skipped: not in the database"] += 1
+
+        # 1c. intervention roles (decision 21): placebo decisions, "role:" comments,
+        # then the owner's role sheet
+        con.execute("UPDATE interventions SET intervention_role = NULL, "
+                    "intervention_role_source = NULL")
+        roles_report["comparator (owner placebo decision)"] = con.execute(
+            "UPDATE interventions SET intervention_role = 'comparator', "
+            "intervention_role_source = 'owner placebo decision' "
+            "WHERE generic_name = 'placebo' AND intervention_type IN ('DRUG', 'BIOLOGICAL')"
+        ).rowcount
+        for (nct_id, itype, name), role in roles_from_comments().items():
+            n = con.execute("UPDATE interventions SET intervention_role = ?, "
+                            "intervention_role_source = 'owner comment' "
+                            "WHERE nct_id = ? AND intervention_type = ? AND name = ?",
+                            (role, nct_id, itype, name)).rowcount
+            roles_report[f"{role} (owner comment)" if n
+                                         else "skipped: not in the database"] += 1
+        if ROLE_SHEET.exists():
+            for line, row in enumerate(read_csv(ROLE_SHEET), start=2):
+                role = (row.get("role") or "").strip().lower()
+                if not role:
+                    continue
+                if role not in ROLES:
+                    raise StopError(f"intervention_roles.csv line {line}: role '{row['role']}' "
+                                    f"must be one of: {', '.join(ROLES)}.")
+                n = con.execute("UPDATE interventions SET intervention_role = ?, "
+                                "intervention_role_source = 'owner role sheet' "
+                                "WHERE nct_id = ? AND intervention_type = ? AND name = ?",
+                                (role, row["nct_id"], row["intervention_type"],
+                                 row["intervention_name"])).rowcount
+                roles_report[f"{role} (owner role sheet)" if n
+                                             else "skipped: not in the database"] += 1
+        roles_report["DRUG/BIOLOGICAL without a role"] = con.execute(
+            "SELECT COUNT(*) FROM interventions WHERE intervention_type IN "
+            "('DRUG', 'BIOLOGICAL') AND intervention_role IS NULL").fetchone()[0]
 
         # 2. sponsors
         for line, row in enumerate(sponsors, start=2):
@@ -164,6 +204,7 @@ def main():
     for name, rows in (("drug_names.csv", drugs), ("sponsors.csv", sponsors),
                        ("why_stopped.csv", stopped)):
         print(f"{name}: {len(rows)} rows; " + ", ".join(f"{k} {v}" for k, v in report[name].items()))
+    print("Intervention roles: " + ", ".join(f"{k} {v}" for k, v in roles_report.items()))
     total_in = len(drugs) + len(sponsors) + len(stopped)
     loaded = sum(report[f]["loaded"] for f in report)
     skipped = Counter()

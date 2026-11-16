@@ -38,3 +38,4 @@ outcome_checks/*
 !review/manual_exclusions.csv
 !review/timing_after_mi.csv
 !review/timing_suggestions_claude.csv
+!review/intervention_roles.csv

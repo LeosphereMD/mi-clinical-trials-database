@@ -118,7 +118,12 @@ CREATE TABLE interventions (
     -- registry cleaning (step 2a)
     generic_name        TEXT,
     generic_name_source TEXT CHECK (generic_name_source IN
-                            ('registry MeSH exact match', 'owner approved'))
+                            ('registry MeSH exact match', 'owner approved')),
+    -- role in the trial (decision 21), DRUG and BIOLOGICAL interventions only
+    intervention_role   TEXT CHECK (intervention_role IN
+                            ('study drug', 'comparator', 'background')),
+    intervention_role_source TEXT CHECK (intervention_role_source IN
+                            ('owner placebo decision', 'owner comment', 'owner role sheet'))
 );
 
 -- 14. The registry's drug MeSH terms per trial
