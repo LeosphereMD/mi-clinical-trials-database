@@ -4,7 +4,8 @@ Usage:
     .venv\\Scripts\\python scripts\\load_outcome_types.py
 
 What goes in:
-  - registered_outcomes.outcome_category and composite_with_surrogate (yes/no)
+  - registered_outcomes.outcome_category, composite_with_surrogate (yes/no) and
+    outcome_comment (the owner's comment on the sheet, if any)
     for every primary outcome:
       on the review sheet with a decision -> the owner's value ("owner approved")
       on the review sheet, no decision yet -> empty
@@ -80,7 +81,7 @@ def main():
         measures = {str(oid): measure or "" for oid, _, measure, _, _ in outcomes}
 
         # The owner's decisions on the review sheet
-        owner, on_sheet = {}, set()
+        owner, on_sheet, comments = {}, set(), {}
         for line, row in enumerate(review, start=2):
             oid = (row.get("registered_outcome_id") or "").strip()
             where = f"outcome_types.csv line {line}"
@@ -104,9 +105,16 @@ def main():
             if flag not in FLAGS:
                 raise StopError(f"{where}: composite_with_surrogate '{flag}' must be yes or no.")
             owner[oid] = (category, flag)
+            comments[oid] = (row.get("comment") or "").strip() or None
 
         con.execute("UPDATE registered_outcomes SET outcome_category = NULL, "
-                    "outcome_category_source = NULL, composite_with_surrogate = NULL")
+                    "outcome_category_source = NULL, composite_with_surrogate = NULL, "
+                    "outcome_comment = NULL")
+        for oid, comment in comments.items():
+            if comment:
+                con.execute("UPDATE registered_outcomes SET outcome_comment = ? "
+                            "WHERE registered_outcome_id = ?", (comment, oid))
+                outcome_report["of these: owner comment stored"] += 1
         con.execute("UPDATE trials SET primary_outcome_type = NULL")
 
         per_trial = {}

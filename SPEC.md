@@ -61,7 +61,7 @@ transparent.
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
 2. Exclusions applied on 2026-11-16: 196 → 161 trials (Phase 3 142, Phase 2/3 19); see the Quality log. Open: the owner decides on the 13 trials whose inclusion criteria never mention MI or ACS (NCT01465828, NCT01543555, NCT01755520, NCT01877915, NCT02352402, NCT03331484, NCT05473520, NCT05474053, NCT05476991, NCT05825573, NCT06286059, NCT07052799, NCT07908082; NCT06081803 also came up but is a STEMI trial described by ECG criteria).
-3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: the owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). Open: the owner's comments (and the standard comment flags of rule 9) are not stored in the database yet, so they can't be counted in the analysis; NCT03122340 outcome 1367 (MoCA) was loaded as surrogate, which conflicts with rule 2.
+3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "mechanistic" threshold to be chosen (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: 161 drafts; 78 sure acute loaded; `review/timing_after_mi.csv` (83 rows) waits for the owner, then run `load_timing.py`.
 5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 143 rows for 53 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
 6. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
@@ -175,6 +175,15 @@ Added by the project owner on 2026-11-16:
     clearly not MI or ACS trials (e.g. MI named only as an outcome in the
     conditions list) are excluded by hand, each with its reason, through
     `review/manual_exclusions.csv`, and recorded in the Quality log.
+18. **Outcome comments and split composites.** How are the owner's comments
+    and split composites counted?
+    Choice: `registered_outcomes.outcome_comment` stores the owner's comment
+    from `review/outcome_types.csv` (it holds the rule 9 comment flags). Split
+    composites are detected in code, not from comments (see "Analyses", 2).
+19. **Mechanistic trials (proposed, not applied).** A code rule marks a trial
+    "mechanistic" when its primary_outcome_type is surrogate only and its
+    enrollment is below a threshold. The owner picks the threshold from the
+    distribution in "Analyses", 3. Until then the rule is not applied.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -212,8 +221,8 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    nct_id, arm_label, arm_type, description.
 5. **`registered_outcomes`**: outcomes as registered before results. nct_id,
    outcome_type (primary / secondary), measure, time_frame, description,
-   outcome_category, outcome_category_source and composite_with_surrogate
-   (primary outcomes only; see "Registry cleaning", part 4).
+   outcome_category, outcome_category_source, composite_with_surrogate and
+   outcome_comment (primary outcomes only; see "Registry cleaning", part 4).
 6. **`publications`**: one row per paper. publication_id (key), pmid, doi,
    pmc_id, title, journal, year (all optional).
 7. **`trial_publications`**: links trials to papers (one paper can report
@@ -566,7 +575,9 @@ Added on 2026-11-15 at the project owner's request.
 - The owner approves, or corrects the type, the flag or both. With
   "correct", a blank corrected column keeps the draft value.
 - **Loading:** outcomes on the sheet get the owner's value (source "owner
-  approved"), or stay empty until reviewed. Sure drafts not drawn go in
+  approved") and the owner's comment (`outcome_comment`, decision 18), or stay
+  empty until reviewed. The loader reads the short form "surrogate" as
+  "surrogate or lab measure" (the only type it can mean) and prints each use. Sure drafts not drawn go in
   automatically (source "Claude draft, not sampled").
 
 ## Registry hand-check
@@ -707,6 +718,14 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-16: estimated error rate of the unreviewed outcome type drafts
+Of Claude's sure primary outcome type drafts, a random 15% were drawn for the
+owner's check (seed 20261115). On the sheet after the exclusions, the owner
+approved all 31 random-check rows and corrected none: 0 of 31 = 0% corrected
+(95% confidence interval 0% to 11%, Wilson method). Before the exclusions it
+was 0 of 34. This is the estimated error rate for the 154 sure drafts that
+went in without review (source "Claude draft, not sampled").
+
 ### 2026-11-16: false MI/ACS matches excluded (23 trials)
 Found by the project owner: NCT01090310 (AIN457 in non-infectious uveitis)
 had the MeSH term Myocardial Infarction only because Novartis left template
@@ -754,6 +773,7 @@ but MI is not their population. Listed in `review/manual_exclusions.csv`.
 
 ## Analyses
 Added on 2026-11-15. Planned analyses of the finished database.
+Section 1 is from 2026-11-15; sections 2 and 3 were added on 2026-11-16.
 
 Every analysis runs for all trials and for acute-only trials
 (`timing_after_mi` = acute), decision 16. Trials with an empty
@@ -768,3 +788,29 @@ timing_after_mi are counted and reported, not dropped silently.
   (`phase_label`).
 - Trials with an empty primary_outcome_type are counted and reported
   separately, not dropped silently.
+
+### 2. Split composites (decision 18)
+- Detected in code. A single-event row is a primary outcome typed clinical
+  event, with composite_with_surrogate = no, whose measure text has no
+  composite wording ("composite", "MACE", "MACCE", "combined", "hierarchical",
+  "win ratio", "net clinical", "any of", "or", "and", commas, semicolons,
+  "/", "+", "endpoint"). A trial with 2 or more single-event rows has a split
+  composite.
+- Reported: the number of trials with split composites, and how many of them
+  also have a surrogate primary row (e.g. an LVEF row next to death,
+  transplant and rehospitalisation rows).
+- Known limit: a component whose own wording contains "or" (e.g. "urgent
+  coronary or carotid revascularization") is not counted as a single event;
+  the trial is still found if 2 other rows qualify. The analysis lists the
+  trials found so the owner can check them.
+- Preview on 2026-11-16 (161 trials): one trial, NCT05476991 (4 of its 5
+  component rows qualify; no surrogate row).
+
+### 3. Mechanistic trials (decision 19, threshold not chosen yet)
+Enrollment of the 104 surrogate-only trials on 2026-11-16 (enrollment is the
+registry figure, actual or estimated): 25% 60, median 102, 75% 300, 90% 487,
+max 4017 (DAPA-MI, surrogate only because of a lab-defined component).
+Trials below each threshold: < 50: 15 (14%); < 100: 46 (44%); < 150: 62
+(60%); < 200: 70 (67%); < 300: 76 (73%); < 500: 94 (90%); < 1000: 99 (95%).
+For comparison, clinical-only trials (46): median 2804; only 6 (13%) enrol
+fewer than 500.

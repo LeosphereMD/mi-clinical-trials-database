@@ -150,7 +150,9 @@ CREATE TABLE registered_outcomes (
     outcome_category      TEXT CHECK (outcome_category IN (OUTCOME_CATEGORIES)),
     outcome_category_source TEXT CHECK (outcome_category_source IN
                                 (OUTCOME_CATEGORY_SOURCES)),
-    composite_with_surrogate TEXT CHECK (composite_with_surrogate IN ('yes', 'no'))
+    composite_with_surrogate TEXT CHECK (composite_with_surrogate IN ('yes', 'no')),
+    outcome_comment       TEXT   -- the owner's comment from review/outcome_types.csv
+                                 -- (decision 18; holds the rule 9 comment flags)
 );
 
 -- 6. One row per paper
