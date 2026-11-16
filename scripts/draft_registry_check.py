@@ -6,8 +6,9 @@ Usage:
 Writes review/registry_check.xlsx: one row per trial and field, for the
 project owner to compare with the trial's page on ClinicalTrials.gov.
 Rows on the sheet:
-  1. 15 random trials, with all key fields: phase, overall status, start date,
-     enrollment (with type), lead sponsor, primary outcome, population.
+  1. 10 random trials, with the key fields: phase, overall status, start date,
+     enrollment (with type), lead sponsor, primary outcome, population, and
+     timing after MI (the label, with its evidence quote and source).
   2. Every population label that came from text (title, conditions or
      eligibility), for the population field.
   3. A random 15% (rounded up) of the MeSH-based population labels.
@@ -43,7 +44,7 @@ from review_files import REVIEW_DIR
 ROOT = Path(__file__).resolve().parent.parent
 SHEET_FILE = REVIEW_DIR / "registry_check.xlsx"
 SEED = 20261116
-N_RANDOM_TRIALS = 15
+N_RANDOM_TRIALS = 10
 MESH_SAMPLE_SHARE = 0.15
 
 REASON_RANDOM = "random trial"
@@ -53,7 +54,7 @@ DECISIONS = ["approve", "correct", "changed since download"]
 
 # Fields in the order they appear for each trial.
 FIELDS = ["phase", "overall status", "start date", "enrollment", "lead sponsor",
-          "primary outcome", "population"]
+          "primary outcome", "population", "timing after MI"]
 
 COLUMNS = ["nct_id", "ctgov_link", "field", "db_value", "population_source",
            "matching_words", "where_found", "selection_reason", "download_date",
@@ -151,7 +152,8 @@ def build_rows(con):
     trials = con.execute(
         "SELECT t.nct_id, phase_label, overall_status, start_date, start_date_type, "
         "enrollment, enrollment_type, lead_sponsor, population, population_source, "
-        "raw_json_file, last_seen_run, f.run_date "
+        "raw_json_file, last_seen_run, f.run_date, "
+        "timing_after_mi, timing_after_mi_evidence, timing_after_mi_source "
         "FROM trials t LEFT JOIN fetch_runs f ON f.run_id = t.last_seen_run "
         "ORDER BY t.nct_id").fetchall()
     outcomes = {}
@@ -170,7 +172,8 @@ def build_rows(con):
     stats = Counter()
     rows = []
     for (nct_id, phase, status, start, start_type, enrollment, enrollment_type, sponsor,
-         pop, pop_source, raw_file, run_id, run_date) in trials:
+         pop, pop_source, raw_file, run_id, run_date,
+         timing, timing_evidence, timing_source) in trials:
         pop_reasons = [r for r, ids in ((REASON_RANDOM, random_ids),
                                         (REASON_TEXT, text_ids),
                                         (REASON_MESH, mesh_sample)) if nct_id in ids]
@@ -182,7 +185,8 @@ def build_rows(con):
                       "start date": with_type(start, start_type),
                       "enrollment": with_type(enrollment, enrollment_type),
                       "lead sponsor": sponsor or "",
-                      "primary outcome": primary_outcome_text(outcomes.get(nct_id, []))}
+                      "primary outcome": primary_outcome_text(outcomes.get(nct_id, [])),
+                      "timing after MI": timing or ""}
         values["population"] = pop or ""
 
         words, where = "", ""
@@ -201,11 +205,16 @@ def build_rows(con):
             if field not in values:
                 continue
             is_pop = field == "population"
+            if field == "timing after MI":
+                timing_where = "; ".join(x for x in (
+                    f"evidence: {one_line(timing_evidence)}" if timing_evidence else "",
+                    f"source: {timing_source}" if timing_source else "") if x)
             rows.append({
                 "nct_id": nct_id, "field": field, "db_value": values[field],
                 "population_source": (pop_source or "") if is_pop else "",
                 "matching_words": words if is_pop else "",
-                "where_found": where if is_pop else "",
+                "where_found": where if is_pop else (
+                    timing_where if field == "timing after MI" else ""),
                 "selection_reason": " + ".join(pop_reasons) if is_pop else REASON_RANDOM,
                 "download_date": (run_date or "")[:10], "fetch_run_id": run_id,
                 "decision": "", "corrected_value": "", "comment": ""})
@@ -276,7 +285,8 @@ def write_sheet(path, rows, stats):
         (f"Random seed: {SEED}", True),
         ("", False),
         ("What is on the 'Checks' tab", True),
-        (f"- {stats['random trials']} random trials, with all key fields", False),
+        (f"- {stats['random trials']} random trials, with the key fields (incl. timing after MI)",
+         False),
         (f"- every population label that came from text ({stats['text-based labels']} trials)",
          False),
         (f"- a random 15% of the MeSH-based labels ({stats['MeSH labels drawn']} of "
@@ -293,6 +303,10 @@ def write_sheet(path, rows, stats):
         ("4. Population rows: 'population_source' says where the label came from, "
          "'matching_words' the words or MeSH terms that set it, and 'where_found' the text "
          "around them. Labels follow SPEC.md \"Population label\".", False),
+        ("4b. Timing after MI rows: compare the label with the inclusion criteria on the "
+         "page (acute = within 7 days or during the index hospitalisation; recent = latest allowed "
+         "8 days to 6 months; prior = more than 6 months or history of MI). 'where_found' "
+         "holds the evidence quote and the label's source.", False),
         ("5. Save the file (keep it as .xlsx), close Excel, and run "
          "scripts/load_registry_check.py.", False),
         ("", False),

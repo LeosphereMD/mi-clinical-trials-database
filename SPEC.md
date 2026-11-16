@@ -63,7 +63,7 @@ transparent.
 2. Exclusions applied on 2026-11-16 in three rounds plus PREMIER: 196 → 161 → 148 → 141 → 140 trials (Phase 3 122, Phase 2/3 18); see the Quality log.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 140 trials: acute 115 (38 owner approved, 77 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
-5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 140 rows for 50 trials after round 3). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
+5. 2b: `review/registry_check.xlsx` rebuilt on 2026-11-16 with 10 random trials and a timing row (seed 20261116; 116 rows for 46 trials: 10 random trials × 8 fields, 23 text-based and 18 of 117 MeSH population labels). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
 6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16 and fixed the same day (Quality log): all 268 DRUG/BIOLOGICAL interventions have a role (study drug 158, comparator 103, background 7); every trial has at least one study drug. Sources: 53 placebo decisions, 6 "role:" comments, 209 rows of `review/intervention_roles.csv`.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
@@ -650,9 +650,12 @@ ClinicalTrials.gov website.
 ### What goes on the sheet
 Random draws use a fixed seed, which is recorded in the script and printed on
 the sheet.
-1. **15 random trials**, with all key fields: phase, overall status, start
-   date, enrollment and enrollment type, lead sponsor, primary outcome, and
-   population.
+1. **10 random trials**, with the key fields: phase, overall status, start
+   date, enrollment and enrollment type, lead sponsor, primary outcome,
+   population, and timing after MI (the label, with its evidence quote and
+   source in `where_found`). Changed from 15 trials and 7 fields at the
+   owner's request on 2026-11-16, before any decision; same seed, so the 10
+   are the first 10 of the earlier 15.
 2. **Every population label that came from text** (source title, conditions or
    eligibility), for the population field.
 3. **A random 15% of the MeSH-based labels** (source mesh, rounded up), for the
@@ -666,6 +669,7 @@ An Excel file in `review/`, one row per trial and field. It shows:
 - the NCT ID and a link to the trial's page (`https://clinicaltrials.gov/study/<NCT ID>`)
 - the field and the database value
 - for population: the source and the matching words
+- for timing after MI: the evidence quote and the label's source
 - why the row was picked, and the download date of the value
 - columns for the decision (approve / correct / changed since download),
   corrected value and comment
@@ -791,6 +795,22 @@ Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
 added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
+
+### 2026-11-16: cut-off timing evidence quotes fixed
+15 of Claude's timing evidence quotes stopped mid-word or on a dangling word
+(e.g. "Hospitalization within 12 ho"); they passed the word-for-word check
+because a cut-off piece is still found in the text. Each was extended to the
+full sentence or criterion from the registry's inclusion criteria (checked
+word for word again): NCT01087723, NCT01327534, NCT01502774, NCT01992523,
+NCT02525939, NCT02894138, NCT03048825, NCT03699215, NCT03822377,
+NCT03998319, NCT04420624, NCT04564742, NCT04571580, NCT04912167,
+NCT06723002. Changed in `review/timing_suggestions_claude.csv` and, for
+NCT02525939 and NCT04564742, in the evidence columns of
+`review/timing_after_mi.csv`. Labels, sources and the owner's decisions are
+unchanged (checked after reloading). NCT05182970 (MIMET) keeps "I. AMI":
+that is the registry's whole criterion, with no time window; its label rests
+on the paper cited in the owner's comment. Database backup:
+`data/ami_trials.backup-20261116-190739-before-quote-fix.db`.
 
 ### 2026-11-16: role fixes and PREMIER excluded (141 → 140)
 A check for trials with no "study drug" found 26 after the roles were loaded.

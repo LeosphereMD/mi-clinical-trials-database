@@ -4,7 +4,7 @@ NCT00965406,acute,uncertain,All patients fulfilling ACS criteria,no time window 
 NCT01004406,acute,sure,Presenting with acute coronary syndrome (ACS),
 NCT01059136,acute,sure,Randomization within 72 hours after symptom onset,
 NCT01076764,acute,sure,within 24 hours of randomization,
-NCT01087723,acute,sure,presumed diagnosis of STE-ACS with onset of symptoms of,window from symptom onset: see context
+NCT01087723,acute,sure,Had a presumed diagnosis of STE-ACS with onset of symptoms of \>20 minutes and \<12 hours with one or more of the following:,window from symptom onset: see context
 NCT01109784,acute,uncertain,Patients having PCI with stent,PCI population that includes ACS patients; no time window in the inclusion criteria; an acute event is implied
 NCT01130246,acute,sure,Subjects must be randomized within ≤96 hours of hospital admission for the index event,
 NCT01147250,recent,sure,within 180 days following the ACS event and prior to screening,"latest 180 days, about 6 months (upper edge of recent)"
@@ -13,7 +13,7 @@ NCT01217307,acute,sure,the time from onset of the symptoms less than 12 hours,
 NCT01225562,prior,sure,Person who had a heart attack within 1 - 3 years ago,
 NCT01294462,acute,uncertain,Index event of non-ST or ST segment elevation ACS,no time window in the inclusion criteria; an acute event is implied
 NCT01321255,prior,sure,with a history of ST-elevation AMI within the last 2 years,
-NCT01327534,acute,sure,Acute STEMI ≤ 12,
+NCT01327534,acute,sure,"Acute STEMI ≤ 12 h defined as 1. Angina or equivalent symptoms \> 30 min and 2. ST elevation ≥ 2 leads (≥ 2 mm precordial leads, ≥ 1 mm limb leads) or ST depression ≥ 1 mm precordial leads in posterior MI",
 NCT01327846,prior,sure,Spontaneous MI at least 30 days before randomization,"only a minimum, no maximum"
 NCT01334671,acute,sure,Clinical diagnosis of STEMI less than 12 hours,
 NCT01336348,acute,sure,within 12 h of symptom onset,
@@ -21,7 +21,7 @@ NCT01338909,acute,sure,Patients with STEMI undergoing primary PCI,
 NCT01360437,acute,uncertain,Patients having PCI with st,PCI population that includes ACS patients; no time window in the inclusion criteria; an acute event is implied
 NCT01452139,acute,uncertain,STEMI patients treated with percutaneous coronary intervention,no time window in the inclusion criteria; an acute event is implied
 NCT01465828,,uncertain,patients underwent to PCI,inclusion criteria name no index MI or ACS
-NCT01502774,acute,sure,Presenting within 12 hours of the onset of,
+NCT01502774,acute,sure,Presenting within 12 hours of the onset of chest pain,
 NCT01505790,acute,uncertain,coronary angioplasty with setting-up of an endoprothese for a SCA,SCA = ACS in French; no time window in the inclusion criteria; an acute event is implied
 NCT01531114,acute,uncertain,patients underwent to primary PCI,no time window in the inclusion criteria; an acute event is implied
 NCT01543555,,uncertain,undergoing non-cardiac surgery,inclusion criteria name no index MI or ACS (non-cardiac surgery)
@@ -38,7 +38,7 @@ NCT01835353,acute,sure,Pain onset \<12 hours,
 NCT01877915,,uncertain,Must have symptomatic heart failure,heart failure population; inclusion criteria name no index MI or ACS
 NCT01878344,acute,sure,undergoing Primary Percutaneous Coronary intervention,
 NCT01882179,acute,sure,Presentation within 12 hours after symptom onset,
-NCT01992523,acute,sure,Patients presenting within 12 hours from the onset of,
+NCT01992523,acute,sure,Patients presenting within 12 hours from the onset of symptoms with STEMI,
 NCT02044146,acute,uncertain,NSTEMI undergoing PCI will be eligible,no time window in the inclusion criteria; an acute event is implied
 NCT02075125,acute,sure,Undergoing primary percutaneous coronary intervention,
 NCT02145468,acute,sure,at rest within 24 hours prior to randomization,"NSTEMI within 24 hours, STEMI within 12 hours"
@@ -53,7 +53,7 @@ NCT02404376,acute,sure,Patients presenting within 6 hours of chest pain,
 NCT02429271,acute,sure,STEMI eligible for thrombolysis,
 NCT02449070,acute,sure,STEMI patients presenting within 12 hours after symptom onset,
 NCT02451293,recent,sure,should be enrolled within 4 weeks after the primary ACS,
-NCT02525939,recent,sure,recently hospitalized for ACS (between 4 and 12 weeks,
+NCT02525939,recent,sure,"Subjects with the appropriate genetic background and recently hospitalized for ACS (between 4 and 12 weeks following the index event), will be enrolled in this trial.",
 NCT02548364,acute,uncertain,Anterior myocardial infarction,no time window in the inclusion criteria; an acute event is implied
 NCT02551094,recent,sure,documented acute myocardial infarction within the last 30 days,
 NCT02562651,acute,sure,not later than 24 hours after the initial onset,
@@ -63,14 +63,14 @@ NCT02596126,recent,sure,type 1 myocardial infarction within the previous 6 month
 NCT02617290,,uncertain,History of ACS (in the past 12 months),elective PCI population; ACS history is only one optional risk factor
 NCT02672267,acute,sure,within 7 days of study enrollment,
 NCT02733185,prior,sure,History of myocardial infarction based on the Universal Definition of MI,
-NCT02894138,acute,sure,Onset of continuous symptoms within 12 h,
+NCT02894138,acute,sure,Onset of continuous symptoms within 12 hours,
 NCT02924727,acute,sure,randomization to occur between 12 hours and 7 days after index event,
 NCT02944123,prior,uncertain,at least 1 month,"enrolled after at least 1 month of DAPT following primary PCI, no maximum: prior under the rule, though probably about 1 month in practice"
 NCT02976701,acute,sure,can be started within 24 hours after primary PCI,
 NCT02981407,acute,sure,on admission or during the index hospitalization,
 NCT02982057,acute,uncertain,Successful and uneventful primary PCI,no time window in the inclusion criteria; an acute event is implied
 NCT03001635,acute,sure,current diagnosis of ST elevation,
-NCT03048825,acute,sure,within 72 hours of index PC,
+NCT03048825,acute,sure,Able to be enrolled/randomized within 72 hours of index PCI (however patients should be randomized as soon as possible after PCI),
 NCT03122340,acute,uncertain,Acute coronary syndrome,no time window in the inclusion criteria; an acute event is implied
 NCT03251859,acute,uncertain,index event treatment with percutaneous coronary intervention,no time window in the inclusion criteria; an acute event is implied
 NCT03287609,acute,uncertain,Hospitalized for a recent ACS,'recent' is not defined
@@ -84,29 +84,29 @@ NCT03516903,acute,uncertain,Patients with type 1 STEMI,no time window in the inc
 NCT03541109,prior,sure,alive after discharge for at least 1 month,"only a minimum, no maximum"
 NCT03552575,prior,sure,Acute myocardial infarction (AMI) at least 3 months prior to recruitment,"only a minimum, no maximum"
 NCT03658031,recent,uncertain,Acute MI according to AHA criteria 4 weeks prior to recruitment,'4 weeks prior' could mean within 4 weeks or at least 4 weeks
-NCT03699215,acute,sure,Symptoms of STEMI over 30 m,
+NCT03699215,acute,sure,Symptoms of STEMI over 30 minutes and less than 12 hours of evolution.,
 NCT03755700,acute,uncertain,acute coronary syndrome (ACS) requiring an,catheterisation population mixing stable angina and ACS
 NCT03764241,recent,sure,45 days after symptom onset,LV thrombus diagnosed up to 45 days after MI symptom onset
 NCT03786757,acute,sure,TTE during hospitalization,
-NCT03822377,acute,sure,Patients presenting within 12 hours from the onset of,
+NCT03822377,acute,sure,Patients presenting within 12 hours from the onset of symptoms with STEMI or very high-risk NSTEMI referred for immediate (\< 2 hours) angiography.,
 NCT03960411,acute,sure,Onset of STEMI \<12 hours,
-NCT03998319,acute,sure,present with STEMI within 6 hours of symptom on,
+NCT03998319,acute,sure,Adult men and women aged over 18 who present with STEMI within 6 hours of symptom onset.,
 NCT04001504,acute,sure,Acute coronary syndrome in hospital phase,
 NCT04285736,acute,uncertain,Patients with NSTEMI with normal sinus rhythm,no time window in the inclusion criteria; an acute event is implied
 NCT04360720,acute,sure,Length of stay in hospital at randomization \< 96 hours,
 NCT04367935,recent,sure,Recent ACS diagnosed-patients within the past 2 weeks,
-NCT04420624,acute,sure,Hospitalization within 12 ho,
+NCT04420624,acute,sure,Hospitalization within 12 hours of onset of acute chest pain,
 NCT04476173,acute,uncertain,diagnosis of ST-elevation myocardial infarction (STEMI) or non-ST-elevation acute coronary syndrome (NSTE-ACS),no time window in the inclusion criteria; an acute event is implied
 NCT04509674,recent,uncertain,no later than 14 calendar days after hospital admission,"latest 14 days, so recent under the rule; acute if randomisation must happen during the index hospitalisation"
-NCT04564742,recent,uncertain,"within the preceding 7 days, or 10 days if earlier randomisati","latest 10 days, so recent under the rule"
-NCT04571580,acute,sure,symptom onset to reperfusion time of 12 ho,
+NCT04564742,recent,uncertain,"Confirmed MI, either STEMI or NSTEMI, according to the fourth universal definition of MI (Thygesen et al 2019), within the preceding 7 days, or 10 days if earlier randomisation is not feasible","latest 10 days, so recent under the rule"
+NCT04571580,acute,sure,Acute STEMI with persistent ST-segment elevation or recent left bundle-branch block with a symptom onset to reperfusion time of 12 hours or less.,
 NCT04718025,acute,uncertain,the intention to perform primary PCI,STEMI part acute; NSTEMI/unstable angina part has no window
 NCT04739384,acute,sure,in a time window 1 to 3 days after successful PCI,
 NCT04754789,acute,sure,STEMI patients eligible for primary PCI,
 NCT04825743,acute,sure,the total duration of symptoms is 4 hours maximum,
 NCT04837001,acute,sure,Planned primary PCI to occur ≤ 6 hours of onset,
 NCT04873934,recent,sure,within 5 weeks of screening,
-NCT04912167,acute,sure,Timely primary percutaneous coronary intervention within 12 ho,
+NCT04912167,acute,sure,Timely primary percutaneous coronary intervention within 12 hours from onset,
 NCT05020704,recent,uncertain,randomization must still occur within 14 days of hospital admission,"latest 14 days, so recent under the rule; may still be in the index hospitalisation"
 NCT05043610,acute,sure,First myocardial infarction in the preceding 3 to 7 days,
 NCT05077683,acute,uncertain,Anterior STEMI,no time window in the inclusion criteria; an acute event is implied
@@ -137,7 +137,7 @@ NCT06318481,acute,uncertain,ST-segment elevation ≥1 mm in ≥ 2 contiguous ECG
 NCT06577519,acute,uncertain,Patients diagnosed with ACS and scheduled for PCI,no time window in the inclusion criteria; an acute event is implied
 NCT06619600,acute,sure,less than 12 hours after onset of symptoms,
 NCT06704685,acute,sure,within a maximum time frame of 12 hours from the onset of pain,
-NCT06723002,acute,sure,Patients presenting with ST-segme,
+NCT06723002,acute,sure,"Patients presenting with ST-segment alterations at rest, including ST elevation, with or without troponin elevation.",
 NCT06742567,acute,sure,Presenting with acute anterior STEMI,
 NCT06845254,recent,sure,Within 4 weeks post-PCI,
 NCT06847568,acute,sure,within 12 hours from the onset of symptoms,
