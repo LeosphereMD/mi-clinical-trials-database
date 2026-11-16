@@ -28,24 +28,38 @@ Use Glob `papers/<NCT ID>*_supp.pdf` to find supplements, if any.
   counts it (1 = first page of the file), never the journal's printed page number.
 - Read the main paper first. Open a supplement only for a value or definition the main
   paper doesn't give, and only the pages needed (use the supplement's table of contents).
-- Quotes are copied character for character, never shortened or paraphrased.
+- Quotes are copied character for character, never shortened or paraphrased, with two
+  exceptions, each noted in a `quote_note` next to that quote: a word split by a
+  line-break hyphen may be rejoined (e.g. "hos-" / "pitalization" → "hospitalization";
+  note "rejoined line-break hyphen"), and a quote that runs onto the next page gets the
+  page where it starts (note "continues on page N").
 - Record every file and page range you read in `files_read` (in both output files).
 
 ## Step 1: critical values, on your own (BEFORE opening the extraction)
-For each comparison the paper reports as primary (labels as in decision 32: registry arm
-labels "1 vs 3", or the factorial comparison name), find: total randomized, effect measure,
+For each comparison the paper reports as primary, find: total randomized, effect measure,
 effect value, 95% CI (lower and upper), p-value; each with value, quote, file and page.
+- Comparison label (decision 32): "<arm_label> vs <arm_label>" with the registry arm labels
+  from the input, exactly as written (e.g. "1 vs 3"). Factorial trials: the comparison
+  name from the input, exactly as written. Use the same labels in step 2.
+- Effect measure: exactly one of HR / RR / OR / mean difference / risk difference /
+  win ratio / rate ratio / other; for "other" the value is "other: <the paper's wording>".
 WRITE `verifications/<NCT ID>_step1.json` now. Never rewrite or edit that file afterwards.
 Only then open `extractions/<NCT ID>.json` (if it is missing: STOP and report it).
 
 ## Step 2: every extracted value
 For each value in `extractions/<NCT ID>.json` give one verdict and a one-line reason:
-- CONFIRMED: you found it yourself; give YOUR OWN quote, file and page (not the extractor's).
-- WRONG: give the correct value with your quote, file and page.
+- CONFIRMED: the value, the extractor's quote AND the extractor's page are all right (the
+  quote is word for word on that page, allowing only the two noted exceptions above). Give
+  YOUR OWN quote, file and page (not the extractor's). A "not reported" value is CONFIRMED
+  only if you cannot find it either (reason "absence confirmed").
+- WRONG: give the correct value with your quote, file and page. Right value but wrong page
+  (including a quote that runs onto another page without a "continues on page N" note):
+  WRONG, reason "page only", with the correct page as verifier_page. Right value and page
+  but a quote that is not word for word: WRONG, reason "quote not word for word".
 - NOT IN PAPER: the paper does not contain it.
 - UNCLEAR: the paper is ambiguous; say why.
-Also flag a wrong arm or comparison label, a quote that is not word for word on its page,
-or a per-comparison value calculated from pooled data (or the reverse).
+Also flag a wrong arm or comparison label, or a per-comparison value calculated from
+pooled data (or the reverse).
 
 ## Step 3: population and timing
 - Population: the paper's study population as one of STEMI / NSTEMI / STEMI + NSTEMI /

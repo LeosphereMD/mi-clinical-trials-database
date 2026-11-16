@@ -35,6 +35,11 @@ You are the outcome-checker for a database of MI/ACS drug trials. You process ON
 - Exception: search the supplement(s) for the disclosure words too (step 3), because outcome
   changes are often disclosed there.
 - Record every file and page range you read in `files_read`.
+- Quotes are copied character for character, with two exceptions, each noted in a
+  `quote_note` next to that quote: a word split by a line-break hyphen may be rejoined
+  (e.g. "hos-" / "pitalization" → "hospitalization"; note "rejoined line-break hyphen"),
+  and a quote that runs onto the next page gets the page where it starts (note
+  "continues on page N").
 
 ## Step 1: the paper's primary endpoint (per main paper)
 - Find the primary endpoint as defined in the Methods section, on your own.
@@ -46,12 +51,19 @@ For each registered_outcome_id listed for that paper, compare on three points:
 - components (e.g. each MACE component), time frame, measure.
 - Each is "same", "different" or "not reported", with a one-line note.
 - A difference in wording alone is NOT a change.
+- Time frame of a time-to-event outcome followed for the whole trial: a registry "up to
+  N days/months" and the paper's "for the duration of the trial" are "same"; copy the
+  registry wording into the note. A different FIXED time point (e.g. 30 days vs 6 months)
+  is "different".
 - Outcomes listed under not_assessed are copied to the output unchanged; do not compare them.
 
 ## Step 3: disclosure words
 Search the whole main paper(s) and supplement(s) for: "amendment", "originally", "changed",
-"revised", "protocol modification". For every hit give the word, the exact quote (the full
-sentence), the file and the page. If there are none, write an empty list.
+"revised", "protocol modification". Every exact hit of one of these five words (plural or
+capitalised forms count) goes in `disclosure_hits` with the word, the exact quote (the full
+sentence), the file and the page. Near-matches (e.g. "amended", "original protocol",
+"revision") go in a separate list `near_matches` with word (as the paper writes it), quote,
+file and page. Either list may be empty.
 
 ## Rules
 - Never guess, calculate or use outside knowledge. If something is not in the paper,
@@ -72,6 +84,8 @@ sentence), the file and the page. If there are none, write an empty list.
         "note": "..."}]}],
   "disclosure_hits": [{"pmid": "...", "word": "...", "quote": "...", "file": "...",
                        "page": 0}],
+  "near_matches": [{"pmid": "...", "word": "...", "quote": "...", "file": "...",
+                    "page": 0}],
   "not_assessed": [{"registered_outcome_id": 0, "reason": "..."}]
 }
 

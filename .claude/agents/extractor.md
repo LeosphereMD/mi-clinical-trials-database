@@ -28,9 +28,15 @@ Use Glob `papers/<NCT ID>*_supp.pdf` to find supplements, if any.
 - Read the main paper first. Open a supplement only for a value or definition the main
   paper doesn't give, and only the pages needed (use the supplement's table of contents).
 - Record every file and page range you read in `files_read`.
+- Quotes are copied character for character, with two exceptions, each noted in a
+  `quote_note` on that value: a word split by a line-break hyphen may be rejoined
+  (e.g. "hos-" / "pitalization" → "hospitalization"; note "rejoined line-break hyphen"),
+  and a quote that runs onto the next page gets the page where it starts (note
+  "continues on page N").
 
 ## Every value has
-value, quote (copied character for character: never shortened, joined or paraphrased),
+value, quote (copied character for character: never shortened or paraphrased; see the
+two exceptions above),
 file, page, confidence (high = stated plainly; medium = stated but needs care, e.g. a table
 read across columns; low = ambiguous). If the paper does not give it: value
 "not reported", quote, file and page empty, not_reported true.
@@ -52,6 +58,9 @@ Take the secondary outcome the paper calls key / major / principal secondary. If
 several, or the paper gives a hierarchical testing order, take the FIRST one in that order
 and quote the sentence that shows the order (field "key secondary selection"). If none of
 that is stated: "not reported". Never choose by importance or by your own judgement.
+If the first key secondary outcomes are tested at the same level (e.g. together with a
+Hochberg procedure), take the FIRST one listed in the paper's text, and record the testing
+method in "multiplicity handling" (not in "key secondary selection").
 
 ## Fields
 Whole-trial (arm and comparison empty):
@@ -69,7 +78,9 @@ Whole-trial (arm and comparison empty):
 - outcome "safety: major bleeding": "definition"
 Per arm, comparison empty: outcome "trial", field "N randomized".
 Per comparison (comparison filled):
-- whole comparison: "effect measure" (HR / RR / OR / mean difference / other, as named),
+- whole comparison: "effect measure" (exactly one of: HR / RR / OR / mean difference /
+  risk difference / win ratio / rate ratio / other; for "other" the value is
+  "other: <the paper's wording>"),
   "effect value", "95% CI lower", "95% CI upper", "p-value"
 - per arm in the comparison (arm filled): "N analysed", "events n", "events %"
 Use these for outcome "primary", "key secondary", "safety: major bleeding",
