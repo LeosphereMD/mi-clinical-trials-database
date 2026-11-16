@@ -60,11 +60,11 @@ transparent.
 
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
-2. Exclusions applied on 2026-11-16: 196 → 161 trials (Phase 3 142, Phase 2/3 19); see the Quality log. Open: the owner decides on the 13 trials whose inclusion criteria never mention MI or ACS (NCT01465828, NCT01543555, NCT01755520, NCT01877915, NCT02352402, NCT03331484, NCT05473520, NCT05474053, NCT05476991, NCT05825573, NCT06286059, NCT07052799, NCT07908082; NCT06081803 also came up but is a STEMI trial described by ECG criteria).
-3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "mechanistic" threshold to be chosen (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
-4. Timing after MI: 161 drafts; 78 sure acute loaded; `review/timing_after_mi.csv` (83 rows) waits for the owner, then run `load_timing.py`.
-5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 143 rows for 53 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
+2. Exclusions applied on 2026-11-16 in two rounds: 196 → 161 → 148 trials (Phase 3 130, Phase 2/3 18); see the Quality log.
+3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
+4. Timing after MI: 78 sure acute loaded; `review/timing_after_mi.csv` (70 rows after the exclusions) waits for the owner, then run `load_timing.py`.
+5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 142 rows for 52 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
+6. Open question: NCT01327846 (CANTOS) "Standard of care" got the generic name "standard of care" automatically (registry MeSH exact match), not "usual care" as in the owner's convention.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -180,10 +180,13 @@ Added by the project owner on 2026-11-16:
     Choice: `registered_outcomes.outcome_comment` stores the owner's comment
     from `review/outcome_types.csv` (it holds the rule 9 comment flags). Split
     composites are detected in code, not from comments (see "Analyses", 2).
-19. **Mechanistic trials (proposed, not applied).** A code rule marks a trial
-    "mechanistic" when its primary_outcome_type is surrogate only and its
-    enrollment is below a threshold. The owner picks the threshold from the
-    distribution in "Analyses", 3. Until then the rule is not applied.
+19. **Small surrogate-only trials.** Which trials count as small
+    surrogate-only trials?
+    Choice (approved by the project owner on 2026-11-16): a trial is a
+    "small surrogate-only trial (<500 patients)" when its
+    primary_outcome_type is surrogate only and its registry enrollment is
+    under 500. SPEC and the README use this name, not "mechanistic". The
+    analysis applies the rule in code (see "Analyses", 3).
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -718,6 +721,37 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-16: excluded by hand, round 2 (13 trials, 161 → 148, decision 17)
+Found by a check for trials whose inclusion criteria never mention MI or ACS.
+Listed in `review/manual_exclusions.csv`; decided review rows archived in
+`review/archive/excluded_trial_decisions.csv`. After this run: 148 trials
+(Phase 3 130, Phase 2/3 18). Database backup:
+`data/ami_trials.backup-20261116-142458-before-exclusion-round2.db`.
+- Clearly out of scope:
+  - NCT01543555: non-cardiac surgery population; MI is an outcome, not the
+    population
+  - NCT01877915: heart failure population after a decompensation
+  - NCT05473520: pulmonary tuberculosis population
+  - NCT05474053: healthy volunteers
+  - NCT05476991: ischemic stroke population; MI is an outcome (it also had a
+    split composite)
+  - NCT07052799: aspirin users having colonoscopy; MI is an outcome
+  - NCT07908082: giant cell arteritis population
+- Population defined by PCI/CABG/AF/LV thrombus/CA-AKI; ACS patients only a
+  subset; title, conditions and inclusion criteria don't define an MI/ACS
+  population (same logic as NCT01848106): NCT01465828 (PCI, clopidogrel
+  resistance), NCT01755520 (CABG), NCT02352402 (CABG), NCT03331484 (AF after
+  PCI), NCT05825573 (intracardiac thrombus), NCT06286059 (contrast kidney
+  injury after complex PCI).
+- Kept: NCT06081803, a STEMI trial that describes STEMI by ECG criteria.
+
+### 2026-11-16: drug_names.csv rows for NCT02145468 and NCT02596126 fixed
+The registry text of two control-arm rows had been typed over with the study
+drug's name, so they did not load. The registry text was put back ("Standard
+therapy"; "Treatment Prevention for Secondary CV") and both were corrected to
+"usual care" (the owner's convention: standard or optimal medical therapy is
+"usual care"), comment "role: comparator".
+
 ### 2026-11-16: estimated error rate of the unreviewed outcome type drafts
 Of Claude's sure primary outcome type drafts, a random 15% were drawn for the
 owner's check (seed 20261115). On the sheet after the exclusions, the owner
@@ -806,7 +840,12 @@ timing_after_mi are counted and reported, not dropped silently.
 - Preview on 2026-11-16 (161 trials): one trial, NCT05476991 (4 of its 5
   component rows qualify; no surrogate row).
 
-### 3. Mechanistic trials (decision 19, threshold not chosen yet)
+### 3. Small surrogate-only trials (<500 patients) (decision 19)
+- Rule: primary_outcome_type = surrogate only and enrollment < 500 (the
+  registry figure, actual or estimated). Reported as a count and share of
+  all trials and of surrogate-only trials, for all trials and acute-only
+  trials. Trials with no enrollment figure are counted separately.
+- Distribution used to choose the threshold (2026-11-16, 161 trials):
 Enrollment of the 104 surrogate-only trials on 2026-11-16 (enrollment is the
 registry figure, actual or estimated): 25% 60, median 102, 75% 300, 90% 487,
 max 4017 (DAPA-MI, surrogate only because of a lab-defined component).

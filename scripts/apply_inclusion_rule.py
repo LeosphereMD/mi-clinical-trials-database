@@ -7,7 +7,8 @@ Usage:
 Each trial in the database is checked again against its raw file in data/raw/
 with fetch_trials.rule_failure. For every trial that fails:
   1. Review files: its rows are removed from drug_names.csv, why_stopped.csv,
-     outcome_types.csv and registry_check.xlsx. In sponsors.csv only sponsors
+     outcome_types.csv, timing_after_mi.csv and registry_check.xlsx. In
+     sponsors.csv only sponsors
      left with no trials are removed. Every removed row that holds a decision
      is first copied to review/archive/excluded_trial_decisions.csv with the
      date and the reason.
@@ -35,7 +36,8 @@ from review_files import REVIEW_DIR, has_decision, read_csv, write_csv
 
 ROOT = Path(__file__).resolve().parent.parent
 ARCHIVE = REVIEW_DIR / "archive" / "excluded_trial_decisions.csv"
-PER_TRIAL_FILES = ["drug_names.csv", "why_stopped.csv", "outcome_types.csv"]
+PER_TRIAL_FILES = ["drug_names.csv", "why_stopped.csv", "outcome_types.csv",
+                   "timing_after_mi.csv"]
 SPONSOR_FILE = "sponsors.csv"
 # Child tables first, trials last.
 TABLES = ["outcome_comparisons", "extracted_values", "registry_checks", "trial_publications",
