@@ -61,7 +61,7 @@ transparent.
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
 2. Exclusions applied on 2026-11-16: 196 → 161 trials (Phase 3 142, Phase 2/3 19); see the Quality log. Open: the owner decides on the 13 trials whose inclusion criteria never mention MI or ACS (NCT01465828, NCT01543555, NCT01755520, NCT01877915, NCT02352402, NCT03331484, NCT05473520, NCT05474053, NCT05476991, NCT05825573, NCT06286059, NCT07052799, NCT07908082; NCT06081803 also came up but is a STEMI trial described by ECG criteria).
-3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: the owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Not loaded yet: the owner has rules to add first.
+3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: the owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). Open: the owner's comments (and the standard comment flags of rule 9) are not stored in the database yet, so they can't be counted in the analysis; NCT03122340 outcome 1367 (MoCA) was loaded as surrogate, which conflicts with rule 2.
 4. Timing after MI: 161 drafts; 78 sure acute loaded; `review/timing_after_mi.csv` (83 rows) waits for the owner, then run `load_timing.py`.
 5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 143 rows for 53 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
 6. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
@@ -504,6 +504,38 @@ Added on 2026-11-15 at the project owner's request.
     composite made only of imaging or lab measures is "no" (it was never
     clinical). Claude marks every "yes" draft uncertain, so all of them are
     reviewed.
+- **Classification rules** (added by the project owner on 2026-11-16; they
+  refine the definitions above):
+  1. Classify by what is measured, not by the instrument. Adherence is
+     "other" even when measured by a questionnaire (e.g. Morisky-Green,
+     MMAS-8). "Patient-reported" is for symptoms, function and quality of
+     life.
+  2. Clinician-administered or performance-based scales that measure
+     symptoms, cognition or function (e.g. MoCA, NYHA class) count as
+     "patient-reported".
+  3. A test that only confirms an event (e.g. "unstable angina with objective
+     evidence of ischemia", ECG-confirmed new AF) does not make the outcome
+     surrogate: the test is the proof, not the outcome. But a component that
+     is defined by a test value itself (e.g. "MI with hs-cTnT >=30x ULN" =
+     infarct size by troponin) is surrogate.
+  4. composite_with_surrogate applies only to a single combined endpoint
+     ("any of the following", hierarchical or ordinal ranked endpoints). A
+     list of separately analysed measurements is not a composite.
+  5. Classify the current registered primary outcome (as fetched). If the
+     registry history shows the primary was changed, note the original in the
+     comment.
+  6. If a single composite is registered as several separate primary rows
+     (one per component), classify each row by its own measure and add the
+     comment "split composite". The analysis reports how many trials have
+     split composites, and whether any include a surrogate component.
+  7. A composite of clinical events plus a patient-reported component (no
+     lab, imaging or ECG component) is "clinical event" with
+     composite_with_surrogate = no, comment "composite incl. PRO component".
+  8. Organ-support or treatment-defined outcomes (vasopressor-free days, ECMO
+     weaning, revascularization) are clinical events.
+  9. Standard comment flags, used verbatim so they can be counted in the
+     analysis: "mechanistic", "feasibility", "safety-only primary",
+     "split composite", "composite incl. PRO component".
 - **Each trial's `primary_outcome_type`** follows by rule from its primary
   outcomes, never by hand (updated by the project owner on 2026-11-15):
   - clinical only: every primary outcome is a clinical event

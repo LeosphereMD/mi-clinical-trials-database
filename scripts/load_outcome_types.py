@@ -37,6 +37,8 @@ SINGLE_TYPE = {"clinical event": "clinical only",
                "patient-reported": "patient-reported only",
                "other": "other"}
 FLAGS = {"yes", "no"}
+# Short forms the owner may type that can mean only one type (each use is printed).
+SHORT_FORMS = {"surrogate": "surrogate or lab measure"}
 
 
 def trial_type(categories):
@@ -91,6 +93,11 @@ def main():
             if not decision_of(row):
                 continue
             category, flag = owner_values(row, where)
+            if category.lower() in SHORT_FORMS:
+                print(f"  {where} (outcome {oid}): '{category}' read as "
+                      f"'{SHORT_FORMS[category.lower()]}'")
+                category = SHORT_FORMS[category.lower()]
+                outcome_report["of these: short form 'surrogate' accepted"] += 1
             if category not in OUTCOME_CATEGORIES:
                 raise StopError(f"{where}: '{category}' is not an outcome type. "
                                 f"Use one of: {', '.join(OUTCOME_CATEGORIES)}.")
