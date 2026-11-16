@@ -131,6 +131,13 @@ Settled by the project owner on 2026-11-14.
    endpoint definition with each MACE component listed, and whether the primary
    endpoint was met. (Extended by decision 32: one set of primary-result fields
    per primary comparison.)
+   Clarified on 2026-11-16 (owner): the "key secondary outcome" is the one the
+   paper calls key / major / principal secondary; if there are several, or the
+   paper gives a hierarchical testing order, the FIRST one in that order, with
+   the quoted sentence that shows the order. If none of that is stated: "not
+   reported". It is never chosen by importance. Also extracted: "total
+   randomized" for the whole trial, as stated in the paper (never summed from
+   the arms).
 8. **Finding papers.** Use the PMIDs listed in the registry record, a PubMed
    search by NCT number, or both? What if no paper exists?
    Choice: Both. Use the registry's RESULT references first, then a PubMed search
@@ -142,6 +149,11 @@ Settled by the project owner on 2026-11-14.
    NCT01234567_supp.pdf. Extract only from the main results paper. List
    secondary analyses in the publications table, but don't download them.
    (Exception for factorial trials: decision 31.)
+   Supplements (owner, 2026-11-16): every agent reads the main paper first and
+   opens a `*_supp.pdf` only for a value or definition the main paper doesn't
+   give, and only the pages needed (from its table of contents); every page
+   range read is listed in the agent's `files_read`. Exception: the
+   outcome-checker also searches the supplement for the disclosure words.
 10. **Verification.** Must every extracted value include a page number and a
     direct quote? Does the second agent work independently and get compared, or
     does it check the first agent's output?
@@ -152,6 +164,13 @@ Settled by the project owner on 2026-11-14.
     output. Code checks run after both agents. (Decision 32: the critical
     values are checked for each comparison. Decision 33: verdicts are
     CONFIRMED / WRONG / NOT IN PAPER / UNCLEAR, each with a one-line reason.)
+    Step 1 file (owner, 2026-11-16): the verifier writes its own critical
+    values to `verifications/<NCT ID>_step1.json` BEFORE it opens the
+    extraction, and never rewrites or edits that file; steps 2 and 3 go in
+    `verifications/<NCT ID>.json`. A code check compares the step 1 values with
+    the extractor's critical values; any difference is flagged (see "Code
+    checks"). Page numbers in every agent output are PDF page numbers counted
+    from the first page of the file.
 11. **Review format.** An Excel sheet (one row per value, with
     accept / reject / correct and comment columns), or something else?
     Choice: An Excel sheet with one row per value: accept / reject / correct,
@@ -889,7 +908,11 @@ Added on 2026-11-15. It is built in Phase 3, together with the verifier.
 - It also checks the paper's population against the registry timing label
   (acute / recent / prior), with an exact quote and page (decision 33; field
   "timing after MI"). Code compares it with `trials.timing_after_mi`; a
-  disagreement flags the value in the same way.
+  disagreement flags the value in the same way. If the paper states no
+  enrolment window but the drug was given at presentation, at PCI or in
+  hospital, the label is "acute" with the note "no window stated" (the same
+  convention as "Timing after MI"); if the paper states no window and the
+  timing is not clear, "unclear", with the quote.
 - Code compares it with `trials.population` (or the latest registry-check
   correction, if there is one). A disagreement flags the value, so it goes
   to the project owner's review sheet with both labels, the paper quote and
@@ -954,6 +977,21 @@ its stated page).
   set of fields; every part of a comparison label exists in `arms` (skipped
   for the factorial trials of decision 31); an arm shared by several
   comparisons has the same N and events for the same outcome in each.
+- Allowed files (owner, 2026-11-16): each agent output's `files_read` lists
+  only that agent's allowed paths (outcome-checker: `papers/<NCT ID>*.pdf`,
+  `outcome_checks/inputs/<NCT ID>.json`; extractor: `papers/<NCT ID>*.pdf`,
+  `extractions/inputs/<NCT ID>.json`; verifier: `papers/<NCT ID>*.pdf`,
+  `verifications/inputs/<NCT ID>.json`, and `extractions/<NCT ID>.json` only
+  in `verifications/<NCT ID>.json`, never in the step 1 file). Anything else
+  is flagged.
+- Verifier step 1 vs extractor (decision 10): for each primary comparison,
+  the verifier's independent values in `verifications/<NCT ID>_step1.json`
+  (total randomized, effect measure, value, 95% CI, p-value) are compared with
+  the extractor's; any difference is flagged.
+- The agents: `.claude/agents/outcome-checker.md`, `extractor.md` and
+  `verifier.md` (tools Read, Write, Glob; model inherit). The folder limits
+  are instructions (the tool list can't enforce folders), so the check above
+  is the safeguard.
 
 ## Timing after MI
 Added on 2026-11-16 (decision 16). This is part of registry cleaning (step 2a).
