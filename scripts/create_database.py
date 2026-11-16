@@ -202,12 +202,16 @@ CREATE TABLE extracted_values (
     quote             TEXT,
     page              TEXT,
     not_reported      INTEGER CHECK (not_reported IN (0, 1)),
-    -- verifier
+    confidence        TEXT CHECK (confidence IN ('high', 'medium', 'low')),  -- decision 33
+    -- verifier (decision 33): its own value, quote and page (WRONG stores the
+    -- correct value; CONFIRMED stores the verifier's own quote), the verdict and
+    -- a one-line reason
     verifier_value    TEXT,
     verifier_quote    TEXT,
     verifier_page     TEXT,
     verifier_verdict  TEXT CHECK (verifier_verdict IN
-                          ('agree', 'disagree', 'not found')),
+                          ('CONFIRMED', 'WRONG', 'NOT IN PAPER', 'UNCLEAR')),
+    verifier_reason   TEXT,
     independent_match INTEGER CHECK (independent_match IN (0, 1)),
     -- code checks
     code_check_result TEXT CHECK (code_check_result IN

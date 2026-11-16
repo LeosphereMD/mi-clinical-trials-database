@@ -150,7 +150,8 @@ Settled by the project owner on 2026-11-14.
     (N randomized, effect measure, value, 95% CI, p-value) and these are
     compared automatically. Then it checks every other field in the extractor's
     output. Code checks run after both agents. (Decision 32: the critical
-    values are checked for each comparison.)
+    values are checked for each comparison. Decision 33: verdicts are
+    CONFIRMED / WRONG / NOT IN PAPER / UNCLEAR, each with a one-line reason.)
 11. **Review format.** An Excel sheet (one row per value, with
     accept / reject / correct and comment columns), or something else?
     Choice: An Excel sheet with one row per value: accept / reject / correct,
@@ -342,6 +343,41 @@ Added by the project owner on 2026-11-16:
       stored labels stay the registry labels.
     - **Schema:** new column `extracted_values.comparison`; a value's identity
       is now nct_id + publication_id + arm + comparison + outcome + field.
+33. **Verifier verdicts, confidence, timing check, extractor blind to the
+    registry outcome** (approved by the project owner on 2026-11-16; changes
+    decision 10).
+    - **Verifier verdicts:** every extracted field gets CONFIRMED / WRONG /
+      NOT IN PAPER / UNCLEAR, with a one-line reason
+      (`extracted_values.verifier_reason`, new). The verifier's own value,
+      quote and page go in the existing columns `verifier_value`,
+      `verifier_quote` and `verifier_page`: a WRONG verdict stores the correct
+      value; a CONFIRMED verdict needs the verifier's own quote.
+    - **Confidence:** the extractor gives every value a confidence, high /
+      medium / low (`extracted_values.confidence`, new).
+    - **Timing check:** the verifier checks the paper's population against the
+      registry timing label (acute / recent / prior) as well as the population
+      label (see "Population check against the paper").
+    - **Disclosure words:** "protocol modification" is the 5th word the
+      outcome-checker searches for (see "Outcome-switch check").
+    - **Extractor blind to the registry outcome:** the extractor never sees the
+      registered outcome text, so its reading of the primary endpoint stays
+      independent of the outcome-checker's. Linking extracted values to
+      registered outcome rows (e.g. CLEAR SYNERGY #649-#651) is done later by
+      code, not by the extractor.
+    - **Agent input files**, written by `scripts/prepare_agent_inputs.py <NCT
+      ID>` from the database, the raw registry JSON and
+      `review/paper_list.csv`, all in git-ignored folders:
+      - `outcome_checks/inputs/<NCT ID>.json` (outcome-checker): paper files
+        and PMIDs, the registered primary outcomes (id, measure, time frame,
+        description) and which of them each paper covers (decision 31). Not
+        written if `extractions/<NCT ID>.json` exists (decision 26).
+      - `extractions/inputs/<NCT ID>.json` (extractor): paper files and PMIDs,
+        the registry arm labels with each arm's drug and dose, the factorial
+        comparison names (decision 31), and whether the trial was terminated.
+        No registered outcome text, no population or timing label.
+      - `verifications/inputs/<NCT ID>.json` (verifier): paper files and
+        PMIDs, the arms (as above), the registry population label and the
+        timing label, each with its source.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -396,9 +432,11 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
      "<arm_label> vs <arm_label>", "a + b vs c" for a pooled result, factor
      levels for factorial trials; empty for values that belong to no
      comparison), outcome, field.
-   - Extractor: extracted_value, quote, page, not_reported.
+   - Extractor: extracted_value, quote, page, not_reported, confidence
+     (high / medium / low; decision 33).
    - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
-     (agree / disagree / not found), independent_match (critical values only).
+     (CONFIRMED / WRONG / NOT IN PAPER / UNCLEAR; decision 33), verifier_reason
+     (one line), independent_match (critical values only).
    - Code checks: code_check_result (pass / fail / not run), code_check_note.
    - Review: review_reason (flagged / random sample / not selected / value
      changed after decision). The decisions themselves live in
@@ -848,6 +886,10 @@ Added on 2026-11-15. It is built in Phase 3, together with the verifier.
 - The verifier reads the paper's study population (STEMI / NSTEMI / STEMI +
   NSTEMI / ACS mixed / MI unspecified), with an exact quote and page. It is
   stored as a whole-trial value in `extracted_values` (field "population").
+- It also checks the paper's population against the registry timing label
+  (acute / recent / prior), with an exact quote and page (decision 33; field
+  "timing after MI"). Code compares it with `trials.timing_after_mi`; a
+  disagreement flags the value in the same way.
 - Code compares it with `trials.population` (or the latest registry-check
   correction, if there is one). A disagreement flags the value, so it goes
   to the project owner's review sheet with both labels, the paper quote and
@@ -874,8 +916,9 @@ outcome the paper reports, and classify any difference.
 - Compares the registered and reported primary outcome on three points:
   components (e.g. each MACE component), time frame, and measure. A difference
   in wording alone is not a change.
-- Searches the whole paper for "amendment", "originally", "changed" and
-  "revised", and gives the quote and page for every hit.
+- Searches the whole paper for "amendment", "originally", "changed",
+  "revised" and "protocol modification" (the 5th word added by decision 33),
+  and gives the quote and page for every hit.
 - Writes its output to `outcome_checks/` (kept out of git, because it holds
   quotes).
 
