@@ -281,7 +281,8 @@ Added by the project owner on 2026-11-16:
     (nct_id, label, reason, date) holds labels the owner sets by hand; they
     are applied last, like `review/manual_exclusions.csv`, and the file is
     committed. First rows: NCT01787110 and NCT02290080 (DETO2X-AMI and its
-    biomarker study), NCT06723002 and NCT04476173, all ACS mixed. See
+    biomarker study), NCT06723002 and NCT04476173, all ACS mixed; then
+    NCT07297589 (EPIC-CT), STEMI + NSTEMI. See
     "Population label", rule 6.
 31. **Factorial trials: one main paper per comparison** (2026-11-16). A
     factorial trial whose comparisons are reported in separate main results
@@ -978,7 +979,11 @@ AEGIS-II (NCT03473223) and the two already ruled out (NCT01660373,
 NCT02924727). New finding, broader the other way (like NCT04476173):
 NCT07297589 (EPIC-CT) has MeSH STEMI, but its inclusion says "acute
 myocardial infarction with and without ST-segment elevation" (STEMI +
-NSTEMI). Waiting for the owner; its label (STEMI) is unchanged.
+NSTEMI). Owner decision (2026-11-16): override to STEMI + NSTEMI, reason
+"inclusion: acute MI with and without ST-segment elevation; MeSH lists STEMI
+only" (`review/population_overrides.csv`, now 5 rows; applied with
+`relabel_population.py --apply`, 1 label changed). Database backup:
+`data/ami_trials.backup-20261116-202153-before-epic-ct-override.db`.
 
 ### 2026-11-16: cut-off timing evidence quotes fixed
 15 of Claude's timing evidence quotes stopped mid-word or on a dangling word
