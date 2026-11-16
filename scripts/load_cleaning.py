@@ -8,7 +8,7 @@ What goes in:
     rows of review/drug_names.csv that the owner approved or corrected
   - interventions.intervention_role (DRUG/BIOLOGICAL): comparator for approved
     placebo, a "role: ..." comment in drug_names.csv, or the owner's entry in
-    review/intervention_roles.csv (decision 21)
+    review/intervention_roles.csv, only rows with a decision (decision 21)
   - trials.sponsor_name_clean / sponsor_group: approved rows of review/sponsors.csv
   - trials.why_stopped_category, why_stopped_secondary_category and
     why_stopped_source: approved rows of review/why_stopped.csv
@@ -125,12 +125,14 @@ def main():
                                          else "skipped: not in the database"] += 1
         if ROLE_SHEET.exists():
             for line, row in enumerate(read_csv(ROLE_SHEET), start=2):
-                role = (row.get("role") or "").strip().lower()
-                if not role:
-                    continue
+                if not decision_of(row):
+                    continue   # nothing goes in without the owner's decision
+                role = chosen_value(row, "draft_role", "corrected_role",
+                                    f"intervention_roles.csv line {line}").lower()
                 if role not in ROLES:
-                    raise StopError(f"intervention_roles.csv line {line}: role '{row['role']}' "
-                                    f"must be one of: {', '.join(ROLES)}.")
+                    raise StopError(f"intervention_roles.csv line {line}: role '{role}' "
+                                    f"must be one of: {', '.join(ROLES)} (an approved row "
+                                    "needs a draft_role; otherwise use correct).")
                 n = con.execute("UPDATE interventions SET intervention_role = ?, "
                                 "intervention_role_source = 'owner role sheet' "
                                 "WHERE nct_id = ? AND intervention_type = ? AND name = ?",

@@ -10,14 +10,17 @@ Roles come only from the project owner (load_cleaning.py fills them):
      comparator (source "owner placebo decision");
   2. a comment in review/drug_names.csv that says "role: study drug",
      "role: comparator" or "role: background" (source "owner comment");
-  3. the owner's entry in review/intervention_roles.csv (source "owner role
-     sheet").
+  3. the owner's decision in review/intervention_roles.csv (approve = the
+     draft_role, correct = corrected_role; source "owner role sheet").
 This script writes review/intervention_roles.csv with every DRUG or
-BIOLOGICAL intervention that has no role from 1 or 2, for the owner to fill
-in. It shows the registry arms each intervention belongs to, with a hint
-from the arm types. The hint is never stored as a role.
+BIOLOGICAL intervention that has no role from 1 or 2. It shows the registry
+arms each intervention belongs to, a hint from the arm types, and a
+draft_role from the hint (only experimental arms = study drug; only
+comparator arms = comparator; every arm = background; mixed or no arms =
+empty). Nothing goes into the database without the owner's decision.
+Rows come sorted with the mixed and every-arm rows first.
 
-Anything the owner typed in the role or comment column is kept on re-runs.
+A row with a decision is never changed on re-runs.
 Nothing is written to the database. Run load_cleaning.py first, so the
 generic names are current.
 """
@@ -40,8 +43,15 @@ ROLES = ["study drug", "comparator", "background"]
 ROLE_IN_COMMENT = re.compile(r"\brole:\s*(study drug|comparator|background)\b", re.IGNORECASE)
 KEY = ["nct_id", "intervention_type", "intervention_name"]
 COLUMNS = ["nct_id", "ctgov_link", "intervention_type", "intervention_name", "generic_name",
-           "registry_arms", "arm_hint", "role", "comment"]
-OWNER_COLUMNS = ["role", "comment"]
+           "registry_arms", "arm_hint", "draft_role", "decision", "corrected_role", "comment"]
+OWNER_COLUMNS = ["decision", "corrected_role", "comment"]
+HINT_MIXED = "mixed arm types: check"
+HINT_EVERY = "in every arm: possibly background"
+HINT_EXPERIMENTAL = "only in experimental arms: possibly study drug"
+HINT_COMPARATOR = "only in comparator arms: possibly comparator"
+DRAFT_FROM_HINT = {HINT_EXPERIMENTAL: "study drug", HINT_COMPARATOR: "comparator",
+                   HINT_EVERY: "background"}
+HINT_ORDER = {HINT_MIXED: 0, HINT_EVERY: 1, HINT_EXPERIMENTAL: 2, HINT_COMPARATOR: 3}
 
 
 def roles_from_comments():
@@ -71,13 +81,13 @@ def registry_arms(raw_file, name):
     if not labels:
         hint = "no arms listed for it"
     elif len(arm_types) > 1 and set(labels) >= set(arm_types):
-        hint = "in every arm: possibly background"
+        hint = HINT_EVERY
     elif types <= {"EXPERIMENTAL"}:
-        hint = "only in experimental arms: possibly study drug"
+        hint = HINT_EXPERIMENTAL
     elif types <= {"ACTIVE_COMPARATOR", "PLACEBO_COMPARATOR", "SHAM_COMPARATOR", "NO_INTERVENTION"}:
-        hint = "only in comparator arms: possibly comparator"
+        hint = HINT_COMPARATOR
     else:
-        hint = "mixed arm types: check"
+        hint = HINT_MIXED
     return text, hint
 
 
@@ -113,10 +123,14 @@ def main():
         rows.append({"nct_id": nct_id, "ctgov_link": trial_link(nct_id),
                      "intervention_type": itype, "intervention_name": name,
                      "generic_name": generic or "", "registry_arms": arms, "arm_hint": hint,
-                     "role": "", "comment": ""})
+                     "draft_role": DRAFT_FROM_HINT.get(hint, ""),
+                     "decision": "", "corrected_role": "", "comment": ""})
     merged, counts = merge_with_existing(ROLE_SHEET, KEY, rows, OWNER_COLUMNS)
-    bad = [f"{r['nct_id']} {r['intervention_name']}: '{r['role']}'" for r in merged
-           if r.get("role", "").strip() and r["role"].strip().lower() not in ROLES]
+    merged.sort(key=lambda r: (HINT_ORDER.get(r.get("arm_hint"), 4), r["nct_id"],
+                               r["intervention_name"]))
+    bad = [f"{r['nct_id']} {r['intervention_name']}: '{r['corrected_role']}'" for r in merged
+           if r.get("corrected_role", "").strip()
+           and r["corrected_role"].strip().lower() not in ROLES]
     try:
         write_csv(ROLE_SHEET, COLUMNS, merged)
     except PermissionError:
@@ -125,7 +139,7 @@ def main():
         print("Summary: no file written")
         sys.exit(1)
 
-    filled = sum(1 for r in merged if r.get("role", "").strip())
+    filled = sum(1 for r in merged if decision_of(r))
     print(f"DRUG/BIOLOGICAL interventions: {len(items)}")
     print("Role already known from the owner's decisions: " +
           (", ".join(f"{k} {v}" for k, v in covered.items()) or "none"))
@@ -133,7 +147,9 @@ def main():
         f"{k} {v}" for k, v in Counter(r["arm_hint"] for r in rows).most_common()))
     for b in bad:
         print(f"WARNING: unknown role (use {' / '.join(ROLES)}): {b}")
-    print(f"{ROLE_SHEET.name}: {len(merged)} rows, {filled} with a role filled in "
+    print("Draft roles: " + ", ".join(f"{k or 'empty (check)'} {v}" for k, v in
+                                     Counter(r["draft_role"] for r in rows).most_common()))
+    print(f"{ROLE_SHEET.name}: {len(merged)} rows, {filled} with a decision "
           f"({', '.join(f'{k} {v}' for k, v in counts.items())})")
     print(f"Summary: records in {len(items)} interventions, out {len(merged)} rows on the "
           f"role sheet, skipped {sum(covered.values())} (role known from owner decisions)")

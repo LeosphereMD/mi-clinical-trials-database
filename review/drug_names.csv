@@ -25,7 +25,7 @@ NCT01321255,NCT01321255,DRUG,FDC,,Simvastatin; Aspirin; Ramipril,aspirin + simva
 NCT01321255,NCT01321255,DRUG,"Separately drugs, simvastatin, aspirin and ramipril",,Simvastatin; Aspirin; Ramipril,simvastatin + aspirin + ramipril,"registry MeSH, partial match",,approve,,
 NCT01327534,NCT01327534,DRUG,Prasugrel,Effient; Efient,Prasugrel Hydrochloride; Clopidogrel,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01327846,NCT01327846,DRUG,Placebo,,canakinumab; Standard of Care,placebo,placebo,,approve,,
-NCT01327846,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT01327846"",""NCT01327846"")",DRUG,Standard of care,,canakinumab; Standard of Care,standard of care,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,usual care,"standard or optimal medical therapy is ""usual care"" (owner convention); owner override of an automatic exact MeSH match, 2026-11-16"
+NCT01327846,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT01327846"",""NCT01327846"")",DRUG,Standard of care,,canakinumab; Standard of Care,standard of care,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,usual care,"role: background (given in all four arms); standard or optimal medical therapy is ""usual care"" (owner convention); owner override of an automatic exact MeSH match, 2026-11-16"
 NCT01336348,NCT01336348,DRUG,Prasugrel,,Prasugrel Hydrochloride; Tirofiban,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01338909,NCT01338909,DRUG,Prasugrel,,Prasugrel Hydrochloride; Clopidogrel,prasugrel,"registry MeSH, partial match",,approve,,
 NCT01360437,NCT01360437,DRUG,Prasugrel,,Prasugrel Hydrochloride; Ticagrelor,prasugrel,"registry MeSH, partial match",,approve,,
@@ -90,10 +90,12 @@ NCT02982057,NCT02982057,DRUG,O.M.T,to compare with device,,,no suggestion,"optim
 NCT03001635,NCT03001635,DRUG,Placebos,,Oxytocin,placebo,placebo,,approve,,
 NCT03048825,NCT03048825,DRUG,Colchicine-Placebo,,Colchicine; Spironolactone,placebo,placebo,,approve,,
 NCT03048825,NCT03048825,DRUG,Spironolactone-Placebo,,Colchicine; Spironolactone,placebo,placebo,,approve,,
+NCT03122340,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT03122340"",""NCT03122340"")",DRUG,Ropren,Polyprenol,Ropren; Oils,ropren,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,polyprenols,"brand Ropren; owner override of an automatic exact MeSH match, 2026-11-16"
 NCT03251859,NCT03251859,DRUG,Ticagrelor 60 mg,Brilique 60 mg,Ticagrelor,ticagrelor,"registry MeSH, partial match",,approve,,
 NCT03251859,NCT03251859,DRUG,Ticagrelor 90 mg,Brilique 90 mg,Ticagrelor,ticagrelor,"registry MeSH, partial match",,approve,,
 NCT03287609,NCT03287609,DRUG,Evolocumab 140 mg/mL,,evolocumab,evolocumab,"registry MeSH, partial match",,approve,,
 NCT03287609,NCT03287609,DRUG,Placebo,,evolocumab,placebo,placebo,,approve,,
+NCT03335839,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT03335839"",""NCT03335839"")",DRUG,tissue plasminogen activator,,Tissue Plasminogen Activator; Sodium Chloride,tissue plasminogen activator,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,tissue plasminogen activator,kept as the registry names it: the registry describes recombinant tPA and never names alteplase (checked 2026-11-16)
 NCT03371784,NCT03371784,DRUG,Placebo,sodium chloride 0.9%,Hydrocortisone; Sodium Chloride,placebo,placebo,,approve,,
 NCT03404063,NCT03404063,DRUG,Cardiac Drug,CardioCell administration,Cardiovascular Agents,,no suggestion,CardioCell cell product; I am not sure of a generic name,correct,Wharton's jelly mesenchymal stem cells (WJMSCs) + Placebo,
 NCT03404063,NCT03404063,DRUG,Placebos,Placebo administration,Cardiovascular Agents,placebo,placebo,,approve,,
@@ -136,7 +138,7 @@ NCT04912167,NCT04912167,DRUG,Sacubitril-Valsartan,,sacubitril and valsartan sodi
 NCT05020704,NCT05020704,DRUG,Empagliflozin 10 MG,,empagliflozin,empagliflozin,"registry MeSH, partial match",,approve,,
 NCT05020704,NCT05020704,DRUG,Placebo,,empagliflozin,placebo,placebo,,approve,,
 NCT05043610,NCT05043610,BIOLOGICAL,Umbilical Cord-Derived Wharton's Jelly Mesenchymal Stem Cells (WJ-MSCs),,,mesenchymal stem cells (umbilical cord),"Claude, from general knowledge: check",cell therapy,approve,,
-NCT05077683,NCT05077683,DRUG,DAPT strategy,,Rivaroxaban,,no suggestion,"treatment strategy (dual antiplatelet therapy), not one drug",correct,Rivaroxaban,added on top of DAPT; dose 2.5 mg twice daily
+NCT05077683,NCT05077683,DRUG,DAPT strategy,,Rivaroxaban,,no suggestion,"treatment strategy (dual antiplatelet therapy), not one drug",correct,aspirin + P2Y12 inhibitor,role: background; DAPT given in both arms
 NCT05077683,NCT05077683,DRUG,Rivaroxaban 2.5 MG [Xarelto],,Rivaroxaban,rivaroxaban,"registry MeSH, partial match",,approve,,
 NCT05424315,NCT05424315,DRUG,Dapagliflozin 10mg,"PubChem CID 9887712; BMS-512148; (1S)-1,5-anhydro-1-C-{4-chloro-3-[(4-ethoxyphenyl)methyl]phenyl}--glucitol; Forxiga; Edistride",dapagliflozin; Glucose,dapagliflozin,"registry MeSH, partial match",,approve,,
 NCT05424315,NCT05424315,DRUG,Glucose Tab,PubChem CID 5793; D-Glucose; D-Glc,dapagliflozin; Glucose,glucose,"registry MeSH, partial match",,approve,,
@@ -169,7 +171,7 @@ NCT06723002,NCT06723002,DRUG,Atherolive 1000/day,,,,no suggestion,product name; 
 NCT06723002,NCT06723002,DRUG,Atherolive 500mg/day,,,,no suggestion,product name; active ingredient not given,correct,Atherolive,
 NCT06723002,NCT06723002,DRUG,Placbo_Atherolive,,,placebo,placebo,,approve,,
 NCT06742567,NCT06742567,DRUG,Apixaban 2.5 MG PO BID,,apixaban,apixaban,"registry MeSH, partial match",,approve,,
-NCT06742567,NCT06742567,DRUG,Control (Standard treatment),,apixaban,,no suggestion,"standard care, not one drug",correct,Apixaban,added on top of DAPT; dose 2.5 mg twice daily
+NCT06742567,NCT06742567,DRUG,Control (Standard treatment),,apixaban,,no suggestion,"standard care, not one drug",correct,usual care,"role: comparator; control arm: DAPT plus guideline directed medical therapy; standard or optimal medical therapy is ""usual care"" (owner convention)"
 NCT06845254,NCT06845254,DRUG,Xuesaitong soft capsule (main ingredient is Panax notoginseng saponins),,,panax notoginseng saponins,"Claude, from general knowledge: check",name says main ingredient is Panax notoginseng saponins,approve,,
 NCT06845254,NCT06845254,DRUG,placebo capsule,,,placebo,placebo,,approve,,
 NCT06847568,NCT06847568,DRUG,Adrenaline,Epinephrine,Epinephrine,epinephrine,"registry MeSH, partial match",,approve,,
@@ -191,7 +193,8 @@ NCT07440381,NCT07440381,DRUG,Triple oral lipid lowering treatment,,,,no suggesti
 NCT07478003,NCT07478003,DRUG,Methylprednisolone 250 mg,,Methylprednisolone,methylprednisolone,"registry MeSH, partial match",,approve,,
 NCT07478003,NCT07478003,DRUG,"NaCl (0,9%)",,Methylprednisolone,sodium chloride,"Claude, from general knowledge: check",saline control,approve,,
 NCT07582835,NCT07582835,DRUG,Prasugrel,Efient,Clopidogrel; Ticagrelor; Prasugrel Hydrochloride,prasugrel,"registry MeSH, partial match",,approve,,
-NCT07604103,NCT07604103,DRUG,antibiotic treatments,,vaxigrip; Growth Differentiation Factor 15,,no suggestion,drug class not specified,correct,"influenza vaccine (quadrivalent, inactivated)","brand Vaxigrip (tetravalent); ""other names"" in the registry are biomarkers measured, not drug names"
+NCT07604103,NCT07604103,DRUG,antibiotic treatments,,vaxigrip; Growth Differentiation Factor 15,,no suggestion,drug class not specified,correct,antibiotic,role: background; standard pneumonia care given in both arms
+NCT07604103,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT07604103"",""NCT07604103"")",DRUG,Vaxigrip,MR proADM; Persepsin; GDF-15,vaxigrip; Growth Differentiation Factor 15,vaxigrip,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,"influenza vaccine (quadrivalent, inactivated)","brand Vaxigrip (tetravalent); owner override of an automatic exact MeSH match, 2026-11-16; the registry other names are biomarkers measured, not drug names"
 NCT07625306,NCT07625306,DRUG,Placebo,,pelacarsen,placebo,placebo,,approve,,
 NCT07714746,NCT07714746,DRUG,Ivabradine 5mg Tab,,Ivabradine,ivabradine,"registry MeSH, partial match",,approve,,
 NCT07714746,NCT07714746,DRUG,Placebo Oral Tablet,,Ivabradine,placebo,placebo,,approve,,

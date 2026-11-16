@@ -64,7 +64,7 @@ transparent.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: 78 sure acute loaded; `review/timing_after_mi.csv` (70 rows after the exclusions) waits for the owner, then run `load_timing.py`.
 5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 142 rows for 52 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Drug names: CANTOS "Standard of care" set to usual care (decision 20). Roles: 57 known from owner decisions; `review/intervention_roles.csv` (229 rows) waits for the owner. Open: automatic names that break the conventions (brand names Vaxigrip and Ropren; "tissue plasminogen activator"); three owner corrections that name a control or background arm after the study drug (NCT06742567 "Control (Standard treatment)" = apixaban, NCT05077683 "DAPT strategy" = rivaroxaban, NCT07604103 "antibiotic treatments" = influenza vaccine).
+6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles: 61 known from owner decisions; `review/intervention_roles.csv` (225 rows, with draft roles) waits for the owner's decisions.
 7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
@@ -197,10 +197,12 @@ Added by the project owner on 2026-11-16:
     comparator / background) for DRUG and BIOLOGICAL interventions, so a
     drug-class analysis can leave out background therapy. Filled only from
     the owner: approved placebo = comparator; a "role: ..." comment in
-    `review/drug_names.csv`; or the owner's entry in
-    `review/intervention_roles.csv`. The registry arm types are shown on that
-    sheet as a hint and are never stored as a role. (A drug-class analysis
-    is not yet specified in "Analyses".)
+    `review/drug_names.csv`; or the owner's decision on
+    `review/intervention_roles.csv`. That sheet has a draft_role from the
+    registry arm types (only experimental arms = study drug; only comparator
+    arms = comparator; every arm = background; mixed = empty), updated on
+    2026-11-16: the owner approves or corrects each row, and nothing goes in
+    without a decision. The drug-class analysis is "Analyses", 4.
 22. **Rule 9 flags.** "mechanistic" is removed from the standard comment
     flags; decision 19's code rule replaces it.
 
@@ -437,9 +439,18 @@ random check (see part 4).
 - **Roles** (decision 21): `scripts/draft_roles.py` writes
   `review/intervention_roles.csv` with every DRUG or BIOLOGICAL intervention
   whose role is not already known from the owner's placebo decisions or
-  "role: ..." comments. It shows the registry arms and a hint (e.g. "in every
-  arm: possibly background"). The owner fills in the role column;
-  `load_cleaning.py` loads it.
+  "role: ..." comments. It shows the registry arms, a hint (e.g. "in every
+  arm: possibly background") and a draft_role from the hint (only
+  experimental arms = study drug; only comparator arms = comparator; every
+  arm = background; mixed or no arms = empty). Rows are sorted with the mixed
+  and every-arm rows first. The owner approves (the draft_role) or corrects
+  (corrected_role) each row; `load_cleaning.py` loads only rows with a
+  decision.
+- Automatic names that break the conventions are overridden the same way as
+  CANTOS (decision 20): Vaxigrip = influenza vaccine (quadrivalent,
+  inactivated); Ropren = polyprenols. "tissue plasminogen activator"
+  (NCT03335839) is kept as the registry names it, because the registry
+  describes recombinant tPA and never names alteplase.
 
 ### 2. Sponsor names and groups
 - All lead sponsors (127 in the first download) go into `review/sponsors.csv`.
@@ -887,3 +898,12 @@ Trials below each threshold: < 50: 15 (14%); < 100: 46 (44%); < 150: 62
 (60%); < 200: 70 (67%); < 300: 76 (73%); < 500: 94 (90%); < 1000: 99 (95%).
 For comparison, clinical-only trials (46): median 2804; only 6 (13%) enrol
 fewer than 500.
+
+### 4. Drug classes (placeholder, decision 21)
+Added on 2026-11-16; the class mapping is built at the analysis step.
+- Counts trials and interventions by drug class.
+- Leaves out background therapy (`intervention_role` = background) and
+  biologicals that are not drugs (e.g. blood products, cell therapy).
+- Herbal and traditional medicine is its own class.
+- Interventions with no role yet are counted and reported, not dropped
+  silently.
