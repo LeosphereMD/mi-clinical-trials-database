@@ -14,9 +14,29 @@ transparent.
 - Papers: PDFs the project owner finds and places in `papers/` by hand. The
   project never downloads papers automatically.
 
-## Inclusion criteria (settled; see Decisions 1-5)
+## Inclusion criteria (settled; see Decisions 1-5, 15 and 17)
 - Condition: MeSH condition terms include "Myocardial Infarction" (or a child
   term) or "Acute Coronary Syndrome"
+- MI/ACS named in words (added 2026-11-16, approved by the project owner):
+  the conditions list or the title (brief or official) must also name MI or
+  ACS in words. The MeSH term alone is not enough, because ClinicalTrials.gov
+  also assigns MeSH terms from keywords (e.g. template text left in the
+  Keywords field) and from synonyms (e.g. "cardiovascular stroke" is a MeSH
+  synonym for Myocardial Infarction).
+  - Words: "myocardial infarction", "infarct", "heart attack", "STEMI",
+    "NSTEMI", "ST-elevation" / "ST-segment elevation", "acute coronary
+    syndrome", "unstable angina", "MI", "ACS". Whole words only (plurals
+    allowed); "MI" and "ACS" count only in capitals.
+  - The name of a matched MeSH child term (e.g. "cardiogenic shock") does
+    not count as backing on its own (decided 2026-11-16, decision 15): the
+    conditions or title must name MI or ACS in words.
+  - `fetch_trials.py` applies the rule on every download and counts failures
+    as skipped ("MI/ACS MeSH term not backed by conditions or title").
+    `apply_inclusion_rule.py` removes stored trials that fail it.
+- Not on the manual exclusion list (decision 17): `review/manual_exclusions.csv`
+  holds trials the project owner excluded by hand, each with its reason and
+  date. `fetch_trials.py` reads it on every download, so a refresh can't bring
+  them back.
 - Phase: Phase 3 or Phase 2/3
 - Intervention: at least one DRUG or BIOLOGICAL intervention
 - Start date: 2010-01-01 or later (actual or anticipated); trials with no start
@@ -39,11 +59,13 @@ transparent.
 | 9 | Outcome-switch check: registered vs. reported primary outcome (Phase 3 of the build, after the extractor and verifier exist; see "Outcome-switch check") | `outcome_checks/` | AI agent + script, then project owner |
 
 ## Progress
-1. Current step: 2b, Registry hand-check, started while 2a's last review is open (steps 1 and 2 are done); last updated 2026-11-16.
-2. Done in 2a: drug names, sponsors and why_stopped reviewed and loaded; primary outcome types drafted, 189 sure drafts loaded, review sheet `review/outcome_types.csv` (71 rows) built. Still open: owner reviews `review/outcome_types.csv`, then run `load_outcome_types.py` and commit.
-3. Done in 2b: `draft_registry_check.py` built `review/registry_check.xlsx` (seed 20261116; 150 rows for 60 trials: 15 random trials x 7 fields, plus population rows for 24 text-based labels and 26 of 172 MeSH labels; the two draws are independent). `load_registry_check.py` is written and tested on copies; `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py` and commit.
-4. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
-5. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
+1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
+2. Exclusions applied on 2026-11-16: 196 → 161 trials (Phase 3 142, Phase 2/3 19); see the Quality log. Open: the owner decides on the 13 trials whose inclusion criteria never mention MI or ACS (NCT01465828, NCT01543555, NCT01755520, NCT01877915, NCT02352402, NCT03331484, NCT05473520, NCT05474053, NCT05476991, NCT05825573, NCT06286059, NCT07052799, NCT07908082; NCT06081803 also came up but is a STEMI trial described by ECG criteria).
+3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: the owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Not loaded yet: the owner has rules to add first.
+4. Timing after MI: 161 drafts; 78 sure acute loaded; `review/timing_after_mi.csv` (83 rows) waits for the owner, then run `load_timing.py`.
+5. 2b: `review/registry_check.xlsx` rebuilt after the exclusions (seed 20261116; 143 rows for 53 trials). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
+6. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
+7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
 ## Ground rules
 - A missing value stays empty. It is never guessed.
@@ -135,6 +157,25 @@ Settled by the project owner on 2026-11-14.
     stay local: keep the full database and the extractions/ and verifications/
     folders out of git, and commit a public CSV export without quotes.
 
+Added by the project owner on 2026-11-16:
+
+15. **MI/ACS must be named in words.** Is the MeSH match enough?
+    Choice: No. The conditions list or title must also name MI or ACS in
+    words, whole words only, with "MI" and "ACS" in capitals only. A matched
+    MeSH child term's name (e.g. "cardiogenic shock") does not count on its
+    own. Borderline trials are excluded under the rule, with no manual
+    exceptions. See "Inclusion criteria" and the Quality log.
+16. **Timing after MI.** Keep trials that enrol patients after the acute
+    phase (e.g. prior MI), or exclude them?
+    Choice: Keep them, and add `trials.timing_after_mi` (acute / recent /
+    prior), based on the latest time after the index event at which the
+    inclusion criteria allow enrolment. Every analysis runs for all trials and
+    for acute-only trials. See "Timing after MI".
+17. **Manual exclusion list.** Trials the rules let through but that are
+    clearly not MI or ACS trials (e.g. MI named only as an outcome in the
+    conditions list) are excluded by hand, each with its reason, through
+    `review/manual_exclusions.csv`, and recorded in the Quality log.
+
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
 (decision 6) and `fetch_runs` (decision 13).
@@ -159,7 +200,9 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    `trial_countries`; empty if the registry lists no locations),
    has_device_or_procedure, allocation, masking, has_results, last_updated,
    publication_status (found / no publication found / not yet searched),
-   raw_json_file, first_seen_run, last_seen_run.
+   raw_json_file, timing_after_mi (acute / recent / prior; see "Timing after
+   MI"), timing_after_mi_evidence, timing_after_mi_source, first_seen_run,
+   last_seen_run.
 2. **`conditions`**: conditions and MeSH terms per trial, showing why each trial
    passed the inclusion rule. nct_id, condition_text, mesh_term, mesh_id,
    match_type (direct term or parent term).
@@ -325,6 +368,11 @@ random check (see part 4).
   files Excel saves with semicolons.
 - The approved CSV files are the record of the owner's decisions. The loader
   applies them again on every run, so a new download never loses them.
+- Exception: a trial excluded by an inclusion rule is removed from the review
+  files by `apply_inclusion_rule.py` (settled by the project owner on
+  2026-11-16). Every decided row it removes is first copied to
+  `review/archive/excluded_trial_decisions.csv` with the date and reason. In
+  sponsors.csv only sponsors left with no trials are removed.
 
 ### 1. Generic drug names
 - The registry's drug MeSH terms are stored in `intervention_mesh`
@@ -588,8 +636,96 @@ history of changes on ClinicalTrials.gov
 (`https://clinicaltrials.gov/study/<NCT ID>?tab=history`). The owner's final
 classification is stored in `outcome_comparisons.final_classification`.
 
+## Timing after MI
+Added on 2026-11-16 (decision 16). This is part of registry cleaning (step 2a).
+
+- **`trials.timing_after_mi`**: how long after the index MI or ACS patients
+  could be enrolled, judged from the latest time the inclusion criteria allow:
+  - acute: during the index hospitalisation or within 7 days
+  - recent: the latest allowed is 8 days to 6 months
+  - prior: more than 6 months, "history of MI", or only a minimum (e.g.
+    ">=30 days") with no maximum
+  It stays empty while a trial waits for review, and when the inclusion
+  criteria name no index MI or ACS.
+- **`timing_after_mi_evidence`** holds the text from the inclusion criteria
+  that decided the label. **`timing_after_mi_source`**: Claude draft, not
+  reviewed / owner approved.
+- **Drafts:** Claude drafts every trial in
+  `review/timing_suggestions_claude.csv` (label, sure or uncertain, the
+  evidence quote, a note). `draft_timing.py` checks that each quote appears
+  word for word in the trial's inclusion criteria (the text before the
+  "Exclusion Criteria" heading, or the whole eligibility text if there is no
+  heading).
+- **Review:** `review/timing_after_mi.csv` holds every draft that is not
+  acute, every uncertain draft, every trial with no index MI found, and every
+  trial whose quote is not found or that has no draft. The owner approves, or
+  corrects with acute / recent / prior / none.
+- **Loading:** `load_timing.py` stores the owner's value (source "owner
+  approved"). Sure acute drafts with a found quote go in without review
+  (source "Claude draft, not reviewed"). Rows still waiting stay empty.
+
+## Quality log
+Problems found in the data, and what was done about them.
+
+Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
+142, Phase 2/3 19): the 23, 9 and 3 trials below. Database backups:
+`data/ami_trials.backup-20261116-124113-before-exclusion.db` (before) and
+`data/ami_trials.backup-20261116-135337.db` (before the timing columns were
+added). The owner's reviewed `review/outcome_types.csv` was copied to
+`review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
+were removed.
+
+### 2026-11-16: false MI/ACS matches excluded (23 trials)
+Found by the project owner: NCT01090310 (AIN457 in non-infectious uveitis)
+had the MeSH term Myocardial Infarction only because Novartis left template
+text in its Keywords field ("Examples: Heart failure, aliskiren, heart
+attack, ..."), which ClinicalTrials.gov mapped to Myocardial Infarction. A
+scan of all raw files found 23 trials whose MI/ACS MeSH term is not backed by
+their conditions list or title. All were excluded under the new rule ("MI/ACS
+named in words", see "Inclusion criteria"), with their related rows. Decided
+review rows were archived in `review/archive/excluded_trial_decisions.csv`.
+Database backup: `data/ami_trials.backup-20261116-124113-before-exclusion.db`.
+
+Reason for all: MI/ACS MeSH term not backed by conditions or title.
+- NCT01090310: uveitis; MeSH from Novartis template text in keywords
+- NCT04806893, NCT05046106: MeSH from the condition "Cardiovascular Stroke" /
+  "Stroke, Cardiovascular", a MeSH synonym for MI (lipid and stroke trials)
+- NCT01848106: PCI population, may include some ACS patients; excluded
+  because title and conditions don't name ACS
+- NCT01007279, NCT01228227: stable angina patients having elective PCI;
+  periprocedural MI is the outcome, not the population
+- NCT05739929: PCI population; the inclusion criteria exclude ACS patients
+- MI only as an outcome or keyword (cardiovascular prevention or other
+  diseases): NCT01101035, NCT01492361, NCT01594333, NCT01776424, NCT01975376,
+  NCT01975389, NCT02117453, NCT02344290, NCT04023552, NCT04057261,
+  NCT04343001, NCT04774159, NCT05485961, NCT05739383, NCT07136012,
+  NCT07517263
+
+### 2026-11-16: cardiogenic shock without MI excluded (9 trials, decision 15)
+MeSH files "Shock, Cardiogenic" under Myocardial Infarction, so these
+trials matched through that child term alone. None names MI or ACS in its
+conditions or title, and none requires MI as the cause of shock in its
+inclusion criteria. Reason: MI/ACS MeSH term not backed by conditions or
+title. NCT03340779, NCT03989531, NCT04020263, NCT04728932, NCT04990349,
+NCT05594342, NCT05879276, NCT07099014, NCT07583446. NCT07714746 (cardiogenic
+shock after STEMI) stays.
+
+### 2026-11-16: excluded by hand (3 trials, decision 17)
+These name MI in their title or conditions, so the rule lets them through,
+but MI is not their population. Listed in `review/manual_exclusions.csv`.
+- NCT04069234: diabetes patients without prior MI having elective PCI; the
+  title names MI only to say patients have none
+- NCT07174414: recurrent stroke trial; Myocardial Infarction is in the
+  conditions list as an outcome, not the population
+- NCT03649711: chronic kidney disease platelet study; Heart Attack is in the
+  conditions list as an outcome, not the population
+
 ## Analyses
 Added on 2026-11-15. Planned analyses of the finished database.
+
+Every analysis runs for all trials and for acute-only trials
+(`timing_after_mi` = acute), decision 16. Trials with an empty
+timing_after_mi are counted and reported, not dropped silently.
 
 ### 1. Share of trials by primary outcome type
 - Number and percentage of trials in each `trials.primary_outcome_type`

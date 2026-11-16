@@ -18,9 +18,15 @@ Inclusion rules (SPEC.md decisions 1-4):
   - MeSH condition term "Myocardial Infarction" (or a child term, i.e. a term
     whose ancestor is "Myocardial Infarction") or "Acute Coronary Syndrome"
   - Phase 3 or Phase 2/3
+  - The conditions list or the title must name MI or ACS in words (SPEC.md
+    "Inclusion criteria", added 2026-11-16): the MeSH term alone is not enough,
+    because the registry also assigns MeSH terms from keywords and synonyms.
+  - Not on the project owner's manual exclusion list (review/manual_exclusions.csv)
   - At least one DRUG or BIOLOGICAL intervention
   - Start date (actual or estimated) on or after 2010-01-01; trials without a
     start date are excluded and counted
+A trial already in the database that now fails a rule is skipped and listed;
+run scripts\\apply_inclusion_rule.py to remove it.
 """
 
 import argparse
@@ -131,15 +137,80 @@ def clean(value):
     return value
 
 
+# MI / ACS named in words (SPEC.md "Inclusion criteria"). Whole words only;
+# "MI" and "ACS" count only in capitals.
+MI_ACS_WORDS = re.compile(
+    r"\b(?:myocardial\s+infarctions?|infarcts?|heart\s+attacks?|N?STEMI|"
+    r"ST[\s-](?:segment[\s-])?elevation|acute\s+coronary\s+syndromes?|"
+    r"unstable\s+angina|angina,\s+unstable)\b", re.IGNORECASE)
+MI_ACS_CAPITALS = re.compile(r"\b(?:MI|ACS)\b")
+# MeSH child terms of "Myocardial Infarction" seen in the registry data.
+MI_CHILD_TERMS = {"ST Elevation Myocardial Infarction", "Non-ST Elevated Myocardial Infarction",
+                  "Anterior Wall Myocardial Infarction", "Inferior Wall Myocardial Infarction",
+                  "Shock, Cardiogenic"}
+# Whether the name of a matched child term (e.g. "cardiogenic shock") counts as
+# backing on its own. No: decided by the project owner on 2026-11-16 (decision 1b).
+CHILD_TERM_NAME_BACKS = False
+NOT_BACKED = "MI/ACS MeSH term not backed by conditions or title"
+# Trials the project owner excluded by hand, with the reason (SPEC.md "Inclusion criteria").
+MANUAL_EXCLUSIONS = ROOT / "review" / "manual_exclusions.csv"
+
+
+def manual_exclusions():
+    """{nct_id: reason} from review/manual_exclusions.csv (empty if the file is missing)."""
+    if not MANUAL_EXCLUSIONS.exists():
+        return {}
+    from review_files import read_csv   # accepts Excel's encodings and semicolons
+    return {r["nct_id"].strip(): (r.get("reason") or "").strip()
+            for r in read_csv(MANUAL_EXCLUSIONS) if (r.get("nct_id") or "").strip()}
+
+
+EXCLUDED_BY_HAND = manual_exclusions()
+
+
+def backing_text(study):
+    """The brief and official title plus the conditions list, as one text."""
+    p = study.get("protocolSection", {})
+    ident = p.get("identificationModule", {})
+    return " | ".join([ident.get("briefTitle") or "", ident.get("officialTitle") or ""]
+                      + p.get("conditionsModule", {}).get("conditions", []))
+
+
+def names_child_term(text, meshes):
+    """True if the text names one of the trial's MI child MeSH terms
+    ("Shock, Cardiogenic" also matches "cardiogenic shock")."""
+    for term in meshes & MI_CHILD_TERMS:
+        forms = {term, " ".join(reversed(term.split(", ")))}
+        if any(re.search(r"\b" + re.escape(f) + r"\b", text, re.IGNORECASE) for f in forms):
+            return True
+    return False
+
+
+def mi_acs_backed(study):
+    """True if the conditions list or title names MI or ACS in words."""
+    text = backing_text(study)
+    if MI_ACS_WORDS.search(text) or MI_ACS_CAPITALS.search(text):
+        return True
+    if CHILD_TERM_NAME_BACKS:
+        browse = study.get("derivedSection", {}).get("conditionBrowseModule", {})
+        return names_child_term(text, {m.get("term") for m in browse.get("meshes", [])})
+    return False
+
+
 def rule_failure(study):
     """Re-check the SPEC.md inclusion rules. Returns the reason it fails, or None."""
     p = study.get("protocolSection", {})
+    nct_id = p.get("identificationModule", {}).get("nctId")
+    if nct_id in EXCLUDED_BY_HAND:
+        return f"excluded by hand: {EXCLUDED_BY_HAND[nct_id]}"
     browse = study.get("derivedSection", {}).get("conditionBrowseModule", {})
     meshes = {m.get("term") for m in browse.get("meshes", [])}
     ancestors = {a.get("term") for a in browse.get("ancestors", [])}
     if not ({"Myocardial Infarction", "Acute Coronary Syndrome"} & meshes
             or "Myocardial Infarction" in ancestors):
         return "no qualifying MeSH condition term"
+    if not mi_acs_backed(study):
+        return NOT_BACKED
     if "PHASE3" not in p.get("designModule", {}).get("phases", []):
         return "not Phase 3 or Phase 2/3"
     types = {i.get("type") for i in p.get("armsInterventionsModule", {})
@@ -446,6 +517,7 @@ def main():
                   "trial_countries", "intervention_mesh")}
         populations = Counter()
         definition_only = []
+        stored_now_failing = []
         for nct_id, study in studies:
             if nct_id in seen:
                 skipped["appeared twice in the download"] += 1
@@ -454,6 +526,9 @@ def main():
             reason = rule_failure(study)
             if reason:
                 skipped[f"failed local check: {reason}"] += 1
+                if con.execute("SELECT 1 FROM trials WHERE nct_id = ?",
+                               (nct_id,)).fetchone():
+                    stored_now_failing.append(f"{nct_id} ({reason})")
                 continue
             exists = con.execute("SELECT 1 FROM trials WHERE nct_id = ?",
                                  (nct_id,)).fetchone()
@@ -511,6 +586,10 @@ def main():
     if not_seen:
         print(f"Trials in the database that no longer match the search: {not_seen} "
               "(kept, not deleted)")
+    if stored_now_failing:
+        print(f"WARNING: {len(stored_now_failing)} trials in the database now fail a "
+              "local check and were not updated: " + ", ".join(stored_now_failing))
+        print("  Run scripts\\apply_inclusion_rule.py to remove them.")
     print(f"Why Stopped that only repeats a registry status definition (stored as empty): "
           f"{len(definition_only)}" + (f" ({', '.join(definition_only)})" if definition_only else ""))
     print(f"Excluded for having no start date: {no_start_date}")

@@ -88,7 +88,12 @@ CREATE TABLE trials (
                                 (WHY_CATEGORIES)),
     why_stopped_source      TEXT CHECK (why_stopped_source IN ('registry', 'paper')),
     primary_outcome_type    TEXT CHECK (primary_outcome_type IN (TRIAL_OUTCOME_TYPES)),
-    first_seen_run          INTEGER REFERENCES fetch_runs(run_id),
+    -- timing after the index MI (SPEC.md "Timing after MI", decision 16)
+    timing_after_mi         TEXT CHECK (timing_after_mi IN ('acute', 'recent', 'prior')),
+    timing_after_mi_evidence TEXT,   -- inclusion-criteria text that decided the label
+    timing_after_mi_source  TEXT CHECK (timing_after_mi_source IN
+                                ('Claude draft, not reviewed', 'owner approved')),
+    first_seen_run         INTEGER REFERENCES fetch_runs(run_id),
     last_seen_run           INTEGER REFERENCES fetch_runs(run_id)
 );
 

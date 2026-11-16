@@ -32,3 +32,9 @@ outcome_checks/*
 # Registry hand-check sheet (step 2b): registry values and the owner's
 # decisions, no paper quotes, so it is committed too.
 !review/registry_check.xlsx
+
+# Archive of decided review rows for excluded trials: decisions, no quotes.
+!review/archive/
+!review/manual_exclusions.csv
+!review/timing_after_mi.csv
+!review/timing_suggestions_claude.csv
