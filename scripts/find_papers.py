@@ -52,6 +52,20 @@ COLUMNS = ["nct_id", "acronym", "enrollment", "timing_after_mi", "pmid", "title"
            "file_name", "note", "decision", "comment"]
 KEY = ["nct_id", "pmid"]
 OWNER_COLUMNS = ["decision", "comment"]
+# Factorial trials with one main results paper per comparison (owner decision
+# 2026-11-16, SPEC decision 31): {nct_id: {pmid: (file name, note)}}. Each paper
+# is linked to its own registered primary outcome(s).
+FACTORIAL_MAIN_PAPERS = {
+    "NCT03048825": {
+        "39555814": ("NCT03048825.pdf",
+                     "factorial trial: main paper for the spironolactone comparison; registered "
+                     "primary outcomes #650, #651. #648 not assessed (stent performance-goal "
+                     "comparison; no drug paper covers it)"),
+        "39555823": ("NCT03048825_colchicine.pdf",
+                     "factorial trial: main paper for the colchicine comparison; registered "
+                     "primary outcome #649"),
+    },
+}
 
 FLAG_WORDS = re.compile(
     r"\b(design|rationale|protocol|baseline characteristics|sub-?stud(y|ies)|secondary|"
@@ -174,6 +188,13 @@ def main():
                              f"{main_paper['pmid']}, e.g. a factorial trial): owner decides")
                 main_paper["note"] = f"see also PMID {p['pmid']} (possible second main paper)"
                 stats["possible second main papers"] += 1
+        if nct_id in FACTORIAL_MAIN_PAPERS:
+            # Owner decision: one factorial trial, one main paper per comparison.
+            for p in papers:
+                setting = FACTORIAL_MAIN_PAPERS[nct_id].get(p["pmid"])
+                p["proposed_main"], p["file_name"] = ("yes", setting[0]) if setting else ("", "")
+                p["note"] = setting[1] if setting else p["note"]
+            stats["factorial trials (two main papers)"] += 1
         papers.sort(key=lambda p: (p["proposed_main"] != "yes", p["year"], p["pmid"]))
         rows.extend(papers)
         picked.append((nct_id, acronym, enrollment, timing, len(papers)))

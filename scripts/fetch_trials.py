@@ -167,6 +167,33 @@ def manual_exclusions():
 
 EXCLUDED_BY_HAND = manual_exclusions()
 
+# Population labels the project owner set by hand, applied after the rules
+# (SPEC.md "Population label", rule 6; decided 2026-11-16).
+POPULATION_OVERRIDES_FILE = ROOT / "review" / "population_overrides.csv"
+POPULATION_LABELS = ("STEMI", "NSTEMI", "STEMI + NSTEMI", "ACS mixed", "MI unspecified")
+
+
+def population_overrides():
+    """{nct_id: (label, reason)} from review/population_overrides.csv (empty if missing).
+    Stops with an error if a label is not one of the five population labels."""
+    if not POPULATION_OVERRIDES_FILE.exists():
+        return {}
+    from review_files import read_csv   # accepts Excel's encodings and semicolons
+    out = {}
+    for r in read_csv(POPULATION_OVERRIDES_FILE):
+        nct_id = (r.get("nct_id") or "").strip()
+        if not nct_id:
+            continue
+        label = (r.get("label") or "").strip()
+        if label not in POPULATION_LABELS:
+            raise ValueError(f"population_overrides.csv: {nct_id} has label '{label}'; "
+                             f"use one of: {', '.join(POPULATION_LABELS)}")
+        out[nct_id] = (label, (r.get("reason") or "").strip())
+    return out
+
+
+POPULATION_OVERRIDES = population_overrides()
+
 
 def backing_text(study):
     """The brief and official title plus the conditions list, as one text."""
@@ -240,14 +267,62 @@ NSTEMI_WORDS = re.compile(
 STEMI_WORDS = re.compile(r"\b(?:STEMI|ST[\s-](?:segment[\s-])?elevation)\b",
                          re.IGNORECASE)
 EXCLUSION_HEADING = re.compile(r"exclusion\s+criteria", re.IGNORECASE)
+# Rule (b), decided 2026-11-16: in the inclusion criteria, primary PCI means STEMI.
+PRIMARY_PCI = re.compile(
+    r"\b(?:primary\s+(?:PCI|percutaneous\s+coronary\s+intervention)|p-?PCI)\b", re.IGNORECASE)
+# Rule (a), decided 2026-11-16: wording that brings unstable angina into an ACS
+# population (unstable angina, UA, NSTE-ACS, non-ST-elevation ACS, "non-ST or ST").
+UA_WORDS = re.compile(
+    r"\bunstable\s+angina\b|\bNSTE-?ACS\b|"
+    r"\bnon[\s-]?ST[\s-](?:segment[\s-])?elevation\s+(?:acute\s+coronary\s+syndromes?|ACS)\b|"
+    r"\bnon[\s-]?ST\s+or\s+ST\b", re.IGNORECASE)
+UA_CAPITALS = re.compile(r"\bUA\b")
+# "with or without ST elevation" / "with and without ST-segment elevation" names both.
+WITH_OR_WITHOUT_ST = re.compile(
+    r"\bwith\s+(?:or|and)\s+without\s+ST[\s-](?:segment[\s-])?elevation\b", re.IGNORECASE)
+ACS_WORDS = re.compile(r"\b(?:[Aa]cute\s+[Cc]oronary\s+[Ss]yndromes?|ACS)\b")
+# "STE-ACS" / "ST-elevation ACS" is a STEMI population, not a generic ACS one.
+STE_ACS = re.compile(
+    r"\bSTE-?ACS\b|\bST[\s-](?:segment[\s-])?elevation\s+(?:acute\s+coronary\s+syndromes?|ACS)\b",
+    re.IGNORECASE)
+# ACS restricted on the spot, e.g. "ACS (STEMI or NSTEMI)", "ACS: STEMI ...",
+# "ACS event (STEMI ...".
+RESTRICTED_AFTER = re.compile(
+    r"^[\s:(\[,-]{0,4}(?:\w+\s+){0,2}[(\[:]?\s*"
+    r"(?:N?STEMI|non[\s-]?STEMI|ST[\s-](?:segment[\s-])?elevation)", re.IGNORECASE)
 
 
-def label_from_text(text):
-    """STEMI / NSTEMI / STEMI + NSTEMI from free text, or None if neither appears."""
+def generic_acs(text):
+    """True if the text names ACS without ever restricting it to STEMI / NSTEMI
+    ("ACS (STEMI or NSTEMI)" and "STE-ACS" are restricted). Once the criteria
+    define ACS as STEMI / NSTEMI, later mentions ("the qualifying ACS event")
+    refer to that definition."""
+    masked = STE_ACS.sub(" ", text)
+    mentions = [bool(RESTRICTED_AFTER.search(masked[m.end():m.end() + 40]))
+                for m in ACS_WORDS.finditer(masked)]
+    return bool(mentions) and not any(mentions)
+
+
+def narrower_than_acs(inclusion):
+    """Rule (a): STEMI / NSTEMI / STEMI + NSTEMI when the inclusion criteria name
+    only those (no unstable angina, no unrestricted ACS); otherwise None."""
+    if not inclusion or UA_WORDS.search(inclusion) or UA_CAPITALS.search(inclusion):
+        return None
+    if generic_acs(inclusion):
+        return None
+    return label_from_text(inclusion, primary_pci=True)
+
+
+def label_from_text(text, primary_pci=False):
+    """STEMI / NSTEMI / STEMI + NSTEMI from free text, or None if neither appears.
+    primary_pci=True (inclusion criteria only, rule b): "primary PCI" counts as STEMI."""
     if not text:
         return None
+    if WITH_OR_WITHOUT_ST.search(text):
+        return "STEMI + NSTEMI"
     has_nstemi = bool(NSTEMI_WORDS.search(text))
-    has_stemi = bool(STEMI_WORDS.search(NSTEMI_WORDS.sub(" ", text)))
+    rest = NSTEMI_WORDS.sub(" ", text)
+    has_stemi = bool(STEMI_WORDS.search(rest)) or (primary_pci and bool(PRIMARY_PCI.search(rest)))
     if has_stemi and has_nstemi:
         return "STEMI + NSTEMI"
     if has_stemi:
@@ -271,7 +346,10 @@ def population(study):
     browse = study.get("derivedSection", {}).get("conditionBrowseModule", {})
     meshes = {m.get("term") for m in browse.get("meshes", [])}
     if meshes & ACS_MESH:
-        return "ACS mixed", "mesh"
+        # Rule (a): a narrower population in the inclusion criteria wins.
+        narrower = narrower_than_acs(inclusion_criteria(
+            p.get("eligibilityModule", {}).get("eligibilityCriteria")))
+        return (narrower, "eligibility") if narrower else ("ACS mixed", "mesh")
     if STEMI_MESH in meshes and NSTEMI_MESH in meshes:
         return "STEMI + NSTEMI", "mesh"
     if STEMI_MESH in meshes:
@@ -287,10 +365,19 @@ def population(study):
             p.get("eligibilityModule", {}).get("eligibilityCriteria"))),
     ]
     for source, text in texts:
-        label = label_from_text(text)
+        label = label_from_text(text, primary_pci=(source == "eligibility"))
         if label:
             return label, source
     return "MI unspecified", "mesh"
+
+
+def population_label(study):
+    """The stored population label: the owner's override if there is one (rule 6),
+    otherwise the rules in population()."""
+    nct_id = study["protocolSection"]["identificationModule"]["nctId"]
+    if nct_id in POPULATION_OVERRIDES:
+        return POPULATION_OVERRIDES[nct_id][0], "owner override"
+    return population(study)
 
 
 def countries(study):
@@ -334,7 +421,7 @@ def trial_row(nct_id, study):
     types = {i.get("type") for i in p.get("armsInterventionsModule", {})
              .get("interventions", [])}
     has_results = study.get("hasResults")
-    pop_label, pop_source = population(study)
+    pop_label, pop_source = population_label(study)
     n_countries = len(countries(study)) or None   # no locations listed -> empty
     return {
         "population": pop_label,

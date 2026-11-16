@@ -67,7 +67,8 @@ CREATE TABLE trials (
                                 ('STEMI', 'NSTEMI', 'STEMI + NSTEMI',
                                  'ACS mixed', 'MI unspecified')),
     population_source       TEXT CHECK (population_source IN
-                                ('mesh', 'title', 'conditions', 'eligibility')),
+                                ('mesh', 'title', 'conditions', 'eligibility',
+                                 'owner override')),
     n_countries             INTEGER,
     has_device_or_procedure INTEGER CHECK (has_device_or_procedure IN (0, 1)),
     allocation              TEXT,

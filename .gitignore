@@ -50,3 +50,4 @@ checks/*
 # Review sheet of extracted values: holds paper quotes (decision 14).
 review/review_sheet.xlsx
 !review/paper_list.csv
+!review/population_overrides.csv

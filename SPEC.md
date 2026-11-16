@@ -140,6 +140,7 @@ Settled by the project owner on 2026-11-14.
    Choice: Main results paper as NCT01234567.pdf, supplement as
    NCT01234567_supp.pdf. Extract only from the main results paper. List
    secondary analyses in the publications table, but don't download them.
+   (Exception for factorial trials: decision 31.)
 10. **Verification.** Must every extracted value include a page number and a
     direct quote? Does the second agent work independently and get compared, or
     does it check the first agent's output?
@@ -270,6 +271,31 @@ Added by the project owner on 2026-11-16:
     terminated trials, 57 with at least one candidate paper (11 from the
     registry's RESULT references, 46 more from a PubMed search by NCT
     number); by timing: acute 42 of 66, recent 10 of 10, prior 5 of 5.
+29. **Population rules (a) and (b)** (2026-11-16, after the registry
+    hand-check). (a) For trials whose label comes from an "Acute Coronary
+    Syndrome" MeSH term, the inclusion criteria are used when they name only
+    STEMI, only NSTEMI, or STEMI + NSTEMI without unstable angina. (b)
+    "Primary PCI" / "pPCI" in the inclusion criteria counts as STEMI. See
+    "Population label", rules 1 and 4.
+30. **Population overrides** (2026-11-16). `review/population_overrides.csv`
+    (nct_id, label, reason, date) holds labels the owner sets by hand; they
+    are applied last, like `review/manual_exclusions.csv`, and the file is
+    committed. First rows: NCT01787110 and NCT02290080 (DETO2X-AMI and its
+    biomarker study), NCT06723002 and NCT04476173, all ACS mixed. See
+    "Population label", rule 6.
+31. **Factorial trials: one main paper per comparison** (2026-11-16). A
+    factorial trial whose comparisons are reported in separate main results
+    papers is one trial with two (or more) main papers, each extracted and
+    linked to its own registered primary outcome(s). The extra paper is
+    saved as `NCT########_<comparison>.pdf`. No schema change is needed:
+    `trial_publications` allows two "main results" rows per trial, and
+    `extracted_values` and `outcome_comparisons` carry the publication_id.
+    First case: NCT03048825 (CLEAR SYNERGY): spironolactone paper (PMID
+    39555814, `NCT03048825.pdf`) → registered primary outcomes #650 and #651;
+    colchicine paper (PMID 39555823, `NCT03048825_colchicine.pdf`) → #649;
+    #648 not assessed (stent performance-goal comparison; no drug paper
+    covers it). `scripts/find_papers.py` holds the mapping
+    (FACTORIAL_MAIN_PAPERS).
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -291,7 +317,7 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    completion_date_type, enrollment, enrollment_type, lead_sponsor,
    sponsor_class, population (STEMI / NSTEMI / STEMI + NSTEMI / ACS mixed /
    MI unspecified; see "Population label"), population_source (mesh / title /
-   conditions / eligibility), n_countries (number of distinct countries in
+   conditions / eligibility / owner override), n_countries (number of distinct countries in
    `trial_countries`; empty if the registry lists no locations),
    has_device_or_procedure, allocation, masking, has_results, last_updated,
    publication_status (found / no publication found / not yet searched),
@@ -408,8 +434,18 @@ came from, so every label can be checked. The rules apply in this order; the
 first one that fits wins.
 
 1. MeSH condition terms include "Acute Coronary Syndrome" or "Angina,
-   Unstable" → **ACS mixed** (source: mesh). This is the only way a trial
-   gets this label.
+   Unstable" → **ACS mixed** (source: mesh). Only this rule and an owner
+   override (rule 6) give this label.
+   - **Rule (a)** (decision 29, 2026-11-16): first the inclusion criteria are
+     read (the text before the "Exclusion Criteria" heading). If they name
+     only STEMI, only NSTEMI, or STEMI + NSTEMI, and never unstable angina
+     ("unstable angina", "UA", "NSTE-ACS", "non-ST-elevation ACS", "non-ST or
+     ST") or an unrestricted ACS, that label is used instead (source:
+     eligibility). ACS restricted on the spot counts as narrower ("ACS
+     (STEMI or NSTEMI)", "Diagnosis of ACS: STEMI or NSTEMI", "STE-ACS");
+     once the criteria define ACS that way, later mentions ("the qualifying
+     ACS event") refer to it. "With or without ST(-segment) elevation" names
+     both STEMI and NSTEMI. Primary PCI counts as STEMI (rule b).
 2. MeSH terms include both "ST Elevation Myocardial Infarction" and
    "Non-ST Elevated Myocardial Infarction" → **STEMI + NSTEMI** (mesh).
 3. MeSH terms include only the STEMI term → **STEMI**; only the NSTEMI term →
@@ -431,7 +467,19 @@ first one that fits wins.
      before the "Exclusion Criteria" heading (settled by the project owner on
      2026-11-15). If the text has no such heading, the eligibility text is not
      used, because an excluded group could give a wrong label.
+   - **Rule (b)** (decision 29, 2026-11-16): in the inclusion criteria,
+     "primary PCI", "primary percutaneous coronary intervention" and "pPCI"
+     count as STEMI. "With or without ST(-segment) elevation" names both.
 5. No hit anywhere → **MI unspecified** (source: mesh).
+6. **Owner override** (decision 30, 2026-11-16): a trial listed in
+   `review/population_overrides.csv` (nct_id, label, reason, date) gets the
+   owner's label (source: owner override). It is applied last, after rules
+   1-5, by `fetch_trials.py` on every download and by
+   `scripts/relabel_population.py` (which recomputes every label from the
+   saved raw files without a new download; dry run unless `--apply`). The
+   file is committed, like the other review CSVs. It is for cases the rules
+   can't read, e.g. ST elevation listed as one of several allowed ECG
+   findings, or "primary PCI" in a negated sentence.
 
 The text search never produces ACS mixed.
 
@@ -911,7 +959,26 @@ with the inclusion criteria. Inclusion text names a narrower group:
 - Checked and not narrower: NCT01660373, NCT06723002 (definitions allow
   unstable angina), NCT02924727 (STEMI without reperfusion is only a
   risk-enrichment criterion), NCT01294462, NCT02145468, NCT04739384.
-Nothing was changed; the fix waits for the owner's decision.
+Nothing was changed at first; the fix followed the owner's decision (below).
+
+Fix (2026-11-16, decisions 29 and 30): rules (a)+(b) changed 16 labels; 3 of
+those changes (19%) were wrong because ST elevation was one of several
+allowed ECG findings (NCT01787110, NCT02290080), or "primary PCI" appeared in
+a negated sentence (NCT06723002). All 3 were caught in review and corrected
+with overrides (`review/population_overrides.csv`), together with
+NCT04476173 (STEMI → ACS mixed: inclusion allows NSTE-ACS). The 13 correct
+changes are exactly the 13 "clear" trials listed above. Applied with
+`scripts/relabel_population.py --apply` (17 labels changed: 13 by the rules,
+4 by overrides); a second run found nothing left to change. Database backup
+before the schema upgrade (new population_source "owner override"):
+`data/ami_trials.backup-20261116-201704.db`.
+Re-run of the MeSH check after the fix: no trial is left with a narrower
+inclusion population except the "possible" PEGASUS (NCT01225562) and
+AEGIS-II (NCT03473223) and the two already ruled out (NCT01660373,
+NCT02924727). New finding, broader the other way (like NCT04476173):
+NCT07297589 (EPIC-CT) has MeSH STEMI, but its inclusion says "acute
+myocardial infarction with and without ST-segment elevation" (STEMI +
+NSTEMI). Waiting for the owner; its label (STEMI) is unchanged.
 
 ### 2026-11-16: cut-off timing evidence quotes fixed
 15 of Claude's timing evidence quotes stopped mid-word or on a dangling word

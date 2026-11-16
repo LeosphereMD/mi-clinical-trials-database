@@ -38,7 +38,8 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from create_database import DB_PATH, connect
 from draft_cleaning import EXCEL_CELL_LIMIT
 from fetch_trials import (ACS_MESH, NSTEMI_MESH, NSTEMI_WORDS, STEMI_MESH, STEMI_WORDS,
-                          inclusion_criteria, population)
+                          POPULATION_OVERRIDES, PRIMARY_PCI, inclusion_criteria,
+                          population_label)
 from review_files import REVIEW_DIR
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -102,14 +103,18 @@ def primary_outcome_text(outcomes):
     return text
 
 
-def hits_with_snippets(text):
-    """(matching words, snippets) of the STEMI / NSTEMI words in a text."""
+def hits_with_snippets(text, primary_pci=False):
+    """(matching words, snippets) of the STEMI / NSTEMI words in a text
+    (with primary_pci=True also "primary PCI" / "pPCI", rule b)."""
     found = []
     for m in NSTEMI_WORDS.finditer(text):
         found.append((m.start(), m.end()))
     masked = NSTEMI_WORDS.sub(lambda m: " " * len(m.group()), text)
     for m in STEMI_WORDS.finditer(masked):
         found.append((m.start(), m.end()))
+    if primary_pci:
+        for m in PRIMARY_PCI.finditer(masked):
+            found.append((m.start(), m.end()))
     found.sort()
     words, snippets = [], []
     for start, end in found:
@@ -125,9 +130,12 @@ def hits_with_snippets(text):
 def population_details(study, label, source):
     """(matching words, where found) explaining the population label.
     Returns None for the words if the label from the raw file differs from the database."""
-    raw_label, raw_source = population(study)
+    raw_label, raw_source = population_label(study)
     if (raw_label, raw_source) != (label, source):
         return None, f"raw file gives {raw_label} ({raw_source})"
+    if source == "owner override":
+        nct_id = study["protocolSection"]["identificationModule"]["nctId"]
+        return "", "owner override: " + POPULATION_OVERRIDES[nct_id][1]
     p = study["protocolSection"]
     meshes = sorted({m.get("term") for m in study.get("derivedSection", {})
                      .get("conditionBrowseModule", {}).get("meshes", []) if m.get("term")})
@@ -144,7 +152,7 @@ def population_details(study, label, source):
         text = " | ".join(p.get("conditionsModule", {}).get("conditions", []))
     else:
         text = inclusion_criteria(p.get("eligibilityModule", {}).get("eligibilityCriteria"))
-    return hits_with_snippets(text or "")
+    return hits_with_snippets(text or "", primary_pci=(source == "eligibility"))
 
 
 def build_rows(con):
