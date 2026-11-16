@@ -161,7 +161,9 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
 4. **`arms`**: each study group, so per-arm numbers have something to link to.
    nct_id, arm_label, arm_type, description.
 5. **`registered_outcomes`**: outcomes as registered before results. nct_id,
-   outcome_type (primary / secondary), measure, time_frame, description.
+   outcome_type (primary / secondary), measure, time_frame, description,
+   outcome_category, outcome_category_source and composite_with_surrogate
+   (primary outcomes only; see "Registry cleaning", part 4).
 6. **`publications`**: one row per paper. publication_id (key), pmid, doi,
    pmc_id, title, journal, year (all optional).
 7. **`trial_publications`**: links trials to papers (one paper can report
@@ -232,7 +234,10 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
 
 Registry cleaning (step 2a) adds columns to two tables. To `trials`:
 sponsor_name_clean, sponsor_group, why_stopped_category,
-why_stopped_secondary_category and why_stopped_source (registry / paper). To
+why_stopped_secondary_category, why_stopped_source (registry / paper) and
+primary_outcome_type. To `registered_outcomes`: outcome_category,
+outcome_category_source (Claude draft, not sampled / owner approved) and
+composite_with_surrogate (yes / no). To
 `interventions`: generic_name and generic_name_source (registry MeSH exact
 match / owner approved).
 
@@ -288,8 +293,13 @@ before the registry hand-check. Steps:
 2. The project owner fills in the decision columns.
 3. `scripts/load_cleaning.py` copies approved values into the database.
 
+Primary outcome types (part 4) have their own pair of scripts,
+`draft_outcome_types.py` and `load_outcome_types.py`, so they can be run
+without touching the other review files.
+
 The only values that go in without approval are exact MeSH matches for drug
-names (see below).
+names, and the sure primary outcome type drafts that were not drawn for the
+random check (see part 4).
 
 ### Review files (all in `review/`, committed to git: no paper quotes)
 - Every row has: decision (approve / correct, or blank = not reviewed yet),
@@ -418,6 +428,60 @@ How the draft is made:
 - Approved values go into `trials.why_stopped_category`,
   `why_stopped_secondary_category` and `why_stopped_source`.
 
+### 4. Primary outcome types
+Added on 2026-11-15 at the project owner's request.
+- **Each registered primary outcome** gets one type in
+  `registered_outcomes.outcome_category`: clinical event / surrogate or lab
+  measure / patient-reported / other.
+  - clinical event: e.g. death, MI, stroke, heart failure hospitalization,
+    revascularization, bleeding events, MACE.
+  - surrogate or lab measure: lab values, imaging and other measurements,
+    e.g. infarct size, LVEF, TIMI flow, platelet reactivity, LDL-C, troponin.
+  - patient-reported: questionnaires or scales the patient fills in, e.g.
+    pain or depression scores.
+  - other: anything else, e.g. adherence, feasibility, length of stay.
+  - **Composites** (settled by the project owner on 2026-11-15): a composite
+    counts as a clinical event only if every component is a clinical event.
+    Any imaging, ECG or lab component makes it a surrogate or lab measure.
+  - **`composite_with_surrogate`** (yes / no, per outcome): yes when the
+    outcome is a composite that combines clinical events with at least one
+    imaging, ECG or lab component, so these can be reported separately. A
+    composite made only of imaging or lab measures is "no" (it was never
+    clinical). Claude marks every "yes" draft uncertain, so all of them are
+    reviewed.
+- **Each trial's `primary_outcome_type`** follows by rule from its primary
+  outcomes, never by hand (updated by the project owner on 2026-11-15):
+  - clinical only: every primary outcome is a clinical event
+  - surrogate only: every primary outcome is a surrogate or lab measure
+  - patient-reported only: every primary outcome is patient-reported
+  - mixed: more than one type among the primary outcomes
+  - other: every primary outcome is "other" (only when nothing else fits)
+  It stays empty if any of the trial's primary outcomes has no type yet, or
+  if the trial registers no primary outcome.
+- **Drafts:** Claude drafts the type of every primary outcome, marked sure or
+  uncertain with a note, in `review/outcome_type_suggestions_claude.csv`.
+  Drafts are keyed by registered_outcome_id. A reworded outcome gets a new id,
+  so it has no draft and goes on the sheet.
+- **Review** (same approach as the paper review, decision 11):
+  `review/outcome_types.csv` holds every uncertain draft, every outcome
+  without a draft, and a random 15% (rounded up) of the sure drafts, drawn
+  with a fixed seed (20261115). Each sure draft gets a fixed random number
+  from the seed and its id, and the lowest 15% are drawn, so a change to a
+  few drafts leaves the rest of the sample as it was. review_reason says why
+  each row is there (uncertain draft / no draft yet / random check of a sure
+  draft).
+- **Sheet layout:** uncertain rows first, then outcomes without a draft, then
+  the random checks, each sorted by trial. Columns from left to right: why
+  the row is there, trial link, outcome, the draft (type, composite flag,
+  note), the owner's columns (decision, corrected_category,
+  corrected_composite_with_surrogate, comment), then the long registry text
+  (time frame, description, flattened to one line) and the ids.
+- The owner approves, or corrects the type, the flag or both. With
+  "correct", a blank corrected column keeps the draft value.
+- **Loading:** outcomes on the sheet get the owner's value (source "owner
+  approved"), or stay empty until reviewed. Sure drafts not drawn go in
+  automatically (source "Claude draft, not sampled").
+
 ## Registry hand-check
 Added on 2026-11-15. This is pipeline step 2b, after the trials are loaded. The
 project owner compares database values with the trial's page on the
@@ -516,3 +580,16 @@ shows the registered text, the paper quote, the page, and a link to the trial's
 history of changes on ClinicalTrials.gov
 (`https://clinicaltrials.gov/study/<NCT ID>?tab=history`). The owner's final
 classification is stored in `outcome_comparisons.final_classification`.
+
+## Analyses
+Added on 2026-11-15. Planned analyses of the finished database.
+
+### 1. Share of trials by primary outcome type
+- Number and percentage of trials in each `trials.primary_outcome_type`
+  (clinical only / surrogate only / patient-reported only / mixed / other).
+- Also the number of trials with at least one primary outcome flagged
+  `composite_with_surrogate`, reported separately.
+- Shown for all trials together, and separately for Phase 3 and Phase 2/3
+  (`phase_label`).
+- Trials with an empty primary_outcome_type are counted and reported
+  separately, not dropped silently.

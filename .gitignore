@@ -26,3 +26,5 @@ outcome_checks/*
 !review/drug_name_suggestions_claude.csv
 !review/sponsors.csv
 !review/why_stopped.csv
+!review/outcome_types.csv
+!review/outcome_type_suggestions_claude.csv

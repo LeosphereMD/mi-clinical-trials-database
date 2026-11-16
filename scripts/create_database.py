@@ -29,6 +29,13 @@ WHY_CATEGORIES = [
     "unclear", "not stated",
 ]
 
+# Primary outcome types (SPEC.md "Registry cleaning", part 4)
+OUTCOME_CATEGORIES = ["clinical event", "surrogate or lab measure",
+                      "patient-reported", "other"]
+OUTCOME_CATEGORY_SOURCES = ["Claude draft, not sampled", "owner approved"]
+TRIAL_OUTCOME_TYPES = ["clinical only", "surrogate only", "patient-reported only",
+                       "mixed", "other"]
+
 SCHEMA_TEMPLATE = """
 -- 9. Log of each ClinicalTrials.gov download (decision 13)
 CREATE TABLE fetch_runs (
@@ -80,6 +87,7 @@ CREATE TABLE trials (
     why_stopped_secondary_category TEXT CHECK (why_stopped_secondary_category IN
                                 (WHY_CATEGORIES)),
     why_stopped_source      TEXT CHECK (why_stopped_source IN ('registry', 'paper')),
+    primary_outcome_type    TEXT CHECK (primary_outcome_type IN (TRIAL_OUTCOME_TYPES)),
     first_seen_run          INTEGER REFERENCES fetch_runs(run_id),
     last_seen_run           INTEGER REFERENCES fetch_runs(run_id)
 );
@@ -133,7 +141,11 @@ CREATE TABLE registered_outcomes (
     outcome_type          TEXT CHECK (outcome_type IN ('primary', 'secondary')),
     measure               TEXT,
     time_frame            TEXT,
-    description           TEXT
+    description           TEXT,
+    outcome_category      TEXT CHECK (outcome_category IN (OUTCOME_CATEGORIES)),
+    outcome_category_source TEXT CHECK (outcome_category_source IN
+                                (OUTCOME_CATEGORY_SOURCES)),
+    composite_with_surrogate TEXT CHECK (composite_with_surrogate IN ('yes', 'no'))
 );
 
 -- 6. One row per paper
@@ -363,8 +375,16 @@ CREATE TABLE outcome_comparisons (
 """
 
 
-SCHEMA = SCHEMA_TEMPLATE.replace(
-    "WHY_CATEGORIES", ", ".join("'" + c.replace("'", "''") + "'" for c in WHY_CATEGORIES))
+def sql_list(values):
+    return ", ".join("'" + v.replace("'", "''") + "'" for v in values)
+
+
+SCHEMA = SCHEMA_TEMPLATE
+for _name, _values in (("WHY_CATEGORIES", WHY_CATEGORIES),
+                       ("OUTCOME_CATEGORY_SOURCES", OUTCOME_CATEGORY_SOURCES),
+                       ("OUTCOME_CATEGORIES", OUTCOME_CATEGORIES),
+                       ("TRIAL_OUTCOME_TYPES", TRIAL_OUTCOME_TYPES)):
+    SCHEMA = SCHEMA.replace(f"({_name})", f"({sql_list(_values)})")
 
 
 def connect(path=DB_PATH):
