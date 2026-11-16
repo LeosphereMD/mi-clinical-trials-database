@@ -129,7 +129,8 @@ Settled by the project owner on 2026-11-14.
    effect measure (HR / RR / OR / mean difference) with value, 95% CI and
    p-value, median follow-up, the analysis population (e.g. ITT), the primary
    endpoint definition with each MACE component listed, and whether the primary
-   endpoint was met.
+   endpoint was met. (Extended by decision 32: one set of primary-result fields
+   per primary comparison.)
 8. **Finding papers.** Use the PMIDs listed in the registry record, a PubMed
    search by NCT number, or both? What if no paper exists?
    Choice: Both. Use the registry's RESULT references first, then a PubMed search
@@ -148,7 +149,8 @@ Settled by the project owner on 2026-11-14.
     reported". Hybrid: the verifier first finds the critical values on its own
     (N randomized, effect measure, value, 95% CI, p-value) and these are
     compared automatically. Then it checks every other field in the extractor's
-    output. Code checks run after both agents.
+    output. Code checks run after both agents. (Decision 32: the critical
+    values are checked for each comparison.)
 11. **Review format.** An Excel sheet (one row per value, with
     accept / reject / correct and comment columns), or something else?
     Choice: An Excel sheet with one row per value: accept / reject / correct,
@@ -297,6 +299,49 @@ Added by the project owner on 2026-11-16:
     #648 not assessed (stent performance-goal comparison; no drug paper
     covers it). `scripts/find_papers.py` holds the mapping
     (FACTORIAL_MAIN_PAPERS).
+32. **More than one primary comparison per trial** (approved by the project
+    owner on 2026-11-16; changes decisions 7 and 10). Pilot cases: PEGASUS
+    (ticagrelor 90 mg and 60 mg vs placebo), CANTOS (canakinumab 50, 150 and
+    300 mg vs placebo), TAO (two otamixaban doses vs UFH + eptifibatide; the
+    registry says one otamixaban arm continued after an interim analysis, by
+    DMC decision).
+    - **Primary outcome:** for each comparison the paper reports as primary,
+      one set of primary-result fields: effect measure, value, 95% CI,
+      p-value, and events/N for each arm of the comparison. Each set is
+      labelled in `extracted_values.comparison` as "<arm_label> vs
+      <arm_label>", using the registry arm labels exactly (e.g. "1 vs 3" for
+      PEGASUS, "Canakinumab Dose 150 mg vs Placebo" for CANTOS). Per-arm values
+      carry both the arm and the comparison, so an arm shared by several
+      comparisons (e.g. placebo) is stored once per comparison.
+    - **New whole-trial fields:** "multiplicity handling" (how the paper
+      handled the multiple comparisons, e.g. closed testing, alpha split,
+      Bonferroni; with quote and page, or "not reported"); "dropped arm" (one
+      row per arm dropped during the trial: arm = its registry label, value =
+      when and why, with quote and page). Only the comparisons the paper
+      reports are extracted.
+    - **Secondary and safety outcomes:** extracted as the paper reports them:
+      per comparison where the paper gives per-comparison results; if the
+      paper reports only a pooled result, it is extracted with a label that
+      joins the pooled arms with " + " (e.g. "1 + 2 vs 3"). Per-comparison
+      values are never calculated from pooled data, nor pooled values from
+      per-comparison data.
+    - **Factorial trials (decision 31):** comparison labels use the factor
+      levels as the paper reports them (e.g. "colchicine vs placebo",
+      "spironolactone vs placebo"), and the per-arm events/N are the factor
+      groups as the paper reports them.
+    - **Verifier:** the critical values (N randomized, effect measure, value,
+      95% CI, p-value) are found independently for each comparison.
+    - **Code checks:** every primary comparison has a complete set of fields;
+      every part of a comparison label (each side of " vs ", each arm joined
+      by " + ") exists in `arms` for that trial (skipped for the trials listed
+      under decision 31); an arm that appears in several comparisons has the
+      same N and events for the same outcome in each.
+    - **Review sheet:** wherever a comparison label appears, the drug name and
+      dose of each arm (from the arms and interventions tables) are shown next
+      to it, e.g. "1 (ticagrelor 90 mg) vs 3 (placebo)". Display only: the
+      stored labels stay the registry labels.
+    - **Schema:** new column `extracted_values.comparison`; a value's identity
+      is now nct_id + publication_id + arm + comparison + outcome + field.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -347,7 +392,10 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    reference / PubMed search), pdf_file.
 8. **`extracted_values`**: one row per value an agent pulls from a paper.
    - What it is: value_id (key), nct_id, publication_id, arm (empty for
-     whole-trial values such as a hazard ratio), outcome, field.
+     whole-trial values such as a hazard ratio), comparison (decision 32:
+     "<arm_label> vs <arm_label>", "a + b vs c" for a pooled result, factor
+     levels for factorial trials; empty for values that belong to no
+     comparison), outcome, field.
    - Extractor: extracted_value, quote, page, not_reported.
    - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
      (agree / disagree / not found), independent_match (critical values only).
@@ -358,8 +406,8 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
    - Final: final_value, filled from the project owner's latest decision in
      `review_decisions`, or automatically only when every check passed and the
      value was not sampled.
-   - Each value has a fixed identity: nct_id + publication_id + arm + outcome +
-     field. Re-running an extraction updates the existing row in place, so its
+   - Each value has a fixed identity: nct_id + publication_id + arm +
+     comparison + outcome + field. Re-running an extraction updates the existing row in place, so its
      value_id, and every decision attached to it, stays the same.
 9. **`fetch_runs`**: log of each ClinicalTrials.gov download. run_id, run_date,
    query_used, records_in, records_kept, records_skipped (with reasons). Its
@@ -859,6 +907,10 @@ its stated page).
 - Check files in `checks/` store only the field name, PASS/FAIL and a short
   reason. They never copy the quote or any paper text.
 - `checks/` is git-ignored (only its `.gitkeep` is committed).
+- Comparison checks (decision 32): every primary comparison has a complete
+  set of fields; every part of a comparison label exists in `arms` (skipped
+  for the factorial trials of decision 31); an arm shared by several
+  comparisons has the same N and events for the same outcome in each.
 
 ## Timing after MI
 Added on 2026-11-16 (decision 16). This is part of registry cleaning (step 2a).

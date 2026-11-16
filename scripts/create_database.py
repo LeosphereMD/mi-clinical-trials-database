@@ -190,6 +190,11 @@ CREATE TABLE extracted_values (
     nct_id            TEXT NOT NULL REFERENCES trials(nct_id),
     publication_id    INTEGER NOT NULL REFERENCES publications(publication_id),
     arm               TEXT,              -- empty for whole-trial values
+    comparison        TEXT,              -- decision 32: "<arm_label> vs <arm_label>"
+                                         -- (registry arm labels; "a + b vs c" for a
+                                         -- pooled result; factor levels for the
+                                         -- factorial trials of decision 31); empty
+                                         -- for values that belong to no comparison
     outcome           TEXT NOT NULL,
     field             TEXT NOT NULL,
     -- extractor
@@ -220,7 +225,7 @@ CREATE TABLE extracted_values (
 -- Fixed identity of a value, so re-running an extraction updates the same row
 -- (and keeps its value_id) instead of creating a new one.
 CREATE UNIQUE INDEX extracted_values_identity ON extracted_values
-    (nct_id, publication_id, COALESCE(arm, ''), outcome, field);
+    (nct_id, publication_id, COALESCE(arm, ''), COALESCE(comparison, ''), outcome, field);
 
 -- 10. The project owner's review decisions, one row per decision
 CREATE TABLE review_decisions (
