@@ -1044,6 +1044,15 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-16: quote check (`scripts/check_quotes.py`) on EMPACT-MI
+The first version of the quote check failed 12 correct quotes because of
+text-extraction differences between the PDF reader and the agents' quotes:
+spaced long dashes, a space before line-break hyphens ("hos -"), and real
+hyphens at line ends ("patient-" / "years"). After the fixes, on NCT04509674:
+98 PASS, 1 FAIL (a real page error, "multiplicity handling": the quote runs
+from page 3 onto page 4 without a "continues on page" note, also caught by
+the verifier as WRONG, "page only"), 12 SKIP (not reported).
+
 ### 2026-11-16: registry hand-check results (step 2b)
 The owner checked `review/registry_check.xlsx` (116 rows, 46 trials; seed
 20261116) against the ClinicalTrials.gov website. Excel saved a copy,

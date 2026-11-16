@@ -9,10 +9,11 @@ and looks for it on the stated PDF page.
 
 Before matching, both the quote and the page text are normalised (agent fix d):
   - typographic variants folded (ligatures, curly quotes, dash types, soft hyphens)
-  - a hyphen followed by whitespace is removed (line-break hyphens: "hos- pitalization")
+  - a plain hyphen between two letters is removed, with or without a line break
+    ("hos-" / "pitalization", "patient-years"); hyphens next to numbers are kept
   - all whitespace is removed
-A quote that runs onto the next page passes only if it has a quote_note
-"continues on page N".
+A quote that runs onto the next page (page headers/footers in between are ignored)
+passes only if it has a quote_note "continues on page N".
 
 Output: checks/<NCT>_quote_check.csv with source, outcome, field, arm, comparison,
 stated page, PASS/FAIL/SKIP and a short reason. Never any quote or paper text
@@ -39,9 +40,24 @@ FOLD = str.maketrans({
 
 
 def norm(text):
-    text = unicodedata.normalize("NFKC", text or "").translate(FOLD)
-    text = re.sub(r"-\s+", "", text)      # line-break hyphens
+    text = unicodedata.normalize("NFKC", text or "").replace("­", "")
+    # Plain hyphen between two letters, with or without a line break: removed on both
+    # sides, because a real hyphen at a line end ("patient-" / "years") can't be told
+    # apart from a line-break hyphen ("hos-" / "pitalization"). pypdf sometimes puts a
+    # space before it ("hos -"). Done before folding, so a long dash (" — ") and
+    # hyphens next to numbers are never removed.
+    text = re.sub(r"(?<=[^\W\d_])\s?-\s*(?=[^\W\d_])", "", text)
+    text = text.translate(FOLD)
     return re.sub(r"\s+", "", text)      # all whitespace
+
+
+def spans(q, first, second):
+    """True if the quote starts on page `first` and finishes on page `second`.
+    Page headers/footers between the two parts are ignored."""
+    k = 0
+    while k < len(q) and q[:k + 1] in first:
+        k += 1
+    return 20 <= k < len(q) and q[k:] in second
 
 
 def load(path):
@@ -92,7 +108,8 @@ def collect(nct):
             yield dict(source=src, outcome=c.get("outcome", ""), field=c.get("field", ""),
                        arm=c.get("arm") or "", comparison=c.get("comparison") or "",
                        quote=c.get("verifier_quote"), file=c.get("verifier_file"),
-                       page=c.get("verifier_page"), quote_note=c.get("quote_note", ""))
+                       page=c.get("verifier_page"),
+                       quote_note=c.get("quote_note") or c.get("verifier_quote_note") or "")
         for key, item in (ve.get("step3") or {}).items():
             if isinstance(item, dict):
                 yield dict(source=src, outcome="step3", field=key, arm="", comparison="",
@@ -128,7 +145,7 @@ def check(rec):
     q = norm(rec["quote"])
     if q in pages[page - 1]:
         return "PASS", ""
-    if page < len(pages) and q in pages[page - 1] + pages[page]:
+    if page < len(pages) and spans(q, pages[page - 1], pages[page]):
         if "continues on page" in (rec.get("quote_note") or ""):
             return "PASS", f"spans pages {page}-{page + 1} (noted)"
         return "FAIL", f"spans pages {page}-{page + 1}, no 'continues on page' note"
@@ -136,7 +153,7 @@ def check(rec):
     if found:
         return "FAIL", "found on page " + ", ".join(map(str, found)) + " instead"
     for i in range(len(pages) - 1):
-        if q in pages[i] + pages[i + 1]:
+        if spans(q, pages[i], pages[i + 1]):
             return "FAIL", f"found across pages {i + 1}-{i + 2} instead"
     return "FAIL", "not found in file"
 

@@ -89,6 +89,8 @@ Use these for outcome "primary", "key secondary", "safety: major bleeding",
 
 ## Rules
 - Never calculate, convert, round, guess or use outside knowledge. Copy numbers as printed.
+- A value contains only what its own quote supports. Information from another sentence or
+  page needs its own field and quote.
 - One trial with two main papers (decision 31, e.g. CLEAR SYNERGY): extract from both into
   the one output file; every value carries its paper's pmid.
 - Do not link values to registered outcomes; code does that later (decision 33).
@@ -100,7 +102,7 @@ Use these for outcome "primary", "key secondary", "safety: major bleeding",
   "values": [
     {"pmid": "...", "arm": null, "comparison": null, "outcome": "...", "field": "...",
      "value": "...", "quote": "...", "file": "...", "page": 0,
-     "confidence": "high|medium|low", "not_reported": false}]
+     "confidence": "high|medium|low", "not_reported": false, "quote_note": ""}]
 }
 
 ## Finish

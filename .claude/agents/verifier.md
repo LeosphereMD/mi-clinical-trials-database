@@ -49,13 +49,16 @@ Only then open `extractions/<NCT ID>.json` (if it is missing: STOP and report it
 ## Step 2: every extracted value
 For each value in `extractions/<NCT ID>.json` give one verdict and a one-line reason:
 - CONFIRMED: the value, the extractor's quote AND the extractor's page are all right (the
-  quote is word for word on that page, allowing only the two noted exceptions above). Give
-  YOUR OWN quote, file and page (not the extractor's). A "not reported" value is CONFIRMED
-  only if you cannot find it either (reason "absence confirmed").
+  quote is word for word on that page; a rejoined line-break hyphen is fine even without
+  a note), and the value contains nothing its quote doesn't support. Give YOUR OWN quote,
+  file and page (not the extractor's). A "not reported" value is CONFIRMED only if you
+  cannot find it either (reason "absence confirmed").
 - WRONG: give the correct value with your quote, file and page. Right value but wrong page
   (including a quote that runs onto another page without a "continues on page N" note):
   WRONG, reason "page only", with the correct page as verifier_page. Right value and page
-  but a quote that is not word for word: WRONG, reason "quote not word for word".
+  but a quote that is not word for word: WRONG, reason "quote not word for word". A value
+  with content its own quote doesn't support (e.g. information from another sentence or
+  page): WRONG, reason "value not supported by quote".
 - NOT IN PAPER: the paper does not contain it.
 - UNCLEAR: the paper is ambiguous; say why.
 Also flag a wrong arm or comparison label, or a per-comparison value calculated from
@@ -74,14 +77,17 @@ pooled data (or the reverse).
   - If the paper states no window and the timing is not clear: "unclear", with the quote.
 
 ## Rules
-Never calculate, convert, guess or use outside knowledge.
+- Never calculate, convert, guess or use outside knowledge.
+- Your own values contain only what their own quote supports. Information from another
+  sentence or page needs its own quote.
 
 ## Output 1: `verifications/<NCT ID>_step1.json` (written once, before the extraction is opened)
 {
   "nct_id": "...", "agent": "verifier", "step": 1,
   "files_read": [{"file": "papers/...pdf", "pages": "1-10"}],
   "comparisons": [{"pmid": "...", "comparison": "...",
-    "total_randomized": {"value": "...", "quote": "...", "file": "...", "page": 0},
+    "total_randomized": {"value": "...", "quote": "...", "file": "...", "page": 0,
+                         "quote_note": ""},
     "effect_measure": {...}, "effect_value": {...}, "ci_lower": {...},
     "ci_upper": {...}, "p_value": {...}}]
 }
@@ -94,12 +100,12 @@ Never calculate, convert, guess or use outside knowledge.
     "field": "...", "extracted_value": "...",
     "verdict": "CONFIRMED|WRONG|NOT IN PAPER|UNCLEAR",
     "verifier_value": "...", "verifier_quote": "...", "verifier_file": "...",
-    "verifier_page": 0, "reason": "..."}],
+    "verifier_page": 0, "quote_note": "", "reason": "..."}],
   "step3": {
     "population": {"paper_label": "...", "quote": "...", "file": "...", "page": 0,
-                   "registry_label": "...", "agrees": "yes|no|unclear"},
+                   "quote_note": "", "registry_label": "...", "agrees": "yes|no|unclear"},
     "timing_after_mi": {"paper_label": "acute|recent|prior|unclear", "note": "...",
-                        "quote": "...", "file": "...", "page": 0,
+                        "quote": "...", "file": "...", "page": 0, "quote_note": "",
                         "registry_label": "...", "agrees": "yes|no|unclear"}}
 }
 

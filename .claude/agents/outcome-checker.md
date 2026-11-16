@@ -77,15 +77,16 @@ file and page. Either list may be empty.
   "files_read": [{"file": "papers/...pdf", "pages": "1-10"}],
   "papers": [
     {"file": "...", "pmid": "...",
-     "primary_endpoint": {"text": "...", "quote": "...", "file": "...", "page": 0},
+     "primary_endpoint": {"text": "...", "quote": "...", "file": "...", "page": 0,
+                          "quote_note": ""},
      "comparisons_with_registered": [
        {"registered_outcome_id": 0, "components": "same|different|not reported",
         "time_frame": "same|different|not reported", "measure": "same|different|not reported",
         "note": "..."}]}],
   "disclosure_hits": [{"pmid": "...", "word": "...", "quote": "...", "file": "...",
-                       "page": 0}],
+                       "page": 0, "quote_note": ""}],
   "near_matches": [{"pmid": "...", "word": "...", "quote": "...", "file": "...",
-                    "page": 0}],
+                    "page": 0, "quote_note": ""}],
   "not_assessed": [{"registered_outcome_id": 0, "reason": "..."}]
 }
 
