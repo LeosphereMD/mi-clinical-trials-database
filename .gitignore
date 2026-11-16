@@ -28,3 +28,7 @@ outcome_checks/*
 !review/why_stopped.csv
 !review/outcome_types.csv
 !review/outcome_type_suggestions_claude.csv
+
+# Registry hand-check sheet (step 2b): registry values and the owner's
+# decisions, no paper quotes, so it is committed too.
+!review/registry_check.xlsx

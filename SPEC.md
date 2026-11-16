@@ -39,9 +39,9 @@ transparent.
 | 9 | Outcome-switch check: registered vs. reported primary outcome (Phase 3 of the build, after the extractor and verifier exist; see "Outcome-switch check") | `outcome_checks/` | AI agent + script, then project owner |
 
 ## Progress
-1. Current step: 2a, Registry cleaning (steps 1 and 2 are done); last updated 2026-11-16.
-2. Done in 2a: drug names, sponsors and why_stopped reviewed and loaded; primary outcome types drafted, 189 sure drafts loaded, review sheet `review/outcome_types.csv` (71 rows) built.
-3. Next: owner reviews `review/outcome_types.csv`, then run `load_outcome_types.py` and commit; then step 2b, Registry hand-check.
+1. Current step: 2b, Registry hand-check, started while 2a's last review is open (steps 1 and 2 are done); last updated 2026-11-16.
+2. Done in 2a: drug names, sponsors and why_stopped reviewed and loaded; primary outcome types drafted, 189 sure drafts loaded, review sheet `review/outcome_types.csv` (71 rows) built. Still open: owner reviews `review/outcome_types.csv`, then run `load_outcome_types.py` and commit.
+3. Done in 2b: `draft_registry_check.py` built `review/registry_check.xlsx` (seed 20261116; 150 rows for 60 trials: 15 random trials x 7 fields, plus population rows for 24 text-based labels and 26 of 172 MeSH labels; the two draws are independent). `load_registry_check.py` is written and tested on copies; `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py` and commit.
 4. Open question: `review/drug_names.csv` lines 80 (NCT02145468) and 99 (NCT02596126) had their registry columns typed over (originally "Standard therapy" and "Treatment Prevention for Secondary CV"), so they don't load: leave them blank, or another value?
 5. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
 
