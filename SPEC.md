@@ -862,6 +862,57 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-16: registry hand-check results (step 2b)
+The owner checked `review/registry_check.xlsx` (116 rows, 46 trials; seed
+20261116) against the ClinicalTrials.gov website. Excel saved a copy,
+`review/registry_check_reviewed.xlsx`; its decisions are identical to
+`registry_check.xlsx` and no other cell changed. All 116 decisions were
+loaded into `registry_checks` (113 approve, 3 correct). Database backup
+before loading: `data/ami_trials.backup-20261116-200307-before-registry-check-load.db`.
+
+Errors per field (exact binomial 95% CI):
+- phase, overall status, start date, enrollment (with type), lead sponsor,
+  primary outcome, timing after MI: 0 of 10 each (0-31%); together 0 of 70
+  registry values (0-5%).
+- population: 3 of 46 (7%, 1-18%). By how the row was picked: random trials
+  1 of 10; text-based labels 0 of 23 (0-15%); MeSH sample 3 of 18 (17%,
+  4-41%). All 3 errors are MeSH-based labels.
+
+The errors and their causes (the code follows "Population label" exactly;
+no bug):
+- NCT02044146: ACS mixed, owner: NSTEMI ("NSTEMI undergoing PCI").
+- NCT06286878: ACS mixed, owner: STEMI + NSTEMI ("Acute myocardial
+  infarction, with or without ST-segment elevation (STEMI/NSTEMI)").
+  Cause of both: rule 1. Any "Acute Coronary Syndrome" MeSH term gives ACS
+  mixed and the text is never read, so a trial that lists ACS among its
+  conditions but enrols a narrower group gets the broader label.
+- NCT03404063: MI unspecified, owner: STEMI (inclusion requires cMRI after
+  "pPCI", primary PCI). Cause: rule 4's search terms are STEMI / NSTEMI
+  words only; "primary PCI" is not one, so rule 5 gave MI unspecified.
+
+Follow-up check (owner request): every MeSH-based label (117 trials: ACS
+mixed 54, STEMI 45, MI unspecified 9, STEMI + NSTEMI 7, NSTEMI 2) compared
+with the inclusion criteria. Inclusion text names a narrower group:
+- Clear (13; * = also found by the hand-check):
+  - ACS mixed, inclusion STEMI only: NCT01087723 (STE-ACS), NCT01992523,
+    NCT02404376, NCT02976701, NCT06054100, NCT07146360.
+  - ACS mixed, inclusion NSTEMI only: NCT02044146*.
+  - ACS mixed, inclusion STEMI or NSTEMI (no unstable angina):
+    NCT02377388, NCT05998525, NCT06286878*, NCT07102628, NCT07625306.
+  - MI unspecified, inclusion primary PCI (implies STEMI): NCT03404063*.
+- Possible, for the owner to judge (MI required, no unstable angina, type
+  not stated): NCT01225562 (PEGASUS, prior MI 1-3 years ago), NCT03473223
+  (AEGIS-II, type I MI), NCT01787110 and NCT02290080 (DETO2X-AMI and its
+  biomarker study, suspected MI with ECG changes), NCT00910065 (troponin
+  rise plus ECG change; the registry doesn't say whether all criteria are
+  required).
+- Broader, not narrower: NCT04476173 (MeSH STEMI; inclusion STEMI or
+  NSTE-ACS).
+- Checked and not narrower: NCT01660373, NCT06723002 (definitions allow
+  unstable angina), NCT02924727 (STEMI without reperfusion is only a
+  risk-enrichment criterion), NCT01294462, NCT02145468, NCT04739384.
+Nothing was changed; the fix waits for the owner's decision.
+
 ### 2026-11-16: cut-off timing evidence quotes fixed
 15 of Claude's timing evidence quotes stopped mid-word or on a dangling word
 (e.g. "Hospitalization within 12 ho"); they passed the word-for-word check
