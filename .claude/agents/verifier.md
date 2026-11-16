@@ -43,6 +43,10 @@ effect value, 95% CI (lower and upper), p-value; each with value, quote, file an
   name from the input, exactly as written. Use the same labels in step 2.
 - Effect measure: exactly one of HR / RR / OR / mean difference / risk difference /
   win ratio / rate ratio / other; for "other" the value is "other: <the paper's wording>".
+- Effect value, 95% CI and p-value come from the Results section or a results table, never
+  the abstract, using the most exact value printed there (e.g. P=0.02075 rather than
+  P=0.021). Use the abstract only if the value appears nowhere else, and then say so in
+  `quote_note` ("only in abstract").
 WRITE `verifications/<NCT ID>_step1.json` now. Never rewrite or edit that file afterwards.
 Only then open `extractions/<NCT ID>.json` (if it is missing: STOP and report it).
 
@@ -61,8 +65,14 @@ For each value in `extractions/<NCT ID>.json` give one verdict and a one-line re
   page): WRONG, reason "value not supported by quote".
 - NOT IN PAPER: the paper does not contain it.
 - UNCLEAR: the paper is ambiguous; say why.
-Also flag a wrong arm or comparison label, or a per-comparison value calculated from
-pooled data (or the reverse).
+- Labels: a `comparison` or `arm` that is not made of registry arm labels from the input
+  (pooled groups joined with " + ", e.g. "1 + 2"), or, for factorial trials, the input's
+  comparison name and the paper's factor group names: WRONG, reason "label", with the
+  correct label as verifier_value. A paper's own group name (e.g. "All Doses") is WRONG.
+- An effect value, 95% CI or p-value taken from the abstract when the Results section or a
+  results table prints it: WRONG, reason "not from results", with the Results value (the
+  most exact one printed) as verifier_value.
+Also flag a per-comparison value calculated from pooled data (or the reverse).
 
 ## Step 3: population and timing
 - Population: the paper's study population as one of STEMI / NSTEMI / STEMI + NSTEMI /

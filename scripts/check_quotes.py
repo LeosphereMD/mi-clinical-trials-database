@@ -35,12 +35,14 @@ FOLD = str.maketrans({
     "‘": "'", "’": "'", "‚": "'", "′": "'",
     "“": '"', "”": '"', "„": '"', "″": '"',
     "‐": "-", "‑": "-", "‒": "-", "–": "-", "—": "-",
-    "−": "-", "­": "",
+    "−": "-", "­": "-",
 })
 
 
 def norm(text):
-    text = unicodedata.normalize("NFKC", text or "").replace("­", "")
+    # Soft hyphen (U+00AD) becomes a plain hyphen, so the rule below treats it like any
+    # other: removed between letters ("pa-tient"), kept next to numbers ("50-mg").
+    text = unicodedata.normalize("NFKC", text or "").replace("­", "-")
     # Plain hyphen between two letters, with or without a line break: removed on both
     # sides, because a real hyphen at a line end ("patient-" / "years") can't be told
     # apart from a line-break hyphen ("hos-" / "pitalization"). pypdf sometimes puts a

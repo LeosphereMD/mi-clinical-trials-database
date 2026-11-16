@@ -51,6 +51,10 @@ read across columns; low = ambiguous). If the paper does not give it: value
 - Secondary and safety outcomes: as the paper reports them; per comparison where the paper
   gives per-comparison results; if only pooled, use a label joining the pooled arms with
   " + " (e.g. "1 + 2 vs 3").
+- A pooled group (in `comparison` or `arm`) is ALWAYS the registry arm labels joined with
+  " + " (e.g. arm "1 + 2"), never the paper's name for it (e.g. "All Doses"). Put the
+  paper's wording in `quote_note` (e.g. "paper calls this group 'All Doses'"). Only
+  registry arm labels, or the factorial names described above, are ever used as labels.
 - Never calculate per-comparison values from pooled data, or the reverse.
 
 ## Key secondary outcome (decision 7)
@@ -65,8 +69,7 @@ method in "multiplicity handling" (not in "key secondary selection").
 ## Fields
 Whole-trial (arm and comparison empty):
 - outcome "primary": "endpoint definition", "endpoint components" (each MACE component,
-  as listed), "analysis population" (e.g. ITT), "primary endpoint met" (as the paper
-  states it)
+  as listed), "analysis population" (e.g. ITT)
 - outcome "trial": "total randomized" (as stated in the paper; never summed from arms),
   "median follow-up", "multiplicity handling" (how the paper handled multiple comparisons,
   e.g. closed testing, alpha split; or "not reported"), "reason for early termination"
@@ -82,6 +85,8 @@ Per comparison (comparison filled):
   risk difference / win ratio / rate ratio / other; for "other" the value is
   "other: <the paper's wording>"),
   "effect value", "95% CI lower", "95% CI upper", "p-value"
+- outcome "primary" only: "primary endpoint met", one row per primary comparison
+  (comparison filled), as the paper states it for that comparison
 - per arm in the comparison (arm filled): "N analysed", "events n", "events %"
 Use these for outcome "primary", "key secondary", "safety: major bleeding",
 "safety: serious adverse events" and "safety: discontinued due to adverse events"
@@ -89,6 +94,10 @@ Use these for outcome "primary", "key secondary", "safety: major bleeding",
 
 ## Rules
 - Never calculate, convert, round, guess or use outside knowledge. Copy numbers as printed.
+- "effect value", "95% CI lower", "95% CI upper" and "p-value" come from the Results
+  section or a results table, never the abstract, using the most exact value printed
+  there (e.g. P=0.02075 rather than P=0.021). Use the abstract only if the value appears
+  nowhere else, and then say so in `quote_note` ("only in abstract").
 - A value contains only what its own quote supports. Information from another sentence or
   page needs its own field and quote.
 - One trial with two main papers (decision 31, e.g. CLEAR SYNERGY): extract from both into
