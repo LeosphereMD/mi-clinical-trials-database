@@ -1,12 +1,22 @@
-# Specification: AMI Phase 3 Drug Trials Database
+# Specification: Phase 3 and Phase 2/3 Drug Trials in MI and ACS
 
 ## Goal
-Build a SQLite database of Phase 3 drug trials in acute myocardial infarction
-that started on or after 1 January 2010. The trial data comes from the
+Build a SQLite database of Phase 3 and Phase 2/3 drug trials in MI and ACS
+patients started on or after 2010-01-01, labelled by timing (acute / recent /
+prior MI); see "Reporting wording" (decision 27). The trial data comes from the
 ClinicalTrials.gov registry. Then add results from the published papers: AI
 agents extract them, a second step verifies them, and the project owner reviews
 every value. This is a portfolio project, so it should be reproducible and
 transparent.
+
+## Reporting wording
+Added on 2026-11-16 (decision 27). The README, CV and any other description
+of the dataset use:
+"Phase 3 and Phase 2/3 drug trials in MI and ACS patients started on or after
+2010-01-01, labelled by timing (acute / recent / prior MI)",
+with the current trial count taken from the database at the time of writing,
+never hard-coded. The dataset is never called "Phase 3 trials in acute MI"
+alone.
 
 ## Data source
 - ClinicalTrials.gov API v2: `https://clinicaltrials.gov/api/v2/studies`
@@ -50,13 +60,14 @@ transparent.
 | 2 | Load into SQLite | `data/` | script |
 | 2a | Registry cleaning: generic drug names, sponsor names and groups, why_stopped categories (see "Registry cleaning") | `review/` | script drafts, project owner approves, script loads |
 | 2b | Registry hand-check: a sample of registry values checked against the ClinicalTrials.gov website (see "Registry hand-check") | `review/` | script makes the sheet, project owner checks |
-| 3 | Find the papers and place the PDFs | `papers/` | project owner, by hand |
+| 3 | Find the papers and place the PDFs: the 10 largest completed or terminated trials with a main results paper (decision 28) | `papers/` | project owner, by hand |
+| 3b | Outcome-checker reads the paper's primary endpoint, before the extractor runs (decision 26; see "Outcome-switch check") | `outcome_checks/` | AI agent |
 | 4 | Extract results from the PDFs | `extractions/` | AI agent |
 | 5 | Verify each extracted value against the PDF | `verifications/` | second AI agent |
-| 6 | Automatic consistency checks | `checks/` | script |
+| 6 | Automatic consistency checks (no quotes in the output; see "Code checks") | `checks/` | script |
 | 7 | Human review: accept, reject or correct | `review/` | project owner |
 | 8 | Load reviewed results into SQLite | `data/` | script |
-| 9 | Outcome-switch check: registered vs. reported primary outcome (Phase 3 of the build, after the extractor and verifier exist; see "Outcome-switch check") | `outcome_checks/` | AI agent + script, then project owner |
+| 9 | Outcome-switch status: registered vs. reported primary outcome, from the outcome-checker's output (step 3b) and the extractor's (Phase 3 of the build; see "Outcome-switch check") | `outcome_checks/` | script, then project owner |
 
 ## Progress
 1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
@@ -142,7 +153,8 @@ Settled by the project owner on 2026-11-14.
     Choice: An Excel sheet with one row per value: accept / reject / correct,
     corrected value, comment, and a column saying why the row is there (flagged
     or random sample). Include all flagged values plus a random 15% of the values
-    that passed, with a fixed seed.
+    that passed, with a fixed seed. (Changed by decision 28: while the paper
+    target is 10 trials, the sheet holds 100% of the extracted values.)
 12. **Database layout.** Proposed tables: trials, interventions, outcomes
     (registry), publications, extracted_results, review_decisions. OK?
     Choice: OK, plus a conditions table for MeSH terms.
@@ -219,6 +231,45 @@ Added by the project owner on 2026-11-16:
     hospitalisation. 8-14 day windows (e.g. DAPA-MI, EMPACT-MI) are recent.
     A label taken from a paper cites the paper in the review comment. See
     "Timing after MI".
+24. **Code-check outputs hold no quotes** (2026-11-16). Files in `checks/`
+    store only the field name, PASS/FAIL and a short reason; they never copy
+    the quote or any paper text. `checks/` is git-ignored (except its
+    `.gitkeep`). See "Code checks".
+25. **.gitignore matches the never-commit rule** (2026-11-16). Never
+    committed: `papers/`, `.venv/`, the full database (`data/ami_trials.db`)
+    and every database backup in `data/` (`data/*.backup*.db`),
+    `extractions/`, `verifications/`, `outcome_checks/`, `checks/` and
+    `review/review_sheet.xlsx` (paper quotes). Committed: `data/raw/` (public
+    registry JSON), the empty `.gitkeep` folder markers, and the registry
+    review files in `review/` (registry text and the owner's decisions, the
+    record of the human review). Checked with `git ls-files` on 2026-11-16:
+    no excluded file was tracked apart from the `.gitkeep` markers, and no
+    committed file quotes a paper (comments citing a paper are allowed).
+26. **The outcome-checker never sees the extractor's output** (2026-11-16).
+    Run order for each paper: outcome-checker, then extractor, then verifier.
+    The outcome-checker runs only if `extractions/<NCT ID>.json` does not
+    exist yet; if it exists, that NCT ID is skipped and reported. Its agent
+    instructions (written when it is built) let it read only `papers/` and
+    the registry outcome for that trial, never `extractions/` or
+    `verifications/`. Reason: the outcome-switch statuses depend on two
+    independent readings of the primary endpoint. See "Outcome-switch check".
+27. **Reporting wording** (2026-11-16). The dataset is described as "Phase 3
+    and Phase 2/3 drug trials in MI and ACS patients started on or after
+    2010-01-01, labelled by timing (acute / recent / prior MI)", with the
+    current trial count taken from the database, never hard-coded; never as
+    "Phase 3 trials in acute MI" alone. SPEC's title and Goal and the first
+    line of CLAUDE.md were aligned with it. See "Reporting wording".
+28. **Paper target** (2026-11-16). Papers are extracted for the 10 largest
+    (by registry enrollment) completed or terminated trials that have a main
+    results paper. If fewer than 10 qualify, all that qualify are used, and
+    the README says so. Because the target is small, the review sheet holds
+    100% of the extracted values, not all flagged values plus a 15% random
+    sample of the values that passed (this changes decision 11). The target
+    can be raised later; trials whose papers are finished are skipped.
+    Count on 2026-11-16 (before the find-papers step): 81 completed or
+    terminated trials, 57 with at least one candidate paper (11 from the
+    registry's RESULT references, 46 more from a PubMed search by NCT
+    number); by timing: acute 42 of 66, recent 10 of 10, prior 5 of 5.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -714,6 +765,13 @@ Compare the primary outcome registered on ClinicalTrials.gov with the primary
 outcome the paper reports, and classify any difference.
 
 ### Agent: outcome-checker
+- **Run order (decision 26):** for each paper, the outcome-checker runs
+  first, then the extractor, then the verifier. It runs only if
+  `extractions/<NCT ID>.json` does not exist yet; if it exists, that NCT ID
+  is skipped and reported. Its agent instructions (written when it is built)
+  let it read only `papers/` and the registry outcome for that trial, never
+  `extractions/` or `verifications/`. Reason: the outcome-switch statuses
+  depend on two independent readings of the primary endpoint.
 - Finds the paper's primary endpoint in the Methods section on its own. It
   never sees `extractions/`. It gives the exact quote and the page.
 - Compares the registered and reported primary outcome on three points:
@@ -744,6 +802,14 @@ shows the registered text, the paper quote, the page, and a link to the trial's
 history of changes on ClinicalTrials.gov
 (`https://clinicaltrials.gov/study/<NCT ID>?tab=history`). The owner's final
 classification is stored in `outcome_comparisons.final_classification`.
+
+## Code checks
+Added on 2026-11-16 (decision 24). Pipeline step 6: scripts check the
+extracted values (e.g. arm totals, ranges, each quote found word for word on
+its stated page).
+- Check files in `checks/` store only the field name, PASS/FAIL and a short
+  reason. They never copy the quote or any paper text.
+- `checks/` is git-ignored (only its `.gitkeep` is committed).
 
 ## Timing after MI
 Added on 2026-11-16 (decision 16). This is part of registry cleaning (step 2a).

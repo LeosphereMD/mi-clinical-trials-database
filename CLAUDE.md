@@ -1,8 +1,8 @@
 # Project rules
 
-This project builds a SQLite database of Phase 3 drug trials in acute myocardial
-infarction (AMI) that started in 2010 or later, using data from the
-ClinicalTrials.gov API. Later, AI agents will extract results from the published
+This project builds a SQLite database of Phase 3 and Phase 2/3 drug trials in MI
+and ACS patients started on or after 2010-01-01, labelled by timing (acute /
+recent / prior MI), using data from the ClinicalTrials.gov API. Later, AI agents will extract results from the published
 papers, and the project owner (a medical sciences graduate, not a programmer)
 reviews them. See SPEC.md for details.
 

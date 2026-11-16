@@ -39,3 +39,13 @@ outcome_checks/*
 !review/timing_after_mi.csv
 !review/timing_suggestions_claude.csv
 !review/intervention_roles.csv
+
+# Never committed (CLAUDE.md; SPEC.md decisions 14, 24 and 25). *.db above
+# already covers these; they are listed so each one is visible.
+data/ami_trials.db
+data/*.backup*.db
+# Code-check outputs (decision 24): field, PASS/FAIL and a short reason only.
+checks/*
+!checks/.gitkeep
+# Review sheet of extracted values: holds paper quotes (decision 14).
+review/review_sheet.xlsx
