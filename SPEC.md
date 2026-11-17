@@ -1094,6 +1094,19 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-17: AEGIS-II (NCT03473223) repeated quote error caught only by code
+In batch run 1 and again in run 2, the same word was dropped from the quote
+for "key secondary selection" (paper page 3: "... through 180 days and
+through 365 days ..."; the quotes left out the second "through"). Run 1: the
+extractor dropped it (in two quotes) and the verifier marked them CONFIRMED.
+Run 2: the extractor and the verifier both dropped it, and the verifier
+again marked the extractor's quote CONFIRMED. Both times only the quote
+check (`scripts/check_quotes.py`, code, not an agent) flagged it. The value
+(the selected endpoint) was right; the quote was not word for word. Lesson:
+two agents can make the same reading error, so the code quote check is
+needed alongside the verifier, and the owner's review (decision 28) covers
+every value.
+
 ### 2026-11-17: LIBREXIA-ACS (NCT05754957) registry status vs paper
 The registry snapshot (downloaded 2026-11-15) lists the trial as COMPLETED,
 with no why_stopped, so the agent input said "not terminated". The main paper
