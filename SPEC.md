@@ -308,7 +308,9 @@ Added by the project owner on 2026-11-16:
     committed. First rows: NCT01787110 and NCT02290080 (DETO2X-AMI and its
     biomarker study), NCT06723002 and NCT04476173, all ACS mixed; then
     NCT07297589 (EPIC-CT), STEMI + NSTEMI. See
-    "Population label", rule 6.
+    "Population label", rule 6. Added on 2026-11-17 from the papers (the
+    registry text names no MI type): NCT01225562 (PEGASUS), MI unspecified;
+    NCT03473223 (AEGIS-II), STEMI + NSTEMI (Quality log).
 31. **Factorial trials: one main paper per comparison** (2026-11-16). A
     factorial trial whose comparisons are reported in separate main results
     papers is one trial with two (or more) main papers, each extracted and
@@ -1094,6 +1096,24 @@ added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
 
+### 2026-11-17: PEGASUS and AEGIS-II population overrides; verifier label not stable
+Both trials had "ACS mixed" from rule 1 (MeSH "Acute Coronary Syndrome");
+their registry inclusion criteria name no MI type, so rule (a) could not
+apply. Their papers show MI-only populations with no unstable angina. Owner
+decision: overrides in `review/population_overrides.csv` (now 7 rows):
+NCT01225562 (PEGASUS) MI unspecified ("paper: spontaneous MI 1-3 years
+earlier, any type incl. unknown type; no unstable angina"); NCT03473223
+(AEGIS-II) STEMI + NSTEMI ("paper: type 1 MI, qualifying STEMI 50.5% /
+NSTEMI 49.5%; no unstable angina"). Applied with
+`relabel_population.py --apply` (2 labels changed; a second run found
+nothing left to change). Database backup:
+`data/ami_trials.backup-20261117-094835-before-pegasus-aegis-overrides.db`.
+The verifier gave PEGASUS different paper population labels in the two
+batch runs, from the same paper: "MI unspecified" in run 1 and "STEMI +
+NSTEMI" in run 2 (AEGIS-II got STEMI + NSTEMI both times). The verifier's
+population label is therefore a pointer for the owner's review, not a
+decision.
+
 ### 2026-11-17: AEGIS-II (NCT03473223) repeated quote error caught only by code
 In batch run 1 and again in run 2, the same word was dropped from the quote
 for "key secondary selection" (paper page 3: "... through 180 days and
@@ -1380,6 +1400,12 @@ Section 1 is from 2026-11-15; sections 2 and 3 were added on 2026-11-16.
 Every analysis runs for all trials and for acute-only trials
 (`timing_after_mi` = acute), decision 16. Trials with an empty
 timing_after_mi are counted and reported, not dropped silently.
+
+Withdrawn and terminated trials (owner, 2026-11-17): withdrawn trials
+(`overall_status` = WITHDRAWN; they enrolled no patients) are left out of
+the main analyses and listed separately. Terminated trials stay in the main
+analyses and are also listed separately. Script: `scripts/registry_analyses.py`;
+output: `review/registry_analyses.md` (numbers only, committed).
 
 ### 1. Share of trials by primary outcome type
 - Number and percentage of trials in each `trials.primary_outcome_type`

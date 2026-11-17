@@ -28,6 +28,8 @@ outcome_checks/*
 !review/why_stopped.csv
 !review/outcome_types.csv
 !review/outcome_type_suggestions_claude.csv
+# Registry analyses output: numbers only, no paper quotes (SPEC "Analyses").
+!review/registry_analyses.md
 
 # Registry hand-check sheet (step 2b): registry values and the owner's
 # decisions, no paper quotes, so it is committed too.
