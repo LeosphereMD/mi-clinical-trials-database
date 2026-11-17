@@ -31,8 +31,9 @@ Use Glob `papers/<NCT ID>*_supp.pdf` to find supplements, if any.
 - Quotes are copied character for character, never shortened or paraphrased, with two
   exceptions, each noted in a `quote_note` next to that quote: a word split by a
   line-break hyphen may be rejoined (e.g. "hos-" / "pitalization" → "hospitalization";
-  note "rejoined line-break hyphen"), and a quote that runs onto the next page gets the
-  page where it starts (note "continues on page N").
+  note "rejoined line-break hyphen"), and a quote that runs onto a later page (the next
+  page, or the page where the text resumes after tables or figures) gets the page where
+  it starts (note "continues on page N", N = the page where it resumes).
 - Record every file and page range you read in `files_read` (in both output files).
 
 ## Step 1: critical values, on your own (BEFORE opening the extraction)
@@ -88,8 +89,11 @@ For each value in `extractions/<NCT ID>.json` give one verdict and a one-line re
   hierarchical testing order, it is the FIRST in that order; several named with no order,
   or tested at the same level (e.g. Hochberg): the FIRST listed in the paper's text. If the
   paper calls no secondary outcome key / major / principal and gives no testing order:
-  "not reported". It is never chosen by importance. A selection (or a "not reported") that
-  breaks this rule: WRONG, reason "key secondary rule", with the correct selection.
+  "not reported". It is never chosen by importance. A hierarchical testing procedure that
+  is mentioned without the order being stated counts as no testing order, and the order
+  in which the paper lists its secondary outcomes is never assumed to be the testing
+  order (owner, review round 1). A selection (or a "not reported") that breaks this rule:
+  WRONG, reason "key secondary rule", with the correct selection.
 - Extraction rules: a value that breaks one of these is WRONG, with the rule as reason:
   "total randomized rule" (total randomized / N randomized must be the number the paper
   calls randomized; numbers after exclusions belong in N analysed); "post hoc rule" (a

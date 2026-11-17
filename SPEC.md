@@ -66,17 +66,17 @@ alone.
 | 5 | Verify each extracted value against the PDF | `verifications/` | second AI agent |
 | 6 | Automatic consistency checks (no quotes in the output; see "Code checks") | `checks/` | script |
 | 7 | Human review: accept, reject or correct | `review/` | project owner |
-| 8 | Load reviewed results into SQLite | `data/` | script |
+| 8 | Load reviewed results into SQLite (`scripts/load_reviewed_results.py`; decision 35) | `data/` | script |
 | 9 | Outcome-switch status: registered vs. reported primary outcome, from the outcome-checker's output (step 3b) and the extractor's (Phase 3 of the build; see "Outcome-switch check") | `outcome_checks/` | script, then project owner |
 
 ## Progress
-1. Current step: 2b, Registry hand-check (steps 1 and 2 are done); last updated 2026-11-16.
+1. Current step: Analyses and README (steps 1-8 done for the 10-trial paper target; human review complete, 590 of 590 values, loaded on 2026-11-17); last updated 2026-11-17.
 2. Exclusions applied on 2026-11-16 in three rounds plus PREMIER: 196 → 161 → 148 → 141 → 140 trials (Phase 3 122, Phase 2/3 18); see the Quality log.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 140 trials: acute 115 (38 owner approved, 77 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
 5. 2b: `review/registry_check.xlsx` rebuilt on 2026-11-16 with 10 random trials and a timing row (seed 20261116; 116 rows for 46 trials: 10 random trials × 8 fields, 23 text-based and 18 of 117 MeSH population labels). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
 6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16 and fixed the same day (Quality log): all 268 DRUG/BIOLOGICAL interventions have a role (study drug 158, comparator 103, background 7); every trial has at least one study drug. Sources: 53 placebo decisions, 6 "role:" comments, 209 rows of `review/intervention_roles.csv`.
-7. Not built yet: the Analyses script (planned in "Analyses"), and steps 3-9.
+7. Not built yet: the paper-results analyses (planned in "Analyses") and step 9 (outcome-switch status).
 
 ## Ground rules
 - A missing value stays empty. It is never guessed.
@@ -141,6 +141,11 @@ Settled by the project owner on 2026-11-14.
    Worded out on 2026-11-17 (decision 34): several outcomes named key with no
    order, or tested at the same level (e.g. Hochberg) → the first listed in
    the paper's text; the verifier checks this rule.
+   Added on 2026-11-17 (owner, review round 1; decision 35): a hierarchical
+   testing procedure that is mentioned without the order being stated counts
+   as no testing order, and the order in which the paper lists its secondary
+   outcomes is never assumed to be the testing order (e.g. TAO, which refers
+   to its design paper for the order → "not reported").
 8. **Finding papers.** Use the PMIDs listed in the registry record, a PubMed
    search by NCT number, or both? What if no paper exists?
    Choice: Both. Use the registry's RESULT references first, then a PubMed search
@@ -445,6 +450,47 @@ Added by the project owner on 2026-11-16:
       "major bleeding rule", "p-value rule", "primary endpoints rule").
     - **Human review stays at 100%** (decision 28): every extracted value goes
       on the review sheet.
+35. **Human review round 1: import, rule and checker fixes** (approved by the
+    project owner on 2026-11-17, after reviewing all 590 extracted values;
+    see the Quality log). No agent was re-run.
+    - **Extractor rules:** (a) a quote contains the value itself and, in
+      running text, starts at the beginning of the sentence (never after a
+      line break or an opening bracket); a table value's quote is the row
+      from its label to the value. (b) A value contains only what its quote
+      says: no inferences or commentary of the agent's own, nothing from
+      other sentences (explanations go in `quote_note`). (c) Per-arm "N
+      analysed" for an outcome reported in a table is the N in that table's
+      column header.
+    - **Decision 7:** a hierarchical testing procedure mentioned without the
+      order = no testing order; list order is not assumed to be the testing
+      order (extractor and verifier).
+    - **"continues on page N"** may name a later page than the next one, when
+      the text resumes after tables or figures (both agents).
+    - **Quote check:** en dash and hyphen count as the same character; a
+      missing space after punctuation never matters (all spaces were already
+      removed before matching); a quote_note "continues on page N" is
+      followed to page N, not only to the next page (see "Code checks").
+    - **Loading the review** (`scripts/load_reviewed_results.py`, pipeline
+      step 8): sheet "correct" → approve; "wrong" with a corrected value →
+      correct; "wrong" without one → reject; "unclear" is not stored and the
+      value stays not reviewed; an empty decision = not reviewed. decided_at
+      is the time the sheet was last saved. Re-running adds no duplicate
+      decisions. An owner-confirmed fix of a sheet entry is applied by the
+      script and written in the decision comment (first case: AEGIS-II
+      per-arm N randomized, entered swapped on the sheet).
+    - **review_reason** gets two new values: flagged (flagged on the sheet the
+      owner reviewed) / critical value (decision 10: a primary outcome's
+      effect measure, effect value, 95% CI and p-value; total randomized and
+      per-arm N randomized) / remaining.
+    - **item_no** (new column): when one field has several rows (e.g. one row
+      per MACE component, or TAO's two "analysis population" rows), they are
+      numbered 1, 2, 3 in the agent's order; a single row is 1. It is part of
+      the value identity.
+    - **No database link from `extracted_values.arm` to `arms`**: decision 32
+      allows pooled labels and decision 31 factorial group names, which the
+      link rejected. On the owner's condition, the loader runs the decision 32
+      label check on every load and refuses any value that fails (see table
+      8).
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -498,21 +544,32 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
      whole-trial values such as a hazard ratio), comparison (decision 32:
      "<arm_label> vs <arm_label>", "a + b vs c" for a pooled result, factor
      levels for factorial trials; empty for values that belong to no
-     comparison), outcome, field.
+     comparison), outcome, field, item_no (1, 2, 3 ... when one field has
+     several rows, e.g. one per MACE component, in the agent's order; else 1;
+     decision 35).
+   - Arm labels (owner, 2026-11-17, decision 35): there is no database link
+     from arm to `arms`, because decision 32 allows pooled labels ("a + b")
+     and decision 31 factorial group names. Instead
+     `scripts/load_reviewed_results.py` checks every value on every load: its
+     arm and each side of its comparison must be a registry arm label, a
+     " + " join of registry arm labels, or, for a decision 31 factorial
+     trial, a factor group (comparison name) of that paper. A value that
+     fails is refused (not loaded) and listed in the script's summary.
    - Extractor: extracted_value, quote, page, not_reported, confidence
      (high / medium / low; decision 33).
    - Verifier: verifier_value, verifier_quote, verifier_page, verifier_verdict
      (CONFIRMED / WRONG / NOT IN PAPER / UNCLEAR; decision 33), verifier_reason
      (one line), independent_match (critical values only).
    - Code checks: code_check_result (pass / fail / not run), code_check_note.
-   - Review: review_reason (flagged / random sample / not selected / value
-     changed after decision). The decisions themselves live in
+   - Review: review_reason (flagged / critical value / remaining / random
+     sample / not selected / value changed after decision; the first three
+     since decision 35). The decisions themselves live in
      `review_decisions` (table 10).
    - Final: final_value, filled from the project owner's latest decision in
      `review_decisions`, or automatically only when every check passed and the
      value was not sampled.
    - Each value has a fixed identity: nct_id + publication_id + arm +
-     comparison + outcome + field. Re-running an extraction updates the existing row in place, so its
+     comparison + outcome + field + item_no. Re-running an extraction updates the existing row in place, so its
      value_id, and every decision attached to it, stays the same.
 9. **`fetch_runs`**: log of each ClinicalTrials.gov download. run_id, run_date,
    query_used, records_in, records_kept, records_skipped (with reasons). Its
@@ -1022,6 +1079,14 @@ extracted values (e.g. arm totals, ranges, each quote found word for word on
 its stated page).
 - Check files in `checks/` store only the field name, PASS/FAIL and a short
   reason. They never copy the quote or any paper text.
+- Quote check (`scripts/check_quotes.py`) matching: typographic variants are
+  folded (ligatures, curly quotes, dash types); en dash and the other hyphen
+  variants count as a plain hyphen (decision 35); a hyphen between two
+  letters is removed (line-break hyphens); all whitespace is removed, so a
+  missing space after punctuation never matters. A quote that runs onto
+  another page passes only with a quote_note "continues on page N", and is
+  followed to page N even when tables or figures lie in between (decision
+  35).
 - `checks/` is git-ignored (only its `.gitkeep` is committed).
 - Comparison checks (decision 32): every primary comparison has a complete
   set of fields; every part of a comparison label exists in `arms` (skipped
@@ -1095,6 +1160,80 @@ Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
 added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
+
+### 2026-11-17: human review complete (590 of 590 extracted values)
+The owner reviewed every extracted value of the 10 trials (11 papers) on
+`review/review_sheet.xlsx` (decision 28: 100% review). Loaded with
+`scripts/load_reviewed_results.py` (decision 35): 590 values, 590 decisions,
+0 skipped, 0 refused by the label check. Database backups:
+`data/ami_trials.backup-20261117-141623.db` (before the first layout change)
+and `data/ami_trials.backup-20261117-141940.db` (before the final one).
+- **Decisions:** 581 correct, 9 wrong (all with a corrected value, stored as
+  "correct"), 0 unclear.
+- **Flagged values:** 21 of 590 were flagged on the sheet (verifier WRONG /
+  UNCLEAR: 13; quote check or step 1 only: 8). 7 of the 21 were wrong.
+- **Where the 9 wrong values were caught:** verifier 7, quote check only 0,
+  neither 2 (the ELIXA denominators below). So 2 of the 569 unflagged values
+  were wrong (0.4%). The 8 quote-check-only flags were all correct values: 1
+  real copying slip and 7 checker limits.
+- **The 9 wrong values:** AEGIS-II per-arm N randomized ×2; dal-GenE per-arm
+  N randomized ×2; ELIXA "discontinued due to adverse events" N analysed ×2;
+  TAO and CLEAR SYNERGY (colchicine paper) "multiplicity handling"; EMPACT-MI
+  "key secondary selection". The last three were rule violations, not
+  factual errors: the selected endpoint or the procedure was right, but the
+  value held the agent's own inference or a clause from another sentence.
+- **Owner note types** (25 notes): quote incomplete or left out the value 4
+  (PEGASUS major bleeding effect measure ×2, quotes starting after a line
+  break; LIBREXIA-ACS N analysed ×2, number only in the quote_note); rule
+  violation, not a factual error 3; checker limit 3 (TAO en dash; CANTOS
+  quote resuming on page 8 ×2), plus 4 EMPACT-MI verifier quotes the owner
+  did not check further that the fixed checker now passes (quote resuming on
+  page 6); real copying slip 1 (AEGIS-II "key secondary selection", the
+  dropped "through", in both agents' quotes); denominator in a table header
+  2 (ELIXA); other 8 (per-arm counts after exclusions 4, key secondary rule
+  3, an explanatory note on dal-GenE total randomized 1).
+- **AEGIS-II and dal-GenE per-arm counts after exclusions:** both papers give
+  per-arm randomized counts only after excluding a few patients (AEGIS-II: 7
+  of 18,226 from one site, data quality concerns; dal-GenE: 2 of 6149
+  randomized in error); the split of the excluded patients is only in a
+  supplement figure (AEGIS-II Fig. S1, not in `papers/`) or not given. Both
+  agents left per-arm N randomized "not reported"; the verifier marked them
+  UNCLEAR. Owner decision: store the paper's per-arm counts, which the paper
+  itself calls randomized: AEGIS-II CSL112 9112, placebo 9107; dal-GenE
+  dalcetrapib 3071, placebo 3076 (Figure 1). Total randomized stays the
+  pre-exclusion number (18,226 and 6149), so the arms do not add up to it.
+  The AEGIS-II arms were entered swapped on the sheet (CSL112 9107, placebo
+  9112); the paper gives CSL112 9112 and placebo 9107 (abstract, page 4,
+  Tables 1-2). Fixed with the owner's OK and written in the decision
+  comment.
+- **TAO: no key secondary.** No secondary outcome is called key, and the
+  paper mentions a hierarchical testing procedure without stating the order
+  (it refers to the design paper). Owner: "not reported" under decision 7;
+  list order is not assumed to be the testing order (rule added to decision
+  7). dal-GenE likewise: no secondary called key, two secondaries tested
+  together (Hochberg), no order → "not reported".
+- **Missed table-header denominators:** ELIXA "discontinued due to adverse
+  events": both agents marked per-arm N analysed "not reported" (the verifier
+  CONFIRMED the absence), but Table 3's column headers give it (lixisenatide
+  3031, placebo 3032). Not flagged by any check; found only by the owner's
+  review. PEGASUS: not marked by the owner. New extractor rule (c), decision
+  35.
+- **Quote check re-run** on all 10 trials after the checker fixes (decision
+  35): 1329 quotes; FAIL 12 → 4, PASS 1180 → 1188, SKIP 137 (not reported).
+  All 8 changes were FAIL → PASS: TAO major bleeding definition, extractor
+  and verifier (en dash); CANTOS 300 mg p-value and "primary endpoint met",
+  extractor (page 5 → 8); EMPACT-MI key secondary effect measure, value and
+  95% CI, verifier ×4 (page 4 → 6). No PASS became FAIL. Still failing:
+  AEGIS-II key secondary selection, extractor and verifier (the real copying
+  slip); dal-GenE per-arm N randomized, verifier ×2 (text inside the Figure 1
+  boxes, which pypdf cannot read).
+- **Loading problem found and fixed:** the first load put 590 values into 584
+  rows, because rows of one field (one per MACE component: PEGASUS 3, CANTOS
+  3, EMPACT-MI 2; TAO's 2 analysis population rows) had the same identity,
+  and later rows overwrote earlier ones. The database was restored from the
+  backup taken just before (the faulty file is kept as
+  `data/ami_trials.backup-20261117-failed-load-duplicate-identity.db`), the
+  owner approved `item_no` (decision 35), and the reload stored 590 rows.
 
 ### 2026-11-17: PEGASUS and AEGIS-II population overrides; verifier label not stable
 Both trials had "ACS mixed" from rule 1 (MeSH "Acute Coronary Syndrome");

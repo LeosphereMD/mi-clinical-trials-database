@@ -11,9 +11,14 @@ Before matching, both the quote and the page text are normalised (agent fix d):
   - typographic variants folded (ligatures, curly quotes, dash types, soft hyphens)
   - a plain hyphen between two letters is removed, with or without a line break
     ("hos-" / "pitalization", "patient-years"); hyphens next to numbers are kept
-  - all whitespace is removed
+  - en dash and the other hyphen variants count as a plain hyphen, and are folded
+    BEFORE the hyphen rule above, so "non–CABG" and "non-CABG" match (review round 1)
+  - all whitespace is removed, so a missing (or extra) space after punctuation never
+    matters (review round 1)
 A quote that runs onto the next page (page headers/footers in between are ignored)
-passes only if it has a quote_note "continues on page N".
+passes only if it has a quote_note "continues on page N". When the note names a page
+N further on (text resuming after tables or figures), the quote is followed to page N
+(review round 1).
 
 Output: checks/<NCT>_quote_check.csv with source, outcome, field, arm, comparison,
 stated page, PASS/FAIL/SKIP and a short reason. Never any quote or paper text
@@ -31,6 +36,9 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# En dash and hyphen variants: treated as a plain hyphen (review round 1, fix e).
+HYPHENS = str.maketrans({"‐": "-", "‑": "-", "‒": "-", "–": "-"})
+
 FOLD = str.maketrans({
     "‘": "'", "’": "'", "‚": "'", "′": "'",
     "“": '"', "”": '"', "„": '"', "″": '"',
@@ -43,6 +51,7 @@ def norm(text):
     # Soft hyphen (U+00AD) becomes a plain hyphen, so the rule below treats it like any
     # other: removed between letters ("pa-tient"), kept next to numbers ("50-mg").
     text = unicodedata.normalize("NFKC", text or "").replace("­", "-")
+    text = text.translate(HYPHENS)
     # Plain hyphen between two letters, with or without a line break: removed on both
     # sides, because a real hyphen at a line end ("patient-" / "years") can't be told
     # apart from a line-break hyphen ("hos-" / "pitalization"). pypdf sometimes puts a
@@ -156,6 +165,12 @@ def check(rec):
     q = norm(rec["quote"])
     if q in pages[page - 1]:
         return "PASS", ""
+    note = rec.get("quote_note") or ""
+    m = re.search(r"continues on page (\d+)", note)
+    if m:
+        to = int(m.group(1))
+        if to > page + 1 and to <= len(pages) and spans(q, pages[page - 1], pages[to - 1]):
+            return "PASS", f"spans pages {page}-{to} (noted)"
     if page < len(pages) and spans(q, pages[page - 1], pages[page]):
         if "continues on page" in (rec.get("quote_note") or ""):
             return "PASS", f"spans pages {page}-{page + 1} (noted)"

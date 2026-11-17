@@ -31,8 +31,14 @@ Use Glob `papers/<NCT ID>*_supp.pdf` to find supplements, if any.
 - Quotes are copied character for character, with two exceptions, each noted in a
   `quote_note` on that value: a word split by a line-break hyphen may be rejoined
   (e.g. "hos-" / "pitalization" → "hospitalization"; note "rejoined line-break hyphen"),
-  and a quote that runs onto the next page gets the page where it starts (note
-  "continues on page N").
+  and a quote that runs onto a later page (the next page, or the page where the text
+  resumes after tables or figures) gets the page where it starts (note "continues on
+  page N", N = the page where it resumes).
+- What a quote must be (owner, review round 1): the quote contains the value itself
+  (the number, or the words the value is taken from), not only the text around it. In
+  running text it starts at the beginning of the sentence, never part-way through,
+  e.g. after a line break or an opening bracket. For a value read from a table, the
+  quote is the table row from its row label to the value.
 
 ## Every value has
 value, quote (copied character for character: never shortened or paraphrased; see the
@@ -78,6 +84,10 @@ tested at the same level (e.g. together with a Hochberg procedure), take the FIR
 listed in the paper's text, and record the testing method in "multiplicity handling" (not
 in "key secondary selection"). Secondary outcomes that the paper does not call key /
 major / principal, with no testing order, give "not reported".
+A hierarchical (or other ordered) testing procedure that is mentioned without the order
+being stated in the paper counts as NO testing order. The order in which the paper lists
+its secondary outcomes is never assumed to be the testing order (owner, review round 1;
+e.g. a paper that refers to a design paper for the order).
 
 ## Fields
 Whole-trial (arm and comparison empty):
@@ -125,8 +135,14 @@ Use these for outcome "primary", "key secondary", "safety: major bleeding",
   endpoint (e.g. TIMI major bleeding, BARC 3c or 5), with that outcome's definition. If the
   paper names no primary safety bleeding endpoint, use the outcome the paper calls major
   bleeding; if neither, "not reported".
-- A value contains only what its own quote supports. Information from another sentence or
-  page needs its own field and quote.
+- A value contains only what its own quote says (owner, review round 1): no inferences or
+  commentary of your own (e.g. "no formal procedure described"), and nothing from
+  another sentence or page. Information from another sentence or page needs its own
+  field and quote; explanations go in `quote_note`, never in the value.
+- "N analysed" per arm for an outcome reported in a table: use the N in that table's
+  column header for the arm (e.g. "Placebo (N=3032)"), with the column header as the
+  quote and a `quote_note` naming the table. "not reported" only if neither the table
+  nor the text gives a denominator.
 - One trial with two main papers (decision 31, e.g. CLEAR SYNERGY): extract from both into
   the one output file; every value carries its paper's pmid.
 - Do not link values to registered outcomes; code does that later (decision 33).

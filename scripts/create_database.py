@@ -197,6 +197,9 @@ CREATE TABLE extracted_values (
                                          -- for values that belong to no comparison
     outcome           TEXT NOT NULL,
     field             TEXT NOT NULL,
+    item_no           INTEGER NOT NULL DEFAULT 1,  -- owner, 2026-11-17: 1, 2, 3 ... when
+                                         -- one field has several rows (e.g. one row per
+                                         -- MACE component), in the agent's order; else 1
     -- extractor
     extracted_value   TEXT,
     quote             TEXT,
@@ -218,18 +221,25 @@ CREATE TABLE extracted_values (
                           ('pass', 'fail', 'not run')),
     code_check_note   TEXT,
     -- review selection (the decisions are in review_decisions)
+    -- 'critical value' and 'remaining' added after review round 1 (owner,
+    -- 2026-11-17): flagged / critical value (decision 10) / remaining
     review_reason     TEXT CHECK (review_reason IN
-                          ('flagged', 'random sample', 'not selected',
+                          ('flagged', 'critical value', 'remaining',
+                           'random sample', 'not selected',
                            'value changed after decision')),
     -- final
-    final_value       TEXT,
-    FOREIGN KEY (nct_id, arm) REFERENCES arms(nct_id, arm_label)
+    final_value       TEXT
+    -- No database link from arm to arms (owner, 2026-11-17): decision 32 allows
+    -- pooled labels ("a + b") and decision 31 factorial group names, which are not
+    -- single registry arm labels. scripts/load_reviewed_results.py checks every
+    -- arm label on every load and refuses any value that fails.
 );
 
 -- Fixed identity of a value, so re-running an extraction updates the same row
 -- (and keeps its value_id) instead of creating a new one.
 CREATE UNIQUE INDEX extracted_values_identity ON extracted_values
-    (nct_id, publication_id, COALESCE(arm, ''), COALESCE(comparison, ''), outcome, field);
+    (nct_id, publication_id, COALESCE(arm, ''), COALESCE(comparison, ''), outcome, field,
+     item_no);
 
 -- 10. The project owner's review decisions, one row per decision
 CREATE TABLE review_decisions (
