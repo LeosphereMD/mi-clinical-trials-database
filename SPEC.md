@@ -460,7 +460,9 @@ Added by the project owner on 2026-11-16:
       says: no inferences or commentary of the agent's own, nothing from
       other sentences (explanations go in `quote_note`). (c) Per-arm "N
       analysed" for an outcome reported in a table is the N in that table's
-      column header.
+      column header. The verifier checks (c) too: before confirming a "not
+      reported" N analysed it looks at the table column headers; a missed
+      header N is WRONG, reason "denominator rule" (owner, 2026-11-17).
     - **Decision 7:** a hierarchical testing procedure mentioned without the
       order = no testing order; list order is not assumed to be the testing
       order (extractor and verifier).
@@ -475,7 +477,11 @@ Added by the project owner on 2026-11-16:
       correct; "wrong" without one → reject; "unclear" is not stored and the
       value stays not reviewed; an empty decision = not reviewed. decided_at
       is the time the sheet was last saved. Re-running adds no duplicate
-      decisions. An owner-confirmed fix of a sheet entry is applied by the
+      decisions: a decision already stored anywhere in a value's history is
+      skipped, so an overruled sheet decision is never re-added. Decisions
+      the owner makes after the sheet are listed in the script
+      (LATER_DECISIONS) and added once, after the sheet's (first case: the 4
+      decision 34 reversals in the Quality log). An owner-confirmed fix of a sheet entry is applied by the
       script and written in the decision comment (first case: AEGIS-II
       per-arm N randomized, entered swapped on the sheet).
     - **review_reason** gets two new values: flagged (flagged on the sheet the
@@ -1168,20 +1174,22 @@ The owner reviewed every extracted value of the 10 trials (11 papers) on
 0 skipped, 0 refused by the label check. Database backups:
 `data/ami_trials.backup-20261117-141623.db` (before the first layout change)
 and `data/ami_trials.backup-20261117-141940.db` (before the final one).
-- **Decisions:** 581 correct, 9 wrong (all with a corrected value, stored as
-  "correct"), 0 unclear.
+- **Decisions (final):** 585 correct, 5 wrong (all with a corrected value,
+  stored as "correct"), 0 unclear. On the sheet the owner first marked 9
+  wrong; 4 were reverted under decision 34 (see the AEGIS-II and dal-GenE
+  bullet below).
 - **Flagged values:** 21 of 590 were flagged on the sheet (verifier WRONG /
-  UNCLEAR: 13; quote check or step 1 only: 8). 7 of the 21 were wrong.
-- **Where the 9 wrong values were caught:** verifier 7, quote check only 0,
+  UNCLEAR: 13; quote check or step 1 only: 8). 3 of the 21 were wrong.
+- **Where the 5 wrong values were caught:** verifier 3, quote check only 0,
   neither 2 (the ELIXA denominators below). So 2 of the 569 unflagged values
   were wrong (0.4%). The 8 quote-check-only flags were all correct values: 1
   real copying slip and 7 checker limits.
-- **The 9 wrong values:** AEGIS-II per-arm N randomized ×2; dal-GenE per-arm
-  N randomized ×2; ELIXA "discontinued due to adverse events" N analysed ×2;
-  TAO and CLEAR SYNERGY (colchicine paper) "multiplicity handling"; EMPACT-MI
-  "key secondary selection". The last three were rule violations, not
-  factual errors: the selected endpoint or the procedure was right, but the
-  value held the agent's own inference or a clause from another sentence.
+- **The 5 wrong values:** ELIXA "discontinued due to adverse events" N
+  analysed ×2; TAO and CLEAR SYNERGY (colchicine paper) "multiplicity
+  handling"; EMPACT-MI "key secondary selection". The last three were rule
+  violations, not factual errors: the selected endpoint or the procedure was
+  right, but the value held the agent's own inference or a clause from
+  another sentence.
 - **Owner note types** (25 notes): quote incomplete or left out the value 4
   (PEGASUS major bleeding effect measure ×2, quotes starting after a line
   break; LIBREXIA-ACS N analysed ×2, number only in the quote_note); rule
@@ -1197,15 +1205,21 @@ and `data/ami_trials.backup-20261117-141940.db` (before the final one).
   of 18,226 from one site, data quality concerns; dal-GenE: 2 of 6149
   randomized in error); the split of the excluded patients is only in a
   supplement figure (AEGIS-II Fig. S1, not in `papers/`) or not given. Both
-  agents left per-arm N randomized "not reported"; the verifier marked them
-  UNCLEAR. Owner decision: store the paper's per-arm counts, which the paper
-  itself calls randomized: AEGIS-II CSL112 9112, placebo 9107; dal-GenE
-  dalcetrapib 3071, placebo 3076 (Figure 1). Total randomized stays the
-  pre-exclusion number (18,226 and 6149), so the arms do not add up to it.
-  The AEGIS-II arms were entered swapped on the sheet (CSL112 9107, placebo
-  9112); the paper gives CSL112 9112 and placebo 9107 (abstract, page 4,
-  Tables 1-2). Fixed with the owner's OK and written in the decision
-  comment.
+  agents left per-arm N randomized "not reported" and stored the
+  post-exclusion counts as N analysed (AEGIS-II CSL112 9112, placebo 9107;
+  dal-GenE dalcetrapib 3071, placebo 3076); the verifier marked N randomized
+  UNCLEAR. The owner's first decision on the sheet was "wrong", with the
+  post-exclusion counts as N randomized (the AEGIS-II arms entered swapped,
+  CSL112 9107 / placebo 9112; the paper gives CSL112 9112, placebo 9107,
+  abstract, page 4, Tables 1-2). That first decision conflicted with decision
+  34 (numbers after exclusions belong in N analysed, never in N randomized);
+  Claude pointed out the conflict at import. Owner decision (2026-11-17):
+  keep decision 34 as it is and revert the 4 decisions to "correct" for the
+  extractor's original value, "not reported", comment "owner reverted:
+  decision 34, post-exclusion counts belong in N analysed; per-arm split of
+  all randomized not reported". Stored as 4 later decisions; the first ones
+  stay in the history (decisions are never edited or deleted). Total
+  randomized stays the pre-exclusion number (18,226 and 6149).
 - **TAO: no key secondary.** No secondary outcome is called key, and the
   paper mentions a hierarchical testing procedure without stating the order
   (it refers to the design paper). Owner: "not reported" under decision 7;

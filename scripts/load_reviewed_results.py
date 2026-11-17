@@ -14,8 +14,9 @@ Writes data/ami_trials.db:
     publication_id + arm + comparison + outcome + field + item_no; SPEC table 8;
     item_no numbers the rows of one field in the agent's order, e.g. one row per MACE
     component, and is 1 for a single row),
-  review_decisions (one new row per sheet decision; a decision identical to the latest
-    stored one for that value is skipped, so re-running adds nothing).
+  review_decisions (one new row per sheet decision; a decision identical to one already
+    stored for that value is skipped, so re-running adds nothing), then the owner's
+    later decisions in LATER_DECISIONS (each added once, after the sheet's).
 
 Decision mapping (decision 11): sheet "correct" -> approve; "wrong" with a corrected
 value -> correct; "wrong" without one -> reject. "unclear" is not a SPEC decision: it is
@@ -63,6 +64,18 @@ OWNER_FIXES = {
 }
 
 
+# Decisions the owner made after the sheet, added once each, after the sheet decisions
+# (decisions are never edited or deleted; the latest counts). Key: (nct, arm, outcome,
+# field); value: (decision, corrected_value, comment, decided_at).
+REVERT_34 = ("approve", None, "owner reverted: decision 34, post-exclusion counts belong in N analysed; per-arm split of all randomized not reported", "2026-11-17 16:00:00")
+LATER_DECISIONS = {
+    ("NCT03473223", "CSL112", "trial", "N randomized"): REVERT_34,
+    ("NCT03473223", "Placebo", "trial", "N randomized"): REVERT_34,
+    ("NCT02525939", "Dalcetrapib", "trial", "N randomized"): REVERT_34,
+    ("NCT02525939", "Placebo", "trial", "N randomized"): REVERT_34,
+}
+
+
 def s(x):
     """Cell or JSON value as text; empty stays None (never invented)."""
     if x is None:
@@ -88,6 +101,21 @@ def label_ok(label, registry, factor_names):
     if len(parts) > 1 and all(p in registry for p in parts):
         return True
     return label.lower() in factor_names
+
+
+def add_decision(con, vid, decision, corrected, note, decided_at, shown):
+    """Insert a decision unless the same one is already stored for this value
+    (anywhere in its history, so a re-run never re-adds an overruled decision)."""
+    if con.execute(
+            "SELECT 1 FROM review_decisions WHERE value_id = ? AND decision = ? "
+            "AND corrected_value IS ? AND comment IS ? AND value_shown IS ?",
+            (vid, decision, corrected, note, shown)).fetchone():
+        return False
+    con.execute(
+        "INSERT INTO review_decisions (value_id, decision, corrected_value, comment, "
+        "decided_at, value_shown) VALUES (?, ?, ?, ?, ?, ?)",
+        (vid, decision, corrected, note, decided_at, shown))
+    return True
 
 
 def check_labels(v, registry, factorial_comp):
@@ -293,20 +321,19 @@ def main():
                 note = f"{note}; {fix[1]}" if note else fix[1]
                 dec["owner-confirmed fix applied"] += 1
             review_counts["reviewed"] += 1
-            last = con.execute(
-                "SELECT decision, corrected_value, comment, value_shown FROM review_decisions "
-                "WHERE value_id = ? ORDER BY decided_at DESC, decision_id DESC LIMIT 1",
-                (vid,)).fetchone()
-            if last == (decision, corrected, note, shown):
+            if add_decision(con, vid, decision, corrected, note, decided_at, shown):
+                dec[decision] += 1
+                if shown != vals["extracted_value"]:
+                    dec["stored, but value changed since the sheet (back to review)"] += 1
+            else:
                 dec["already stored (skipped)"] += 1
-                continue
-            con.execute(
-                "INSERT INTO review_decisions (value_id, decision, corrected_value, comment, "
-                "decided_at, value_shown) VALUES (?, ?, ?, ?, ?, ?)",
-                (vid, decision, corrected, note, decided_at, shown))
-            dec[decision] += 1
-            if shown != vals["extracted_value"]:
-                dec["stored, but value changed since the sheet (back to review)"] += 1
+            later = LATER_DECISIONS.get((nct, v.get("arm"), v["outcome"], v["field"]))
+            if later:
+                d2, c2, n2, t2 = later
+                if add_decision(con, vid, d2, c2, n2, t2, vals["extracted_value"]):
+                    dec[f"later owner decision ({d2})"] += 1
+                else:
+                    dec["later owner decision already stored (skipped)"] += 1
         con.commit()
     except Exception:
         con.rollback()

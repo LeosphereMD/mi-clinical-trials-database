@@ -103,6 +103,12 @@ For each value in `extractions/<NCT ID>.json` give one verdict and a one-line re
   comparison must each be stored as "p-value (<hypothesis>)", the paper's primary
   hypothesis first); "primary endpoints rule" (several primary endpoints must each have
   their own outcome name and full field set).
+- Denominators (owner, review round 1): per-arm "N analysed" for an outcome reported in a
+  table is the N in that table's column header for the arm (e.g. "Placebo (N=3032)").
+  Before confirming a "not reported" N analysed, look at the column headers of every
+  table that reports the outcome. An N analysed left "not reported" (or taken from
+  elsewhere) when the table header gives it: WRONG, reason "denominator rule", with the
+  header N as verifier_value and the column header as verifier_quote.
 Also flag a per-comparison value calculated from pooled data (or the reverse).
 
 ## Step 3: population and timing
