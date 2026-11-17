@@ -41,7 +41,7 @@ NCT01882179,NCT01882179,DRUG,Mineralocorticoid receptor antagonist potassium-can
 NCT01882179,NCT01882179,DRUG,placebo,,,placebo,placebo,,approve,,
 NCT01992523,NCT01992523,DRUG,Ticagrelor integral pills,,,ticagrelor,"Claude, from general knowledge: check","same drug, different pill form",approve,,
 NCT01992523,NCT01992523,DRUG,Ticagrelor mashed pills,,,ticagrelor,"Claude, from general knowledge: check","same drug, different pill form",approve,,
-NCT02044146,NCT02044146,DRUG,"Ticagrelor, Prasugrel, Clopidogrel",,Ticagrelor; Prasugrel Hydrochloride; Clopidogrel,ticagrelor + prasugrel + clopidogrel,"registry MeSH, partial match",,approve,,
+NCT02044146,NCT02044146,DRUG,"Ticagrelor, Prasugrel, Clopidogrel",,Ticagrelor; Prasugrel Hydrochloride; Clopidogrel,ticagrelor + prasugrel + clopidogrel,"registry MeSH, partial match",,correct,clopidogrel or prasugrel or ticagrelor,"one registry intervention shared by three arms (personalised prasugrel or clopidogrel; ticagrelor; clopidogrel registry arm); choices are written with "" or "" (owner, 2026-11-17)"
 NCT02075125,NCT02075125,DRUG,Prasugrel 60 mg,Effient 60 mg,Prasugrel Hydrochloride; Ticagrelor,prasugrel,"registry MeSH, partial match",,approve,,
 NCT02075125,NCT02075125,DRUG,Ticagrelor 180 mg,Brilinta 180 mg,Prasugrel Hydrochloride; Ticagrelor,ticagrelor,"registry MeSH, partial match",,approve,,
 NCT02145468,NCT02145468,DRUG,Losmapimod 7.5 mg twice daily,GW856553,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide; Standard of Care",losmapimod,"Claude, from general knowledge: check",general knowledge: check,approve,,
@@ -53,7 +53,7 @@ NCT02298088,NCT02298088,DRUG,Ticagrelor 180 mg,Ticagrelor,Ticagrelor; Clopidogre
 NCT02301910,NCT02301910,DRUG,Recombinant staphylokinase,Fortelyzin,Tenecteplase,staphylokinase (recombinant),"Claude, from general knowledge: check",general knowledge: check,approve,,
 NCT02367976,NCT02367976,DRUG,rhprouk,Controlled,Control Groups,prourokinase (recombinant human),"Claude, from general knowledge: check",rhPro-UK = recombinant human prourokinase; general knowledge: check,approve,,
 NCT02377388,NCT02377388,DRUG,placebo,PBO,Sitagliptin Phosphate; saxagliptin,placebo,placebo,,approve,,
-NCT02377388,NCT02377388,DRUG,sitagliptin OR saxagliptin,januvia ® OR onglyza ®,Sitagliptin Phosphate; saxagliptin,sitagliptin + saxagliptin,"registry MeSH, partial match",,approve,,
+NCT02377388,NCT02377388,DRUG,sitagliptin OR saxagliptin,januvia ® OR onglyza ®,Sitagliptin Phosphate; saxagliptin,sitagliptin + saxagliptin,"registry MeSH, partial match",,correct,sitagliptin or saxagliptin,"either/or strategy arm (registry: ""sitagliptin OR saxagliptin""): choices are written with "" or "" (owner, 2026-11-17)"
 NCT02404376,NCT02404376,DRUG,Placebo,,Exenatide,placebo,placebo,,approve,,
 NCT02451293,NCT02451293,DRUG,Melatonin (N-acetyl-5-methoxytryptamine),,Melatonin,melatonin,"registry MeSH, partial match",,approve,,
 NCT02451293,NCT02451293,DRUG,Placebo,,Melatonin,placebo,placebo,,approve,,
@@ -183,7 +183,7 @@ NCT07478003,NCT07478003,DRUG,Methylprednisolone 250 mg,,Methylprednisolone,methy
 NCT07478003,NCT07478003,DRUG,"NaCl (0,9%)",,Methylprednisolone,sodium chloride,"Claude, from general knowledge: check",saline control,approve,,
 NCT07582835,NCT07582835,DRUG,Prasugrel,Efient,Clopidogrel; Ticagrelor; Prasugrel Hydrochloride,prasugrel,"registry MeSH, partial match",,approve,,
 NCT07604103,NCT07604103,DRUG,antibiotic treatments,,vaxigrip; Growth Differentiation Factor 15,,no suggestion,drug class not specified,correct,antibiotic,role: background; standard pneumonia care given in both arms
-NCT07604103,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT07604103"",""NCT07604103"")",DRUG,Vaxigrip,MR proADM; Persepsin; GDF-15,vaxigrip; Growth Differentiation Factor 15,vaxigrip,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,"influenza vaccine (quadrivalent, inactivated)","brand Vaxigrip (tetravalent); owner override of an automatic exact MeSH match, 2026-11-16; the registry other names are biomarkers measured, not drug names"
+NCT07604103,"=HYPERLINK(""https://clinicaltrials.gov/study/NCT07604103"",""NCT07604103"")",DRUG,Vaxigrip,MR proADM; Persepsin; GDF-15,vaxigrip; Growth Differentiation Factor 15,vaxigrip,registry MeSH exact match,added by hand to override the automatic exact MeSH match,correct,"influenza vaccine, quadrivalent","brand Vaxigrip (tetravalent); owner override of an automatic exact MeSH match, 2026-11-16; the registry other names are biomarkers measured, not drug names; name changed from ""influenza vaccine (quadrivalent, inactivated)"" to the canonical ""influenza vaccine, quadrivalent"" (registry never says inactivated; owner, 2026-11-17)"
 NCT07625306,NCT07625306,DRUG,Placebo,,pelacarsen,placebo,placebo,,approve,,
 NCT07714746,NCT07714746,DRUG,Ivabradine 5mg Tab,,Ivabradine,ivabradine,"registry MeSH, partial match",,approve,,
 NCT07714746,NCT07714746,DRUG,Placebo Oral Tablet,,Ivabradine,placebo,placebo,,approve,,

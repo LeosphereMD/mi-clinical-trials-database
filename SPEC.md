@@ -75,7 +75,7 @@ alone.
 3. 2a: drug names, sponsors and why_stopped reviewed and loaded. Primary outcome types: loaded with the owner's comments (decision 18); #1367 (NCT03122340, MoCA) changed to patient-reported under rule 2 at the owner's request; estimated error rate of unreviewed drafts 0 of 31 (Quality log); "small surrogate-only trial (<500 patients)" rule approved (decision 19). The owner finished `review/outcome_types.csv` (now 56 rows after the exclusions; a full copy is in `review/archive/outcome_types_reviewed_20261116.csv`). Loaded on 2026-11-16 with the classification rules added to part 4: all 210 primary outcomes typed (56 owner approved, 154 Claude draft, not sampled). 
 4. Timing after MI: loaded on 2026-11-16 (decision 23). Of 140 trials: acute 115 (38 owner approved, 77 Claude draft, not reviewed; 8 owner-approved acute labels carry "no window stated"), recent 18, prior 7, none waiting. `review/timing_after_mi.csv` has 63 rows.
 5. 2b: `review/registry_check.xlsx` rebuilt on 2026-11-16 with 10 random trials and a timing row (seed 20261116; 116 rows for 46 trials: 10 random trials × 8 fields, 23 text-based and 18 of 117 MeSH population labels). `registry_checks` is still empty. Next: owner checks the sheet against the website, then run `load_registry_check.py`.
-6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine (quadrivalent, inactivated); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16 and fixed the same day (Quality log): all 268 DRUG/BIOLOGICAL interventions have a role (study drug 158, comparator 103, background 7); every trial has at least one study drug. Sources: 53 placebo decisions, 6 "role:" comments, 209 rows of `review/intervention_roles.csv`.
+6. Drug names (2026-11-16): CANTOS "Standard of care" = usual care, role background; NCT06742567 "Control (Standard treatment)" = usual care, comparator; NCT05077683 "DAPT strategy" = aspirin + P2Y12 inhibitor, background; NCT07604103 "antibiotic treatments" = antibiotic, background; Vaxigrip = influenza vaccine, quadrivalent (renamed 2026-11-17, decision 36); Ropren = polyprenols; "tissue plasminogen activator" kept (registry never names alteplase). Roles loaded on 2026-11-16 and fixed the same day (Quality log): all 268 DRUG/BIOLOGICAL interventions have a role (study drug 158, comparator 103, background 7); every trial has at least one study drug. Sources: 53 placebo decisions, 6 "role:" comments, 209 rows of `review/intervention_roles.csv`.
 7. Not built yet: the paper-results analyses (planned in "Analyses") and step 9 (outcome-switch status).
 
 ## Ground rules
@@ -497,6 +497,40 @@ Added by the project owner on 2026-11-16:
       link rejected. On the owner's condition, the loader runs the decision 32
       label check on every load and refuses any value that fails (see table
       8).
+36. **Drug classes: "parent: mechanism" format** (approved by the project
+    owner on 2026-11-17, after reviewing `review/drug_classes.csv`, 75 draft
+    rows → 73 after the name fixes below).
+    - **Format (A):** every class is "parent: subclass", and the subclass
+      names the mechanism, not the drug (e.g. aspirin → "antiplatelet:
+      COX-1 inhibitor"; colchicine → "anti-inflammatory: microtubule
+      inhibitor"; SGLT2 inhibitors → "glucose-lowering: SGLT2 inhibitor").
+      Where no mechanism label fits, the subclass may name the drug or
+      regimen, and the note says so (melatonin, oxytocin, oxygen,
+      3-n-butylphthalide, glucose + insulin + potassium).
+    - **Lipid drugs (B):** one parent, "lipid-modifying", for all of them
+      (statins, PCSK9 inhibitors, inclisiran, CETP inhibitor, apoA-I
+      infusion, pelacarsen, the combinations); "lipid-lowering" is not used.
+    - **Herbal and natural products** have their own parent,
+      "herbal/natural product" (SPEC "Analyses", 4); disolf (DLBS1033, an
+      earthworm-derived enzyme fraction) is "fibrinolytic: lumbrokinase-type
+      (natural product)", not herbal.
+    - **Source** of every row: "Claude draft, reviewed and approved by
+      Nadav 2026-11-17", followed by the row's note.
+    - **Storage:** `review/drug_classes.csv` (committed: part of the human
+      review record) → table `drug_classes` (table 15) by
+      `scripts/load_drug_classes.py`, joined to `interventions` on
+      generic_name. The loader checks that every study-drug intervention
+      except the biologicals that are not drugs gets a class.
+    - **Name fixes** (in `review/drug_names.csv`, same day): "sitagliptin +
+      saxagliptin" → "sitagliptin or saxagliptin" (NCT02377388); "ticagrelor
+      + prasugrel + clopidogrel" → "clopidogrel or prasugrel or ticagrelor"
+      (NCT02044146, one registry intervention shared by three arms; merged
+      with the NCT05903976 name); "influenza vaccine (quadrivalent,
+      inactivated)" → "influenza vaccine, quadrivalent" (NCT07604103; the
+      registry never says inactivated; now one name with NCT04001504).
+      "tissue plasminogen activator" (NCT03335839) is kept (registry never
+      names alteplase). The " or " rule was added to the naming conventions
+      ("Registry cleaning", part 1).
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -622,6 +656,11 @@ Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
     when the decision is correct), comment, decided_at.
 14. **`intervention_mesh`**: the registry's drug MeSH terms per trial.
     nct_id, mesh_term, mesh_id, match_type (direct term or parent term).
+15. **`drug_classes`** (decision 36): one row per generic drug name. drug
+    (key; = `interventions.generic_name`), drug_class ("parent: subclass"),
+    class_parent, class_subclass, source. Loaded from
+    `review/drug_classes.csv` by `scripts/load_drug_classes.py`, which
+    rebuilds the table on every run.
 
 Registry cleaning (step 2a) adds columns to two tables. To `trials`:
 sponsor_name_clean, sponsor_group, why_stopped_category,
@@ -642,6 +681,7 @@ extracted_values --> trials, publications, arms (optional)
 review_decisions --many:1--> extracted_values
 outcome_comparisons --> trials, publications, registered_outcomes
 trials --1:many--> trial_countries, registry_checks, intervention_mesh
+interventions --many:1 on generic_name--> drug_classes
 ```
 
 ## Population label
@@ -764,7 +804,10 @@ random check (see part 4).
 - Suggestions go into the database only after the owner approves or corrects
   them (generic_name_source = "owner approved"). Names are stored in lower case.
 - Conventions (owner): placebo is "placebo"; standard or optimal medical
-  therapy is "usual care" (decision 20); combinations are written "a + b".
+  therapy is "usual care" (decision 20); combinations are written "a + b";
+  a choice between drugs (an either/or strategy arm, e.g. "sitagliptin or
+  saxagliptin", "clopidogrel or prasugrel or ticagrelor") is written
+  "a or b" (owner, 2026-11-17, decision 36).
   An owner row in drug_names.csv overrides an automatic exact match.
 - **Roles** (decision 21): `scripts/draft_roles.py` writes
   `review/intervention_roles.csv` with every DRUG or BIOLOGICAL intervention
@@ -780,8 +823,8 @@ random check (see part 4).
   (corrected_role) each row; `load_cleaning.py` loads only rows with a
   decision.
 - Automatic names that break the conventions are overridden the same way as
-  CANTOS (decision 20): Vaxigrip = influenza vaccine (quadrivalent,
-  inactivated); Ropren = polyprenols. "tissue plasminogen activator"
+  CANTOS (decision 20): Vaxigrip = influenza vaccine, quadrivalent
+  (renamed 2026-11-17; decision 36); Ropren = polyprenols. "tissue plasminogen activator"
   (NCT03335839) is kept as the registry names it, because the registry
   describes recombinant tPA and never names alteplase.
 
@@ -1601,9 +1644,11 @@ Trials below each threshold: < 50: 15 (14%); < 100: 46 (44%); < 150: 62
 For comparison, clinical-only trials (46): median 2804; only 6 (13%) enrol
 fewer than 500.
 
-### 4. Drug classes (placeholder, decision 21)
-Added on 2026-11-16; the class mapping is built at the analysis step.
-- Counts trials and interventions by drug class.
+### 4. Drug classes (decisions 21 and 36)
+Added on 2026-11-16; classes reviewed and loaded on 2026-11-17 (table
+`drug_classes`, "parent: mechanism" format, decision 36).
+- Counts trials and interventions by drug class, by parent and by
+  "parent: subclass", study drugs only.
 - Leaves out background therapy (`intervention_role` = background) and
   biologicals that are not drugs (e.g. blood products, cell therapy).
 - Herbal and traditional medicine is its own class.

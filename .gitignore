@@ -41,6 +41,8 @@ outcome_checks/*
 !review/timing_after_mi.csv
 !review/timing_suggestions_claude.csv
 !review/intervention_roles.csv
+# Drug classes (decision 36): the owner's reviewed class per drug, no quotes.
+!review/drug_classes.csv
 
 # Never committed (CLAUDE.md; SPEC.md decisions 14, 24 and 25). *.db above
 # already covers these; they are listed so each one is visible.

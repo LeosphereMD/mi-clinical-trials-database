@@ -135,6 +135,17 @@ CREATE TABLE intervention_mesh (
     match_type TEXT CHECK (match_type IN ('direct term', 'parent term'))
 );
 
+-- 15. Drug class per generic drug name (decision 36), from review/drug_classes.csv
+-- (scripts/load_drug_classes.py). Joined to interventions on generic_name.
+CREATE TABLE drug_classes (
+    drug           TEXT PRIMARY KEY,   -- = interventions.generic_name
+    drug_class     TEXT NOT NULL,      -- "parent: subclass"
+    class_parent   TEXT NOT NULL,
+    class_subclass TEXT NOT NULL,
+    source         TEXT,
+    CHECK (drug_class = class_parent || ': ' || class_subclass)
+);
+
 -- 4. Each study group
 CREATE TABLE arms (
     arm_id      INTEGER PRIMARY KEY,
