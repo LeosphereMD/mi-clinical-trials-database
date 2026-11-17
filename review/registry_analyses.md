@@ -56,6 +56,110 @@ Trials with 2 or more single-event primary rows: 0; of these with a surrogate pr
 | Share of surrogate-only trials | 81 (92%) |
 | Surrogate-only trials with no enrollment figure | 0 |
 
+### 4. Drug classes (study drugs only; decisions 21 and 36)
+
+|  | Count |
+|---|---|
+| DRUG/BIOLOGICAL interventions | 264 |
+|   study drug | 156 |
+|     with a class | 151 |
+|     non-drug biologicals (cell therapy, blood; left out) | 5 |
+|     no class (counted, not dropped) | 0 |
+|   comparator or background (left out) | 108 |
+|   no role yet (counted, not dropped) | 0 |
+| Trials with at least one classed study drug | 133 (96%) |
+
+A trial can test drugs from more than one class, so trial shares do not add up to 100%. Share = share of trials in this group.
+
+By parent class:
+
+| Parent class | Trials | Study-drug interventions |
+|---|---|---|
+| antiplatelet | 35 (25%) | 47 |
+| glucose-lowering | 19 (14%) | 19 |
+| anti-inflammatory | 11 (8%) | 11 |
+| lipid-modifying | 11 (8%) | 11 |
+| anticoagulant | 9 (7%) | 9 |
+| fibrinolytic | 9 (7%) | 10 |
+| RAAS inhibitor | 6 (4%) | 9 |
+| herbal/natural product | 3 (2%) | 4 |
+| polypill | 3 (2%) | 3 |
+| analgesic | 2 (1%) | 2 |
+| anti-allergic | 2 (1%) | 2 |
+| anti-remodelling | 2 (1%) | 2 |
+| antianginal | 2 (1%) | 2 |
+| antioxidant | 2 (1%) | 2 |
+| heart-rate lowering | 2 (1%) | 2 |
+| hormone | 2 (1%) | 2 |
+| medical gas | 2 (1%) | 2 |
+| metabolic therapy | 2 (1%) | 2 |
+| vaccine | 2 (1%) | 2 |
+| chelating agent | 1 (1%) | 1 |
+| haemorheologic | 1 (1%) | 1 |
+| immunosuppressant | 1 (1%) | 1 |
+| inotrope | 1 (1%) | 1 |
+| neuroprotective | 1 (1%) | 1 |
+| stem-cell mobilisation | 1 (1%) | 1 |
+| vasopressor/inotrope | 1 (1%) | 1 |
+| vitamin | 1 (1%) | 1 |
+
+By parent: subclass:
+
+| Class | Trials | Study-drug interventions |
+|---|---|---|
+| antiplatelet: P2Y12 inhibitor | 32 | 42 |
+| glucose-lowering: SGLT2 inhibitor | 13 | 13 |
+| fibrinolytic: plasminogen activator | 8 | 9 |
+| anticoagulant: factor Xa inhibitor | 6 | 6 |
+| anti-inflammatory: microtubule inhibitor | 4 | 4 |
+| lipid-modifying: PCSK9 inhibitor | 4 | 4 |
+| RAAS inhibitor: ARNI | 3 | 3 |
+| RAAS inhibitor: angiotensin receptor blocker | 3 | 3 |
+| RAAS inhibitor: mineralocorticoid receptor antagonist | 3 | 3 |
+| antiplatelet: COX-1 inhibitor | 3 | 4 |
+| glucose-lowering: biguanide | 3 | 3 |
+| herbal/natural product: plant extract | 3 | 4 |
+| polypill: fixed-dose combination | 3 | 3 |
+| analgesic: volatile anaesthetic | 2 | 2 |
+| anti-inflammatory: corticosteroid | 2 | 2 |
+| anti-remodelling: matrix metalloproteinase inhibitor | 2 | 2 |
+| anticoagulant: direct thrombin inhibitor | 2 | 2 |
+| glucose-lowering: GLP-1 receptor agonist | 2 | 2 |
+| heart-rate lowering: If channel inhibitor | 2 | 2 |
+| lipid-modifying: CETP inhibitor | 2 | 2 |
+| lipid-modifying: statin | 2 | 2 |
+| medical gas: oxygen | 2 | 2 |
+| metabolic therapy: glucose-insulin-potassium | 2 | 2 |
+| vaccine: influenza | 2 | 2 |
+| anti-allergic: H1 antihistamine | 1 | 1 |
+| anti-allergic: leukotriene receptor antagonist | 1 | 1 |
+| anti-inflammatory: IL-1beta antibody | 1 | 1 |
+| anti-inflammatory: IL-6 antibody | 1 | 1 |
+| anti-inflammatory: antimetabolite (low-dose) | 1 | 1 |
+| anti-inflammatory: p38 MAPK inhibitor | 1 | 1 |
+| anti-inflammatory: sPLA2 inhibitor | 1 | 1 |
+| antianginal: late sodium current inhibitor | 1 | 1 |
+| antianginal: potassium channel opener | 1 | 1 |
+| anticoagulant: factor XIa inhibitor | 1 | 1 |
+| antioxidant: iodide | 1 | 1 |
+| antioxidant: thiol | 1 | 1 |
+| antiplatelet: GP IIb/IIIa inhibitor | 1 | 1 |
+| chelating agent: calcium chelator | 1 | 1 |
+| fibrinolytic: lumbrokinase-type (natural product) | 1 | 1 |
+| glucose-lowering: DPP-4 inhibitor | 1 | 1 |
+| haemorheologic: phosphodiesterase inhibitor | 1 | 1 |
+| hormone: melatonin | 1 | 1 |
+| hormone: oxytocin | 1 | 1 |
+| immunosuppressant: calcineurin inhibitor | 1 | 1 |
+| inotrope: calcium sensitiser | 1 | 1 |
+| lipid-modifying: PCSK9 inhibitor + statin | 1 | 1 |
+| lipid-modifying: apoA-I infusion | 1 | 1 |
+| lipid-modifying: statin + cholesterol absorption inhibitor + ACL inhibitor | 1 | 1 |
+| neuroprotective: butylphthalide | 1 | 1 |
+| stem-cell mobilisation: DPP-4 inhibitor + G-CSF | 1 | 1 |
+| vasopressor/inotrope: adrenergic agonist | 1 | 1 |
+| vitamin: vitamin D metabolite | 1 | 1 |
+
 ## Acute-only trials (n = 114)
 
 ### 1. Share of trials by primary outcome type
@@ -84,15 +188,100 @@ Trials with 2 or more single-event primary rows: 0; of these with a surrogate pr
 | Share of surrogate-only trials | 73 (92%) |
 | Surrogate-only trials with no enrollment figure | 0 |
 
-## 4. Drug classes (placeholder, decision 21)
+### 4. Drug classes (study drugs only; decisions 21 and 36)
 
-Not built yet: the drug-class mapping is made at the analysis step. Inputs ready now (DRUG and BIOLOGICAL interventions by role):
-
-| Role | Interventions |
+|  | Count |
 |---|---|
-| study drug | 158 |
-| comparator | 103 |
-| background | 7 |
+| DRUG/BIOLOGICAL interventions | 219 |
+|   study drug | 129 |
+|     with a class | 124 |
+|     non-drug biologicals (cell therapy, blood; left out) | 5 |
+|     no class (counted, not dropped) | 0 |
+|   comparator or background (left out) | 90 |
+|   no role yet (counted, not dropped) | 0 |
+| Trials with at least one classed study drug | 109 (96%) |
+
+A trial can test drugs from more than one class, so trial shares do not add up to 100%. Share = share of trials in this group.
+
+By parent class:
+
+| Parent class | Trials | Study-drug interventions |
+|---|---|---|
+| antiplatelet | 32 (28%) | 42 |
+| glucose-lowering | 13 (11%) | 13 |
+| anti-inflammatory | 9 (8%) | 9 |
+| fibrinolytic | 9 (8%) | 10 |
+| lipid-modifying | 8 (7%) | 8 |
+| anticoagulant | 7 (6%) | 7 |
+| RAAS inhibitor | 5 (4%) | 7 |
+| analgesic | 2 (2%) | 2 |
+| anti-allergic | 2 (2%) | 2 |
+| anti-remodelling | 2 (2%) | 2 |
+| antianginal | 2 (2%) | 2 |
+| antioxidant | 2 (2%) | 2 |
+| heart-rate lowering | 2 (2%) | 2 |
+| herbal/natural product | 2 (2%) | 3 |
+| medical gas | 2 (2%) | 2 |
+| metabolic therapy | 2 (2%) | 2 |
+| vaccine | 2 (2%) | 2 |
+| hormone | 1 (1%) | 1 |
+| immunosuppressant | 1 (1%) | 1 |
+| inotrope | 1 (1%) | 1 |
+| neuroprotective | 1 (1%) | 1 |
+| stem-cell mobilisation | 1 (1%) | 1 |
+| vasopressor/inotrope | 1 (1%) | 1 |
+| vitamin | 1 (1%) | 1 |
+
+By parent: subclass:
+
+| Class | Trials | Study-drug interventions |
+|---|---|---|
+| antiplatelet: P2Y12 inhibitor | 29 | 37 |
+| glucose-lowering: SGLT2 inhibitor | 9 | 9 |
+| fibrinolytic: plasminogen activator | 8 | 9 |
+| anticoagulant: factor Xa inhibitor | 4 | 4 |
+| RAAS inhibitor: mineralocorticoid receptor antagonist | 3 | 3 |
+| anti-inflammatory: microtubule inhibitor | 3 | 3 |
+| antiplatelet: COX-1 inhibitor | 3 | 4 |
+| lipid-modifying: PCSK9 inhibitor | 3 | 3 |
+| RAAS inhibitor: ARNI | 2 | 2 |
+| RAAS inhibitor: angiotensin receptor blocker | 2 | 2 |
+| analgesic: volatile anaesthetic | 2 | 2 |
+| anti-inflammatory: corticosteroid | 2 | 2 |
+| anti-remodelling: matrix metalloproteinase inhibitor | 2 | 2 |
+| anticoagulant: direct thrombin inhibitor | 2 | 2 |
+| glucose-lowering: biguanide | 2 | 2 |
+| heart-rate lowering: If channel inhibitor | 2 | 2 |
+| herbal/natural product: plant extract | 2 | 3 |
+| lipid-modifying: statin | 2 | 2 |
+| medical gas: oxygen | 2 | 2 |
+| metabolic therapy: glucose-insulin-potassium | 2 | 2 |
+| vaccine: influenza | 2 | 2 |
+| anti-allergic: H1 antihistamine | 1 | 1 |
+| anti-allergic: leukotriene receptor antagonist | 1 | 1 |
+| anti-inflammatory: IL-6 antibody | 1 | 1 |
+| anti-inflammatory: antimetabolite (low-dose) | 1 | 1 |
+| anti-inflammatory: p38 MAPK inhibitor | 1 | 1 |
+| anti-inflammatory: sPLA2 inhibitor | 1 | 1 |
+| antianginal: late sodium current inhibitor | 1 | 1 |
+| antianginal: potassium channel opener | 1 | 1 |
+| anticoagulant: factor XIa inhibitor | 1 | 1 |
+| antioxidant: iodide | 1 | 1 |
+| antioxidant: thiol | 1 | 1 |
+| antiplatelet: GP IIb/IIIa inhibitor | 1 | 1 |
+| fibrinolytic: lumbrokinase-type (natural product) | 1 | 1 |
+| glucose-lowering: DPP-4 inhibitor | 1 | 1 |
+| glucose-lowering: GLP-1 receptor agonist | 1 | 1 |
+| hormone: oxytocin | 1 | 1 |
+| immunosuppressant: calcineurin inhibitor | 1 | 1 |
+| inotrope: calcium sensitiser | 1 | 1 |
+| lipid-modifying: PCSK9 inhibitor + statin | 1 | 1 |
+| lipid-modifying: apoA-I infusion | 1 | 1 |
+| lipid-modifying: statin + cholesterol absorption inhibitor + ACL inhibitor | 1 | 1 |
+| neuroprotective: butylphthalide | 1 | 1 |
+| stem-cell mobilisation: DPP-4 inhibitor + G-CSF | 1 | 1 |
+| vasopressor/inotrope: adrenergic agonist | 1 | 1 |
+| vitamin: vitamin D metabolite | 1 | 1 |
 
 ## Terminated and withdrawn trials (reported separately)
 

@@ -10,8 +10,9 @@ reviews them. See SPEC.md for details.
 
 1. **Explain first.** Before doing anything, say in plain language what you are
    about to do and why. Avoid jargon, or explain it when you can't avoid it.
-2. **Python only.** Use the standard library plus `requests`, `pandas`, `pypdf`
-   and `openpyxl`. Don't add other libraries. Run scripts with the project's
+2. **Python only.** Use the standard library plus `requests`, `pandas`, `pypdf`,
+   `openpyxl` and `matplotlib` (charts only; added 2026-11-17, SPEC decision 37).
+   Don't add other libraries. Run scripts with the project's
    virtual environment: `.venv\Scripts\python`.
 3. **Every script prints a summary at the end**: how many records came in, how
    many went out, and how many were skipped (with the reason).

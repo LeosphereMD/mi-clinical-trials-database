@@ -11,8 +11,12 @@ listed separately (owner, 2026-11-17).
 """
 import re
 import sqlite3
-from collections import Counter
+import sys
+from collections import Counter, defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from load_drug_classes import NON_DRUG_BIOLOGICALS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "ami_trials.db"
@@ -57,6 +61,13 @@ def main():
             "from registered_outcomes where outcome_type = 'primary'"):
         prim.setdefault(nct, []).append((cat, cws, measure))
     run = con.execute("select run_date from fetch_runs order by run_id desc limit 1").fetchone()
+    # Analyses 4: DRUG/BIOLOGICAL interventions with role and class (decisions 21, 36).
+    drugs = defaultdict(list)
+    for nct, role, gname, parent, cls in con.execute(
+            "select i.nct_id, i.intervention_role, i.generic_name, c.class_parent, c.drug_class "
+            "from interventions i left join drug_classes c on c.drug = i.generic_name "
+            "where i.intervention_type in ('DRUG', 'BIOLOGICAL')"):
+        drugs[nct].append((role, gname, parent, cls))
 
     # Withdrawn trials (no patients enrolled) are left out of the main analyses and listed
     # separately; terminated trials stay in and are also listed (SPEC "Analyses", 2026-11-17).
@@ -126,14 +137,39 @@ def main():
                                          ["Share of all trials in this group", pct(len(small), n)],
                                          ["Share of surrogate-only trials", pct(len(small), len(surr))],
                                          ["Surrogate-only trials with no enrollment figure", no_enr]]), ""]
-
-    # 4. drug classes: placeholder
-    roles = Counter(r[0] for r in con.execute(
-        "select intervention_role from interventions where intervention_type in ('DRUG','BIOLOGICAL')"))
-    lines += ["## 4. Drug classes (placeholder, decision 21)", "",
-              "Not built yet: the drug-class mapping is made at the analysis step. Inputs ready now "
-              "(DRUG and BIOLOGICAL interventions by role):", "",
-              table(["Role", "Interventions"], [[k or "empty (counted)", v] for k, v in roles.most_common()]), ""]
+        # 4. drug classes, study drugs only (decisions 21 and 36)
+        ivs = [(t["nct"], *d) for t in g for d in drugs.get(t["nct"], [])]
+        study = [x for x in ivs if x[1] == "study drug"]
+        non_drug = [x for x in study if x[2] in NON_DRUG_BIOLOGICALS]
+        classed = [x for x in study if x[4] is not None]
+        unclassed = [x for x in study if x[4] is None and x[2] not in NON_DRUG_BIOLOGICALS]
+        no_role = [x for x in ivs if x[1] is None]
+        by_parent, by_class = defaultdict(set), defaultdict(set)
+        iv_parent, iv_class = Counter(), Counter()
+        for nct, _, _, parent, cls in classed:
+            by_parent[parent].add(nct); by_class[cls].add(nct)
+            iv_parent[parent] += 1; iv_class[cls] += 1
+        with_class = len({x[0] for x in classed})
+        lines += ["### 4. Drug classes (study drugs only; decisions 21 and 36)", "",
+                  table(["", "Count"], [
+                      ["DRUG/BIOLOGICAL interventions", len(ivs)],
+                      ["  study drug", len(study)],
+                      ["    with a class", len(classed)],
+                      ["    non-drug biologicals (cell therapy, blood; left out)", len(non_drug)],
+                      ["    no class (counted, not dropped)", len(unclassed)],
+                      ["  comparator or background (left out)", len(ivs) - len(study) - len(no_role)],
+                      ["  no role yet (counted, not dropped)", len(no_role)],
+                      ["Trials with at least one classed study drug", pct(with_class, n)]]), "",
+                  "A trial can test drugs from more than one class, so trial shares do not add up "
+                  "to 100%. Share = share of trials in this group.", "",
+                  "By parent class:", "",
+                  table(["Parent class", "Trials", "Study-drug interventions"],
+                        [[k, pct(len(v), n), iv_parent[k]] for k, v in
+                         sorted(by_parent.items(), key=lambda kv: (-len(kv[1]), kv[0]))]), "",
+                  "By parent: subclass:", "",
+                  table(["Class", "Trials", "Study-drug interventions"],
+                        [[k, len(v), iv_class[k]] for k, v in
+                         sorted(by_class.items(), key=lambda kv: (-len(kv[1]), kv[0]))]), ""]
 
     # terminated and withdrawn, separately
     lines += ["## Terminated and withdrawn trials (reported separately)", ""]
@@ -151,6 +187,7 @@ def main():
     print("=== Summary ===")
     print(f"Trials in: {len(trials)}")
     print(f"Primary outcome rows in: {sum(len(v) for v in prim.values())}")
+    print(f"DRUG/BIOLOGICAL interventions in: {sum(len(v) for v in drugs.values())}")
     print(f"Trials out (main analyses): {len(main_trials)}  (acute-only {len(groups['Acute-only trials'])});"
           " empty values are counted in their own row")
     print(f"Skipped from the main analyses: {withdrawn} (withdrawn, listed separately)")

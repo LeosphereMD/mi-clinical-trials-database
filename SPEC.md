@@ -531,6 +531,22 @@ Added by the project owner on 2026-11-16:
       "tissue plasminogen activator" (NCT03335839) is kept (registry never
       names alteplase). The " or " rule was added to the naming conventions
       ("Registry cleaning", part 1).
+      NCT03404063 "Cardiac Drug" (Wharton's jelly mesenchymal stem cells,
+      CardioCell) → "mesenchymal stem cells (umbilical cord)", the same name
+      as NCT05043610; the old name wrongly added "+ placebo" (placebo is a
+      separate registry intervention). It stays out of `drug_classes` as a
+      non-drug biological.
+37. **matplotlib for charts** (approved by the project owner on 2026-11-17).
+    The allowed libraries are the standard library plus `requests`, `pandas`,
+    `pypdf`, `openpyxl` and `matplotlib` (charts only; CLAUDE.md rule 2 and
+    `requirements.txt` updated). Charts: `scripts/make_figures.py` →
+    `figures/outcome_type_by_phase.png` (primary outcome type by phase) and
+    `figures/quality_checks.png` (where problems were caught: scope 196 → 140
+    trials; paper values from agent and code flags to the owner's 5
+    corrections). Numbers come from the database, `review/manual_exclusions.csv`
+    and two rule-based exclusion counts from the Quality log (23 false MI/ACS
+    matches, 9 cardiogenic shock without MI); the script stops if the scope
+    steps do not add up to the trials in the database.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -1596,6 +1612,8 @@ Section 1 is from 2026-11-15; sections 2 and 3 were added on 2026-11-16.
 Every analysis runs for all trials and for acute-only trials
 (`timing_after_mi` = acute), decision 16. Trials with an empty
 timing_after_mi are counted and reported, not dropped silently.
+
+Charts (decision 37): `scripts/make_figures.py` writes `figures/` (committed).
 
 Withdrawn and terminated trials (owner, 2026-11-17): withdrawn trials
 (`overall_status` = WITHDRAWN; they enrolled no patients) are left out of

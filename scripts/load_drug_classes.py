@@ -26,7 +26,6 @@ NON_DRUG_BIOLOGICALS = {
     "mesenchymal stem cells (allogeneic)",
     "mesenchymal stem cells (umbilical cord)",
     "red blood cell transfusion",
-    "wharton's jelly mesenchymal stem cells (wjmscs) + placebo",  # NCT03404063, name under review
 }
 
 
