@@ -99,10 +99,19 @@ def collect(nct):
     if s1:
         src = f"verifications/{nct}_step1.json"
         for comp in s1.get("comparisons", []):
+            # "outcome" names the primary endpoint when a paper has several (decision 32).
+            outcome = comp.get("outcome") or "primary"
             for key, item in comp.items():
                 if isinstance(item, dict) and "quote" in item:
-                    yield dict(source=src, outcome="primary", field=key, arm="",
+                    yield dict(source=src, outcome=outcome, field=key, arm="",
                                comparison=comp.get("comparison", ""), **pick(item))
+                # Several p-values for one comparison: one entry per hypothesis.
+                elif key == "p_values" and isinstance(item, list):
+                    for p in item:
+                        if isinstance(p, dict) and "quote" in p:
+                            yield dict(source=src, outcome=outcome,
+                                       field=f"p_value ({p.get('hypothesis', '')})", arm="",
+                                       comparison=comp.get("comparison", ""), **pick(p))
     ve = load(f"verifications/{nct}.json")
     if ve:
         src = f"verifications/{nct}.json"

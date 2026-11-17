@@ -138,6 +138,9 @@ Settled by the project owner on 2026-11-14.
    reported". It is never chosen by importance. Also extracted: "total
    randomized" for the whole trial, as stated in the paper (never summed from
    the arms).
+   Worded out on 2026-11-17 (decision 34): several outcomes named key with no
+   order, or tested at the same level (e.g. Hochberg) → the first listed in
+   the paper's text; the verifier checks this rule.
 8. **Finding papers.** Use the PMIDs listed in the registry record, a PubMed
    search by NCT number, or both? What if no paper exists?
    Choice: Both. Use the registry's RESULT references first, then a PubMed search
@@ -333,6 +336,15 @@ Added by the project owner on 2026-11-16:
       PEGASUS, "Canakinumab Dose 150 mg vs Placebo" for CANTOS). Per-arm values
       carry both the arm and the comparison, so an arm shared by several
       comparisons (e.g. placebo) is stored once per comparison.
+    - **Several primary endpoints** (owner, 2026-11-17, after batch run 1:
+      PEGASUS, TAO, CLEAR SYNERGY): each primary endpoint gets its own outcome
+      name as the paper labels it ("primary 1", "primary 2", or the paper's
+      own names, e.g. "co-primary 1"), with the full per-comparison field set
+      for each (and its own definition, components and analysis population).
+      A paper with one primary endpoint keeps outcome "primary". In the
+      verifier's step 1 file, each entry carries `outcome` with the same name.
+      A primary safety endpoint that is a bleeding outcome is stored as
+      "safety: major bleeding" (decision 34), not as a further primary.
     - **New whole-trial fields:** "multiplicity handling" (how the paper
       handled the multiple comparisons, e.g. closed testing, alpha split,
       Bonferroni; with quote and page, or "not reported"); "dropped arm" (one
@@ -356,6 +368,11 @@ Added by the project owner on 2026-11-16:
       by " + ") exists in `arms` for that trial (skipped for the trials listed
       under decision 31); an arm that appears in several comparisons has the
       same N and events for the same outcome in each.
+      Label matching order (owner, 2026-11-17): each side of " vs " (and each
+      `arm`) is first matched whole against the registry arm labels; only if
+      it is not one is it split on " + " and each part matched. A registry
+      label that itself contains " + " (e.g. TAO's "UFH + Eptifibatide") is
+      therefore read as one arm, not as a pooled group.
     - **Review sheet:** wherever a comparison label appears, the drug name and
       dose of each arm (from the arms and interventions tables) are shown next
       to it, e.g. "1 (ticagrelor 90 mg) vs 3 (placebo)". Display only: the
@@ -397,6 +414,35 @@ Added by the project owner on 2026-11-16:
       - `verifications/inputs/<NCT ID>.json` (verifier): paper files and
         PMIDs, the arms (as above), the registry population label and the
         timing label, each with its source.
+34. **Extraction rules after batch run 1** (approved by the project owner on
+    2026-11-17, after the 10-trial batch run; see `checks/batch_summary.md`).
+    - **Key secondary check:** the verifier checks the decision 7 selection
+      rule; a wrong selection (or a wrong "not reported") is WRONG, reason
+      "key secondary rule".
+    - **Reason for early termination:** extracted whenever the paper reports
+      that the trial stopped early, whatever the registry status or the
+      agent input says (changes "Reason for early termination from the
+      paper"). A disagreement with the registry is recorded in the Quality
+      log; the registry status is not changed (it is the snapshot).
+    - **Total randomized:** "total randomized" and the per-arm "N randomized"
+      are the numbers the paper calls randomized. Numbers after exclusions
+      (e.g. patients randomized in error, an excluded site) go in "N
+      analysed".
+    - **Major bleeding:** "safety: major bleeding" is the bleeding outcome the
+      paper names as its primary safety endpoint, with its definition. If the
+      paper names none, the outcome it calls major bleeding; if neither, "not
+      reported".
+    - **Post hoc results** are never the primary result.
+    - **Several p-values for one comparison** (e.g. non-inferiority and
+      superiority) are each stored, labelled by hypothesis ("p-value
+      (non-inferiority)", "p-value (superiority)"), the paper's primary
+      hypothesis first. In the verifier's step 1 file they go in `p_values`
+      (one entry per hypothesis).
+    - **Verifier step 2:** a value that breaks one of these rules is WRONG,
+      with the rule as the reason ("total randomized rule", "post hoc rule",
+      "major bleeding rule", "p-value rule", "primary endpoints rule").
+    - **Human review stays at 100%** (decision 28): every extracted value goes
+      on the review sheet.
 
 ## Database design
 Approved by the project owner on 2026-11-14. It extends decision 12 with `arms`
@@ -891,9 +937,11 @@ correction where one exists.
 ## Reason for early termination from the paper (Phase 3)
 Added on 2026-11-15. It is built in Phase 3, together with the extractor and
 verifier.
-- New extraction field "reason for early termination", for terminated trials
-  only. It is extracted like every other value, with an exact quote and page,
-  and stored as a whole-trial value in `extracted_values`.
+- New extraction field "reason for early termination", extracted whenever the
+  paper reports that the trial stopped early, whatever the registry status
+  says (decision 34, 2026-11-17; before that: terminated trials only). It is
+  extracted like every other value, with an exact quote and page, and stored
+  as a whole-trial value in `extracted_values`.
 - Code compares it with the trial's approved why_stopped category. A
   disagreement flags the value, so it goes on the project owner's review
   sheet with:
@@ -976,7 +1024,9 @@ its stated page).
 - Comparison checks (decision 32): every primary comparison has a complete
   set of fields; every part of a comparison label exists in `arms` (skipped
   for the factorial trials of decision 31); an arm shared by several
-  comparisons has the same N and events for the same outcome in each.
+  comparisons has the same N and events for the same outcome in each. Each
+  label is first matched whole against the registry arm labels, and only
+  then split on " + " (decision 32, 2026-11-17).
 - Allowed files (owner, 2026-11-16): each agent output's `files_read` lists
   only that agent's allowed paths (outcome-checker: `papers/<NCT ID>*.pdf`,
   `outcome_checks/inputs/<NCT ID>.json`; extractor: `papers/<NCT ID>*.pdf`,
@@ -1043,6 +1093,15 @@ Summary of 2026-11-16: 35 trials excluded in one run (196 → 161; Phase 3
 added). The owner's reviewed `review/outcome_types.csv` was copied to
 `review/archive/outcome_types_reviewed_20261116.csv` before its excluded rows
 were removed.
+
+### 2026-11-17: LIBREXIA-ACS (NCT05754957) registry status vs paper
+The registry snapshot (downloaded 2026-11-15) lists the trial as COMPLETED,
+with no why_stopped, so the agent input said "not terminated". The main paper
+(PMID 42670965) reports that the trial was stopped early for futility after
+the planned interim analysis. Found in batch run 1, when the extractor left
+out "reason for early termination" because the input said not terminated.
+Under decision 34 the field is now extracted from the paper. The registry
+status is not changed: it is the snapshot.
 
 ### 2026-11-16: quote check (`scripts/check_quotes.py`) on EMPACT-MI
 The first version of the quote check failed 12 correct quotes because of

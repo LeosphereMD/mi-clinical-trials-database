@@ -47,6 +47,17 @@ effect value, 95% CI (lower and upper), p-value; each with value, quote, file an
   the abstract, using the most exact value printed there (e.g. P=0.02075 rather than
   P=0.021). Use the abstract only if the value appears nowhere else, and then say so in
   `quote_note` ("only in abstract").
+- The primary result is the analysis the paper names as primary. A post hoc analysis is
+  never the primary result, even if the abstract or a table shows it first.
+- Several primary endpoints (decision 32): one entry per comparison AND per primary
+  endpoint, with `outcome` = the primary outcome name as the paper labels it ("primary 1",
+  "primary 2", or the paper's own names, e.g. "co-primary 1"). One primary endpoint:
+  `outcome` "primary". A primary safety bleeding endpoint is not a primary endpoint here.
+- Total randomized is the number the paper calls randomized, never a number after
+  exclusions (that is "N analysed").
+- Several p-values for one comparison (e.g. non-inferiority and superiority): give
+  `p_values`, a list with one entry per hypothesis (`hypothesis`, value, quote, file,
+  page, quote_note), the paper's primary hypothesis first, instead of `p_value`.
 WRITE `verifications/<NCT ID>_step1.json` now. Never rewrite or edit that file afterwards.
 Only then open `extractions/<NCT ID>.json` (if it is missing: STOP and report it).
 
@@ -72,6 +83,22 @@ For each value in `extractions/<NCT ID>.json` give one verdict and a one-line re
 - An effect value, 95% CI or p-value taken from the abstract when the Results section or a
   results table prints it: WRONG, reason "not from results", with the Results value (the
   most exact one printed) as verifier_value.
+- Key secondary selection (decision 7): the key secondary outcome is the one the paper
+  calls key / major / principal secondary. If there are several, or the paper gives a
+  hierarchical testing order, it is the FIRST in that order; several named with no order,
+  or tested at the same level (e.g. Hochberg): the FIRST listed in the paper's text. If the
+  paper calls no secondary outcome key / major / principal and gives no testing order:
+  "not reported". It is never chosen by importance. A selection (or a "not reported") that
+  breaks this rule: WRONG, reason "key secondary rule", with the correct selection.
+- Extraction rules: a value that breaks one of these is WRONG, with the rule as reason:
+  "total randomized rule" (total randomized / N randomized must be the number the paper
+  calls randomized; numbers after exclusions belong in N analysed); "post hoc rule" (a
+  post hoc result stored as the primary result); "major bleeding rule" ("safety: major
+  bleeding" must be the bleeding outcome the paper names as primary safety endpoint, or,
+  if none, the one it calls major bleeding); "p-value rule" (several p-values for one
+  comparison must each be stored as "p-value (<hypothesis>)", the paper's primary
+  hypothesis first); "primary endpoints rule" (several primary endpoints must each have
+  their own outcome name and full field set).
 Also flag a per-comparison value calculated from pooled data (or the reverse).
 
 ## Step 3: population and timing
@@ -95,11 +122,13 @@ Also flag a per-comparison value calculated from pooled data (or the reverse).
 {
   "nct_id": "...", "agent": "verifier", "step": 1,
   "files_read": [{"file": "papers/...pdf", "pages": "1-10"}],
-  "comparisons": [{"pmid": "...", "comparison": "...",
+  "comparisons": [{"pmid": "...", "comparison": "...", "outcome": "primary",
     "total_randomized": {"value": "...", "quote": "...", "file": "...", "page": 0,
                          "quote_note": ""},
     "effect_measure": {...}, "effect_value": {...}, "ci_lower": {...},
     "ci_upper": {...}, "p_value": {...}}]
+  (with several p-values: "p_values": [{"hypothesis": "non-inferiority", "value": "...",
+   "quote": "...", "file": "...", "page": 0, "quote_note": ""}, ...] instead of "p_value")
 }
 
 ## Output 2: `verifications/<NCT ID>.json` (steps 2 and 3)
